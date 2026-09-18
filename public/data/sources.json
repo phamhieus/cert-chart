@@ -4,20 +4,30 @@
     "name": "Vendor certification pages",
     "type": "certification-body",
     "url": "",
-    "records": 6,
-    "lastCrawledAt": "2026-09-18T07:18:17.128Z",
-    "lastCrawlStartedAt": "2026-09-18T07:13:39.658Z",
-    "lastCrawlDurationMs": 277470
+    "records": 4,
+    "lastCrawledAt": "2026-09-18T08:50:14.175Z",
+    "lastCrawlStartedAt": "2026-09-18T08:45:03.417Z",
+    "lastCrawlDurationMs": 310758
   },
   {
     "id": "daynhauhoc",
     "name": "Dạy Nhau Học",
     "type": "community",
     "url": "https://daynhauhoc.com",
-    "records": 1,
-    "lastCrawledAt": "2026-09-18T06:56:09.405Z",
-    "lastCrawlStartedAt": "2026-09-18T06:55:42.084Z",
-    "lastCrawlDurationMs": 27321
+    "records": 5,
+    "lastCrawledAt": "2026-09-18T08:36:11.957Z",
+    "lastCrawlStartedAt": "2026-09-18T08:29:41.309Z",
+    "lastCrawlDurationMs": 390648
+  },
+  {
+    "id": "devto",
+    "name": "DEV Community",
+    "type": "community",
+    "url": "https://dev.to",
+    "records": 34,
+    "lastCrawledAt": "2026-09-18T08:29:05.742Z",
+    "lastCrawlStartedAt": "2026-09-18T08:27:47.687Z",
+    "lastCrawlDurationMs": 78055
   },
   {
     "id": "github",
@@ -30,6 +40,16 @@
     "lastCrawlDurationMs": 434001
   },
   {
+    "id": "hackernews",
+    "name": "Hacker News",
+    "type": "community",
+    "url": "https://news.ycombinator.com",
+    "records": 523,
+    "lastCrawledAt": "2026-09-18T08:53:10.530Z",
+    "lastCrawlStartedAt": "2026-09-18T08:51:56.093Z",
+    "lastCrawlDurationMs": 74437
+  },
+  {
     "id": "reddit",
     "name": "Reddit",
     "type": "community",
@@ -39,6 +59,16 @@
     "lastCrawlStartedAt": "2026-09-18T05:40:45.493Z",
     "lastCrawlDurationMs": 0,
     "notes": "Needs REDDIT_CLIENT_ID and REDDIT_CLIENT_SECRET (robots.txt forbids scraping)"
+  },
+  {
+    "id": "stackexchange",
+    "name": "Stack Exchange",
+    "type": "community",
+    "url": "https://stackexchange.com",
+    "records": 8,
+    "lastCrawledAt": "2026-09-18T08:43:36.856Z",
+    "lastCrawlStartedAt": "2026-09-18T08:41:45.372Z",
+    "lastCrawlDurationMs": 111484
   },
   {
     "id": "stackoverflow",
@@ -76,10 +106,10 @@
     "name": "Zenn",
     "type": "community",
     "url": "https://zenn.dev",
-    "records": 151,
-    "lastCrawledAt": "2026-09-18T06:57:25.336Z",
-    "lastCrawlStartedAt": "2026-09-18T06:56:10.429Z",
-    "lastCrawlDurationMs": 74907
+    "records": 461,
+    "lastCrawledAt": "2026-09-18T08:41:45.372Z",
+    "lastCrawlStartedAt": "2026-09-18T08:36:11.957Z",
+    "lastCrawlDurationMs": 333415
   },
   {
     "id": "coursera",

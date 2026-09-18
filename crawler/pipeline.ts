@@ -1,12 +1,17 @@
 import type { CommunityPost, Course, DataSource, HolderReport, Job } from '../src/types';
 import { aggregate } from './aggregate/index';
-import { dayNhauHocCrawler } from './communities/daynhauhoc';
+import { dayNhauHocCrawler } from './communities/daynhauhoc/index';
+import { devToCrawler } from './communities/devto';
 import { gitHubCrawler } from './communities/github';
+import { hackerNewsCrawler } from './communities/hackernews';
 import { redditCrawler } from './communities/reddit';
-import { stackOverflowCrawler } from './communities/stackoverflow';
+import {
+  stackExchangeCrawler,
+  stackOverflowCrawler,
+} from './communities/stackexchange/index';
 import { vibloCrawler } from './communities/viblo';
 import { vozCrawler } from './communities/voz';
-import { zennCrawler } from './communities/zenn';
+import { zennCrawler } from './communities/zenn/index';
 import { CRAWL_CONFIG } from './config';
 import { courseraCrawler } from './courses/coursera';
 import { officialCoursesCrawler } from './courses/official';
@@ -41,14 +46,19 @@ const JOB_CRAWLERS = [
   arbeitnowCrawler,
   linkedInCrawler,
 ];
+// Vietnam first, then the regional and global sources: a failure late in the
+// list still leaves the primary market crawled.
 const COMMUNITY_CRAWLERS = [
   dayNhauHocCrawler,
   vibloCrawler,
+  vozCrawler,
   zennCrawler,
   stackOverflowCrawler,
+  stackExchangeCrawler,
   gitHubCrawler,
+  hackerNewsCrawler,
+  devToCrawler,
   redditCrawler,
-  vozCrawler,
 ];
 const COURSE_CRAWLERS = [
   officialCoursesCrawler,
@@ -192,8 +202,10 @@ export async function runCrawl(options: RunCrawlOptions = {}): Promise<CrawlProg
             : crawler.type === 'certification-body'
               ? DATA_FILES.holders
               : DATA_FILES.courses;
-      const merged = mergeById(readRecords<{ id: string }>(file), records as Array<{ id: string }>);
-      writeRecords(file, merged);
+      const stored = crawler.replaces
+        ? (records as Array<{ id: string }>)
+        : mergeById(readRecords<{ id: string }>(file), records as Array<{ id: string }>);
+      writeRecords(file, stored);
 
       progress.outcomes.push({
         id: crawler.id,
@@ -206,7 +218,7 @@ export async function runCrawl(options: RunCrawlOptions = {}): Promise<CrawlProg
       });
       const elapsed = Date.now() - startedAtMs;
       log(
-        `${crawler.name}: stored ${records.length} records (${merged.length} total in file) in ${(elapsed / 1000).toFixed(1)}s`,
+        `${crawler.name}: stored ${records.length} records (${stored.length} total in file) in ${(elapsed / 1000).toFixed(1)}s`,
       );
     } catch (error) {
       const message = error instanceof Error ? error.message : String(error);

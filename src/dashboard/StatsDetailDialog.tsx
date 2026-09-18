@@ -1,7 +1,7 @@
 import { ExternalLink } from 'lucide-react';
 import { useMemo, useState } from 'react';
 import { Badge } from '../components/Badge';
-import { Modal, ModalDescription, ModalTitle } from '../components/Modal';
+import { Drawer, DrawerDescription, DrawerTitle } from '../components/Drawer';
 import { SearchInput } from '../components/SearchInput';
 import { VirtualList } from '../components/VirtualList';
 import type { RankingRecords } from '../hooks/useRankings';
@@ -23,6 +23,8 @@ interface StatsDetailDialogProps {
   rows: RankedCertification[];
   records: RankingRecords;
   scopeLabel: string;
+  /** Community ignores the region filter, so it carries its own scope line. */
+  communityScopeLabel: string;
   onOpenCertification: (id: string, tab: ModalTab) => void;
 }
 
@@ -74,6 +76,7 @@ export function StatsDetailDialog({
   rows,
   records,
   scopeLabel,
+  communityScopeLabel,
   onOpenCertification,
 }: StatsDetailDialogProps) {
   const [query, setQuery] = useState('');
@@ -117,12 +120,12 @@ export function StatsDetailDialog({
   if (!kind) return null;
 
   return (
-    <Modal open onOpenChange={onOpenChange} label={TITLES[kind]} size="lg">
+    <Drawer open onOpenChange={onOpenChange} label={TITLES[kind]} width="lg">
       <header className="border-b border-line px-5 py-4 pr-12">
-        <ModalTitle className="text-sm font-semibold text-ink">{TITLES[kind]}</ModalTitle>
-        <ModalDescription className="mt-0.5 text-xs text-muted">
-          {subtitle} · {scopeLabel}
-        </ModalDescription>
+        <DrawerTitle className="text-sm font-semibold text-ink">{TITLES[kind]}</DrawerTitle>
+        <DrawerDescription className="mt-0.5 text-xs text-muted">
+          {subtitle} · {kind === 'community' ? communityScopeLabel : scopeLabel}
+        </DrawerDescription>
         <div className="mt-3">
           <SearchInput value={query} onChange={setQuery} placeholder="Filter this list…" />
         </div>
@@ -237,6 +240,6 @@ export function StatsDetailDialog({
           )}
         />
       ) : null}
-    </Modal>
+    </Drawer>
   );
 }

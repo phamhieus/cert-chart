@@ -80,9 +80,10 @@ export function CertificationDialog({
     [dataset.jobs, certificationId, region, period, now],
   );
 
+  // No region here: community records carry no reliable author location.
   const posts = useMemo(
-    () => filterCommunity(dataset.community, { certificationId, region, period, now }),
-    [dataset.community, certificationId, region, period, now],
+    () => filterCommunity(dataset.community, { certificationId, period, now }),
+    [dataset.community, certificationId, period, now],
   );
 
   const courses = useMemo(

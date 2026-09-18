@@ -4,77 +4,55 @@
     "certificationId": null,
     "vendor": "EC-Council",
     "holders": 4000000,
+    "counts": "people",
     "scope": "vendor",
     "statement": "Trusted by 4 Million Certified Learners Worldwide",
     "source": {
       "name": "EC-Council",
       "url": "https://www.eccouncil.org/train-certify/certified-ethical-hacker-ceh/"
     },
-    "crawledAt": "2026-09-18T06:22:57.888Z"
+    "crawledAt": "2026-09-18T08:43:48.992Z"
   },
   {
     "id": "holders_aws",
     "certificationId": null,
     "vendor": "AWS",
-    "holders": 1420000,
+    "holders": 1050000,
+    "counts": "people",
     "scope": "vendor",
     "statement": "As of January 2025, there are more than 1.42 million active AWS Certifications and 1.05 million unique AWS Certified individuals.",
     "source": {
       "name": "AWS",
       "url": "https://aws.amazon.com/certification/"
     },
-    "crawledAt": "2026-09-18T06:22:57.888Z"
-  },
-  {
-    "id": "holders_microsoft",
-    "certificationId": null,
-    "vendor": "Microsoft",
-    "holders": 2025,
-    "scope": "vendor",
-    "statement": "Pearson VUE, 2025 Value of IT Certification Candidate Report",
-    "source": {
-      "name": "Microsoft",
-      "url": "https://learn.microsoft.com/en-us/credentials/"
-    },
-    "crawledAt": "2026-09-18T06:22:57.888Z"
+    "crawledAt": "2026-09-18T08:43:48.992Z"
   },
   {
     "id": "holders_cisco",
     "certificationId": null,
     "vendor": "Cisco",
     "holders": 4000000,
+    "counts": "certifications",
     "scope": "vendor",
     "statement": "We’ve issued more than 4 million certifications so far.",
     "source": {
       "name": "Cisco",
       "url": "https://www.cisco.com/site/us/en/learn/training-certifications/certifications/index.html"
     },
-    "crawledAt": "2026-09-18T06:22:57.888Z"
+    "crawledAt": "2026-09-18T08:43:48.992Z"
   },
   {
     "id": "holders_isc2",
     "certificationId": null,
     "vendor": "ISC2",
     "holders": 270000,
+    "counts": "people",
     "scope": "vendor",
     "statement": "Our more than 270,000 certified members, and associates lead the profession with the same shared vision.",
     "source": {
       "name": "ISC2",
       "url": "https://www.isc2.org/about"
     },
-    "crawledAt": "2026-09-18T06:22:57.888Z"
-  },
-  {
-    "id": "holders_hashicorp",
-    "certificationId": null,
-    "vendor": "HashiCorp",
-    "holders": 6000000,
-    "scope": "vendor",
-    "statement": "You can take your recertification exam up to 6 months before your certification expires.",
-    "source": {
-      "name": "HashiCorp",
-      "url": "https://developer.hashicorp.com/certifications"
-    },
-    "crawledAt": "2026-09-18T06:22:57.888Z"
+    "crawledAt": "2026-09-18T08:43:48.992Z"
   }
 ]

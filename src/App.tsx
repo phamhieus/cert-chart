@@ -87,7 +87,11 @@ export default function App() {
     );
   }
 
-  const scopeLabel = `${regionLabel(effectiveFilters.region)} · ${PERIOD_LABELS[effectiveFilters.period]}`;
+  const periodLabel = PERIOD_LABELS[effectiveFilters.period];
+  const scopeLabel = `${regionLabel(effectiveFilters.region)} · ${periodLabel}`;
+  // Forum threads and repositories state no author location, so the region
+  // filter never applies to them — see filterCommunity.
+  const communityScopeLabel = `All markets · ${periodLabel}`;
 
   return (
     <div className="min-h-[100dvh]">
@@ -191,6 +195,7 @@ export default function App() {
         rows={rows}
         records={records}
         scopeLabel={scopeLabel}
+        communityScopeLabel={communityScopeLabel}
         onOpenCertification={(id, tab) => {
           setStatsDetail(null);
           openCertification(id, tab);

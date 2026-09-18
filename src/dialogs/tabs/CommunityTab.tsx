@@ -74,7 +74,7 @@ function PostCard({ post }: { post: CommunityPost }) {
 
 interface CommunityTabProps {
   certificationId: string;
-  /** Posts already narrowed by the modal's region and period filters. */
+  /** Posts already narrowed by the modal's period filter. */
   posts: CommunityPost[];
   now: Date;
 }
@@ -93,13 +93,9 @@ export function CommunityTab({ certificationId, posts, now }: CommunityTabProps)
 
   const visible = useMemo(() => {
     const value = SORT_VALUE[sort];
-    return filterCommunity(posts, {
-      certificationId,
-      region: 'all',
-      period: 'all',
-      source,
-      now,
-    }).sort((a, b) => value(b) - value(a));
+    return filterCommunity(posts, { certificationId, period: 'all', source, now }).sort(
+      (a, b) => value(b) - value(a),
+    );
   }, [posts, certificationId, source, sort, now]);
 
   const totals = useMemo(
@@ -115,6 +111,9 @@ export function CommunityTab({ certificationId, posts, now }: CommunityTabProps)
       <div className="flex flex-wrap items-center gap-2 border-b border-line px-4 py-2.5">
         <Select value={source} options={sourceOptions} onChange={setSource} ariaLabel="Community source" />
         <Select value={sort} options={SORT_OPTIONS} onChange={setSort} ariaLabel="Sort discussions" />
+        <span className="text-2xs text-faint" title="Community records carry no author location, so the region filter does not apply to them">
+          all markets
+        </span>
         <span className="num ml-auto text-2xs text-faint">
           {formatNumber(visible.length)} threads · {formatCompact(totals.mentions)} mentions ·{' '}
           {formatCompact(totals.comments)} comments
@@ -130,7 +129,7 @@ export function CommunityTab({ certificationId, posts, now }: CommunityTabProps)
           <EmptyState
             icon={<MessagesSquare size={18} />}
             title="No discussion matches these filters"
-            description="Community records only carry a region when the source states one — try the region filter set to all markets."
+            description="Try a different source or widen the period — community records are never narrowed by region."
           />
         }
       />

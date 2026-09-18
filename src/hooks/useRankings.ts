@@ -50,11 +50,7 @@ export function useRankings(dataset: Dataset | null, filters: DashboardFilters):
     const rankings = buildRankings({
       certifications: dataset.certifications,
       jobs: filterJobs(dataset.jobs, { region: filters.region, period: filters.period, now }),
-      community: filterCommunity(dataset.community, {
-        region: filters.region,
-        period: filters.period,
-        now,
-      }),
+      community: filterCommunity(dataset.community, { period: filters.period, now }),
       courses: filterCourses(dataset.courses, { region: filters.region }),
       // Holder counts are a global published total, not a per-market figure, so
       // they survive a region or period filter unchanged. Dropping them here
@@ -67,18 +63,15 @@ export function useRankings(dataset: Dataset | null, filters: DashboardFilters):
     return rankCertifications(rankings, dataset.certificationsById);
   }, [dataset, recomputed, filters.region, filters.period]);
 
-  // Always narrowed by region and period, whether or not scores were recomputed,
-  // so the evidence lists agree with the numbers on the tiles.
+  // Always narrowed by the same filters the scores used, so the evidence lists
+  // agree with the numbers on the tiles. Community records skip the region
+  // filter on purpose — see filterCommunity.
   const scoped = useMemo<RankingRecords>(() => {
     if (!dataset) return { jobs: [], community: [], courses: [] };
     const now = dataset.datasetNow;
     return {
       jobs: filterJobs(dataset.jobs, { region: filters.region, period: filters.period, now }),
-      community: filterCommunity(dataset.community, {
-        region: filters.region,
-        period: filters.period,
-        now,
-      }),
+      community: filterCommunity(dataset.community, { period: filters.period, now }),
       courses: filterCourses(dataset.courses, { region: filters.region }),
     };
   }, [dataset, filters.region, filters.period]);

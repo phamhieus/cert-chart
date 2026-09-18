@@ -18,6 +18,9 @@ export function stripHtml(html: string): string {
     .replace(/&lt;/gi, '<')
     .replace(/&gt;/gi, '>')
     .replace(/&#(\d+);/g, (_, code: string) => String.fromCodePoint(Number(code)))
+    // Hex entities too: Hacker News writes &#x2F; and &#x27; throughout, and an
+    // undecoded one lands verbatim in a stored title.
+    .replace(/&#x([0-9a-f]+);/gi, (_, code: string) => String.fromCodePoint(Number.parseInt(code, 16)))
     .replace(/[ \t]+/g, ' ')
     .replace(/\n{3,}/g, '\n\n')
     .trim();

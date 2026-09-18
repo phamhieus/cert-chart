@@ -93,6 +93,10 @@ export const vendorHoldersCrawler: HolderCrawler = {
   name: 'Vendor certification pages',
   url: '',
   type: 'certification-body',
+  // Every vendor page is re-read each run, so the run is the whole truth. A
+  // number that can no longer be found on the vendor's own page stops being
+  // shown rather than lingering from an earlier, looser pass.
+  replaces: true,
 
   isEnabled: (config) => config.sources.vendorHolders.enabled,
 
@@ -159,6 +163,11 @@ export const vendorHoldersCrawler: HolderCrawler = {
         }
       }
     }
+
+    // This crawler replaces the file, so an empty result wipes it. Reading no
+    // page at all is a broken run, not a world without published figures —
+    // failing here leaves the previous figures in place.
+    if (read === 0) throw new Error(`no vendor page was readable (${targets.size} tried)`);
 
     const perCert = [...reports.values()].filter((r) => r.scope === 'certification').length;
     log(

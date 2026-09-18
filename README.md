@@ -52,23 +52,87 @@ A static deployment (S3, Pages) has no API — run `npm run crawl` before deploy
 | `npm run aggregate` | Rebuild `rankings.json` from stored records |
 | `npm run typecheck` | `tsc -b` across app and crawler |
 
+## Certifications tracked
+
+Twenty certifications are registered in one place — `crawler/dictionary/certifications.ts`. No
+crawler matches free text on its own: they all resolve it against each entry's **aliases**, so
+`AZ104`, `AZ-104` and `Azure Administrator Associate` land on the same certification.
+
+| Category | Certifications |
+| --- | --- |
+| Cloud | AWS SAA (SAA-C03), AWS CCP (CLF-C02), AZ-104, AZ-900, Google Cloud ACE |
+| DevOps | AWS DevOps Pro (DOP-C02), HashiCorp Terraform Associate |
+| Kubernetes | CKA, CKAD (Linux Foundation / CNCF) |
+| Networking | CCNA (200-301), CCNP Enterprise (350-401) |
+| Cybersecurity | CISSP, CompTIA Security+ (SY0-701), CEH (312-50) |
+| Data & AI | DP-203, AI-102 |
+| Software & Database | Oracle OCP Java 17 (1Z0-829), Oracle DBA 19c (1Z0-083) |
+| Project management | PMP, PSM I |
+
+Every entry carries its `vendor`, exam `code`, `level` (Foundational → Associate → Professional →
+Expert), `aliases` and the `officialUrl` that the course and holder-count crawlers start from.
+Adding a certification is one object in that file — every crawler picks it up on the next run.
+
 ## Sources
 
-Toggle sources in `crawler/config.ts`. Every source honours `robots.txt` (RFC 9309 parser in
-`crawler/util/http.ts`), sends a descriptive user-agent and is rate limited by
-`CRAWL_CONFIG.requestDelayMs`.
+Each source is a small module under `crawler/jobs/`, `crawler/communities/` or `crawler/courses/`,
+switched on or off in `crawler/config.ts`. All of them honour `robots.txt` (RFC 9309 parser in
+`crawler/util/http.ts`: `*` and `$` wildcards, longest match wins, matched against path *and* query
+string), send a descriptive user-agent, and are rate limited by `CRAWL_CONFIG.requestDelayMs`.
+Sources reached through an authorised API with credentials — Reddit and Udemy — call `fetch`
+directly, because a key issued by the site is permission, not crawling.
 
-- **Jobs** — ITviec, Vieclam24h (VN) · MyCareersFuture (SG) · TokyoDev (JP) · We Work Remotely,
-  Remote OK, Remotive, Arbeitnow (global/EU).
-- **Community** — Dạy Nhau Học, Viblo (VN) · Zenn (JP) · Stack Overflow, GitHub (global).
-- **Courses** — official vendor training, Coursera, Vietnamese training centres (VnPro, Robusta,
-  Athena, VTI Academy).
-- **Holder counts** — vendor certification pages.
+| Source | Market | Type | Default | Notes |
+| --- | --- | --- | --- | --- |
+| ITviec | Vietnam | Jobs | on | Detail pages publish schema.org `JobPosting`; capped by `sources.itviec.maxRequests` |
+| TopCV | Vietnam | Jobs | needs browser | Cloudflare-gated end to end — drives Playwright |
+| CareerViet | Vietnam | Jobs | needs browser | Result list is client-side (its API is disallowed); detail pages go over plain HTTP |
+| Vieclam24h | Vietnam | Jobs | on | `?q=` URLs are disallowed, so postings come from the sitemap, filtered to IT occupations by slug |
+| MyCareersFuture | Singapore | Jobs | on | Government portal, public search API |
+| TokyoDev | Japan | Jobs | on | English-language board for roles in Japan; sitemap → schema.org `JobPosting` |
+| We Work Remotely | Global | Jobs | on | Public RSS category feeds |
+| Remote OK | Global | Jobs | on | Whole board as one JSON document; its terms require a followed link back to each posting |
+| Remotive | Global | Jobs | on | Public API, queried per certification |
+| Arbeitnow | Europe | Jobs | on | Public API, paged |
+| LinkedIn | — | Jobs | never | `robots.txt` prohibits automated access outright; listed so the gap is visible |
+| Dạy Nhau Học | Vietnam | Community | on | Discourse `latest.json?order=created` (search is disallowed); threads whose title names nothing are opened and read |
+| Viblo | Vietnam | Community | on | Public "newest posts" RSS; coverage builds up run by run |
+| Zenn | Japan | Community | on | Keyword search over article text (`/api/search`), then topic listings; bodies fetched to confirm a silent title |
+| Stack Overflow | Global | Community | on | `/search/excerpts` proves the certification is named, `/questions` supplies views and answers; `STACK_APP_KEY` only raises the quota |
+| Stack Exchange | Global | Community | on | Server Fault, Information Security and DevOps — same API and daily quota as Stack Overflow |
+| GitHub | Global | Community | on | REST search API; `GITHUB_TOKEN` raises the limit from 10 to 30 calls/minute |
+| Hacker News | Global | Community | on | Public Algolia index behind HN's own search box — full text across stories **and** comments, no key |
+| DEV Community | Global | Community | on | Forem tag listings (its search endpoint is disallowed); the article's own title and summary decide what counts |
+| Reddit | all | Community | needs keys | `robots.txt` forbids scraping — `REDDIT_CLIENT_ID` / `REDDIT_CLIENT_SECRET` switch on the official API |
+| VOZ | Vietnam | Community | off | Behind a Cloudflare challenge; enable it via `crawler/util/browser.ts` |
+| Official vendor training | — | Courses | on | Learning path per certification, link-checked each run |
+| Coursera | Global | Courses | on | `/api/` and `/search` are disallowed; discovery runs off the sitemaps and reads each page's `Course` data |
+| Udemy | Global | Courses | needs keys | robots.txt blocks `/api-2.0/` and query-string URLs — `UDEMY_CLIENT_ID` / `UDEMY_CLIENT_SECRET` switch on the Affiliate API |
+| Vietnamese training centres | Vietnam | Courses | on | VnPro, Robusta, Athena, VTI Academy — listed by hand; each course page is fetched to confirm it resolves |
+| Vendor certification pages | — | Holder counts | on | Certified-population figures read off the vendors' own pages |
 
-Needs setup: **TopCV** and **CareerViet** are Cloudflare-gated and drive Playwright
-(`npx playwright install chromium`). **Reddit** and **Udemy** need API credentials
-(`REDDIT_CLIENT_ID`/`SECRET`, `UDEMY_CLIENT_ID`/`SECRET`). **VOZ** is off by default. **LinkedIn**
-is never crawled — its `robots.txt` prohibits it outright.
+### Credentials
+
+Copy `.env.example` to `.env` and fill in what you have — `crawler/util/env.ts` loads it for the CLI,
+the standalone server and the Vite plugin alike, and anything already exported in the shell wins over
+the file. Every variable is optional; a source without its credential is skipped and says why in the
+**Data sources** dialog.
+
+| Variable | Effect | Where to get it |
+| --- | --- | --- |
+| `REDDIT_CLIENT_ID` / `REDDIT_CLIENT_SECRET` | Switches Reddit on — `robots.txt` forbids crawling it, so the API is the only route | [reddit.com/prefs/apps](https://www.reddit.com/prefs/apps) → "create another app...", type **script**, redirect uri `http://localhost:8080`. Free, instant. The id is the string under the app name |
+| `UDEMY_CLIENT_ID` / `UDEMY_CLIENT_SECRET` | Switches Udemy on — `/api-2.0/` is disallowed, so the Affiliate API is the only route | Apply at [udemy.com/affiliate](https://www.udemy.com/affiliate/), then request a client at [API clients](https://www.udemy.com/user/edit-api-clients/). Manual review, and not always granted |
+| `STACK_APP_KEY` | Raises the Stack Exchange quota from 300 to 10,000 calls/day, shared by both Stack crawlers | [stackapps.com/apps/oauth/register](https://stackapps.com/apps/oauth/register). Free, instant, no review — use the **key**, not the client id |
+| `GITHUB_TOKEN` | Raises GitHub search from 10 to 30 calls/minute | [github.com/settings/personal-access-tokens](https://github.com/settings/personal-access-tokens). Public repository search needs **no scopes** |
+
+**VOZ needs no credential** — it sits behind a Cloudflare challenge, so it needs a real browser
+(`crawler/util/browser.ts`) plus `enabled: true` and some `forumUrls` in `crawler/config.ts`.
+
+**Two sources need a real browser.** TopCV and CareerViet render behind a Cloudflare challenge that
+no plain HTTP client can clear. `npm install` pulls in Playwright; `npx playwright install chromium`
+downloads the browser, and both are skipped with a setup hint until then. The browser sends a Chrome
+user-agent to pass the bot check — `robots.txt` allows those paths and every navigation is still
+checked against it.
 
 Gaps stay visible rather than filled in: unpublished prices stay `null`, unpublished holder counts
 stay absent, and the **Data sources** dialog shows each source's last crawl time, duration, record
@@ -77,11 +141,34 @@ count and skip/failure reason.
 **Holder counts are programme-wide, not per-exam.** `crawler/holders/vendorPages.ts` keeps a figure
 only when the sentence carrying it names the certification, records whether it counts people or
 credentials issued, and filters out pledges (Cisco's "10 million over 30 years"). A certification
-with no published figure gets a null holder score, and its 20% weight is redistributed.
+with no published figure gets a null holder score, and its 20% weight is redistributed. In practice
+**no vendor publishes a per-exam population** — AWS states 1.05 million AWS Certified individuals
+across every exam it runs, and Credly's badge pages no longer print earner counts (its API needs
+credentials) — so the holder column is empty by design rather than by omission.
+
+**Holder figures replace, they do not accumulate.** Every other source merges by record id, because
+postings and threads pile up over time. `vendor-holders` re-reads every vendor page on each run, so
+the run is the whole truth: its crawler sets `replaces: true` (`crawler/types.ts`) and the pipeline
+writes its output over the file. Merging stranded figures that a later, stricter pass had already
+rejected — a rejection produces no record to overwrite the old one with, so a misread year survived
+three rounds of matcher fixes.
+
+**A mention is a keyword, not a tag.** Every community record is counted by
+`countCertificationMentions` over the text a human wrote — a title, a post body, a comment, a repo
+description. Tags and topics are a way to *find* candidates on the sources whose search endpoints are
+disallowed (DEV, and Zenn's second pass), never evidence in themselves: an article tagged `aws` that
+never names an exam contributes nothing. Where a source exposes full-text search — Zenn, Hacker News,
+Stack Exchange, Reddit — the crawler searches each certification's aliases directly, and when a hit's
+title is silent it reads the body before believing the ranking.
 
 **History** — `CRAWL_CONFIG.historyYears` (3) bounds how far community sources reach; job boards
 only publish live postings. Trend series are 36 months (`TREND_MONTHS`), while `growth12m` stays a
 12-month measure.
+
+**Caps** — every source's `maxRecords` is 200,000, so it is never the binding limit. What actually
+bounds a run is the per-source discovery budget: `maxRequests` (ITviec, GitHub), `pages` /
+`pagesPerTerm` / `pagesPerTag`, `maxDetailPages` and `maxTopicBodies`. Those are the knobs to turn
+for a deeper sweep, and the ones that decide how long a crawl takes.
 
 ### Adding a source
 
@@ -93,12 +180,15 @@ only publish live postings. Trend series are 36 months (`TREND_MONTHS`), while `
 
 ## Data conventions
 
-- `certifications.json` is the curated dictionary — aliases are what crawlers match against, so
-  `AZ104`, `AZ-104` and `Azure Administrator Associate` resolve to one certification.
 - **Timestamps are instants.** `crawledAt`, `lastChecked`, `lastCrawledAt` are ISO-8601 UTC
   instants; `postedAt` / `publishedAt` stay `YYYY-MM-DD` because that is all sources publish.
 - **Locations are never inferred from people.** A record carries a `city` only when the source
   states one; community threads use `scope: "national"` or `"unknown"`.
+- **Community is never filtered by region.** A GitHub repository, a Stack Overflow question or a
+  Hacker News comment states no author location, so narrowing them by market would drop the corpus
+  the moment a reader picks one — and interest in AZ-104 is interest in AZ-104 wherever it was
+  written. The region filter applies to jobs and training centres, which do carry a place; the
+  community panels say "all markets" so the scope is never in doubt.
 - **Nulls are not zeroes.** `views`, `reactions`, `uniqueAuthors` and `price` are `null` when
   unpublished — never a placeholder number.
 
@@ -122,7 +212,7 @@ Scores are comparable across the whole dataset — filtering a category renumber
 ```
 src/
   charts/        ECharts wrapper, bar and trend charts
-  components/    Select, Modal, Badge, VirtualList, feedback primitives
+  components/    Select, Modal, Drawer, Badge, VirtualList, feedback primitives
   constants/     ranking weights, periods, markets and cities
   dashboard/     header, KPI row, ranking table, bootstrap screen, sources dialog
   dialogs/       certification modal + Overview/Jobs/Community/Courses tabs
@@ -134,7 +224,7 @@ crawler/
   config.ts      per-source switches, limits, delays
   pipeline.ts    runs crawlers, merges records, rebuilds rankings
   dictionary/    certification dictionary
-  jobs/ communities/ courses/   one module per source
+  jobs/ communities/ courses/   one module per source (a folder when it needs more than one file)
   normalize/     alias extraction, location mapping, JobPosting parsing
   aggregate/     scoring entry point
   server/        crawl API (Vite plugin + standalone server)

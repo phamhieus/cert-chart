@@ -63,19 +63,25 @@ export function filterJobs(jobs: Job[], filter: JobFilter): Job[] {
 
 export interface CommunityFilter {
   certificationId?: string;
-  region: RegionFilterValue;
   period: PeriodKey;
   source?: string;
   search?: string;
   now: Date;
 }
 
+/**
+ * Community discussion is never narrowed by region. A GitHub repo, a Stack
+ * Overflow question or a Zenn article states no author location, so filtering
+ * them by market would drop the entire corpus the moment a reader picks one —
+ * and a thread about AZ-104 is evidence of interest in AZ-104 wherever it was
+ * written. Region stays a filter for jobs and training centres, which do carry
+ * a place.
+ */
 export function filterCommunity(posts: CommunityPost[], filter: CommunityFilter): CommunityPost[] {
   const query = filter.search ? normalizeText(filter.search) : '';
 
   return posts.filter((post) => {
     if (filter.certificationId && post.certificationId !== filter.certificationId) return false;
-    if (!matchesRegion(post.location, filter.region)) return false;
     if (!withinPeriod(post.publishedAt, filter.period, filter.now)) return false;
     if (filter.source && filter.source !== 'all' && post.source.name !== filter.source) return false;
     if (query && !normalizeText(post.title).includes(query)) return false;

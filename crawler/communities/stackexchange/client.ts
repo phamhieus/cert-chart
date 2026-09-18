@@ -1,11 +1,10 @@
-import type { CommunityPost } from '../../src/types';
-import { countCertificationMentions } from '../normalize/certifications';
-import { stripHtml } from '../normalize/jobPosting';
-import type { CommunityCrawler, CrawlContext } from '../types';
-import { fetchJson } from '../util/http';
+import type { CommunityPost } from '../../../src/types';
+import { countCertificationMentions } from '../../normalize/certifications';
+import { stripHtml } from '../../normalize/jobPosting';
+import type { CrawlContext } from '../../types';
+import { fetchJson } from '../../util/http';
 
-const API = 'https://api.stackexchange.com/2.3';
-const ORIGIN = 'https://stackoverflow.com';
+export const API = 'https://api.stackexchange.com/2.3';
 
 interface ExcerptResponse {
   items?: Array<{
@@ -34,7 +33,7 @@ interface QuestionResponse {
 }
 
 /** Raises the daily quota from 300 to 10,000 requests when set. */
-function appKey(): string | undefined {
+export function appKey(): string | undefined {
   return process.env.STACK_APP_KEY || undefined;
 }
 
@@ -49,37 +48,50 @@ async function respectBackoff(payload: { backoff?: number }): Promise<void> {
   if (payload.backoff) await new Promise((r) => setTimeout(r, payload.backoff! * 1000));
 }
 
+export interface StackCrawlSettings {
+  termsPerCert: number;
+  resultsPerTerm: number;
+  maxRecords: number;
+}
+
+export interface StackCrawlOptions {
+  /** API `site` parameters, e.g. `stackoverflow`, `serverfault`. */
+  sites: string[];
+  /** The name every record carries, so provenance counts line up per crawler. */
+  sourceName: string;
+  /** Record id, kept stable across runs so repeated crawls merge. */
+  recordId: (site: string, questionId: number, certificationId: string) => string;
+  settings: StackCrawlSettings;
+}
+
 /**
- * Stack Overflow through the official Stack Exchange API — no scraping, and the
- * API is public, so this needs no credentials. `STACK_APP_KEY` only raises the
- * quota.
- *
- * Two passes, because neither endpoint alone is enough: `/search/excerpts`
- * returns the question text, which is what proves a certification is actually
- * named rather than merely ranked highly for it, while `/questions` carries the
- * view and answer counts. The second pass batches up to 100 ids per call.
+ * One pass of the Stack Exchange network. Two endpoints, because neither alone
+ * is enough: `/search/excerpts` returns the question text, which is what proves
+ * a certification is actually named rather than merely ranked highly for it,
+ * while `/questions` carries the view and answer counts. The second pass batches
+ * up to 100 ids per call.
  *
  * Questions carry no author location, so every post is filed as global with an
  * unknown scope rather than guessed into a market.
  */
-export const stackOverflowCrawler: CommunityCrawler = {
-  id: 'stackoverflow',
-  name: 'Stack Overflow',
-  url: ORIGIN,
-  type: 'community',
+export async function crawlStackSites(
+  options: StackCrawlOptions,
+  { config, certifications, aliasIndex, now, log }: CrawlContext,
+): Promise<CommunityPost[]> {
+  const { settings } = options;
+  // Exact instant this crawl run started; `crawledDate` only backs a missing publish date.
+  const crawledAt = now.toISOString();
+  const crawledDate = crawledAt.slice(0, 10);
+  let quota: number | null = null;
 
-  isEnabled: (config) => config.sources.stackoverflow.enabled,
+  const windowStart = new Date(now);
+  windowStart.setFullYear(windowStart.getFullYear() - config.historyYears);
+  const fromDate = Math.floor(windowStart.getTime() / 1000);
 
-  async run({ config, certifications, aliasIndex, now, log }: CrawlContext): Promise<CommunityPost[]> {
-    const settings = config.sources.stackoverflow;
-    // Exact instant this crawl run started; `crawledDate` only backs a missing publish date.
-    const crawledAt = now.toISOString();
-    const crawledDate = crawledAt.slice(0, 10);
-    let quota: number | null = null;
+  const posts = new Map<string, CommunityPost>();
 
-    const windowStart = new Date(now);
-    windowStart.setFullYear(windowStart.getFullYear() - config.historyYears);
-    const fromDate = Math.floor(windowStart.getTime() / 1000);
+  for (const site of options.sites) {
+    if (posts.size >= settings.maxRecords) break;
 
     // question id → certification id → mentions counted in its own text.
     const mentionsByQuestion = new Map<number, Map<string, number>>();
@@ -98,7 +110,7 @@ export const stackOverflowCrawler: CommunityCrawler = {
         // Bounded to the history window: sorted by votes with no bound, the top
         // 100 are all a decade old and the recent months come back empty.
         const url = withKey(
-          `${API}/search/excerpts?order=desc&sort=votes&site=stackoverflow` +
+          `${API}/search/excerpts?order=desc&sort=votes&site=${site}` +
             `&fromdate=${fromDate}&pagesize=${settings.resultsPerTerm}` +
             `&q=${encodeURIComponent(term)}`,
         );
@@ -107,7 +119,7 @@ export const stackOverflowCrawler: CommunityCrawler = {
         try {
           response = await fetchJson<ExcerptResponse>(url, { timeoutMs: 30_000 });
         } catch (error) {
-          log(`Stack Overflow: "${term}" failed (${(error as Error).message})`);
+          log(`${options.sourceName} (${site}): "${term}" failed (${(error as Error).message})`);
           continue;
         }
 
@@ -129,22 +141,21 @@ export const stackOverflowCrawler: CommunityCrawler = {
       }
     }
 
-    log(`Stack Overflow: ${mentionsByQuestion.size} questions name a tracked certification`);
+    log(`${options.sourceName} (${site}): ${mentionsByQuestion.size} questions name a tracked certification`);
 
-    const posts = new Map<string, CommunityPost>();
     const ids = [...mentionsByQuestion.keys()];
 
     for (let offset = 0; offset < ids.length; offset += 100) {
       const batch = ids.slice(offset, offset + 100);
       const url = withKey(
-        `${API}/questions/${batch.join(';')}?order=desc&sort=votes&site=stackoverflow&pagesize=100`,
+        `${API}/questions/${batch.join(';')}?order=desc&sort=votes&site=${site}&pagesize=100`,
       );
 
       let response: QuestionResponse;
       try {
         response = await fetchJson<QuestionResponse>(url, { timeoutMs: 30_000 });
       } catch (error) {
-        log(`Stack Overflow: metrics batch failed (${(error as Error).message})`);
+        log(`${options.sourceName} (${site}): metrics batch failed (${(error as Error).message})`);
         continue;
       }
 
@@ -157,18 +168,18 @@ export const stackOverflowCrawler: CommunityCrawler = {
         if (!hits) continue;
 
         for (const [certificationId, mentions] of hits) {
-          const id = `so_${question.question_id}_${certificationId}`;
+          const id = options.recordId(site, question.question_id, certificationId);
           posts.set(id, {
             id,
             certificationId,
             source: {
-              name: 'Stack Overflow',
-              url: question.link ?? `${ORIGIN}/q/${question.question_id}`,
+              name: options.sourceName,
+              url: question.link ?? `https://${site}.com/q/${question.question_id}`,
             },
             title: stripHtml(question.title),
             location: { country: 'GLOBAL', market: 'global', scope: 'unknown' },
             mentions,
-            // Stack Overflow counts answers, not comments, on a question.
+            // Stack Exchange counts answers, not comments, on a question.
             comments: question.answer_count ?? 0,
             views: question.view_count ?? null,
             reactions: question.score ?? null,
@@ -181,11 +192,11 @@ export const stackOverflowCrawler: CommunityCrawler = {
         }
       }
     }
+  }
 
-    log(
-      `Stack Overflow: ${posts.size} records stored` +
-        (quota === null ? '' : ` (${quota} API calls left today)`),
-    );
-    return [...posts.values()].slice(0, settings.maxRecords);
-  },
-};
+  log(
+    `${options.sourceName}: ${posts.size} records stored` +
+      (quota === null ? '' : ` (${quota} API calls left today)`),
+  );
+  return [...posts.values()].slice(0, settings.maxRecords);
+}
