@@ -2,7 +2,12 @@
 
 A single-page dashboard ranking IT certifications by **job demand**, **community activity**,
 **published holder counts** and **growth**. Vietnam is the primary market (Hanoi, HCMC, Da Nang);
-Singapore, Japan and Global/Remote are tracked for comparison.
+Singapore, Japan, Global and Remote are tracked for comparison. **Global** is a real, specific
+place outside those markets (a Greenhouse posting in "San Francisco, CA") or content with no
+location at all (a GitHub repo, an online course); **Remote** is a posting whose source explicitly
+says the work is location-independent ("Remote", "Anywhere", "Worldwide") — the two used to be one
+bucket, which undercounted actually-remote postings once employer-ATS boards with real office
+addresses (Greenhouse) started flowing in alongside remote-only job boards.
 
 No backend, no fabricated data: everything is crawled from public sources into JSON under
 `public/data`, and every number traces back to the posting, thread or course page it came from.
@@ -59,16 +64,59 @@ Toggle sources in `crawler/config.ts`. Every source honours `robots.txt` (RFC 93
 `CRAWL_CONFIG.requestDelayMs`.
 
 - **Jobs** — ITviec, Vieclam24h (VN) · MyCareersFuture (SG) · TokyoDev (JP) · We Work Remotely,
-  Remote OK, Remotive, Arbeitnow (global/EU).
-- **Community** — Dạy Nhau Học, Viblo (VN) · Zenn (JP) · Stack Overflow, GitHub (global).
+  Remote OK, Remotive, Arbeitnow, Himalayas (global/remote) · Greenhouse (a hand-picked list of
+  mostly US employers on the Greenhouse ATS — see `crawler/config.ts`; this widens the global
+  bucket, not Vietnam).
+- **Community** — VOZ, Quản Trị Mạng, Dạy Nhau Học, Viblo (VN) · Zenn (JP) · Stack Exchange
+  (stackoverflow.com, serverfault.com, security.stackexchange.com, pm.stackexchange.com), GitHub,
+  dev.to (global).
 - **Courses** — official vendor training, Coursera, Vietnamese training centres (VnPro, Robusta,
   Athena, VTI Academy).
 - **Holder counts** — vendor certification pages.
 
 Needs setup: **TopCV** and **CareerViet** are Cloudflare-gated and drive Playwright
-(`npx playwright install chromium`). **Reddit** and **Udemy** need API credentials
-(`REDDIT_CLIENT_ID`/`SECRET`, `UDEMY_CLIENT_ID`/`SECRET`). **VOZ** is off by default. **LinkedIn**
-is never crawled — its `robots.txt` prohibits it outright.
+(`npx playwright install chromium`).
+
+Four sources read a credential. Copy `.env.example` to `.env` (git-ignored) and fill in what you
+have — `crawler/env.ts` loads it for `npm run crawl`, `npm run serve` and the dev server's crawl
+API alike. Every key is optional, and a source without its key reports itself as skipped rather
+than being scraped as a fallback.
+
+| Variable | Source | Without it | Where to get it |
+| --- | --- | --- | --- |
+| `GITHUB_TOKEN` | GitHub | 10 search requests/minute, so the crawl takes ~7 minutes and terms start failing with 403 | [github.com/settings/personal-access-tokens](https://github.com/settings/personal-access-tokens) — no scopes needed |
+| `STACK_APP_KEY` | Stack Exchange | 300 requests/day, and one run across the four sites already uses most of it | [stackapps.com/apps/oauth/register](https://stackapps.com/apps/oauth/register) — use the "key", not the secret |
+| `REDDIT_CLIENT_ID` + `REDDIT_CLIENT_SECRET` | Reddit | nothing at all; `robots.txt` forbids scraping, so the API is the only route | [reddit.com/prefs/apps](https://www.reddit.com/prefs/apps) — create a "script" app |
+| `UDEMY_CLIENT_ID` + `UDEMY_CLIENT_SECRET` | Udemy | nothing at all; `robots.txt` disallows the API and every query-string URL | [udemy.com/developers/affiliate](https://www.udemy.com/developers/affiliate/) — needs affiliate approval first | **LinkedIn** is never
+crawled — its `robots.txt` prohibits it outright. **Remotive** stays enabled but has been
+returning 0 records: its `robots.txt` disallows both `/api/*` and `/*search=`, which the crawler's
+own search calls hit, so every run is correctly blocked rather than silently degraded — kept
+enabled rather than removed in case Remotive relaxes its `robots.txt`.
+
+**Vietnamese community coverage is thin, and it is thin for a measurable reason.** VOZ's
+`lap-trinh-cntt` and `tuyen-dung-tim-viec` forums are the only place Vietnamese IT people discuss
+certifications in volume, and VOZ serves its HTML behind a Cloudflare challenge — so it is read
+through `/f/{forum}/index.rss`, which is not challenged and carries the opening post. The rest was
+measured rather than assumed: Dạy Nhau Học has **1** certification thread in 1,200 topics spanning
+its full three-year window (and 0 in a 60-topic sample of full post bodies and replies), Viblo's
+only permitted endpoint is a 40-item feed covering roughly 36 hours, and Tinh tế returned **0** in
+25 threads read with their comments. Those are real findings about the communities, not crawler
+faults, and no amount of extra crawling changes them.
+
+Considered and left out, so the reasoning doesn't get re-litigated:
+
+| Source | Why not |
+| --- | --- |
+| VietnamWorks | `robots.txt` allows `?q=` search and `__NEXT_DATA__` carries a real `jobCounts`, but the actual postings load client-side through Algolia — `searchResultData` on the server-rendered page is just `{nbHits}`, no per-posting url/company/date to store. |
+| TopDev | `robots.txt` allows it, but `?keyword=` 301s to a client-rendered `/jobs/search` that drops the query — would need its internal search API reverse-engineered. |
+| Credly | The one place a real per-certification holder count lives (`credly.com/org/{vendor}/badge/{cert}`), which would fix the "almost everything is vendor-wide" gap noted below — but it drops plain HTTP clients after the first request. Would need Playwright, the same path TopCV/CareerViet already take. |
+| Lever, Ashby | Same API shape as Greenhouse and just as easy to add, but the boards tried (Palantir, Spotify, Ramp, Deel) had zero postings naming a tracked certification — mostly product/software-startup boards, not the infra/security postings that do. |
+| SmartRecruiters | `robots.txt` is `Disallow: /` for everyone except `LinkedInBot`. |
+| Qiita | Would pair well with Zenn for the Japan market, but `robots.txt` disallows `/api/*`. |
+| Tinh tế | Vietnam's largest consumer-tech forum, fully crawlable (per-forum RSS, thread pages render server-side). 25 threads read **including their comments** named a tracked certification **0** times — the forums are phones, PCs and gaming, not IT-professional. |
+| VietJack | Not a community: a K-12 homework and basic-programming tutorial site (its own links are grade-1 maths and teacher materials). Its Java/Python/SQL tutorials mention **no** tracked certification. |
+| whitehat.vn | The right kind of source — Vietnam's security community, where CEH/CISSP would come up — but the site answers 503 "Hệ thống đang nâng cấp". Worth revisiting when it returns. |
+| Wikimedia pageviews | Runs fine and gives a real per-article monthly view count (a candidate `growth` signal), but only ~4 of the tracked certifications have their own Wikipedia article — most of `AZ-104`, `CKA`, `DP-203`, etc. would sit at `null`. Not wired in as a scored source; revisit only as an unweighted, nullable signal. |
 
 Gaps stay visible rather than filled in: unpublished prices stay `null`, unpublished holder counts
 stay absent, and the **Data sources** dialog shows each source's last crawl time, duration, record
