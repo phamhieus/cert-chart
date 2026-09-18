@@ -1,0 +1,46 @@
+# Dependencies
+node_modules/
+.pnpm-store/
+
+# Build output
+dist/
+dist-ssr/
+*.tsbuildinfo
+
+# Environment / secrets
+.env
+.env.*
+!.env.example
+*.local
+
+# Crawler artifacts (crawlee storage, raw dumps, logs)
+storage/
+crawler/output/
+*.log
+
+# Caches
+.cache/
+.vite/
+.turbo/
+node_modules/.vite/
+.playwright/
+test-results/
+playwright-report/
+coverage/
+
+# Code intelligence index (large, machine-generated)
+.gitnexus/
+
+# Editors
+.vscode/*
+!.vscode/extensions.json
+.idea/
+*.swp
+
+# Claude Code local settings (keep shared config, ignore personal overrides)
+.claude/settings.local.json
+
+# OS
+.DS_Store
+Thumbs.db
+desktop.ini

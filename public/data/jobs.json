@@ -1,0 +1,1874 @@
+[
+  {
+    "id": "itviec_data-engineer-data-division-mb-bank-2546",
+    "title": "Data Engineer - Data Division",
+    "company": "MB Bank",
+    "location": {
+      "country": "VN",
+      "market": "vietnam",
+      "city": "Hanoi"
+    },
+    "certifications": [
+      {
+        "id": "aws-saa",
+        "requirement": "preferred"
+      }
+    ],
+    "source": {
+      "name": "ITviec",
+      "url": "https://itviec.com/it-jobs/data-engineer-data-division-mb-bank-2546"
+    },
+    "postedAt": "2026-09-02",
+    "crawledAt": "2026-09-18T06:56:04.346Z"
+  },
+  {
+    "id": "itviec_senior-site-reliability-engineer-sre-gcp-kubernetes-datvietvac-0334",
+    "title": "Senior Site Reliability Engineer SRE, GCP, Kubernetes",
+    "company": "DatVietVAC",
+    "location": {
+      "country": "VN",
+      "market": "vietnam",
+      "city": "Ho Chi Minh City"
+    },
+    "certifications": [
+      {
+        "id": "pmp",
+        "requirement": "preferred"
+      }
+    ],
+    "source": {
+      "name": "ITviec",
+      "url": "https://itviec.com/it-jobs/senior-site-reliability-engineer-sre-gcp-kubernetes-datvietvac-0334"
+    },
+    "postedAt": "2026-09-03",
+    "crawledAt": "2026-09-18T06:56:04.346Z"
+  },
+  {
+    "id": "itviec_solution-architect-lead-galaxy-holdings-4352",
+    "title": "Solution Architect Lead",
+    "company": "GALAXY HOLDINGS",
+    "location": {
+      "country": "VN",
+      "market": "vietnam",
+      "city": "Hanoi"
+    },
+    "certifications": [
+      {
+        "id": "cissp",
+        "requirement": "preferred"
+      },
+      {
+        "id": "pmp",
+        "requirement": "preferred"
+      }
+    ],
+    "source": {
+      "name": "ITviec",
+      "url": "https://itviec.com/it-jobs/solution-architect-lead-galaxy-holdings-4352"
+    },
+    "postedAt": "2026-08-27",
+    "crawledAt": "2026-09-18T06:56:04.346Z"
+  },
+  {
+    "id": "itviec_secops-engineer-kubernetes-linux-iam-ztna-devsecops-con-cung-2411",
+    "title": "SecOps Engineer Kubernetes/Linux/IAM/ZTNA/DevSecOps",
+    "company": "Con Cưng",
+    "location": {
+      "country": "VN",
+      "market": "vietnam",
+      "city": "Ho Chi Minh City"
+    },
+    "certifications": [
+      {
+        "id": "security-plus",
+        "requirement": "mentioned"
+      },
+      {
+        "id": "cka",
+        "requirement": "mentioned"
+      }
+    ],
+    "source": {
+      "name": "ITviec",
+      "url": "https://itviec.com/it-jobs/secops-engineer-kubernetes-linux-iam-ztna-devsecops-con-cung-2411"
+    },
+    "postedAt": "2026-09-07",
+    "crawledAt": "2026-09-18T06:56:04.346Z"
+  },
+  {
+    "id": "itviec_senior-data-security-data-division-mb-bank-0129",
+    "title": "Senior Data Security - Data Division",
+    "company": "MB Bank",
+    "location": {
+      "country": "VN",
+      "market": "vietnam",
+      "city": "Hanoi"
+    },
+    "certifications": [
+      {
+        "id": "cissp",
+        "requirement": "preferred"
+      }
+    ],
+    "source": {
+      "name": "ITviec",
+      "url": "https://itviec.com/it-jobs/senior-data-security-data-division-mb-bank-0129"
+    },
+    "postedAt": "2026-09-02",
+    "crawledAt": "2026-09-18T06:56:04.346Z"
+  },
+  {
+    "id": "itviec_ai-engineer-middle-senior-saigon-technology-2820",
+    "title": "AI Engineer Middle/Senior",
+    "company": "Saigon Technology",
+    "location": {
+      "country": "VN",
+      "market": "vietnam"
+    },
+    "certifications": [
+      {
+        "id": "pmp",
+        "requirement": "mentioned"
+      }
+    ],
+    "source": {
+      "name": "ITviec",
+      "url": "https://itviec.com/it-jobs/ai-engineer-middle-senior-saigon-technology-2820"
+    },
+    "postedAt": "2026-08-26",
+    "crawledAt": "2026-09-18T06:56:04.346Z"
+  },
+  {
+    "id": "itviec_senior-lead-information-security-engineer-fundiin-3034",
+    "title": "Senior/Lead Information Security Engineer",
+    "company": "Fundiin",
+    "location": {
+      "country": "VN",
+      "market": "vietnam",
+      "city": "Ho Chi Minh City"
+    },
+    "certifications": [
+      {
+        "id": "cissp",
+        "requirement": "mentioned"
+      }
+    ],
+    "source": {
+      "name": "ITviec",
+      "url": "https://itviec.com/it-jobs/senior-lead-information-security-engineer-fundiin-3034"
+    },
+    "postedAt": "2026-08-27",
+    "crawledAt": "2026-09-18T06:56:04.346Z"
+  },
+  {
+    "id": "itviec_data-quality-management-specialist-data-division-mb-bank-0217",
+    "title": "Data Quality Management Specialist - Data Division",
+    "company": "MB Bank",
+    "location": {
+      "country": "VN",
+      "market": "vietnam",
+      "city": "Hanoi"
+    },
+    "certifications": [
+      {
+        "id": "cissp",
+        "requirement": "preferred"
+      }
+    ],
+    "source": {
+      "name": "ITviec",
+      "url": "https://itviec.com/it-jobs/data-quality-management-specialist-data-division-mb-bank-0217"
+    },
+    "postedAt": "2026-09-02",
+    "crawledAt": "2026-09-18T06:56:04.346Z"
+  },
+  {
+    "id": "itviec_project-leader-project-manager-japanese-n2-nec-vietnam-2827",
+    "title": "Project Leader/ Project Manager Japanese N2+",
+    "company": "NEC Vietnam",
+    "location": {
+      "country": "VN",
+      "market": "vietnam",
+      "city": "Hanoi"
+    },
+    "certifications": [
+      {
+        "id": "pmp",
+        "requirement": "mentioned"
+      }
+    ],
+    "source": {
+      "name": "ITviec",
+      "url": "https://itviec.com/it-jobs/project-leader-project-manager-japanese-n2-nec-vietnam-2827"
+    },
+    "postedAt": "2026-08-26",
+    "crawledAt": "2026-09-18T06:56:04.346Z"
+  },
+  {
+    "id": "itviec_senior-security-operations-van-hanh-an-ninh-cong-ty-co-phan-thanh-toan-so-mobifone-0934",
+    "title": "Senior Security Operations Van hanh an ninh",
+    "company": "Công ty Cổ phần Thanh toán số MobiFone",
+    "location": {
+      "country": "VN",
+      "market": "vietnam",
+      "city": "Hanoi"
+    },
+    "certifications": [
+      {
+        "id": "security-plus",
+        "requirement": "preferred"
+      },
+      {
+        "id": "ceh",
+        "requirement": "preferred"
+      }
+    ],
+    "source": {
+      "name": "ITviec",
+      "url": "https://itviec.com/it-jobs/senior-security-operations-van-hanh-an-ninh-cong-ty-co-phan-thanh-toan-so-mobifone-0934"
+    },
+    "postedAt": "2026-08-26",
+    "crawledAt": "2026-09-18T06:56:04.346Z"
+  },
+  {
+    "id": "itviec_english-senior-technical-project-manager-laidon-group-0853",
+    "title": "English Senior Technical Project Manager",
+    "company": "Laidon Group",
+    "location": {
+      "country": "VN",
+      "market": "vietnam",
+      "city": "Ho Chi Minh City"
+    },
+    "certifications": [
+      {
+        "id": "pmp",
+        "requirement": "required"
+      }
+    ],
+    "source": {
+      "name": "ITviec",
+      "url": "https://itviec.com/it-jobs/english-senior-technical-project-manager-laidon-group-0853"
+    },
+    "postedAt": "2026-09-16",
+    "crawledAt": "2026-09-18T06:56:04.346Z"
+  },
+  {
+    "id": "itviec_senior-it-governance-iso-27001-pci-dss-timo-5511",
+    "title": "Senior IT Governance ISO 27001, PCI DSS",
+    "company": "Timo",
+    "location": {
+      "country": "VN",
+      "market": "vietnam",
+      "city": "Ho Chi Minh City"
+    },
+    "certifications": [
+      {
+        "id": "cissp",
+        "requirement": "mentioned"
+      }
+    ],
+    "source": {
+      "name": "ITviec",
+      "url": "https://itviec.com/it-jobs/senior-it-governance-iso-27001-pci-dss-timo-5511"
+    },
+    "postedAt": "2026-09-01",
+    "crawledAt": "2026-09-18T06:56:04.346Z"
+  },
+  {
+    "id": "itviec_danang-project-management-officer-japanese-n2-nec-vietnam-2417",
+    "title": "Danang Project Management Officer Japanese N2",
+    "company": "NEC Vietnam",
+    "location": {
+      "country": "VN",
+      "market": "vietnam"
+    },
+    "certifications": [
+      {
+        "id": "pmp",
+        "requirement": "preferred"
+      }
+    ],
+    "source": {
+      "name": "ITviec",
+      "url": "https://itviec.com/it-jobs/danang-project-management-officer-japanese-n2-nec-vietnam-2417"
+    },
+    "postedAt": "2026-08-26",
+    "crawledAt": "2026-09-18T06:56:04.346Z"
+  },
+  {
+    "id": "mcf_524c23241acc47ff491f7dd1bce3b00e",
+    "title": "Network Engineer (Network Switches / CCNA)",
+    "company": "EA RECRUITMENT PTE. LTD.",
+    "location": {
+      "country": "SG",
+      "market": "singapore",
+      "city": "Singapore"
+    },
+    "certifications": [
+      {
+        "id": "ccna",
+        "requirement": "preferred"
+      }
+    ],
+    "source": {
+      "name": "MyCareersFuture",
+      "url": "https://www.mycareersfuture.gov.sg/job/information-technology/network-engineer-ea-recruitment-524c23241acc47ff491f7dd1bce3b00e"
+    },
+    "postedAt": "2026-09-17",
+    "crawledAt": "2026-09-18T06:22:57.888Z"
+  },
+  {
+    "id": "mcf_bdb67ddae88019d92daa9b660f8dfe34",
+    "title": "IT Engineer (Cloud Infrastructure / CCNA)",
+    "company": "EA RECRUITMENT PTE. LTD.",
+    "location": {
+      "country": "SG",
+      "market": "singapore",
+      "city": "Singapore"
+    },
+    "certifications": [
+      {
+        "id": "ccna",
+        "requirement": "mentioned"
+      },
+      {
+        "id": "cissp",
+        "requirement": "mentioned"
+      },
+      {
+        "id": "ccnp-enterprise",
+        "requirement": "mentioned"
+      }
+    ],
+    "source": {
+      "name": "MyCareersFuture",
+      "url": "https://www.mycareersfuture.gov.sg/job/information-technology/engineer-ea-recruitment-bdb67ddae88019d92daa9b660f8dfe34"
+    },
+    "postedAt": "2026-09-09",
+    "crawledAt": "2026-09-18T06:22:57.888Z"
+  },
+  {
+    "id": "mcf_1ed200ede9f0417ef22691599f49bf25",
+    "title": "Network Engineer (CCNA Required)",
+    "company": "RECRUIT EXPRESS PTE LTD",
+    "location": {
+      "country": "SG",
+      "market": "singapore",
+      "city": "Singapore"
+    },
+    "certifications": [
+      {
+        "id": "ccna",
+        "requirement": "required"
+      },
+      {
+        "id": "ccnp-enterprise",
+        "requirement": "preferred"
+      }
+    ],
+    "source": {
+      "name": "MyCareersFuture",
+      "url": "https://www.mycareersfuture.gov.sg/job/information-technology/network-engineer-recruit-express-1ed200ede9f0417ef22691599f49bf25"
+    },
+    "postedAt": "2026-09-08",
+    "crawledAt": "2026-09-18T06:22:57.888Z"
+  },
+  {
+    "id": "mcf_190505476954c501989c66e481502317",
+    "title": "IT Infrastructure Engineer (Network & Systems, CCNA)",
+    "company": "TRUST RECRUIT PTE. LTD.",
+    "location": {
+      "country": "SG",
+      "market": "singapore",
+      "city": "Singapore"
+    },
+    "certifications": [
+      {
+        "id": "ccna",
+        "requirement": "preferred"
+      },
+      {
+        "id": "ccnp-enterprise",
+        "requirement": "preferred"
+      }
+    ],
+    "source": {
+      "name": "MyCareersFuture",
+      "url": "https://www.mycareersfuture.gov.sg/job/information-technology/infrastructure-engineer-trust-recruit-190505476954c501989c66e481502317"
+    },
+    "postedAt": "2026-09-04",
+    "crawledAt": "2026-09-18T06:22:57.888Z"
+  },
+  {
+    "id": "mcf_8347a6b07f8cdbdb8162d24181e4cf18",
+    "title": "Network Engineer (CCNA)",
+    "company": "U3 INFOTECH PTE. LTD.",
+    "location": {
+      "country": "SG",
+      "market": "singapore",
+      "city": "Singapore"
+    },
+    "certifications": [
+      {
+        "id": "ccna",
+        "requirement": "mentioned"
+      }
+    ],
+    "source": {
+      "name": "MyCareersFuture",
+      "url": "https://www.mycareersfuture.gov.sg/job/information-technology/network-engineer-u3-infotech-8347a6b07f8cdbdb8162d24181e4cf18"
+    },
+    "postedAt": "2026-09-04",
+    "crawledAt": "2026-09-18T06:22:57.888Z"
+  },
+  {
+    "id": "mcf_9e8863afe4cde88eed98787e4e38e636",
+    "title": "Urgent!!! IT Infrastructure Engineer (Network & Systems, CCNA)",
+    "company": "TRUST RECRUIT PTE. LTD.",
+    "location": {
+      "country": "SG",
+      "market": "singapore",
+      "city": "Singapore"
+    },
+    "certifications": [
+      {
+        "id": "ccna",
+        "requirement": "preferred"
+      },
+      {
+        "id": "ccnp-enterprise",
+        "requirement": "preferred"
+      }
+    ],
+    "source": {
+      "name": "MyCareersFuture",
+      "url": "https://www.mycareersfuture.gov.sg/job/information-technology/urgent-infrastructure-engineer-trust-recruit-9e8863afe4cde88eed98787e4e38e636"
+    },
+    "postedAt": "2026-08-28",
+    "crawledAt": "2026-09-18T06:22:57.888Z"
+  },
+  {
+    "id": "wwr_legion-director-of-production-engineering",
+    "title": "Director of Production Engineering",
+    "company": "Legion",
+    "location": {
+      "country": "GLOBAL",
+      "market": "global"
+    },
+    "certifications": [
+      {
+        "id": "cissp",
+        "requirement": "mentioned"
+      }
+    ],
+    "source": {
+      "name": "We Work Remotely",
+      "url": "https://weworkremotely.com/remote-jobs/legion-director-of-production-engineering"
+    },
+    "postedAt": "2026-09-07",
+    "crawledAt": "2026-09-18T06:22:57.888Z"
+  },
+  {
+    "id": "wwr_expel-managed-siem-detection-engineer",
+    "title": "Managed SIEM Detection Engineer",
+    "company": "Expel",
+    "location": {
+      "country": "GLOBAL",
+      "market": "global"
+    },
+    "certifications": [
+      {
+        "id": "security-plus",
+        "requirement": "mentioned"
+      }
+    ],
+    "source": {
+      "name": "We Work Remotely",
+      "url": "https://weworkremotely.com/remote-jobs/expel-managed-siem-detection-engineer"
+    },
+    "postedAt": "2026-09-01",
+    "crawledAt": "2026-09-18T06:22:57.888Z"
+  },
+  {
+    "id": "itviec_manual-qc-engineer-middle-saigon-technology-5140",
+    "title": " Manual QC Engineer Middle",
+    "company": "Saigon Technology",
+    "location": {
+      "country": "VN",
+      "market": "vietnam",
+      "city": "Ho Chi Minh City"
+    },
+    "certifications": [
+      {
+        "id": "pmp",
+        "requirement": "mentioned"
+      }
+    ],
+    "source": {
+      "name": "ITviec",
+      "url": "https://itviec.com/it-jobs/manual-qc-engineer-middle-saigon-technology-5140"
+    },
+    "postedAt": "2026-09-16",
+    "crawledAt": "2026-09-18T06:56:04.346Z"
+  },
+  {
+    "id": "itviec_soc-lead-cybersecurity-aws-python-incident-response-galaxy-holdings-5948",
+    "title": "SOC Lead Cybersecurity, AWS, Python,Incident Response",
+    "company": "GALAXY HOLDINGS",
+    "location": {
+      "country": "VN",
+      "market": "vietnam",
+      "city": "Ho Chi Minh City"
+    },
+    "certifications": [
+      {
+        "id": "cissp",
+        "requirement": "mentioned"
+      }
+    ],
+    "source": {
+      "name": "ITviec",
+      "url": "https://itviec.com/it-jobs/soc-lead-cybersecurity-aws-python-incident-response-galaxy-holdings-5948"
+    },
+    "postedAt": "2026-09-05",
+    "crawledAt": "2026-09-18T06:56:04.346Z"
+  },
+  {
+    "id": "itviec_presales-engineer-cloud-aws-megazone-1216",
+    "title": "Presales Engineer Cloud, AWS",
+    "company": "MEGAZONE",
+    "location": {
+      "country": "VN",
+      "market": "vietnam",
+      "city": "Hanoi"
+    },
+    "certifications": [
+      {
+        "id": "aws-saa",
+        "requirement": "mentioned"
+      }
+    ],
+    "source": {
+      "name": "ITviec",
+      "url": "https://itviec.com/it-jobs/presales-engineer-cloud-aws-megazone-1216"
+    },
+    "postedAt": "2026-09-15",
+    "crawledAt": "2026-09-18T06:56:04.346Z"
+  },
+  {
+    "id": "itviec_senior-it-security-solution-officer-mb-life-3714",
+    "title": "Senior IT Security Solution Officer",
+    "company": "MB Life",
+    "location": {
+      "country": "VN",
+      "market": "vietnam",
+      "city": "Hanoi"
+    },
+    "certifications": [
+      {
+        "id": "cissp",
+        "requirement": "preferred"
+      },
+      {
+        "id": "ceh",
+        "requirement": "preferred"
+      },
+      {
+        "id": "pmp",
+        "requirement": "mentioned"
+      }
+    ],
+    "source": {
+      "name": "ITviec",
+      "url": "https://itviec.com/it-jobs/senior-it-security-solution-officer-mb-life-3714"
+    },
+    "postedAt": "2026-08-26",
+    "crawledAt": "2026-09-18T06:56:04.346Z"
+  },
+  {
+    "id": "itviec_enterprise-security-architect-itviec-recruitment-consulting-2236",
+    "title": "Enterprise Security Architect",
+    "company": "ITviec Recruitment Consulting",
+    "location": {
+      "country": "VN",
+      "market": "vietnam",
+      "city": "Ho Chi Minh City"
+    },
+    "certifications": [
+      {
+        "id": "cissp",
+        "requirement": "preferred"
+      }
+    ],
+    "source": {
+      "name": "ITviec",
+      "url": "https://itviec.com/it-jobs/enterprise-security-architect-itviec-recruitment-consulting-2236"
+    },
+    "postedAt": "2026-08-11",
+    "crawledAt": "2026-09-18T06:56:04.346Z"
+  },
+  {
+    "id": "itviec_information-security-architect-mb-bank-0515",
+    "title": "Information Security Architect",
+    "company": "MB Bank",
+    "location": {
+      "country": "VN",
+      "market": "vietnam",
+      "city": "Hanoi"
+    },
+    "certifications": [
+      {
+        "id": "cissp",
+        "requirement": "mentioned"
+      },
+      {
+        "id": "ceh",
+        "requirement": "mentioned"
+      }
+    ],
+    "source": {
+      "name": "ITviec",
+      "url": "https://itviec.com/it-jobs/information-security-architect-mb-bank-0515"
+    },
+    "postedAt": "2026-08-10",
+    "crawledAt": "2026-09-18T06:56:04.346Z"
+  },
+  {
+    "id": "itviec_senior-security-operations-center-soc-specialist-vietbank-1951",
+    "title": "Senior Security Operations Center SOC Specialist",
+    "company": "Vietbank",
+    "location": {
+      "country": "VN",
+      "market": "vietnam",
+      "city": "Ho Chi Minh City"
+    },
+    "certifications": [
+      {
+        "id": "ccna",
+        "requirement": "preferred"
+      },
+      {
+        "id": "ccnp-enterprise",
+        "requirement": "preferred"
+      },
+      {
+        "id": "ceh",
+        "requirement": "preferred"
+      }
+    ],
+    "source": {
+      "name": "ITviec",
+      "url": "https://itviec.com/it-jobs/senior-security-operations-center-soc-specialist-vietbank-1951"
+    },
+    "postedAt": "2026-09-14",
+    "crawledAt": "2026-09-18T06:56:04.346Z"
+  },
+  {
+    "id": "itviec_ai-engineer-genai-machine-learning-python-cloud-ace-2114",
+    "title": "AI Engineer GenAI/Machine Learning/Python",
+    "company": "Cloud Ace",
+    "location": {
+      "country": "VN",
+      "market": "vietnam",
+      "city": "Ho Chi Minh City"
+    },
+    "certifications": [
+      {
+        "id": "gcp-ace",
+        "requirement": "mentioned"
+      }
+    ],
+    "source": {
+      "name": "ITviec",
+      "url": "https://itviec.com/it-jobs/ai-engineer-genai-machine-learning-python-cloud-ace-2114"
+    },
+    "postedAt": "2026-09-04",
+    "crawledAt": "2026-09-18"
+  },
+  {
+    "id": "itviec_senior-devops-engineer-cloud-aws-itviec-recruitment-consulting-5512",
+    "title": "Senior DevOps Engineer Cloud, AWS",
+    "company": "ITviec Recruitment Consulting",
+    "location": {
+      "country": "VN",
+      "market": "vietnam",
+      "city": "Ho Chi Minh City"
+    },
+    "certifications": [
+      {
+        "id": "aws-dop",
+        "requirement": "mentioned"
+      }
+    ],
+    "source": {
+      "name": "ITviec",
+      "url": "https://itviec.com/it-jobs/senior-devops-engineer-cloud-aws-itviec-recruitment-consulting-5512"
+    },
+    "postedAt": "2026-08-23",
+    "crawledAt": "2026-09-18T06:14:34.793Z"
+  },
+  {
+    "id": "itviec_devops-engineer-python-aws-linux-techcom-securities-5026",
+    "title": "DevOps Engineer Python, AWS, Linux",
+    "company": "Techcom Securities",
+    "location": {
+      "country": "VN",
+      "market": "vietnam",
+      "city": "Hanoi"
+    },
+    "certifications": [
+      {
+        "id": "aws-saa",
+        "requirement": "preferred"
+      },
+      {
+        "id": "aws-dop",
+        "requirement": "preferred"
+      }
+    ],
+    "source": {
+      "name": "ITviec",
+      "url": "https://itviec.com/it-jobs/devops-engineer-python-aws-linux-techcom-securities-5026"
+    },
+    "postedAt": "2026-08-17",
+    "crawledAt": "2026-09-18T06:14:34.793Z"
+  },
+  {
+    "id": "itviec_senior-devops-engineer-tpisoftware-co-ltd-3309",
+    "title": "Senior DevOps Engineer",
+    "company": "TPIsoftware Co., Ltd",
+    "location": {
+      "country": "VN",
+      "market": "vietnam",
+      "city": "Ho Chi Minh City"
+    },
+    "certifications": [
+      {
+        "id": "cka",
+        "requirement": "preferred"
+      }
+    ],
+    "source": {
+      "name": "ITviec",
+      "url": "https://itviec.com/it-jobs/senior-devops-engineer-tpisoftware-co-ltd-3309"
+    },
+    "postedAt": "2026-09-15",
+    "crawledAt": "2026-09-18T06:56:04.346Z"
+  },
+  {
+    "id": "itviec_sre-devops-gcp-kubernetes-terraform-datvietvac-2917",
+    "title": "SRE DevOps, GCP, Kubernetes, Terraform",
+    "company": "DatVietVAC",
+    "location": {
+      "country": "VN",
+      "market": "vietnam",
+      "city": "Ho Chi Minh City"
+    },
+    "certifications": [
+      {
+        "id": "pmp",
+        "requirement": "preferred"
+      }
+    ],
+    "source": {
+      "name": "ITviec",
+      "url": "https://itviec.com/it-jobs/sre-devops-gcp-kubernetes-terraform-datvietvac-2917"
+    },
+    "postedAt": "2026-09-04",
+    "crawledAt": "2026-09-18T06:56:04.346Z"
+  },
+  {
+    "id": "itviec_principal-backend-engineer-golang-microservices-datvietvac-4329",
+    "title": "Principal Backend Engineer Golang, Microservices",
+    "company": "DatVietVAC",
+    "location": {
+      "country": "VN",
+      "market": "vietnam",
+      "city": "Ho Chi Minh City"
+    },
+    "certifications": [
+      {
+        "id": "pmp",
+        "requirement": "preferred"
+      }
+    ],
+    "source": {
+      "name": "ITviec",
+      "url": "https://itviec.com/it-jobs/principal-backend-engineer-golang-microservices-datvietvac-4329"
+    },
+    "postedAt": "2026-09-03",
+    "crawledAt": "2026-09-18T06:56:04.346Z"
+  },
+  {
+    "id": "itviec_senior-devops-engineer-cloud-azure-mitek-vietnam-3403",
+    "title": "Senior DevOps Engineer Cloud Azure",
+    "company": "MiTek Vietnam",
+    "location": {
+      "country": "VN",
+      "market": "vietnam",
+      "city": "Ho Chi Minh City"
+    },
+    "certifications": [
+      {
+        "id": "az-900",
+        "requirement": "preferred"
+      },
+      {
+        "id": "az-104",
+        "requirement": "preferred"
+      }
+    ],
+    "source": {
+      "name": "ITviec",
+      "url": "https://itviec.com/it-jobs/senior-devops-engineer-cloud-azure-mitek-vietnam-3403"
+    },
+    "postedAt": "2026-09-09",
+    "crawledAt": "2026-09-18T06:56:04.346Z"
+  },
+  {
+    "id": "itviec_devops-engineer-spartan-x-technology-0702",
+    "title": "DevOps Engineer",
+    "company": "SPARTAN X TECHNOLOGY",
+    "location": {
+      "country": "VN",
+      "market": "vietnam",
+      "city": "Ho Chi Minh City"
+    },
+    "certifications": [
+      {
+        "id": "ckad",
+        "requirement": "mentioned"
+      },
+      {
+        "id": "cka",
+        "requirement": "mentioned"
+      }
+    ],
+    "source": {
+      "name": "ITviec",
+      "url": "https://itviec.com/it-jobs/devops-engineer-spartan-x-technology-0702"
+    },
+    "postedAt": "2026-09-07",
+    "crawledAt": "2026-09-18T06:56:04.346Z"
+  },
+  {
+    "id": "itviec_devsecops-mlops-engineer-kubernetes-aws-ci-cd-vinsoc-3558",
+    "title": "DevSecOps/MLOps Engineer Kubernetes, AWS, CI/CD",
+    "company": "VinSOC",
+    "location": {
+      "country": "VN",
+      "market": "vietnam",
+      "city": "Hanoi"
+    },
+    "certifications": [
+      {
+        "id": "ckad",
+        "requirement": "mentioned"
+      },
+      {
+        "id": "cka",
+        "requirement": "mentioned"
+      }
+    ],
+    "source": {
+      "name": "ITviec",
+      "url": "https://itviec.com/it-jobs/devsecops-mlops-engineer-kubernetes-aws-ci-cd-vinsoc-3558"
+    },
+    "postedAt": "2026-08-17",
+    "crawledAt": "2026-09-18T06:56:04.346Z"
+  },
+  {
+    "id": "itviec_senior-devops-engineer-accenture-5205",
+    "title": "Senior Devops Engineer ",
+    "company": "Accenture",
+    "location": {
+      "country": "VN",
+      "market": "vietnam",
+      "city": "Ho Chi Minh City"
+    },
+    "certifications": [
+      {
+        "id": "terraform-associate",
+        "requirement": "preferred"
+      },
+      {
+        "id": "aws-dop",
+        "requirement": "preferred"
+      },
+      {
+        "id": "cka",
+        "requirement": "preferred"
+      }
+    ],
+    "source": {
+      "name": "ITviec",
+      "url": "https://itviec.com/it-jobs/senior-devops-engineer-accenture-5205"
+    },
+    "postedAt": "2026-08-24",
+    "crawledAt": "2026-09-18T06:56:04.346Z"
+  },
+  {
+    "id": "itviec_OCP-Java-17",
+    "title": "105 OCP Java 17 jobs in Vietnam",
+    "company": "Hiring\nExclusive Jobs",
+    "location": {
+      "country": "GLOBAL",
+      "market": "global",
+      "scope": "unknown"
+    },
+    "certifications": [
+      {
+        "id": "ocp-java-17",
+        "requirement": "mentioned"
+      }
+    ],
+    "source": {
+      "name": "ITviec",
+      "url": "https://itviec.com/it-jobs/OCP-Java-17"
+    },
+    "postedAt": "2026-09-18",
+    "crawledAt": "2026-09-18T06:56:04.346Z"
+  },
+  {
+    "id": "itviec_medior-enterprise-security-architect-de-heus-asia-3455",
+    "title": "Medior Enterprise Security Architect",
+    "company": "De Heus Asia",
+    "location": {
+      "country": "VN",
+      "market": "vietnam",
+      "city": "Ho Chi Minh City"
+    },
+    "certifications": [
+      {
+        "id": "cissp",
+        "requirement": "preferred"
+      }
+    ],
+    "source": {
+      "name": "ITviec",
+      "url": "https://itviec.com/it-jobs/medior-enterprise-security-architect-de-heus-asia-3455"
+    },
+    "postedAt": "2026-08-28",
+    "crawledAt": "2026-09-18T06:22:57.888Z"
+  },
+  {
+    "id": "mcf_3ed2d3ee815d8a8a0278b194e8260294",
+    "title": "Cyber Security Incident Responder",
+    "company": "JJ CONSULTING SERVICES",
+    "location": {
+      "country": "SG",
+      "market": "singapore",
+      "city": "Singapore"
+    },
+    "certifications": [
+      {
+        "id": "ceh",
+        "requirement": "mentioned"
+      },
+      {
+        "id": "cissp",
+        "requirement": "mentioned"
+      }
+    ],
+    "source": {
+      "name": "MyCareersFuture",
+      "url": "https://www.mycareersfuture.gov.sg/job/information-technology/cyber-security-incident-responder-jj-consulting-services-3ed2d3ee815d8a8a0278b194e8260294"
+    },
+    "postedAt": "2026-09-18",
+    "crawledAt": "2026-09-18T06:22:57.888Z"
+  },
+  {
+    "id": "vieclam24h_200719507",
+    "title": "Nhân Viên Kỹ Thuật IT - Viễn Thông",
+    "company": "Công Ty TNHH Thương Mại Và Phát Triển Dịch Vụ Kỹ Thuật (Escom)",
+    "location": {
+      "country": "VN",
+      "market": "vietnam",
+      "city": "Hanoi"
+    },
+    "certifications": [
+      {
+        "id": "ccna",
+        "requirement": "preferred"
+      },
+      {
+        "id": "ccnp-enterprise",
+        "requirement": "preferred"
+      }
+    ],
+    "source": {
+      "name": "Vieclam24h",
+      "url": "https://vieclam24h.vn/it-phan-cung-mang/nhan-vien-ky-thuat-it-vien-thong-c7p73id200719507.html"
+    },
+    "postedAt": "2026-07-01",
+    "crawledAt": "2026-09-18T06:22:57.888Z"
+  },
+  {
+    "id": "vieclam24h_200807957",
+    "title": "Nhân Viên IT Vận Hành & Bảo Trì Phòng Máy Alibaba (Làm Việc Tại Vnpt - Quận 7- HCM)",
+    "company": "Công Ty Cổ Phần Cơ Điện Và Xây Dựng Mec Việt Nam",
+    "location": {
+      "country": "VN",
+      "market": "vietnam",
+      "city": "Ho Chi Minh City"
+    },
+    "certifications": [
+      {
+        "id": "ccna",
+        "requirement": "mentioned"
+      },
+      {
+        "id": "ccnp-enterprise",
+        "requirement": "mentioned"
+      }
+    ],
+    "source": {
+      "name": "Vieclam24h",
+      "url": "https://vieclam24h.vn/it-phan-cung-mang/nhan-vien-it-van-hanh-bao-tri-phong-may-alibaba-lam-viec-tai-vnpt-quan-7-hcm-c7p122id200807957.html"
+    },
+    "postedAt": "2026-07-01",
+    "crawledAt": "2026-09-18T06:22:57.888Z"
+  },
+  {
+    "id": "vieclam24h_200840044",
+    "title": "Kỹ Sư Hệ Thống Mạng – Cctv – Server",
+    "company": "Công Ty TNHH KD Quốc Tế",
+    "location": {
+      "country": "VN",
+      "market": "vietnam",
+      "city": "Hanoi"
+    },
+    "certifications": [
+      {
+        "id": "ccna",
+        "requirement": "mentioned"
+      },
+      {
+        "id": "ccnp-enterprise",
+        "requirement": "mentioned"
+      }
+    ],
+    "source": {
+      "name": "Vieclam24h",
+      "url": "https://vieclam24h.vn/it-phan-cung-mang/ky-su-he-thong-mang-cctv-server-c7p73id200840044.html"
+    },
+    "postedAt": "2026-08-01",
+    "crawledAt": "2026-09-18T06:22:57.888Z"
+  },
+  {
+    "id": "vieclam24h_200844796",
+    "title": "Kỹ Sư Triển Khai & Vận Hành Hệ Thống - IT Infrastructure & Operations",
+    "company": "Công Ty Cổ Phần Công Nghệ Oryza Systems",
+    "location": {
+      "country": "VN",
+      "market": "vietnam",
+      "city": "Binh Duong"
+    },
+    "certifications": [
+      {
+        "id": "ccna",
+        "requirement": "mentioned"
+      }
+    ],
+    "source": {
+      "name": "Vieclam24h",
+      "url": "https://vieclam24h.vn/it-phan-cung-mang/ky-su-trien-khai-van-hanh-he-thong-it-infrastructure-operations-c7p122id200844796.html"
+    },
+    "postedAt": "2026-07-01",
+    "crawledAt": "2026-09-18T06:22:57.888Z"
+  },
+  {
+    "id": "vieclam24h_200873286",
+    "title": "Kỹ Sư Quản Trị Hệ Thống",
+    "company": "Công Ty Cổ Phần Công Nghiệp Weldcom",
+    "location": {
+      "country": "VN",
+      "market": "vietnam",
+      "city": "Hanoi"
+    },
+    "certifications": [
+      {
+        "id": "az-104",
+        "requirement": "preferred"
+      },
+      {
+        "id": "security-plus",
+        "requirement": "preferred"
+      }
+    ],
+    "source": {
+      "name": "Vieclam24h",
+      "url": "https://vieclam24h.vn/it-phan-cung-mang/ky-su-quan-tri-he-thong-c7p73id200873286.html"
+    },
+    "postedAt": "2026-07-03",
+    "crawledAt": "2026-09-18T06:22:57.888Z"
+  },
+  {
+    "id": "vieclam24h_200874871",
+    "title": "Quản Trị Hệ Thống (System Admin Linux / Support Level 2)",
+    "company": "Công Ty Cổ Phần Sài Gòn BPO ",
+    "location": {
+      "country": "VN",
+      "market": "vietnam",
+      "city": "Ho Chi Minh City"
+    },
+    "certifications": [
+      {
+        "id": "ccna",
+        "requirement": "mentioned"
+      }
+    ],
+    "source": {
+      "name": "Vieclam24h",
+      "url": "https://vieclam24h.vn/it-phan-mem/quan-tri-he-thong-system-admin-linux-support-level-2-c8p122id200874871.html"
+    },
+    "postedAt": "2026-07-01",
+    "crawledAt": "2026-09-18T06:22:57.888Z"
+  },
+  {
+    "id": "itviec_penetration-tester-lg-cns-viet-nam-0840",
+    "title": "Penetration Tester ",
+    "company": "LG CNS Việt Nam",
+    "location": {
+      "country": "VN",
+      "market": "vietnam",
+      "city": "Hanoi"
+    },
+    "certifications": [
+      {
+        "id": "ceh",
+        "requirement": "preferred"
+      }
+    ],
+    "source": {
+      "name": "ITviec",
+      "url": "https://itviec.com/it-jobs/penetration-tester-lg-cns-viet-nam-0840"
+    },
+    "postedAt": "2026-09-04",
+    "crawledAt": "2026-09-18T06:56:04.346Z"
+  },
+  {
+    "id": "itviec_tech-project-manager-english-speaking-ingenico-vietnam-4809",
+    "title": "Tech Project Manager English speaking",
+    "company": "Ingenico Vietnam",
+    "location": {
+      "country": "VN",
+      "market": "vietnam",
+      "city": "Hanoi"
+    },
+    "certifications": [
+      {
+        "id": "pmp",
+        "requirement": "preferred"
+      }
+    ],
+    "source": {
+      "name": "ITviec",
+      "url": "https://itviec.com/it-jobs/tech-project-manager-english-speaking-ingenico-vietnam-4809"
+    },
+    "postedAt": "2026-08-31",
+    "crawledAt": "2026-09-18T06:56:04.346Z"
+  },
+  {
+    "id": "itviec_infrastructure-cloud-platform-operations-manager-dai-ichi-life-viet-nam-1048",
+    "title": "Infrastructure, Cloud  Platform Operations Manager",
+    "company": "Dai-ichi Life Việt Nam",
+    "location": {
+      "country": "VN",
+      "market": "vietnam",
+      "city": "Ho Chi Minh City"
+    },
+    "certifications": [
+      {
+        "id": "az-104",
+        "requirement": "mentioned"
+      },
+      {
+        "id": "cissp",
+        "requirement": "preferred"
+      },
+      {
+        "id": "gcp-ace",
+        "requirement": "mentioned"
+      }
+    ],
+    "source": {
+      "name": "ITviec",
+      "url": "https://itviec.com/it-jobs/infrastructure-cloud-platform-operations-manager-dai-ichi-life-viet-nam-1048"
+    },
+    "postedAt": "2026-08-25",
+    "crawledAt": "2026-09-18T06:56:04.346Z"
+  },
+  {
+    "id": "itviec_corporate-security-lead-dlp-edr-networking-money-forward-vietnam-co-ltd-0242",
+    "title": "Corporate Security Lead DLP, EDR, Networking",
+    "company": "MONEY FORWARD VIETNAM CO.,LTD",
+    "location": {
+      "country": "VN",
+      "market": "vietnam",
+      "city": "Ho Chi Minh City"
+    },
+    "certifications": [
+      {
+        "id": "cissp",
+        "requirement": "mentioned"
+      }
+    ],
+    "source": {
+      "name": "ITviec",
+      "url": "https://itviec.com/it-jobs/corporate-security-lead-dlp-edr-networking-money-forward-vietnam-co-ltd-0242"
+    },
+    "postedAt": "2026-08-24",
+    "crawledAt": "2026-09-18T06:56:04.346Z"
+  },
+  {
+    "id": "itviec_project-manager-english-shinhan-ds-5203",
+    "title": "Project Manager English",
+    "company": "SHINHAN DS",
+    "location": {
+      "country": "VN",
+      "market": "vietnam",
+      "city": "Ho Chi Minh City"
+    },
+    "certifications": [
+      {
+        "id": "pmp",
+        "requirement": "mentioned"
+      }
+    ],
+    "source": {
+      "name": "ITviec",
+      "url": "https://itviec.com/it-jobs/project-manager-english-shinhan-ds-5203"
+    },
+    "postedAt": "2026-09-14",
+    "crawledAt": "2026-09-18T06:56:04.346Z"
+  },
+  {
+    "id": "itviec_scrum-master-scrum-coach-one-mount-group-4211",
+    "title": "Scrum Master/ Scrum Coach",
+    "company": "One Mount Group",
+    "location": {
+      "country": "VN",
+      "market": "vietnam",
+      "city": "Hanoi"
+    },
+    "certifications": [
+      {
+        "id": "psm-1",
+        "requirement": "required"
+      }
+    ],
+    "source": {
+      "name": "ITviec",
+      "url": "https://itviec.com/it-jobs/scrum-master-scrum-coach-one-mount-group-4211"
+    },
+    "postedAt": "2026-09-14",
+    "crawledAt": "2026-09-18T06:56:04.346Z"
+  },
+  {
+    "id": "itviec_lead-penetration-tester-web-api-ai-applications-galaxy-holdings-4535",
+    "title": "Lead Penetration Tester Web, API  AI Applications",
+    "company": "GALAXY HOLDINGS",
+    "location": {
+      "country": "VN",
+      "market": "vietnam",
+      "city": "Ho Chi Minh City"
+    },
+    "certifications": [
+      {
+        "id": "cissp",
+        "requirement": "preferred"
+      }
+    ],
+    "source": {
+      "name": "ITviec",
+      "url": "https://itviec.com/it-jobs/lead-penetration-tester-web-api-ai-applications-galaxy-holdings-4535"
+    },
+    "postedAt": "2026-08-24",
+    "crawledAt": "2026-09-18T06:56:04.346Z"
+  },
+  {
+    "id": "itviec_senior-mobile-developer-native-ios-android-nec-vietnam-5834",
+    "title": "Senior Mobile Developer Native iOS  Android",
+    "company": "NEC Vietnam",
+    "location": {
+      "country": "VN",
+      "market": "vietnam",
+      "city": "Ho Chi Minh City"
+    },
+    "certifications": [
+      {
+        "id": "pmp",
+        "requirement": "mentioned"
+      }
+    ],
+    "source": {
+      "name": "ITviec",
+      "url": "https://itviec.com/it-jobs/senior-mobile-developer-native-ios-android-nec-vietnam-5834"
+    },
+    "postedAt": "2026-08-28",
+    "crawledAt": "2026-09-18T06:56:04.346Z"
+  },
+  {
+    "id": "itviec_it-manager-infrastructure-security-titan-dms-0905",
+    "title": "IT Manager Infrastructure  Security",
+    "company": "Titan DMS ",
+    "location": {
+      "country": "VN",
+      "market": "vietnam",
+      "city": "Ho Chi Minh City"
+    },
+    "certifications": [
+      {
+        "id": "aws-saa",
+        "requirement": "mentioned"
+      },
+      {
+        "id": "az-104",
+        "requirement": "mentioned"
+      },
+      {
+        "id": "cissp",
+        "requirement": "mentioned"
+      }
+    ],
+    "source": {
+      "name": "ITviec",
+      "url": "https://itviec.com/it-jobs/it-manager-infrastructure-security-titan-dms-0905"
+    },
+    "postedAt": "2026-09-04",
+    "crawledAt": "2026-09-18T06:56:04.346Z"
+  },
+  {
+    "id": "itviec_senior-it-business-analyst-ngan-hang-thuong-mai-tnhh-mtv-ky-nguyen-thinh-vuong-gpbank-5117",
+    "title": "Senior IT Business Analyst ",
+    "company": "NGÂN HÀNG THƯƠNG MẠI TNHH MTV KỶ NGUYÊN THỊNH VƯỢNG (GPBANK)",
+    "location": {
+      "country": "VN",
+      "market": "vietnam",
+      "city": "Hanoi"
+    },
+    "certifications": [
+      {
+        "id": "pmp",
+        "requirement": "mentioned"
+      }
+    ],
+    "source": {
+      "name": "ITviec",
+      "url": "https://itviec.com/it-jobs/senior-it-business-analyst-ngan-hang-thuong-mai-tnhh-mtv-ky-nguyen-thinh-vuong-gpbank-5117"
+    },
+    "postedAt": "2026-09-11",
+    "crawledAt": "2026-09-18T06:56:04.346Z"
+  },
+  {
+    "id": "itviec_project-manager-senior-pmo-cong-ty-co-phan-chung-khoan-vps-3908",
+    "title": "Project Manager Senior - PMO",
+    "company": "CÔNG TY CỔ PHẦN CHỨNG KHOÁN VPS",
+    "location": {
+      "country": "VN",
+      "market": "vietnam",
+      "city": "Hanoi"
+    },
+    "certifications": [
+      {
+        "id": "pmp",
+        "requirement": "preferred"
+      }
+    ],
+    "source": {
+      "name": "ITviec",
+      "url": "https://itviec.com/it-jobs/project-manager-senior-pmo-cong-ty-co-phan-chung-khoan-vps-3908"
+    },
+    "postedAt": "2026-09-16",
+    "crawledAt": "2026-09-18T06:56:04.346Z"
+  },
+  {
+    "id": "itviec_asso-manager-sre-5-yrs-english-yum-digital-technology-0418",
+    "title": "Asso. Manager, SRE 5+yrs, English",
+    "company": "YUM! Digital & Technology",
+    "location": {
+      "country": "VN",
+      "market": "vietnam",
+      "city": "Ho Chi Minh City"
+    },
+    "certifications": [
+      {
+        "id": "cka",
+        "requirement": "mentioned"
+      }
+    ],
+    "source": {
+      "name": "ITviec",
+      "url": "https://itviec.com/it-jobs/asso-manager-sre-5-yrs-english-yum-digital-technology-0418"
+    },
+    "postedAt": "2026-09-16",
+    "crawledAt": "2026-09-18T06:56:04.346Z"
+  },
+  {
+    "id": "vieclam24h_200870313",
+    "title": "Project Manager (PM) Phần Mềm",
+    "company": "Công Ty Cổ Phần Tập Đoàn Vitech",
+    "location": {
+      "country": "VN",
+      "market": "vietnam",
+      "city": "Hanoi"
+    },
+    "certifications": [
+      {
+        "id": "pmp",
+        "requirement": "preferred"
+      }
+    ],
+    "source": {
+      "name": "Vieclam24h",
+      "url": "https://vieclam24h.vn/quan-ly-du-an/project-manager-pm-phan-mem-c27p73id200870313.html"
+    },
+    "postedAt": "2026-07-01",
+    "crawledAt": "2026-09-18T06:22:57.888Z"
+  },
+  {
+    "id": "vieclam24h_200876522",
+    "title": "Digitalization Senior Executive",
+    "company": "Cty Tài Chính TNHH MTV Mirae Asset (Việt Nam)",
+    "location": {
+      "country": "VN",
+      "market": "vietnam",
+      "city": "Ho Chi Minh City"
+    },
+    "certifications": [
+      {
+        "id": "pmp",
+        "requirement": "preferred"
+      }
+    ],
+    "source": {
+      "name": "Vieclam24h",
+      "url": "https://vieclam24h.vn/quan-ly-du-an/digitalization-senior-executive-c27p122id200876522.html"
+    },
+    "postedAt": "2026-07-08",
+    "crawledAt": "2026-09-18T06:22:57.888Z"
+  },
+  {
+    "id": "mcf_46b76b64240cee87eb5d95615bf0bcc6",
+    "title": "Network Engineer (L1) – Cisco / CCNA | Tampines",
+    "company": "NTT SINGAPORE PTE. LTD.",
+    "location": {
+      "country": "SG",
+      "market": "singapore",
+      "city": "Singapore"
+    },
+    "certifications": [
+      {
+        "id": "ccna",
+        "requirement": "mentioned"
+      }
+    ],
+    "source": {
+      "name": "MyCareersFuture",
+      "url": "https://www.mycareersfuture.gov.sg/job/information-technology/network-engineer-%E2%80%93-cisco-ccna-tampines-ntt-singapore-46b76b64240cee87eb5d95615bf0bcc6"
+    },
+    "postedAt": "2026-08-19",
+    "crawledAt": "2026-09-18T06:22:57.888Z"
+  },
+  {
+    "id": "remoteok_1137169",
+    "title": "Programmatic Campaign Operations Specialist Trader",
+    "company": "VirtuHire",
+    "location": {
+      "country": "GLOBAL",
+      "market": "global"
+    },
+    "certifications": [
+      {
+        "id": "pmp",
+        "requirement": "mentioned"
+      }
+    ],
+    "source": {
+      "name": "Remote OK",
+      "url": "https://remoteOK.com/remote-jobs/remote-programmatic-campaign-operations-specialist-trader-virtuhire-1137169"
+    },
+    "postedAt": "2026-08-27",
+    "crawledAt": "2026-09-18T06:22:57.888Z"
+  },
+  {
+    "id": "remoteok_1137061",
+    "title": "Senior Governance Risk and Compliance Analyst",
+    "company": "RainFocus",
+    "location": {
+      "country": "GLOBAL",
+      "market": "global",
+      "scope": "unknown"
+    },
+    "certifications": [
+      {
+        "id": "cissp",
+        "requirement": "mentioned"
+      }
+    ],
+    "source": {
+      "name": "Remote OK",
+      "url": "https://remoteOK.com/remote-jobs/remote-senior-governance-risk-and-compliance-analyst-rainfocus-1137061"
+    },
+    "postedAt": "2026-08-22",
+    "crawledAt": "2026-09-18T06:22:57.888Z"
+  },
+  {
+    "id": "remoteok_1136701",
+    "title": "QA Tester Entry Level",
+    "company": "Ace IT Careers",
+    "location": {
+      "country": "GLOBAL",
+      "market": "global"
+    },
+    "certifications": [
+      {
+        "id": "gcp-ace",
+        "requirement": "mentioned"
+      }
+    ],
+    "source": {
+      "name": "Remote OK",
+      "url": "https://remoteOK.com/remote-jobs/remote-qa-tester-entry-level-ace-it-careers-1136701"
+    },
+    "postedAt": "2026-08-15",
+    "crawledAt": "2026-09-18T06:22:57.888Z"
+  },
+  {
+    "id": "arbeitnow_principal-information-security-manager-remote-working-within-germany-234823",
+    "title": "Principal Information Security Manager - remote working within Germany",
+    "company": "Staffbase",
+    "location": {
+      "country": "GLOBAL",
+      "market": "global",
+      "scope": "unknown"
+    },
+    "certifications": [
+      {
+        "id": "cissp",
+        "requirement": "mentioned"
+      }
+    ],
+    "source": {
+      "name": "Arbeitnow",
+      "url": "https://www.arbeitnow.com/jobs/companies/staffbase/principal-information-security-manager-remote-working-within-germany-234823"
+    },
+    "postedAt": "2026-09-17",
+    "crawledAt": "2026-09-18T06:22:57.888Z"
+  },
+  {
+    "id": "arbeitnow_remote-kubernetes-administrator-private-cloud-engineer-karlsruhe-36018",
+    "title": "Kubernetes Administrator/Private Cloud Engineer (m/w/d)",
+    "company": "virtual7 GmbH",
+    "location": {
+      "country": "GLOBAL",
+      "market": "global"
+    },
+    "certifications": [
+      {
+        "id": "cka",
+        "requirement": "mentioned"
+      }
+    ],
+    "source": {
+      "name": "Arbeitnow",
+      "url": "https://www.arbeitnow.com/jobs/companies/virtual7-gmbh/remote-kubernetes-administrator-private-cloud-engineer-karlsruhe-36018"
+    },
+    "postedAt": "2026-09-17",
+    "crawledAt": "2026-09-18T06:22:57.888Z"
+  },
+  {
+    "id": "arbeitnow_senior-security-analyst-cardiff-235763",
+    "title": "Senior Security Analyst",
+    "company": "Monzo",
+    "location": {
+      "country": "GLOBAL",
+      "market": "global",
+      "scope": "unknown"
+    },
+    "certifications": [
+      {
+        "id": "gcp-ace",
+        "requirement": "mentioned"
+      }
+    ],
+    "source": {
+      "name": "Arbeitnow",
+      "url": "https://www.arbeitnow.co.uk/jobs/companies/monzo/senior-security-analyst-cardiff-235763"
+    },
+    "postedAt": "2026-09-17",
+    "crawledAt": "2026-09-18T06:22:57.888Z"
+  },
+  {
+    "id": "arbeitnow_senior-lead-operational-performance-excellence-cardiff-158677",
+    "title": "Senior Lead - Operational Performance & Excellence",
+    "company": "Monzo",
+    "location": {
+      "country": "GLOBAL",
+      "market": "global",
+      "scope": "unknown"
+    },
+    "certifications": [
+      {
+        "id": "gcp-ace",
+        "requirement": "mentioned"
+      }
+    ],
+    "source": {
+      "name": "Arbeitnow",
+      "url": "https://www.arbeitnow.co.uk/jobs/companies/monzo/senior-lead-operational-performance-excellence-cardiff-158677"
+    },
+    "postedAt": "2026-09-17",
+    "crawledAt": "2026-09-18T06:22:57.888Z"
+  },
+  {
+    "id": "arbeitnow_senior-financial-crime-investigator-eu-spanish-english-204514",
+    "title": "Senior Financial Crime Investigator  - EU, Spanish & English",
+    "company": "Monzo",
+    "location": {
+      "country": "GLOBAL",
+      "market": "global",
+      "scope": "unknown"
+    },
+    "certifications": [
+      {
+        "id": "gcp-ace",
+        "requirement": "mentioned"
+      }
+    ],
+    "source": {
+      "name": "Arbeitnow",
+      "url": "https://www.arbeitnow.co.uk/jobs/companies/monzo/senior-financial-crime-investigator-eu-spanish-english-204514"
+    },
+    "postedAt": "2026-09-17",
+    "crawledAt": "2026-09-18T06:22:57.888Z"
+  },
+  {
+    "id": "arbeitnow_senior-director-of-people-operations-cardiff-2322",
+    "title": "Senior Director of People Operations",
+    "company": "Monzo",
+    "location": {
+      "country": "GLOBAL",
+      "market": "global",
+      "scope": "unknown"
+    },
+    "certifications": [
+      {
+        "id": "gcp-ace",
+        "requirement": "mentioned"
+      }
+    ],
+    "source": {
+      "name": "Arbeitnow",
+      "url": "https://www.arbeitnow.co.uk/jobs/companies/monzo/senior-director-of-people-operations-cardiff-2322"
+    },
+    "postedAt": "2026-09-17",
+    "crawledAt": "2026-09-18T06:22:57.888Z"
+  },
+  {
+    "id": "arbeitnow_operational-tax-senior-manager-cardiff-333169",
+    "title": "Operational Tax, Senior Manager",
+    "company": "Monzo",
+    "location": {
+      "country": "GLOBAL",
+      "market": "global",
+      "scope": "unknown"
+    },
+    "certifications": [
+      {
+        "id": "gcp-ace",
+        "requirement": "mentioned"
+      }
+    ],
+    "source": {
+      "name": "Arbeitnow",
+      "url": "https://www.arbeitnow.co.uk/jobs/companies/monzo/operational-tax-senior-manager-cardiff-333169"
+    },
+    "postedAt": "2026-09-17",
+    "crawledAt": "2026-09-18T06:22:57.888Z"
+  },
+  {
+    "id": "arbeitnow_senior-site-reliability-engineer-sre-kubernetes-hybrid-cloud-berlin-375124",
+    "title": "Senior Site Reliability Engineer / SRE – Kubernetes & Hybrid Cloud (m/f/d)",
+    "company": "Fact Finder",
+    "location": {
+      "country": "GLOBAL",
+      "market": "global",
+      "scope": "unknown"
+    },
+    "certifications": [
+      {
+        "id": "cka",
+        "requirement": "mentioned"
+      }
+    ],
+    "source": {
+      "name": "Arbeitnow",
+      "url": "https://www.arbeitnow.com/jobs/companies/fact-finder/senior-site-reliability-engineer-sre-kubernetes-hybrid-cloud-berlin-375124"
+    },
+    "postedAt": "2026-09-17",
+    "crawledAt": "2026-09-18T06:22:57.888Z"
+  },
+  {
+    "id": "arbeitnow_performance-marketing-manager-schwerpunkt-paid-social-berlin-415243",
+    "title": "Performance Marketing Manager / Paid Social (m/w/d)",
+    "company": "Yellowgrape GmbH",
+    "location": {
+      "country": "GLOBAL",
+      "market": "global",
+      "scope": "unknown"
+    },
+    "certifications": [
+      {
+        "id": "gcp-ace",
+        "requirement": "mentioned"
+      }
+    ],
+    "source": {
+      "name": "Arbeitnow",
+      "url": "https://www.arbeitnow.com/jobs/companies/yellowgrape-gmbh/performance-marketing-manager-schwerpunkt-paid-social-berlin-415243"
+    },
+    "postedAt": "2026-09-17",
+    "crawledAt": "2026-09-18T06:22:57.888Z"
+  },
+  {
+    "id": "arbeitnow_head-of-projects-data-center-frankfurt-am-main-153841",
+    "title": "Head of Projects (m/w/d) - Data Center",
+    "company": "CBRE Global Workplace Solutions / Data Center Solutions",
+    "location": {
+      "country": "GLOBAL",
+      "market": "global",
+      "scope": "unknown"
+    },
+    "certifications": [
+      {
+        "id": "pmp",
+        "requirement": "mentioned"
+      }
+    ],
+    "source": {
+      "name": "Arbeitnow",
+      "url": "https://www.arbeitnow.com/jobs/companies/cbre-global-workplace-solutions-data-center-solutions/head-of-projects-data-center-frankfurt-am-main-153841"
+    },
+    "postedAt": "2026-09-17",
+    "crawledAt": "2026-09-18T06:22:57.888Z"
+  },
+  {
+    "id": "arbeitnow_head-of-projects-data-center-frankfurt-am-main-347890",
+    "title": "Head of Projects (m/w/d) - Data Center",
+    "company": "CBRE Global Workplace Solutions / Data Center Solutions",
+    "location": {
+      "country": "GLOBAL",
+      "market": "global",
+      "scope": "unknown"
+    },
+    "certifications": [
+      {
+        "id": "pmp",
+        "requirement": "mentioned"
+      }
+    ],
+    "source": {
+      "name": "Arbeitnow",
+      "url": "https://www.arbeitnow.com/jobs/companies/cbre-global-workplace-solutions-data-center-solutions/head-of-projects-data-center-frankfurt-am-main-347890"
+    },
+    "postedAt": "2026-09-17",
+    "crawledAt": "2026-09-18T06:22:57.888Z"
+  },
+  {
+    "id": "arbeitnow_remote-senior-technical-project-manager-pmo-all-genders-48751",
+    "title": "Senior Technical Project Manager - PMO (all genders)",
+    "company": "Contabo",
+    "location": {
+      "country": "GLOBAL",
+      "market": "global"
+    },
+    "certifications": [
+      {
+        "id": "pmp",
+        "requirement": "preferred"
+      }
+    ],
+    "source": {
+      "name": "Arbeitnow",
+      "url": "https://www.arbeitnow.com/jobs/companies/contabo/remote-senior-technical-project-manager-pmo-all-genders-48751"
+    },
+    "postedAt": "2026-09-17",
+    "crawledAt": "2026-09-18T06:22:57.888Z"
+  },
+  {
+    "id": "arbeitnow_senior-security-engineer-munchen-454299",
+    "title": "Senior Security Engineer (m/f/d)",
+    "company": "Yoummday GmbH",
+    "location": {
+      "country": "GLOBAL",
+      "market": "global",
+      "scope": "unknown"
+    },
+    "certifications": [
+      {
+        "id": "security-plus",
+        "requirement": "preferred"
+      },
+      {
+        "id": "cissp",
+        "requirement": "preferred"
+      }
+    ],
+    "source": {
+      "name": "Arbeitnow",
+      "url": "https://www.arbeitnow.com/jobs/companies/yoummday-gmbh/senior-security-engineer-munchen-454299"
+    },
+    "postedAt": "2026-09-16",
+    "crawledAt": "2026-09-18T06:22:57.888Z"
+  },
+  {
+    "id": "arbeitnow_buyer-development-sr-director-dach-munich-321699",
+    "title": "Buyer Development Sr Director DACH",
+    "company": "Openx",
+    "location": {
+      "country": "GLOBAL",
+      "market": "global",
+      "scope": "unknown"
+    },
+    "certifications": [
+      {
+        "id": "pmp",
+        "requirement": "mentioned"
+      }
+    ],
+    "source": {
+      "name": "Arbeitnow",
+      "url": "https://www.arbeitnow.com/jobs/companies/openx/buyer-development-sr-director-dach-munich-321699"
+    },
+    "postedAt": "2026-09-16",
+    "crawledAt": "2026-09-18T06:22:57.888Z"
+  },
+  {
+    "id": "arbeitnow_senior-sales-engineer-germany-156998",
+    "title": "Senior Sales Engineer - Germany",
+    "company": "zscaler",
+    "location": {
+      "country": "GLOBAL",
+      "market": "global",
+      "scope": "unknown"
+    },
+    "certifications": [
+      {
+        "id": "cissp",
+        "requirement": "mentioned"
+      },
+      {
+        "id": "ccnp-enterprise",
+        "requirement": "mentioned"
+      }
+    ],
+    "source": {
+      "name": "Arbeitnow",
+      "url": "https://www.arbeitnow.com/jobs/companies/zscaler/senior-sales-engineer-germany-156998"
+    },
+    "postedAt": "2026-09-16",
+    "crawledAt": "2026-09-18T06:22:57.888Z"
+  }
+]

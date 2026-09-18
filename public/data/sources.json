@@ -1,0 +1,182 @@
+[
+  {
+    "id": "daynhauhoc",
+    "name": "Dạy Nhau Học",
+    "type": "community",
+    "url": "https://daynhauhoc.com",
+    "records": 1,
+    "lastCrawledAt": "2026-09-18T06:26:09.937Z",
+    "lastCrawlStartedAt": "2026-09-18T06:25:59.049Z",
+    "lastCrawlDurationMs": 10888
+  },
+  {
+    "id": "github",
+    "name": "GitHub",
+    "type": "community",
+    "url": "https://github.com",
+    "records": 113,
+    "lastCrawledAt": "2026-09-18T06:29:30.088Z",
+    "lastCrawlStartedAt": "2026-09-18T06:26:58.709Z",
+    "lastCrawlDurationMs": 151379
+  },
+  {
+    "id": "reddit",
+    "name": "Reddit",
+    "type": "community",
+    "url": "https://www.reddit.com",
+    "records": 0,
+    "lastCrawledAt": "2026-09-18",
+    "lastCrawlStartedAt": "2026-09-18T05:40:45.493Z",
+    "lastCrawlDurationMs": 0,
+    "notes": "Needs REDDIT_CLIENT_ID and REDDIT_CLIENT_SECRET (robots.txt forbids scraping)"
+  },
+  {
+    "id": "stackoverflow",
+    "name": "Stack Overflow",
+    "type": "community",
+    "url": "https://stackoverflow.com",
+    "records": 51,
+    "lastCrawledAt": "2026-09-18T06:26:58.709Z",
+    "lastCrawlStartedAt": "2026-09-18T06:26:39.583Z",
+    "lastCrawlDurationMs": 19126
+  },
+  {
+    "id": "viblo",
+    "name": "Viblo",
+    "type": "community",
+    "url": "https://viblo.asia",
+    "records": 0,
+    "lastCrawledAt": "2026-09-18T06:26:10.870Z",
+    "lastCrawlStartedAt": "2026-09-18T06:26:09.937Z",
+    "lastCrawlDurationMs": 933
+  },
+  {
+    "id": "voz",
+    "name": "VOZ",
+    "type": "community",
+    "url": "https://voz.vn",
+    "records": 0,
+    "lastCrawledAt": "2026-09-18",
+    "lastCrawlStartedAt": "2026-09-18T05:40:45.493Z",
+    "lastCrawlDurationMs": 0,
+    "notes": "Disabled in crawler/config.ts"
+  },
+  {
+    "id": "zenn",
+    "name": "Zenn",
+    "type": "community",
+    "url": "https://zenn.dev",
+    "records": 54,
+    "lastCrawledAt": "2026-09-18T06:26:39.583Z",
+    "lastCrawlStartedAt": "2026-09-18T06:26:10.870Z",
+    "lastCrawlDurationMs": 28713
+  },
+  {
+    "id": "coursera",
+    "name": "Coursera",
+    "type": "course-provider",
+    "url": "https://www.coursera.org",
+    "records": 51,
+    "lastCrawledAt": "2026-09-18T06:34:16.513Z",
+    "lastCrawlStartedAt": "2026-09-18T06:32:14.207Z",
+    "lastCrawlDurationMs": 122306
+  },
+  {
+    "id": "official-training",
+    "name": "Official vendor training",
+    "type": "course-provider",
+    "url": "",
+    "records": 16,
+    "lastCrawledAt": "2026-09-18T06:32:14.207Z",
+    "lastCrawlStartedAt": "2026-09-18T06:29:30.089Z",
+    "lastCrawlDurationMs": 164118
+  },
+  {
+    "id": "udemy",
+    "name": "Udemy",
+    "type": "course-provider",
+    "url": "https://www.udemy.com",
+    "records": 0,
+    "lastCrawledAt": "2026-09-18T06:34:16.514Z",
+    "notes": "Needs UDEMY_CLIENT_ID and UDEMY_CLIENT_SECRET (Affiliate API; robots.txt forbids scraping)"
+  },
+  {
+    "id": "vn-training-centers",
+    "name": "Vietnamese training centres",
+    "type": "course-provider",
+    "url": "",
+    "records": 38,
+    "lastCrawledAt": "2026-09-18T06:35:03.648Z",
+    "lastCrawlStartedAt": "2026-09-18T06:34:16.514Z",
+    "lastCrawlDurationMs": 47134
+  },
+  {
+    "id": "careerviet",
+    "name": "CareerViet",
+    "type": "job-board",
+    "url": "https://careerviet.vn",
+    "records": 0,
+    "lastCrawledAt": "2026-09-18T06:17:41.194Z",
+    "lastCrawlStartedAt": "2026-09-18T06:14:04.114Z",
+    "lastCrawlDurationMs": 217080
+  },
+  {
+    "id": "itviec",
+    "name": "ITviec",
+    "type": "job-board",
+    "url": "https://itviec.com",
+    "records": 44,
+    "lastCrawledAt": "2026-09-18T06:13:07.824Z",
+    "lastCrawlStartedAt": "2026-09-18T06:06:44.130Z",
+    "lastCrawlDurationMs": 383694
+  },
+  {
+    "id": "linkedin",
+    "name": "LinkedIn",
+    "type": "job-board",
+    "url": "https://www.linkedin.com",
+    "records": 0,
+    "lastCrawledAt": "2026-09-18T06:25:59.049Z",
+    "notes": "LinkedIn prohibits automated access in robots.txt; its Jobs API is partner-only, so there is no permitted way to crawl it"
+  },
+  {
+    "id": "mycareersfuture",
+    "name": "MyCareersFuture",
+    "type": "job-board",
+    "url": "https://www.mycareersfuture.gov.sg",
+    "records": 7,
+    "lastCrawledAt": "2026-09-18T06:25:50.789Z",
+    "lastCrawlStartedAt": "2026-09-18T06:25:34.403Z",
+    "lastCrawlDurationMs": 16386
+  },
+  {
+    "id": "topcv",
+    "name": "TopCV",
+    "type": "job-board",
+    "url": "https://www.topcv.vn",
+    "records": 0,
+    "lastCrawledAt": "2026-09-18T06:14:04.114Z",
+    "lastCrawlStartedAt": "2026-09-18T06:13:07.824Z",
+    "lastCrawlDurationMs": 56290
+  },
+  {
+    "id": "vieclam24h",
+    "name": "Vieclam24h",
+    "type": "job-board",
+    "url": "https://vieclam24h.vn",
+    "records": 6,
+    "lastCrawledAt": "2026-09-18T06:25:34.403Z",
+    "lastCrawlStartedAt": "2026-09-18T06:17:41.195Z",
+    "lastCrawlDurationMs": 473208
+  },
+  {
+    "id": "weworkremotely",
+    "name": "We Work Remotely",
+    "type": "job-board",
+    "url": "https://weworkremotely.com",
+    "records": 2,
+    "lastCrawledAt": "2026-09-18T06:25:59.048Z",
+    "lastCrawlStartedAt": "2026-09-18T06:25:50.790Z",
+    "lastCrawlDurationMs": 8258
+  }
+]
