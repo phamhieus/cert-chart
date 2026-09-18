@@ -18,7 +18,7 @@
     ],
     "language": "English",
     "price": null,
-    "lastChecked": "2026-09-18T06:22:57.888Z"
+    "lastChecked": "2026-09-18T16:29:20.740Z"
   },
   {
     "id": "official_aws-ccp",
@@ -39,7 +39,7 @@
     ],
     "language": "English",
     "price": null,
-    "lastChecked": "2026-09-18T06:22:57.888Z"
+    "lastChecked": "2026-09-18T16:29:20.740Z"
   },
   {
     "id": "official_aws-dop",
@@ -60,7 +60,7 @@
     ],
     "language": "English",
     "price": null,
-    "lastChecked": "2026-09-18T06:22:57.888Z"
+    "lastChecked": "2026-09-18T16:29:20.740Z"
   },
   {
     "id": "official_az-104",
@@ -81,7 +81,7 @@
     ],
     "language": "English",
     "price": null,
-    "lastChecked": "2026-09-18T06:22:57.888Z"
+    "lastChecked": "2026-09-18T16:29:20.740Z"
   },
   {
     "id": "official_az-900",
@@ -102,7 +102,7 @@
     ],
     "language": "English",
     "price": null,
-    "lastChecked": "2026-09-18T06:22:57.888Z"
+    "lastChecked": "2026-09-18T16:29:20.740Z"
   },
   {
     "id": "official_ccna",
@@ -123,7 +123,7 @@
     ],
     "language": "English",
     "price": null,
-    "lastChecked": "2026-09-18T06:22:57.888Z"
+    "lastChecked": "2026-09-18T16:29:20.740Z"
   },
   {
     "id": "official_ccnp-enterprise",
@@ -144,7 +144,7 @@
     ],
     "language": "English",
     "price": null,
-    "lastChecked": "2026-09-18T06:22:57.888Z"
+    "lastChecked": "2026-09-18T16:29:20.740Z"
   },
   {
     "id": "official_cka",
@@ -165,7 +165,7 @@
     ],
     "language": "English",
     "price": null,
-    "lastChecked": "2026-09-18T06:22:57.888Z"
+    "lastChecked": "2026-09-18T16:29:20.740Z"
   },
   {
     "id": "official_ckad",
@@ -186,7 +186,7 @@
     ],
     "language": "English",
     "price": null,
-    "lastChecked": "2026-09-18T06:22:57.888Z"
+    "lastChecked": "2026-09-18T16:29:20.740Z"
   },
   {
     "id": "official_cissp",
@@ -207,7 +207,7 @@
     ],
     "language": "English",
     "price": null,
-    "lastChecked": "2026-09-18T06:22:57.888Z"
+    "lastChecked": "2026-09-18T16:29:20.740Z"
   },
   {
     "id": "official_security-plus",
@@ -228,7 +228,7 @@
     ],
     "language": "English",
     "price": null,
-    "lastChecked": "2026-09-18T06:22:57.888Z"
+    "lastChecked": "2026-09-18T16:29:20.740Z"
   },
   {
     "id": "official_ceh",
@@ -249,7 +249,7 @@
     ],
     "language": "English",
     "price": null,
-    "lastChecked": "2026-09-18T06:22:57.888Z"
+    "lastChecked": "2026-09-18T16:29:20.740Z"
   },
   {
     "id": "official_gcp-ace",
@@ -270,7 +270,7 @@
     ],
     "language": "English",
     "price": null,
-    "lastChecked": "2026-09-18T06:22:57.888Z"
+    "lastChecked": "2026-09-18T16:29:20.740Z"
   },
   {
     "id": "official_terraform-associate",
@@ -291,7 +291,7 @@
     ],
     "language": "English",
     "price": null,
-    "lastChecked": "2026-09-18T06:22:57.888Z"
+    "lastChecked": "2026-09-18T16:29:20.740Z"
   },
   {
     "id": "official_dp-203",
@@ -312,7 +312,7 @@
     ],
     "language": "English",
     "price": null,
-    "lastChecked": "2026-09-18T06:22:57.888Z"
+    "lastChecked": "2026-09-18T16:29:20.740Z"
   },
   {
     "id": "official_ai-102",
@@ -333,7 +333,7 @@
     ],
     "language": "English",
     "price": null,
-    "lastChecked": "2026-09-18T06:22:57.888Z"
+    "lastChecked": "2026-09-18T16:29:20.740Z"
   },
   {
     "id": "coursera_learn_ai-102-microsoft-azure-ai-engineer-associate-course",
@@ -354,7 +354,7 @@
     ],
     "language": "en",
     "price": null,
-    "lastChecked": "2026-09-18T06:22:57.888Z"
+    "lastChecked": "2026-09-18T16:29:20.740Z"
   },
   {
     "id": "coursera_learn_aws-cloud-practitioner-certification-aws-pricing",
@@ -375,7 +375,7 @@
     ],
     "language": "en",
     "price": null,
-    "lastChecked": "2026-09-18T06:22:57.888Z"
+    "lastChecked": "2026-09-18T16:29:20.740Z"
   },
   {
     "id": "coursera_learn_certified-kubernetes-application-developer-kubernetes-fundamentals",
@@ -396,7 +396,7 @@
     ],
     "language": "en",
     "price": null,
-    "lastChecked": "2026-09-18T06:22:57.888Z"
+    "lastChecked": "2026-09-18T16:29:20.740Z"
   },
   {
     "id": "coursera_learn_essentials-with-azure-fundamentals",
@@ -417,7 +417,7 @@
     ],
     "language": "en",
     "price": null,
-    "lastChecked": "2026-09-18T06:22:57.888Z"
+    "lastChecked": "2026-09-18T16:29:20.740Z"
   },
   {
     "id": "coursera_learn_exam-prep-cka-certified-kubernetes-administrator",
@@ -438,7 +438,7 @@
     ],
     "language": "en",
     "price": null,
-    "lastChecked": "2026-09-18T06:22:57.888Z"
+    "lastChecked": "2026-09-18T16:29:20.740Z"
   },
   {
     "id": "coursera_learn_exam-prep-hashicorp-certified-terraform-associate-003",
@@ -459,7 +459,7 @@
     ],
     "language": "en",
     "price": null,
-    "lastChecked": "2026-09-18T06:22:57.888Z"
+    "lastChecked": "2026-09-18T16:29:20.740Z"
   },
   {
     "id": "coursera_learn_pearson-certified-ethical-hacker-ceh-v13-with-omar-santos-and-nick-garner-l5up0",
@@ -480,7 +480,7 @@
     ],
     "language": "en",
     "price": null,
-    "lastChecked": "2026-09-18T06:22:57.888Z"
+    "lastChecked": "2026-09-18T16:29:20.740Z"
   },
   {
     "id": "coursera_learn_pearson-certified-kubernetes-administrator-cka-4th-edition-video-course-1-u78f0",
@@ -501,7 +501,7 @@
     ],
     "language": "en",
     "price": null,
-    "lastChecked": "2026-09-18T06:22:57.888Z"
+    "lastChecked": "2026-09-18T16:29:20.740Z"
   },
   {
     "id": "coursera_learn_prep-for-microsoft-azure-data-engineer-associate-cert-dp-203",
@@ -522,7 +522,7 @@
     ],
     "language": "en",
     "price": null,
-    "lastChecked": "2026-09-18T06:22:57.888Z"
+    "lastChecked": "2026-09-18T16:29:20.740Z"
   },
   {
     "id": "vncenter_vnpro_thu-vien-hoc-mang-cisco-ccna-8-html",
@@ -543,7 +543,7 @@
     ],
     "language": "Unknown",
     "price": null,
-    "lastChecked": "2026-09-18T06:22:57.888Z"
+    "lastChecked": "2026-09-18T16:29:20.740Z"
   },
   {
     "id": "vncenter_vnpro_thu-vien-hoc-mang-cisco-ccnp-9-html",
@@ -564,7 +564,7 @@
     ],
     "language": "Unknown",
     "price": null,
-    "lastChecked": "2026-09-18T06:22:57.888Z"
+    "lastChecked": "2026-09-18T16:29:20.740Z"
   },
   {
     "id": "vncenter_vnpro_chuong-trinh-dao-tao-bao-gia-khoa-hoc-ccna-hinh-thuc-online-142-html",
@@ -585,7 +585,7 @@
     ],
     "language": "Unknown",
     "price": null,
-    "lastChecked": "2026-09-18T06:22:57.888Z"
+    "lastChecked": "2026-09-18T16:29:20.740Z"
   },
   {
     "id": "vncenter_vnpro_san-pham-bao-gia-khoa-hoc-ccna-hinh-thuc-online-142-html",
@@ -606,7 +606,7 @@
     ],
     "language": "Unknown",
     "price": null,
-    "lastChecked": "2026-09-18T06:22:57.888Z"
+    "lastChecked": "2026-09-18T16:29:20.740Z"
   },
   {
     "id": "vncenter_vnpro_chuong-trinh-dao-tao-bao-gia-khoa-hoc-ccna-hinh-thuc-offline-143-html",
@@ -628,7 +628,7 @@
     ],
     "language": "Unknown",
     "price": null,
-    "lastChecked": "2026-09-18T06:22:57.888Z"
+    "lastChecked": "2026-09-18T16:29:20.740Z"
   },
   {
     "id": "vncenter_vnpro_san-pham-bao-gia-khoa-hoc-ccna-hinh-thuc-offline-143-html",
@@ -650,7 +650,7 @@
     ],
     "language": "Unknown",
     "price": null,
-    "lastChecked": "2026-09-18T06:22:57.888Z"
+    "lastChecked": "2026-09-18T16:29:20.740Z"
   },
   {
     "id": "vncenter_vnpro_chuong-trinh-dao-tao-bao-gia-khoa-hoc-cisco-ccna-cyber-ops-hinh-thuc-offline-144-html",
@@ -672,7 +672,7 @@
     ],
     "language": "Unknown",
     "price": null,
-    "lastChecked": "2026-09-18T06:22:57.888Z"
+    "lastChecked": "2026-09-18T16:29:20.740Z"
   },
   {
     "id": "vncenter_vnpro_san-pham-bao-gia-khoa-hoc-cisco-ccna-cyber-ops-hinh-thuc-offline-144-html",
@@ -694,7 +694,7 @@
     ],
     "language": "Unknown",
     "price": null,
-    "lastChecked": "2026-09-18T06:22:57.888Z"
+    "lastChecked": "2026-09-18T16:29:20.740Z"
   },
   {
     "id": "vncenter_vnpro_chuong-trinh-dao-tao-bao-gia-khoa-hoc-ccna-hinh-thuc-offline-141-html",
@@ -716,7 +716,7 @@
     ],
     "language": "Unknown",
     "price": null,
-    "lastChecked": "2026-09-18T06:22:57.888Z"
+    "lastChecked": "2026-09-18T16:29:20.740Z"
   },
   {
     "id": "vncenter_vnpro_san-pham-bao-gia-khoa-hoc-ccna-hinh-thuc-offline-141-html",
@@ -738,7 +738,7 @@
     ],
     "language": "Unknown",
     "price": null,
-    "lastChecked": "2026-09-18T06:22:57.888Z"
+    "lastChecked": "2026-09-18T16:29:20.740Z"
   },
   {
     "id": "vncenter_vnpro_chuong-trinh-dao-tao-bao-gia-khoa-hoc-encor-hinh-thuc-offline-151-html",
@@ -760,7 +760,7 @@
     ],
     "language": "Unknown",
     "price": null,
-    "lastChecked": "2026-09-18T06:22:57.888Z"
+    "lastChecked": "2026-09-18T16:29:20.740Z"
   },
   {
     "id": "vncenter_vnpro_san-pham-bao-gia-khoa-hoc-encor-hinh-thuc-offline-151-html",
@@ -782,7 +782,7 @@
     ],
     "language": "Unknown",
     "price": null,
-    "lastChecked": "2026-09-18T06:22:57.888Z"
+    "lastChecked": "2026-09-18T16:29:20.740Z"
   },
   {
     "id": "vncenter_vnpro_chuong-trinh-dao-tao-bao-gia-khoa-hoc-encor-hinh-thuc-online-152-html",
@@ -803,7 +803,7 @@
     ],
     "language": "Unknown",
     "price": null,
-    "lastChecked": "2026-09-18T06:22:57.888Z"
+    "lastChecked": "2026-09-18T16:29:20.740Z"
   },
   {
     "id": "vncenter_vnpro_san-pham-bao-gia-khoa-hoc-encor-hinh-thuc-online-152-html",
@@ -824,7 +824,7 @@
     ],
     "language": "Unknown",
     "price": null,
-    "lastChecked": "2026-09-18T06:22:57.888Z"
+    "lastChecked": "2026-09-18T16:29:20.740Z"
   },
   {
     "id": "vncenter_vnpro_hoc-vien-chuc-mung-anh-dang-truong-chinh-den-tu-cong-ty-intel-viet-nam-da-thi-dau-chung-chi-ccnp-advanced",
@@ -845,7 +845,7 @@
     ],
     "language": "Unknown",
     "price": null,
-    "lastChecked": "2026-09-18T06:22:57.888Z"
+    "lastChecked": "2026-09-18T16:29:20.740Z"
   },
   {
     "id": "vncenter_vnpro_hoc-vien-neu-ban-khong-di-thi-se-khong-bao-gio-den-anh-vo-thanh-trung-hoc-vien-xuat-sac-lop-ccna-20ak06-3",
@@ -866,7 +866,7 @@
     ],
     "language": "Unknown",
     "price": null,
-    "lastChecked": "2026-09-18T06:22:57.888Z"
+    "lastChecked": "2026-09-18T16:29:20.740Z"
   },
   {
     "id": "vncenter_vnpro_hoc-vien-vnpro-chuc-mung-anh-ong-hoang-trung-da-thi-dau-chung-chi-ccnp-encor-va-hoan-thanh-chung-chi-ccnp",
@@ -887,7 +887,7 @@
     ],
     "language": "Unknown",
     "price": null,
-    "lastChecked": "2026-09-18T06:22:57.888Z"
+    "lastChecked": "2026-09-18T16:29:20.740Z"
   },
   {
     "id": "vncenter_vnpro_hoc-vien-vnpro-be-giang-khoa-ccna-26ao04-vinh-danh-nhung-no-luc-chinh-phuc-dinh-cao-network-6313-html",
@@ -908,7 +908,7 @@
     ],
     "language": "Unknown",
     "price": null,
-    "lastChecked": "2026-09-18T06:22:57.888Z"
+    "lastChecked": "2026-09-18T16:29:20.740Z"
   },
   {
     "id": "vncenter_vnpro_hoc-vien-hoc-ccna-o-dau-tot-hoc-vien-vnpro-noi-gi-ve-khoa-hoc-ccna-6318-html",
@@ -930,7 +930,7 @@
     ],
     "language": "Unknown",
     "price": null,
-    "lastChecked": "2026-09-18T06:22:57.888Z"
+    "lastChecked": "2026-09-18T16:29:20.740Z"
   },
   {
     "id": "vncenter_vnpro_hoc-vien-hanh-trinh-tu-phong-lab-den-thuc-chien-cua-hoc-vien-encor-tai-vnpro-6321-html",
@@ -951,7 +951,7 @@
     ],
     "language": "Unknown",
     "price": null,
-    "lastChecked": "2026-09-18T06:22:57.888Z"
+    "lastChecked": "2026-09-18T16:29:20.740Z"
   },
   {
     "id": "vncenter_vnpro_hoc-vien-chinh-thuc-be-giang-khoa-ccna-26a07-tai-vnpro-6322-html",
@@ -972,7 +972,7 @@
     ],
     "language": "Unknown",
     "price": null,
-    "lastChecked": "2026-09-18T06:22:57.888Z"
+    "lastChecked": "2026-09-18T16:29:20.740Z"
   },
   {
     "id": "vncenter_vnpro_hoc-vien-be-giang-khoa-hoc-ccna-online-26ao08-tai-vnpro-100-hoc-vien-xuat-sac-6329-html",
@@ -993,7 +993,7 @@
     ],
     "language": "Unknown",
     "price": null,
-    "lastChecked": "2026-09-18T06:22:57.888Z"
+    "lastChecked": "2026-09-18T16:29:20.740Z"
   },
   {
     "id": "vncenter_vnpro_hoc-vien-be-giang-ccna-offline-26a08-the-he-network-engineer-moi-da-san-sang-6337-html",
@@ -1015,7 +1015,7 @@
     ],
     "language": "Unknown",
     "price": null,
-    "lastChecked": "2026-09-18T06:22:57.888Z"
+    "lastChecked": "2026-09-18T16:29:20.740Z"
   },
   {
     "id": "vncenter_vnpro_hoc-vien-ccna-200301-tai-vnpro-hoc-that-lam-that-tren-thiet-bi-cisco-that-tu-tin-di-lam-ngay-6341-html",
@@ -1036,7 +1036,7 @@
     ],
     "language": "Unknown",
     "price": null,
-    "lastChecked": "2026-09-18T06:22:57.888Z"
+    "lastChecked": "2026-09-18T16:29:20.740Z"
   },
   {
     "id": "vncenter_vnpro_hoc-vien-be-giang-lop-ccna-26a009-online-357-chuc-mung-hoc-vien-to-nguyen-truong-duy-dat-hang-nhat-6342-h",
@@ -1057,7 +1057,7 @@
     ],
     "language": "Unknown",
     "price": null,
-    "lastChecked": "2026-09-18T06:22:57.888Z"
+    "lastChecked": "2026-09-18T16:29:20.740Z"
   },
   {
     "id": "vncenter_vnpro_hoc-vien-be-giang-khoa-hoc-ccnp-encor-26p1o01-tai-vnpro-chinh-phuc-dinh-cao-chuyen-mon-6344-html",
@@ -1078,7 +1078,7 @@
     ],
     "language": "Unknown",
     "price": null,
-    "lastChecked": "2026-09-18T06:22:57.888Z"
+    "lastChecked": "2026-09-18T16:29:20.740Z"
   },
   {
     "id": "vncenter_vnpro_hoc-vien-ruc-lua-tinh-than-hoc-tap-tai-buoi-le-be-giang-khoa-ccna-200301-26a09-tai-vnpro-6367-html",
@@ -1100,7 +1100,7 @@
     ],
     "language": "Unknown",
     "price": null,
-    "lastChecked": "2026-09-18T06:22:57.888Z"
+    "lastChecked": "2026-09-18T16:29:20.740Z"
   },
   {
     "id": "vncenter_vnpro_hoc-vien-mot-buoi-hoc-lab-ccna-tai-vnpro-dien-ra-nhu-the-nao-6388-html",
@@ -1122,7 +1122,7 @@
     ],
     "language": "Unknown",
     "price": null,
-    "lastChecked": "2026-09-18T06:22:57.888Z"
+    "lastChecked": "2026-09-18T16:29:20.740Z"
   },
   {
     "id": "vncenter_vnpro_hoc-vien-le-be-giang-khoa-hoc-ccna-26a10-tai-vnpro-hanh-trinh-chinh-phuc-tri-thuc-mang-6399-html",
@@ -1143,7 +1143,7 @@
     ],
     "language": "Unknown",
     "price": null,
-    "lastChecked": "2026-09-18T06:22:57.888Z"
+    "lastChecked": "2026-09-18T16:29:20.740Z"
   },
   {
     "id": "vncenter_vnpro_hoc-vien-ban-le-nguyen-hoang-anh-nho-hoc-vien-xuat-sac-lop-ccnp-route-18p104-2992-html",
@@ -1164,7 +1164,7 @@
     ],
     "language": "Unknown",
     "price": null,
-    "lastChecked": "2026-09-18T06:22:57.888Z"
+    "lastChecked": "2026-09-18T16:29:20.740Z"
   },
   {
     "id": "vncenter_vnpro_tag-ccna",
@@ -1185,7 +1185,7 @@
     ],
     "language": "Unknown",
     "price": null,
-    "lastChecked": "2026-09-18T06:22:57.888Z"
+    "lastChecked": "2026-09-18T16:29:20.740Z"
   },
   {
     "id": "vncenter_vnpro_tag-ccnp",
@@ -1206,7 +1206,7 @@
     ],
     "language": "Unknown",
     "price": null,
-    "lastChecked": "2026-09-18T06:22:57.888Z"
+    "lastChecked": "2026-09-18T16:29:20.740Z"
   },
   {
     "id": "vncenter_robusta_vi-tin-khuyen-mai-ceh-v13-tro-thanh-hacker-mu-trang-trong-thoi-dai-ai-cung-robusta",
@@ -1228,7 +1228,7 @@
     ],
     "language": "Vietnamese",
     "price": null,
-    "lastChecked": "2026-09-18T06:22:57.888Z"
+    "lastChecked": "2026-09-18T16:29:20.740Z"
   },
   {
     "id": "vncenter_robusta_vi-chuong-trinh-dao-tao-isc-2-certified-information-systems-security-professional-cissp",
@@ -1249,7 +1249,7 @@
     ],
     "language": "Vietnamese",
     "price": null,
-    "lastChecked": "2026-09-18T06:22:57.888Z"
+    "lastChecked": "2026-09-18T16:29:20.740Z"
   },
   {
     "id": "vncenter_athena_khoa-hoc-hacker-mu-trang-aeh",
@@ -1268,7 +1268,7 @@
     "delivery": [],
     "language": "Vietnamese",
     "price": null,
-    "lastChecked": "2026-09-18T06:22:57.888Z"
+    "lastChecked": "2026-09-18T16:29:20.740Z"
   },
   {
     "id": "vncenter_athena_khoa-hoc-khoa-hoc-quan-tri-mang-cisco-ccna",
@@ -1287,7 +1287,7 @@
     "delivery": [],
     "language": "Vietnamese",
     "price": null,
-    "lastChecked": "2026-09-18T06:22:57.888Z"
+    "lastChecked": "2026-09-18T16:29:20.740Z"
   },
   {
     "id": "vncenter_vti-academy_khoa-hoc-aws-certified-solutions-architect-associate",
@@ -1306,7 +1306,7 @@
     "delivery": [],
     "language": "Vietnamese",
     "price": null,
-    "lastChecked": "2026-09-18T06:22:57.888Z"
+    "lastChecked": "2026-09-18T16:29:20.740Z"
   },
   {
     "id": "vncenter_vti-academy_khoa-hoc-on-thi-aws-saa-c03-html",
@@ -1325,7 +1325,7 @@
     "delivery": [],
     "language": "Vietnamese",
     "price": null,
-    "lastChecked": "2026-09-18T06:22:57.888Z"
+    "lastChecked": "2026-09-18T16:29:20.740Z"
   },
   {
     "id": "coursera_professional-certificates_ace-health-coach",
@@ -1346,7 +1346,7 @@
     ],
     "language": "en",
     "price": null,
-    "lastChecked": "2026-09-18T06:22:57.888Z"
+    "lastChecked": "2026-09-18T16:29:20.740Z"
   },
   {
     "id": "coursera_specializations_ace-pathway-to-wellness",
@@ -1367,7 +1367,7 @@
     ],
     "language": "en",
     "price": null,
-    "lastChecked": "2026-09-18T06:22:57.888Z"
+    "lastChecked": "2026-09-18T16:29:20.740Z"
   },
   {
     "id": "coursera_specializations_aws-certified-solutions-architect-associate-course",
@@ -1388,7 +1388,7 @@
     ],
     "language": "en",
     "price": null,
-    "lastChecked": "2026-09-18T06:22:57.888Z"
+    "lastChecked": "2026-09-18T16:29:20.740Z"
   },
   {
     "id": "coursera_specializations_aws-cloud-practitioner-certification-course",
@@ -1409,7 +1409,7 @@
     ],
     "language": "en",
     "price": null,
-    "lastChecked": "2026-09-18T06:22:57.888Z"
+    "lastChecked": "2026-09-18T16:29:20.740Z"
   },
   {
     "id": "coursera_specializations_az104-azure-administrator-certification-prep",
@@ -1430,7 +1430,7 @@
     ],
     "language": "en",
     "price": null,
-    "lastChecked": "2026-09-18T06:22:57.888Z"
+    "lastChecked": "2026-09-18T16:29:20.740Z"
   },
   {
     "id": "coursera_specializations_certified-kubernetes-administrator",
@@ -1451,7 +1451,7 @@
     ],
     "language": "en",
     "price": null,
-    "lastChecked": "2026-09-18T06:22:57.888Z"
+    "lastChecked": "2026-09-18T16:29:20.740Z"
   },
   {
     "id": "coursera_specializations_certified-kubernetes-application-developer-ckad-course",
@@ -1472,7 +1472,7 @@
     ],
     "language": "en",
     "price": null,
-    "lastChecked": "2026-09-18T06:22:57.888Z"
+    "lastChecked": "2026-09-18T16:29:20.740Z"
   },
   {
     "id": "coursera_specializations_cisco-implementation-administration-ccna",
@@ -1493,7 +1493,7 @@
     ],
     "language": "en",
     "price": null,
-    "lastChecked": "2026-09-18T06:22:57.888Z"
+    "lastChecked": "2026-09-18T16:29:20.740Z"
   },
   {
     "id": "coursera_specializations_cissp",
@@ -1514,7 +1514,7 @@
     ],
     "language": "en",
     "price": null,
-    "lastChecked": "2026-09-18T06:22:57.888Z"
+    "lastChecked": "2026-09-18T16:29:20.740Z"
   },
   {
     "id": "coursera_specializations_exam-prep-az-104-microsoft-azure-administrator-associate",
@@ -1535,7 +1535,7 @@
     ],
     "language": "en",
     "price": null,
-    "lastChecked": "2026-09-18T06:22:57.888Z"
+    "lastChecked": "2026-09-18T16:29:20.740Z"
   },
   {
     "id": "coursera_specializations_exam-prep-dop-c02-aws-certified-devops-engineer--professional",
@@ -1556,7 +1556,7 @@
     ],
     "language": "en",
     "price": null,
-    "lastChecked": "2026-09-18T06:22:57.888Z"
+    "lastChecked": "2026-09-18T16:29:20.740Z"
   },
   {
     "id": "coursera_specializations_exam-prep-google-cloud-certified-associate-cloud-engineer",
@@ -1577,7 +1577,7 @@
     ],
     "language": "en",
     "price": null,
-    "lastChecked": "2026-09-18T06:22:57.888Z"
+    "lastChecked": "2026-09-18T16:29:20.740Z"
   },
   {
     "id": "coursera_specializations_exam-prep-sap-c02-aws-certified-solutions-architect-professional",
@@ -1598,7 +1598,7 @@
     ],
     "language": "en",
     "price": null,
-    "lastChecked": "2026-09-18T06:22:57.888Z"
+    "lastChecked": "2026-09-18T16:29:20.740Z"
   },
   {
     "id": "coursera_specializations_microsoft-azure-fundamentals-az900-exam-prep",
@@ -1619,7 +1619,7 @@
     ],
     "language": "en",
     "price": null,
-    "lastChecked": "2026-09-18T06:22:57.888Z"
+    "lastChecked": "2026-09-18T16:29:20.740Z"
   },
   {
     "id": "coursera_specializations_packt-aws-certified-cloud-practitioner",
@@ -1640,7 +1640,7 @@
     ],
     "language": "en",
     "price": null,
-    "lastChecked": "2026-09-18T06:22:57.888Z"
+    "lastChecked": "2026-09-18T16:29:20.740Z"
   },
   {
     "id": "coursera_specializations_packt-aws-certified-solutions-architect-associate",
@@ -1661,7 +1661,7 @@
     ],
     "language": "en",
     "price": null,
-    "lastChecked": "2026-09-18T06:22:57.888Z"
+    "lastChecked": "2026-09-18T16:29:20.740Z"
   },
   {
     "id": "coursera_specializations_packt-aws-certified-solutions-architect-associate-saa-c03",
@@ -1682,7 +1682,7 @@
     ],
     "language": "en",
     "price": null,
-    "lastChecked": "2026-09-18T06:22:57.888Z"
+    "lastChecked": "2026-09-18T16:29:20.740Z"
   },
   {
     "id": "coursera_specializations_packt-aws-cloud-practitioner-exam-training",
@@ -1703,7 +1703,7 @@
     ],
     "language": "en",
     "price": null,
-    "lastChecked": "2026-09-18T06:22:57.888Z"
+    "lastChecked": "2026-09-18T16:29:20.740Z"
   },
   {
     "id": "coursera_specializations_packt-ccna-v1-1-200-301-video-training0-series",
@@ -1724,7 +1724,7 @@
     ],
     "language": "en",
     "price": null,
-    "lastChecked": "2026-09-18T06:22:57.888Z"
+    "lastChecked": "2026-09-18T16:29:20.740Z"
   },
   {
     "id": "coursera_specializations_packt-certified-ethical-hacker-ceh-v12",
@@ -1745,7 +1745,7 @@
     ],
     "language": "en",
     "price": null,
-    "lastChecked": "2026-09-18T06:22:57.888Z"
+    "lastChecked": "2026-09-18T16:29:20.740Z"
   },
   {
     "id": "coursera_specializations_packt-cisco-ccna-200-301",
@@ -1766,7 +1766,7 @@
     ],
     "language": "en",
     "price": null,
-    "lastChecked": "2026-09-18T06:22:57.888Z"
+    "lastChecked": "2026-09-18T16:29:20.740Z"
   },
   {
     "id": "coursera_specializations_packt-cisco-ccna-200-301-the-complete-guide-to-getting-certified",
@@ -1787,7 +1787,7 @@
     ],
     "language": "en",
     "price": null,
-    "lastChecked": "2026-09-18T06:22:57.888Z"
+    "lastChecked": "2026-09-18T16:29:20.740Z"
   },
   {
     "id": "coursera_specializations_packt-cisco-ccnp-enterprise-encor-350-401",
@@ -1808,7 +1808,7 @@
     ],
     "language": "en",
     "price": null,
-    "lastChecked": "2026-09-18T06:22:57.888Z"
+    "lastChecked": "2026-09-18T16:29:20.740Z"
   },
   {
     "id": "coursera_specializations_packt-cisco-ccnp-security-scor-eaxam-350-701",
@@ -1829,7 +1829,7 @@
     ],
     "language": "en",
     "price": null,
-    "lastChecked": "2026-09-18T06:22:57.888Z"
+    "lastChecked": "2026-09-18T16:29:20.740Z"
   },
   {
     "id": "coursera_specializations_packt-cissp-certified-information-systems-security-professional-2024",
@@ -1850,7 +1850,7 @@
     ],
     "language": "en",
     "price": null,
-    "lastChecked": "2026-09-18T06:22:57.888Z"
+    "lastChecked": "2026-09-18T16:29:20.740Z"
   },
   {
     "id": "coursera_specializations_packt-comptia-cloud-cv0-003",
@@ -1871,7 +1871,7 @@
     ],
     "language": "en",
     "price": null,
-    "lastChecked": "2026-09-18T06:22:57.888Z"
+    "lastChecked": "2026-09-18T16:29:20.740Z"
   },
   {
     "id": "coursera_specializations_packt-comptia-security-plus-certification-sy0-701-the-total-course",
@@ -1892,7 +1892,7 @@
     ],
     "language": "en",
     "price": null,
-    "lastChecked": "2026-09-18T06:22:57.888Z"
+    "lastChecked": "2026-09-18T16:29:20.740Z"
   },
   {
     "id": "coursera_specializations_packt-comptia-security-plus-sy0-701-full-training-guide",
@@ -1913,7 +1913,7 @@
     ],
     "language": "en",
     "price": null,
-    "lastChecked": "2026-09-18T06:22:57.888Z"
+    "lastChecked": "2026-09-18T16:29:20.740Z"
   },
   {
     "id": "coursera_specializations_packt-data-structures-algorithms-in-java-secrets-to-ace-leetcode",
@@ -1934,7 +1934,7 @@
     ],
     "language": "en",
     "price": null,
-    "lastChecked": "2026-09-18T06:22:57.888Z"
+    "lastChecked": "2026-09-18T16:29:20.740Z"
   },
   {
     "id": "coursera_specializations_packt-mircrosoft-azure-administrator-az-104",
@@ -1955,7 +1955,7 @@
     ],
     "language": "en",
     "price": null,
-    "lastChecked": "2026-09-18T06:22:57.888Z"
+    "lastChecked": "2026-09-18T16:29:20.740Z"
   },
   {
     "id": "coursera_specializations_packt-pmp-exam-mastery-complete-project-management-path",
@@ -1976,7 +1976,7 @@
     ],
     "language": "en",
     "price": null,
-    "lastChecked": "2026-09-18T06:22:57.888Z"
+    "lastChecked": "2026-09-18T16:29:20.740Z"
   },
   {
     "id": "coursera_specializations_packt-project-management-professional-prep",
@@ -1997,7 +1997,7 @@
     ],
     "language": "en",
     "price": null,
-    "lastChecked": "2026-09-18T06:22:57.888Z"
+    "lastChecked": "2026-09-18T16:29:20.740Z"
   },
   {
     "id": "coursera_specializations_pearson-certified-ethical-hacker-ceh",
@@ -2018,7 +2018,7 @@
     ],
     "language": "en",
     "price": null,
-    "lastChecked": "2026-09-18T06:22:57.888Z"
+    "lastChecked": "2026-09-18T16:29:20.740Z"
   },
   {
     "id": "coursera_specializations_pearson-certified-kubernetes-application-developer-ckad",
@@ -2039,7 +2039,7 @@
     ],
     "language": "en",
     "price": null,
-    "lastChecked": "2026-09-18T06:22:57.888Z"
+    "lastChecked": "2026-09-18T16:29:20.740Z"
   },
   {
     "id": "coursera_specializations_pearson-comptia-cloud-cv0-003",
@@ -2060,7 +2060,7 @@
     ],
     "language": "en",
     "price": null,
-    "lastChecked": "2026-09-18T06:22:57.888Z"
+    "lastChecked": "2026-09-18T16:29:20.740Z"
   },
   {
     "id": "coursera_specializations_pearson-comptia-cybersecurity-analyst-cysa-cs0-003",
@@ -2081,7 +2081,7 @@
     ],
     "language": "en",
     "price": null,
-    "lastChecked": "2026-09-18T06:22:57.888Z"
+    "lastChecked": "2026-09-18T16:29:20.740Z"
   },
   {
     "id": "coursera_specializations_pearson-java-se-17-developer-1z0-829",
@@ -2102,7 +2102,7 @@
     ],
     "language": "en",
     "price": null,
-    "lastChecked": "2026-09-18T06:22:57.888Z"
+    "lastChecked": "2026-09-18T16:29:20.740Z"
   },
   {
     "id": "coursera_specializations_pearson-pmp-certification",
@@ -2123,7 +2123,7 @@
     ],
     "language": "en",
     "price": null,
-    "lastChecked": "2026-09-18T06:22:57.888Z"
+    "lastChecked": "2026-09-18T16:29:20.740Z"
   },
   {
     "id": "coursera_specializations_pmp-certification-training-course",
@@ -2144,7 +2144,7 @@
     ],
     "language": "en",
     "price": null,
-    "lastChecked": "2026-09-18T06:22:57.888Z"
+    "lastChecked": "2026-09-18T16:29:20.740Z"
   },
   {
     "id": "coursera_specializations_professional-scrum-master",
@@ -2165,7 +2165,7 @@
     ],
     "language": "en",
     "price": null,
-    "lastChecked": "2026-09-18T06:22:57.888Z"
+    "lastChecked": "2026-09-18T16:29:20.740Z"
   },
   {
     "id": "coursera_specializations_ts-comptia-securityplus",
@@ -2186,7 +2186,7 @@
     ],
     "language": "en",
     "price": null,
-    "lastChecked": "2026-09-18T06:22:57.888Z"
+    "lastChecked": "2026-09-18T16:29:20.740Z"
   },
   {
     "id": "coursera_specializations_wiley-cissp-for-dummies",
@@ -2207,7 +2207,7 @@
     ],
     "language": "en",
     "price": null,
-    "lastChecked": "2026-09-18T06:22:57.888Z"
+    "lastChecked": "2026-09-18T16:29:20.740Z"
   },
   {
     "id": "coursera_specializations_packt-aws-certified-solutions-architect-professional-exam-guide",
@@ -2228,7 +2228,7 @@
     ],
     "language": "en",
     "price": null,
-    "lastChecked": "2026-09-18T06:22:57.888Z"
+    "lastChecked": "2026-09-18T16:29:20.740Z"
   },
   {
     "id": "coursera_specializations_packt-aws-certified-solutions-architect-with-capstone-labs",
@@ -2249,7 +2249,7 @@
     ],
     "language": "en",
     "price": null,
-    "lastChecked": "2026-09-18T06:22:57.888Z"
+    "lastChecked": "2026-09-18T16:29:20.740Z"
   },
   {
     "id": "coursera_specializations_packt-master-data-structures-and-algo-ace-leetcode-and-blind-75",
@@ -2270,7 +2270,7 @@
     ],
     "language": "en",
     "price": null,
-    "lastChecked": "2026-09-18T06:22:57.888Z"
+    "lastChecked": "2026-09-18T16:29:20.740Z"
   },
   {
     "id": "coursera_specializations_packt-the-world-of-computer-networking-your-ccna-starts-here",
@@ -2291,7 +2291,7 @@
     ],
     "language": "en",
     "price": null,
-    "lastChecked": "2026-09-18T06:22:57.888Z"
+    "lastChecked": "2026-09-18T16:29:20.740Z"
   },
   {
     "id": "coursera_specializations_pearson-ccna-200-301-version-1-1",
@@ -2312,7 +2312,7 @@
     ],
     "language": "en",
     "price": null,
-    "lastChecked": "2026-09-18T06:22:57.888Z"
+    "lastChecked": "2026-09-18T16:29:20.740Z"
   },
   {
     "id": "coursera_specializations_pmp-exam-prep-certification-training",
@@ -2333,7 +2333,7 @@
     ],
     "language": "en",
     "price": null,
-    "lastChecked": "2026-09-18T06:22:57.888Z"
+    "lastChecked": "2026-09-18T16:29:20.740Z"
   },
   {
     "id": "coursera_specializations_ts-aws-solutionsarchitect",
@@ -2354,7 +2354,7 @@
     ],
     "language": "en",
     "price": null,
-    "lastChecked": "2026-09-18T06:22:57.888Z"
+    "lastChecked": "2026-09-18T16:29:20.740Z"
   },
   {
     "id": "coursera_learn_aws-certified-solutions-architect-associate",
@@ -2375,7 +2375,7 @@
     ],
     "language": "en",
     "price": null,
-    "lastChecked": "2026-09-18T06:22:57.888Z"
+    "lastChecked": "2026-09-18T16:29:20.740Z"
   },
   {
     "id": "coursera_learn_aws-cloud-practitioner-certification-aws-services",
@@ -2396,7 +2396,7 @@
     ],
     "language": "en",
     "price": null,
-    "lastChecked": "2026-09-18T06:22:57.888Z"
+    "lastChecked": "2026-09-18T16:29:20.740Z"
   },
   {
     "id": "coursera_learn_aws-cloud-practitioner-certification-cloud-fundamentals",
@@ -2417,7 +2417,7 @@
     ],
     "language": "en",
     "price": null,
-    "lastChecked": "2026-09-18T06:22:57.888Z"
+    "lastChecked": "2026-09-18T16:29:20.740Z"
   },
   {
     "id": "coursera_learn_aws-cloud-practitioner-certification-introduction-to-aws",
@@ -2438,7 +2438,7 @@
     ],
     "language": "en",
     "price": null,
-    "lastChecked": "2026-09-18T06:22:57.888Z"
+    "lastChecked": "2026-09-18T16:29:20.740Z"
   },
   {
     "id": "coursera_learn_aws-cloud-practitioner-essentials",
@@ -2459,7 +2459,7 @@
     ],
     "language": "en",
     "price": null,
-    "lastChecked": "2026-09-18T06:22:57.888Z"
+    "lastChecked": "2026-09-18T16:29:20.740Z"
   },
   {
     "id": "coursera_learn_ccna-networking-basics-switching-addressing-routing-lo093063",
@@ -2480,7 +2480,7 @@
     ],
     "language": "en",
     "price": null,
-    "lastChecked": "2026-09-18T06:22:57.888Z"
+    "lastChecked": "2026-09-18T16:29:20.740Z"
   },
   {
     "id": "coursera_learn_cissp-domain-1-security-risk-mgmt",
@@ -2501,7 +2501,7 @@
     ],
     "language": "en",
     "price": null,
-    "lastChecked": "2026-09-18T06:22:57.888Z"
+    "lastChecked": "2026-09-18T16:29:20.740Z"
   },
   {
     "id": "coursera_learn_cissp-domain-2-asset-security",
@@ -2522,7 +2522,7 @@
     ],
     "language": "en",
     "price": null,
-    "lastChecked": "2026-09-18T06:22:57.888Z"
+    "lastChecked": "2026-09-18T16:29:20.740Z"
   },
   {
     "id": "coursera_learn_cissp-domain-3-sec-arch-eng",
@@ -2543,7 +2543,7 @@
     ],
     "language": "en",
     "price": null,
-    "lastChecked": "2026-09-18T06:22:57.888Z"
+    "lastChecked": "2026-09-18T16:29:20.740Z"
   },
   {
     "id": "coursera_learn_cissp-domain-4-comm-ntwk-sec",
@@ -2564,7 +2564,7 @@
     ],
     "language": "en",
     "price": null,
-    "lastChecked": "2026-09-18T06:22:57.888Z"
+    "lastChecked": "2026-09-18T16:29:20.740Z"
   },
   {
     "id": "coursera_learn_cissp-domain-8-software-dev-security",
@@ -2585,7 +2585,7 @@
     ],
     "language": "en",
     "price": null,
-    "lastChecked": "2026-09-18T06:22:57.888Z"
+    "lastChecked": "2026-09-18T16:29:20.740Z"
   },
   {
     "id": "coursera_learn_ckad-container-and-container-orchestration-fundamentals",
@@ -2606,7 +2606,7 @@
     ],
     "language": "en",
     "price": null,
-    "lastChecked": "2026-09-18T06:22:57.888Z"
+    "lastChecked": "2026-09-18T16:29:20.740Z"
   },
   {
     "id": "coursera_learn_packt-az-104-managing-azure-identity-governance-and-storage-nosej",
@@ -2627,7 +2627,7 @@
     ],
     "language": "en",
     "price": null,
-    "lastChecked": "2026-09-18T06:22:57.888Z"
+    "lastChecked": "2026-09-18T16:29:20.740Z"
   },
   {
     "id": "coursera_learn_packt-az-104-networking-monitoring-and-backup-strategies-pps7c",
@@ -2648,7 +2648,7 @@
     ],
     "language": "en",
     "price": null,
-    "lastChecked": "2026-09-18T06:22:57.888Z"
+    "lastChecked": "2026-09-18T16:29:20.740Z"
   },
   {
     "id": "coursera_learn_pearson-ccna-200-301-version-1-1-video-course-2nd-edition-1-zlvir",
@@ -2669,7 +2669,7 @@
     ],
     "language": "en",
     "price": null,
-    "lastChecked": "2026-09-18T06:22:57.888Z"
+    "lastChecked": "2026-09-18T16:29:20.740Z"
   },
   {
     "id": "coursera_learn_pearson-pmp-certification-complete-video-course-i",
@@ -2690,7 +2690,7 @@
     ],
     "language": "en",
     "price": null,
-    "lastChecked": "2026-09-18T06:22:57.888Z"
+    "lastChecked": "2026-09-18T16:29:20.740Z"
   },
   {
     "id": "coursera_learn_pearson-pmp-certification-complete-video-course-v",
@@ -2711,7 +2711,7 @@
     ],
     "language": "en",
     "price": null,
-    "lastChecked": "2026-09-18T06:22:57.888Z"
+    "lastChecked": "2026-09-18T16:29:20.740Z"
   },
   {
     "id": "coursera_learn_pmi-pmp-certification-project-approaches-lifecycles-and-agile-implementation",
@@ -2732,7 +2732,7 @@
     ],
     "language": "en",
     "price": null,
-    "lastChecked": "2026-09-18T06:22:57.888Z"
+    "lastChecked": "2026-09-18T16:29:20.740Z"
   },
   {
     "id": "coursera_learn_pmi-pmp-certification-project-mgmt-principles-performance-domains-tailoring",
@@ -2753,7 +2753,7 @@
     ],
     "language": "en",
     "price": null,
-    "lastChecked": "2026-09-18T06:22:57.888Z"
+    "lastChecked": "2026-09-18T16:29:20.740Z"
   },
   {
     "id": "coursera_learn_practice-exam-for-scrum-org-psm-i-certification",
@@ -2774,7 +2774,7 @@
     ],
     "language": "en",
     "price": null,
-    "lastChecked": "2026-09-18T06:22:57.888Z"
+    "lastChecked": "2026-09-18T16:29:20.740Z"
   },
   {
     "id": "coursera_learn_preparing-for-the-az-900-microsoft-azure-fundamentals-exam",
@@ -2795,7 +2795,7 @@
     ],
     "language": "en",
     "price": null,
-    "lastChecked": "2026-09-18T06:22:57.888Z"
+    "lastChecked": "2026-09-18T16:29:20.740Z"
   },
   {
     "id": "coursera_learn_tencent-cloud-practitioner",
@@ -2816,6 +2816,6 @@
     ],
     "language": "en",
     "price": null,
-    "lastChecked": "2026-09-18T06:22:57.888Z"
+    "lastChecked": "2026-09-18T16:29:20.740Z"
   }
 ]
