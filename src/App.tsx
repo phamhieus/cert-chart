@@ -162,7 +162,7 @@ export default function App() {
         <section className="card overflow-hidden">
           <div className="card-header">
             <h2 className="card-title">Trend comparison</h2>
-            <span className="text-2xs text-faint">monthly, last {trendMonths} months</span>
+            <span className="text-2xs text-faint">monthly, {trendMonths}-month window</span>
           </div>
           <div className="p-4">
             <TrendChart

@@ -3,6 +3,7 @@ import { Badge, TrendValue } from '../../components/Badge';
 import { ScoreBar } from '../../components/Feedback';
 import { EChart, type EChartsOption } from '../../charts/EChart';
 import { chartTheme, tooltipStyle } from '../../charts/theme';
+import { nonEmptyRange } from '../../charts/trend';
 import { RANKING_WEIGHTS } from '../../constants/ranking';
 import type { Theme } from '../../hooks/useTheme';
 import type {
@@ -109,13 +110,18 @@ export function OverviewTab({ row, jobs, posts, courses,
 
   const option = useMemo<EChartsOption>(() => {
     const palette = chartTheme(theme);
+    // Both series share this axis, so a month is only dropped when it is empty
+    // for jobs *and* mentions — trimming on the job line alone would hide
+    // months that have real community activity.
+    const [start, end] = nonEmptyRange(row.trend.map((point) => point.jobs + point.community));
+    const points = row.trend.slice(start, end);
     return {
       grid: { left: 4, right: 8, top: 16, bottom: 0, containLabel: true },
       tooltip: { trigger: 'axis', ...tooltipStyle(palette) },
       xAxis: {
         type: 'category',
         boundaryGap: false,
-        data: row.trend.map((point) => formatMonth(point.month)),
+        data: points.map((point) => formatMonth(point.month)),
         axisLine: { lineStyle: { color: palette.line } },
         axisTick: { show: false },
         axisLabel: { color: palette.muted, fontSize: 10 },
@@ -137,7 +143,7 @@ export function OverviewTab({ row, jobs, posts, courses,
           areaStyle: { opacity: 0.12 },
           lineStyle: { width: 2 },
           itemStyle: { color: palette.accent },
-          data: row.trend.map((point) => point.jobs),
+          data: points.map((point) => point.jobs),
         },
         {
           name: 'Community mentions',
@@ -147,7 +153,7 @@ export function OverviewTab({ row, jobs, posts, courses,
           symbolSize: 4,
           lineStyle: { width: 2, type: 'dashed' },
           itemStyle: { color: '#2FBF71' },
-          data: row.trend.map((point) => point.community),
+          data: points.map((point) => point.community),
         },
       ],
     };
@@ -190,7 +196,7 @@ export function OverviewTab({ row, jobs, posts, courses,
       <div className="grid items-start gap-5 p-4 lg:grid-cols-[minmax(0,1fr)_20rem]">
         <section className="card overflow-hidden">
           <div className="card-header">
-            <h3 className="card-title">Demand and interest over 12 months</h3>
+            <h3 className="card-title">Demand and interest</h3>
             <TrendValue direction={row.direction} value={metrics.growth12m} className="text-xs" />
           </div>
           <div className="px-2 pb-2 pt-1">

@@ -4,6 +4,7 @@ import type { RankedCertification, TrendPoint } from '../types';
 import { cn, formatMonth } from '../utils/format';
 import { EChart, type EChartsOption } from './EChart';
 import { SERIES_PALETTE, chartTheme, tooltipStyle } from './theme';
+import { monthTotals, nonEmptyRange } from './trend';
 
 export type TrendMetric = 'jobs' | 'community';
 
@@ -41,12 +42,26 @@ export function TrendChart({
 }: TrendChartProps) {
   const selected = rows.filter((row) => selectedIds.includes(row.certification.id));
 
+  const valueOf = (point: TrendPoint): number => (metric === 'jobs' ? point.jobs : point.community);
+
+  // The series is always built 36 months wide; the selector is a window on it,
+  // so switching range never refetches or rescores anything. Months that are
+  // empty for every selected certification are then trimmed off both ends —
+  // see `nonEmptyRange` for why only the ends.
+  const windowed = useMemo(
+    () => selected.map((row) => row.trend.slice(-months)),
+    [selected, months],
+  );
+  const [start, end] = useMemo(
+    () => nonEmptyRange(monthTotals(windowed, valueOf)),
+    [windowed, metric],
+  );
+  const axisMonths = (windowed[0] ?? []).slice(start, end).map((point) => point.month);
+  const hiddenMonths = (windowed[0]?.length ?? 0) - (end - start);
+
   const option = useMemo<EChartsOption>(() => {
     const palette = chartTheme(theme);
-    // The series is always built 36 months wide; the selector is a window on it,
-    // so switching range never refetches or rescores anything.
-    const window = (points: TrendPoint[]): TrendPoint[] => points.slice(-months);
-    const axis = window(selected[0]?.trend ?? []).map((point) => point.month);
+    const axis = axisMonths;
 
     return {
       grid: { left: 8, right: 16, top: 16, bottom: 4, containLabel: true },
@@ -81,12 +96,10 @@ export function TrendChart({
         symbolSize: 5,
         lineStyle: { width: 2, color: SERIES_PALETTE[index % SERIES_PALETTE.length] },
         itemStyle: { color: SERIES_PALETTE[index % SERIES_PALETTE.length] },
-        data: window(row.trend).map((point) =>
-          metric === 'jobs' ? point.jobs : point.community,
-        ),
+        data: (windowed[index] ?? []).slice(start, end).map(valueOf),
       })),
     };
-  }, [selected, metric, months, theme]);
+  }, [selected, windowed, axisMonths, start, end, metric, theme]);
 
   return (
     <div className="flex flex-col gap-3">
@@ -160,7 +173,18 @@ export function TrendChart({
           Pick one or more certifications to compare.
         </p>
       ) : (
-        <EChart option={option} height={height} />
+        <>
+          <EChart option={option} height={height} />
+          {/* The window is trimmed, not the data — say so, rather than letting
+              a 3-month axis pass for the 36 months the selector asked for. */}
+          {hiddenMonths > 0 && axisMonths.length > 0 && (
+            <p className="text-2xs text-faint">
+              {formatMonth(axisMonths[0])} – {formatMonth(axisMonths[axisMonths.length - 1])} ·{' '}
+              {hiddenMonths} earlier {hiddenMonths === 1 ? 'month has' : 'months have'} no{' '}
+              {metric === 'jobs' ? 'postings' : 'mentions'} for the selected certifications
+            </p>
+          )}
+        </>
       )}
     </div>
   );
