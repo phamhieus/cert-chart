@@ -1,7 +1,9 @@
 import type { CommunityPost, Course, DataSource, HolderReport, Job } from '../src/types';
 import { aggregate } from './aggregate/index';
 import { dayNhauHocCrawler } from './communities/daynhauhoc';
+import { devToCrawler } from './communities/devto';
 import { gitHubCrawler } from './communities/github';
+import { quanTriMangCrawler } from './communities/quantrimang';
 import { redditCrawler } from './communities/reddit';
 import { stackOverflowCrawler } from './communities/stackoverflow';
 import { vibloCrawler } from './communities/viblo';
@@ -15,6 +17,8 @@ import { vnTrainingCentersCrawler } from './courses/vntrainingcenters';
 import { arbeitnowCrawler } from './jobs/arbeitnow';
 import { vendorHoldersCrawler } from './holders/vendorPages';
 import { careerVietCrawler } from './jobs/careerviet';
+import { greenhouseCrawler } from './jobs/greenhouse';
+import { himalayasCrawler } from './jobs/himalayas';
 import { itviecCrawler } from './jobs/itviec';
 import { linkedInCrawler } from './jobs/linkedin';
 import { myCareersFutureCrawler } from './jobs/mycareersfuture';
@@ -39,6 +43,8 @@ const JOB_CRAWLERS = [
   remoteOkCrawler,
   remotiveCrawler,
   arbeitnowCrawler,
+  himalayasCrawler,
+  greenhouseCrawler,
   linkedInCrawler,
 ];
 const COMMUNITY_CRAWLERS = [
@@ -47,8 +53,10 @@ const COMMUNITY_CRAWLERS = [
   zennCrawler,
   stackOverflowCrawler,
   gitHubCrawler,
+  devToCrawler,
   redditCrawler,
   vozCrawler,
+  quanTriMangCrawler,
 ];
 const COURSE_CRAWLERS = [
   officialCoursesCrawler,
