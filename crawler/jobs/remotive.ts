@@ -25,9 +25,10 @@ interface RemotiveResponse {
 
 /**
  * Remotive's public API takes a search term, so this asks it once per
- * certification instead of pulling the whole board. `candidate_required_location`
- * is a hiring restriction ("Europe", "Americas"), not where the company sits —
- * it is passed through `resolveLocation` unchanged rather than interpreted.
+ * certification instead of pulling the whole board. Remotive is a remote-only
+ * board — `candidate_required_location` is a hiring restriction ("Europe",
+ * "Americas"), not where the company sits. A restriction that isn't a tracked
+ * market falls back to `remote` rather than the generic `global`.
  */
 export const remotiveCrawler: JobCrawler = {
   id: 'remotive',
@@ -72,7 +73,7 @@ export const remotiveCrawler: JobCrawler = {
           id: `remotive_${job.id}`,
           title: job.title,
           company: job.company_name || 'Unknown',
-          location: resolveLocation(job.candidate_required_location || 'Remote'),
+          location: resolveLocation(job.candidate_required_location, 'remote'),
           certifications: matched,
           source: { name: 'Remotive', url: jobUrl },
           postedAt: job.publication_date?.slice(0, 10) ?? crawledDate,

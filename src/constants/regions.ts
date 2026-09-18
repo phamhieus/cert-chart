@@ -17,7 +17,15 @@ export const MARKETS: Market[] = [
   },
   { id: 'singapore', label: 'Singapore', country: 'SG', cities: [] },
   { id: 'japan', label: 'Japan', country: 'JP', cities: [] },
-  { id: 'global', label: 'Global / Remote', country: 'GLOBAL', cities: [] },
+  // Global = a specific, real place outside the tracked markets (e.g. a
+  // Greenhouse posting in "San Francisco, CA") or content with no location
+  // concept at all (a GitHub repo, an online course). Remote = the source
+  // itself says the work is location-independent — kept apart because the two
+  // answer different questions ("where is this job" vs "can it be done from
+  // anywhere"), and conflating them undercounted actually-remote postings
+  // once Greenhouse's real city/office data started flowing into "Global".
+  { id: 'global', label: 'Global', country: 'GLOBAL', cities: [] },
+  { id: 'remote', label: 'Remote', country: 'REMOTE', cities: [] },
 ];
 
 export const MARKET_IDS: MarketId[] = MARKETS.map((m) => m.id);

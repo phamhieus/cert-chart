@@ -1,4 +1,4 @@
-export type MarketId = 'vietnam' | 'singapore' | 'japan' | 'global';
+export type MarketId = 'vietnam' | 'singapore' | 'japan' | 'global' | 'remote';
 
 export interface MarketCity {
   id: string;
