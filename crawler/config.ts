@@ -1,3 +1,6 @@
+// Loads `.env` before any source reads a credential — see crawler/env.ts.
+import './env';
+
 /**
  * Crawl configuration. Every source is opt-in and rate limited on purpose:
  * `robots.txt` is honoured (see `util/http.ts`), concurrency stays low, and each
