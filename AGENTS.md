@@ -1,7 +1,7 @@
 <!-- gitnexus:start -->
 # GitNexus — Code Intelligence
 
-This project is indexed by GitNexus as **it-cert-investigate** (1601 symbols, 3613 relationships, 137 execution flows).
+This project is indexed by GitNexus as **cert-chart** (1606 symbols, 3617 relationships, 137 execution flows).
 
 > Index stale? Run `node .gitnexus/run.cjs analyze --index-only` from the project root — it auto-selects an available runner. No `.gitnexus/run.cjs` yet? Bootstrap with `npx`, `bunx`, or `pnpm dlx` — e.g. `bunx gitnexus@latest analyze` (npm 11 npx crash; #1939).
 
@@ -25,10 +25,10 @@ This project is indexed by GitNexus as **it-cert-investigate** (1601 symbols, 36
 
 | Resource | Use for |
 | --- | --- |
-| `gitnexus://repo/it-cert-investigate/context` | Codebase overview, check index freshness |
-| `gitnexus://repo/it-cert-investigate/clusters` | All functional areas |
-| `gitnexus://repo/it-cert-investigate/processes` | All execution flows |
-| `gitnexus://repo/it-cert-investigate/process/{name}` | Step-by-step execution trace |
+| `gitnexus://repo/cert-chart/context` | Codebase overview, check index freshness |
+| `gitnexus://repo/cert-chart/clusters` | All functional areas |
+| `gitnexus://repo/cert-chart/processes` | All execution flows |
+| `gitnexus://repo/cert-chart/process/{name}` | Step-by-step execution trace |
 
 ## CLI
 
