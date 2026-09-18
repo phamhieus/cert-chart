@@ -200,7 +200,18 @@ export async function runCrawl(options: RunCrawlOptions = {}): Promise<CrawlProg
             : crawler.type === 'certification-body'
               ? DATA_FILES.holders
               : DATA_FILES.courses;
-      const merged = mergeById(readRecords<{ id: string }>(file), records as Array<{ id: string }>);
+      // Holder counts are a snapshot of what a vendor page says *right now*, not
+      // a discrete event like a job posting or forum thread — merging them
+      // would let a figure a page no longer supports (a stale or since-fixed
+      // mismatch) survive forever under the same id, since an absent match in
+      // a later run never overrides a present one. Every other type keeps
+      // accumulating: job boards drop expired postings from their own listings
+      // and community threads never come back at all, so merging is what keeps
+      // that history (see README's "Crawls merge by record id").
+      const merged =
+        crawler.type === 'certification-body'
+          ? (records as Array<{ id: string }>)
+          : mergeById(readRecords<{ id: string }>(file), records as Array<{ id: string }>);
       writeRecords(file, merged);
 
       progress.outcomes.push({
