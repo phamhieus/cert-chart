@@ -11,7 +11,7 @@
       "name": "EC-Council",
       "url": "https://www.eccouncil.org/train-certify/certified-ethical-hacker-ceh/"
     },
-    "crawledAt": "2026-09-18T16:09:29.088Z"
+    "crawledAt": "2026-09-18T16:29:20.740Z"
   },
   {
     "id": "holders_aws",
@@ -25,7 +25,7 @@
       "name": "AWS",
       "url": "https://aws.amazon.com/certification/"
     },
-    "crawledAt": "2026-09-18T16:09:29.088Z"
+    "crawledAt": "2026-09-18T16:29:20.740Z"
   },
   {
     "id": "holders_cisco",
@@ -39,7 +39,7 @@
       "name": "Cisco",
       "url": "https://www.cisco.com/site/us/en/learn/training-certifications/certifications/index.html"
     },
-    "crawledAt": "2026-09-18T16:09:29.088Z"
+    "crawledAt": "2026-09-18T16:29:20.740Z"
   },
   {
     "id": "holders_isc2",
@@ -53,6 +53,6 @@
       "name": "ISC2",
       "url": "https://www.isc2.org/about"
     },
-    "crawledAt": "2026-09-18T16:09:29.088Z"
+    "crawledAt": "2026-09-18T16:29:20.740Z"
   }
 ]

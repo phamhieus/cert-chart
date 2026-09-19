@@ -1221,7 +1221,7 @@
     "id": "so_79878471_aws-ccp",
     "certificationId": "aws-ccp",
     "source": {
-      "name": "Stack Overflow",
+      "name": "Stack Exchange",
       "url": "https://stackoverflow.com/questions/79878471/preparing-for-aws-cloud-practitioner-exam-are-w3schools-notes-sufficient"
     },
     "title": "Preparing for AWS Cloud Practitioner exam – are W3Schools notes sufficient?",
@@ -1232,11 +1232,11 @@
     },
     "mentions": 3,
     "comments": 3,
-    "views": 275,
+    "views": 276,
     "reactions": -1,
     "uniqueAuthors": null,
     "publishedAt": "2026-01-29",
-    "crawledAt": "2026-09-18T06:22:57.888Z"
+    "crawledAt": "2026-09-18T17:56:50.308Z"
   },
   {
     "id": "so_63014700_ckad",
@@ -3720,7 +3720,7 @@
     "id": "so_1059540_aws-ccp",
     "certificationId": "aws-ccp",
     "source": {
-      "name": "Stack Overflow",
+      "name": "Stack Exchange",
       "url": "https://stackoverflow.com/questions/1059540/virtualization-cloud-computing-where-to-start"
     },
     "title": "Virtualization & Cloud Computing - Where to start?",
@@ -3735,13 +3735,13 @@
     "reactions": 13,
     "uniqueAuthors": null,
     "publishedAt": "2009-06-29",
-    "crawledAt": "2026-09-18T06:22:57.888Z"
+    "crawledAt": "2026-09-18T17:56:50.308Z"
   },
   {
     "id": "so_1059540_az-104",
     "certificationId": "az-104",
     "source": {
-      "name": "Stack Overflow",
+      "name": "Stack Exchange",
       "url": "https://stackoverflow.com/questions/1059540/virtualization-cloud-computing-where-to-start"
     },
     "title": "Virtualization & Cloud Computing - Where to start?",
@@ -3756,13 +3756,13 @@
     "reactions": 13,
     "uniqueAuthors": null,
     "publishedAt": "2009-06-29",
-    "crawledAt": "2026-09-18T06:22:57.888Z"
+    "crawledAt": "2026-09-18T17:56:50.308Z"
   },
   {
     "id": "so_1059540_az-900",
     "certificationId": "az-900",
     "source": {
-      "name": "Stack Overflow",
+      "name": "Stack Exchange",
       "url": "https://stackoverflow.com/questions/1059540/virtualization-cloud-computing-where-to-start"
     },
     "title": "Virtualization & Cloud Computing - Where to start?",
@@ -3777,13 +3777,13 @@
     "reactions": 13,
     "uniqueAuthors": null,
     "publishedAt": "2009-06-29",
-    "crawledAt": "2026-09-18T06:22:57.888Z"
+    "crawledAt": "2026-09-18T17:56:50.308Z"
   },
   {
     "id": "so_1059540_security-plus",
     "certificationId": "security-plus",
     "source": {
-      "name": "Stack Overflow",
+      "name": "Stack Exchange",
       "url": "https://stackoverflow.com/questions/1059540/virtualization-cloud-computing-where-to-start"
     },
     "title": "Virtualization & Cloud Computing - Where to start?",
@@ -3798,7 +3798,7 @@
     "reactions": 13,
     "uniqueAuthors": null,
     "publishedAt": "2009-06-29",
-    "crawledAt": "2026-09-18T06:22:57.888Z"
+    "crawledAt": "2026-09-18T17:56:50.308Z"
   },
   {
     "id": "so_58688118_az-900",
@@ -4035,7 +4035,7 @@
     "id": "so_79582775_az-104",
     "certificationId": "az-104",
     "source": {
-      "name": "Stack Overflow",
+      "name": "Stack Exchange",
       "url": "https://stackoverflow.com/questions/79582775/revoking-user-consent-permission-in-microsoft-teams-app"
     },
     "title": "Revoking user consent/permission in Microsoft Teams app",
@@ -4050,13 +4050,13 @@
     "reactions": 1,
     "uniqueAuthors": null,
     "publishedAt": "2025-04-19",
-    "crawledAt": "2026-09-18T06:22:57.888Z"
+    "crawledAt": "2026-09-18T17:56:50.308Z"
   },
   {
     "id": "so_78726363_terraform-associate",
     "certificationId": "terraform-associate",
     "source": {
-      "name": "Stack Overflow",
+      "name": "Stack Exchange",
       "url": "https://stackoverflow.com/questions/78726363/terraform-state-file-and-cloud-infra-out-of-sync"
     },
     "title": "Terraform State file and Cloud Infra out of sync",
@@ -4071,13 +4071,13 @@
     "reactions": 1,
     "uniqueAuthors": null,
     "publishedAt": "2024-07-09",
-    "crawledAt": "2026-09-18T06:22:57.888Z"
+    "crawledAt": "2026-09-18T17:56:50.308Z"
   },
   {
     "id": "so_77740903_ai-102",
     "certificationId": "ai-102",
     "source": {
-      "name": "Stack Overflow",
+      "name": "Stack Exchange",
       "url": "https://stackoverflow.com/questions/77740903/new-azcognitiveservicesaccount"
     },
     "title": "New-AzCognitiveServicesAccount",
@@ -4092,7 +4092,7 @@
     "reactions": 1,
     "uniqueAuthors": null,
     "publishedAt": "2024-01-01",
-    "crawledAt": "2026-09-18T06:22:57.888Z"
+    "crawledAt": "2026-09-18T17:56:50.308Z"
   },
   {
     "id": "so_75899892_aws-ccp",
@@ -4266,7 +4266,7 @@
     "id": "so_77230475_ai-102",
     "certificationId": "ai-102",
     "source": {
-      "name": "Stack Overflow",
+      "name": "Stack Exchange",
       "url": "https://stackoverflow.com/questions/77230475/resource-not-founderror-404-in-azure-ai-language-understanding-app"
     },
     "title": "Resource not found(error 404) in Azure AI Language Understanding app",
@@ -4281,7 +4281,7 @@
     "reactions": 0,
     "uniqueAuthors": null,
     "publishedAt": "2023-10-04",
-    "crawledAt": "2026-09-18T06:22:57.888Z"
+    "crawledAt": "2026-09-18T17:56:50.308Z"
   },
   {
     "id": "so_76663731_aws-ccp",
@@ -6681,7 +6681,7 @@
     "id": "so_58262587_ocp-java-17",
     "certificationId": "ocp-java-17",
     "source": {
-      "name": "Stack Overflow",
+      "name": "Stack Exchange",
       "url": "https://stackoverflow.com/questions/58262587/in-java-when-should-we-use-private-instance-methods-in-interfaces"
     },
     "title": "In Java, when should we use private instance methods in interfaces?",
@@ -6696,13 +6696,13 @@
     "reactions": 12,
     "uniqueAuthors": null,
     "publishedAt": "2019-10-07",
-    "crawledAt": "2026-09-18T06:22:57.888Z"
+    "crawledAt": "2026-09-18T17:56:50.308Z"
   },
   {
     "id": "so_61601241_az-900",
     "certificationId": "az-900",
     "source": {
-      "name": "Stack Overflow",
+      "name": "Stack Exchange",
       "url": "https://stackoverflow.com/questions/61601241/microsoft-azure-vms-iaas-or-paas"
     },
     "title": "Microsoft Azure VMs IaaS or PaaS?",
@@ -6713,11 +6713,11 @@
     },
     "mentions": 1,
     "comments": 6,
-    "views": 30321,
+    "views": 30322,
     "reactions": 12,
     "uniqueAuthors": null,
     "publishedAt": "2020-05-04",
-    "crawledAt": "2026-09-18T06:22:57.888Z"
+    "crawledAt": "2026-09-18T17:56:50.308Z"
   },
   {
     "id": "so_78176807_terraform-associate",
@@ -6786,7 +6786,7 @@
     "id": "so_49687715_cka",
     "certificationId": "cka",
     "source": {
-      "name": "Stack Overflow",
+      "name": "Stack Exchange",
       "url": "https://stackoverflow.com/questions/49687715/signtool-error-signersign-failed-2147024885-0x8007000b-when-signing-msi"
     },
     "title": "SignTool error: SignerSign() failed.&quot; (-2147024885/0x8007000b) when signing msi file",
@@ -6797,11 +6797,11 @@
     },
     "mentions": 1,
     "comments": 3,
-    "views": 6392,
+    "views": 6394,
     "reactions": 4,
     "uniqueAuthors": null,
     "publishedAt": "2018-04-06",
-    "crawledAt": "2026-09-18T06:22:57.888Z"
+    "crawledAt": "2026-09-18T17:56:50.308Z"
   },
   {
     "id": "so_77806389_terraform-associate",
@@ -6849,7 +6849,7 @@
     "id": "so_79659341_ocp-java-17",
     "certificationId": "ocp-java-17",
     "source": {
-      "name": "Stack Overflow",
+      "name": "Stack Exchange",
       "url": "https://stackoverflow.com/questions/79659341/why-does-intellij-allow-as-an-identifier-even-though-its-not-allowed-in-java"
     },
     "title": "Why does IntelliJ allow _ as an identifier even though it's not allowed in Java 9+?",
@@ -6864,7 +6864,7 @@
     "reactions": 3,
     "uniqueAuthors": null,
     "publishedAt": "2025-06-09",
-    "crawledAt": "2026-09-18T06:22:57.888Z"
+    "crawledAt": "2026-09-18T17:56:50.308Z"
   },
   {
     "id": "so_79734301_gcp-ace",
@@ -7038,7 +7038,7 @@
     "id": "so_79134101_pmp",
     "certificationId": "pmp",
     "source": {
-      "name": "Stack Overflow",
+      "name": "Stack Exchange",
       "url": "https://stackoverflow.com/questions/79134101/how-to-add-polygon-mesh-processing-library-to-my-cmake-project-with-eigen-alread"
     },
     "title": "How to add Polygon Mesh Processing library to my cmake project with eigen already added",
@@ -7053,7 +7053,7 @@
     "reactions": 2,
     "uniqueAuthors": null,
     "publishedAt": "2024-10-28",
-    "crawledAt": "2026-09-18T06:22:57.888Z"
+    "crawledAt": "2026-09-18T17:56:50.308Z"
   },
   {
     "id": "so_79483742_gcp-ace",
@@ -7143,7 +7143,7 @@
     "id": "so_77488036_pmp",
     "certificationId": "pmp",
     "source": {
-      "name": "Stack Overflow",
+      "name": "Stack Exchange",
       "url": "https://stackoverflow.com/questions/77488036/how-to-decide-minimum-pmp-region-for-an-architecture"
     },
     "title": "How to decide minimum pmp region for an architecture?",
@@ -7158,13 +7158,13 @@
     "reactions": 1,
     "uniqueAuthors": null,
     "publishedAt": "2023-11-15",
-    "crawledAt": "2026-09-18T06:22:57.888Z"
+    "crawledAt": "2026-09-18T17:56:50.308Z"
   },
   {
     "id": "so_77714781_az-900",
     "certificationId": "az-900",
     "source": {
-      "name": "Stack Overflow",
+      "name": "Stack Exchange",
       "url": "https://stackoverflow.com/questions/77714781/azure-paas-solution-provides-additional-memory-to-apps-by-changing-pricing-tiers"
     },
     "title": "azure PaaS solution provides additional memory to apps by changing pricing tiers",
@@ -7179,7 +7179,7 @@
     "reactions": 1,
     "uniqueAuthors": null,
     "publishedAt": "2023-12-25",
-    "crawledAt": "2026-09-18T06:22:57.888Z"
+    "crawledAt": "2026-09-18T17:56:50.308Z"
   },
   {
     "id": "so_78024150_terraform-associate",
@@ -7353,7 +7353,7 @@
     "id": "so_77122859_pmp",
     "certificationId": "pmp",
     "source": {
-      "name": "Stack Overflow",
+      "name": "Stack Exchange",
       "url": "https://stackoverflow.com/questions/77122859/aws-lambda-deploy-using-existing-rest-api-gateway-authorizer"
     },
     "title": "AWS Lambda deploy using existing REST API Gateway & Authorizer",
@@ -7368,13 +7368,13 @@
     "reactions": 0,
     "uniqueAuthors": null,
     "publishedAt": "2023-09-17",
-    "crawledAt": "2026-09-18T06:22:57.888Z"
+    "crawledAt": "2026-09-18T17:56:50.308Z"
   },
   {
     "id": "so_77221414_pmp",
     "certificationId": "pmp",
     "source": {
-      "name": "Stack Overflow",
+      "name": "Stack Exchange",
       "url": "https://stackoverflow.com/questions/77221414/how-to-exclude-audio-from-capture-on-windows"
     },
     "title": "How to exclude audio from capture on Windows?",
@@ -7389,13 +7389,13 @@
     "reactions": 0,
     "uniqueAuthors": null,
     "publishedAt": "2023-10-03",
-    "crawledAt": "2026-09-18T06:22:57.888Z"
+    "crawledAt": "2026-09-18T17:56:50.308Z"
   },
   {
     "id": "so_77256960_pmp",
     "certificationId": "pmp",
     "source": {
-      "name": "Stack Overflow",
+      "name": "Stack Exchange",
       "url": "https://stackoverflow.com/questions/77256960/the-code-fails-to-compile-when-i-use-want-to-get-an-obj-format-triangle-mesh"
     },
     "title": "The code fails to compile when I use want to get an &quot;.obj&quot; format triangle mesh",
@@ -7410,7 +7410,7 @@
     "reactions": 0,
     "uniqueAuthors": null,
     "publishedAt": "2023-10-09",
-    "crawledAt": "2026-09-18T06:22:57.888Z"
+    "crawledAt": "2026-09-18T17:56:50.308Z"
   },
   {
     "id": "so_77321377_gcp-ace",
@@ -7437,7 +7437,7 @@
     "id": "so_77569169_pmp",
     "certificationId": "pmp",
     "source": {
-      "name": "Stack Overflow",
+      "name": "Stack Exchange",
       "url": "https://stackoverflow.com/questions/77569169/how-riscv-architecture-suggest-to-fill-mtval-register-in-instruction-address-fau"
     },
     "title": "How RISCV architecture suggest to fill mtval register in instruction address fault?",
@@ -7448,17 +7448,17 @@
     },
     "mentions": 1,
     "comments": 0,
-    "views": 901,
+    "views": 902,
     "reactions": 0,
     "uniqueAuthors": null,
     "publishedAt": "2023-11-29",
-    "crawledAt": "2026-09-18T06:22:57.888Z"
+    "crawledAt": "2026-09-18T17:56:50.308Z"
   },
   {
     "id": "so_77634892_psm-1",
     "certificationId": "psm-1",
     "source": {
-      "name": "Stack Overflow",
+      "name": "Stack Exchange",
       "url": "https://stackoverflow.com/questions/77634892/how-to-segment-scanned-pages-into-blocks-of-text"
     },
     "title": "How to segment scanned pages into blocks of text",
@@ -7473,13 +7473,13 @@
     "reactions": 0,
     "uniqueAuthors": null,
     "publishedAt": "2023-12-10",
-    "crawledAt": "2026-09-18T06:22:57.888Z"
+    "crawledAt": "2026-09-18T17:56:50.308Z"
   },
   {
     "id": "so_77766057_az-104",
     "certificationId": "az-104",
     "source": {
-      "name": "Stack Overflow",
+      "name": "Stack Exchange",
       "url": "https://stackoverflow.com/questions/77766057/docker-app-not-reachable-after-port-change"
     },
     "title": "Docker app not reachable after port-change",
@@ -7494,13 +7494,13 @@
     "reactions": 0,
     "uniqueAuthors": null,
     "publishedAt": "2024-01-05",
-    "crawledAt": "2026-09-18T06:22:57.888Z"
+    "crawledAt": "2026-09-18T17:56:50.308Z"
   },
   {
     "id": "so_77767244_az-104",
     "certificationId": "az-104",
     "source": {
-      "name": "Stack Overflow",
+      "name": "Stack Exchange",
       "url": "https://stackoverflow.com/questions/77767244/i-forgot-to-use-openports-when-using-new-azvm-is-there-a-way-to-modify-it-afte"
     },
     "title": "I forgot to use -openports when using New-AzVm, is there a way to modify it after the VM creation?",
@@ -7515,7 +7515,7 @@
     "reactions": 0,
     "uniqueAuthors": null,
     "publishedAt": "2024-01-05",
-    "crawledAt": "2026-09-18T06:22:57.888Z"
+    "crawledAt": "2026-09-18T17:56:50.308Z"
   },
   {
     "id": "so_77949306_gcp-ace",
@@ -7563,7 +7563,7 @@
     "id": "so_78468288_az-104",
     "certificationId": "az-104",
     "source": {
-      "name": "Stack Overflow",
+      "name": "Stack Exchange",
       "url": "https://stackoverflow.com/questions/78468288/azure-cloud-shell-not-loading-in-chrome-but-works-in-edge"
     },
     "title": "Azure Cloud Shell not loading in Chrome but works in Edge",
@@ -7578,7 +7578,7 @@
     "reactions": 0,
     "uniqueAuthors": null,
     "publishedAt": "2024-05-12",
-    "crawledAt": "2026-09-18T06:22:57.888Z"
+    "crawledAt": "2026-09-18T17:56:50.308Z"
   },
   {
     "id": "so_78501475_gcp-ace",
@@ -7605,7 +7605,7 @@
     "id": "so_78791729_pmp",
     "certificationId": "pmp",
     "source": {
-      "name": "Stack Overflow",
+      "name": "Stack Exchange",
       "url": "https://stackoverflow.com/questions/78791729/power-bi-gantt-chart-tasks-with-3-hierarchy-levels-and-monthly-view"
     },
     "title": "Power BI Gantt Chart - Tasks with 3 hierarchy levels and monthly view",
@@ -7620,7 +7620,7 @@
     "reactions": 0,
     "uniqueAuthors": null,
     "publishedAt": "2024-07-25",
-    "crawledAt": "2026-09-18T06:22:57.888Z"
+    "crawledAt": "2026-09-18T17:56:50.308Z"
   },
   {
     "id": "so_78897573_terraform-associate",
@@ -7647,7 +7647,7 @@
     "id": "so_78956789_az-104",
     "certificationId": "az-104",
     "source": {
-      "name": "Stack Overflow",
+      "name": "Stack Exchange",
       "url": "https://stackoverflow.com/questions/78956789/how-to-create-a-vm-using-azure-powershell"
     },
     "title": "How to create a VM using Azure Powershell",
@@ -7662,13 +7662,13 @@
     "reactions": 0,
     "uniqueAuthors": null,
     "publishedAt": "2024-09-06",
-    "crawledAt": "2026-09-18T06:22:57.888Z"
+    "crawledAt": "2026-09-18T17:56:50.308Z"
   },
   {
     "id": "so_78981084_pmp",
     "certificationId": "pmp",
     "source": {
-      "name": "Stack Overflow",
+      "name": "Stack Exchange",
       "url": "https://stackoverflow.com/questions/78981084/error-in-persistence-mapper-provider-after-updating-from-7-0-0-14948-to-7-0-0-15"
     },
     "title": "Error in Persistence Mapper Provider after updating from 7.0.0.14948 to 7.0.0.15936",
@@ -7683,7 +7683,7 @@
     "reactions": 0,
     "uniqueAuthors": null,
     "publishedAt": "2024-09-13",
-    "crawledAt": "2026-09-18T06:22:57.888Z"
+    "crawledAt": "2026-09-18T17:56:50.308Z"
   },
   {
     "id": "so_79075170_terraform-associate",
@@ -7710,7 +7710,7 @@
     "id": "so_79228390_az-104",
     "certificationId": "az-104",
     "source": {
-      "name": "Stack Overflow",
+      "name": "Stack Exchange",
       "url": "https://stackoverflow.com/questions/79228390/how-do-properly-authorize-an-application-to-access-powerbi-data"
     },
     "title": "How do properly authorize an application to access PowerBI data?",
@@ -7725,13 +7725,13 @@
     "reactions": 0,
     "uniqueAuthors": null,
     "publishedAt": "2024-11-26",
-    "crawledAt": "2026-09-18T06:22:57.888Z"
+    "crawledAt": "2026-09-18T17:56:50.308Z"
   },
   {
     "id": "so_79894351_pmp",
     "certificationId": "pmp",
     "source": {
-      "name": "Stack Overflow",
+      "name": "Stack Exchange",
       "url": "https://stackoverflow.com/questions/79894351/how-to-choose-a-project-management-tool-for-a-mid-size-engineering-team"
     },
     "title": "How to choose a project management tool for a mid-size engineering team?",
@@ -7746,13 +7746,13 @@
     "reactions": 0,
     "uniqueAuthors": null,
     "publishedAt": "2026-02-23",
-    "crawledAt": "2026-09-18T06:22:57.888Z"
+    "crawledAt": "2026-09-18T17:56:50.308Z"
   },
   {
     "id": "so_77613536_ai-102",
     "certificationId": "ai-102",
     "source": {
-      "name": "Stack Overflow",
+      "name": "Stack Exchange",
       "url": "https://stackoverflow.com/questions/77613536/python-ai-102-nameerror-name-image-file-is-not-defined"
     },
     "title": "Python - AI 102 - NameError: name 'image_file' is not defined",
@@ -7767,7 +7767,7 @@
     "reactions": -1,
     "uniqueAuthors": null,
     "publishedAt": "2023-12-06",
-    "crawledAt": "2026-09-18T06:22:57.888Z"
+    "crawledAt": "2026-09-18T17:56:50.308Z"
   },
   {
     "id": "so_77625723_gcp-ace",
@@ -23874,7 +23874,7 @@
     "reactions": 0,
     "uniqueAuthors": null,
     "publishedAt": "2024-01-07",
-    "crawledAt": "2026-09-18T16:02:41.283Z"
+    "crawledAt": "2026-09-18T17:56:50.308Z"
   },
   {
     "id": "sx_serverfault_1161177_cka",
@@ -23895,7 +23895,7 @@
     "reactions": -1,
     "uniqueAuthors": null,
     "publishedAt": "2024-06-18",
-    "crawledAt": "2026-09-18T16:02:41.283Z"
+    "crawledAt": "2026-09-18T17:56:50.308Z"
   },
   {
     "id": "sx_security_272629_cissp",
@@ -23916,7 +23916,7 @@
     "reactions": 30,
     "uniqueAuthors": null,
     "publishedAt": "2023-10-15",
-    "crawledAt": "2026-09-18T16:02:41.283Z"
+    "crawledAt": "2026-09-18T17:56:50.308Z"
   },
   {
     "id": "sx_security_38085_cissp",
@@ -23937,7 +23937,7 @@
     "reactions": 2,
     "uniqueAuthors": null,
     "publishedAt": "2013-06-27",
-    "crawledAt": "2026-09-18T16:02:41.283Z"
+    "crawledAt": "2026-09-18T17:56:50.308Z"
   },
   {
     "id": "sx_security_38085_ceh",
@@ -23958,7 +23958,7 @@
     "reactions": 2,
     "uniqueAuthors": null,
     "publishedAt": "2013-06-27",
-    "crawledAt": "2026-09-18T16:02:41.283Z"
+    "crawledAt": "2026-09-18T17:56:50.308Z"
   },
   {
     "id": "sx_security_278569_security-plus",
@@ -23979,7 +23979,7 @@
     "reactions": 2,
     "uniqueAuthors": null,
     "publishedAt": "2024-09-04",
-    "crawledAt": "2026-09-18T16:02:41.283Z"
+    "crawledAt": "2026-09-18T17:56:50.308Z"
   },
   {
     "id": "sx_pm_14524_pmp",
@@ -24000,7 +24000,7 @@
     "reactions": 14,
     "uniqueAuthors": null,
     "publishedAt": "2015-03-26",
-    "crawledAt": "2026-09-18T16:02:41.283Z"
+    "crawledAt": "2026-09-18T17:56:50.308Z"
   },
   {
     "id": "sx_pm_10501_pmp",
@@ -24021,7 +24021,7 @@
     "reactions": 3,
     "uniqueAuthors": null,
     "publishedAt": "2014-01-04",
-    "crawledAt": "2026-09-18T16:02:41.283Z"
+    "crawledAt": "2026-09-18T17:56:50.308Z"
   },
   {
     "id": "sx_pm_35419_pmp",
@@ -24042,7 +24042,7 @@
     "reactions": 2,
     "uniqueAuthors": null,
     "publishedAt": "2024-06-27",
-    "crawledAt": "2026-09-18T16:02:41.283Z"
+    "crawledAt": "2026-09-18T17:56:50.308Z"
   },
   {
     "id": "sx_pm_26999_pmp",
@@ -24063,7 +24063,7 @@
     "reactions": 1,
     "uniqueAuthors": null,
     "publishedAt": "2019-08-14",
-    "crawledAt": "2026-09-18T16:02:41.283Z"
+    "crawledAt": "2026-09-18T17:56:50.308Z"
   },
   {
     "id": "sx_pm_35198_pmp",
@@ -24084,7 +24084,7 @@
     "reactions": 0,
     "uniqueAuthors": null,
     "publishedAt": "2024-01-13",
-    "crawledAt": "2026-09-18T16:02:41.283Z"
+    "crawledAt": "2026-09-18T17:56:50.308Z"
   },
   {
     "id": "sx_pm_35913_pmp",
@@ -24105,7 +24105,7 @@
     "reactions": 0,
     "uniqueAuthors": null,
     "publishedAt": "2026-03-07",
-    "crawledAt": "2026-09-18T16:02:41.283Z"
+    "crawledAt": "2026-09-18T17:56:50.308Z"
   },
   {
     "id": "devto_4658202_az-104",
@@ -25197,7 +25197,7 @@
     "reactions": null,
     "uniqueAuthors": null,
     "publishedAt": "2026-09-16",
-    "crawledAt": "2026-09-18T16:56:48.653Z"
+    "crawledAt": "2026-09-18T17:59:48.105Z"
   },
   {
     "id": "voz_1254202_gcp-ace",
@@ -25218,7 +25218,7 @@
     "reactions": null,
     "uniqueAuthors": null,
     "publishedAt": "2026-09-18",
-    "crawledAt": "2026-09-18T16:56:48.653Z"
+    "crawledAt": "2026-09-18T17:59:48.105Z"
   },
   {
     "id": "gh_1055106641_aws-ccp",
