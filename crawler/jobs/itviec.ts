@@ -13,6 +13,12 @@ function canonicalUrl(url: string): string {
   return `${parsed.origin}${parsed.pathname}`;
 }
 
+/** Seconds from a `Retry-After` header, or null when absent or a date. */
+function retryAfterMs(value: string | string[] | undefined): number | null {
+  const seconds = Number(Array.isArray(value) ? value[0] : value);
+  return Number.isFinite(seconds) && seconds > 0 ? seconds * 1000 : null;
+}
+
 function jobId(url: string): string {
   const slug = new URL(url).pathname.split('/').filter(Boolean).at(-1) ?? url;
   return `itviec_${slug}`;
@@ -36,14 +42,15 @@ export const itviecCrawler: JobCrawler = {
     // Exact instant this crawl run started; `crawledDate` only backs a missing publish date.
     const crawledAt = now.toISOString();
     const crawledDate = crawledAt.slice(0, 10);
+    let rateLimited = false;
 
-    const crawler = new CheerioCrawler(
+    const crawler: CheerioCrawler = new CheerioCrawler(
       {
         // ITviec answers 429 quickly under load, so this stays deliberately slow.
         maxConcurrency: 1,
-        maxRequestsPerMinute: 30,
+        maxRequestsPerMinute: settings.requestsPerMinute,
         maxRequestsPerCrawl: settings.maxRequests,
-        maxRequestRetries: 1,
+        maxRequestRetries: settings.rateLimitRetries,
         requestHandlerTimeoutSecs: 45,
         additionalMimeTypes: ['application/xhtml+xml'],
         preNavigationHooks: [
@@ -110,8 +117,26 @@ export const itviecCrawler: JobCrawler = {
           });
         },
 
-        failedRequestHandler({ request, error }) {
+        // A 429 retried straight away just earns another one. With a single
+        // worker, waiting here pauses the whole crawl, which is the point.
+        async errorHandler({ request, response }, error) {
+          if (!error.message.includes('429')) return;
+          const waitMs =
+            retryAfterMs(response?.headers['retry-after']) ??
+            settings.rateLimitBackoffMs * 2 ** request.retryCount;
+          log(`ITviec: rate limited, waiting ${Math.round(waitMs / 1000)}s before retrying`);
+          await new Promise((r) => setTimeout(r, waitMs));
+        },
+
+        async failedRequestHandler({ request, error }) {
           log(`ITviec: failed ${request.url} (${(error as Error).message})`);
+          // Still limited after every backoff: stop with what was collected
+          // rather than keep knocking and risk a longer block.
+          if ((error as Error).message.includes('429') && !rateLimited) {
+            rateLimited = true;
+            log('ITviec: still rate limited after backing off — stopping early');
+            await crawler.autoscaledPool?.abort();
+          }
         },
       },
       new Configuration({ persistStorage: false }),
@@ -129,7 +154,10 @@ export const itviecCrawler: JobCrawler = {
     );
 
     await crawler.run([...listUrls, ...searchUrls]);
-    log(`ITviec: ${jobs.size} postings mentioning a tracked certification`);
+    log(
+      `ITviec: ${jobs.size} postings mentioning a tracked certification` +
+        (rateLimited ? ' (stopped early on rate limiting)' : ''),
+    );
 
     return [...jobs.values()].slice(0, settings.maxRecords);
   },

@@ -54,7 +54,14 @@ export interface CrawlConfig {
    */
   historyYears: number;
   sources: {
-    itviec: SourceConfig & { listPages: number; maxRequests: number };
+    itviec: SourceConfig & {
+      listPages: number;
+      maxRequests: number;
+      requestsPerMinute: number;
+      /** Retries spent on a 429, each after an exponentially longer wait. */
+      rateLimitRetries: number;
+      rateLimitBackoffMs: number;
+    };
     topcv: BrowserSourceConfig;
     careerviet: BrowserSourceConfig;
     vieclam24h: SourceConfig & {
@@ -133,6 +140,11 @@ export const CRAWL_CONFIG: CrawlConfig = {
       listPages: 12,
       // The single biggest lever on how much ITviec data a run keeps.
       maxRequests: 600,
+      // 30/min drew 429s partway through the per-certification searches.
+      requestsPerMinute: 20,
+      // A 429 waits 60s, then 120s, then 240s; still limited after that stops the run.
+      rateLimitRetries: 3,
+      rateLimitBackoffMs: 60_000,
     },
     // Vietnam jobs. Cloudflare-gated end to end, so this one drives a browser
     // (npx playwright install chromium). Pacing is slow on purpose: a handful of
