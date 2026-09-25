@@ -55,7 +55,7 @@ export interface CrawlConfig {
     };
     weworkremotely: SourceConfig & { feeds: string[] };
     remoteok: SourceConfig;
-    remotive: SourceConfig & { resultsPerTerm: number };
+    remotive: SourceConfig & { feeds: string[] };
     arbeitnow: SourceConfig & { pages: number };
     tokyodev: SourceConfig & { maxDetailPages: number };
     mycareersfuture: SourceConfig & { resultsPerCert: number; detailsPerCert: number };
@@ -68,7 +68,7 @@ export interface CrawlConfig {
       /** Article bodies read to verify a hit whose title says nothing. */
       maxDetailPages: number;
     };
-    viblo: SourceConfig;
+    viblo: SourceConfig & { tags: string[] };
     daynhauhoc: SourceConfig & {
       pages: number;
       /** Threads opened when the title names no certification. */
@@ -127,7 +127,10 @@ export const CRAWL_CONFIG: CrawlConfig = {
     topcv: {
       enabled: true,
       maxRecords: 200_000,
-      searchTerms: 20,
+      // One browser navigation per certification: with 100 in the dictionary this
+      // is ~15 minutes on its own, and anything lower silently skips the tail of
+      // the list rather than searching for it.
+      searchTerms: 100,
       // Each page is a browser navigation at 6s, so this dominates its runtime.
       maxDetailPages: 150,
       navigationDelayMs: 6_000,
@@ -138,8 +141,8 @@ export const CRAWL_CONFIG: CrawlConfig = {
     careerviet: {
       enabled: true,
       maxRecords: 200_000,
-      searchTerms: 20,
-      // Only the 20 searches use the browser; these are plain HTTP fetches.
+      searchTerms: 100,
+      // Only the searches use the browser; these are plain HTTP fetches.
       maxDetailPages: 500,
       navigationDelayMs: 4_000,
       settleMs: 4_000,
@@ -175,12 +178,18 @@ export const CRAWL_CONFIG: CrawlConfig = {
       enabled: true,
       maxRecords: 200_000,
     },
-    // Global remote jobs. Public API with a search term, asked once per
-    // certification name and once per short name.
+    // Global remote jobs. robots.txt disallows /api/* and search URLs, so this
+    // reads the public RSS feeds — the whole board plus the tech categories.
     remotive: {
       enabled: true,
       maxRecords: 200_000,
-      resultsPerTerm: 50,
+      feeds: [
+        'https://remotive.com/remote-jobs/feed',
+        'https://remotive.com/remote-jobs/feed/software-development',
+        'https://remotive.com/remote-jobs/feed/devops',
+        'https://remotive.com/remote-jobs/feed/data',
+        'https://remotive.com/remote-jobs/feed/qa',
+      ],
     },
     // Europe. No search endpoint, so the feed is paged through; 250 per page.
     arbeitnow: {
@@ -224,11 +233,29 @@ export const CRAWL_CONFIG: CrawlConfig = {
       // Each one is a request; only spent when a search hit's title is silent.
       maxDetailPages: 400,
     },
-    // Vietnam community. Only a "newest posts" RSS feed is public, so coverage
-    // builds up run by run rather than in one pass.
+    // Vietnam community. Search and JSON are disallowed by robots.txt, so this
+    // reads RSS: the "newest" feed plus one feed per tag (`/rss/tags/<tag>.rss`,
+    // ~40 latest posts each), which reaches back years on the niche tags.
     viblo: {
       enabled: true,
       maxRecords: 200_000,
+      tags: [
+        'aws',
+        'azure',
+        'google-cloud-platform',
+        'kubernetes',
+        'docker',
+        'devops',
+        'terraform',
+        'security',
+        'cisco',
+        'testing',
+        'istqb',
+        'agile',
+        'scrum',
+        'pmp',
+        'certification',
+      ],
     },
     // Vietnam community. Discourse forum, public JSON listings. Thread bodies
     // are read when the title names nothing — most Vietnamese threads name the
@@ -303,7 +330,10 @@ export const CRAWL_CONFIG: CrawlConfig = {
     stackoverflow: {
       enabled: true,
       maxRecords: 200_000,
-      termsPerCert: 3,
+      // Two, not three: 100 certifications x 3 terms exhausts the 300/day
+      // anonymous quota before the Stack Exchange crawler gets a single call.
+      // Set STACK_APP_KEY and this can go back up.
+      termsPerCert: 2,
       // 100 is the API's own page-size ceiling.
       resultsPerTerm: 100,
     },
@@ -328,8 +358,10 @@ export const CRAWL_CONFIG: CrawlConfig = {
       termsPerCert: 2,
       // 100 is the API's own page-size ceiling.
       resultsPerCert: 100,
-      // Each call costs 6.5s unauthenticated, 2.1s with GITHUB_TOKEN.
-      maxRequests: 40,
+      // Each call costs 6.5s unauthenticated, 2.1s with GITHUB_TOKEN. Two terms
+      // across 100 certifications needs 200; at 40 the crawl stopped after the
+      // first twenty and the rest of the dictionary was never searched.
+      maxRequests: 220,
     },
     officialCourses: {
       enabled: true,

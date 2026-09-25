@@ -54,24 +54,39 @@ A static deployment (S3, Pages) has no API — run `npm run crawl` before deploy
 
 ## Certifications tracked
 
-Twenty certifications are registered in one place — `crawler/dictionary/certifications.ts`. No
+One hundred certifications are registered in one place — `crawler/dictionary/certifications.ts`. No
 crawler matches free text on its own: they all resolve it against each entry's **aliases**, so
 `AZ104`, `AZ-104` and `Azure Administrator Associate` land on the same certification.
 
-| Category | Certifications |
-| --- | --- |
-| Cloud | AWS SAA (SAA-C03), AWS CCP (CLF-C02), AZ-104, AZ-900, Google Cloud ACE |
-| DevOps | AWS DevOps Pro (DOP-C02), HashiCorp Terraform Associate |
-| Kubernetes | CKA, CKAD (Linux Foundation / CNCF) |
-| Networking | CCNA (200-301), CCNP Enterprise (350-401) |
-| Cybersecurity | CISSP, CompTIA Security+ (SY0-701), CEH (312-50) |
-| Data & AI | DP-203, AI-102 |
-| Software & Database | Oracle OCP Java 17 (1Z0-829), Oracle DBA 19c (1Z0-083) |
-| Project management | PMP, PSM I |
+| Category | # | Certifications |
+| --- | --- | --- |
+| Cloud | 12 | AWS SAA, AWS CCP, AWS DVA, AWS SOA, AWS SAP, AZ-104, AZ-204, AZ-305, AZ-900, GCP ACE, GCP PCA, GCP CDL |
+| Cybersecurity | 20 | CISSP, Security+, CEH, CySA+, PenTest+, SecurityX, CISM, CISA, OSCP, GSEC, GCIH, CCSP, ISC2 CC, AWS Security Specialty, AZ-500, SC-200, SC-300, SC-900, CCNP Security, CyberOps Associate |
+| Project Management | 11 | PMP, CAPM, PMI-ACP, PSM I, PSM II, PSPO I, CSM, CSPO, PRINCE2 Foundation, SAFe Agilist, ITIL 4 |
+| DevOps | 9 | AWS DevOps Pro, AZ-400, GCP DevOps, Terraform Associate, Vault Associate, RHCSA, RHCE, LFCS, Linux+ |
+| Testing | 9 | ISTQB CTFL, CTFL-AT, CTAL-TA, CTAL-TTA, CTAL-TM, CT-TAE, CT-PT, CT-AI, Tricentis Tosca AS1 |
+| Data | 8 | DP-203, DP-900, PL-300, AWS DEA, GCP PDE, Databricks DEA, SnowPro Core, Tableau Specialist |
+| AI | 7 | AI-102, AI-900, DP-100, AWS MLS, AWS AIF, GCP PMLE, Databricks MLA |
+| Business Analysis | 7 | ECBA, CCBA, CBAP, PMI-PBA, IIBA-AAC, IIBA-CBDA, IREB CPRE-FL |
+| Networking | 6 | CCNA, CCNP Enterprise, CCIE EI, Network+, AZ-700, AWS ANS |
+| Kubernetes | 4 | CKA, CKAD, CKS, KCNA |
+| Software Development | 4 | OCP Java 17, PCEP, PCAP, Salesforce Admin |
+| Database | 3 | Oracle DBA 19c, DP-300, MongoDB Associate Developer |
 
 Every entry carries its `vendor`, exam `code`, `level` (Foundational → Associate → Professional →
 Expert), `aliases` and the `officialUrl` that the course and holder-count crawlers start from.
 Adding a certification is one object in that file — every crawler picks it up on the next run.
+
+**Two acronyms collide with common words** and will over-count until the matcher can tell them apart:
+`PCAP` is also the packet-capture file format, and `CISA` is also the US Cybersecurity and
+Infrastructure Security Agency. Both are heavily used in exactly the security and networking text
+these crawlers read, so their community counts run high.
+
+**Dictionary size drives crawl cost.** Sources that search per certification — GitHub, Stack
+Exchange, Hacker News, Zenn, Coursera, TopCV, CareerViet — do work proportional to the number of
+entries, so the budgets in `crawler/config.ts` were raised alongside this list
+(`github.maxRequests`, `topcv.searchTerms`, `careerviet.searchTerms`). A budget left too low does not
+fail: the crawl simply stops partway down the dictionary and reports success.
 
 ## Sources
 

@@ -36,7 +36,9 @@ export type CertCategory =
   | 'AI'
   | 'Software Development'
   | 'Database'
-  | 'Project Management';
+  | 'Project Management'
+  | 'Business Analysis'
+  | 'Testing';
 
 export type CertLevel =
   | 'Foundational'
