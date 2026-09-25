@@ -62,8 +62,10 @@ export const remoteOkCrawler: JobCrawler = {
         id: `remoteok_${entry.id}`,
         title: entry.position!,
         company: entry.company || 'Unknown',
-        // Remote OK is a remote-only board; a blank location means "anywhere".
-        location: resolveLocation(entry.location || 'Remote'),
+        // Remote OK is a remote-only board — `entry.location`, when present, is
+        // a hiring restriction ("USA Only"), not a place, so anything that
+        // isn't a specific tracked market falls back to `remote`, not `global`.
+        location: resolveLocation(entry.location, 'remote'),
         certifications,
         source: { name: 'Remote OK', url },
         postedAt: entry.date?.slice(0, 10) ?? crawledDate,

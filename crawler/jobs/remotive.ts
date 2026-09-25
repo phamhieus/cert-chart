@@ -12,8 +12,9 @@ const ORIGIN = 'https://remotive.com';
  * Remotive's robots.txt disallows `/api/*` and every `search=` URL, so this
  * reads the public RSS feeds instead of querying per certification. The feeds
  * only carry the latest postings; the store accumulates them across runs.
- * `<location>` is a hiring restriction ("Europe", "USA"), not where the company
- * sits — it is passed through `resolveLocation` unchanged rather than interpreted.
+ * Remotive is a remote-only board — `<location>` is a hiring restriction
+ * ("Europe", "USA"), not where the company sits. A restriction that isn't a
+ * tracked market falls back to `remote` rather than the generic `global`.
  */
 export const remotiveCrawler: JobCrawler = {
   id: 'remotive',
@@ -59,7 +60,7 @@ export const remotiveCrawler: JobCrawler = {
           id: `remotive_${jobId}`,
           title,
           company: item.find('company').first().text().trim() || 'Unknown',
-          location: resolveLocation(item.find('location').first().text().trim() || 'Remote'),
+          location: resolveLocation(item.find('location').first().text().trim(), 'remote'),
           certifications,
           source: { name: 'Remotive', url: link },
           postedAt:

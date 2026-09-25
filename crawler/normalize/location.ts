@@ -48,7 +48,12 @@ const VN_OTHER_CITIES = [
 const MARKET_RULES: Array<{ match: string[]; market: MarketId; country: string }> = [
   { match: ['viet nam', 'vietnam', 'vn'], market: 'vietnam', country: 'VN' },
   { match: ['japan', 'nihon', 'nippon'], market: 'japan', country: 'JP' },
-  { match: ['remote', 'anywhere', 'worldwide', 'global', 'distributed'], market: 'global', country: 'GLOBAL' },
+  // "Remote", "Anywhere", "Worldwide", "Distributed" are how job boards say
+  // work is location-independent — that is a hiring arrangement, not a place,
+  // so it gets its own market rather than falling into `global` alongside a
+  // real, specific city that simply isn't VN/SG/JP (e.g. a Greenhouse posting
+  // in "San Francisco, CA", which reaches `UNKNOWN_LOCATION` below instead).
+  { match: ['remote', 'anywhere', 'worldwide', 'distributed', 'telecommute'], market: 'remote', country: 'REMOTE' },
 ];
 
 function titleCase(value: string): string {
@@ -64,11 +69,22 @@ export const UNKNOWN_LOCATION: GeoLocation = {
 /**
  * Maps a free-text place from a posting to a market/city. Nothing is guessed from
  * user profiles — only from the text the source itself publishes.
+ *
+ * `fallbackMarket` is for boards that are remote-only by definition (Remote OK,
+ * We Work Remotely, Remotive, Himalayas): their "location" field is really a
+ * hiring restriction ("USA Only", "Worldwide"), not a place, so a VN/SG/JP
+ * restriction still resolves to that market (someone there really could take
+ * the job), but anything else should land on `remote`, not fall all the way to
+ * `global` as if the posting were no different from a fixed-office one.
  */
-export function resolveLocation(raw: string | undefined | null): GeoLocation {
-  if (!raw) return UNKNOWN_LOCATION;
+export function resolveLocation(
+  raw: string | undefined | null,
+  fallbackMarket?: MarketId,
+): GeoLocation {
+  const fallback = fallbackMarket ? marketLocation(fallbackMarket, 'unknown') : UNKNOWN_LOCATION;
+  if (!raw) return fallback;
   const text = normalizeText(raw);
-  if (!text) return UNKNOWN_LOCATION;
+  if (!text) return fallback;
 
   for (const rule of CITY_RULES) {
     if (rule.match.some((needle) => new RegExp(`(^|[^a-z])${needle}([^a-z]|$)`).test(text))) {
@@ -86,11 +102,19 @@ export function resolveLocation(raw: string | undefined | null): GeoLocation {
     }
   }
 
-  return UNKNOWN_LOCATION;
+  return fallback;
 }
 
 export function marketLocation(market: MarketId, scope: 'national' | 'unknown' = 'national'): GeoLocation {
   const country =
-    market === 'vietnam' ? 'VN' : market === 'singapore' ? 'SG' : market === 'japan' ? 'JP' : 'GLOBAL';
+    market === 'vietnam'
+      ? 'VN'
+      : market === 'singapore'
+        ? 'SG'
+        : market === 'japan'
+          ? 'JP'
+          : market === 'remote'
+            ? 'REMOTE'
+            : 'GLOBAL';
   return { country, market, scope };
 }

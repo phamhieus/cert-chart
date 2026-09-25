@@ -53,7 +53,9 @@ export const weWorkRemotelyCrawler: JobCrawler = {
           id: `wwr_${link.split('/').filter(Boolean).at(-1)}`,
           title,
           company,
-          location: resolveLocation(regionText || 'Remote'),
+          // We Work Remotely is a remote-only board — `regionText` is a hiring
+          // restriction ("Anywhere in the World", "USA Only"), not a place.
+          location: resolveLocation(regionText, 'remote'),
           certifications,
           source: { name: 'We Work Remotely', url: link },
           postedAt:

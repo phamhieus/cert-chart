@@ -33,6 +33,15 @@ export interface TrainingCenter {
   listUrls: string[];
 }
 
+export interface GreenhouseBoard {
+  /** The board token in `boards-api.greenhouse.io/v1/boards/{token}/...`. */
+  token: string;
+  /** Display name stored on each job's `source` — every job from this crawler
+   *  shares one `source.name` ("Greenhouse"), same as Zenn or GitHub share one
+   *  name across many authors/repos, so `company` is the only per-board field. */
+  company: string;
+}
+
 export interface CrawlConfig {
   userAgent: string;
   requestDelayMs: number;
@@ -57,6 +66,8 @@ export interface CrawlConfig {
     remoteok: SourceConfig;
     remotive: SourceConfig & { feeds: string[] };
     arbeitnow: SourceConfig & { pages: number };
+    himalayas: SourceConfig & { pages: number };
+    greenhouse: SourceConfig & { boards: GreenhouseBoard[] };
     tokyodev: SourceConfig & { maxDetailPages: number };
     mycareersfuture: SourceConfig & { resultsPerCert: number; detailsPerCert: number };
     zenn: SourceConfig & {
@@ -89,7 +100,9 @@ export interface CrawlConfig {
       includeComments: boolean;
     };
     reddit: SourceConfig & { subredditMarkets: Array<{ name: string; market: string }> };
-    voz: SourceConfig & { forumUrls: string[] };
+    /** `forums` are VOZ forum slugs — `lap-trinh-cntt.91` — read as RSS. */
+    voz: SourceConfig & { forums: string[] };
+    quantrimang: SourceConfig & { searchTerms: string[]; maxArticlePages: number };
     stackoverflow: SourceConfig & { termsPerCert: number; resultsPerTerm: number };
     stackexchange: SourceConfig & {
       /** API `site` parameters beyond stackoverflow.com. */
@@ -196,6 +209,38 @@ export const CRAWL_CONFIG: CrawlConfig = {
       enabled: true,
       maxRecords: 200_000,
       pages: 8,
+    },
+    // Global remote jobs. Cursor-paginated JSON feed, no search endpoint either
+    // — added alongside Remote OK/Remotive/Arbeitnow rather than instead of any
+    // of them, since each board's postings barely overlap.
+    himalayas: {
+      enabled: true,
+      maxRecords: 300,
+      pages: 8,
+    },
+    // Global jobs via the Greenhouse ATS's public job-board API — one request
+    // per company returns every open posting with its full HTML description,
+    // no search or auth needed (`robots.txt` on boards-api.greenhouse.io
+    // disallows only `/embed/`). Every token below was checked to resolve and
+    // return jobs before being added; this is a hand-picked slice of mostly
+    // US-based security/infra/cloud employers, so it widens the global bucket
+    // rather than the Vietnam one.
+    greenhouse: {
+      enabled: true,
+      maxRecords: 300,
+      boards: [
+        { token: 'cloudflare', company: 'Cloudflare' },
+        { token: 'elastic', company: 'Elastic' },
+        { token: 'okta', company: 'Okta' },
+        { token: 'databricks', company: 'Databricks' },
+        { token: 'gitlab', company: 'GitLab' },
+        { token: 'coinbase', company: 'Coinbase' },
+        { token: 'samsara', company: 'Samsara' },
+        { token: 'twilio', company: 'Twilio' },
+        { token: 'dropbox', company: 'Dropbox' },
+        { token: 'robinhood', company: 'Robinhood' },
+        { token: 'reddit', company: 'Reddit' },
+      ],
     },
     // Japan. The big Japanese boards refuse non-browser requests, leaving the
     // market with community activity and no demand data until this source.
@@ -318,15 +363,58 @@ export const CRAWL_CONFIG: CrawlConfig = {
         { name: 'cybersecurity', market: 'global' },
       ],
     },
-    // VOZ sits behind a Cloudflare challenge, so plain HTTP requests get a 403.
-    // Enabling it means driving a real browser (Playwright) yourself.
+    // Vietnam community. VOZ's HTML sits behind a Cloudflare challenge that
+    // answers 403 to `fetch`, but each forum's `/index.rss` is served normally
+    // and carries the opening post, so this needs no browser — see
+    // crawler/communities/voz.ts. Each feed is the 20 newest threads, so
+    // coverage accumulates run by run. These are the forums where Vietnamese
+    // IT people actually discuss certifications and careers; the consumer-tech
+    // forums were measured and name a certification essentially never.
     voz: {
-      enabled: false,
-      maxRecords: 200_000,
-      forumUrls: [],
+      enabled: true,
+      maxRecords: 300,
+      forums: [
+        'lap-trinh-cntt.91',
+        'tuyen-dung-tim-viec.95',
+        'phan-mem.13',
+        'server-nas-render-farm.83',
+        'thiet-bi-ngoai-vi-phu-kien-mang.30',
+        'ai.42',
+      ],
+    },
+    // Vietnam community. `quantrimang.com/{term}` is the site's search, and
+    // robots.txt is a bare `Allow: /`. Editorial articles rather than forum
+    // threads — see crawler/communities/quantrimang.ts. One extra request per
+    // article buys its real publish date, which the search results omit.
+    quantrimang: {
+      enabled: true,
+      maxRecords: 400,
+      // The site's search takes a single alphanumeric token and answers 400 to
+      // anything else, so these are vendor and technology words rather than
+      // exam names — the alias check decides what actually counts. Result
+      // counts measured when the list was picked: cisco 196, security 362,
+      // oracle 162, azure 56, pmp 54, ccna 39, aws 23, pentest 11, kubernetes
+      // 6, cissp 5, terraform 3, comptia 2, ceh 2.
+      searchTerms: [
+        'ccna',
+        'ccnp',
+        'cisco',
+        'cissp',
+        'comptia',
+        'security',
+        'ceh',
+        'pentest',
+        'aws',
+        'azure',
+        'kubernetes',
+        'terraform',
+        'oracle',
+        'pmp',
+      ],
+      maxArticlePages: 120,
     },
     // Global community. Stack Exchange's public API — no key needed; setting
-    // STACK_APP_KEY only raises the daily quota from 300 to 10,000 calls.
+    // STACK_APP_KEY raises the daily quota from 300 to 10,000 calls.
     stackoverflow: {
       enabled: true,
       maxRecords: 200_000,
@@ -339,14 +427,15 @@ export const CRAWL_CONFIG: CrawlConfig = {
     },
     // Global community. The rest of the Stack Exchange network, same API and
     // the same daily quota — certification talk is spread far wider than
-    // stackoverflow.com.
-    // Three sites at two terms each is ~120 calls, which fits under the 300/day
-    // anonymous quota alongside the Stack Overflow pass. STACK_APP_KEY raises the
-    // ceiling to 10,000 and this can then be widened.
+    // stackoverflow.com. serverfault/security/pm measurably out-cover Stack
+    // Overflow for networking, security and PM certifications; superuser and
+    // softwareengineering were tried and left out for low yield.
+    // Each site costs `certs * termsPerCert` calls against the shared quota, so
+    // run with STACK_APP_KEY (10,000/day) before widening this list further.
     stackexchange: {
       enabled: true,
       maxRecords: 200_000,
-      sites: ['serverfault', 'security', 'devops'],
+      sites: ['serverfault', 'security', 'devops', 'pm'],
       termsPerCert: 2,
       resultsPerTerm: 100,
     },

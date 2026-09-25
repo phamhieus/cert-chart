@@ -5,9 +5,9 @@
     "type": "certification-body",
     "url": "",
     "records": 4,
-    "lastCrawledAt": "2026-09-18T10:22:14.437Z",
-    "lastCrawlStartedAt": "2026-09-18T10:17:36.357Z",
-    "lastCrawlDurationMs": 278080
+    "lastCrawledAt": "2026-09-18T17:35:48.912Z",
+    "lastCrawlStartedAt": "2026-09-18T17:30:11.438Z",
+    "lastCrawlDurationMs": 337474
   },
   {
     "id": "daynhauhoc",
@@ -15,29 +15,29 @@
     "type": "community",
     "url": "https://daynhauhoc.com",
     "records": 5,
-    "lastCrawledAt": "2026-09-18T09:33:13.316Z",
-    "lastCrawlStartedAt": "2026-09-18T09:26:43.543Z",
-    "lastCrawlDurationMs": 389773
+    "lastCrawledAt": "2026-09-18T16:54:52.852Z",
+    "lastCrawlStartedAt": "2026-09-18T16:54:26.160Z",
+    "lastCrawlDurationMs": 26692
   },
   {
     "id": "devto",
     "name": "DEV Community",
     "type": "community",
     "url": "https://dev.to",
-    "records": 192,
-    "lastCrawledAt": "2026-09-18T10:10:14.937Z",
-    "lastCrawlStartedAt": "2026-09-18T10:07:24.661Z",
-    "lastCrawlDurationMs": 170276
+    "records": 193,
+    "lastCrawledAt": "2026-09-18T17:22:21.541Z",
+    "lastCrawlStartedAt": "2026-09-18T17:22:08.185Z",
+    "lastCrawlDurationMs": 13356
   },
   {
     "id": "github",
     "name": "GitHub",
     "type": "community",
     "url": "https://github.com",
-    "records": 3520,
-    "lastCrawledAt": "2026-09-18T10:06:09.291Z",
-    "lastCrawlStartedAt": "2026-09-18T09:59:24.034Z",
-    "lastCrawlDurationMs": 405257
+    "records": 3523,
+    "lastCrawledAt": "2026-09-18T17:22:08.184Z",
+    "lastCrawlStartedAt": "2026-09-18T17:16:05.192Z",
+    "lastCrawlDurationMs": 362992
   },
   {
     "id": "hackernews",
@@ -48,6 +48,16 @@
     "lastCrawledAt": "2026-09-18T10:07:24.661Z",
     "lastCrawlStartedAt": "2026-09-18T10:06:09.291Z",
     "lastCrawlDurationMs": 75370
+  },
+  {
+    "id": "quantrimang",
+    "name": "Quản Trị Mạng",
+    "type": "community",
+    "url": "https://quantrimang.com",
+    "records": 1,
+    "lastCrawledAt": "2026-09-18T16:56:24.640Z",
+    "lastCrawlStartedAt": "2026-09-18T16:55:16.534Z",
+    "lastCrawlDurationMs": 68106
   },
   {
     "id": "reddit",
@@ -65,7 +75,7 @@
     "name": "Stack Exchange",
     "type": "community",
     "url": "https://stackexchange.com",
-    "records": 8,
+    "records": 14,
     "lastCrawledAt": "2026-09-18T09:59:24.034Z",
     "lastCrawlStartedAt": "2026-09-18T09:44:57.462Z",
     "lastCrawlDurationMs": 866572
@@ -76,9 +86,9 @@
     "type": "community",
     "url": "https://stackoverflow.com",
     "records": 107,
-    "lastCrawledAt": "2026-09-18T09:44:57.462Z",
-    "lastCrawlStartedAt": "2026-09-18T09:38:49.336Z",
-    "lastCrawlDurationMs": 368126
+    "lastCrawledAt": "2026-09-18T17:59:18.706Z",
+    "lastCrawlStartedAt": "2026-09-18T17:56:50.310Z",
+    "lastCrawlDurationMs": 148396
   },
   {
     "id": "viblo",
@@ -95,11 +105,10 @@
     "name": "VOZ",
     "type": "community",
     "url": "https://voz.vn",
-    "records": 0,
-    "lastCrawledAt": "2026-09-18",
-    "lastCrawlStartedAt": "2026-09-18T05:40:45.493Z",
-    "lastCrawlDurationMs": 0,
-    "notes": "Disabled in crawler/config.ts"
+    "records": 2,
+    "lastCrawledAt": "2026-09-18T17:59:53.109Z",
+    "lastCrawlStartedAt": "2026-09-18T17:59:48.106Z",
+    "lastCrawlDurationMs": 5003
   },
   {
     "id": "zenn",
@@ -107,9 +116,9 @@
     "type": "community",
     "url": "https://zenn.dev",
     "records": 904,
-    "lastCrawledAt": "2026-09-18T09:38:49.336Z",
-    "lastCrawlStartedAt": "2026-09-18T09:33:13.966Z",
-    "lastCrawlDurationMs": 335370
+    "lastCrawledAt": "2026-09-18T16:56:09.362Z",
+    "lastCrawlStartedAt": "2026-09-18T16:54:54.618Z",
+    "lastCrawlDurationMs": 74745
   },
   {
     "id": "coursera",
@@ -117,9 +126,9 @@
     "type": "course-provider",
     "url": "https://www.coursera.org",
     "records": 80,
-    "lastCrawledAt": "2026-09-18T10:16:46.525Z",
-    "lastCrawlStartedAt": "2026-09-18T10:12:57.158Z",
-    "lastCrawlDurationMs": 229367
+    "lastCrawledAt": "2026-09-18T17:29:22.859Z",
+    "lastCrawlStartedAt": "2026-09-18T17:25:19.870Z",
+    "lastCrawlDurationMs": 242989
   },
   {
     "id": "official-training",
@@ -127,9 +136,9 @@
     "type": "course-provider",
     "url": "",
     "records": 16,
-    "lastCrawledAt": "2026-09-18T10:12:57.158Z",
-    "lastCrawlStartedAt": "2026-09-18T10:10:14.937Z",
-    "lastCrawlDurationMs": 162221
+    "lastCrawledAt": "2026-09-18T17:25:19.869Z",
+    "lastCrawlStartedAt": "2026-09-18T17:22:21.542Z",
+    "lastCrawlDurationMs": 178327
   },
   {
     "id": "udemy",
@@ -146,19 +155,19 @@
     "type": "course-provider",
     "url": "",
     "records": 38,
-    "lastCrawledAt": "2026-09-18T10:17:36.356Z",
-    "lastCrawlStartedAt": "2026-09-18T10:16:46.525Z",
-    "lastCrawlDurationMs": 49831
+    "lastCrawledAt": "2026-09-18T17:30:11.437Z",
+    "lastCrawlStartedAt": "2026-09-18T17:29:22.860Z",
+    "lastCrawlDurationMs": 48577
   },
   {
     "id": "arbeitnow",
     "name": "Arbeitnow",
     "type": "job-board",
     "url": "https://www.arbeitnow.com",
-    "records": 16,
-    "lastCrawledAt": "2026-09-18T09:26:43.543Z",
-    "lastCrawlStartedAt": "2026-09-18T09:26:36.715Z",
-    "lastCrawlDurationMs": 6828
+    "records": 19,
+    "lastCrawledAt": "2026-09-18T16:53:56.477Z",
+    "lastCrawlStartedAt": "2026-09-18T16:53:49.709Z",
+    "lastCrawlDurationMs": 6768
   },
   {
     "id": "careerviet",
@@ -171,14 +180,34 @@
     "lastCrawlDurationMs": 182022
   },
   {
+    "id": "greenhouse",
+    "name": "Greenhouse",
+    "type": "job-board",
+    "url": "https://www.greenhouse.io",
+    "records": 76,
+    "lastCrawledAt": "2026-09-18T16:54:26.159Z",
+    "lastCrawlStartedAt": "2026-09-18T16:54:03.582Z",
+    "lastCrawlDurationMs": 22577
+  },
+  {
+    "id": "himalayas",
+    "name": "Himalayas",
+    "type": "job-board",
+    "url": "https://himalayas.app",
+    "records": 4,
+    "lastCrawledAt": "2026-09-18T16:54:03.581Z",
+    "lastCrawlStartedAt": "2026-09-18T16:53:56.477Z",
+    "lastCrawlDurationMs": 7104
+  },
+  {
     "id": "itviec",
     "name": "ITviec",
     "type": "job-board",
     "url": "https://itviec.com",
     "records": 44,
-    "lastCrawledAt": "2026-09-18T09:02:54.196Z",
-    "lastCrawlStartedAt": "2026-09-18T08:52:37.669Z",
-    "lastCrawlDurationMs": 616527
+    "lastCrawledAt": "2026-09-18T16:39:41.787Z",
+    "lastCrawlStartedAt": "2026-09-18T16:29:20.741Z",
+    "lastCrawlDurationMs": 621046
   },
   {
     "id": "linkedin",
@@ -195,9 +224,9 @@
     "type": "job-board",
     "url": "https://www.mycareersfuture.gov.sg",
     "records": 11,
-    "lastCrawledAt": "2026-09-18T09:19:00.314Z",
-    "lastCrawlStartedAt": "2026-09-18T09:18:14.854Z",
-    "lastCrawlDurationMs": 45460
+    "lastCrawledAt": "2026-09-18T16:40:17.406Z",
+    "lastCrawlStartedAt": "2026-09-18T16:39:48.283Z",
+    "lastCrawlDurationMs": 29123
   },
   {
     "id": "remoteok",
@@ -205,9 +234,9 @@
     "type": "job-board",
     "url": "https://remoteok.com",
     "records": 3,
-    "lastCrawledAt": "2026-09-18T09:26:36.290Z",
-    "lastCrawlStartedAt": "2026-09-18T09:26:34.014Z",
-    "lastCrawlDurationMs": 2276
+    "lastCrawledAt": "2026-09-18T16:53:49.496Z",
+    "lastCrawlStartedAt": "2026-09-18T16:53:45.728Z",
+    "lastCrawlDurationMs": 3768
   },
   {
     "id": "remotive",
@@ -225,9 +254,9 @@
     "type": "job-board",
     "url": "https://www.tokyodev.com",
     "records": 6,
-    "lastCrawledAt": "2026-09-18T09:26:25.523Z",
-    "lastCrawlStartedAt": "2026-09-18T09:19:00.315Z",
-    "lastCrawlDurationMs": 445208
+    "lastCrawledAt": "2026-09-18T16:53:39.072Z",
+    "lastCrawlStartedAt": "2026-09-18T16:40:17.406Z",
+    "lastCrawlDurationMs": 801666
   },
   {
     "id": "topcv",
@@ -255,8 +284,8 @@
     "type": "job-board",
     "url": "https://weworkremotely.com",
     "records": 2,
-    "lastCrawledAt": "2026-09-18T09:26:34.014Z",
-    "lastCrawlStartedAt": "2026-09-18T09:26:25.523Z",
-    "lastCrawlDurationMs": 8491
+    "lastCrawledAt": "2026-09-18T16:53:45.727Z",
+    "lastCrawlStartedAt": "2026-09-18T16:53:39.072Z",
+    "lastCrawlDurationMs": 6655
   }
 ]

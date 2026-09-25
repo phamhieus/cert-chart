@@ -4,6 +4,7 @@ import { dayNhauHocCrawler } from './communities/daynhauhoc/index';
 import { devToCrawler } from './communities/devto';
 import { gitHubCrawler } from './communities/github';
 import { hackerNewsCrawler } from './communities/hackernews';
+import { quanTriMangCrawler } from './communities/quantrimang';
 import { redditCrawler } from './communities/reddit';
 import {
   stackExchangeCrawler,
@@ -20,6 +21,8 @@ import { vnTrainingCentersCrawler } from './courses/vntrainingcenters';
 import { arbeitnowCrawler } from './jobs/arbeitnow';
 import { vendorHoldersCrawler } from './holders/vendorPages';
 import { careerVietCrawler } from './jobs/careerviet';
+import { greenhouseCrawler } from './jobs/greenhouse';
+import { himalayasCrawler } from './jobs/himalayas';
 import { itviecCrawler } from './jobs/itviec';
 import { linkedInCrawler } from './jobs/linkedin';
 import { myCareersFutureCrawler } from './jobs/mycareersfuture';
@@ -44,6 +47,8 @@ const JOB_CRAWLERS = [
   remoteOkCrawler,
   remotiveCrawler,
   arbeitnowCrawler,
+  himalayasCrawler,
+  greenhouseCrawler,
   linkedInCrawler,
 ];
 // Vietnam first, then the regional and global sources: a failure late in the
@@ -55,10 +60,11 @@ const COMMUNITY_CRAWLERS = [
   zennCrawler,
   stackOverflowCrawler,
   stackExchangeCrawler,
-  gitHubCrawler,
   hackerNewsCrawler,
+  gitHubCrawler,
   devToCrawler,
   redditCrawler,
+  quanTriMangCrawler,
 ];
 const COURSE_CRAWLERS = [
   officialCoursesCrawler,
