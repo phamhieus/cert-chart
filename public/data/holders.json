@@ -3,15 +3,15 @@
     "id": "holders_ec-council",
     "certificationId": null,
     "vendor": "EC-Council",
-    "holders": 4000000,
+    "holders": 400000,
     "counts": "people",
     "scope": "vendor",
-    "statement": "Trusted by 4 Million Certified Learners Worldwide",
+    "statement": "Trusted by 400,000+ Certified Learners Worldwide",
     "source": {
       "name": "EC-Council",
       "url": "https://www.eccouncil.org/train-certify/certified-ethical-hacker-ceh/"
     },
-    "crawledAt": "2026-09-27T13:39:55.429Z"
+    "crawledAt": "2026-10-13T17:58:43.995Z"
   },
   {
     "id": "holders_isaca",
@@ -25,7 +25,7 @@
       "name": "ISACA",
       "url": "https://www.isaca.org/credentialing/cism"
     },
-    "crawledAt": "2026-09-25T10:25:50.612Z"
+    "crawledAt": "2026-10-13T17:58:43.995Z"
   },
   {
     "id": "holders_giac",
@@ -39,7 +39,7 @@
       "name": "GIAC",
       "url": "https://www.giac.org/certifications/security-essentials-gsec/"
     },
-    "crawledAt": "2026-09-25T10:25:50.612Z"
+    "crawledAt": "2026-10-13T17:58:43.995Z"
   },
   {
     "id": "holders_scrum-alliance",
@@ -53,7 +53,7 @@
       "name": "Scrum Alliance",
       "url": "https://www.scrumalliance.org/get-certified/scrum-master-track/certified-scrummaster"
     },
-    "crawledAt": "2026-09-25T10:25:50.612Z"
+    "crawledAt": "2026-10-13T17:58:43.995Z"
   },
   {
     "id": "holders_scaled-agile",
@@ -67,7 +67,21 @@
       "name": "Scaled Agile",
       "url": "https://scaledagile.com/training/leading-safe/"
     },
-    "crawledAt": "2026-09-25T10:25:50.612Z"
+    "crawledAt": "2026-10-13T17:58:43.995Z"
+  },
+  {
+    "id": "holders_bcs",
+    "certificationId": null,
+    "vendor": "BCS",
+    "holders": 100000,
+    "counts": "people",
+    "scope": "vendor",
+    "statement": "Over 100,000 professionals worldwide are certified with BCS.",
+    "source": {
+      "name": "BCS",
+      "url": "https://www.bcs.org/qualifications-and-certifications/certifications-for-professionals/business-analysis-certifications/bcs-foundation-certificate-in-business-analysis/"
+    },
+    "crawledAt": "2026-10-13T17:58:43.995Z"
   },
   {
     "id": "holders_aws",
@@ -81,7 +95,7 @@
       "name": "AWS",
       "url": "https://aws.amazon.com/certification/"
     },
-    "crawledAt": "2026-09-27T13:39:55.429Z"
+    "crawledAt": "2026-10-13T17:58:43.995Z"
   },
   {
     "id": "holders_cisco",
@@ -95,7 +109,7 @@
       "name": "Cisco",
       "url": "https://www.cisco.com/site/us/en/learn/training-certifications/certifications/index.html"
     },
-    "crawledAt": "2026-09-27T13:39:55.429Z"
+    "crawledAt": "2026-10-13T17:58:43.995Z"
   },
   {
     "id": "holders_isc2",
@@ -109,6 +123,6 @@
       "name": "ISC2",
       "url": "https://www.isc2.org/about"
     },
-    "crawledAt": "2026-09-27T13:39:55.429Z"
+    "crawledAt": "2026-10-13T17:58:43.995Z"
   }
 ]

@@ -4,10 +4,10 @@
     "name": "Vendor certification pages",
     "type": "certification-body",
     "url": "",
-    "records": 8,
-    "lastCrawledAt": "2026-09-27T14:29:09.200Z",
-    "lastCrawlStartedAt": "2026-09-27T14:23:52.991Z",
-    "lastCrawlDurationMs": 316209
+    "records": 9,
+    "lastCrawledAt": "2026-10-13T20:14:10.318Z",
+    "lastCrawlStartedAt": "2026-10-13T20:06:52.958Z",
+    "lastCrawlDurationMs": 437360
   },
   {
     "id": "daynhauhoc",
@@ -15,9 +15,9 @@
     "type": "community",
     "url": "https://daynhauhoc.com",
     "records": 9,
-    "lastCrawledAt": "2026-09-27T14:00:39.984Z",
-    "lastCrawlStartedAt": "2026-09-27T14:00:12.842Z",
-    "lastCrawlDurationMs": 27142
+    "lastCrawledAt": "2026-10-13T18:51:30.250Z",
+    "lastCrawlStartedAt": "2026-10-13T18:44:33.977Z",
+    "lastCrawlDurationMs": 416273
   },
   {
     "id": "deepseek",
@@ -25,59 +25,59 @@
     "type": "community",
     "url": "https://www.deepseek.com",
     "records": 0,
-    "lastCrawledAt": "2026-09-27T14:15:15.769Z",
-    "lastCrawlStartedAt": "2026-09-27T14:15:05.270Z",
-    "lastCrawlDurationMs": 10499
+    "lastCrawledAt": "2026-10-13T19:51:29.376Z",
+    "lastCrawlStartedAt": "2026-10-13T19:51:18.519Z",
+    "lastCrawlDurationMs": 10857
   },
   {
     "id": "devto",
-    "name": "dev.to",
+    "name": "DEV Community",
     "type": "community",
     "url": "https://dev.to",
-    "records": 62,
-    "lastCrawledAt": "2026-09-27T14:09:51.290Z",
-    "lastCrawlStartedAt": "2026-09-27T14:09:37.881Z",
-    "lastCrawlDurationMs": 13409
+    "records": 274,
+    "lastCrawledAt": "2026-10-13T19:49:20.797Z",
+    "lastCrawlStartedAt": "2026-10-13T19:46:13.836Z",
+    "lastCrawlDurationMs": 186961
   },
   {
     "id": "github",
     "name": "GitHub",
     "type": "community",
     "url": "https://github.com",
-    "records": 3932,
-    "lastCrawledAt": "2026-10-13T04:28:20.239Z",
-    "lastCrawlStartedAt": "2026-10-13T03:55:01.780Z",
-    "lastCrawlDurationMs": 1998460
+    "records": 3939,
+    "lastCrawledAt": "2026-10-13T19:46:13.836Z",
+    "lastCrawlStartedAt": "2026-10-13T19:26:42.694Z",
+    "lastCrawlDurationMs": 1171142
   },
   {
     "id": "hackernews",
     "name": "Hacker News",
     "type": "community",
     "url": "https://news.ycombinator.com",
-    "records": 1963,
-    "lastCrawledAt": "2026-09-25T13:02:47.722Z",
-    "lastCrawlStartedAt": "2026-09-25T12:55:53.013Z",
-    "lastCrawlDurationMs": 414709
+    "records": 1964,
+    "lastCrawledAt": "2026-10-13T19:26:42.694Z",
+    "lastCrawlStartedAt": "2026-10-13T19:19:58.890Z",
+    "lastCrawlDurationMs": 403804
   },
   {
     "id": "linkedin-posts",
     "name": "LinkedIn Posts",
     "type": "community",
     "url": "https://www.linkedin.com",
-    "records": 800,
-    "lastCrawledAt": "2026-10-13T17:51:26.796Z",
-    "lastCrawlStartedAt": "2026-10-13T17:50:42.183Z",
-    "lastCrawlDurationMs": 44613
+    "records": 813,
+    "lastCrawledAt": "2026-10-13T19:52:13.292Z",
+    "lastCrawlStartedAt": "2026-10-13T19:51:29.376Z",
+    "lastCrawlDurationMs": 43916
   },
   {
     "id": "medium",
     "name": "Medium",
     "type": "community",
     "url": "https://medium.com",
-    "records": 116,
-    "lastCrawledAt": "2026-09-27T14:13:50.288Z",
-    "lastCrawlStartedAt": "2026-09-27T14:09:51.291Z",
-    "lastCrawlDurationMs": 238997
+    "records": 164,
+    "lastCrawledAt": "2026-10-13T19:50:10.071Z",
+    "lastCrawlStartedAt": "2026-10-13T19:49:20.797Z",
+    "lastCrawlDurationMs": 49274
   },
   {
     "id": "quantrimang",
@@ -85,9 +85,9 @@
     "type": "community",
     "url": "https://quantrimang.com",
     "records": 1,
-    "lastCrawledAt": "2026-09-27T14:15:05.269Z",
-    "lastCrawlStartedAt": "2026-09-27T14:13:55.302Z",
-    "lastCrawlDurationMs": 69967
+    "lastCrawledAt": "2026-10-13T19:51:18.519Z",
+    "lastCrawlStartedAt": "2026-10-13T19:50:10.071Z",
+    "lastCrawlDurationMs": 68448
   },
   {
     "id": "reddit",
@@ -105,20 +105,20 @@
     "name": "Stack Exchange",
     "type": "community",
     "url": "https://stackexchange.com",
-    "records": 56,
-    "lastCrawledAt": "2026-09-25T12:55:53.012Z",
-    "lastCrawlStartedAt": "2026-09-25T11:30:26.455Z",
-    "lastCrawlDurationMs": 5126557
+    "records": 67,
+    "lastCrawledAt": "2026-10-13T19:19:58.890Z",
+    "lastCrawlStartedAt": "2026-10-13T19:07:17.844Z",
+    "lastCrawlDurationMs": 761046
   },
   {
     "id": "stackoverflow",
-    "name": "Stack Exchange",
+    "name": "Stack Overflow",
     "type": "community",
-    "url": "https://stackexchange.com",
-    "records": 56,
-    "lastCrawledAt": "2026-09-27T14:06:13.582Z",
-    "lastCrawlStartedAt": "2026-09-27T14:01:56.522Z",
-    "lastCrawlDurationMs": 257060
+    "url": "https://stackoverflow.com",
+    "records": 228,
+    "lastCrawledAt": "2026-10-13T19:07:17.844Z",
+    "lastCrawlStartedAt": "2026-10-13T19:04:06.650Z",
+    "lastCrawlDurationMs": 191194
   },
   {
     "id": "viblo",
@@ -126,39 +126,39 @@
     "type": "community",
     "url": "https://viblo.asia",
     "records": 23,
-    "lastCrawledAt": "2026-09-27T14:00:41.031Z",
-    "lastCrawlStartedAt": "2026-09-27T14:00:39.984Z",
-    "lastCrawlDurationMs": 1047
+    "lastCrawledAt": "2026-10-13T18:51:44.814Z",
+    "lastCrawlStartedAt": "2026-10-13T18:51:30.250Z",
+    "lastCrawlDurationMs": 14564
   },
   {
     "id": "voz",
     "name": "VOZ",
     "type": "community",
     "url": "https://voz.vn",
-    "records": 3,
-    "lastCrawledAt": "2026-09-27T14:13:55.302Z",
-    "lastCrawlStartedAt": "2026-09-27T14:13:50.288Z",
-    "lastCrawlDurationMs": 5014
+    "records": 4,
+    "lastCrawledAt": "2026-10-13T18:51:50.262Z",
+    "lastCrawlStartedAt": "2026-10-13T18:51:44.814Z",
+    "lastCrawlDurationMs": 5448
   },
   {
     "id": "zenn",
     "name": "Zenn",
     "type": "community",
     "url": "https://zenn.dev",
-    "records": 917,
-    "lastCrawledAt": "2026-09-27T14:01:56.522Z",
-    "lastCrawlStartedAt": "2026-09-27T14:00:41.031Z",
-    "lastCrawlDurationMs": 75491
+    "records": 936,
+    "lastCrawledAt": "2026-10-13T19:04:06.649Z",
+    "lastCrawlStartedAt": "2026-10-13T18:51:50.263Z",
+    "lastCrawlDurationMs": 736387
   },
   {
     "id": "coursera",
     "name": "Coursera",
     "type": "course-provider",
     "url": "https://www.coursera.org",
-    "records": 221,
-    "lastCrawledAt": "2026-09-27T14:22:46.857Z",
-    "lastCrawlStartedAt": "2026-09-27T14:18:15.246Z",
-    "lastCrawlDurationMs": 271611
+    "records": 231,
+    "lastCrawledAt": "2026-10-13T20:05:56.442Z",
+    "lastCrawlStartedAt": "2026-10-13T19:56:13.890Z",
+    "lastCrawlDurationMs": 582552
   },
   {
     "id": "official-training",
@@ -166,9 +166,9 @@
     "type": "course-provider",
     "url": "",
     "records": 53,
-    "lastCrawledAt": "2026-09-27T14:18:15.246Z",
-    "lastCrawlStartedAt": "2026-09-27T14:15:15.769Z",
-    "lastCrawlDurationMs": 179477
+    "lastCrawledAt": "2026-10-13T19:56:13.890Z",
+    "lastCrawlStartedAt": "2026-10-13T19:52:13.292Z",
+    "lastCrawlDurationMs": 240598
   },
   {
     "id": "udemy",
@@ -184,20 +184,20 @@
     "name": "Vietnamese training centres",
     "type": "course-provider",
     "url": "",
-    "records": 48,
-    "lastCrawledAt": "2026-09-27T14:23:52.991Z",
-    "lastCrawlStartedAt": "2026-09-27T14:22:46.858Z",
-    "lastCrawlDurationMs": 66133
+    "records": 55,
+    "lastCrawledAt": "2026-10-13T20:06:52.958Z",
+    "lastCrawlStartedAt": "2026-10-13T20:05:56.443Z",
+    "lastCrawlDurationMs": 56515
   },
   {
     "id": "arbeitnow",
     "name": "Arbeitnow",
     "type": "job-board",
     "url": "https://www.arbeitnow.com",
-    "records": 88,
-    "lastCrawledAt": "2026-09-27T13:59:29.139Z",
-    "lastCrawlStartedAt": "2026-09-27T13:59:20.127Z",
-    "lastCrawlDurationMs": 9012
+    "records": 139,
+    "lastCrawledAt": "2026-10-13T18:42:50.356Z",
+    "lastCrawlStartedAt": "2026-10-13T18:42:29.634Z",
+    "lastCrawlDurationMs": 20722
   },
   {
     "id": "careerviet",
@@ -207,37 +207,38 @@
     "records": 0,
     "lastCrawledAt": "2026-09-25T10:56:59.915Z",
     "lastCrawlStartedAt": "2026-09-25T10:41:13.003Z",
-    "lastCrawlDurationMs": 946912
+    "lastCrawlDurationMs": 946912,
+    "notes": "Last run failed: Needs Playwright: run `npm install` then `npx playwright install chromium`"
   },
   {
     "id": "greenhouse",
     "name": "Greenhouse",
     "type": "job-board",
     "url": "https://www.greenhouse.io",
-    "records": 127,
-    "lastCrawledAt": "2026-09-27T14:00:12.841Z",
-    "lastCrawlStartedAt": "2026-09-27T13:59:38.040Z",
-    "lastCrawlDurationMs": 34801
+    "records": 161,
+    "lastCrawledAt": "2026-10-13T18:43:50.450Z",
+    "lastCrawlStartedAt": "2026-10-13T18:42:58.121Z",
+    "lastCrawlDurationMs": 52330
   },
   {
     "id": "himalayas",
     "name": "Himalayas",
     "type": "job-board",
     "url": "https://himalayas.app",
-    "records": 32,
-    "lastCrawledAt": "2026-09-27T13:59:38.040Z",
-    "lastCrawlStartedAt": "2026-09-27T13:59:29.139Z",
-    "lastCrawlDurationMs": 8901
+    "records": 47,
+    "lastCrawledAt": "2026-10-13T18:42:58.121Z",
+    "lastCrawlStartedAt": "2026-10-13T18:42:50.356Z",
+    "lastCrawlDurationMs": 7765
   },
   {
     "id": "itviec",
     "name": "ITviec",
     "type": "job-board",
     "url": "https://itviec.com",
-    "records": 84,
-    "lastCrawledAt": "2026-09-27T13:50:32.588Z",
-    "lastCrawlStartedAt": "2026-09-27T13:39:55.431Z",
-    "lastCrawlDurationMs": 637157
+    "records": 130,
+    "lastCrawledAt": "2026-10-13T18:31:44.740Z",
+    "lastCrawlStartedAt": "2026-10-13T17:58:43.997Z",
+    "lastCrawlDurationMs": 1980743
   },
   {
     "id": "linkedin",
@@ -245,19 +246,19 @@
     "type": "job-board",
     "url": "https://www.linkedin.com",
     "records": 38,
-    "lastCrawledAt": "2026-10-13T17:50:42.174Z",
-    "lastCrawlStartedAt": "2026-10-13T17:49:58.702Z",
-    "lastCrawlDurationMs": 43472
+    "lastCrawledAt": "2026-10-13T18:44:33.977Z",
+    "lastCrawlStartedAt": "2026-10-13T18:43:50.452Z",
+    "lastCrawlDurationMs": 43525
   },
   {
     "id": "mycareersfuture",
     "name": "MyCareersFuture",
     "type": "job-board",
     "url": "https://www.mycareersfuture.gov.sg",
-    "records": 71,
-    "lastCrawledAt": "2026-09-27T13:51:30.356Z",
-    "lastCrawlStartedAt": "2026-09-27T13:50:39.338Z",
-    "lastCrawlDurationMs": 51018
+    "records": 117,
+    "lastCrawledAt": "2026-10-13T18:34:25.639Z",
+    "lastCrawlStartedAt": "2026-10-13T18:31:53.327Z",
+    "lastCrawlDurationMs": 152312
   },
   {
     "id": "remoteok",
@@ -265,9 +266,9 @@
     "type": "job-board",
     "url": "https://remoteok.com",
     "records": 3,
-    "lastCrawledAt": "2026-09-27T13:59:19.851Z",
-    "lastCrawlStartedAt": "2026-09-27T13:59:17.040Z",
-    "lastCrawlDurationMs": 2811
+    "lastCrawledAt": "2026-10-13T18:42:24.683Z",
+    "lastCrawlStartedAt": "2026-10-13T18:42:22.501Z",
+    "lastCrawlDurationMs": 2182
   },
   {
     "id": "remotive",
@@ -275,9 +276,9 @@
     "type": "job-board",
     "url": "https://remotive.com",
     "records": 1,
-    "lastCrawledAt": "2026-09-27T13:59:20.127Z",
-    "lastCrawlStartedAt": "2026-09-27T13:59:19.851Z",
-    "lastCrawlDurationMs": 276
+    "lastCrawledAt": "2026-10-13T18:42:29.633Z",
+    "lastCrawlStartedAt": "2026-10-13T18:42:24.683Z",
+    "lastCrawlDurationMs": 4950
   },
   {
     "id": "tokyodev",
@@ -285,9 +286,9 @@
     "type": "job-board",
     "url": "https://www.tokyodev.com",
     "records": 6,
-    "lastCrawledAt": "2026-09-27T13:59:09.326Z",
-    "lastCrawlStartedAt": "2026-09-27T13:51:30.356Z",
-    "lastCrawlDurationMs": 458970
+    "lastCrawledAt": "2026-10-13T18:42:14.231Z",
+    "lastCrawlStartedAt": "2026-10-13T18:34:25.640Z",
+    "lastCrawlDurationMs": 468591
   },
   {
     "id": "topcv",
@@ -297,7 +298,8 @@
     "records": 0,
     "lastCrawledAt": "2026-09-25T10:41:13.002Z",
     "lastCrawlStartedAt": "2026-09-25T10:40:19.066Z",
-    "lastCrawlDurationMs": 53936
+    "lastCrawlDurationMs": 53936,
+    "notes": "Last run failed: Needs Playwright: run `npm install` then `npx playwright install chromium`"
   },
   {
     "id": "vieclam24h",
@@ -315,9 +317,9 @@
     "name": "We Work Remotely",
     "type": "job-board",
     "url": "https://weworkremotely.com",
-    "records": 6,
-    "lastCrawledAt": "2026-09-27T13:59:17.040Z",
-    "lastCrawlStartedAt": "2026-09-27T13:59:09.326Z",
-    "lastCrawlDurationMs": 7714
+    "records": 13,
+    "lastCrawledAt": "2026-10-13T18:42:22.501Z",
+    "lastCrawlStartedAt": "2026-10-13T18:42:14.231Z",
+    "lastCrawlDurationMs": 8270
   }
 ]
