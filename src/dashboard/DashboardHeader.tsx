@@ -58,16 +58,18 @@ export function DashboardHeader({
               <Database size={13} />
               <span className="hidden sm:inline">Data sources</span>
             </button>
-            <button
-              type="button"
-              className="control"
-              onClick={onRefresh}
-              disabled={!canRefresh || crawling}
-              title={canRefresh ? 'Re-crawl every enabled source' : 'Crawl API not available'}
-            >
-              {crawling ? <Spinner size={13} /> : <RefreshCw size={13} />}
-              <span className="hidden sm:inline">{crawling ? 'Crawling…' : 'Refresh'}</span>
-            </button>
+            {canRefresh ? (
+              <button
+                type="button"
+                className="control"
+                onClick={onRefresh}
+                disabled={crawling}
+                title="Re-crawl every enabled source"
+              >
+                {crawling ? <Spinner size={13} /> : <RefreshCw size={13} />}
+                <span className="hidden sm:inline">{crawling ? 'Crawling…' : 'Refresh'}</span>
+              </button>
+            ) : null}
             <button
               type="button"
               className="control px-2"

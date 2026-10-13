@@ -1,0 +1,63 @@
+# Scheduled crawl: refreshes public/data and commits it, and the push makes
+# Vercel redeploy the static site. Sources without a credential are skipped,
+# not failed, so a missing secret only narrows the dataset.
+name: Scheduled crawl
+
+on:
+  schedule:
+    # 06:00 and 18:00 UTC = 13:00 and 01:00 Vietnam time.
+    - cron: '0 6,18 * * *'
+  workflow_dispatch:
+    inputs:
+      sources:
+        description: 'Space-separated crawler ids (empty = all enabled sources)'
+        required: false
+        default: ''
+
+permissions:
+  contents: write
+
+concurrency:
+  group: crawl
+  cancel-in-progress: false
+
+jobs:
+  crawl:
+    runs-on: ubuntu-latest
+    timeout-minutes: 120
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: npm
+
+      - run: npm ci
+
+      - name: Install Chromium for browser-driven sources
+        run: npx playwright install --with-deps chromium
+
+      - name: Crawl
+        env:
+          REDDIT_CLIENT_ID: ${{ secrets.REDDIT_CLIENT_ID }}
+          REDDIT_CLIENT_SECRET: ${{ secrets.REDDIT_CLIENT_SECRET }}
+          UDEMY_CLIENT_ID: ${{ secrets.UDEMY_CLIENT_ID }}
+          UDEMY_CLIENT_SECRET: ${{ secrets.UDEMY_CLIENT_SECRET }}
+          STACK_APP_KEY: ${{ secrets.STACK_APP_KEY }}
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          SOURCES: ${{ inputs.sources }}
+        run: npm run crawl -- $SOURCES
+
+      - name: Commit refreshed data
+        run: |
+          git add public/data
+          if git diff --cached --quiet; then
+            echo "No data changes."
+            exit 0
+          fi
+          git config user.name "github-actions[bot]"
+          git config user.email "41898283+github-actions[bot]@users.noreply.github.com"
+          git commit -m "chore(data): scheduled crawl $(date -u +%Y-%m-%dT%H:%MZ)"
+          git pull --rebase origin main
+          git push origin HEAD:main

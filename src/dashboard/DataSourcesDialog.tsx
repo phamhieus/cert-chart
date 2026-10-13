@@ -167,17 +167,14 @@ export function DataSourcesDialog({
         <p className="text-2xs text-muted">
           {canRefresh
             ? 'A refresh re-crawls every enabled source and rebuilds the ranking.'
-            : 'Run `npm run crawl` to refresh this dataset.'}
+            : 'This dataset is refreshed by a scheduled crawl.'}
         </p>
-        <button
-          type="button"
-          className="control"
-          onClick={onRefresh}
-          disabled={!canRefresh || crawling}
-        >
-          {crawling ? <Spinner size={13} /> : <RefreshCw size={13} />}
-          {crawling ? 'Crawling…' : 'Refresh data'}
-        </button>
+        {canRefresh ? (
+          <button type="button" className="control" onClick={onRefresh} disabled={crawling}>
+            {crawling ? <Spinner size={13} /> : <RefreshCw size={13} />}
+            {crawling ? 'Crawling…' : 'Refresh data'}
+          </button>
+        ) : null}
       </footer>
     </Modal>
   );

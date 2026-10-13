@@ -27,7 +27,7 @@ const INITIAL_FILTERS: DashboardFilters = {
 
 export default function App() {
   const { theme, toggle } = useTheme();
-  const { phase, dataset, progress, crawlUnavailable, error, refresh } = useAppData();
+  const { phase, dataset, progress, crawlUnavailable, crawlAvailable, error, refresh } = useAppData();
 
   const [filters, setFilters] = useState<DashboardFilters>(INITIAL_FILTERS);
   const debouncedSearch = useDebounce(filters.search, 180);
@@ -101,7 +101,7 @@ export default function App() {
         onToggleTheme={toggle}
         onOpenSources={() => setSourcesOpen(true)}
         onRefresh={refresh}
-        canRefresh={!crawlUnavailable}
+        canRefresh={crawlAvailable}
         crawling={crawling}
         filters={<FilterBar filters={filters} onChange={patchFilters} />}
       />
@@ -210,7 +210,7 @@ export default function App() {
           progress={progress}
           crawling={crawling}
           onRefresh={refresh}
-          canRefresh={!crawlUnavailable}
+          canRefresh={crawlAvailable}
         />
       ) : null}
 

@@ -15,6 +15,8 @@ interface AppData {
   progress: CrawlProgress | null;
   /** True when no crawl API is reachable (static hosting) — the CLI must be used. */
   crawlUnavailable: boolean;
+  /** True once the crawl API has answered; refresh controls stay hidden until then. */
+  crawlAvailable: boolean;
   error: string | null;
   refresh: () => void;
 }
@@ -34,6 +36,7 @@ export function useAppData(): AppData {
   const [dataset, setDataset] = useState<Dataset | null>(null);
   const [progress, setProgress] = useState<CrawlProgress | null>(null);
   const [crawlUnavailable, setCrawlUnavailable] = useState(false);
+  const [crawlAvailable, setCrawlAvailable] = useState(false);
   const [error, setError] = useState<string | null>(null);
   const pollTimer = useRef<number | null>(null);
 
@@ -92,6 +95,7 @@ export function useAppData(): AppData {
     setError(null);
     try {
       const status = await requestCrawl();
+      setCrawlAvailable(true);
       setProgress(status.crawl);
       setPhase('crawling');
       poll();
@@ -125,6 +129,14 @@ export function useAppData(): AppData {
 
       if (hasEvidence(loaded)) {
         setPhase('ready');
+        // Probe the crawl API so refresh controls appear only where it exists —
+        // a static deployment has none, and its readers should never see the button.
+        try {
+          await fetchCrawlStatus();
+          if (!cancelled) setCrawlAvailable(true);
+        } catch {
+          if (!cancelled) setCrawlUnavailable(true);
+        }
         return;
       }
 
@@ -132,6 +144,7 @@ export function useAppData(): AppData {
       try {
         const status = await fetchCrawlStatus();
         if (cancelled) return;
+        setCrawlAvailable(true);
         setProgress(status.crawl);
         if (status.crawl.state === 'running') {
           setPhase('crawling');
@@ -160,5 +173,5 @@ export function useAppData(): AppData {
     void beginCrawl();
   }, [beginCrawl]);
 
-  return { phase, dataset, progress, crawlUnavailable, error, refresh };
+  return { phase, dataset, progress, crawlUnavailable, crawlAvailable, error, refresh };
 }
