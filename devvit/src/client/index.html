@@ -1,0 +1,50 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>cert-chart</title>
+    <link rel="stylesheet" href="./index.css" />
+  </head>
+  <body>
+    <main class="app">
+      <header class="header">
+        <div class="header__titles">
+          <h1 class="header__title">Certification mentions</h1>
+          <p class="header__subtitle" id="subtitle">Loading…</p>
+        </div>
+        <div class="header__total">
+          <span class="header__total-value" id="total-mentions">–</span>
+          <span class="header__total-label">total mentions</span>
+        </div>
+      </header>
+
+      <div class="controls">
+        <input
+          class="controls__search"
+          id="search"
+          type="search"
+          placeholder="Filter certifications…"
+          autocomplete="off"
+        />
+        <label class="controls__sort">
+          <span>Sort</span>
+          <select id="sort">
+            <option value="total">Total mentions</option>
+            <option value="last7">Last 7 days</option>
+            <option value="last30">Last 30 days</option>
+            <option value="trendPct">Trend</option>
+            <option value="name">Name</option>
+          </select>
+        </label>
+      </div>
+
+      <div class="status" id="status" hidden></div>
+
+      <section class="board" id="board" aria-live="polite"></section>
+
+      <footer class="footer" id="footer"></footer>
+    </main>
+    <script type="module" src="./index.ts"></script>
+  </body>
+</html>

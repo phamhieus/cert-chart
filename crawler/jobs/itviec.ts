@@ -36,7 +36,14 @@ export const itviecCrawler: JobCrawler = {
 
   isEnabled: (config) => config.sources.itviec.enabled,
 
-  async run({ config, certifications, aliasIndex, now, log }: CrawlContext): Promise<Job[]> {
+  async run({
+    config,
+    certifications,
+    aliasIndex,
+    now,
+    log,
+    observeRole,
+  }: CrawlContext): Promise<Job[]> {
     const settings = config.sources.itviec;
     const jobs = new Map<string, Job>();
     // Exact instant this crawl run started; `crawledDate` only backs a missing publish date.
@@ -78,22 +85,35 @@ export const itviecCrawler: JobCrawler = {
               structured?.description ||
               stripHtml($('.job-details__overview, .job-content, main').html() ?? '');
             const certifications = extractJobCertifications(`${title}\n${description}`, aliasIndex);
+
+            const locationText =
+              structured?.location ||
+              $('.job-details__map-address, [class*="address"], .normal-text').first().text().trim();
+            const location = resolveLocation(locationText || 'Vietnam');
+
+            // Before the certification filter on purpose: role demand has to
+            // count the postings that name no certification, which is most of
+            // them.
+            observeRole({
+              source: 'ITviec',
+              title,
+              market: location.market,
+              postedAt: structured?.datePosted,
+              matchedCertification: certifications.length > 0,
+            });
             if (certifications.length === 0) return;
 
             const company =
               structured?.company ||
               $('.employer-name, .company-name, [class*="employer"] a').first().text().trim() ||
               'Unknown';
-            const locationText =
-              structured?.location ||
-              $('.job-details__map-address, [class*="address"], .normal-text').first().text().trim();
             const url = canonicalUrl(request.url);
 
             jobs.set(url, {
               id: jobId(url),
               title,
               company,
-              location: resolveLocation(locationText || 'Vietnam'),
+              location,
               certifications,
               source: { name: 'ITviec', url },
               postedAt: structured?.datePosted ?? crawledDate,

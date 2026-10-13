@@ -41,7 +41,7 @@ export const himalayasCrawler: JobCrawler = {
 
   isEnabled: (config) => config.sources.himalayas.enabled,
 
-  async run({ config, aliasIndex, now, log }: CrawlContext): Promise<Job[]> {
+  async run({ config, aliasIndex, now, log, observeRole }: CrawlContext): Promise<Job[]> {
     const settings = config.sources.himalayas;
     // Exact instant this crawl run started; `crawledDate` only backs a missing publish date.
     const crawledAt = now.toISOString();
@@ -72,6 +72,19 @@ export const himalayasCrawler: JobCrawler = {
         const description = stripHtml(entry.description ?? entry.excerpt ?? '');
         const text = `${entry.title}\n${(entry.categories ?? []).join(' ')}\n${description}`;
         const certifications = extractJobCertifications(text, aliasIndex);
+
+        const location = resolveLocation((entry.locationRestrictions ?? []).join(', '), 'remote');
+        const postedAt = entry.pubDate
+          ? new Date(entry.pubDate * 1000).toISOString().slice(0, 10)
+          : crawledDate;
+        // Counted before the certification filter — see crawler/types.ts.
+        observeRole({
+          source: 'Himalayas',
+          title: entry.title,
+          market: location.market,
+          postedAt,
+          matchedCertification: certifications.length > 0,
+        });
         if (certifications.length === 0) continue;
 
         const slug = entry.guid.replace(/^https?:\/\/[^/]+\//, '').replace(/\//g, '_');
@@ -83,10 +96,10 @@ export const himalayasCrawler: JobCrawler = {
           // hiring restriction ("United States", "Worldwide"), not where the
           // company sits, same as Remotive's `candidate_required_location`. A
           // restriction that isn't a tracked market falls back to `remote`.
-          location: resolveLocation((entry.locationRestrictions ?? []).join(', '), 'remote'),
+          location,
           certifications,
           source: { name: 'Himalayas', url: entry.guid },
-          postedAt: entry.pubDate ? new Date(entry.pubDate * 1000).toISOString().slice(0, 10) : crawledDate,
+          postedAt,
           crawledAt,
         });
       }

@@ -6,6 +6,7 @@ import type {
   HolderReport,
   Job,
   Ranking,
+  RoleDemand,
 } from '../types';
 import { parseTimestamp } from '../utils/format';
 
@@ -16,6 +17,7 @@ const DATA_FILES = {
   community: 'community.json',
   courses: 'courses.json',
   holders: 'holders.json',
+  roles: 'roles.json',
   sources: 'sources.json',
 } as const;
 
@@ -33,6 +35,8 @@ export interface Dataset {
   /** Vendor-wide figures, keyed by vendor: shown as context, never scored. */
   holdersByVendor: Map<string, HolderReport>;
   sources: DataSource[];
+  /** Postings counted by role, independent of any certification. */
+  roles: RoleDemand[];
   /** The dataset's own "today" — its most recent crawl date. */
   datasetNow: Date;
 }
@@ -63,7 +67,8 @@ function resolveDatasetNow(sources: DataSource[], jobs: Job[]): Date {
 let cached: Promise<Dataset> | null = null;
 
 async function load(): Promise<Dataset> {
-  const [certifications, rankings, jobs, community, courses, sources, holders] = await Promise.all([
+  const [certifications, rankings, jobs, community, courses, sources, holders, roles] =
+    await Promise.all([
     fetchJson<Certification[]>(DATA_FILES.certifications),
     fetchJson<Ranking[]>(DATA_FILES.rankings),
     fetchJson<Job[]>(DATA_FILES.jobs),
@@ -72,7 +77,9 @@ async function load(): Promise<Dataset> {
     fetchJson<DataSource[]>(DATA_FILES.sources),
     // A dataset crawled before holder figures existed simply has no file.
     fetchJson<HolderReport[]>(DATA_FILES.holders).catch(() => [] as HolderReport[]),
-  ]);
+      // A dataset crawled before role demand existed simply has no file.
+      fetchJson<RoleDemand[]>(DATA_FILES.roles).catch(() => [] as RoleDemand[]),
+    ]);
 
   return {
     certifications,
@@ -92,6 +99,7 @@ async function load(): Promise<Dataset> {
       holders.filter((report) => report.scope === 'vendor').map((report) => [report.vendor, report]),
     ),
     sources,
+    roles,
     datasetNow: resolveDatasetNow(sources, jobs),
   };
 }

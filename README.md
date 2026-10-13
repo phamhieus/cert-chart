@@ -26,6 +26,7 @@ crawler/        → public/data/*.json → React dashboard
   courses/             courses.json
   dictionary/          certifications.json
   aggregate/           rankings.json   (pre-computed scores)
+                       roles.json      (postings per role, no certification needed)
                        sources.json    (crawl provenance)
 ```
 
@@ -125,7 +126,9 @@ directly, because a key issued by the site is permission, not crawling.
 | GitHub | Global | Community | on | REST search API; `GITHUB_TOKEN` raises the limit from 10 to 30 calls/minute |
 | Hacker News | Global | Community | on | Public Algolia index behind HN's own search box — full text across stories **and** comments, no key |
 | DEV Community | Global | Community | on | Forem tag listings (its search endpoint is disallowed); the article's own title and summary decide what counts |
+| Medium | Global | Community | on | Per-tag RSS feeds (`/feed/tag/{tag}`), ten newest stories per tag, no body — see below |
 | Reddit | all | Community | needs keys | `robots.txt` forbids scraping — `REDDIT_CLIENT_ID` / `REDDIT_CLIENT_SECRET` switch on the official API |
+| DeepSeek | all | Community | needs keys | `DEEPSEEK_API_KEY` — the model names Reddit posts per certification; with the Reddit keys each is checked on the Reddit API, otherwise stored as unverified and never scored |
 | VOZ | Vietnam | Community | on | HTML is Cloudflare-gated, but each forum's `/index.rss` is not and carries the opening post |
 | Quản Trị Mạng | Vietnam | Community | on | Site search (`robots.txt` is a bare `Allow: /`); one request per article for its publish date |
 | Official vendor training | — | Courses | on | Learning path per certification, link-checked each run |
@@ -136,6 +139,45 @@ directly, because a key issued by the site is permission, not crawling.
 
 ### Credentials
 
+Needs a resolver: **Medium** is read through its documented per-tag RSS feeds
+(`medium.com/feed/tag/{tag}`), which need no key — but several Vietnamese ISPs DNS-block
+medium.com and answer with `127.0.0.1`, so from a Vietnamese connection every tag fails to
+connect and the source reports the block instead of returning 0 records quietly. A public
+resolver (1.1.1.1, 8.8.8.8) is the fix; nothing in the crawler changes.
+
+Three things about Medium were measured rather than assumed, and all three shape
+`crawler/config.ts`:
+
+- **A tag feed is the 10 newest stories and does not paginate**, so a tag is a ten-story budget
+  per run, not a starting point to page through — the reverse of dev.to, where `pagesPerTag`
+  makes a broad tag pay off. Spend it on certification-shaped tags: `ccna`, `cissp`, `cka`,
+  `comptia-security-plus` and `pmp-certification` each measured **10/10** stories naming a
+  tracked certification, while `certification`, `kubernetes`, `terraform`, `cybersecurity`,
+  `cloud-computing` and `devops` measured **0/10** each and were dropped. Every per-tag number
+  is recorded in `crawler/config.ts`, and each run logs its own yield by tag, so a tag that
+  stops paying is visible rather than inferred.
+- **A tag feed carries no story body.** `content:encoded` is empty on every item (it is
+  populated on profile feeds, not these) and `description` is a 90–180 character teaser ending
+  in "Continue reading on Medium", so a story is matched on its title, that teaser and its own
+  tags — the dev.to shape, not the VOZ one. A certification named only deep in the body is
+  missed; reading bodies would cost a request per story instead of one per ten.
+- **Medium rate limits by IP, harder than the global 900ms delay covers.** A fifteen-tag run
+  paced only by `crawler/util/http.ts` lost nine tags to 429 and the escalating retry there did
+  not win them back, so Medium carries its own `requestDelayMs` (4s, waited between tags) and
+  the list is held to eleven tags. The penalty outlasts a single run, so a throttled run clears
+  on its own; a tag that is throttled is logged and skipped rather than failing the run, and the
+  next run picks its stories up — the feed is the ten newest either way. Coverage therefore
+  accumulates run by run, like VOZ and Viblo.
+
+Left out for the same reason the broad tags were: `oracle-certification` (0/8),
+`ethical-hacking` (0/10), `google-cloud-certification` (no such tag), `java-certification`
+(1/9, and the one hit was an alias collision rather than an Oracle story), and
+`gcp-certification` (1/10, dropped to stay under the rate limit — GCP ACE has no Medium
+coverage as a result). `ccnp`, `az-104`, `scrum-certification` and
+`aws-certified-solutions-architect` are **untested**: Medium began answering 429 before the
+probe reached them.
+
+
 Copy `.env.example` to `.env` and fill in what you have — `crawler/util/env.ts` loads it for the CLI,
 the standalone server and the Vite plugin alike, and anything already exported in the shell wins over
 the file. Every variable is optional; a source without its credential is skipped and says why in the
@@ -144,6 +186,7 @@ the file. Every variable is optional; a source without its credential is skipped
 | Variable | Effect | Where to get it |
 | --- | --- | --- |
 | `REDDIT_CLIENT_ID` / `REDDIT_CLIENT_SECRET` | Switches Reddit on — `robots.txt` forbids crawling it, so the API is the only route | [reddit.com/prefs/apps](https://www.reddit.com/prefs/apps) → "create another app...", type **script**, redirect uri `http://localhost:8080`. Free, instant. The id is the string under the app name |
+| `DEEPSEEK_API_KEY` / `DEEPSEEK_MODEL` | Switches DeepSeek on; with the Reddit keys its suggested posts are verified, otherwise stored unverified and never scored. `DEEPSEEK_MODEL` defaults to `deepseek-flash` | [platform.deepseek.com/api_keys](https://platform.deepseek.com/api_keys). Paid API |
 | `UDEMY_CLIENT_ID` / `UDEMY_CLIENT_SECRET` | Switches Udemy on — `/api-2.0/` is disallowed, so the Affiliate API is the only route | Apply at [udemy.com/affiliate](https://www.udemy.com/affiliate/), then request a client at [API clients](https://www.udemy.com/user/edit-api-clients/). Manual review, and not always granted |
 | `STACK_APP_KEY` | Raises the Stack Exchange quota from 300 to 10,000 calls/day, shared by both Stack crawlers | [stackapps.com/apps/oauth/register](https://stackapps.com/apps/oauth/register). Free, instant, no review — use the **key**, not the client id |
 | `GITHUB_TOKEN` | Raises GitHub search from 10 to 30 calls/minute | [github.com/settings/personal-access-tokens](https://github.com/settings/personal-access-tokens). Public repository search needs **no scopes** |
@@ -239,6 +282,58 @@ for a deeper sweep, and the ones that decide how long a crawl takes.
 - **Nulls are not zeroes.** `views`, `reactions`, `uniqueAuthors` and `price` are `null` when
   unpublished — never a placeholder number.
 
+**The four business-analysis certifications score zero, and the role-demand counts say why.**
+ECBA, CCBA, CBAP and PMI-PBA return nothing from any source, and the obvious reading — "nobody
+hires BAs" — is wrong. On ITviec, **10 of 276 postings (3.6%) are Business Analyst roles, and 0 of
+those 10 name any certification at all.** BA hiring in Vietnam is real; asking for a BA
+certification is not a thing employers here do. Compare QA on the same board: 27 postings (9.8%),
+of which 7 (26%) do name one, which is why ISTQB CTFL scores and CBAP does not.
+
+This is the distinction the role counts exist to make, and it is why they are worth having:
+without them a zero on CBAP is indistinguishable from a zero on a role nobody is hiring. Read it
+as "absent from this snapshot" rather than "never appears" — job boards publish only live postings
+and every source is capped. The entries stay in the dictionary so the gap stays visible and the
+first posting that does name CBAP is counted the day it appears.
+
+## Role demand
+
+Certification records answer "which exams does the market ask for". They cannot answer "how much
+QA hiring is there", and the reason is structural: **every job crawler drops a posting that names
+no certification** (`if (certifications.length === 0)`). Measuring QA demand from `jobs.json`
+would only ever measure QA-demand-that-happens-to-mention-a-certification, which for QA is a small
+and unrepresentative slice.
+
+So roles are counted separately, in `roles.json`, as the crawlers walk their listings:
+
+| Role | Counted from titles like |
+| --- | --- |
+| `qa` | QA, QC, Tester, Test Engineer, Quality Assurance, SDET, kiểm thử |
+| `ba` | Business Analyst, Business Analysis, phân tích nghiệp vụ |
+| `devops` | DevOps, SRE, Site Reliability, Platform Engineer, kỹ sư hệ thống |
+
+QA, QC and Tester are **one role**, not three — they are the three names Vietnamese postings use
+for the same job, so splitting them would split one market across three rows.
+
+Four rules keep the numbers honest:
+
+- **Titles only.** A description routinely says "work closely with the QA team" in a posting
+  hiring a backend developer; the body is evidence of collaboration, not of the role being hired.
+- **Only boards whose full listing is enumerated** — ITviec, Vieclam24h, TokyoDev, Greenhouse, We
+  Work Remotely, Remote OK, Arbeitnow, Himalayas. TopCV, CareerViet and MyCareersFuture search
+  **per certification**, so their postings are pre-filtered by certification and a role share taken
+  from them would describe the query, not the market.
+- **A denominator travels with every count.** Each record carries `scanned`, the total postings in
+  its (source, market, month) bucket, so "13 QA postings" is never read without "of 4,677".
+  `scanned` is repeated on all three role rows of a bucket, so sum it for one role, not across
+  roles.
+- **No bare `BA` alias.** Matching is diacritic-stripped and lowercased, and "ba" is an ordinary
+  Vietnamese word (*three*, *father*), so a bare `BA` would match a large share of Vietnamese
+  titles that have nothing to do with the role.
+
+A bucket is replaced, not accumulated, when the same month is re-crawled: the figure is "what the
+board showed for this month", not a running total of sightings. A partial crawl therefore lowers a
+bucket rather than corrupting it.
+
 ## Ranking
 
 Weights live in `src/constants/ranking.ts` — the only place scoring constants are defined.
@@ -272,7 +367,7 @@ crawler/
   pipeline.ts    runs crawlers, merges records, rebuilds rankings
   dictionary/    certification dictionary
   jobs/ communities/ courses/   one module per source (a folder when it needs more than one file)
-  normalize/     alias extraction, location mapping, JobPosting parsing
+  normalize/     alias extraction, role detection, location mapping, JobPosting parsing
   aggregate/     scoring entry point
   server/        crawl API (Vite plugin + standalone server)
   util/          polite HTTP client with robots.txt handling

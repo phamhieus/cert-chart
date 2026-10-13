@@ -126,6 +126,13 @@ export interface CrawlConfig {
       resultsPerTerm: number;
     };
     github: SourceConfig & { termsPerCert: number; resultsPerCert: number; maxRequests: number };
+    /** Medium tag feeds are 10 stories each and do not paginate — no page count.
+     *  `requestDelayMs` is this source's own pacing on top of the global one;
+     *  Medium answers 429 well before a 15-tag list finishes at 900ms. */
+    medium: SourceConfig & { tags: string[]; requestDelayMs: number };
+    /** One batched DeepSeek call for up to `maxCertifications`, asking
+     *  `postsPerCert` Reddit posts each, newest first. */
+    deepseek: SourceConfig & { maxCertifications: number; postsPerCert: number };
     officialCourses: SourceConfig;
     coursera: SourceConfig & { sitemaps: string[]; coursesPerCert: number };
     udemy: SourceConfig & { resultsPerCert: number };
@@ -476,6 +483,78 @@ export const CRAWL_CONFIG: CrawlConfig = {
       // across 100 certifications needs 200; at 40 the crawl stopped after the
       // first twenty and the rest of the dictionary was never searched.
       maxRequests: 220,
+    },
+    // Global community. Public per-tag RSS, no key needed. Each feed is the 10
+    // newest stories and does not paginate, so a tag is a ten-story budget per
+    // run rather than a starting point to page through — the reverse of the
+    // dev.to list above, where pagesPerTag makes a broad tag worth reading.
+    // Coverage accumulates run by run instead of arriving in one pass.
+    //
+    // Every tag below earned its place by measurement, and the broad ones were
+    // removed the same way: a first list of 12 that included "certification",
+    // "kubernetes", "terraform", "cybersecurity", "cloud-computing" and
+    // "devops" scored 0/10 on all six of those, because a ten-story window of
+    // a broad tag is general cloud writing that never names an exam. Stories
+    // matching a tracked certification, out of the ten in the feed, measured
+    // when this list was picked: ccna 10/10, cissp 10/10, cka 10/10,
+    // comptia-security-plus 10/10, pmp-certification 10/10, security-plus
+    // 9/10, dp-203 9/9, pmp 9/9, terraform-associate 8/8,
+    // kubernetes-certification 6/7, ceh 4/8, azure-certification 4/7, psm 3/8,
+    // aws-certification 1/10, gcp-certification 1/10. Also measured and left
+    // out: comptia 3/8 (superseded by comptia-security-plus), oracle-
+    // certification 0/8, ethical-hacking 0/10, java-certification 1/9 (its one
+    // hit was an alias collision, not an Oracle story), google-cloud-
+    // certification 0/0 (no such tag). "ccnp", "az-104", "scrum-certification"
+    // and "aws-certified-solutions-architect" are untested — Medium started
+    // answering 429 before they were reached.
+    //
+    // aws-certification and gcp-certification stay despite 1/10: they are the
+    // only door to the AWS and GCP certifications here, and the crawler logs
+    // per-tag yield every run, so a tag that stops paying is visible.
+    //
+    // Medium rate limits around ten requests in quick succession and answers
+    // 429; util/http.ts already retries those with an escalating delay, which
+    // is what makes a list this long safe. Several Vietnamese ISPs DNS-block
+    // medium.com; enabled regardless, and the run reports the block rather
+    // than degrading silently.
+    medium: {
+      enabled: true,
+      maxRecords: 400,
+      // On top of the global 900ms. Measured the hard way: a 15-tag run at the
+      // global delay alone lost 9 tags to 429, and the retry backoff in
+      // util/http.ts was not enough to recover them, so the pacing has to be
+      // here rather than in the retry.
+      requestDelayMs: 4_000,
+      // Eleven, not the fifteen first measured: Medium throttles by IP, so the
+      // list is kept near the point where a run still completes. The four
+      // dropped were the ones whose stories another tag already reaches —
+      // security-plus and pmp duplicate comptia-security-plus and
+      // pmp-certification, kubernetes-certification duplicates cka — plus
+      // gcp-certification at 1/10. Dropping gcp-certification leaves GCP ACE
+      // with no Medium coverage; that is the cost of staying under the limit.
+      tags: [
+        'ccna',
+        'cissp',
+        'cka',
+        'comptia-security-plus',
+        'pmp-certification',
+        'dp-203',
+        'terraform-associate',
+        'ceh',
+        'azure-certification',
+        'psm',
+        'aws-certification',
+      ],
+    },
+    // Reddit posts through DeepSeek — needs DEEPSEEK_API_KEY. The model names
+    // posts and estimates a count per certification; with REDDIT_CLIENT_ID/SECRET
+    // set each post is checked on the Reddit API, otherwise it is stored
+    // unverified. See crawler/communities/deepseek.ts.
+    deepseek: {
+      enabled: true,
+      maxRecords: 2_000,
+      maxCertifications: 40,
+      postsPerCert: 3,
     },
     officialCourses: {
       enabled: true,

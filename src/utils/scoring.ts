@@ -142,6 +142,8 @@ export function buildRankings(input: RankingInput): Ranking[] {
   }
 
   for (const post of input.community) {
+    // Unverified posts are displayed but never counted towards a score.
+    if (post.unverified) continue;
     const acc = accumulators.get(post.certificationId);
     if (!acc) continue;
     const month = monthKey(post.publishedAt);

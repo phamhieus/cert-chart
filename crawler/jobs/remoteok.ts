@@ -40,7 +40,7 @@ export const remoteOkCrawler: JobCrawler = {
 
   isEnabled: (config) => config.sources.remoteok.enabled,
 
-  async run({ config, aliasIndex, now, log }: CrawlContext): Promise<Job[]> {
+  async run({ config, aliasIndex, now, log, observeRole }: CrawlContext): Promise<Job[]> {
     const settings = config.sources.remoteok;
     // Exact instant this crawl run started; `crawledDate` only backs a missing publish date.
     const crawledAt = now.toISOString();
@@ -55,6 +55,16 @@ export const remoteOkCrawler: JobCrawler = {
       const description = stripHtml(entry.description ?? '');
       const text = `${entry.position}\n${(entry.tags ?? []).join(' ')}\n${description}`;
       const certifications = extractJobCertifications(text, aliasIndex);
+
+      const location = resolveLocation(entry.location, 'remote');
+      // Counted before the certification filter — see crawler/types.ts.
+      observeRole({
+        source: 'Remote OK',
+        title: entry.position!,
+        market: location.market,
+        postedAt: entry.date?.slice(0, 10),
+        matchedCertification: certifications.length > 0,
+      });
       if (certifications.length === 0) continue;
 
       const url = entry.url ?? `${ORIGIN}/remote-jobs/${entry.slug ?? entry.id}`;
@@ -65,7 +75,7 @@ export const remoteOkCrawler: JobCrawler = {
         // Remote OK is a remote-only board — `entry.location`, when present, is
         // a hiring restriction ("USA Only"), not a place, so anything that
         // isn't a specific tracked market falls back to `remote`, not `global`.
-        location: resolveLocation(entry.location, 'remote'),
+        location,
         certifications,
         source: { name: 'Remote OK', url },
         postedAt: entry.date?.slice(0, 10) ?? crawledDate,

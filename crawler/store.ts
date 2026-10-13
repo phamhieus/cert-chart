@@ -23,6 +23,7 @@ export const DATA_FILES = {
   community: 'community.json',
   courses: 'courses.json',
   holders: 'holders.json',
+  roles: 'roles.json',
   sources: 'sources.json',
 } as const;
 

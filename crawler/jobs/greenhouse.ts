@@ -43,7 +43,7 @@ export const greenhouseCrawler: JobCrawler = {
 
   isEnabled: (config) => config.sources.greenhouse.enabled,
 
-  async run({ config, aliasIndex, now, log }: CrawlContext): Promise<Job[]> {
+  async run({ config, aliasIndex, now, log, observeRole }: CrawlContext): Promise<Job[]> {
     const settings = config.sources.greenhouse;
     // Exact instant this crawl run started; `crawledDate` only backs a missing publish date.
     const crawledAt = now.toISOString();
@@ -71,6 +71,16 @@ export const greenhouseCrawler: JobCrawler = {
         if (!entry.id || !entry.title) continue;
         const description = stripHtml(entry.content ?? '');
         const certifications = extractJobCertifications(`${entry.title}\n${description}`, aliasIndex);
+
+        const location = resolveLocation(entry.location?.name ?? '');
+        // Counted before the certification filter — see crawler/types.ts.
+        observeRole({
+          source: 'Greenhouse',
+          title: entry.title,
+          market: location.market,
+          postedAt: entry.updated_at?.slice(0, 10),
+          matchedCertification: certifications.length > 0,
+        });
         if (certifications.length === 0) continue;
 
         const url = entry.absolute_url ?? `https://boards.greenhouse.io/${board.token}/jobs/${entry.id}`;
@@ -78,7 +88,7 @@ export const greenhouseCrawler: JobCrawler = {
           id: `greenhouse_${board.token}_${entry.id}`,
           title: entry.title,
           company: board.company,
-          location: resolveLocation(entry.location?.name ?? ''),
+          location,
           certifications,
           source: { name: 'Greenhouse', url },
           postedAt: entry.updated_at?.slice(0, 10) ?? crawledDate,

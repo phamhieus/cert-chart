@@ -105,6 +105,39 @@ export interface CommunityPost {
   publishedAt: string;
   /** ISO-8601 instant this record was fetched. */
   crawledAt: string;
+  /**
+   * Set when the post could not be checked against its source — a Reddit
+   * post named by DeepSeek while no Reddit API credentials are configured.
+   * Shown with a warning and never scored.
+   */
+  unverified?: true;
+}
+
+/**
+ * A role a posting is hiring for, counted whether or not the posting names a
+ * certification. This is the answer to "how much QA hiring is there", which
+ * the certification records cannot give: a crawler stores a `Job` only when a
+ * posting names a tracked certification, so QA demand measured from `Job`
+ * would only ever be QA-demand-that-mentions-a-certification.
+ */
+export type RoleId = 'qa' | 'ba' | 'devops';
+
+export interface RoleDemand {
+  /** `{source}_{roleId}_{market}_{month}` — a re-crawl replaces the bucket. */
+  id: string;
+  roleId: RoleId;
+  source: SourceRef;
+  market: MarketId;
+  /** `YYYY-MM` the postings were published in. */
+  month: string;
+  /** Postings in this bucket whose title names the role. */
+  postings: number;
+  /** Of those, how many also name a tracked certification. */
+  withCertification: number;
+  /** Every posting the source enumerated in this bucket — the denominator. */
+  scanned: number;
+  /** ISO-8601 instant this bucket was counted. */
+  crawledAt: string;
 }
 
 export type CourseType = 'official' | 'training-center' | 'online-platform';

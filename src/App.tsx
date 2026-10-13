@@ -6,6 +6,7 @@ import { BootstrapScreen } from './dashboard/BootstrapScreen';
 import { DashboardHeader } from './dashboard/DashboardHeader';
 import { DataSourcesDialog } from './dashboard/DataSourcesDialog';
 import { RankingTable } from './dashboard/RankingTable';
+import { RoleDemandPanel } from './dashboard/RoleDemandPanel';
 import { StatsDetailDialog, type StatsDetailKind } from './dashboard/StatsDetailDialog';
 import { StatsRow } from './dashboard/StatsRow';
 import { CertificationDialog } from './dialogs/CertificationDialog';
@@ -112,6 +113,8 @@ export default function App() {
         ) : null}
 
         <StatsRow totals={totals} scopeLabel={scopeLabel} onOpen={setStatsDetail} />
+
+        <RoleDemandPanel roles={dataset?.roles ?? []} />
 
         <section className="card overflow-hidden">
           <div className="card-header">
