@@ -1,8 +1,9 @@
-import { CalendarRange, Layers, MapPin } from 'lucide-react';
+import { Briefcase, CalendarRange, Layers, MapPin } from 'lucide-react';
 import { useMemo } from 'react';
 import { Select, type SelectOption } from '../components/Select';
 import { SearchInput } from '../components/SearchInput';
 import { CATEGORIES, PERIOD_LABELS } from '../constants/ranking';
+import { ROLE_OPTIONS } from '../constants/roles';
 import type { CertCategory, DashboardFilters, PeriodKey, RegionFilterValue } from '../types';
 import { buildRegionOptions } from '../utils/regions';
 
@@ -34,6 +35,13 @@ export function FilterBar({ filters, onChange }: FilterBarProps) {
         onChange={(region) => onChange({ region })}
         icon={<MapPin size={13} />}
         ariaLabel="Region"
+      />
+      <Select
+        value={filters.role}
+        options={ROLE_OPTIONS}
+        onChange={(role) => onChange({ role })}
+        icon={<Briefcase size={13} />}
+        ariaLabel="Job role"
       />
       <Select
         value={filters.category}

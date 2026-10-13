@@ -5,12 +5,14 @@ import type {
   CourseType,
   DeliveryMode,
   Job,
+  JobRole,
   PeriodKey,
   RegionFilterValue,
   RequirementType,
 } from '../types';
 import { normalizeText } from './certAliases';
 import { matchesRegion } from './regions';
+import { jobRole } from './roles';
 
 export function periodStart(period: PeriodKey, now: Date): number | null {
   const days = PERIOD_DAYS[period];
@@ -32,6 +34,7 @@ export function jobRequirement(job: Job, certificationId: string): RequirementTy
 export interface JobFilter {
   certificationId?: string;
   region: RegionFilterValue;
+  role?: JobRole | 'all';
   period: PeriodKey;
   requirement?: RequirementType | 'all';
   source?: string;
@@ -51,6 +54,7 @@ export function filterJobs(jobs: Job[], filter: JobFilter): Job[] {
       }
     }
     if (!matchesRegion(job.location, filter.region, { includeNational: false })) return false;
+    if (filter.role && filter.role !== 'all' && jobRole(job) !== filter.role) return false;
     if (!withinPeriod(job.postedAt, filter.period, filter.now)) return false;
     if (filter.source && filter.source !== 'all' && job.source.name !== filter.source) return false;
     if (query) {
@@ -84,7 +88,7 @@ export function filterCommunity(posts: CommunityPost[], filter: CommunityFilter)
     if (filter.certificationId && post.certificationId !== filter.certificationId) return false;
     if (!withinPeriod(post.publishedAt, filter.period, filter.now)) return false;
     if (filter.source && filter.source !== 'all' && post.source.name !== filter.source) return false;
-    if (query && !normalizeText(post.title).includes(query)) return false;
+    if (query && !normalizeText(`${post.title} ${post.excerpt ?? ''}`).includes(query)) return false;
     return true;
   });
 }

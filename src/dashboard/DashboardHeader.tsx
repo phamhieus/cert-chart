@@ -1,8 +1,8 @@
-import { Database, Moon, RefreshCw, Sun } from 'lucide-react';
+import { Database, Moon, Sun } from 'lucide-react';
 import type { ReactNode } from 'react';
-import { Spinner } from '../components/Feedback';
 import type { Theme } from '../hooks/useTheme';
 import { ElapsedSince } from '../components/Elapsed';
+import { Logo } from '../components/Logo';
 import { formatDateTime } from '../utils/format';
 
 interface DashboardHeaderProps {
@@ -10,9 +10,6 @@ interface DashboardHeaderProps {
   theme: Theme;
   onToggleTheme: () => void;
   onOpenSources: () => void;
-  onRefresh: () => void;
-  canRefresh: boolean;
-  crawling: boolean;
   filters: ReactNode;
 }
 
@@ -21,22 +18,22 @@ export function DashboardHeader({
   theme,
   onToggleTheme,
   onOpenSources,
-  onRefresh,
-  canRefresh,
-  crawling,
   filters,
 }: DashboardHeaderProps) {
   return (
     <header className="sticky top-0 z-30 border-b border-line bg-bg/85 backdrop-blur">
       <div className="mx-auto flex max-w-[110rem] flex-col gap-3 px-4 py-3 sm:px-6">
         <div className="flex flex-wrap items-center justify-between gap-3">
-          <div>
-            <h1 className="text-[15px] font-semibold tracking-tight text-ink">
-              IT Certification Market
-            </h1>
-            <p className="text-2xs text-muted">
-              Vietnam · Singapore · Japan · Global — demand, community and growth
-            </p>
+          <div className="flex items-center gap-2.5">
+            <Logo size={30} className="shrink-0" />
+            <div>
+              <h1 className="text-[15px] font-semibold tracking-tight text-ink">
+                IT Certification Market
+              </h1>
+              <p className="text-2xs text-muted">
+                Vietnam · Singapore · Japan · Global — demand, community and growth
+              </p>
+            </div>
           </div>
 
           <div className="flex items-center gap-2">
@@ -58,18 +55,6 @@ export function DashboardHeader({
               <Database size={13} />
               <span className="hidden sm:inline">Data sources</span>
             </button>
-            {canRefresh ? (
-              <button
-                type="button"
-                className="control"
-                onClick={onRefresh}
-                disabled={crawling}
-                title="Re-crawl every enabled source"
-              >
-                {crawling ? <Spinner size={13} /> : <RefreshCw size={13} />}
-                <span className="hidden sm:inline">{crawling ? 'Crawling…' : 'Refresh'}</span>
-              </button>
-            ) : null}
             <button
               type="button"
               className="control px-2"

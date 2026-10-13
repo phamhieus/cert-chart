@@ -33,6 +33,7 @@ import { topCvCrawler } from './jobs/topcv';
 import { vieclam24hCrawler } from './jobs/vieclam24h';
 import { weWorkRemotelyCrawler } from './jobs/weworkremotely';
 import { createAliasIndex, loadCertifications } from './normalize/certifications';
+import { cleanTitle } from './normalize/title';
 import { DATA_FILES, mergeById, readRecords, writeRecords } from './store';
 import type { CrawlContext, CrawlProgress, SourceCrawler, SourceOutcome } from './types';
 
@@ -137,6 +138,12 @@ function buildSources(
   return [...previous.values()].sort((a, b) => a.type.localeCompare(b.type) || a.name.localeCompare(b.name));
 }
 
+function cleanPost(post: CommunityPost): CommunityPost {
+  // An undefined excerpt is dropped by JSON.stringify, so an empty one leaves no key.
+  const excerpt = post.excerpt ? cleanTitle(post.excerpt) || undefined : undefined;
+  return { ...post, title: cleanTitle(post.title), excerpt };
+}
+
 export async function runCrawl(options: RunCrawlOptions = {}): Promise<CrawlProgress> {
   const certifications = loadCertifications();
   const aliasIndex = createAliasIndex(certifications);
@@ -208,9 +215,13 @@ export async function runCrawl(options: RunCrawlOptions = {}): Promise<CrawlProg
             : crawler.type === 'certification-body'
               ? DATA_FILES.holders
               : DATA_FILES.courses;
-      const stored = crawler.replaces
+      const merged = crawler.replaces
         ? (records as Array<{ id: string }>)
         : mergeById(readRecords<{ id: string }>(file), records as Array<{ id: string }>);
+      // Titles are cleaned on the whole file, not just this run's records, so a
+      // record stored before a cleaning rule existed is repaired too.
+      const stored =
+        crawler.type === 'community' ? (merged as CommunityPost[]).map(cleanPost) : merged;
       writeRecords(file, stored);
 
       progress.outcomes.push({

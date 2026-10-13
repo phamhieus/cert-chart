@@ -88,7 +88,13 @@ export interface CommunityPost {
   id: string;
   certificationId: string;
   source: SourceRef;
+  /** The discussion's own title: the thread a comment sits in, a repo's name. */
   title: string;
+  /**
+   * What the record itself says, when that differs from the title — a Hacker
+   * News comment's text, a repository's description.
+   */
+  excerpt?: string;
   location: GeoLocation;
   mentions: number;
   comments: number;
@@ -215,8 +221,13 @@ export type PeriodKey = '30d' | '90d' | '6m' | '12m' | '24m' | '36m' | 'all';
 /** `all` = every market, otherwise a market id, a city id, or a scope bucket. */
 export type RegionFilterValue = 'all' | MarketId | LocationScope | string;
 
+/** What a job posting hires for, classified from its title — see `classifyRole`. */
+export type JobRole = 'ba' | 'pm' | 'qa' | 'security' | 'data' | 'devops' | 'developer' | 'other';
+
 export interface DashboardFilters {
   region: RegionFilterValue;
+  /** Narrows job postings only: forum threads and courses have no role. */
+  role: JobRole | 'all';
   category: CertCategory | 'all';
   period: PeriodKey;
   search: string;

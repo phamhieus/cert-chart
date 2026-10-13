@@ -42,6 +42,9 @@ function PostCard({ post }: { post: CommunityPost }) {
         <h4 className="text-[13px] font-medium text-ink">{post.title}</h4>
         <Badge>{post.source.name}</Badge>
       </div>
+      {post.excerpt ? (
+        <p className="mt-1 line-clamp-2 text-xs text-muted">{post.excerpt}</p>
+      ) : null}
       <div className="mt-1.5 flex flex-wrap items-center gap-x-3 gap-y-1">
         <Stat label="mentions" value={formatNumber(post.mentions)} />
         <Stat label="comments" value={formatNumber(post.comments)} />

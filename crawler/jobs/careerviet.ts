@@ -54,10 +54,14 @@ export const careerVietCrawler: JobCrawler = {
     const jobs = new Map<string, Job>();
     const detailUrls = new Set<string>();
 
-    const terms = [...new Set(certifications.map((cert) => slug(cert.shortName)))].slice(
-      0,
-      settings.searchTerms,
-    );
+    // Role searches first: they are few, and the detail-page cap would otherwise
+    // be spent before they ran.
+    const terms = [
+      ...new Set([
+        ...config.roleSearchTerms.map(slug),
+        ...certifications.map((cert) => slug(cert.shortName)).slice(0, settings.searchTerms),
+      ]),
+    ];
 
     await withBrowser(
       async (session) => {

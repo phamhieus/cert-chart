@@ -55,10 +55,14 @@ export const topCvCrawler: JobCrawler = {
     const crawledDate = crawledAt.slice(0, 10);
     const jobs = new Map<string, Job>();
 
-    const terms = [...new Set(certifications.map((cert) => slug(cert.shortName)))].slice(
-      0,
-      settings.searchTerms,
-    );
+    // Role searches first: they are few, and the detail-page cap would otherwise
+    // be spent before they ran.
+    const terms = [
+      ...new Set([
+        ...config.roleSearchTerms.map(slug),
+        ...certifications.map((cert) => slug(cert.shortName)).slice(0, settings.searchTerms),
+      ]),
+    ];
 
     await withBrowser(
       async (session) => {

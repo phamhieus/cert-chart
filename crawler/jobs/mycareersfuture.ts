@@ -67,12 +67,19 @@ export const myCareersFutureCrawler: JobCrawler = {
     const crawledDate = crawledAt.slice(0, 10);
     const jobs = new Map<string, Job>();
 
-    for (const cert of certifications) {
-      // Exam codes and short names are specific enough to avoid matching
-      // unrelated postings ("AWS" alone means Annual Wage Supplement here).
-      const terms = [cert.code, cert.shortName]
-        .filter((term): term is string => typeof term === 'string' && term.length >= 4)
-        .slice(0, 2);
+    // One group per role title, then one per certification. Exam codes and short
+    // names are specific enough to avoid matching unrelated postings ("AWS"
+    // alone means Annual Wage Supplement here).
+    const termGroups = [
+      ...config.roleSearchTerms.map((term) => [term]),
+      ...certifications.map((cert) =>
+        [cert.code, cert.shortName]
+          .filter((term): term is string => typeof term === 'string' && term.length >= 4)
+          .slice(0, 2),
+      ),
+    ];
+
+    for (const terms of termGroups) {
 
       const candidates = new Map<string, string>();
       for (const term of terms) {

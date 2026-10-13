@@ -35,10 +35,10 @@ export interface RankingView {
 
 /**
  * Uses the pre-aggregated rankings for the default view and only recomputes when
- * a region or period filter narrows the dataset.
+ * a region, role or period filter narrows the dataset.
  */
 export function useRankings(dataset: Dataset | null, filters: DashboardFilters): RankingView {
-  const recomputed = filters.region !== 'all' || filters.period !== 'all';
+  const recomputed = filters.region !== 'all' || filters.period !== 'all' || filters.role !== 'all';
 
   const scored = useMemo<RankedCertification[]>(() => {
     if (!dataset) return [];
@@ -49,7 +49,12 @@ export function useRankings(dataset: Dataset | null, filters: DashboardFilters):
     const now = dataset.datasetNow;
     const rankings = buildRankings({
       certifications: dataset.certifications,
-      jobs: filterJobs(dataset.jobs, { region: filters.region, period: filters.period, now }),
+      jobs: filterJobs(dataset.jobs, {
+        region: filters.region,
+        role: filters.role,
+        period: filters.period,
+        now,
+      }),
       community: filterCommunity(dataset.community, { period: filters.period, now }),
       courses: filterCourses(dataset.courses, { region: filters.region }),
       // Holder counts are a global published total, not a per-market figure, so
@@ -61,7 +66,7 @@ export function useRankings(dataset: Dataset | null, filters: DashboardFilters):
       now,
     });
     return rankCertifications(rankings, dataset.certificationsById);
-  }, [dataset, recomputed, filters.region, filters.period]);
+  }, [dataset, recomputed, filters.region, filters.role, filters.period]);
 
   // Always narrowed by the same filters the scores used, so the evidence lists
   // agree with the numbers on the tiles. Community records skip the region
@@ -70,11 +75,16 @@ export function useRankings(dataset: Dataset | null, filters: DashboardFilters):
     if (!dataset) return { jobs: [], community: [], courses: [] };
     const now = dataset.datasetNow;
     return {
-      jobs: filterJobs(dataset.jobs, { region: filters.region, period: filters.period, now }),
+      jobs: filterJobs(dataset.jobs, {
+        region: filters.region,
+        role: filters.role,
+        period: filters.period,
+        now,
+      }),
       community: filterCommunity(dataset.community, { period: filters.period, now }),
       courses: filterCourses(dataset.courses, { region: filters.region }),
     };
-  }, [dataset, filters.region, filters.period]);
+  }, [dataset, filters.region, filters.role, filters.period]);
 
   return useMemo<RankingView>(() => {
     const rows = scored

@@ -1,5 +1,6 @@
 import type { CommunityPost } from '../../src/types';
 import { countCertificationMentions } from '../normalize/certifications';
+import { toExcerpt } from '../normalize/title';
 import type { CommunityCrawler, CrawlContext } from '../types';
 import { fetchJson } from '../util/http';
 
@@ -10,6 +11,7 @@ interface RepoSearchResponse {
   total_count?: number;
   items?: Array<{
     id?: number;
+    name?: string;
     full_name?: string;
     html_url?: string;
     description?: string | null;
@@ -74,7 +76,10 @@ export const gitHubCrawler: CommunityCrawler = {
             id,
             certificationId,
             source: { name: 'GitHub', url: repo.html_url ?? `${ORIGIN}/${repo.full_name}` },
-            title: repo.description?.trim() || repo.full_name,
+            // The repository's name is its title — the owner is in the link. The
+            // description says what it is, and some run to pages of ad copy.
+            title: repo.name || repo.full_name,
+            excerpt: toExcerpt(repo.description ?? ''),
             location: { country: 'GLOBAL', market: 'global', scope: 'unknown' },
             mentions,
             // Repositories have no comment count; open issues is the closest

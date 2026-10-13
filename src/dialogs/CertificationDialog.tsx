@@ -1,13 +1,15 @@
 import * as Tabs from '@radix-ui/react-tabs';
-import { CalendarRange, MapPin } from 'lucide-react';
+import { Briefcase, CalendarRange, MapPin } from 'lucide-react';
 import { useMemo, useState } from 'react';
 import { Badge } from '../components/Badge';
 import { Modal, ModalDescription, ModalTitle } from '../components/Modal';
 import { Select, type SelectOption } from '../components/Select';
 import { PERIOD_LABELS } from '../constants/ranking';
+import { ROLE_OPTIONS } from '../constants/roles';
 import type { Theme } from '../hooks/useTheme';
 import type { Dataset } from '../services/dataRepository';
 import type {
+  JobRole,
   ModalTab,
   PeriodKey,
   RankedCertification,
@@ -28,6 +30,7 @@ interface CertificationDialogProps {
   onTabChange: (tab: ModalTab) => void;
   onClose: () => void;
   initialRegion: RegionFilterValue;
+  initialRole: JobRole | 'all';
   initialPeriod: PeriodKey;
   theme: Theme;
 }
@@ -46,12 +49,14 @@ export function CertificationDialog({
   onTabChange,
   onClose,
   initialRegion,
+  initialRole,
   initialPeriod,
   theme,
 }: CertificationDialogProps) {
   // Independent from the dashboard filters on purpose: changing them here must
   // not move the ranking behind the modal.
   const [region, setRegion] = useState<RegionFilterValue>(initialRegion);
+  const [role, setRole] = useState<JobRole | 'all'>(initialRole);
   const [period, setPeriod] = useState<PeriodKey>(initialPeriod);
   // Tabs render on first visit and stay mounted, so switching back keeps the
   // filters a reader set without paying for all four up front.
@@ -76,8 +81,8 @@ export function CertificationDialog({
   const now = dataset.datasetNow;
 
   const jobs = useMemo(
-    () => filterJobs(dataset.jobs, { certificationId, region, period, now }),
-    [dataset.jobs, certificationId, region, period, now],
+    () => filterJobs(dataset.jobs, { certificationId, region, role, period, now }),
+    [dataset.jobs, certificationId, region, role, period, now],
   );
 
   // No region here: community records carry no reliable author location.
@@ -131,6 +136,13 @@ export function CertificationDialog({
                 onChange={setRegion}
                 icon={<MapPin size={13} />}
                 ariaLabel="Region inside this certification"
+              />
+              <Select
+                value={role}
+                options={ROLE_OPTIONS}
+                onChange={setRole}
+                icon={<Briefcase size={13} />}
+                ariaLabel="Job role inside this certification"
               />
               <Select
                 value={period}

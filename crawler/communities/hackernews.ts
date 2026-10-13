@@ -2,6 +2,7 @@ import type { CommunityPost } from '../../src/types';
 import { aliasesOf } from '../../src/utils/certAliases';
 import { countCertificationMentions } from '../normalize/certifications';
 import { stripHtml } from '../normalize/jobPosting';
+import { toExcerpt } from '../normalize/title';
 import type { CommunityCrawler, CrawlContext } from '../types';
 import { fetchJson } from '../util/http';
 
@@ -34,21 +35,24 @@ function textOf(hit: AlgoliaHit, kind: HitKind): string {
 }
 
 /**
- * A comment's own words, not the story it hangs under. The parent title says
- * nothing about why the exam was named — "Ask HN: Who wants to be hired?"
- * describes a thousand unrelated comments — and the link already opens the
- * comment in context.
+ * The discussion's real title. A comment has none of its own, so it carries the
+ * title of the story it was posted under — what Hacker News itself shows above
+ * it ("on: Ask HN: …"). Only a comment whose story title is missing falls back
+ * to its own opening words.
  */
 function titleOf(hit: AlgoliaHit, kind: HitKind): string {
   if (kind === 'story') return hit.title?.trim() ?? '';
+  return hit.story_title?.trim() || excerptOf(hit, kind) || '';
+}
 
-  const excerpt = stripHtml(hit.comment_text ?? '')
-    .replace(/\s+/g, ' ')
-    .trim();
-  if (excerpt) return excerpt.length > 140 ? `${excerpt.slice(0, 140)}…` : excerpt;
-
-  const story = hit.story_title?.trim();
-  return story ? `Comment on: ${story}` : '';
+/**
+ * What a comment actually says about the exam. A parent title like "Ask HN: Who
+ * wants to be hired?" describes a thousand unrelated comments, so the comment's
+ * opening words travel with it. Stories need none: their title is the content.
+ */
+function excerptOf(hit: AlgoliaHit, kind: HitKind): string | undefined {
+  if (kind === 'story') return undefined;
+  return toExcerpt(stripHtml(hit.comment_text ?? ''));
 }
 
 /**
@@ -115,6 +119,7 @@ export const hackerNewsCrawler: CommunityCrawler = {
               if (!hit.objectID) continue;
               const title = titleOf(hit, kind);
               if (!title) continue;
+              const excerpt = excerptOf(hit, kind);
 
               for (const [certificationId, mentions] of countCertificationMentions(
                 textOf(hit, kind),
@@ -126,6 +131,7 @@ export const hackerNewsCrawler: CommunityCrawler = {
                   certificationId,
                   source: { name: 'Hacker News', url: `${ORIGIN}/item?id=${hit.objectID}` },
                   title,
+                  excerpt: title === excerpt ? undefined : excerpt,
                   location: { country: 'GLOBAL', market: 'global', scope: 'unknown' },
                   mentions,
                   comments: hit.num_comments ?? 0,

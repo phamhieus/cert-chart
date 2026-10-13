@@ -53,6 +53,14 @@ export interface CrawlConfig {
    * which is where the trend lines come from.
    */
   historyYears: number;
+  /**
+   * Job titles searched on the boards that have a search box, alongside the
+   * per-certification terms. Certification searches only surface postings that
+   * already name an exam, which misses roles where certifications are a minor
+   * line in the ad — Business Analyst is the clearest case. Postings found this
+   * way are still kept only when they name a tracked certification.
+   */
+  roleSearchTerms: string[];
   sources: {
     itviec: SourceConfig & {
       listPages: number;
@@ -132,6 +140,8 @@ export const CRAWL_CONFIG: CrawlConfig = {
   maxConcurrency: 2,
   respectRobotsTxt: true,
   historyYears: 3,
+  // ASCII on purpose: TopCV and CareerViet put the term in a URL slug.
+  roleSearchTerms: ['business analyst', 'phan tich nghiep vu'],
   sources: {
     // Vietnam jobs. Detail pages publish schema.org JobPosting data.
     itviec: {
@@ -152,12 +162,13 @@ export const CRAWL_CONFIG: CrawlConfig = {
     topcv: {
       enabled: true,
       maxRecords: 200_000,
-      // One browser navigation per certification: with 100 in the dictionary this
+      // One browser navigation per certification: with ~105 in the dictionary this
       // is ~15 minutes on its own, and anything lower silently skips the tail of
-      // the list rather than searching for it.
-      searchTerms: 100,
+      // the list rather than searching for it. Keep it above the dictionary size.
+      searchTerms: 120,
       // Each page is a browser navigation at 6s, so this dominates its runtime.
-      maxDetailPages: 150,
+      // Role searches run first and take a share of this, hence 200, not 150.
+      maxDetailPages: 200,
       navigationDelayMs: 6_000,
       settleMs: 2_500,
     },
@@ -166,7 +177,7 @@ export const CRAWL_CONFIG: CrawlConfig = {
     careerviet: {
       enabled: true,
       maxRecords: 200_000,
-      searchTerms: 100,
+      searchTerms: 120,
       // Only the searches use the browser; these are plain HTTP fetches.
       maxDetailPages: 500,
       navigationDelayMs: 4_000,
@@ -214,6 +225,8 @@ export const CRAWL_CONFIG: CrawlConfig = {
         'https://remotive.com/remote-jobs/feed/devops',
         'https://remotive.com/remote-jobs/feed/data',
         'https://remotive.com/remote-jobs/feed/qa',
+        // Product Management is where Remotive files Business Analyst and PO roles.
+        'https://remotive.com/remote-jobs/feed/product',
       ],
     },
     // Europe. No search endpoint, so the feed is paged through; 250 per page.

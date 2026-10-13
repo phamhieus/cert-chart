@@ -20,6 +20,7 @@ import { regionLabel } from './utils/regions';
 
 const INITIAL_FILTERS: DashboardFilters = {
   region: 'vietnam',
+  role: 'all',
   category: 'all',
   period: 'all',
   search: '',
@@ -100,9 +101,6 @@ export default function App() {
         theme={theme}
         onToggleTheme={toggle}
         onOpenSources={() => setSourcesOpen(true)}
-        onRefresh={refresh}
-        canRefresh={crawlAvailable}
-        crawling={crawling}
         filters={<FilterBar filters={filters} onChange={patchFilters} />}
       />
 
@@ -223,6 +221,7 @@ export default function App() {
           onTabChange={(tab) => setOpenCert((current) => (current ? { ...current, tab } : current))}
           onClose={() => setOpenCert(null)}
           initialRegion={effectiveFilters.region}
+          initialRole={effectiveFilters.role}
           initialPeriod={effectiveFilters.period}
           theme={theme}
         />

@@ -1,7 +1,10 @@
 import { ArrowDown, ArrowUp } from 'lucide-react';
-import { useMemo, useState } from 'react';
+import { useMemo, useState, type ReactNode } from 'react';
 import { Badge, TrendValue } from '../components/Badge';
 import { EmptyState, ScoreBar } from '../components/Feedback';
+import { InfoPopover } from '../components/InfoPopover';
+import { GROWTH_SCORE_CLAMP, RANKING_WEIGHTS, TREND_FLAT_THRESHOLD } from '../constants/ranking';
+import { GROWTH_WINDOW_MONTHS } from '../utils/scoring';
 import type { ModalTab, RankedCertification } from '../types';
 import { cn, formatCompact, formatNumber, formatScore } from '../utils/format';
 
@@ -26,14 +29,47 @@ interface ColumnDef {
   key: SortKey;
   label: string;
   className?: string;
+  /** Explanation opened from an "i" beside the header. */
+  info?: { label: string; content: ReactNode };
 }
+
+const HALF = GROWTH_WINDOW_MONTHS / 2;
+
+const GROWTH_INFO = (
+  <>
+    <p className="font-medium text-ink">How 12M growth is calculated</p>
+    <p className="mt-1.5">
+      Each month counts the job postings and community posts that name the certification. The
+      last {GROWTH_WINDOW_MONTHS} months are split in half:
+    </p>
+    <p className="num mt-1.5 rounded-md bg-bg px-2 py-1.5 text-ink">
+      (last {HALF} months − previous {HALF}) ÷ previous {HALF} × 100%
+    </p>
+    <p className="mt-1.5">
+      Example: 10 in the earlier half and 25 in the recent half is +150%. Shown as — when the
+      earlier half is empty, rather than a misleading +100%.
+    </p>
+    <p className="mt-1.5">
+      ↑ above +{TREND_FLAT_THRESHOLD}%, ↓ below −{TREND_FLAT_THRESHOLD}%. Clamped to ±
+      {GROWTH_SCORE_CLAMP}%, it makes up {Math.round(RANKING_WEIGHTS.growth * 100)}% of the score.
+    </p>
+    <p className="mt-1.5 text-faint">
+      Job boards list only live postings, so job counts sit in the latest months and lift this
+      figure until daily crawls build up history.
+    </p>
+  </>
+);
 
 const NUMERIC_COLUMNS: ColumnDef[] = [
   { key: 'jobs', label: 'Job demand' },
   { key: 'community', label: 'Community' },
   { key: 'courses', label: 'Courses' },
   { key: 'holders', label: 'Holders' },
-  { key: 'growth', label: '12M growth' },
+  {
+    key: 'growth',
+    label: '12M growth',
+    info: { label: 'How 12M growth is calculated', content: GROWTH_INFO },
+  },
   { key: 'score', label: 'Score' },
 ];
 
@@ -78,23 +114,28 @@ export function RankingTable({ rows, onOpen }: RankingTableProps) {
               <th className="hidden px-3 py-2 text-left font-medium lg:table-cell">Category</th>
               {NUMERIC_COLUMNS.map((column) => (
                 <th key={column.key} className="px-3 py-2 text-right font-medium">
-                  <button
-                    type="button"
-                    onClick={() => toggleSort(column.key)}
-                    className={cn(
-                      'inline-flex items-center gap-1 transition-colors hover:text-ink',
-                      sort.key === column.key && 'text-ink',
-                    )}
-                  >
-                    {column.label}
-                    {sort.key === column.key ? (
-                      sort.desc ? (
-                        <ArrowDown size={11} />
-                      ) : (
-                        <ArrowUp size={11} />
-                      )
+                  <span className="inline-flex items-center gap-1">
+                    <button
+                      type="button"
+                      onClick={() => toggleSort(column.key)}
+                      className={cn(
+                        'inline-flex items-center gap-1 transition-colors hover:text-ink',
+                        sort.key === column.key && 'text-ink',
+                      )}
+                    >
+                      {column.label}
+                      {sort.key === column.key ? (
+                        sort.desc ? (
+                          <ArrowDown size={11} />
+                        ) : (
+                          <ArrowUp size={11} />
+                        )
+                      ) : null}
+                    </button>
+                    {column.info ? (
+                      <InfoPopover label={column.info.label}>{column.info.content}</InfoPopover>
                     ) : null}
-                  </button>
+                  </span>
                 </th>
               ))}
             </tr>

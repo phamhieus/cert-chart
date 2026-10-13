@@ -149,7 +149,10 @@ export const itviecCrawler: JobCrawler = {
 
     // Searching per certification finds far more relevant postings than paging
     // through the whole board; a term with no results returns 404 and is skipped.
-    const searchUrls = [...new Set(certifications.map((cert) => cert.shortName))].map(
+    // Role titles come first so the request cap cannot crowd them out.
+    const searchUrls = [
+      ...new Set([...config.roleSearchTerms, ...certifications.map((cert) => cert.shortName)]),
+    ].map(
       (term) => `${ORIGIN}/it-jobs?query=${encodeURIComponent(term)}`,
     );
 

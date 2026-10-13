@@ -96,7 +96,7 @@ export function StatsDetailDialog({
         match(`${row.certification.name} ${row.certification.vendor} ${row.certification.category}`),
       ),
       jobs: records.jobs.filter((job) => match(`${job.title} ${job.company}`)),
-      community: records.community.filter((post) => match(`${post.title} ${post.source.name}`)),
+      community: records.community.filter((post) => match(`${post.title} ${post.excerpt ?? ''} ${post.source.name}`)),
       courses: records.courses.filter((course) => match(`${course.name} ${course.provider.name}`)),
     };
   }, [needle, rows, records]);
@@ -204,6 +204,9 @@ export function StatsDetailDialog({
           renderItem={(post) => (
             <Row>
               <p className="text-[13px] font-medium text-ink">{post.title}</p>
+              {post.excerpt ? (
+                <p className="mt-0.5 line-clamp-2 text-xs text-muted">{post.excerpt}</p>
+              ) : null}
               <Meta>
                 <Badge>{certName.get(post.certificationId) ?? post.certificationId}</Badge>
                 <span className="num">{formatNumber(post.mentions)} mentions</span>
