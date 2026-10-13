@@ -117,7 +117,7 @@ directly, because a key issued by the site is permission, not crawling.
 | Arbeitnow | Europe | Jobs | on | Public API, paged |
 | Himalayas | Remote | Jobs | on | Public jobs API, paged |
 | Greenhouse | Global | Jobs | on | Board API for a hand-picked list of (mostly US) employers — see `crawler/config.ts`; widens the global bucket, not Vietnam |
-| LinkedIn | — | Jobs | never | `robots.txt` prohibits automated access outright; listed so the gap is visible |
+| LinkedIn | all | Jobs | needs keys | Read through Brave Search results (`site:linkedin.com/jobs/view`), never fetched — `robots.txt` forbids crawling LinkedIn. Title, link, snippet and date only, so matching is thinner than other boards |
 | Dạy Nhau Học | Vietnam | Community | on | Discourse `latest.json?order=created` (search is disallowed); threads whose title names nothing are opened and read |
 | Viblo | Vietnam | Community | on | `.rss` feeds only (search, `.json` and `.xml` are disallowed): "newest" plus one per tag in `sources.viblo.tags` |
 | Zenn | Japan | Community | on | Keyword search over article text (`/api/search`), then topic listings; bodies fetched to confirm a silent title |
@@ -129,6 +129,7 @@ directly, because a key issued by the site is permission, not crawling.
 | Medium | Global | Community | on | Per-tag RSS feeds (`/feed/tag/{tag}`), ten newest stories per tag, no body — see below |
 | Reddit | all | Community | needs keys | `robots.txt` forbids scraping — `REDDIT_CLIENT_ID` / `REDDIT_CLIENT_SECRET` switch on the official API |
 | DeepSeek | all | Community | needs keys | `DEEPSEEK_API_KEY` — the model names Reddit posts per certification; with the Reddit keys each is checked on the Reddit API, otherwise stored as unverified and never scored |
+| LinkedIn Posts | Global | Community | needs keys | `/posts/` and `/pulse/` through Brave Search results with `BRAVE_API_KEY`; title, link, snippet and date only, reactions not available |
 | VOZ | Vietnam | Community | on | HTML is Cloudflare-gated, but each forum's `/index.rss` is not and carries the opening post |
 | Quản Trị Mạng | Vietnam | Community | on | Site search (`robots.txt` is a bare `Allow: /`); one request per article for its publish date |
 | Official vendor training | — | Courses | on | Learning path per certification, link-checked each run |
@@ -187,6 +188,7 @@ the file. Every variable is optional; a source without its credential is skipped
 | --- | --- | --- |
 | `REDDIT_CLIENT_ID` / `REDDIT_CLIENT_SECRET` | Switches Reddit on — `robots.txt` forbids crawling it, so the API is the only route | [reddit.com/prefs/apps](https://www.reddit.com/prefs/apps) → "create another app...", type **script**, redirect uri `http://localhost:8080`. Free, instant. The id is the string under the app name |
 | `DEEPSEEK_API_KEY` / `DEEPSEEK_MODEL` | Switches DeepSeek on; with the Reddit keys its suggested posts are verified, otherwise stored unverified and never scored. `DEEPSEEK_MODEL` defaults to `deepseek-flash` | [platform.deepseek.com/api_keys](https://platform.deepseek.com/api_keys). Paid API |
+| `BRAVE_API_KEY` | Switches on LinkedIn jobs and LinkedIn Posts, read from Brave Search results — one query per certification per source, paced at one a second | [api-dashboard.search.brave.com](https://api-dashboard.search.brave.com/). Has a free plan; mind its monthly query allowance |
 | `UDEMY_CLIENT_ID` / `UDEMY_CLIENT_SECRET` | Switches Udemy on — `/api-2.0/` is disallowed, so the Affiliate API is the only route | Apply at [udemy.com/affiliate](https://www.udemy.com/affiliate/), then request a client at [API clients](https://www.udemy.com/user/edit-api-clients/). Manual review, and not always granted |
 | `STACK_APP_KEY` | Raises the Stack Exchange quota from 300 to 10,000 calls/day, shared by both Stack crawlers | [stackapps.com/apps/oauth/register](https://stackapps.com/apps/oauth/register). Free, instant, no review — use the **key**, not the client id |
 | `GITHUB_TOKEN` | Raises GitHub search from 10 to 30 calls/minute | [github.com/settings/personal-access-tokens](https://github.com/settings/personal-access-tokens). Public repository search needs **no scopes** |
@@ -197,7 +199,7 @@ downloads the browser, and both are skipped with a setup hint until then. The br
 user-agent to pass the bot check — `robots.txt` allows those paths and every navigation is still
 checked against it.
 
-**LinkedIn** is never crawled — its `robots.txt` prohibits it outright.
+**LinkedIn** is never crawled — its `robots.txt` prohibits it outright. Its jobs and posts are read from Brave Search results instead: only the title, link, snippet and date the search engine returns are kept, and no linkedin.com page is requested.
 
 **Vietnamese community coverage is thin, and it is thin for a measurable reason.** VOZ's
 `lap-trinh-cntt` and `tuyen-dung-tim-viec` forums are the only place Vietnamese IT people discuss

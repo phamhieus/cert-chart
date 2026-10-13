@@ -133,6 +133,10 @@ export interface CrawlConfig {
     /** One batched DeepSeek call for up to `maxCertifications`, asking
      *  `postsPerCert` Reddit posts each, newest first. */
     deepseek: SourceConfig & { maxCertifications: number; postsPerCert: number };
+    /** LinkedIn read through Brave Search results — see crawler/util/brave.ts. One
+     *  query per certification for each of the two, at most 20 results each. */
+    linkedin: SourceConfig & { maxCertifications: number; resultsPerCert: number };
+    linkedinPosts: SourceConfig & { maxCertifications: number; resultsPerCert: number };
     officialCourses: SourceConfig;
     coursera: SourceConfig & { sitemaps: string[]; coursesPerCert: number };
     udemy: SourceConfig & { resultsPerCert: number };
@@ -555,6 +559,22 @@ export const CRAWL_CONFIG: CrawlConfig = {
       maxRecords: 2_000,
       maxCertifications: 40,
       postsPerCert: 3,
+    },
+    // LinkedIn jobs and posts through the Brave Search API — needs BRAVE_API_KEY.
+    // Each certification costs one query per source, paced at one per second for
+    // the free plan; 40 certifications is 80 queries a run, so mind the plan's
+    // monthly allowance before raising it.
+    linkedin: {
+      enabled: true,
+      maxRecords: 800,
+      maxCertifications: 40,
+      resultsPerCert: 20,
+    },
+    linkedinPosts: {
+      enabled: true,
+      maxRecords: 800,
+      maxCertifications: 40,
+      resultsPerCert: 20,
     },
     officialCourses: {
       enabled: true,

@@ -13,6 +13,7 @@ import { deepSeekCrawler } from './communities/deepseek';
 import { devToCrawler } from './communities/devto';
 import { gitHubCrawler } from './communities/github';
 import { hackerNewsCrawler } from './communities/hackernews';
+import { linkedInPostsCrawler } from './communities/linkedin';
 import { mediumCrawler } from './communities/medium';
 import { quanTriMangCrawler } from './communities/quantrimang';
 import { redditCrawler } from './communities/reddit';
@@ -85,6 +86,7 @@ const COMMUNITY_CRAWLERS = [
   redditCrawler,
   quanTriMangCrawler,
   deepSeekCrawler,
+  linkedInPostsCrawler,
 ];
 const COURSE_CRAWLERS = [
   officialCoursesCrawler,
