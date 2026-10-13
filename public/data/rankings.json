@@ -1,230 +1,25 @@
 [
   {
-    "certificationId": "cissp",
+    "certificationId": "pmp",
     "metrics": {
-      "jobs": 60,
-      "requiredJobs": 2,
-      "preferredJobs": 22,
-      "mentionedJobs": 36,
-      "communityPosts": 30,
-      "communityMentions": 58,
-      "communityComments": 22,
+      "jobs": 56,
+      "requiredJobs": 5,
+      "preferredJobs": 26,
+      "mentionedJobs": 25,
+      "communityPosts": 71,
+      "communityMentions": 235,
+      "communityComments": 219,
       "communityAuthors": 0,
       "courses": 10,
       "estimatedHolders": null,
-      "growth12m": 3350
+      "growth12m": 4050
     },
     "scores": {
-      "jobDemand": 100,
-      "community": 48,
+      "jobDemand": 95,
+      "community": 62,
       "holders": null,
       "growth": 100,
-      "overall": 80.6
-    },
-    "trend": [
-      {
-        "month": "2023-10",
-        "jobs": 0,
-        "community": 2
-      },
-      {
-        "month": "2023-11",
-        "jobs": 0,
-        "community": 0
-      },
-      {
-        "month": "2023-12",
-        "jobs": 0,
-        "community": 1
-      },
-      {
-        "month": "2024-01",
-        "jobs": 0,
-        "community": 0
-      },
-      {
-        "month": "2024-02",
-        "jobs": 0,
-        "community": 0
-      },
-      {
-        "month": "2024-03",
-        "jobs": 0,
-        "community": 0
-      },
-      {
-        "month": "2024-04",
-        "jobs": 0,
-        "community": 0
-      },
-      {
-        "month": "2024-05",
-        "jobs": 0,
-        "community": 0
-      },
-      {
-        "month": "2024-06",
-        "jobs": 0,
-        "community": 0
-      },
-      {
-        "month": "2024-07",
-        "jobs": 0,
-        "community": 2
-      },
-      {
-        "month": "2024-08",
-        "jobs": 0,
-        "community": 2
-      },
-      {
-        "month": "2024-09",
-        "jobs": 0,
-        "community": 2
-      },
-      {
-        "month": "2024-10",
-        "jobs": 0,
-        "community": 0
-      },
-      {
-        "month": "2024-11",
-        "jobs": 0,
-        "community": 0
-      },
-      {
-        "month": "2024-12",
-        "jobs": 0,
-        "community": 0
-      },
-      {
-        "month": "2025-01",
-        "jobs": 0,
-        "community": 0
-      },
-      {
-        "month": "2025-02",
-        "jobs": 0,
-        "community": 0
-      },
-      {
-        "month": "2025-03",
-        "jobs": 0,
-        "community": 0
-      },
-      {
-        "month": "2025-04",
-        "jobs": 0,
-        "community": 0
-      },
-      {
-        "month": "2025-05",
-        "jobs": 0,
-        "community": 0
-      },
-      {
-        "month": "2025-06",
-        "jobs": 0,
-        "community": 2
-      },
-      {
-        "month": "2025-07",
-        "jobs": 0,
-        "community": 0
-      },
-      {
-        "month": "2025-08",
-        "jobs": 0,
-        "community": 0
-      },
-      {
-        "month": "2025-09",
-        "jobs": 0,
-        "community": 0
-      },
-      {
-        "month": "2025-10",
-        "jobs": 0,
-        "community": 0
-      },
-      {
-        "month": "2025-11",
-        "jobs": 0,
-        "community": 0
-      },
-      {
-        "month": "2025-12",
-        "jobs": 0,
-        "community": 0
-      },
-      {
-        "month": "2026-01",
-        "jobs": 0,
-        "community": 0
-      },
-      {
-        "month": "2026-02",
-        "jobs": 0,
-        "community": 1
-      },
-      {
-        "month": "2026-03",
-        "jobs": 0,
-        "community": 2
-      },
-      {
-        "month": "2026-04",
-        "jobs": 0,
-        "community": 0
-      },
-      {
-        "month": "2026-05",
-        "jobs": 0,
-        "community": 1
-      },
-      {
-        "month": "2026-06",
-        "jobs": 0,
-        "community": 1
-      },
-      {
-        "month": "2026-07",
-        "jobs": 2,
-        "community": 3
-      },
-      {
-        "month": "2026-08",
-        "jobs": 11,
-        "community": 14
-      },
-      {
-        "month": "2026-09",
-        "jobs": 47,
-        "community": 0
-      }
-    ]
-  },
-  {
-    "certificationId": "pmp",
-    "metrics": {
-      "jobs": 36,
-      "requiredJobs": 3,
-      "preferredJobs": 15,
-      "mentionedJobs": 18,
-      "communityPosts": 46,
-      "communityMentions": 149,
-      "communityComments": 216,
-      "communityAuthors": 0,
-      "courses": 9,
-      "estimatedHolders": null,
-      "growth12m": 1850
-    },
-    "scores": {
-      "jobDemand": 89,
-      "community": 59,
-      "holders": null,
-      "growth": 100,
-      "overall": 79.8
+      "overall": 83.4
     },
     "trend": [
       {
@@ -404,32 +199,237 @@
       },
       {
         "month": "2026-09",
-        "jobs": 26,
+        "jobs": 46,
+        "community": 85
+      }
+    ]
+  },
+  {
+    "certificationId": "cissp",
+    "metrics": {
+      "jobs": 84,
+      "requiredJobs": 2,
+      "preferredJobs": 31,
+      "mentionedJobs": 51,
+      "communityPosts": 41,
+      "communityMentions": 92,
+      "communityComments": 22,
+      "communityAuthors": 0,
+      "courses": 11,
+      "estimatedHolders": null,
+      "growth12m": 5100
+    },
+    "scores": {
+      "jobDemand": 100,
+      "community": 50,
+      "holders": null,
+      "growth": 100,
+      "overall": 81.2
+    },
+    "trend": [
+      {
+        "month": "2023-10",
+        "jobs": 0,
+        "community": 2
+      },
+      {
+        "month": "2023-11",
+        "jobs": 0,
         "community": 0
+      },
+      {
+        "month": "2023-12",
+        "jobs": 0,
+        "community": 1
+      },
+      {
+        "month": "2024-01",
+        "jobs": 0,
+        "community": 0
+      },
+      {
+        "month": "2024-02",
+        "jobs": 0,
+        "community": 0
+      },
+      {
+        "month": "2024-03",
+        "jobs": 0,
+        "community": 0
+      },
+      {
+        "month": "2024-04",
+        "jobs": 0,
+        "community": 0
+      },
+      {
+        "month": "2024-05",
+        "jobs": 0,
+        "community": 0
+      },
+      {
+        "month": "2024-06",
+        "jobs": 0,
+        "community": 0
+      },
+      {
+        "month": "2024-07",
+        "jobs": 0,
+        "community": 2
+      },
+      {
+        "month": "2024-08",
+        "jobs": 0,
+        "community": 2
+      },
+      {
+        "month": "2024-09",
+        "jobs": 0,
+        "community": 2
+      },
+      {
+        "month": "2024-10",
+        "jobs": 0,
+        "community": 0
+      },
+      {
+        "month": "2024-11",
+        "jobs": 0,
+        "community": 0
+      },
+      {
+        "month": "2024-12",
+        "jobs": 0,
+        "community": 0
+      },
+      {
+        "month": "2025-01",
+        "jobs": 0,
+        "community": 0
+      },
+      {
+        "month": "2025-02",
+        "jobs": 0,
+        "community": 0
+      },
+      {
+        "month": "2025-03",
+        "jobs": 0,
+        "community": 0
+      },
+      {
+        "month": "2025-04",
+        "jobs": 0,
+        "community": 0
+      },
+      {
+        "month": "2025-05",
+        "jobs": 0,
+        "community": 0
+      },
+      {
+        "month": "2025-06",
+        "jobs": 0,
+        "community": 2
+      },
+      {
+        "month": "2025-07",
+        "jobs": 0,
+        "community": 0
+      },
+      {
+        "month": "2025-08",
+        "jobs": 0,
+        "community": 0
+      },
+      {
+        "month": "2025-09",
+        "jobs": 0,
+        "community": 0
+      },
+      {
+        "month": "2025-10",
+        "jobs": 0,
+        "community": 0
+      },
+      {
+        "month": "2025-11",
+        "jobs": 0,
+        "community": 0
+      },
+      {
+        "month": "2025-12",
+        "jobs": 0,
+        "community": 0
+      },
+      {
+        "month": "2026-01",
+        "jobs": 0,
+        "community": 0
+      },
+      {
+        "month": "2026-02",
+        "jobs": 0,
+        "community": 1
+      },
+      {
+        "month": "2026-03",
+        "jobs": 0,
+        "community": 2
+      },
+      {
+        "month": "2026-04",
+        "jobs": 0,
+        "community": 0
+      },
+      {
+        "month": "2026-05",
+        "jobs": 0,
+        "community": 3
+      },
+      {
+        "month": "2026-06",
+        "jobs": 0,
+        "community": 1
+      },
+      {
+        "month": "2026-07",
+        "jobs": 2,
+        "community": 3
+      },
+      {
+        "month": "2026-08",
+        "jobs": 11,
+        "community": 19
+      },
+      {
+        "month": "2026-09",
+        "jobs": 71,
+        "community": 27
       }
     ]
   },
   {
     "certificationId": "ccna",
     "metrics": {
-      "jobs": 17,
-      "requiredJobs": 1,
-      "preferredJobs": 5,
-      "mentionedJobs": 11,
-      "communityPosts": 81,
-      "communityMentions": 202,
+      "jobs": 26,
+      "requiredJobs": 2,
+      "preferredJobs": 11,
+      "mentionedJobs": 13,
+      "communityPosts": 100,
+      "communityMentions": 233,
       "communityComments": 78,
       "communityAuthors": 0,
       "courses": 31,
       "estimatedHolders": null,
-      "growth12m": 442.9
+      "growth12m": 828.6
     },
     "scores": {
-      "jobDemand": 63,
-      "community": 59,
+      "jobDemand": 72,
+      "community": 60,
       "holders": null,
       "growth": 100,
-      "overall": 68.3
+      "overall": 72.9
     },
     "trend": [
       {
@@ -545,7 +545,7 @@
       {
         "month": "2025-08",
         "jobs": 0,
-        "community": 7
+        "community": 11
       },
       {
         "month": "2025-09",
@@ -590,7 +590,7 @@
       {
         "month": "2026-05",
         "jobs": 0,
-        "community": 4
+        "community": 6
       },
       {
         "month": "2026-06",
@@ -600,41 +600,246 @@
       {
         "month": "2026-07",
         "jobs": 4,
-        "community": 18
+        "community": 20
       },
       {
         "month": "2026-08",
         "jobs": 3,
-        "community": 6
+        "community": 7
       },
       {
         "month": "2026-09",
-        "jobs": 10,
+        "jobs": 19,
+        "community": 27
+      }
+    ]
+  },
+  {
+    "certificationId": "cka",
+    "metrics": {
+      "jobs": 25,
+      "requiredJobs": 0,
+      "preferredJobs": 6,
+      "mentionedJobs": 19,
+      "communityPosts": 106,
+      "communityMentions": 254,
+      "communityComments": 249,
+      "communityAuthors": 0,
+      "courses": 4,
+      "estimatedHolders": null,
+      "growth12m": 550
+    },
+    "scores": {
+      "jobDemand": 62,
+      "community": 66,
+      "holders": null,
+      "growth": 100,
+      "overall": 70.5
+    },
+    "trend": [
+      {
+        "month": "2023-10",
+        "jobs": 0,
+        "community": 0
+      },
+      {
+        "month": "2023-11",
+        "jobs": 0,
+        "community": 4
+      },
+      {
+        "month": "2023-12",
+        "jobs": 0,
+        "community": 0
+      },
+      {
+        "month": "2024-01",
+        "jobs": 0,
+        "community": 1
+      },
+      {
+        "month": "2024-02",
+        "jobs": 0,
+        "community": 0
+      },
+      {
+        "month": "2024-03",
+        "jobs": 0,
+        "community": 0
+      },
+      {
+        "month": "2024-04",
+        "jobs": 0,
+        "community": 6
+      },
+      {
+        "month": "2024-05",
+        "jobs": 0,
+        "community": 3
+      },
+      {
+        "month": "2024-06",
+        "jobs": 0,
+        "community": 1
+      },
+      {
+        "month": "2024-07",
+        "jobs": 0,
+        "community": 0
+      },
+      {
+        "month": "2024-08",
+        "jobs": 0,
+        "community": 0
+      },
+      {
+        "month": "2024-09",
+        "jobs": 0,
+        "community": 0
+      },
+      {
+        "month": "2024-10",
+        "jobs": 0,
         "community": 5
+      },
+      {
+        "month": "2024-11",
+        "jobs": 0,
+        "community": 0
+      },
+      {
+        "month": "2024-12",
+        "jobs": 0,
+        "community": 0
+      },
+      {
+        "month": "2025-01",
+        "jobs": 0,
+        "community": 8
+      },
+      {
+        "month": "2025-02",
+        "jobs": 0,
+        "community": 5
+      },
+      {
+        "month": "2025-03",
+        "jobs": 0,
+        "community": 0
+      },
+      {
+        "month": "2025-04",
+        "jobs": 0,
+        "community": 8
+      },
+      {
+        "month": "2025-05",
+        "jobs": 0,
+        "community": 3
+      },
+      {
+        "month": "2025-06",
+        "jobs": 0,
+        "community": 10
+      },
+      {
+        "month": "2025-07",
+        "jobs": 0,
+        "community": 0
+      },
+      {
+        "month": "2025-08",
+        "jobs": 0,
+        "community": 6
+      },
+      {
+        "month": "2025-09",
+        "jobs": 0,
+        "community": 0
+      },
+      {
+        "month": "2025-10",
+        "jobs": 0,
+        "community": 1
+      },
+      {
+        "month": "2025-11",
+        "jobs": 0,
+        "community": 1
+      },
+      {
+        "month": "2025-12",
+        "jobs": 0,
+        "community": 1
+      },
+      {
+        "month": "2026-01",
+        "jobs": 0,
+        "community": 1
+      },
+      {
+        "month": "2026-02",
+        "jobs": 1,
+        "community": 3
+      },
+      {
+        "month": "2026-03",
+        "jobs": 0,
+        "community": 0
+      },
+      {
+        "month": "2026-04",
+        "jobs": 0,
+        "community": 6
+      },
+      {
+        "month": "2026-05",
+        "jobs": 0,
+        "community": 4
+      },
+      {
+        "month": "2026-06",
+        "jobs": 0,
+        "community": 0
+      },
+      {
+        "month": "2026-07",
+        "jobs": 0,
+        "community": 4
+      },
+      {
+        "month": "2026-08",
+        "jobs": 2,
+        "community": 24
+      },
+      {
+        "month": "2026-09",
+        "jobs": 22,
+        "community": 17
       }
     ]
   },
   {
     "certificationId": "security-plus",
     "metrics": {
-      "jobs": 15,
+      "jobs": 22,
       "requiredJobs": 0,
-      "preferredJobs": 4,
-      "mentionedJobs": 11,
-      "communityPosts": 36,
-      "communityMentions": 56,
-      "communityComments": 62,
+      "preferredJobs": 5,
+      "mentionedJobs": 17,
+      "communityPosts": 51,
+      "communityMentions": 80,
+      "communityComments": 63,
       "communityAuthors": 2,
       "courses": 4,
       "estimatedHolders": null,
       "growth12m": null
     },
     "scores": {
-      "jobDemand": 55,
-      "community": 82,
+      "jobDemand": 58,
+      "community": 83,
       "holders": null,
       "growth": null,
-      "overall": 67
+      "overall": 69.7
     },
     "trend": [
       {
@@ -809,447 +1014,37 @@
       },
       {
         "month": "2026-08",
-        "jobs": 2,
-        "community": 7
+        "jobs": 1,
+        "community": 19
       },
       {
         "month": "2026-09",
-        "jobs": 12,
-        "community": 1
-      }
-    ]
-  },
-  {
-    "certificationId": "cka",
-    "metrics": {
-      "jobs": 14,
-      "requiredJobs": 0,
-      "preferredJobs": 4,
-      "mentionedJobs": 10,
-      "communityPosts": 84,
-      "communityMentions": 201,
-      "communityComments": 232,
-      "communityAuthors": 0,
-      "courses": 4,
-      "estimatedHolders": null,
-      "growth12m": 400
-    },
-    "scores": {
-      "jobDemand": 53,
-      "community": 65,
-      "holders": null,
-      "growth": 100,
-      "overall": 66.5
-    },
-    "trend": [
-      {
-        "month": "2023-10",
-        "jobs": 0,
-        "community": 0
-      },
-      {
-        "month": "2023-11",
-        "jobs": 0,
-        "community": 4
-      },
-      {
-        "month": "2023-12",
-        "jobs": 0,
-        "community": 0
-      },
-      {
-        "month": "2024-01",
-        "jobs": 0,
-        "community": 1
-      },
-      {
-        "month": "2024-02",
-        "jobs": 0,
-        "community": 0
-      },
-      {
-        "month": "2024-03",
-        "jobs": 0,
-        "community": 0
-      },
-      {
-        "month": "2024-04",
-        "jobs": 0,
-        "community": 6
-      },
-      {
-        "month": "2024-05",
-        "jobs": 0,
-        "community": 3
-      },
-      {
-        "month": "2024-06",
-        "jobs": 0,
-        "community": 1
-      },
-      {
-        "month": "2024-07",
-        "jobs": 0,
-        "community": 0
-      },
-      {
-        "month": "2024-08",
-        "jobs": 0,
-        "community": 0
-      },
-      {
-        "month": "2024-09",
-        "jobs": 0,
-        "community": 0
-      },
-      {
-        "month": "2024-10",
-        "jobs": 0,
-        "community": 5
-      },
-      {
-        "month": "2024-11",
-        "jobs": 0,
-        "community": 0
-      },
-      {
-        "month": "2024-12",
-        "jobs": 0,
-        "community": 0
-      },
-      {
-        "month": "2025-01",
-        "jobs": 0,
-        "community": 8
-      },
-      {
-        "month": "2025-02",
-        "jobs": 0,
-        "community": 0
-      },
-      {
-        "month": "2025-03",
-        "jobs": 0,
-        "community": 0
-      },
-      {
-        "month": "2025-04",
-        "jobs": 0,
-        "community": 8
-      },
-      {
-        "month": "2025-05",
-        "jobs": 0,
-        "community": 3
-      },
-      {
-        "month": "2025-06",
-        "jobs": 0,
-        "community": 10
-      },
-      {
-        "month": "2025-07",
-        "jobs": 0,
-        "community": 0
-      },
-      {
-        "month": "2025-08",
-        "jobs": 0,
-        "community": 0
-      },
-      {
-        "month": "2025-09",
-        "jobs": 0,
-        "community": 0
-      },
-      {
-        "month": "2025-10",
-        "jobs": 0,
-        "community": 1
-      },
-      {
-        "month": "2025-11",
-        "jobs": 0,
-        "community": 0
-      },
-      {
-        "month": "2025-12",
-        "jobs": 0,
-        "community": 1
-      },
-      {
-        "month": "2026-01",
-        "jobs": 0,
-        "community": 0
-      },
-      {
-        "month": "2026-02",
-        "jobs": 0,
-        "community": 3
-      },
-      {
-        "month": "2026-03",
-        "jobs": 0,
-        "community": 0
-      },
-      {
-        "month": "2026-04",
-        "jobs": 0,
-        "community": 1
-      },
-      {
-        "month": "2026-05",
-        "jobs": 0,
-        "community": 3
-      },
-      {
-        "month": "2026-06",
-        "jobs": 0,
-        "community": 0
-      },
-      {
-        "month": "2026-07",
-        "jobs": 0,
-        "community": 4
-      },
-      {
-        "month": "2026-08",
-        "jobs": 2,
-        "community": 5
-      },
-      {
-        "month": "2026-09",
-        "jobs": 12,
-        "community": 4
-      }
-    ]
-  },
-  {
-    "certificationId": "gcp-ace",
-    "metrics": {
-      "jobs": 16,
-      "requiredJobs": 1,
-      "preferredJobs": 0,
-      "mentionedJobs": 15,
-      "communityPosts": 117,
-      "communityMentions": 191,
-      "communityComments": 50,
-      "communityAuthors": 0,
-      "courses": 6,
-      "estimatedHolders": null,
-      "growth12m": 287.5
-    },
-    "scores": {
-      "jobDemand": 51,
-      "community": 59,
-      "holders": null,
-      "growth": 100,
-      "overall": 63.4
-    },
-    "trend": [
-      {
-        "month": "2023-10",
-        "jobs": 0,
-        "community": 1
-      },
-      {
-        "month": "2023-11",
-        "jobs": 0,
-        "community": 2
-      },
-      {
-        "month": "2023-12",
-        "jobs": 0,
-        "community": 1
-      },
-      {
-        "month": "2024-01",
-        "jobs": 0,
-        "community": 4
-      },
-      {
-        "month": "2024-02",
-        "jobs": 0,
-        "community": 9
-      },
-      {
-        "month": "2024-03",
-        "jobs": 0,
-        "community": 3
-      },
-      {
-        "month": "2024-04",
-        "jobs": 0,
-        "community": 3
-      },
-      {
-        "month": "2024-05",
-        "jobs": 0,
-        "community": 7
-      },
-      {
-        "month": "2024-06",
-        "jobs": 0,
-        "community": 4
-      },
-      {
-        "month": "2024-07",
-        "jobs": 0,
-        "community": 4
-      },
-      {
-        "month": "2024-08",
-        "jobs": 0,
-        "community": 2
-      },
-      {
-        "month": "2024-09",
-        "jobs": 0,
-        "community": 2
-      },
-      {
-        "month": "2024-10",
-        "jobs": 0,
-        "community": 5
-      },
-      {
-        "month": "2024-11",
-        "jobs": 0,
-        "community": 3
-      },
-      {
-        "month": "2024-12",
-        "jobs": 0,
-        "community": 0
-      },
-      {
-        "month": "2025-01",
-        "jobs": 0,
-        "community": 0
-      },
-      {
-        "month": "2025-02",
-        "jobs": 0,
-        "community": 0
-      },
-      {
-        "month": "2025-03",
-        "jobs": 0,
-        "community": 1
-      },
-      {
-        "month": "2025-04",
-        "jobs": 0,
-        "community": 2
-      },
-      {
-        "month": "2025-05",
-        "jobs": 0,
-        "community": 1
-      },
-      {
-        "month": "2025-06",
-        "jobs": 0,
-        "community": 8
-      },
-      {
-        "month": "2025-07",
-        "jobs": 0,
-        "community": 1
-      },
-      {
-        "month": "2025-08",
-        "jobs": 0,
-        "community": 5
-      },
-      {
-        "month": "2025-09",
-        "jobs": 0,
-        "community": 1
-      },
-      {
-        "month": "2025-10",
-        "jobs": 0,
-        "community": 4
-      },
-      {
-        "month": "2025-11",
-        "jobs": 0,
-        "community": 0
-      },
-      {
-        "month": "2025-12",
-        "jobs": 0,
-        "community": 1
-      },
-      {
-        "month": "2026-01",
-        "jobs": 0,
-        "community": 2
-      },
-      {
-        "month": "2026-02",
-        "jobs": 0,
-        "community": 5
-      },
-      {
-        "month": "2026-03",
-        "jobs": 0,
-        "community": 2
-      },
-      {
-        "month": "2026-04",
-        "jobs": 0,
-        "community": 1
-      },
-      {
-        "month": "2026-05",
-        "jobs": 0,
-        "community": 4
-      },
-      {
-        "month": "2026-06",
-        "jobs": 0,
-        "community": 1
-      },
-      {
-        "month": "2026-07",
-        "jobs": 0,
+        "jobs": 20,
         "community": 13
-      },
-      {
-        "month": "2026-08",
-        "jobs": 3,
-        "community": 1
-      },
-      {
-        "month": "2026-09",
-        "jobs": 13,
-        "community": 4
       }
     ]
   },
   {
     "certificationId": "ceh",
     "metrics": {
-      "jobs": 10,
+      "jobs": 18,
       "requiredJobs": 0,
-      "preferredJobs": 8,
-      "mentionedJobs": 2,
-      "communityPosts": 58,
-      "communityMentions": 128,
+      "preferredJobs": 13,
+      "mentionedJobs": 5,
+      "communityPosts": 63,
+      "communityMentions": 143,
       "communityComments": 70,
       "communityAuthors": 0,
       "courses": 6,
       "estimatedHolders": null,
-      "growth12m": 225
+      "growth12m": 550
     },
     "scores": {
-      "jobDemand": 58,
-      "community": 50,
+      "jobDemand": 66,
+      "community": 57,
       "holders": null,
       "growth": 100,
-      "overall": 62.8
+      "overall": 69.1
     },
     "trend": [
       {
@@ -1429,237 +1224,32 @@
       },
       {
         "month": "2026-09",
-        "jobs": 7,
-        "community": 0
-      }
-    ]
-  },
-  {
-    "certificationId": "ccnp-enterprise",
-    "metrics": {
-      "jobs": 15,
-      "requiredJobs": 0,
-      "preferredJobs": 5,
-      "mentionedJobs": 10,
-      "communityPosts": 45,
-      "communityMentions": 103,
-      "communityComments": 30,
-      "communityAuthors": 0,
-      "courses": 14,
-      "estimatedHolders": null,
-      "growth12m": 400
-    },
-    "scores": {
-      "jobDemand": 57,
-      "community": 50,
-      "holders": null,
-      "growth": 100,
-      "overall": 62.4
-    },
-    "trend": [
-      {
-        "month": "2023-10",
-        "jobs": 0,
-        "community": 0
-      },
-      {
-        "month": "2023-11",
-        "jobs": 0,
-        "community": 0
-      },
-      {
-        "month": "2023-12",
-        "jobs": 0,
-        "community": 0
-      },
-      {
-        "month": "2024-01",
-        "jobs": 0,
-        "community": 0
-      },
-      {
-        "month": "2024-02",
-        "jobs": 0,
-        "community": 0
-      },
-      {
-        "month": "2024-03",
-        "jobs": 0,
-        "community": 0
-      },
-      {
-        "month": "2024-04",
-        "jobs": 0,
-        "community": 0
-      },
-      {
-        "month": "2024-05",
-        "jobs": 0,
-        "community": 1
-      },
-      {
-        "month": "2024-06",
-        "jobs": 0,
-        "community": 0
-      },
-      {
-        "month": "2024-07",
-        "jobs": 0,
-        "community": 0
-      },
-      {
-        "month": "2024-08",
-        "jobs": 0,
-        "community": 0
-      },
-      {
-        "month": "2024-09",
-        "jobs": 0,
-        "community": 0
-      },
-      {
-        "month": "2024-10",
-        "jobs": 0,
-        "community": 5
-      },
-      {
-        "month": "2024-11",
-        "jobs": 0,
-        "community": 0
-      },
-      {
-        "month": "2024-12",
-        "jobs": 0,
-        "community": 2
-      },
-      {
-        "month": "2025-01",
-        "jobs": 0,
-        "community": 0
-      },
-      {
-        "month": "2025-02",
-        "jobs": 0,
-        "community": 1
-      },
-      {
-        "month": "2025-03",
-        "jobs": 0,
-        "community": 0
-      },
-      {
-        "month": "2025-04",
-        "jobs": 0,
-        "community": 1
-      },
-      {
-        "month": "2025-05",
-        "jobs": 0,
-        "community": 6
-      },
-      {
-        "month": "2025-06",
-        "jobs": 0,
-        "community": 0
-      },
-      {
-        "month": "2025-07",
-        "jobs": 0,
-        "community": 2
-      },
-      {
-        "month": "2025-08",
-        "jobs": 0,
-        "community": 0
-      },
-      {
-        "month": "2025-09",
-        "jobs": 0,
-        "community": 0
-      },
-      {
-        "month": "2025-10",
-        "jobs": 0,
-        "community": 6
-      },
-      {
-        "month": "2025-11",
-        "jobs": 0,
-        "community": 2
-      },
-      {
-        "month": "2025-12",
-        "jobs": 0,
-        "community": 2
-      },
-      {
-        "month": "2026-01",
-        "jobs": 0,
-        "community": 0
-      },
-      {
-        "month": "2026-02",
-        "jobs": 0,
-        "community": 0
-      },
-      {
-        "month": "2026-03",
-        "jobs": 0,
-        "community": 0
-      },
-      {
-        "month": "2026-04",
-        "jobs": 0,
-        "community": 4
-      },
-      {
-        "month": "2026-05",
-        "jobs": 0,
-        "community": 6
-      },
-      {
-        "month": "2026-06",
-        "jobs": 0,
-        "community": 6
-      },
-      {
-        "month": "2026-07",
-        "jobs": 2,
-        "community": 13
-      },
-      {
-        "month": "2026-08",
-        "jobs": 2,
-        "community": 7
-      },
-      {
-        "month": "2026-09",
-        "jobs": 11,
-        "community": 9
+        "jobs": 15,
+        "community": 15
       }
     ]
   },
   {
     "certificationId": "aws-saa",
     "metrics": {
-      "jobs": 11,
+      "jobs": 20,
       "requiredJobs": 0,
-      "preferredJobs": 3,
-      "mentionedJobs": 8,
-      "communityPosts": 203,
-      "communityMentions": 322,
+      "preferredJobs": 6,
+      "mentionedJobs": 14,
+      "communityPosts": 210,
+      "communityMentions": 333,
       "communityComments": 152,
       "communityAuthors": 0,
       "courses": 11,
       "estimatedHolders": null,
-      "growth12m": 39.4
+      "growth12m": 71.4
     },
     "scores": {
-      "jobDemand": 47,
-      "community": 63,
+      "jobDemand": 58,
+      "community": 64,
       "holders": null,
-      "growth": 83,
-      "overall": 59.7
+      "growth": 100,
+      "overall": 68.1
     },
     "trend": [
       {
@@ -1804,8 +1394,8 @@
       },
       {
         "month": "2026-02",
-        "jobs": 0,
-        "community": 12
+        "jobs": 1,
+        "community": 15
       },
       {
         "month": "2026-03",
@@ -1839,32 +1429,442 @@
       },
       {
         "month": "2026-09",
-        "jobs": 10,
+        "jobs": 18,
+        "community": 12
+      }
+    ]
+  },
+  {
+    "certificationId": "gcp-ace",
+    "metrics": {
+      "jobs": 21,
+      "requiredJobs": 2,
+      "preferredJobs": 0,
+      "mentionedJobs": 19,
+      "communityPosts": 124,
+      "communityMentions": 204,
+      "communityComments": 50,
+      "communityAuthors": 0,
+      "courses": 6,
+      "estimatedHolders": null,
+      "growth12m": 387.5
+    },
+    "scores": {
+      "jobDemand": 55,
+      "community": 59,
+      "holders": null,
+      "growth": 100,
+      "overall": 65.3
+    },
+    "trend": [
+      {
+        "month": "2023-10",
+        "jobs": 0,
+        "community": 1
+      },
+      {
+        "month": "2023-11",
+        "jobs": 0,
+        "community": 2
+      },
+      {
+        "month": "2023-12",
+        "jobs": 0,
+        "community": 1
+      },
+      {
+        "month": "2024-01",
+        "jobs": 0,
         "community": 4
+      },
+      {
+        "month": "2024-02",
+        "jobs": 0,
+        "community": 9
+      },
+      {
+        "month": "2024-03",
+        "jobs": 0,
+        "community": 3
+      },
+      {
+        "month": "2024-04",
+        "jobs": 0,
+        "community": 3
+      },
+      {
+        "month": "2024-05",
+        "jobs": 0,
+        "community": 7
+      },
+      {
+        "month": "2024-06",
+        "jobs": 0,
+        "community": 4
+      },
+      {
+        "month": "2024-07",
+        "jobs": 0,
+        "community": 4
+      },
+      {
+        "month": "2024-08",
+        "jobs": 0,
+        "community": 2
+      },
+      {
+        "month": "2024-09",
+        "jobs": 0,
+        "community": 2
+      },
+      {
+        "month": "2024-10",
+        "jobs": 0,
+        "community": 5
+      },
+      {
+        "month": "2024-11",
+        "jobs": 0,
+        "community": 3
+      },
+      {
+        "month": "2024-12",
+        "jobs": 0,
+        "community": 2
+      },
+      {
+        "month": "2025-01",
+        "jobs": 0,
+        "community": 1
+      },
+      {
+        "month": "2025-02",
+        "jobs": 0,
+        "community": 0
+      },
+      {
+        "month": "2025-03",
+        "jobs": 0,
+        "community": 1
+      },
+      {
+        "month": "2025-04",
+        "jobs": 0,
+        "community": 2
+      },
+      {
+        "month": "2025-05",
+        "jobs": 0,
+        "community": 1
+      },
+      {
+        "month": "2025-06",
+        "jobs": 0,
+        "community": 8
+      },
+      {
+        "month": "2025-07",
+        "jobs": 0,
+        "community": 1
+      },
+      {
+        "month": "2025-08",
+        "jobs": 0,
+        "community": 5
+      },
+      {
+        "month": "2025-09",
+        "jobs": 0,
+        "community": 1
+      },
+      {
+        "month": "2025-10",
+        "jobs": 0,
+        "community": 4
+      },
+      {
+        "month": "2025-11",
+        "jobs": 0,
+        "community": 0
+      },
+      {
+        "month": "2025-12",
+        "jobs": 0,
+        "community": 1
+      },
+      {
+        "month": "2026-01",
+        "jobs": 0,
+        "community": 2
+      },
+      {
+        "month": "2026-02",
+        "jobs": 0,
+        "community": 5
+      },
+      {
+        "month": "2026-03",
+        "jobs": 0,
+        "community": 2
+      },
+      {
+        "month": "2026-04",
+        "jobs": 0,
+        "community": 1
+      },
+      {
+        "month": "2026-05",
+        "jobs": 0,
+        "community": 4
+      },
+      {
+        "month": "2026-06",
+        "jobs": 0,
+        "community": 1
+      },
+      {
+        "month": "2026-07",
+        "jobs": 0,
+        "community": 17
+      },
+      {
+        "month": "2026-08",
+        "jobs": 3,
+        "community": 1
+      },
+      {
+        "month": "2026-09",
+        "jobs": 18,
+        "community": 8
+      }
+    ]
+  },
+  {
+    "certificationId": "ccnp-enterprise",
+    "metrics": {
+      "jobs": 17,
+      "requiredJobs": 0,
+      "preferredJobs": 7,
+      "mentionedJobs": 10,
+      "communityPosts": 47,
+      "communityMentions": 105,
+      "communityComments": 29,
+      "communityAuthors": 0,
+      "courses": 15,
+      "estimatedHolders": null,
+      "growth12m": 466.7
+    },
+    "scores": {
+      "jobDemand": 57,
+      "community": 50,
+      "holders": null,
+      "growth": 100,
+      "overall": 62.5
+    },
+    "trend": [
+      {
+        "month": "2023-10",
+        "jobs": 0,
+        "community": 0
+      },
+      {
+        "month": "2023-11",
+        "jobs": 0,
+        "community": 0
+      },
+      {
+        "month": "2023-12",
+        "jobs": 0,
+        "community": 0
+      },
+      {
+        "month": "2024-01",
+        "jobs": 0,
+        "community": 0
+      },
+      {
+        "month": "2024-02",
+        "jobs": 0,
+        "community": 0
+      },
+      {
+        "month": "2024-03",
+        "jobs": 0,
+        "community": 0
+      },
+      {
+        "month": "2024-04",
+        "jobs": 0,
+        "community": 0
+      },
+      {
+        "month": "2024-05",
+        "jobs": 0,
+        "community": 1
+      },
+      {
+        "month": "2024-06",
+        "jobs": 0,
+        "community": 0
+      },
+      {
+        "month": "2024-07",
+        "jobs": 0,
+        "community": 0
+      },
+      {
+        "month": "2024-08",
+        "jobs": 0,
+        "community": 0
+      },
+      {
+        "month": "2024-09",
+        "jobs": 0,
+        "community": 0
+      },
+      {
+        "month": "2024-10",
+        "jobs": 0,
+        "community": 5
+      },
+      {
+        "month": "2024-11",
+        "jobs": 0,
+        "community": 0
+      },
+      {
+        "month": "2024-12",
+        "jobs": 0,
+        "community": 2
+      },
+      {
+        "month": "2025-01",
+        "jobs": 0,
+        "community": 0
+      },
+      {
+        "month": "2025-02",
+        "jobs": 0,
+        "community": 1
+      },
+      {
+        "month": "2025-03",
+        "jobs": 0,
+        "community": 0
+      },
+      {
+        "month": "2025-04",
+        "jobs": 0,
+        "community": 1
+      },
+      {
+        "month": "2025-05",
+        "jobs": 0,
+        "community": 6
+      },
+      {
+        "month": "2025-06",
+        "jobs": 0,
+        "community": 0
+      },
+      {
+        "month": "2025-07",
+        "jobs": 0,
+        "community": 2
+      },
+      {
+        "month": "2025-08",
+        "jobs": 0,
+        "community": 0
+      },
+      {
+        "month": "2025-09",
+        "jobs": 0,
+        "community": 0
+      },
+      {
+        "month": "2025-10",
+        "jobs": 0,
+        "community": 6
+      },
+      {
+        "month": "2025-11",
+        "jobs": 0,
+        "community": 2
+      },
+      {
+        "month": "2025-12",
+        "jobs": 0,
+        "community": 2
+      },
+      {
+        "month": "2026-01",
+        "jobs": 0,
+        "community": 0
+      },
+      {
+        "month": "2026-02",
+        "jobs": 0,
+        "community": 0
+      },
+      {
+        "month": "2026-03",
+        "jobs": 0,
+        "community": 0
+      },
+      {
+        "month": "2026-04",
+        "jobs": 0,
+        "community": 4
+      },
+      {
+        "month": "2026-05",
+        "jobs": 0,
+        "community": 6
+      },
+      {
+        "month": "2026-06",
+        "jobs": 0,
+        "community": 6
+      },
+      {
+        "month": "2026-07",
+        "jobs": 2,
+        "community": 13
+      },
+      {
+        "month": "2026-08",
+        "jobs": 2,
+        "community": 7
+      },
+      {
+        "month": "2026-09",
+        "jobs": 13,
+        "community": 11
       }
     ]
   },
   {
     "certificationId": "ckad",
     "metrics": {
-      "jobs": 7,
+      "jobs": 9,
       "requiredJobs": 0,
       "preferredJobs": 2,
-      "mentionedJobs": 5,
-      "communityPosts": 79,
-      "communityMentions": 195,
-      "communityComments": 243,
+      "mentionedJobs": 7,
+      "communityPosts": 82,
+      "communityMentions": 203,
+      "communityComments": 252,
       "communityAuthors": 0,
       "courses": 5,
       "estimatedHolders": null,
-      "growth12m": 75
+      "growth12m": 100
     },
     "scores": {
       "jobDemand": 37,
-      "community": 58,
+      "community": 62,
       "holders": null,
       "growth": 100,
-      "overall": 56.8
+      "overall": 58
     },
     "trend": [
       {
@@ -2009,7 +2009,7 @@
       },
       {
         "month": "2026-02",
-        "jobs": 0,
+        "jobs": 1,
         "community": 2
       },
       {
@@ -2035,41 +2035,41 @@
       {
         "month": "2026-07",
         "jobs": 0,
-        "community": 0
+        "community": 2
       },
       {
         "month": "2026-08",
         "jobs": 1,
-        "community": 2
+        "community": 6
       },
       {
         "month": "2026-09",
-        "jobs": 6,
-        "community": 7
+        "jobs": 7,
+        "community": 9
       }
     ]
   },
   {
     "certificationId": "az-104",
     "metrics": {
-      "jobs": 5,
+      "jobs": 8,
       "requiredJobs": 0,
       "preferredJobs": 2,
-      "mentionedJobs": 3,
-      "communityPosts": 74,
-      "communityMentions": 171,
+      "mentionedJobs": 6,
+      "communityPosts": 80,
+      "communityMentions": 189,
       "communityComments": 34,
       "communityAuthors": 0,
       "courses": 6,
       "estimatedHolders": null,
-      "growth12m": 300
+      "growth12m": 480
     },
     "scores": {
-      "jobDemand": 33,
+      "jobDemand": 35,
       "community": 56,
       "holders": null,
       "growth": 100,
-      "overall": 54
+      "overall": 55.2
     },
     "trend": [
       {
@@ -2235,12 +2235,12 @@
       {
         "month": "2026-06",
         "jobs": 0,
-        "community": 0
+        "community": 4
       },
       {
         "month": "2026-07",
         "jobs": 1,
-        "community": 10
+        "community": 13
       },
       {
         "month": "2026-08",
@@ -2249,8 +2249,213 @@
       },
       {
         "month": "2026-09",
+        "jobs": 6,
+        "community": 21
+      }
+    ]
+  },
+  {
+    "certificationId": "aws-dop",
+    "metrics": {
+      "jobs": 11,
+      "requiredJobs": 0,
+      "preferredJobs": 5,
+      "mentionedJobs": 6,
+      "communityPosts": 52,
+      "communityMentions": 76,
+      "communityComments": 8,
+      "communityAuthors": 0,
+      "courses": 2,
+      "estimatedHolders": null,
+      "growth12m": 114.3
+    },
+    "scores": {
+      "jobDemand": 48,
+      "community": 37,
+      "holders": null,
+      "growth": 100,
+      "overall": 53.6
+    },
+    "trend": [
+      {
+        "month": "2023-10",
+        "jobs": 0,
+        "community": 0
+      },
+      {
+        "month": "2023-11",
+        "jobs": 0,
+        "community": 0
+      },
+      {
+        "month": "2023-12",
+        "jobs": 0,
+        "community": 0
+      },
+      {
+        "month": "2024-01",
+        "jobs": 0,
+        "community": 0
+      },
+      {
+        "month": "2024-02",
+        "jobs": 0,
+        "community": 0
+      },
+      {
+        "month": "2024-03",
+        "jobs": 0,
+        "community": 6
+      },
+      {
+        "month": "2024-04",
+        "jobs": 0,
+        "community": 5
+      },
+      {
+        "month": "2024-05",
+        "jobs": 0,
+        "community": 1
+      },
+      {
+        "month": "2024-06",
+        "jobs": 0,
+        "community": 1
+      },
+      {
+        "month": "2024-07",
+        "jobs": 0,
+        "community": 0
+      },
+      {
+        "month": "2024-08",
+        "jobs": 0,
+        "community": 0
+      },
+      {
+        "month": "2024-09",
+        "jobs": 0,
+        "community": 6
+      },
+      {
+        "month": "2024-10",
+        "jobs": 0,
+        "community": 1
+      },
+      {
+        "month": "2024-11",
+        "jobs": 0,
+        "community": 0
+      },
+      {
+        "month": "2024-12",
+        "jobs": 0,
+        "community": 1
+      },
+      {
+        "month": "2025-01",
+        "jobs": 0,
+        "community": 2
+      },
+      {
+        "month": "2025-02",
+        "jobs": 0,
+        "community": 0
+      },
+      {
+        "month": "2025-03",
+        "jobs": 0,
+        "community": 0
+      },
+      {
+        "month": "2025-04",
+        "jobs": 0,
+        "community": 1
+      },
+      {
+        "month": "2025-05",
+        "jobs": 0,
+        "community": 1
+      },
+      {
+        "month": "2025-06",
+        "jobs": 0,
+        "community": 0
+      },
+      {
+        "month": "2025-07",
+        "jobs": 0,
+        "community": 0
+      },
+      {
+        "month": "2025-08",
+        "jobs": 0,
+        "community": 0
+      },
+      {
+        "month": "2025-09",
+        "jobs": 0,
+        "community": 1
+      },
+      {
+        "month": "2025-10",
+        "jobs": 0,
+        "community": 1
+      },
+      {
+        "month": "2025-11",
+        "jobs": 0,
+        "community": 1
+      },
+      {
+        "month": "2025-12",
+        "jobs": 0,
+        "community": 2
+      },
+      {
+        "month": "2026-01",
+        "jobs": 0,
+        "community": 2
+      },
+      {
+        "month": "2026-02",
+        "jobs": 0,
+        "community": 2
+      },
+      {
+        "month": "2026-03",
+        "jobs": 0,
+        "community": 1
+      },
+      {
+        "month": "2026-04",
+        "jobs": 0,
+        "community": 0
+      },
+      {
+        "month": "2026-05",
+        "jobs": 0,
+        "community": 1
+      },
+      {
+        "month": "2026-06",
+        "jobs": 0,
+        "community": 0
+      },
+      {
+        "month": "2026-07",
+        "jobs": 0,
+        "community": 3
+      },
+      {
+        "month": "2026-08",
         "jobs": 3,
-        "community": 10
+        "community": 0
+      },
+      {
+        "month": "2026-09",
+        "jobs": 8,
+        "community": 3
       }
     ]
   },
@@ -2261,20 +2466,20 @@
       "requiredJobs": 1,
       "preferredJobs": 0,
       "mentionedJobs": 3,
-      "communityPosts": 29,
-      "communityMentions": 52,
+      "communityPosts": 32,
+      "communityMentions": 59,
       "communityComments": 59,
       "communityAuthors": 0,
       "courses": 2,
       "estimatedHolders": null,
-      "growth12m": 250
+      "growth12m": 200
     },
     "scores": {
-      "jobDemand": 30,
-      "community": 48,
+      "jobDemand": 28,
+      "community": 50,
       "holders": null,
       "growth": 100,
-      "overall": 50.2
+      "overall": 49.4
     },
     "trend": [
       {
@@ -2415,7 +2620,7 @@
       {
         "month": "2026-01",
         "jobs": 0,
-        "community": 1
+        "community": 2
       },
       {
         "month": "2026-02",
@@ -2435,7 +2640,7 @@
       {
         "month": "2026-05",
         "jobs": 0,
-        "community": 3
+        "community": 5
       },
       {
         "month": "2026-06",
@@ -2445,7 +2650,7 @@
       {
         "month": "2026-07",
         "jobs": 0,
-        "community": 0
+        "community": 4
       },
       {
         "month": "2026-08",
@@ -2460,37 +2665,37 @@
     ]
   },
   {
-    "certificationId": "aws-dop",
+    "certificationId": "terraform-associate",
     "metrics": {
-      "jobs": 5,
+      "jobs": 3,
       "requiredJobs": 0,
-      "preferredJobs": 4,
-      "mentionedJobs": 1,
-      "communityPosts": 50,
-      "communityMentions": 72,
-      "communityComments": 8,
+      "preferredJobs": 1,
+      "mentionedJobs": 2,
+      "communityPosts": 65,
+      "communityMentions": 134,
+      "communityComments": 109,
       "communityAuthors": 0,
-      "courses": 2,
+      "courses": 5,
       "estimatedHolders": null,
-      "growth12m": 14.3
+      "growth12m": 100
     },
     "scores": {
-      "jobDemand": 41,
-      "community": 36,
+      "jobDemand": 20,
+      "community": 57,
       "holders": null,
-      "growth": 62,
-      "overall": 43
+      "growth": 100,
+      "overall": 48.9
     },
     "trend": [
       {
         "month": "2023-10",
         "jobs": 0,
-        "community": 0
+        "community": 12
       },
       {
         "month": "2023-11",
         "jobs": 0,
-        "community": 0
+        "community": 1
       },
       {
         "month": "2023-12",
@@ -2500,27 +2705,27 @@
       {
         "month": "2024-01",
         "jobs": 0,
-        "community": 0
+        "community": 4
       },
       {
         "month": "2024-02",
         "jobs": 0,
-        "community": 0
+        "community": 1
       },
       {
         "month": "2024-03",
         "jobs": 0,
-        "community": 6
+        "community": 12
       },
       {
         "month": "2024-04",
         "jobs": 0,
-        "community": 5
+        "community": 3
       },
       {
         "month": "2024-05",
         "jobs": 0,
-        "community": 1
+        "community": 2
       },
       {
         "month": "2024-06",
@@ -2530,27 +2735,27 @@
       {
         "month": "2024-07",
         "jobs": 0,
-        "community": 0
+        "community": 3
       },
       {
         "month": "2024-08",
         "jobs": 0,
-        "community": 0
+        "community": 4
       },
       {
         "month": "2024-09",
         "jobs": 0,
-        "community": 6
+        "community": 2
       },
       {
         "month": "2024-10",
         "jobs": 0,
-        "community": 1
+        "community": 6
       },
       {
         "month": "2024-11",
         "jobs": 0,
-        "community": 0
+        "community": 3
       },
       {
         "month": "2024-12",
@@ -2560,12 +2765,12 @@
       {
         "month": "2025-01",
         "jobs": 0,
-        "community": 2
+        "community": 1
       },
       {
         "month": "2025-02",
         "jobs": 0,
-        "community": 0
+        "community": 3
       },
       {
         "month": "2025-03",
@@ -2575,12 +2780,12 @@
       {
         "month": "2025-04",
         "jobs": 0,
-        "community": 1
+        "community": 3
       },
       {
         "month": "2025-05",
         "jobs": 0,
-        "community": 1
+        "community": 7
       },
       {
         "month": "2025-06",
@@ -2605,17 +2810,17 @@
       {
         "month": "2025-10",
         "jobs": 0,
-        "community": 1
+        "community": 2
       },
       {
         "month": "2025-11",
         "jobs": 0,
-        "community": 1
+        "community": 0
       },
       {
         "month": "2025-12",
         "jobs": 0,
-        "community": 2
+        "community": 1
       },
       {
         "month": "2026-01",
@@ -2625,22 +2830,22 @@
       {
         "month": "2026-02",
         "jobs": 0,
-        "community": 2
+        "community": 0
       },
       {
         "month": "2026-03",
         "jobs": 0,
-        "community": 1
+        "community": 2
       },
       {
         "month": "2026-04",
         "jobs": 0,
-        "community": 0
+        "community": 5
       },
       {
         "month": "2026-05",
         "jobs": 0,
-        "community": 1
+        "community": 0
       },
       {
         "month": "2026-06",
@@ -2650,41 +2855,41 @@
       {
         "month": "2026-07",
         "jobs": 0,
-        "community": 3
+        "community": 9
       },
       {
         "month": "2026-08",
-        "jobs": 3,
+        "jobs": 1,
         "community": 0
       },
       {
         "month": "2026-09",
         "jobs": 2,
-        "community": 0
+        "community": 1
       }
     ]
   },
   {
     "certificationId": "dp-203",
     "metrics": {
-      "jobs": 1,
+      "jobs": 2,
       "requiredJobs": 0,
       "preferredJobs": 0,
-      "mentionedJobs": 1,
-      "communityPosts": 71,
-      "communityMentions": 104,
+      "mentionedJobs": 2,
+      "communityPosts": 82,
+      "communityMentions": 127,
       "communityComments": 21,
       "communityAuthors": 0,
       "courses": 2,
       "estimatedHolders": null,
-      "growth12m": 300
+      "growth12m": 800
     },
     "scores": {
-      "jobDemand": 6,
-      "community": 51,
+      "jobDemand": 10,
+      "community": 52,
       "holders": null,
       "growth": 100,
-      "overall": 40.6
+      "overall": 42.5
     },
     "trend": [
       {
@@ -2795,12 +3000,12 @@
       {
         "month": "2025-07",
         "jobs": 0,
-        "community": 0
+        "community": 10
       },
       {
         "month": "2025-08",
         "jobs": 0,
-        "community": 0
+        "community": 4
       },
       {
         "month": "2025-09",
@@ -2845,12 +3050,12 @@
       {
         "month": "2026-05",
         "jobs": 0,
-        "community": 0
+        "community": 4
       },
       {
         "month": "2026-06",
         "jobs": 0,
-        "community": 0
+        "community": 1
       },
       {
         "month": "2026-07",
@@ -2864,8 +3069,8 @@
       },
       {
         "month": "2026-09",
-        "jobs": 1,
-        "community": 0
+        "jobs": 2,
+        "community": 4
       }
     ]
   },
@@ -2876,20 +3081,20 @@
       "requiredJobs": 0,
       "preferredJobs": 0,
       "mentionedJobs": 0,
-      "communityPosts": 122,
-      "communityMentions": 246,
-      "communityComments": 140,
+      "communityPosts": 123,
+      "communityMentions": 247,
+      "communityComments": 136,
       "communityAuthors": 0,
       "courses": 10,
       "estimatedHolders": null,
-      "growth12m": 30.8
+      "growth12m": 38.5
     },
     "scores": {
       "jobDemand": 0,
-      "community": 61,
+      "community": 62,
       "holders": null,
-      "growth": 76,
-      "overall": 37.2
+      "growth": 82,
+      "overall": 38.5
     },
     "trend": [
       {
@@ -3070,212 +3275,7 @@
       {
         "month": "2026-09",
         "jobs": 0,
-        "community": 2
-      }
-    ]
-  },
-  {
-    "certificationId": "terraform-associate",
-    "metrics": {
-      "jobs": 1,
-      "requiredJobs": 0,
-      "preferredJobs": 1,
-      "mentionedJobs": 0,
-      "communityPosts": 56,
-      "communityMentions": 113,
-      "communityComments": 109,
-      "communityAuthors": 0,
-      "courses": 5,
-      "estimatedHolders": null,
-      "growth12m": -20
-    },
-    "scores": {
-      "jobDemand": 15,
-      "community": 50,
-      "holders": null,
-      "growth": 33,
-      "overall": 31.4
-    },
-    "trend": [
-      {
-        "month": "2023-10",
-        "jobs": 0,
-        "community": 12
-      },
-      {
-        "month": "2023-11",
-        "jobs": 0,
-        "community": 1
-      },
-      {
-        "month": "2023-12",
-        "jobs": 0,
-        "community": 0
-      },
-      {
-        "month": "2024-01",
-        "jobs": 0,
-        "community": 4
-      },
-      {
-        "month": "2024-02",
-        "jobs": 0,
-        "community": 1
-      },
-      {
-        "month": "2024-03",
-        "jobs": 0,
-        "community": 12
-      },
-      {
-        "month": "2024-04",
-        "jobs": 0,
         "community": 3
-      },
-      {
-        "month": "2024-05",
-        "jobs": 0,
-        "community": 2
-      },
-      {
-        "month": "2024-06",
-        "jobs": 0,
-        "community": 1
-      },
-      {
-        "month": "2024-07",
-        "jobs": 0,
-        "community": 3
-      },
-      {
-        "month": "2024-08",
-        "jobs": 0,
-        "community": 4
-      },
-      {
-        "month": "2024-09",
-        "jobs": 0,
-        "community": 2
-      },
-      {
-        "month": "2024-10",
-        "jobs": 0,
-        "community": 6
-      },
-      {
-        "month": "2024-11",
-        "jobs": 0,
-        "community": 3
-      },
-      {
-        "month": "2024-12",
-        "jobs": 0,
-        "community": 1
-      },
-      {
-        "month": "2025-01",
-        "jobs": 0,
-        "community": 1
-      },
-      {
-        "month": "2025-02",
-        "jobs": 0,
-        "community": 0
-      },
-      {
-        "month": "2025-03",
-        "jobs": 0,
-        "community": 0
-      },
-      {
-        "month": "2025-04",
-        "jobs": 0,
-        "community": 0
-      },
-      {
-        "month": "2025-05",
-        "jobs": 0,
-        "community": 0
-      },
-      {
-        "month": "2025-06",
-        "jobs": 0,
-        "community": 0
-      },
-      {
-        "month": "2025-07",
-        "jobs": 0,
-        "community": 0
-      },
-      {
-        "month": "2025-08",
-        "jobs": 0,
-        "community": 0
-      },
-      {
-        "month": "2025-09",
-        "jobs": 0,
-        "community": 1
-      },
-      {
-        "month": "2025-10",
-        "jobs": 0,
-        "community": 2
-      },
-      {
-        "month": "2025-11",
-        "jobs": 0,
-        "community": 0
-      },
-      {
-        "month": "2025-12",
-        "jobs": 0,
-        "community": 1
-      },
-      {
-        "month": "2026-01",
-        "jobs": 0,
-        "community": 2
-      },
-      {
-        "month": "2026-02",
-        "jobs": 0,
-        "community": 0
-      },
-      {
-        "month": "2026-03",
-        "jobs": 0,
-        "community": 2
-      },
-      {
-        "month": "2026-04",
-        "jobs": 0,
-        "community": 2
-      },
-      {
-        "month": "2026-05",
-        "jobs": 0,
-        "community": 0
-      },
-      {
-        "month": "2026-06",
-        "jobs": 0,
-        "community": 0
-      },
-      {
-        "month": "2026-07",
-        "jobs": 0,
-        "community": 5
-      },
-      {
-        "month": "2026-08",
-        "jobs": 1,
-        "community": 0
-      },
-      {
-        "month": "2026-09",
-        "jobs": 0,
-        "community": 0
       }
     ]
   },
@@ -3286,8 +3286,8 @@
       "requiredJobs": 0,
       "preferredJobs": 1,
       "mentionedJobs": 0,
-      "communityPosts": 48,
-      "communityMentions": 115,
+      "communityPosts": 50,
+      "communityMentions": 119,
       "communityComments": 51,
       "communityAuthors": 0,
       "courses": 4,
@@ -3295,11 +3295,11 @@
       "growth12m": null
     },
     "scores": {
-      "jobDemand": 15,
+      "jobDemand": 14,
       "community": 50,
       "holders": null,
       "growth": null,
-      "overall": 30.9
+      "overall": 30.2
     },
     "trend": [
       {
@@ -3475,67 +3475,67 @@
       {
         "month": "2026-08",
         "jobs": 0,
-        "community": 2
+        "community": 5
       },
       {
         "month": "2026-09",
         "jobs": 1,
-        "community": 0
+        "community": 1
       }
     ]
   },
   {
-    "certificationId": "ocp-java-17",
+    "certificationId": "istqb-ctfl",
     "metrics": {
-      "jobs": 1,
-      "requiredJobs": 0,
-      "preferredJobs": 0,
-      "mentionedJobs": 1,
-      "communityPosts": 62,
-      "communityMentions": 86,
-      "communityComments": 26,
+      "jobs": 9,
+      "requiredJobs": 1,
+      "preferredJobs": 3,
+      "mentionedJobs": 5,
+      "communityPosts": 3,
+      "communityMentions": 5,
+      "communityComments": 0,
       "communityAuthors": 0,
-      "courses": 1,
+      "courses": 3,
       "estimatedHolders": null,
-      "growth12m": -55.6
+      "growth12m": null
     },
     "scores": {
-      "jobDemand": 6,
-      "community": 41,
+      "jobDemand": 45,
+      "community": 9,
       "holders": null,
-      "growth": 4,
-      "overall": 18.7
+      "growth": null,
+      "overall": 28.4
     },
     "trend": [
       {
         "month": "2023-10",
         "jobs": 0,
-        "community": 2
+        "community": 0
       },
       {
         "month": "2023-11",
         "jobs": 0,
-        "community": 1
+        "community": 0
       },
       {
         "month": "2023-12",
         "jobs": 0,
-        "community": 3
+        "community": 0
       },
       {
         "month": "2024-01",
         "jobs": 0,
-        "community": 5
+        "community": 0
       },
       {
         "month": "2024-02",
         "jobs": 0,
-        "community": 2
+        "community": 0
       },
       {
         "month": "2024-03",
         "jobs": 0,
-        "community": 3
+        "community": 0
       },
       {
         "month": "2024-04",
@@ -3545,32 +3545,32 @@
       {
         "month": "2024-05",
         "jobs": 0,
-        "community": 3
+        "community": 0
       },
       {
         "month": "2024-06",
         "jobs": 0,
-        "community": 1
+        "community": 0
       },
       {
         "month": "2024-07",
         "jobs": 0,
-        "community": 4
+        "community": 0
       },
       {
         "month": "2024-08",
         "jobs": 0,
-        "community": 3
+        "community": 0
       },
       {
         "month": "2024-09",
         "jobs": 0,
-        "community": 1
+        "community": 0
       },
       {
         "month": "2024-10",
         "jobs": 0,
-        "community": 1
+        "community": 0
       },
       {
         "month": "2024-11",
@@ -3590,7 +3590,7 @@
       {
         "month": "2025-02",
         "jobs": 0,
-        "community": 2
+        "community": 0
       },
       {
         "month": "2025-03",
@@ -3605,12 +3605,12 @@
       {
         "month": "2025-05",
         "jobs": 0,
-        "community": 1
+        "community": 0
       },
       {
         "month": "2025-06",
         "jobs": 0,
-        "community": 4
+        "community": 0
       },
       {
         "month": "2025-07",
@@ -3620,22 +3620,227 @@
       {
         "month": "2025-08",
         "jobs": 0,
-        "community": 3
+        "community": 0
       },
       {
         "month": "2025-09",
         "jobs": 0,
-        "community": 1
+        "community": 0
       },
       {
         "month": "2025-10",
         "jobs": 0,
-        "community": 1
+        "community": 0
       },
       {
         "month": "2025-11",
         "jobs": 0,
-        "community": 2
+        "community": 0
+      },
+      {
+        "month": "2025-12",
+        "jobs": 0,
+        "community": 0
+      },
+      {
+        "month": "2026-01",
+        "jobs": 0,
+        "community": 0
+      },
+      {
+        "month": "2026-02",
+        "jobs": 0,
+        "community": 0
+      },
+      {
+        "month": "2026-03",
+        "jobs": 0,
+        "community": 0
+      },
+      {
+        "month": "2026-04",
+        "jobs": 0,
+        "community": 0
+      },
+      {
+        "month": "2026-05",
+        "jobs": 0,
+        "community": 0
+      },
+      {
+        "month": "2026-06",
+        "jobs": 0,
+        "community": 1
+      },
+      {
+        "month": "2026-07",
+        "jobs": 0,
+        "community": 4
+      },
+      {
+        "month": "2026-08",
+        "jobs": 2,
+        "community": 0
+      },
+      {
+        "month": "2026-09",
+        "jobs": 7,
+        "community": 0
+      }
+    ]
+  },
+  {
+    "certificationId": "gcp-pcdoe",
+    "metrics": {
+      "jobs": 3,
+      "requiredJobs": 0,
+      "preferredJobs": 0,
+      "mentionedJobs": 3,
+      "communityPosts": 1,
+      "communityMentions": 1,
+      "communityComments": 0,
+      "communityAuthors": 0,
+      "courses": 1,
+      "estimatedHolders": null,
+      "growth12m": 200
+    },
+    "scores": {
+      "jobDemand": 14,
+      "community": 4,
+      "holders": null,
+      "growth": 100,
+      "overall": 26.2
+    },
+    "trend": [
+      {
+        "month": "2023-10",
+        "jobs": 0,
+        "community": 0
+      },
+      {
+        "month": "2023-11",
+        "jobs": 0,
+        "community": 0
+      },
+      {
+        "month": "2023-12",
+        "jobs": 0,
+        "community": 0
+      },
+      {
+        "month": "2024-01",
+        "jobs": 0,
+        "community": 0
+      },
+      {
+        "month": "2024-02",
+        "jobs": 0,
+        "community": 0
+      },
+      {
+        "month": "2024-03",
+        "jobs": 0,
+        "community": 0
+      },
+      {
+        "month": "2024-04",
+        "jobs": 0,
+        "community": 0
+      },
+      {
+        "month": "2024-05",
+        "jobs": 0,
+        "community": 0
+      },
+      {
+        "month": "2024-06",
+        "jobs": 0,
+        "community": 0
+      },
+      {
+        "month": "2024-07",
+        "jobs": 0,
+        "community": 0
+      },
+      {
+        "month": "2024-08",
+        "jobs": 0,
+        "community": 0
+      },
+      {
+        "month": "2024-09",
+        "jobs": 0,
+        "community": 0
+      },
+      {
+        "month": "2024-10",
+        "jobs": 0,
+        "community": 0
+      },
+      {
+        "month": "2024-11",
+        "jobs": 0,
+        "community": 0
+      },
+      {
+        "month": "2024-12",
+        "jobs": 0,
+        "community": 0
+      },
+      {
+        "month": "2025-01",
+        "jobs": 0,
+        "community": 0
+      },
+      {
+        "month": "2025-02",
+        "jobs": 0,
+        "community": 0
+      },
+      {
+        "month": "2025-03",
+        "jobs": 0,
+        "community": 0
+      },
+      {
+        "month": "2025-04",
+        "jobs": 0,
+        "community": 0
+      },
+      {
+        "month": "2025-05",
+        "jobs": 0,
+        "community": 0
+      },
+      {
+        "month": "2025-06",
+        "jobs": 0,
+        "community": 0
+      },
+      {
+        "month": "2025-07",
+        "jobs": 0,
+        "community": 0
+      },
+      {
+        "month": "2025-08",
+        "jobs": 0,
+        "community": 0
+      },
+      {
+        "month": "2025-09",
+        "jobs": 0,
+        "community": 0
+      },
+      {
+        "month": "2025-10",
+        "jobs": 0,
+        "community": 0
+      },
+      {
+        "month": "2025-11",
+        "jobs": 0,
+        "community": 0
       },
       {
         "month": "2025-12",
@@ -3645,22 +3850,22 @@
       {
         "month": "2026-01",
         "jobs": 0,
-        "community": 2
+        "community": 0
       },
       {
         "month": "2026-02",
         "jobs": 0,
-        "community": 4
+        "community": 0
       },
       {
         "month": "2026-03",
         "jobs": 0,
-        "community": 2
+        "community": 0
       },
       {
         "month": "2026-04",
         "jobs": 0,
-        "community": 1
+        "community": 0
       },
       {
         "month": "2026-05",
@@ -3684,32 +3889,32 @@
       },
       {
         "month": "2026-09",
-        "jobs": 1,
-        "community": 5
+        "jobs": 3,
+        "community": 0
       }
     ]
   },
   {
     "certificationId": "ai-102",
     "metrics": {
-      "jobs": 0,
+      "jobs": 2,
       "requiredJobs": 0,
       "preferredJobs": 0,
-      "mentionedJobs": 0,
+      "mentionedJobs": 2,
       "communityPosts": 52,
       "communityMentions": 114,
       "communityComments": 30,
       "communityAuthors": 0,
       "courses": 2,
       "estimatedHolders": null,
-      "growth12m": -64.3
+      "growth12m": -50
     },
     "scores": {
-      "jobDemand": 0,
+      "jobDemand": 10,
       "community": 42,
       "holders": null,
-      "growth": 0,
-      "overall": 15.7
+      "growth": 8,
+      "overall": 21.4
     },
     "trend": [
       {
@@ -3889,7 +4094,1647 @@
       },
       {
         "month": "2026-09",
+        "jobs": 2,
+        "community": 0
+      }
+    ]
+  },
+  {
+    "certificationId": "rhce",
+    "metrics": {
+      "jobs": 9,
+      "requiredJobs": 0,
+      "preferredJobs": 0,
+      "mentionedJobs": 9,
+      "communityPosts": 1,
+      "communityMentions": 1,
+      "communityComments": 0,
+      "communityAuthors": 0,
+      "courses": 1,
+      "estimatedHolders": null,
+      "growth12m": null
+    },
+    "scores": {
+      "jobDemand": 30,
+      "community": 9,
+      "holders": null,
+      "growth": null,
+      "overall": 20.2
+    },
+    "trend": [
+      {
+        "month": "2023-10",
         "jobs": 0,
+        "community": 0
+      },
+      {
+        "month": "2023-11",
+        "jobs": 0,
+        "community": 0
+      },
+      {
+        "month": "2023-12",
+        "jobs": 0,
+        "community": 0
+      },
+      {
+        "month": "2024-01",
+        "jobs": 0,
+        "community": 0
+      },
+      {
+        "month": "2024-02",
+        "jobs": 0,
+        "community": 0
+      },
+      {
+        "month": "2024-03",
+        "jobs": 0,
+        "community": 0
+      },
+      {
+        "month": "2024-04",
+        "jobs": 0,
+        "community": 0
+      },
+      {
+        "month": "2024-05",
+        "jobs": 0,
+        "community": 1
+      },
+      {
+        "month": "2024-06",
+        "jobs": 0,
+        "community": 0
+      },
+      {
+        "month": "2024-07",
+        "jobs": 0,
+        "community": 0
+      },
+      {
+        "month": "2024-08",
+        "jobs": 0,
+        "community": 0
+      },
+      {
+        "month": "2024-09",
+        "jobs": 0,
+        "community": 0
+      },
+      {
+        "month": "2024-10",
+        "jobs": 0,
+        "community": 0
+      },
+      {
+        "month": "2024-11",
+        "jobs": 0,
+        "community": 0
+      },
+      {
+        "month": "2024-12",
+        "jobs": 0,
+        "community": 0
+      },
+      {
+        "month": "2025-01",
+        "jobs": 0,
+        "community": 0
+      },
+      {
+        "month": "2025-02",
+        "jobs": 0,
+        "community": 0
+      },
+      {
+        "month": "2025-03",
+        "jobs": 0,
+        "community": 0
+      },
+      {
+        "month": "2025-04",
+        "jobs": 0,
+        "community": 0
+      },
+      {
+        "month": "2025-05",
+        "jobs": 0,
+        "community": 0
+      },
+      {
+        "month": "2025-06",
+        "jobs": 0,
+        "community": 0
+      },
+      {
+        "month": "2025-07",
+        "jobs": 0,
+        "community": 0
+      },
+      {
+        "month": "2025-08",
+        "jobs": 0,
+        "community": 0
+      },
+      {
+        "month": "2025-09",
+        "jobs": 0,
+        "community": 0
+      },
+      {
+        "month": "2025-10",
+        "jobs": 0,
+        "community": 0
+      },
+      {
+        "month": "2025-11",
+        "jobs": 0,
+        "community": 0
+      },
+      {
+        "month": "2025-12",
+        "jobs": 0,
+        "community": 0
+      },
+      {
+        "month": "2026-01",
+        "jobs": 0,
+        "community": 0
+      },
+      {
+        "month": "2026-02",
+        "jobs": 0,
+        "community": 0
+      },
+      {
+        "month": "2026-03",
+        "jobs": 0,
+        "community": 0
+      },
+      {
+        "month": "2026-04",
+        "jobs": 0,
+        "community": 0
+      },
+      {
+        "month": "2026-05",
+        "jobs": 0,
+        "community": 0
+      },
+      {
+        "month": "2026-06",
+        "jobs": 0,
+        "community": 0
+      },
+      {
+        "month": "2026-07",
+        "jobs": 0,
+        "community": 0
+      },
+      {
+        "month": "2026-08",
+        "jobs": 1,
+        "community": 0
+      },
+      {
+        "month": "2026-09",
+        "jobs": 8,
+        "community": 0
+      }
+    ]
+  },
+  {
+    "certificationId": "iiba-cbap",
+    "metrics": {
+      "jobs": 5,
+      "requiredJobs": 0,
+      "preferredJobs": 4,
+      "mentionedJobs": 1,
+      "communityPosts": 0,
+      "communityMentions": 0,
+      "communityComments": 0,
+      "communityAuthors": 0,
+      "courses": 2,
+      "estimatedHolders": null,
+      "growth12m": null
+    },
+    "scores": {
+      "jobDemand": 37,
+      "community": 0,
+      "holders": null,
+      "growth": null,
+      "overall": 19.9
+    },
+    "trend": [
+      {
+        "month": "2023-10",
+        "jobs": 0,
+        "community": 0
+      },
+      {
+        "month": "2023-11",
+        "jobs": 0,
+        "community": 0
+      },
+      {
+        "month": "2023-12",
+        "jobs": 0,
+        "community": 0
+      },
+      {
+        "month": "2024-01",
+        "jobs": 0,
+        "community": 0
+      },
+      {
+        "month": "2024-02",
+        "jobs": 0,
+        "community": 0
+      },
+      {
+        "month": "2024-03",
+        "jobs": 0,
+        "community": 0
+      },
+      {
+        "month": "2024-04",
+        "jobs": 0,
+        "community": 0
+      },
+      {
+        "month": "2024-05",
+        "jobs": 0,
+        "community": 0
+      },
+      {
+        "month": "2024-06",
+        "jobs": 0,
+        "community": 0
+      },
+      {
+        "month": "2024-07",
+        "jobs": 0,
+        "community": 0
+      },
+      {
+        "month": "2024-08",
+        "jobs": 0,
+        "community": 0
+      },
+      {
+        "month": "2024-09",
+        "jobs": 0,
+        "community": 0
+      },
+      {
+        "month": "2024-10",
+        "jobs": 0,
+        "community": 0
+      },
+      {
+        "month": "2024-11",
+        "jobs": 0,
+        "community": 0
+      },
+      {
+        "month": "2024-12",
+        "jobs": 0,
+        "community": 0
+      },
+      {
+        "month": "2025-01",
+        "jobs": 0,
+        "community": 0
+      },
+      {
+        "month": "2025-02",
+        "jobs": 0,
+        "community": 0
+      },
+      {
+        "month": "2025-03",
+        "jobs": 0,
+        "community": 0
+      },
+      {
+        "month": "2025-04",
+        "jobs": 0,
+        "community": 0
+      },
+      {
+        "month": "2025-05",
+        "jobs": 0,
+        "community": 0
+      },
+      {
+        "month": "2025-06",
+        "jobs": 0,
+        "community": 0
+      },
+      {
+        "month": "2025-07",
+        "jobs": 0,
+        "community": 0
+      },
+      {
+        "month": "2025-08",
+        "jobs": 0,
+        "community": 0
+      },
+      {
+        "month": "2025-09",
+        "jobs": 0,
+        "community": 0
+      },
+      {
+        "month": "2025-10",
+        "jobs": 0,
+        "community": 0
+      },
+      {
+        "month": "2025-11",
+        "jobs": 0,
+        "community": 0
+      },
+      {
+        "month": "2025-12",
+        "jobs": 0,
+        "community": 0
+      },
+      {
+        "month": "2026-01",
+        "jobs": 0,
+        "community": 0
+      },
+      {
+        "month": "2026-02",
+        "jobs": 0,
+        "community": 0
+      },
+      {
+        "month": "2026-03",
+        "jobs": 0,
+        "community": 0
+      },
+      {
+        "month": "2026-04",
+        "jobs": 0,
+        "community": 0
+      },
+      {
+        "month": "2026-05",
+        "jobs": 0,
+        "community": 0
+      },
+      {
+        "month": "2026-06",
+        "jobs": 0,
+        "community": 0
+      },
+      {
+        "month": "2026-07",
+        "jobs": 0,
+        "community": 0
+      },
+      {
+        "month": "2026-08",
+        "jobs": 0,
+        "community": 0
+      },
+      {
+        "month": "2026-09",
+        "jobs": 5,
+        "community": 0
+      }
+    ]
+  },
+  {
+    "certificationId": "ocp-java-17",
+    "metrics": {
+      "jobs": 1,
+      "requiredJobs": 0,
+      "preferredJobs": 0,
+      "mentionedJobs": 1,
+      "communityPosts": 62,
+      "communityMentions": 86,
+      "communityComments": 26,
+      "communityAuthors": 0,
+      "courses": 1,
+      "estimatedHolders": null,
+      "growth12m": -55.6
+    },
+    "scores": {
+      "jobDemand": 5,
+      "community": 41,
+      "holders": null,
+      "growth": 4,
+      "overall": 18.4
+    },
+    "trend": [
+      {
+        "month": "2023-10",
+        "jobs": 0,
+        "community": 2
+      },
+      {
+        "month": "2023-11",
+        "jobs": 0,
+        "community": 1
+      },
+      {
+        "month": "2023-12",
+        "jobs": 0,
+        "community": 3
+      },
+      {
+        "month": "2024-01",
+        "jobs": 0,
+        "community": 5
+      },
+      {
+        "month": "2024-02",
+        "jobs": 0,
+        "community": 2
+      },
+      {
+        "month": "2024-03",
+        "jobs": 0,
+        "community": 3
+      },
+      {
+        "month": "2024-04",
+        "jobs": 0,
+        "community": 0
+      },
+      {
+        "month": "2024-05",
+        "jobs": 0,
+        "community": 3
+      },
+      {
+        "month": "2024-06",
+        "jobs": 0,
+        "community": 1
+      },
+      {
+        "month": "2024-07",
+        "jobs": 0,
+        "community": 4
+      },
+      {
+        "month": "2024-08",
+        "jobs": 0,
+        "community": 3
+      },
+      {
+        "month": "2024-09",
+        "jobs": 0,
+        "community": 1
+      },
+      {
+        "month": "2024-10",
+        "jobs": 0,
+        "community": 1
+      },
+      {
+        "month": "2024-11",
+        "jobs": 0,
+        "community": 0
+      },
+      {
+        "month": "2024-12",
+        "jobs": 0,
+        "community": 0
+      },
+      {
+        "month": "2025-01",
+        "jobs": 0,
+        "community": 0
+      },
+      {
+        "month": "2025-02",
+        "jobs": 0,
+        "community": 2
+      },
+      {
+        "month": "2025-03",
+        "jobs": 0,
+        "community": 0
+      },
+      {
+        "month": "2025-04",
+        "jobs": 0,
+        "community": 0
+      },
+      {
+        "month": "2025-05",
+        "jobs": 0,
+        "community": 1
+      },
+      {
+        "month": "2025-06",
+        "jobs": 0,
+        "community": 4
+      },
+      {
+        "month": "2025-07",
+        "jobs": 0,
+        "community": 0
+      },
+      {
+        "month": "2025-08",
+        "jobs": 0,
+        "community": 3
+      },
+      {
+        "month": "2025-09",
+        "jobs": 0,
+        "community": 1
+      },
+      {
+        "month": "2025-10",
+        "jobs": 0,
+        "community": 1
+      },
+      {
+        "month": "2025-11",
+        "jobs": 0,
+        "community": 2
+      },
+      {
+        "month": "2025-12",
+        "jobs": 0,
+        "community": 1
+      },
+      {
+        "month": "2026-01",
+        "jobs": 0,
+        "community": 2
+      },
+      {
+        "month": "2026-02",
+        "jobs": 0,
+        "community": 4
+      },
+      {
+        "month": "2026-03",
+        "jobs": 0,
+        "community": 2
+      },
+      {
+        "month": "2026-04",
+        "jobs": 0,
+        "community": 1
+      },
+      {
+        "month": "2026-05",
+        "jobs": 0,
+        "community": 0
+      },
+      {
+        "month": "2026-06",
+        "jobs": 0,
+        "community": 0
+      },
+      {
+        "month": "2026-07",
+        "jobs": 0,
+        "community": 0
+      },
+      {
+        "month": "2026-08",
+        "jobs": 0,
+        "community": 0
+      },
+      {
+        "month": "2026-09",
+        "jobs": 1,
+        "community": 5
+      }
+    ]
+  },
+  {
+    "certificationId": "az-400",
+    "metrics": {
+      "jobs": 1,
+      "requiredJobs": 0,
+      "preferredJobs": 0,
+      "mentionedJobs": 1,
+      "communityPosts": 3,
+      "communityMentions": 4,
+      "communityComments": 6,
+      "communityAuthors": 0,
+      "courses": 3,
+      "estimatedHolders": null,
+      "growth12m": null
+    },
+    "scores": {
+      "jobDemand": 5,
+      "community": 21,
+      "holders": null,
+      "growth": null,
+      "overall": 12.8
+    },
+    "trend": [
+      {
+        "month": "2023-10",
+        "jobs": 0,
+        "community": 0
+      },
+      {
+        "month": "2023-11",
+        "jobs": 0,
+        "community": 0
+      },
+      {
+        "month": "2023-12",
+        "jobs": 0,
+        "community": 0
+      },
+      {
+        "month": "2024-01",
+        "jobs": 0,
+        "community": 0
+      },
+      {
+        "month": "2024-02",
+        "jobs": 0,
+        "community": 0
+      },
+      {
+        "month": "2024-03",
+        "jobs": 0,
+        "community": 0
+      },
+      {
+        "month": "2024-04",
+        "jobs": 0,
+        "community": 0
+      },
+      {
+        "month": "2024-05",
+        "jobs": 0,
+        "community": 0
+      },
+      {
+        "month": "2024-06",
+        "jobs": 0,
+        "community": 0
+      },
+      {
+        "month": "2024-07",
+        "jobs": 0,
+        "community": 0
+      },
+      {
+        "month": "2024-08",
+        "jobs": 0,
+        "community": 0
+      },
+      {
+        "month": "2024-09",
+        "jobs": 0,
+        "community": 0
+      },
+      {
+        "month": "2024-10",
+        "jobs": 0,
+        "community": 0
+      },
+      {
+        "month": "2024-11",
+        "jobs": 0,
+        "community": 0
+      },
+      {
+        "month": "2024-12",
+        "jobs": 0,
+        "community": 0
+      },
+      {
+        "month": "2025-01",
+        "jobs": 0,
+        "community": 0
+      },
+      {
+        "month": "2025-02",
+        "jobs": 0,
+        "community": 0
+      },
+      {
+        "month": "2025-03",
+        "jobs": 0,
+        "community": 0
+      },
+      {
+        "month": "2025-04",
+        "jobs": 0,
+        "community": 0
+      },
+      {
+        "month": "2025-05",
+        "jobs": 0,
+        "community": 0
+      },
+      {
+        "month": "2025-06",
+        "jobs": 0,
+        "community": 0
+      },
+      {
+        "month": "2025-07",
+        "jobs": 0,
+        "community": 0
+      },
+      {
+        "month": "2025-08",
+        "jobs": 0,
+        "community": 0
+      },
+      {
+        "month": "2025-09",
+        "jobs": 0,
+        "community": 0
+      },
+      {
+        "month": "2025-10",
+        "jobs": 0,
+        "community": 0
+      },
+      {
+        "month": "2025-11",
+        "jobs": 0,
+        "community": 0
+      },
+      {
+        "month": "2025-12",
+        "jobs": 0,
+        "community": 0
+      },
+      {
+        "month": "2026-01",
+        "jobs": 0,
+        "community": 0
+      },
+      {
+        "month": "2026-02",
+        "jobs": 0,
+        "community": 0
+      },
+      {
+        "month": "2026-03",
+        "jobs": 0,
+        "community": 0
+      },
+      {
+        "month": "2026-04",
+        "jobs": 0,
+        "community": 0
+      },
+      {
+        "month": "2026-05",
+        "jobs": 0,
+        "community": 0
+      },
+      {
+        "month": "2026-06",
+        "jobs": 0,
+        "community": 0
+      },
+      {
+        "month": "2026-07",
+        "jobs": 0,
+        "community": 0
+      },
+      {
+        "month": "2026-08",
+        "jobs": 0,
+        "community": 1
+      },
+      {
+        "month": "2026-09",
+        "jobs": 1,
+        "community": 0
+      }
+    ]
+  },
+  {
+    "certificationId": "iiba-ccba",
+    "metrics": {
+      "jobs": 2,
+      "requiredJobs": 0,
+      "preferredJobs": 2,
+      "mentionedJobs": 0,
+      "communityPosts": 0,
+      "communityMentions": 0,
+      "communityComments": 0,
+      "communityAuthors": 0,
+      "courses": 2,
+      "estimatedHolders": null,
+      "growth12m": null
+    },
+    "scores": {
+      "jobDemand": 23,
+      "community": 0,
+      "holders": null,
+      "growth": null,
+      "overall": 12.3
+    },
+    "trend": [
+      {
+        "month": "2023-10",
+        "jobs": 0,
+        "community": 0
+      },
+      {
+        "month": "2023-11",
+        "jobs": 0,
+        "community": 0
+      },
+      {
+        "month": "2023-12",
+        "jobs": 0,
+        "community": 0
+      },
+      {
+        "month": "2024-01",
+        "jobs": 0,
+        "community": 0
+      },
+      {
+        "month": "2024-02",
+        "jobs": 0,
+        "community": 0
+      },
+      {
+        "month": "2024-03",
+        "jobs": 0,
+        "community": 0
+      },
+      {
+        "month": "2024-04",
+        "jobs": 0,
+        "community": 0
+      },
+      {
+        "month": "2024-05",
+        "jobs": 0,
+        "community": 0
+      },
+      {
+        "month": "2024-06",
+        "jobs": 0,
+        "community": 0
+      },
+      {
+        "month": "2024-07",
+        "jobs": 0,
+        "community": 0
+      },
+      {
+        "month": "2024-08",
+        "jobs": 0,
+        "community": 0
+      },
+      {
+        "month": "2024-09",
+        "jobs": 0,
+        "community": 0
+      },
+      {
+        "month": "2024-10",
+        "jobs": 0,
+        "community": 0
+      },
+      {
+        "month": "2024-11",
+        "jobs": 0,
+        "community": 0
+      },
+      {
+        "month": "2024-12",
+        "jobs": 0,
+        "community": 0
+      },
+      {
+        "month": "2025-01",
+        "jobs": 0,
+        "community": 0
+      },
+      {
+        "month": "2025-02",
+        "jobs": 0,
+        "community": 0
+      },
+      {
+        "month": "2025-03",
+        "jobs": 0,
+        "community": 0
+      },
+      {
+        "month": "2025-04",
+        "jobs": 0,
+        "community": 0
+      },
+      {
+        "month": "2025-05",
+        "jobs": 0,
+        "community": 0
+      },
+      {
+        "month": "2025-06",
+        "jobs": 0,
+        "community": 0
+      },
+      {
+        "month": "2025-07",
+        "jobs": 0,
+        "community": 0
+      },
+      {
+        "month": "2025-08",
+        "jobs": 0,
+        "community": 0
+      },
+      {
+        "month": "2025-09",
+        "jobs": 0,
+        "community": 0
+      },
+      {
+        "month": "2025-10",
+        "jobs": 0,
+        "community": 0
+      },
+      {
+        "month": "2025-11",
+        "jobs": 0,
+        "community": 0
+      },
+      {
+        "month": "2025-12",
+        "jobs": 0,
+        "community": 0
+      },
+      {
+        "month": "2026-01",
+        "jobs": 0,
+        "community": 0
+      },
+      {
+        "month": "2026-02",
+        "jobs": 0,
+        "community": 0
+      },
+      {
+        "month": "2026-03",
+        "jobs": 0,
+        "community": 0
+      },
+      {
+        "month": "2026-04",
+        "jobs": 0,
+        "community": 0
+      },
+      {
+        "month": "2026-05",
+        "jobs": 0,
+        "community": 0
+      },
+      {
+        "month": "2026-06",
+        "jobs": 0,
+        "community": 0
+      },
+      {
+        "month": "2026-07",
+        "jobs": 0,
+        "community": 0
+      },
+      {
+        "month": "2026-08",
+        "jobs": 0,
+        "community": 0
+      },
+      {
+        "month": "2026-09",
+        "jobs": 2,
+        "community": 0
+      }
+    ]
+  },
+  {
+    "certificationId": "pmi-pba",
+    "metrics": {
+      "jobs": 2,
+      "requiredJobs": 0,
+      "preferredJobs": 2,
+      "mentionedJobs": 0,
+      "communityPosts": 0,
+      "communityMentions": 0,
+      "communityComments": 0,
+      "communityAuthors": 0,
+      "courses": 0,
+      "estimatedHolders": null,
+      "growth12m": null
+    },
+    "scores": {
+      "jobDemand": 23,
+      "community": 0,
+      "holders": null,
+      "growth": null,
+      "overall": 12.3
+    },
+    "trend": [
+      {
+        "month": "2023-10",
+        "jobs": 0,
+        "community": 0
+      },
+      {
+        "month": "2023-11",
+        "jobs": 0,
+        "community": 0
+      },
+      {
+        "month": "2023-12",
+        "jobs": 0,
+        "community": 0
+      },
+      {
+        "month": "2024-01",
+        "jobs": 0,
+        "community": 0
+      },
+      {
+        "month": "2024-02",
+        "jobs": 0,
+        "community": 0
+      },
+      {
+        "month": "2024-03",
+        "jobs": 0,
+        "community": 0
+      },
+      {
+        "month": "2024-04",
+        "jobs": 0,
+        "community": 0
+      },
+      {
+        "month": "2024-05",
+        "jobs": 0,
+        "community": 0
+      },
+      {
+        "month": "2024-06",
+        "jobs": 0,
+        "community": 0
+      },
+      {
+        "month": "2024-07",
+        "jobs": 0,
+        "community": 0
+      },
+      {
+        "month": "2024-08",
+        "jobs": 0,
+        "community": 0
+      },
+      {
+        "month": "2024-09",
+        "jobs": 0,
+        "community": 0
+      },
+      {
+        "month": "2024-10",
+        "jobs": 0,
+        "community": 0
+      },
+      {
+        "month": "2024-11",
+        "jobs": 0,
+        "community": 0
+      },
+      {
+        "month": "2024-12",
+        "jobs": 0,
+        "community": 0
+      },
+      {
+        "month": "2025-01",
+        "jobs": 0,
+        "community": 0
+      },
+      {
+        "month": "2025-02",
+        "jobs": 0,
+        "community": 0
+      },
+      {
+        "month": "2025-03",
+        "jobs": 0,
+        "community": 0
+      },
+      {
+        "month": "2025-04",
+        "jobs": 0,
+        "community": 0
+      },
+      {
+        "month": "2025-05",
+        "jobs": 0,
+        "community": 0
+      },
+      {
+        "month": "2025-06",
+        "jobs": 0,
+        "community": 0
+      },
+      {
+        "month": "2025-07",
+        "jobs": 0,
+        "community": 0
+      },
+      {
+        "month": "2025-08",
+        "jobs": 0,
+        "community": 0
+      },
+      {
+        "month": "2025-09",
+        "jobs": 0,
+        "community": 0
+      },
+      {
+        "month": "2025-10",
+        "jobs": 0,
+        "community": 0
+      },
+      {
+        "month": "2025-11",
+        "jobs": 0,
+        "community": 0
+      },
+      {
+        "month": "2025-12",
+        "jobs": 0,
+        "community": 0
+      },
+      {
+        "month": "2026-01",
+        "jobs": 0,
+        "community": 0
+      },
+      {
+        "month": "2026-02",
+        "jobs": 0,
+        "community": 0
+      },
+      {
+        "month": "2026-03",
+        "jobs": 0,
+        "community": 0
+      },
+      {
+        "month": "2026-04",
+        "jobs": 0,
+        "community": 0
+      },
+      {
+        "month": "2026-05",
+        "jobs": 0,
+        "community": 0
+      },
+      {
+        "month": "2026-06",
+        "jobs": 0,
+        "community": 0
+      },
+      {
+        "month": "2026-07",
+        "jobs": 0,
+        "community": 0
+      },
+      {
+        "month": "2026-08",
+        "jobs": 0,
+        "community": 0
+      },
+      {
+        "month": "2026-09",
+        "jobs": 2,
+        "community": 0
+      }
+    ]
+  },
+  {
+    "certificationId": "rhcsa",
+    "metrics": {
+      "jobs": 2,
+      "requiredJobs": 0,
+      "preferredJobs": 0,
+      "mentionedJobs": 2,
+      "communityPosts": 3,
+      "communityMentions": 4,
+      "communityComments": 0,
+      "communityAuthors": 0,
+      "courses": 1,
+      "estimatedHolders": null,
+      "growth12m": null
+    },
+    "scores": {
+      "jobDemand": 10,
+      "community": 13,
+      "holders": null,
+      "growth": null,
+      "overall": 11.4
+    },
+    "trend": [
+      {
+        "month": "2023-10",
+        "jobs": 0,
+        "community": 0
+      },
+      {
+        "month": "2023-11",
+        "jobs": 0,
+        "community": 0
+      },
+      {
+        "month": "2023-12",
+        "jobs": 0,
+        "community": 0
+      },
+      {
+        "month": "2024-01",
+        "jobs": 0,
+        "community": 0
+      },
+      {
+        "month": "2024-02",
+        "jobs": 0,
+        "community": 0
+      },
+      {
+        "month": "2024-03",
+        "jobs": 0,
+        "community": 0
+      },
+      {
+        "month": "2024-04",
+        "jobs": 0,
+        "community": 0
+      },
+      {
+        "month": "2024-05",
+        "jobs": 0,
+        "community": 1
+      },
+      {
+        "month": "2024-06",
+        "jobs": 0,
+        "community": 0
+      },
+      {
+        "month": "2024-07",
+        "jobs": 0,
+        "community": 0
+      },
+      {
+        "month": "2024-08",
+        "jobs": 0,
+        "community": 0
+      },
+      {
+        "month": "2024-09",
+        "jobs": 0,
+        "community": 0
+      },
+      {
+        "month": "2024-10",
+        "jobs": 0,
+        "community": 0
+      },
+      {
+        "month": "2024-11",
+        "jobs": 0,
+        "community": 0
+      },
+      {
+        "month": "2024-12",
+        "jobs": 0,
+        "community": 0
+      },
+      {
+        "month": "2025-01",
+        "jobs": 0,
+        "community": 0
+      },
+      {
+        "month": "2025-02",
+        "jobs": 0,
+        "community": 0
+      },
+      {
+        "month": "2025-03",
+        "jobs": 0,
+        "community": 0
+      },
+      {
+        "month": "2025-04",
+        "jobs": 0,
+        "community": 0
+      },
+      {
+        "month": "2025-05",
+        "jobs": 0,
+        "community": 0
+      },
+      {
+        "month": "2025-06",
+        "jobs": 0,
+        "community": 0
+      },
+      {
+        "month": "2025-07",
+        "jobs": 0,
+        "community": 0
+      },
+      {
+        "month": "2025-08",
+        "jobs": 0,
+        "community": 0
+      },
+      {
+        "month": "2025-09",
+        "jobs": 0,
+        "community": 0
+      },
+      {
+        "month": "2025-10",
+        "jobs": 0,
+        "community": 0
+      },
+      {
+        "month": "2025-11",
+        "jobs": 0,
+        "community": 0
+      },
+      {
+        "month": "2025-12",
+        "jobs": 0,
+        "community": 0
+      },
+      {
+        "month": "2026-01",
+        "jobs": 0,
+        "community": 0
+      },
+      {
+        "month": "2026-02",
+        "jobs": 0,
+        "community": 0
+      },
+      {
+        "month": "2026-03",
+        "jobs": 0,
+        "community": 0
+      },
+      {
+        "month": "2026-04",
+        "jobs": 0,
+        "community": 0
+      },
+      {
+        "month": "2026-05",
+        "jobs": 0,
+        "community": 0
+      },
+      {
+        "month": "2026-06",
+        "jobs": 0,
+        "community": 0
+      },
+      {
+        "month": "2026-07",
+        "jobs": 0,
+        "community": 2
+      },
+      {
+        "month": "2026-08",
+        "jobs": 0,
+        "community": 1
+      },
+      {
+        "month": "2026-09",
+        "jobs": 2,
+        "community": 0
+      }
+    ]
+  },
+  {
+    "certificationId": "istqb-ctfl-at",
+    "metrics": {
+      "jobs": 2,
+      "requiredJobs": 0,
+      "preferredJobs": 0,
+      "mentionedJobs": 2,
+      "communityPosts": 0,
+      "communityMentions": 0,
+      "communityComments": 0,
+      "communityAuthors": 0,
+      "courses": 0,
+      "estimatedHolders": null,
+      "growth12m": null
+    },
+    "scores": {
+      "jobDemand": 10,
+      "community": 0,
+      "holders": null,
+      "growth": null,
+      "overall": 5.2
+    },
+    "trend": [
+      {
+        "month": "2023-10",
+        "jobs": 0,
+        "community": 0
+      },
+      {
+        "month": "2023-11",
+        "jobs": 0,
+        "community": 0
+      },
+      {
+        "month": "2023-12",
+        "jobs": 0,
+        "community": 0
+      },
+      {
+        "month": "2024-01",
+        "jobs": 0,
+        "community": 0
+      },
+      {
+        "month": "2024-02",
+        "jobs": 0,
+        "community": 0
+      },
+      {
+        "month": "2024-03",
+        "jobs": 0,
+        "community": 0
+      },
+      {
+        "month": "2024-04",
+        "jobs": 0,
+        "community": 0
+      },
+      {
+        "month": "2024-05",
+        "jobs": 0,
+        "community": 0
+      },
+      {
+        "month": "2024-06",
+        "jobs": 0,
+        "community": 0
+      },
+      {
+        "month": "2024-07",
+        "jobs": 0,
+        "community": 0
+      },
+      {
+        "month": "2024-08",
+        "jobs": 0,
+        "community": 0
+      },
+      {
+        "month": "2024-09",
+        "jobs": 0,
+        "community": 0
+      },
+      {
+        "month": "2024-10",
+        "jobs": 0,
+        "community": 0
+      },
+      {
+        "month": "2024-11",
+        "jobs": 0,
+        "community": 0
+      },
+      {
+        "month": "2024-12",
+        "jobs": 0,
+        "community": 0
+      },
+      {
+        "month": "2025-01",
+        "jobs": 0,
+        "community": 0
+      },
+      {
+        "month": "2025-02",
+        "jobs": 0,
+        "community": 0
+      },
+      {
+        "month": "2025-03",
+        "jobs": 0,
+        "community": 0
+      },
+      {
+        "month": "2025-04",
+        "jobs": 0,
+        "community": 0
+      },
+      {
+        "month": "2025-05",
+        "jobs": 0,
+        "community": 0
+      },
+      {
+        "month": "2025-06",
+        "jobs": 0,
+        "community": 0
+      },
+      {
+        "month": "2025-07",
+        "jobs": 0,
+        "community": 0
+      },
+      {
+        "month": "2025-08",
+        "jobs": 0,
+        "community": 0
+      },
+      {
+        "month": "2025-09",
+        "jobs": 0,
+        "community": 0
+      },
+      {
+        "month": "2025-10",
+        "jobs": 0,
+        "community": 0
+      },
+      {
+        "month": "2025-11",
+        "jobs": 0,
+        "community": 0
+      },
+      {
+        "month": "2025-12",
+        "jobs": 0,
+        "community": 0
+      },
+      {
+        "month": "2026-01",
+        "jobs": 0,
+        "community": 0
+      },
+      {
+        "month": "2026-02",
+        "jobs": 0,
+        "community": 0
+      },
+      {
+        "month": "2026-03",
+        "jobs": 0,
+        "community": 0
+      },
+      {
+        "month": "2026-04",
+        "jobs": 0,
+        "community": 0
+      },
+      {
+        "month": "2026-05",
+        "jobs": 0,
+        "community": 0
+      },
+      {
+        "month": "2026-06",
+        "jobs": 0,
+        "community": 0
+      },
+      {
+        "month": "2026-07",
+        "jobs": 0,
+        "community": 0
+      },
+      {
+        "month": "2026-08",
+        "jobs": 1,
+        "community": 0
+      },
+      {
+        "month": "2026-09",
+        "jobs": 1,
         "community": 0
       }
     ]
@@ -4036,6 +5881,1031 @@
         "month": "2025-09",
         "jobs": 0,
         "community": 1
+      },
+      {
+        "month": "2025-10",
+        "jobs": 0,
+        "community": 0
+      },
+      {
+        "month": "2025-11",
+        "jobs": 0,
+        "community": 0
+      },
+      {
+        "month": "2025-12",
+        "jobs": 0,
+        "community": 0
+      },
+      {
+        "month": "2026-01",
+        "jobs": 0,
+        "community": 0
+      },
+      {
+        "month": "2026-02",
+        "jobs": 0,
+        "community": 0
+      },
+      {
+        "month": "2026-03",
+        "jobs": 0,
+        "community": 0
+      },
+      {
+        "month": "2026-04",
+        "jobs": 0,
+        "community": 0
+      },
+      {
+        "month": "2026-05",
+        "jobs": 0,
+        "community": 0
+      },
+      {
+        "month": "2026-06",
+        "jobs": 0,
+        "community": 0
+      },
+      {
+        "month": "2026-07",
+        "jobs": 0,
+        "community": 0
+      },
+      {
+        "month": "2026-08",
+        "jobs": 0,
+        "community": 0
+      },
+      {
+        "month": "2026-09",
+        "jobs": 0,
+        "community": 0
+      }
+    ]
+  },
+  {
+    "certificationId": "istqb-ctal-tm",
+    "metrics": {
+      "jobs": 0,
+      "requiredJobs": 0,
+      "preferredJobs": 0,
+      "mentionedJobs": 0,
+      "communityPosts": 1,
+      "communityMentions": 3,
+      "communityComments": 0,
+      "communityAuthors": 0,
+      "courses": 0,
+      "estimatedHolders": null,
+      "growth12m": null
+    },
+    "scores": {
+      "jobDemand": 0,
+      "community": 4,
+      "holders": null,
+      "growth": null,
+      "overall": 2
+    },
+    "trend": [
+      {
+        "month": "2023-10",
+        "jobs": 0,
+        "community": 0
+      },
+      {
+        "month": "2023-11",
+        "jobs": 0,
+        "community": 0
+      },
+      {
+        "month": "2023-12",
+        "jobs": 0,
+        "community": 0
+      },
+      {
+        "month": "2024-01",
+        "jobs": 0,
+        "community": 0
+      },
+      {
+        "month": "2024-02",
+        "jobs": 0,
+        "community": 0
+      },
+      {
+        "month": "2024-03",
+        "jobs": 0,
+        "community": 0
+      },
+      {
+        "month": "2024-04",
+        "jobs": 0,
+        "community": 0
+      },
+      {
+        "month": "2024-05",
+        "jobs": 0,
+        "community": 0
+      },
+      {
+        "month": "2024-06",
+        "jobs": 0,
+        "community": 0
+      },
+      {
+        "month": "2024-07",
+        "jobs": 0,
+        "community": 0
+      },
+      {
+        "month": "2024-08",
+        "jobs": 0,
+        "community": 0
+      },
+      {
+        "month": "2024-09",
+        "jobs": 0,
+        "community": 0
+      },
+      {
+        "month": "2024-10",
+        "jobs": 0,
+        "community": 0
+      },
+      {
+        "month": "2024-11",
+        "jobs": 0,
+        "community": 0
+      },
+      {
+        "month": "2024-12",
+        "jobs": 0,
+        "community": 0
+      },
+      {
+        "month": "2025-01",
+        "jobs": 0,
+        "community": 0
+      },
+      {
+        "month": "2025-02",
+        "jobs": 0,
+        "community": 0
+      },
+      {
+        "month": "2025-03",
+        "jobs": 0,
+        "community": 0
+      },
+      {
+        "month": "2025-04",
+        "jobs": 0,
+        "community": 0
+      },
+      {
+        "month": "2025-05",
+        "jobs": 0,
+        "community": 0
+      },
+      {
+        "month": "2025-06",
+        "jobs": 0,
+        "community": 0
+      },
+      {
+        "month": "2025-07",
+        "jobs": 0,
+        "community": 0
+      },
+      {
+        "month": "2025-08",
+        "jobs": 0,
+        "community": 0
+      },
+      {
+        "month": "2025-09",
+        "jobs": 0,
+        "community": 0
+      },
+      {
+        "month": "2025-10",
+        "jobs": 0,
+        "community": 0
+      },
+      {
+        "month": "2025-11",
+        "jobs": 0,
+        "community": 0
+      },
+      {
+        "month": "2025-12",
+        "jobs": 0,
+        "community": 0
+      },
+      {
+        "month": "2026-01",
+        "jobs": 0,
+        "community": 0
+      },
+      {
+        "month": "2026-02",
+        "jobs": 0,
+        "community": 0
+      },
+      {
+        "month": "2026-03",
+        "jobs": 0,
+        "community": 0
+      },
+      {
+        "month": "2026-04",
+        "jobs": 0,
+        "community": 0
+      },
+      {
+        "month": "2026-05",
+        "jobs": 0,
+        "community": 0
+      },
+      {
+        "month": "2026-06",
+        "jobs": 0,
+        "community": 0
+      },
+      {
+        "month": "2026-07",
+        "jobs": 0,
+        "community": 3
+      },
+      {
+        "month": "2026-08",
+        "jobs": 0,
+        "community": 0
+      },
+      {
+        "month": "2026-09",
+        "jobs": 0,
+        "community": 0
+      }
+    ]
+  },
+  {
+    "certificationId": "istqb-ctal-tta",
+    "metrics": {
+      "jobs": 0,
+      "requiredJobs": 0,
+      "preferredJobs": 0,
+      "mentionedJobs": 0,
+      "communityPosts": 0,
+      "communityMentions": 0,
+      "communityComments": 0,
+      "communityAuthors": 0,
+      "courses": 0,
+      "estimatedHolders": null,
+      "growth12m": null
+    },
+    "scores": {
+      "jobDemand": 0,
+      "community": 0,
+      "holders": null,
+      "growth": null,
+      "overall": 0
+    },
+    "trend": [
+      {
+        "month": "2023-10",
+        "jobs": 0,
+        "community": 0
+      },
+      {
+        "month": "2023-11",
+        "jobs": 0,
+        "community": 0
+      },
+      {
+        "month": "2023-12",
+        "jobs": 0,
+        "community": 0
+      },
+      {
+        "month": "2024-01",
+        "jobs": 0,
+        "community": 0
+      },
+      {
+        "month": "2024-02",
+        "jobs": 0,
+        "community": 0
+      },
+      {
+        "month": "2024-03",
+        "jobs": 0,
+        "community": 0
+      },
+      {
+        "month": "2024-04",
+        "jobs": 0,
+        "community": 0
+      },
+      {
+        "month": "2024-05",
+        "jobs": 0,
+        "community": 0
+      },
+      {
+        "month": "2024-06",
+        "jobs": 0,
+        "community": 0
+      },
+      {
+        "month": "2024-07",
+        "jobs": 0,
+        "community": 0
+      },
+      {
+        "month": "2024-08",
+        "jobs": 0,
+        "community": 0
+      },
+      {
+        "month": "2024-09",
+        "jobs": 0,
+        "community": 0
+      },
+      {
+        "month": "2024-10",
+        "jobs": 0,
+        "community": 0
+      },
+      {
+        "month": "2024-11",
+        "jobs": 0,
+        "community": 0
+      },
+      {
+        "month": "2024-12",
+        "jobs": 0,
+        "community": 0
+      },
+      {
+        "month": "2025-01",
+        "jobs": 0,
+        "community": 0
+      },
+      {
+        "month": "2025-02",
+        "jobs": 0,
+        "community": 0
+      },
+      {
+        "month": "2025-03",
+        "jobs": 0,
+        "community": 0
+      },
+      {
+        "month": "2025-04",
+        "jobs": 0,
+        "community": 0
+      },
+      {
+        "month": "2025-05",
+        "jobs": 0,
+        "community": 0
+      },
+      {
+        "month": "2025-06",
+        "jobs": 0,
+        "community": 0
+      },
+      {
+        "month": "2025-07",
+        "jobs": 0,
+        "community": 0
+      },
+      {
+        "month": "2025-08",
+        "jobs": 0,
+        "community": 0
+      },
+      {
+        "month": "2025-09",
+        "jobs": 0,
+        "community": 0
+      },
+      {
+        "month": "2025-10",
+        "jobs": 0,
+        "community": 0
+      },
+      {
+        "month": "2025-11",
+        "jobs": 0,
+        "community": 0
+      },
+      {
+        "month": "2025-12",
+        "jobs": 0,
+        "community": 0
+      },
+      {
+        "month": "2026-01",
+        "jobs": 0,
+        "community": 0
+      },
+      {
+        "month": "2026-02",
+        "jobs": 0,
+        "community": 0
+      },
+      {
+        "month": "2026-03",
+        "jobs": 0,
+        "community": 0
+      },
+      {
+        "month": "2026-04",
+        "jobs": 0,
+        "community": 0
+      },
+      {
+        "month": "2026-05",
+        "jobs": 0,
+        "community": 0
+      },
+      {
+        "month": "2026-06",
+        "jobs": 0,
+        "community": 0
+      },
+      {
+        "month": "2026-07",
+        "jobs": 0,
+        "community": 0
+      },
+      {
+        "month": "2026-08",
+        "jobs": 0,
+        "community": 0
+      },
+      {
+        "month": "2026-09",
+        "jobs": 0,
+        "community": 0
+      }
+    ]
+  },
+  {
+    "certificationId": "istqb-ctal-tae",
+    "metrics": {
+      "jobs": 0,
+      "requiredJobs": 0,
+      "preferredJobs": 0,
+      "mentionedJobs": 0,
+      "communityPosts": 0,
+      "communityMentions": 0,
+      "communityComments": 0,
+      "communityAuthors": 0,
+      "courses": 1,
+      "estimatedHolders": null,
+      "growth12m": null
+    },
+    "scores": {
+      "jobDemand": 0,
+      "community": 0,
+      "holders": null,
+      "growth": null,
+      "overall": 0
+    },
+    "trend": [
+      {
+        "month": "2023-10",
+        "jobs": 0,
+        "community": 0
+      },
+      {
+        "month": "2023-11",
+        "jobs": 0,
+        "community": 0
+      },
+      {
+        "month": "2023-12",
+        "jobs": 0,
+        "community": 0
+      },
+      {
+        "month": "2024-01",
+        "jobs": 0,
+        "community": 0
+      },
+      {
+        "month": "2024-02",
+        "jobs": 0,
+        "community": 0
+      },
+      {
+        "month": "2024-03",
+        "jobs": 0,
+        "community": 0
+      },
+      {
+        "month": "2024-04",
+        "jobs": 0,
+        "community": 0
+      },
+      {
+        "month": "2024-05",
+        "jobs": 0,
+        "community": 0
+      },
+      {
+        "month": "2024-06",
+        "jobs": 0,
+        "community": 0
+      },
+      {
+        "month": "2024-07",
+        "jobs": 0,
+        "community": 0
+      },
+      {
+        "month": "2024-08",
+        "jobs": 0,
+        "community": 0
+      },
+      {
+        "month": "2024-09",
+        "jobs": 0,
+        "community": 0
+      },
+      {
+        "month": "2024-10",
+        "jobs": 0,
+        "community": 0
+      },
+      {
+        "month": "2024-11",
+        "jobs": 0,
+        "community": 0
+      },
+      {
+        "month": "2024-12",
+        "jobs": 0,
+        "community": 0
+      },
+      {
+        "month": "2025-01",
+        "jobs": 0,
+        "community": 0
+      },
+      {
+        "month": "2025-02",
+        "jobs": 0,
+        "community": 0
+      },
+      {
+        "month": "2025-03",
+        "jobs": 0,
+        "community": 0
+      },
+      {
+        "month": "2025-04",
+        "jobs": 0,
+        "community": 0
+      },
+      {
+        "month": "2025-05",
+        "jobs": 0,
+        "community": 0
+      },
+      {
+        "month": "2025-06",
+        "jobs": 0,
+        "community": 0
+      },
+      {
+        "month": "2025-07",
+        "jobs": 0,
+        "community": 0
+      },
+      {
+        "month": "2025-08",
+        "jobs": 0,
+        "community": 0
+      },
+      {
+        "month": "2025-09",
+        "jobs": 0,
+        "community": 0
+      },
+      {
+        "month": "2025-10",
+        "jobs": 0,
+        "community": 0
+      },
+      {
+        "month": "2025-11",
+        "jobs": 0,
+        "community": 0
+      },
+      {
+        "month": "2025-12",
+        "jobs": 0,
+        "community": 0
+      },
+      {
+        "month": "2026-01",
+        "jobs": 0,
+        "community": 0
+      },
+      {
+        "month": "2026-02",
+        "jobs": 0,
+        "community": 0
+      },
+      {
+        "month": "2026-03",
+        "jobs": 0,
+        "community": 0
+      },
+      {
+        "month": "2026-04",
+        "jobs": 0,
+        "community": 0
+      },
+      {
+        "month": "2026-05",
+        "jobs": 0,
+        "community": 0
+      },
+      {
+        "month": "2026-06",
+        "jobs": 0,
+        "community": 0
+      },
+      {
+        "month": "2026-07",
+        "jobs": 0,
+        "community": 0
+      },
+      {
+        "month": "2026-08",
+        "jobs": 0,
+        "community": 0
+      },
+      {
+        "month": "2026-09",
+        "jobs": 0,
+        "community": 0
+      }
+    ]
+  },
+  {
+    "certificationId": "iiba-ecba",
+    "metrics": {
+      "jobs": 0,
+      "requiredJobs": 0,
+      "preferredJobs": 0,
+      "mentionedJobs": 0,
+      "communityPosts": 0,
+      "communityMentions": 0,
+      "communityComments": 0,
+      "communityAuthors": 0,
+      "courses": 3,
+      "estimatedHolders": null,
+      "growth12m": null
+    },
+    "scores": {
+      "jobDemand": 0,
+      "community": 0,
+      "holders": null,
+      "growth": null,
+      "overall": 0
+    },
+    "trend": [
+      {
+        "month": "2023-10",
+        "jobs": 0,
+        "community": 0
+      },
+      {
+        "month": "2023-11",
+        "jobs": 0,
+        "community": 0
+      },
+      {
+        "month": "2023-12",
+        "jobs": 0,
+        "community": 0
+      },
+      {
+        "month": "2024-01",
+        "jobs": 0,
+        "community": 0
+      },
+      {
+        "month": "2024-02",
+        "jobs": 0,
+        "community": 0
+      },
+      {
+        "month": "2024-03",
+        "jobs": 0,
+        "community": 0
+      },
+      {
+        "month": "2024-04",
+        "jobs": 0,
+        "community": 0
+      },
+      {
+        "month": "2024-05",
+        "jobs": 0,
+        "community": 0
+      },
+      {
+        "month": "2024-06",
+        "jobs": 0,
+        "community": 0
+      },
+      {
+        "month": "2024-07",
+        "jobs": 0,
+        "community": 0
+      },
+      {
+        "month": "2024-08",
+        "jobs": 0,
+        "community": 0
+      },
+      {
+        "month": "2024-09",
+        "jobs": 0,
+        "community": 0
+      },
+      {
+        "month": "2024-10",
+        "jobs": 0,
+        "community": 0
+      },
+      {
+        "month": "2024-11",
+        "jobs": 0,
+        "community": 0
+      },
+      {
+        "month": "2024-12",
+        "jobs": 0,
+        "community": 0
+      },
+      {
+        "month": "2025-01",
+        "jobs": 0,
+        "community": 0
+      },
+      {
+        "month": "2025-02",
+        "jobs": 0,
+        "community": 0
+      },
+      {
+        "month": "2025-03",
+        "jobs": 0,
+        "community": 0
+      },
+      {
+        "month": "2025-04",
+        "jobs": 0,
+        "community": 0
+      },
+      {
+        "month": "2025-05",
+        "jobs": 0,
+        "community": 0
+      },
+      {
+        "month": "2025-06",
+        "jobs": 0,
+        "community": 0
+      },
+      {
+        "month": "2025-07",
+        "jobs": 0,
+        "community": 0
+      },
+      {
+        "month": "2025-08",
+        "jobs": 0,
+        "community": 0
+      },
+      {
+        "month": "2025-09",
+        "jobs": 0,
+        "community": 0
+      },
+      {
+        "month": "2025-10",
+        "jobs": 0,
+        "community": 0
+      },
+      {
+        "month": "2025-11",
+        "jobs": 0,
+        "community": 0
+      },
+      {
+        "month": "2025-12",
+        "jobs": 0,
+        "community": 0
+      },
+      {
+        "month": "2026-01",
+        "jobs": 0,
+        "community": 0
+      },
+      {
+        "month": "2026-02",
+        "jobs": 0,
+        "community": 0
+      },
+      {
+        "month": "2026-03",
+        "jobs": 0,
+        "community": 0
+      },
+      {
+        "month": "2026-04",
+        "jobs": 0,
+        "community": 0
+      },
+      {
+        "month": "2026-05",
+        "jobs": 0,
+        "community": 0
+      },
+      {
+        "month": "2026-06",
+        "jobs": 0,
+        "community": 0
+      },
+      {
+        "month": "2026-07",
+        "jobs": 0,
+        "community": 0
+      },
+      {
+        "month": "2026-08",
+        "jobs": 0,
+        "community": 0
+      },
+      {
+        "month": "2026-09",
+        "jobs": 0,
+        "community": 0
+      }
+    ]
+  },
+  {
+    "certificationId": "vault-associate",
+    "metrics": {
+      "jobs": 0,
+      "requiredJobs": 0,
+      "preferredJobs": 0,
+      "mentionedJobs": 0,
+      "communityPosts": 0,
+      "communityMentions": 0,
+      "communityComments": 0,
+      "communityAuthors": 0,
+      "courses": 1,
+      "estimatedHolders": null,
+      "growth12m": null
+    },
+    "scores": {
+      "jobDemand": 0,
+      "community": 0,
+      "holders": null,
+      "growth": null,
+      "overall": 0
+    },
+    "trend": [
+      {
+        "month": "2023-10",
+        "jobs": 0,
+        "community": 0
+      },
+      {
+        "month": "2023-11",
+        "jobs": 0,
+        "community": 0
+      },
+      {
+        "month": "2023-12",
+        "jobs": 0,
+        "community": 0
+      },
+      {
+        "month": "2024-01",
+        "jobs": 0,
+        "community": 0
+      },
+      {
+        "month": "2024-02",
+        "jobs": 0,
+        "community": 0
+      },
+      {
+        "month": "2024-03",
+        "jobs": 0,
+        "community": 0
+      },
+      {
+        "month": "2024-04",
+        "jobs": 0,
+        "community": 0
+      },
+      {
+        "month": "2024-05",
+        "jobs": 0,
+        "community": 0
+      },
+      {
+        "month": "2024-06",
+        "jobs": 0,
+        "community": 0
+      },
+      {
+        "month": "2024-07",
+        "jobs": 0,
+        "community": 0
+      },
+      {
+        "month": "2024-08",
+        "jobs": 0,
+        "community": 0
+      },
+      {
+        "month": "2024-09",
+        "jobs": 0,
+        "community": 0
+      },
+      {
+        "month": "2024-10",
+        "jobs": 0,
+        "community": 0
+      },
+      {
+        "month": "2024-11",
+        "jobs": 0,
+        "community": 0
+      },
+      {
+        "month": "2024-12",
+        "jobs": 0,
+        "community": 0
+      },
+      {
+        "month": "2025-01",
+        "jobs": 0,
+        "community": 0
+      },
+      {
+        "month": "2025-02",
+        "jobs": 0,
+        "community": 0
+      },
+      {
+        "month": "2025-03",
+        "jobs": 0,
+        "community": 0
+      },
+      {
+        "month": "2025-04",
+        "jobs": 0,
+        "community": 0
+      },
+      {
+        "month": "2025-05",
+        "jobs": 0,
+        "community": 0
+      },
+      {
+        "month": "2025-06",
+        "jobs": 0,
+        "community": 0
+      },
+      {
+        "month": "2025-07",
+        "jobs": 0,
+        "community": 0
+      },
+      {
+        "month": "2025-08",
+        "jobs": 0,
+        "community": 0
+      },
+      {
+        "month": "2025-09",
+        "jobs": 0,
+        "community": 0
       },
       {
         "month": "2025-10",

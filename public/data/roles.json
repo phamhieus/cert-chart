@@ -1,0 +1,2186 @@
+[
+  {
+    "id": "We Work Remotely_qa_remote_2026-09",
+    "roleId": "qa",
+    "source": {
+      "name": "We Work Remotely",
+      "url": "https://weworkremotely.com"
+    },
+    "market": "remote",
+    "month": "2026-09",
+    "postings": 0,
+    "withCertification": 0,
+    "scanned": 133,
+    "crawledAt": "2026-09-27T13:39:55.429Z"
+  },
+  {
+    "id": "We Work Remotely_ba_remote_2026-09",
+    "roleId": "ba",
+    "source": {
+      "name": "We Work Remotely",
+      "url": "https://weworkremotely.com"
+    },
+    "market": "remote",
+    "month": "2026-09",
+    "postings": 0,
+    "withCertification": 0,
+    "scanned": 133,
+    "crawledAt": "2026-09-27T13:39:55.429Z"
+  },
+  {
+    "id": "We Work Remotely_devops_remote_2026-09",
+    "roleId": "devops",
+    "source": {
+      "name": "We Work Remotely",
+      "url": "https://weworkremotely.com"
+    },
+    "market": "remote",
+    "month": "2026-09",
+    "postings": 7,
+    "withCertification": 0,
+    "scanned": 133,
+    "crawledAt": "2026-09-27T13:39:55.429Z"
+  },
+  {
+    "id": "We Work Remotely_qa_remote_2026-08",
+    "roleId": "qa",
+    "source": {
+      "name": "We Work Remotely",
+      "url": "https://weworkremotely.com"
+    },
+    "market": "remote",
+    "month": "2026-08",
+    "postings": 0,
+    "withCertification": 0,
+    "scanned": 21,
+    "crawledAt": "2026-09-27T13:39:55.429Z"
+  },
+  {
+    "id": "We Work Remotely_ba_remote_2026-08",
+    "roleId": "ba",
+    "source": {
+      "name": "We Work Remotely",
+      "url": "https://weworkremotely.com"
+    },
+    "market": "remote",
+    "month": "2026-08",
+    "postings": 0,
+    "withCertification": 0,
+    "scanned": 21,
+    "crawledAt": "2026-09-27T13:39:55.429Z"
+  },
+  {
+    "id": "We Work Remotely_devops_remote_2026-08",
+    "roleId": "devops",
+    "source": {
+      "name": "We Work Remotely",
+      "url": "https://weworkremotely.com"
+    },
+    "market": "remote",
+    "month": "2026-08",
+    "postings": 0,
+    "withCertification": 0,
+    "scanned": 21,
+    "crawledAt": "2026-09-27T13:39:55.429Z"
+  },
+  {
+    "id": "We Work Remotely_qa_remote_2026-07",
+    "roleId": "qa",
+    "source": {
+      "name": "We Work Remotely",
+      "url": "https://weworkremotely.com"
+    },
+    "market": "remote",
+    "month": "2026-07",
+    "postings": 0,
+    "withCertification": 0,
+    "scanned": 4,
+    "crawledAt": "2026-09-27T13:39:55.429Z"
+  },
+  {
+    "id": "We Work Remotely_ba_remote_2026-07",
+    "roleId": "ba",
+    "source": {
+      "name": "We Work Remotely",
+      "url": "https://weworkremotely.com"
+    },
+    "market": "remote",
+    "month": "2026-07",
+    "postings": 0,
+    "withCertification": 0,
+    "scanned": 4,
+    "crawledAt": "2026-09-27T13:39:55.429Z"
+  },
+  {
+    "id": "We Work Remotely_devops_remote_2026-07",
+    "roleId": "devops",
+    "source": {
+      "name": "We Work Remotely",
+      "url": "https://weworkremotely.com"
+    },
+    "market": "remote",
+    "month": "2026-07",
+    "postings": 0,
+    "withCertification": 0,
+    "scanned": 4,
+    "crawledAt": "2026-09-27T13:39:55.429Z"
+  },
+  {
+    "id": "We Work Remotely_qa_remote_2026-05",
+    "roleId": "qa",
+    "source": {
+      "name": "We Work Remotely",
+      "url": "https://weworkremotely.com"
+    },
+    "market": "remote",
+    "month": "2026-05",
+    "postings": 0,
+    "withCertification": 0,
+    "scanned": 1,
+    "crawledAt": "2026-09-27T13:39:55.429Z"
+  },
+  {
+    "id": "We Work Remotely_ba_remote_2026-05",
+    "roleId": "ba",
+    "source": {
+      "name": "We Work Remotely",
+      "url": "https://weworkremotely.com"
+    },
+    "market": "remote",
+    "month": "2026-05",
+    "postings": 0,
+    "withCertification": 0,
+    "scanned": 1,
+    "crawledAt": "2026-09-27T13:39:55.429Z"
+  },
+  {
+    "id": "We Work Remotely_devops_remote_2026-05",
+    "roleId": "devops",
+    "source": {
+      "name": "We Work Remotely",
+      "url": "https://weworkremotely.com"
+    },
+    "market": "remote",
+    "month": "2026-05",
+    "postings": 0,
+    "withCertification": 0,
+    "scanned": 1,
+    "crawledAt": "2026-09-27T13:39:55.429Z"
+  },
+  {
+    "id": "We Work Remotely_qa_remote_2026-03",
+    "roleId": "qa",
+    "source": {
+      "name": "We Work Remotely",
+      "url": "https://weworkremotely.com"
+    },
+    "market": "remote",
+    "month": "2026-03",
+    "postings": 0,
+    "withCertification": 0,
+    "scanned": 1,
+    "crawledAt": "2026-09-19T03:35:14.305Z"
+  },
+  {
+    "id": "We Work Remotely_ba_remote_2026-03",
+    "roleId": "ba",
+    "source": {
+      "name": "We Work Remotely",
+      "url": "https://weworkremotely.com"
+    },
+    "market": "remote",
+    "month": "2026-03",
+    "postings": 0,
+    "withCertification": 0,
+    "scanned": 1,
+    "crawledAt": "2026-09-19T03:35:14.305Z"
+  },
+  {
+    "id": "We Work Remotely_devops_remote_2026-03",
+    "roleId": "devops",
+    "source": {
+      "name": "We Work Remotely",
+      "url": "https://weworkremotely.com"
+    },
+    "market": "remote",
+    "month": "2026-03",
+    "postings": 0,
+    "withCertification": 0,
+    "scanned": 1,
+    "crawledAt": "2026-09-19T03:35:14.305Z"
+  },
+  {
+    "id": "We Work Remotely_qa_remote_2026-01",
+    "roleId": "qa",
+    "source": {
+      "name": "We Work Remotely",
+      "url": "https://weworkremotely.com"
+    },
+    "market": "remote",
+    "month": "2026-01",
+    "postings": 0,
+    "withCertification": 0,
+    "scanned": 1,
+    "crawledAt": "2026-09-19T03:35:14.305Z"
+  },
+  {
+    "id": "We Work Remotely_ba_remote_2026-01",
+    "roleId": "ba",
+    "source": {
+      "name": "We Work Remotely",
+      "url": "https://weworkremotely.com"
+    },
+    "market": "remote",
+    "month": "2026-01",
+    "postings": 0,
+    "withCertification": 0,
+    "scanned": 1,
+    "crawledAt": "2026-09-19T03:35:14.305Z"
+  },
+  {
+    "id": "We Work Remotely_devops_remote_2026-01",
+    "roleId": "devops",
+    "source": {
+      "name": "We Work Remotely",
+      "url": "https://weworkremotely.com"
+    },
+    "market": "remote",
+    "month": "2026-01",
+    "postings": 0,
+    "withCertification": 0,
+    "scanned": 1,
+    "crawledAt": "2026-09-19T03:35:14.305Z"
+  },
+  {
+    "id": "We Work Remotely_qa_remote_2024-06",
+    "roleId": "qa",
+    "source": {
+      "name": "We Work Remotely",
+      "url": "https://weworkremotely.com"
+    },
+    "market": "remote",
+    "month": "2024-06",
+    "postings": 0,
+    "withCertification": 0,
+    "scanned": 2,
+    "crawledAt": "2026-09-27T13:39:55.429Z"
+  },
+  {
+    "id": "We Work Remotely_ba_remote_2024-06",
+    "roleId": "ba",
+    "source": {
+      "name": "We Work Remotely",
+      "url": "https://weworkremotely.com"
+    },
+    "market": "remote",
+    "month": "2024-06",
+    "postings": 0,
+    "withCertification": 0,
+    "scanned": 2,
+    "crawledAt": "2026-09-27T13:39:55.429Z"
+  },
+  {
+    "id": "We Work Remotely_devops_remote_2024-06",
+    "roleId": "devops",
+    "source": {
+      "name": "We Work Remotely",
+      "url": "https://weworkremotely.com"
+    },
+    "market": "remote",
+    "month": "2024-06",
+    "postings": 0,
+    "withCertification": 0,
+    "scanned": 2,
+    "crawledAt": "2026-09-27T13:39:55.429Z"
+  },
+  {
+    "id": "We Work Remotely_qa_remote_2024-05",
+    "roleId": "qa",
+    "source": {
+      "name": "We Work Remotely",
+      "url": "https://weworkremotely.com"
+    },
+    "market": "remote",
+    "month": "2024-05",
+    "postings": 0,
+    "withCertification": 0,
+    "scanned": 1,
+    "crawledAt": "2026-09-27T13:39:55.429Z"
+  },
+  {
+    "id": "We Work Remotely_ba_remote_2024-05",
+    "roleId": "ba",
+    "source": {
+      "name": "We Work Remotely",
+      "url": "https://weworkremotely.com"
+    },
+    "market": "remote",
+    "month": "2024-05",
+    "postings": 0,
+    "withCertification": 0,
+    "scanned": 1,
+    "crawledAt": "2026-09-27T13:39:55.429Z"
+  },
+  {
+    "id": "We Work Remotely_devops_remote_2024-05",
+    "roleId": "devops",
+    "source": {
+      "name": "We Work Remotely",
+      "url": "https://weworkremotely.com"
+    },
+    "market": "remote",
+    "month": "2024-05",
+    "postings": 0,
+    "withCertification": 0,
+    "scanned": 1,
+    "crawledAt": "2026-09-27T13:39:55.429Z"
+  },
+  {
+    "id": "We Work Remotely_qa_remote_2023-02",
+    "roleId": "qa",
+    "source": {
+      "name": "We Work Remotely",
+      "url": "https://weworkremotely.com"
+    },
+    "market": "remote",
+    "month": "2023-02",
+    "postings": 0,
+    "withCertification": 0,
+    "scanned": 2,
+    "crawledAt": "2026-09-27T13:39:55.429Z"
+  },
+  {
+    "id": "We Work Remotely_ba_remote_2023-02",
+    "roleId": "ba",
+    "source": {
+      "name": "We Work Remotely",
+      "url": "https://weworkremotely.com"
+    },
+    "market": "remote",
+    "month": "2023-02",
+    "postings": 0,
+    "withCertification": 0,
+    "scanned": 2,
+    "crawledAt": "2026-09-27T13:39:55.429Z"
+  },
+  {
+    "id": "We Work Remotely_devops_remote_2023-02",
+    "roleId": "devops",
+    "source": {
+      "name": "We Work Remotely",
+      "url": "https://weworkremotely.com"
+    },
+    "market": "remote",
+    "month": "2023-02",
+    "postings": 0,
+    "withCertification": 0,
+    "scanned": 2,
+    "crawledAt": "2026-09-27T13:39:55.429Z"
+  },
+  {
+    "id": "Remote OK_qa_remote_2026-09",
+    "roleId": "qa",
+    "source": {
+      "name": "Remote OK",
+      "url": "https://remoteok.com"
+    },
+    "market": "remote",
+    "month": "2026-09",
+    "postings": 1,
+    "withCertification": 0,
+    "scanned": 38,
+    "crawledAt": "2026-09-27T13:39:55.429Z"
+  },
+  {
+    "id": "Remote OK_ba_remote_2026-09",
+    "roleId": "ba",
+    "source": {
+      "name": "Remote OK",
+      "url": "https://remoteok.com"
+    },
+    "market": "remote",
+    "month": "2026-09",
+    "postings": 0,
+    "withCertification": 0,
+    "scanned": 38,
+    "crawledAt": "2026-09-27T13:39:55.429Z"
+  },
+  {
+    "id": "Remote OK_devops_remote_2026-09",
+    "roleId": "devops",
+    "source": {
+      "name": "Remote OK",
+      "url": "https://remoteok.com"
+    },
+    "market": "remote",
+    "month": "2026-09",
+    "postings": 0,
+    "withCertification": 0,
+    "scanned": 38,
+    "crawledAt": "2026-09-27T13:39:55.429Z"
+  },
+  {
+    "id": "Remote OK_qa_remote_2026-08",
+    "roleId": "qa",
+    "source": {
+      "name": "Remote OK",
+      "url": "https://remoteok.com"
+    },
+    "market": "remote",
+    "month": "2026-08",
+    "postings": 1,
+    "withCertification": 1,
+    "scanned": 56,
+    "crawledAt": "2026-09-27T13:39:55.429Z"
+  },
+  {
+    "id": "Remote OK_ba_remote_2026-08",
+    "roleId": "ba",
+    "source": {
+      "name": "Remote OK",
+      "url": "https://remoteok.com"
+    },
+    "market": "remote",
+    "month": "2026-08",
+    "postings": 0,
+    "withCertification": 0,
+    "scanned": 56,
+    "crawledAt": "2026-09-27T13:39:55.429Z"
+  },
+  {
+    "id": "Remote OK_devops_remote_2026-08",
+    "roleId": "devops",
+    "source": {
+      "name": "Remote OK",
+      "url": "https://remoteok.com"
+    },
+    "market": "remote",
+    "month": "2026-08",
+    "postings": 0,
+    "withCertification": 0,
+    "scanned": 56,
+    "crawledAt": "2026-09-27T13:39:55.429Z"
+  },
+  {
+    "id": "Remote OK_qa_remote_2026-07",
+    "roleId": "qa",
+    "source": {
+      "name": "Remote OK",
+      "url": "https://remoteok.com"
+    },
+    "market": "remote",
+    "month": "2026-07",
+    "postings": 0,
+    "withCertification": 0,
+    "scanned": 4,
+    "crawledAt": "2026-09-27T13:39:55.429Z"
+  },
+  {
+    "id": "Remote OK_ba_remote_2026-07",
+    "roleId": "ba",
+    "source": {
+      "name": "Remote OK",
+      "url": "https://remoteok.com"
+    },
+    "market": "remote",
+    "month": "2026-07",
+    "postings": 0,
+    "withCertification": 0,
+    "scanned": 4,
+    "crawledAt": "2026-09-27T13:39:55.429Z"
+  },
+  {
+    "id": "Remote OK_devops_remote_2026-07",
+    "roleId": "devops",
+    "source": {
+      "name": "Remote OK",
+      "url": "https://remoteok.com"
+    },
+    "market": "remote",
+    "month": "2026-07",
+    "postings": 0,
+    "withCertification": 0,
+    "scanned": 4,
+    "crawledAt": "2026-09-27T13:39:55.429Z"
+  },
+  {
+    "id": "Arbeitnow_qa_global_2026-09",
+    "roleId": "qa",
+    "source": {
+      "name": "Arbeitnow",
+      "url": "https://www.arbeitnow.com"
+    },
+    "market": "global",
+    "month": "2026-09",
+    "postings": 10,
+    "withCertification": 1,
+    "scanned": 1147,
+    "crawledAt": "2026-09-27T13:39:55.429Z"
+  },
+  {
+    "id": "Arbeitnow_ba_global_2026-09",
+    "roleId": "ba",
+    "source": {
+      "name": "Arbeitnow",
+      "url": "https://www.arbeitnow.com"
+    },
+    "market": "global",
+    "month": "2026-09",
+    "postings": 1,
+    "withCertification": 0,
+    "scanned": 1147,
+    "crawledAt": "2026-09-27T13:39:55.429Z"
+  },
+  {
+    "id": "Arbeitnow_devops_global_2026-09",
+    "roleId": "devops",
+    "source": {
+      "name": "Arbeitnow",
+      "url": "https://www.arbeitnow.com"
+    },
+    "market": "global",
+    "month": "2026-09",
+    "postings": 23,
+    "withCertification": 1,
+    "scanned": 1147,
+    "crawledAt": "2026-09-27T13:39:55.429Z"
+  },
+  {
+    "id": "Arbeitnow_qa_remote_2026-09",
+    "roleId": "qa",
+    "source": {
+      "name": "Arbeitnow",
+      "url": "https://www.arbeitnow.com"
+    },
+    "market": "remote",
+    "month": "2026-09",
+    "postings": 0,
+    "withCertification": 0,
+    "scanned": 103,
+    "crawledAt": "2026-09-27T13:39:55.429Z"
+  },
+  {
+    "id": "Arbeitnow_ba_remote_2026-09",
+    "roleId": "ba",
+    "source": {
+      "name": "Arbeitnow",
+      "url": "https://www.arbeitnow.com"
+    },
+    "market": "remote",
+    "month": "2026-09",
+    "postings": 2,
+    "withCertification": 0,
+    "scanned": 103,
+    "crawledAt": "2026-09-27T13:39:55.429Z"
+  },
+  {
+    "id": "Arbeitnow_devops_remote_2026-09",
+    "roleId": "devops",
+    "source": {
+      "name": "Arbeitnow",
+      "url": "https://www.arbeitnow.com"
+    },
+    "market": "remote",
+    "month": "2026-09",
+    "postings": 2,
+    "withCertification": 0,
+    "scanned": 103,
+    "crawledAt": "2026-09-27T13:39:55.429Z"
+  },
+  {
+    "id": "Himalayas_qa_remote_2026-09",
+    "roleId": "qa",
+    "source": {
+      "name": "Himalayas",
+      "url": "https://himalayas.app"
+    },
+    "market": "remote",
+    "month": "2026-09",
+    "postings": 2,
+    "withCertification": 0,
+    "scanned": 160,
+    "crawledAt": "2026-09-27T13:39:55.429Z"
+  },
+  {
+    "id": "Himalayas_ba_remote_2026-09",
+    "roleId": "ba",
+    "source": {
+      "name": "Himalayas",
+      "url": "https://himalayas.app"
+    },
+    "market": "remote",
+    "month": "2026-09",
+    "postings": 2,
+    "withCertification": 0,
+    "scanned": 160,
+    "crawledAt": "2026-09-27T13:39:55.429Z"
+  },
+  {
+    "id": "Himalayas_devops_remote_2026-09",
+    "roleId": "devops",
+    "source": {
+      "name": "Himalayas",
+      "url": "https://himalayas.app"
+    },
+    "market": "remote",
+    "month": "2026-09",
+    "postings": 2,
+    "withCertification": 1,
+    "scanned": 160,
+    "crawledAt": "2026-09-27T13:39:55.429Z"
+  },
+  {
+    "id": "Himalayas_qa_japan_2026-09",
+    "roleId": "qa",
+    "source": {
+      "name": "Himalayas",
+      "url": "https://himalayas.app"
+    },
+    "market": "japan",
+    "month": "2026-09",
+    "postings": 0,
+    "withCertification": 0,
+    "scanned": 1,
+    "crawledAt": "2026-09-19T03:35:14.305Z"
+  },
+  {
+    "id": "Himalayas_ba_japan_2026-09",
+    "roleId": "ba",
+    "source": {
+      "name": "Himalayas",
+      "url": "https://himalayas.app"
+    },
+    "market": "japan",
+    "month": "2026-09",
+    "postings": 0,
+    "withCertification": 0,
+    "scanned": 1,
+    "crawledAt": "2026-09-19T03:35:14.305Z"
+  },
+  {
+    "id": "Himalayas_devops_japan_2026-09",
+    "roleId": "devops",
+    "source": {
+      "name": "Himalayas",
+      "url": "https://himalayas.app"
+    },
+    "market": "japan",
+    "month": "2026-09",
+    "postings": 0,
+    "withCertification": 0,
+    "scanned": 1,
+    "crawledAt": "2026-09-19T03:35:14.305Z"
+  },
+  {
+    "id": "Himalayas_qa_singapore_2026-09",
+    "roleId": "qa",
+    "source": {
+      "name": "Himalayas",
+      "url": "https://himalayas.app"
+    },
+    "market": "singapore",
+    "month": "2026-09",
+    "postings": 0,
+    "withCertification": 0,
+    "scanned": 1,
+    "crawledAt": "2026-09-27T12:10:21.647Z"
+  },
+  {
+    "id": "Himalayas_ba_singapore_2026-09",
+    "roleId": "ba",
+    "source": {
+      "name": "Himalayas",
+      "url": "https://himalayas.app"
+    },
+    "market": "singapore",
+    "month": "2026-09",
+    "postings": 0,
+    "withCertification": 0,
+    "scanned": 1,
+    "crawledAt": "2026-09-27T12:10:21.647Z"
+  },
+  {
+    "id": "Himalayas_devops_singapore_2026-09",
+    "roleId": "devops",
+    "source": {
+      "name": "Himalayas",
+      "url": "https://himalayas.app"
+    },
+    "market": "singapore",
+    "month": "2026-09",
+    "postings": 0,
+    "withCertification": 0,
+    "scanned": 1,
+    "crawledAt": "2026-09-27T12:10:21.647Z"
+  },
+  {
+    "id": "Greenhouse_qa_global_2026-09",
+    "roleId": "qa",
+    "source": {
+      "name": "Greenhouse",
+      "url": "https://www.greenhouse.io"
+    },
+    "market": "global",
+    "month": "2026-09",
+    "postings": 2,
+    "withCertification": 0,
+    "scanned": 2079,
+    "crawledAt": "2026-09-27T13:39:55.429Z"
+  },
+  {
+    "id": "Greenhouse_ba_global_2026-09",
+    "roleId": "ba",
+    "source": {
+      "name": "Greenhouse",
+      "url": "https://www.greenhouse.io"
+    },
+    "market": "global",
+    "month": "2026-09",
+    "postings": 2,
+    "withCertification": 0,
+    "scanned": 2079,
+    "crawledAt": "2026-09-27T13:39:55.429Z"
+  },
+  {
+    "id": "Greenhouse_devops_global_2026-09",
+    "roleId": "devops",
+    "source": {
+      "name": "Greenhouse",
+      "url": "https://www.greenhouse.io"
+    },
+    "market": "global",
+    "month": "2026-09",
+    "postings": 45,
+    "withCertification": 4,
+    "scanned": 2079,
+    "crawledAt": "2026-09-27T13:39:55.429Z"
+  },
+  {
+    "id": "Greenhouse_qa_remote_2026-09",
+    "roleId": "qa",
+    "source": {
+      "name": "Greenhouse",
+      "url": "https://www.greenhouse.io"
+    },
+    "market": "remote",
+    "month": "2026-09",
+    "postings": 0,
+    "withCertification": 0,
+    "scanned": 846,
+    "crawledAt": "2026-09-27T13:39:55.429Z"
+  },
+  {
+    "id": "Greenhouse_ba_remote_2026-09",
+    "roleId": "ba",
+    "source": {
+      "name": "Greenhouse",
+      "url": "https://www.greenhouse.io"
+    },
+    "market": "remote",
+    "month": "2026-09",
+    "postings": 1,
+    "withCertification": 0,
+    "scanned": 846,
+    "crawledAt": "2026-09-27T13:39:55.429Z"
+  },
+  {
+    "id": "Greenhouse_devops_remote_2026-09",
+    "roleId": "devops",
+    "source": {
+      "name": "Greenhouse",
+      "url": "https://www.greenhouse.io"
+    },
+    "market": "remote",
+    "month": "2026-09",
+    "postings": 13,
+    "withCertification": 0,
+    "scanned": 846,
+    "crawledAt": "2026-09-27T13:39:55.429Z"
+  },
+  {
+    "id": "Greenhouse_qa_japan_2026-09",
+    "roleId": "qa",
+    "source": {
+      "name": "Greenhouse",
+      "url": "https://www.greenhouse.io"
+    },
+    "market": "japan",
+    "month": "2026-09",
+    "postings": 0,
+    "withCertification": 0,
+    "scanned": 49,
+    "crawledAt": "2026-09-27T13:39:55.429Z"
+  },
+  {
+    "id": "Greenhouse_ba_japan_2026-09",
+    "roleId": "ba",
+    "source": {
+      "name": "Greenhouse",
+      "url": "https://www.greenhouse.io"
+    },
+    "market": "japan",
+    "month": "2026-09",
+    "postings": 0,
+    "withCertification": 0,
+    "scanned": 49,
+    "crawledAt": "2026-09-27T13:39:55.429Z"
+  },
+  {
+    "id": "Greenhouse_devops_japan_2026-09",
+    "roleId": "devops",
+    "source": {
+      "name": "Greenhouse",
+      "url": "https://www.greenhouse.io"
+    },
+    "market": "japan",
+    "month": "2026-09",
+    "postings": 0,
+    "withCertification": 0,
+    "scanned": 49,
+    "crawledAt": "2026-09-27T13:39:55.429Z"
+  },
+  {
+    "id": "Greenhouse_qa_singapore_2026-09",
+    "roleId": "qa",
+    "source": {
+      "name": "Greenhouse",
+      "url": "https://www.greenhouse.io"
+    },
+    "market": "singapore",
+    "month": "2026-09",
+    "postings": 0,
+    "withCertification": 0,
+    "scanned": 51,
+    "crawledAt": "2026-09-27T13:39:55.429Z"
+  },
+  {
+    "id": "Greenhouse_ba_singapore_2026-09",
+    "roleId": "ba",
+    "source": {
+      "name": "Greenhouse",
+      "url": "https://www.greenhouse.io"
+    },
+    "market": "singapore",
+    "month": "2026-09",
+    "postings": 0,
+    "withCertification": 0,
+    "scanned": 51,
+    "crawledAt": "2026-09-27T13:39:55.429Z"
+  },
+  {
+    "id": "Greenhouse_devops_singapore_2026-09",
+    "roleId": "devops",
+    "source": {
+      "name": "Greenhouse",
+      "url": "https://www.greenhouse.io"
+    },
+    "market": "singapore",
+    "month": "2026-09",
+    "postings": 0,
+    "withCertification": 0,
+    "scanned": 51,
+    "crawledAt": "2026-09-27T13:39:55.429Z"
+  },
+  {
+    "id": "Greenhouse_qa_global_2026-08",
+    "roleId": "qa",
+    "source": {
+      "name": "Greenhouse",
+      "url": "https://www.greenhouse.io"
+    },
+    "market": "global",
+    "month": "2026-08",
+    "postings": 0,
+    "withCertification": 0,
+    "scanned": 4,
+    "crawledAt": "2026-09-27T13:39:55.429Z"
+  },
+  {
+    "id": "Greenhouse_ba_global_2026-08",
+    "roleId": "ba",
+    "source": {
+      "name": "Greenhouse",
+      "url": "https://www.greenhouse.io"
+    },
+    "market": "global",
+    "month": "2026-08",
+    "postings": 0,
+    "withCertification": 0,
+    "scanned": 4,
+    "crawledAt": "2026-09-27T13:39:55.429Z"
+  },
+  {
+    "id": "Greenhouse_devops_global_2026-08",
+    "roleId": "devops",
+    "source": {
+      "name": "Greenhouse",
+      "url": "https://www.greenhouse.io"
+    },
+    "market": "global",
+    "month": "2026-08",
+    "postings": 0,
+    "withCertification": 0,
+    "scanned": 4,
+    "crawledAt": "2026-09-27T13:39:55.429Z"
+  },
+  {
+    "id": "Greenhouse_qa_singapore_2026-08",
+    "roleId": "qa",
+    "source": {
+      "name": "Greenhouse",
+      "url": "https://www.greenhouse.io"
+    },
+    "market": "singapore",
+    "month": "2026-08",
+    "postings": 0,
+    "withCertification": 0,
+    "scanned": 2,
+    "crawledAt": "2026-09-27T13:39:55.429Z"
+  },
+  {
+    "id": "Greenhouse_ba_singapore_2026-08",
+    "roleId": "ba",
+    "source": {
+      "name": "Greenhouse",
+      "url": "https://www.greenhouse.io"
+    },
+    "market": "singapore",
+    "month": "2026-08",
+    "postings": 0,
+    "withCertification": 0,
+    "scanned": 2,
+    "crawledAt": "2026-09-27T13:39:55.429Z"
+  },
+  {
+    "id": "Greenhouse_devops_singapore_2026-08",
+    "roleId": "devops",
+    "source": {
+      "name": "Greenhouse",
+      "url": "https://www.greenhouse.io"
+    },
+    "market": "singapore",
+    "month": "2026-08",
+    "postings": 0,
+    "withCertification": 0,
+    "scanned": 2,
+    "crawledAt": "2026-09-27T13:39:55.429Z"
+  },
+  {
+    "id": "Greenhouse_qa_remote_2026-08",
+    "roleId": "qa",
+    "source": {
+      "name": "Greenhouse",
+      "url": "https://www.greenhouse.io"
+    },
+    "market": "remote",
+    "month": "2026-08",
+    "postings": 0,
+    "withCertification": 0,
+    "scanned": 57,
+    "crawledAt": "2026-09-27T13:39:55.429Z"
+  },
+  {
+    "id": "Greenhouse_ba_remote_2026-08",
+    "roleId": "ba",
+    "source": {
+      "name": "Greenhouse",
+      "url": "https://www.greenhouse.io"
+    },
+    "market": "remote",
+    "month": "2026-08",
+    "postings": 0,
+    "withCertification": 0,
+    "scanned": 57,
+    "crawledAt": "2026-09-27T13:39:55.429Z"
+  },
+  {
+    "id": "Greenhouse_devops_remote_2026-08",
+    "roleId": "devops",
+    "source": {
+      "name": "Greenhouse",
+      "url": "https://www.greenhouse.io"
+    },
+    "market": "remote",
+    "month": "2026-08",
+    "postings": 0,
+    "withCertification": 0,
+    "scanned": 57,
+    "crawledAt": "2026-09-27T13:39:55.429Z"
+  },
+  {
+    "id": "Greenhouse_qa_japan_2026-08",
+    "roleId": "qa",
+    "source": {
+      "name": "Greenhouse",
+      "url": "https://www.greenhouse.io"
+    },
+    "market": "japan",
+    "month": "2026-08",
+    "postings": 0,
+    "withCertification": 0,
+    "scanned": 1,
+    "crawledAt": "2026-09-19T03:35:14.305Z"
+  },
+  {
+    "id": "Greenhouse_ba_japan_2026-08",
+    "roleId": "ba",
+    "source": {
+      "name": "Greenhouse",
+      "url": "https://www.greenhouse.io"
+    },
+    "market": "japan",
+    "month": "2026-08",
+    "postings": 0,
+    "withCertification": 0,
+    "scanned": 1,
+    "crawledAt": "2026-09-19T03:35:14.305Z"
+  },
+  {
+    "id": "Greenhouse_devops_japan_2026-08",
+    "roleId": "devops",
+    "source": {
+      "name": "Greenhouse",
+      "url": "https://www.greenhouse.io"
+    },
+    "market": "japan",
+    "month": "2026-08",
+    "postings": 0,
+    "withCertification": 0,
+    "scanned": 1,
+    "crawledAt": "2026-09-19T03:35:14.305Z"
+  },
+  {
+    "id": "Greenhouse_qa_remote_2026-07",
+    "roleId": "qa",
+    "source": {
+      "name": "Greenhouse",
+      "url": "https://www.greenhouse.io"
+    },
+    "market": "remote",
+    "month": "2026-07",
+    "postings": 0,
+    "withCertification": 0,
+    "scanned": 27,
+    "crawledAt": "2026-09-27T13:39:55.429Z"
+  },
+  {
+    "id": "Greenhouse_ba_remote_2026-07",
+    "roleId": "ba",
+    "source": {
+      "name": "Greenhouse",
+      "url": "https://www.greenhouse.io"
+    },
+    "market": "remote",
+    "month": "2026-07",
+    "postings": 0,
+    "withCertification": 0,
+    "scanned": 27,
+    "crawledAt": "2026-09-27T13:39:55.429Z"
+  },
+  {
+    "id": "Greenhouse_devops_remote_2026-07",
+    "roleId": "devops",
+    "source": {
+      "name": "Greenhouse",
+      "url": "https://www.greenhouse.io"
+    },
+    "market": "remote",
+    "month": "2026-07",
+    "postings": 0,
+    "withCertification": 0,
+    "scanned": 27,
+    "crawledAt": "2026-09-27T13:39:55.429Z"
+  },
+  {
+    "id": "Greenhouse_qa_global_2026-07",
+    "roleId": "qa",
+    "source": {
+      "name": "Greenhouse",
+      "url": "https://www.greenhouse.io"
+    },
+    "market": "global",
+    "month": "2026-07",
+    "postings": 1,
+    "withCertification": 0,
+    "scanned": 10,
+    "crawledAt": "2026-09-27T13:39:55.429Z"
+  },
+  {
+    "id": "Greenhouse_ba_global_2026-07",
+    "roleId": "ba",
+    "source": {
+      "name": "Greenhouse",
+      "url": "https://www.greenhouse.io"
+    },
+    "market": "global",
+    "month": "2026-07",
+    "postings": 0,
+    "withCertification": 0,
+    "scanned": 10,
+    "crawledAt": "2026-09-27T13:39:55.429Z"
+  },
+  {
+    "id": "Greenhouse_devops_global_2026-07",
+    "roleId": "devops",
+    "source": {
+      "name": "Greenhouse",
+      "url": "https://www.greenhouse.io"
+    },
+    "market": "global",
+    "month": "2026-07",
+    "postings": 0,
+    "withCertification": 0,
+    "scanned": 10,
+    "crawledAt": "2026-09-27T13:39:55.429Z"
+  },
+  {
+    "id": "Greenhouse_qa_global_2026-06",
+    "roleId": "qa",
+    "source": {
+      "name": "Greenhouse",
+      "url": "https://www.greenhouse.io"
+    },
+    "market": "global",
+    "month": "2026-06",
+    "postings": 0,
+    "withCertification": 0,
+    "scanned": 2,
+    "crawledAt": "2026-09-27T13:39:55.429Z"
+  },
+  {
+    "id": "Greenhouse_ba_global_2026-06",
+    "roleId": "ba",
+    "source": {
+      "name": "Greenhouse",
+      "url": "https://www.greenhouse.io"
+    },
+    "market": "global",
+    "month": "2026-06",
+    "postings": 0,
+    "withCertification": 0,
+    "scanned": 2,
+    "crawledAt": "2026-09-27T13:39:55.429Z"
+  },
+  {
+    "id": "Greenhouse_devops_global_2026-06",
+    "roleId": "devops",
+    "source": {
+      "name": "Greenhouse",
+      "url": "https://www.greenhouse.io"
+    },
+    "market": "global",
+    "month": "2026-06",
+    "postings": 0,
+    "withCertification": 0,
+    "scanned": 2,
+    "crawledAt": "2026-09-27T13:39:55.429Z"
+  },
+  {
+    "id": "Greenhouse_qa_singapore_2026-06",
+    "roleId": "qa",
+    "source": {
+      "name": "Greenhouse",
+      "url": "https://www.greenhouse.io"
+    },
+    "market": "singapore",
+    "month": "2026-06",
+    "postings": 0,
+    "withCertification": 0,
+    "scanned": 1,
+    "crawledAt": "2026-09-27T13:39:55.429Z"
+  },
+  {
+    "id": "Greenhouse_ba_singapore_2026-06",
+    "roleId": "ba",
+    "source": {
+      "name": "Greenhouse",
+      "url": "https://www.greenhouse.io"
+    },
+    "market": "singapore",
+    "month": "2026-06",
+    "postings": 0,
+    "withCertification": 0,
+    "scanned": 1,
+    "crawledAt": "2026-09-27T13:39:55.429Z"
+  },
+  {
+    "id": "Greenhouse_devops_singapore_2026-06",
+    "roleId": "devops",
+    "source": {
+      "name": "Greenhouse",
+      "url": "https://www.greenhouse.io"
+    },
+    "market": "singapore",
+    "month": "2026-06",
+    "postings": 0,
+    "withCertification": 0,
+    "scanned": 1,
+    "crawledAt": "2026-09-27T13:39:55.429Z"
+  },
+  {
+    "id": "Greenhouse_qa_singapore_2026-07",
+    "roleId": "qa",
+    "source": {
+      "name": "Greenhouse",
+      "url": "https://www.greenhouse.io"
+    },
+    "market": "singapore",
+    "month": "2026-07",
+    "postings": 0,
+    "withCertification": 0,
+    "scanned": 2,
+    "crawledAt": "2026-09-27T13:39:55.429Z"
+  },
+  {
+    "id": "Greenhouse_ba_singapore_2026-07",
+    "roleId": "ba",
+    "source": {
+      "name": "Greenhouse",
+      "url": "https://www.greenhouse.io"
+    },
+    "market": "singapore",
+    "month": "2026-07",
+    "postings": 0,
+    "withCertification": 0,
+    "scanned": 2,
+    "crawledAt": "2026-09-27T13:39:55.429Z"
+  },
+  {
+    "id": "Greenhouse_devops_singapore_2026-07",
+    "roleId": "devops",
+    "source": {
+      "name": "Greenhouse",
+      "url": "https://www.greenhouse.io"
+    },
+    "market": "singapore",
+    "month": "2026-07",
+    "postings": 0,
+    "withCertification": 0,
+    "scanned": 2,
+    "crawledAt": "2026-09-27T13:39:55.429Z"
+  },
+  {
+    "id": "Greenhouse_qa_remote_2026-06",
+    "roleId": "qa",
+    "source": {
+      "name": "Greenhouse",
+      "url": "https://www.greenhouse.io"
+    },
+    "market": "remote",
+    "month": "2026-06",
+    "postings": 0,
+    "withCertification": 0,
+    "scanned": 11,
+    "crawledAt": "2026-09-27T13:39:55.429Z"
+  },
+  {
+    "id": "Greenhouse_ba_remote_2026-06",
+    "roleId": "ba",
+    "source": {
+      "name": "Greenhouse",
+      "url": "https://www.greenhouse.io"
+    },
+    "market": "remote",
+    "month": "2026-06",
+    "postings": 0,
+    "withCertification": 0,
+    "scanned": 11,
+    "crawledAt": "2026-09-27T13:39:55.429Z"
+  },
+  {
+    "id": "Greenhouse_devops_remote_2026-06",
+    "roleId": "devops",
+    "source": {
+      "name": "Greenhouse",
+      "url": "https://www.greenhouse.io"
+    },
+    "market": "remote",
+    "month": "2026-06",
+    "postings": 0,
+    "withCertification": 0,
+    "scanned": 11,
+    "crawledAt": "2026-09-27T13:39:55.429Z"
+  },
+  {
+    "id": "Greenhouse_qa_remote_2026-05",
+    "roleId": "qa",
+    "source": {
+      "name": "Greenhouse",
+      "url": "https://www.greenhouse.io"
+    },
+    "market": "remote",
+    "month": "2026-05",
+    "postings": 0,
+    "withCertification": 0,
+    "scanned": 5,
+    "crawledAt": "2026-09-27T13:39:55.429Z"
+  },
+  {
+    "id": "Greenhouse_ba_remote_2026-05",
+    "roleId": "ba",
+    "source": {
+      "name": "Greenhouse",
+      "url": "https://www.greenhouse.io"
+    },
+    "market": "remote",
+    "month": "2026-05",
+    "postings": 0,
+    "withCertification": 0,
+    "scanned": 5,
+    "crawledAt": "2026-09-27T13:39:55.429Z"
+  },
+  {
+    "id": "Greenhouse_devops_remote_2026-05",
+    "roleId": "devops",
+    "source": {
+      "name": "Greenhouse",
+      "url": "https://www.greenhouse.io"
+    },
+    "market": "remote",
+    "month": "2026-05",
+    "postings": 0,
+    "withCertification": 0,
+    "scanned": 5,
+    "crawledAt": "2026-09-27T13:39:55.429Z"
+  },
+  {
+    "id": "ITviec_qa_vietnam_2026-09",
+    "roleId": "qa",
+    "source": {
+      "name": "ITviec",
+      "url": "https://itviec.com"
+    },
+    "market": "vietnam",
+    "month": "2026-09",
+    "postings": 23,
+    "withCertification": 3,
+    "scanned": 250,
+    "crawledAt": "2026-09-27T13:39:55.429Z"
+  },
+  {
+    "id": "ITviec_ba_vietnam_2026-09",
+    "roleId": "ba",
+    "source": {
+      "name": "ITviec",
+      "url": "https://itviec.com"
+    },
+    "market": "vietnam",
+    "month": "2026-09",
+    "postings": 9,
+    "withCertification": 2,
+    "scanned": 250,
+    "crawledAt": "2026-09-27T13:39:55.429Z"
+  },
+  {
+    "id": "ITviec_devops_vietnam_2026-09",
+    "roleId": "devops",
+    "source": {
+      "name": "ITviec",
+      "url": "https://itviec.com"
+    },
+    "market": "vietnam",
+    "month": "2026-09",
+    "postings": 27,
+    "withCertification": 11,
+    "scanned": 250,
+    "crawledAt": "2026-09-27T13:39:55.429Z"
+  },
+  {
+    "id": "ITviec_qa_vietnam_2026-08",
+    "roleId": "qa",
+    "source": {
+      "name": "ITviec",
+      "url": "https://itviec.com"
+    },
+    "market": "vietnam",
+    "month": "2026-08",
+    "postings": 1,
+    "withCertification": 1,
+    "scanned": 12,
+    "crawledAt": "2026-09-27T13:39:55.429Z"
+  },
+  {
+    "id": "ITviec_ba_vietnam_2026-08",
+    "roleId": "ba",
+    "source": {
+      "name": "ITviec",
+      "url": "https://itviec.com"
+    },
+    "market": "vietnam",
+    "month": "2026-08",
+    "postings": 0,
+    "withCertification": 0,
+    "scanned": 12,
+    "crawledAt": "2026-09-27T13:39:55.429Z"
+  },
+  {
+    "id": "ITviec_devops_vietnam_2026-08",
+    "roleId": "devops",
+    "source": {
+      "name": "ITviec",
+      "url": "https://itviec.com"
+    },
+    "market": "vietnam",
+    "month": "2026-08",
+    "postings": 3,
+    "withCertification": 2,
+    "scanned": 12,
+    "crawledAt": "2026-09-27T13:39:55.429Z"
+  },
+  {
+    "id": "ITviec_qa_global_2026-09",
+    "roleId": "qa",
+    "source": {
+      "name": "ITviec",
+      "url": "https://itviec.com"
+    },
+    "market": "global",
+    "month": "2026-09",
+    "postings": 0,
+    "withCertification": 0,
+    "scanned": 2,
+    "crawledAt": "2026-09-27T13:39:55.429Z"
+  },
+  {
+    "id": "ITviec_ba_global_2026-09",
+    "roleId": "ba",
+    "source": {
+      "name": "ITviec",
+      "url": "https://itviec.com"
+    },
+    "market": "global",
+    "month": "2026-09",
+    "postings": 0,
+    "withCertification": 0,
+    "scanned": 2,
+    "crawledAt": "2026-09-27T13:39:55.429Z"
+  },
+  {
+    "id": "ITviec_devops_global_2026-09",
+    "roleId": "devops",
+    "source": {
+      "name": "ITviec",
+      "url": "https://itviec.com"
+    },
+    "market": "global",
+    "month": "2026-09",
+    "postings": 0,
+    "withCertification": 0,
+    "scanned": 2,
+    "crawledAt": "2026-09-27T13:39:55.429Z"
+  },
+  {
+    "id": "We Work Remotely_qa_remote_2026-04",
+    "roleId": "qa",
+    "source": {
+      "name": "We Work Remotely",
+      "url": "https://weworkremotely.com"
+    },
+    "market": "remote",
+    "month": "2026-04",
+    "postings": 0,
+    "withCertification": 0,
+    "scanned": 1,
+    "crawledAt": "2026-09-27T02:46:48.805Z"
+  },
+  {
+    "id": "We Work Remotely_ba_remote_2026-04",
+    "roleId": "ba",
+    "source": {
+      "name": "We Work Remotely",
+      "url": "https://weworkremotely.com"
+    },
+    "market": "remote",
+    "month": "2026-04",
+    "postings": 0,
+    "withCertification": 0,
+    "scanned": 1,
+    "crawledAt": "2026-09-27T02:46:48.805Z"
+  },
+  {
+    "id": "We Work Remotely_devops_remote_2026-04",
+    "roleId": "devops",
+    "source": {
+      "name": "We Work Remotely",
+      "url": "https://weworkremotely.com"
+    },
+    "market": "remote",
+    "month": "2026-04",
+    "postings": 0,
+    "withCertification": 0,
+    "scanned": 1,
+    "crawledAt": "2026-09-27T02:46:48.805Z"
+  },
+  {
+    "id": "Remote OK_qa_singapore_2026-09",
+    "roleId": "qa",
+    "source": {
+      "name": "Remote OK",
+      "url": "https://remoteok.com"
+    },
+    "market": "singapore",
+    "month": "2026-09",
+    "postings": 0,
+    "withCertification": 0,
+    "scanned": 1,
+    "crawledAt": "2026-09-27T13:39:55.429Z"
+  },
+  {
+    "id": "Remote OK_ba_singapore_2026-09",
+    "roleId": "ba",
+    "source": {
+      "name": "Remote OK",
+      "url": "https://remoteok.com"
+    },
+    "market": "singapore",
+    "month": "2026-09",
+    "postings": 0,
+    "withCertification": 0,
+    "scanned": 1,
+    "crawledAt": "2026-09-27T13:39:55.429Z"
+  },
+  {
+    "id": "Remote OK_devops_singapore_2026-09",
+    "roleId": "devops",
+    "source": {
+      "name": "Remote OK",
+      "url": "https://remoteok.com"
+    },
+    "market": "singapore",
+    "month": "2026-09",
+    "postings": 0,
+    "withCertification": 0,
+    "scanned": 1,
+    "crawledAt": "2026-09-27T13:39:55.429Z"
+  },
+  {
+    "id": "TokyoDev_qa_japan_2026-09",
+    "roleId": "qa",
+    "source": {
+      "name": "TokyoDev",
+      "url": "https://www.tokyodev.com"
+    },
+    "market": "japan",
+    "month": "2026-09",
+    "postings": 0,
+    "withCertification": 0,
+    "scanned": 7,
+    "crawledAt": "2026-09-27T12:10:21.647Z"
+  },
+  {
+    "id": "TokyoDev_ba_japan_2026-09",
+    "roleId": "ba",
+    "source": {
+      "name": "TokyoDev",
+      "url": "https://www.tokyodev.com"
+    },
+    "market": "japan",
+    "month": "2026-09",
+    "postings": 0,
+    "withCertification": 0,
+    "scanned": 7,
+    "crawledAt": "2026-09-27T12:10:21.647Z"
+  },
+  {
+    "id": "TokyoDev_devops_japan_2026-09",
+    "roleId": "devops",
+    "source": {
+      "name": "TokyoDev",
+      "url": "https://www.tokyodev.com"
+    },
+    "market": "japan",
+    "month": "2026-09",
+    "postings": 0,
+    "withCertification": 0,
+    "scanned": 7,
+    "crawledAt": "2026-09-27T12:10:21.647Z"
+  },
+  {
+    "id": "TokyoDev_qa_japan_2025-02",
+    "roleId": "qa",
+    "source": {
+      "name": "TokyoDev",
+      "url": "https://www.tokyodev.com"
+    },
+    "market": "japan",
+    "month": "2025-02",
+    "postings": 0,
+    "withCertification": 0,
+    "scanned": 1,
+    "crawledAt": "2026-09-27T12:10:21.647Z"
+  },
+  {
+    "id": "TokyoDev_ba_japan_2025-02",
+    "roleId": "ba",
+    "source": {
+      "name": "TokyoDev",
+      "url": "https://www.tokyodev.com"
+    },
+    "market": "japan",
+    "month": "2025-02",
+    "postings": 0,
+    "withCertification": 0,
+    "scanned": 1,
+    "crawledAt": "2026-09-27T12:10:21.647Z"
+  },
+  {
+    "id": "TokyoDev_devops_japan_2025-02",
+    "roleId": "devops",
+    "source": {
+      "name": "TokyoDev",
+      "url": "https://www.tokyodev.com"
+    },
+    "market": "japan",
+    "month": "2025-02",
+    "postings": 0,
+    "withCertification": 0,
+    "scanned": 1,
+    "crawledAt": "2026-09-27T12:10:21.647Z"
+  },
+  {
+    "id": "TokyoDev_qa_japan_2024-11",
+    "roleId": "qa",
+    "source": {
+      "name": "TokyoDev",
+      "url": "https://www.tokyodev.com"
+    },
+    "market": "japan",
+    "month": "2024-11",
+    "postings": 0,
+    "withCertification": 0,
+    "scanned": 1,
+    "crawledAt": "2026-09-27T12:10:21.647Z"
+  },
+  {
+    "id": "TokyoDev_ba_japan_2024-11",
+    "roleId": "ba",
+    "source": {
+      "name": "TokyoDev",
+      "url": "https://www.tokyodev.com"
+    },
+    "market": "japan",
+    "month": "2024-11",
+    "postings": 0,
+    "withCertification": 0,
+    "scanned": 1,
+    "crawledAt": "2026-09-27T12:10:21.647Z"
+  },
+  {
+    "id": "TokyoDev_devops_japan_2024-11",
+    "roleId": "devops",
+    "source": {
+      "name": "TokyoDev",
+      "url": "https://www.tokyodev.com"
+    },
+    "market": "japan",
+    "month": "2024-11",
+    "postings": 0,
+    "withCertification": 0,
+    "scanned": 1,
+    "crawledAt": "2026-09-27T12:10:21.647Z"
+  },
+  {
+    "id": "TokyoDev_qa_japan_2026-02",
+    "roleId": "qa",
+    "source": {
+      "name": "TokyoDev",
+      "url": "https://www.tokyodev.com"
+    },
+    "market": "japan",
+    "month": "2026-02",
+    "postings": 0,
+    "withCertification": 0,
+    "scanned": 3,
+    "crawledAt": "2026-09-27T12:10:21.647Z"
+  },
+  {
+    "id": "TokyoDev_ba_japan_2026-02",
+    "roleId": "ba",
+    "source": {
+      "name": "TokyoDev",
+      "url": "https://www.tokyodev.com"
+    },
+    "market": "japan",
+    "month": "2026-02",
+    "postings": 0,
+    "withCertification": 0,
+    "scanned": 3,
+    "crawledAt": "2026-09-27T12:10:21.647Z"
+  },
+  {
+    "id": "TokyoDev_devops_japan_2026-02",
+    "roleId": "devops",
+    "source": {
+      "name": "TokyoDev",
+      "url": "https://www.tokyodev.com"
+    },
+    "market": "japan",
+    "month": "2026-02",
+    "postings": 1,
+    "withCertification": 1,
+    "scanned": 3,
+    "crawledAt": "2026-09-27T12:10:21.647Z"
+  },
+  {
+    "id": "TokyoDev_qa_japan_2024-10",
+    "roleId": "qa",
+    "source": {
+      "name": "TokyoDev",
+      "url": "https://www.tokyodev.com"
+    },
+    "market": "japan",
+    "month": "2024-10",
+    "postings": 0,
+    "withCertification": 0,
+    "scanned": 1,
+    "crawledAt": "2026-09-27T12:10:21.647Z"
+  },
+  {
+    "id": "TokyoDev_ba_japan_2024-10",
+    "roleId": "ba",
+    "source": {
+      "name": "TokyoDev",
+      "url": "https://www.tokyodev.com"
+    },
+    "market": "japan",
+    "month": "2024-10",
+    "postings": 0,
+    "withCertification": 0,
+    "scanned": 1,
+    "crawledAt": "2026-09-27T12:10:21.647Z"
+  },
+  {
+    "id": "TokyoDev_devops_japan_2024-10",
+    "roleId": "devops",
+    "source": {
+      "name": "TokyoDev",
+      "url": "https://www.tokyodev.com"
+    },
+    "market": "japan",
+    "month": "2024-10",
+    "postings": 0,
+    "withCertification": 0,
+    "scanned": 1,
+    "crawledAt": "2026-09-27T12:10:21.647Z"
+  },
+  {
+    "id": "TokyoDev_qa_japan_2025-08",
+    "roleId": "qa",
+    "source": {
+      "name": "TokyoDev",
+      "url": "https://www.tokyodev.com"
+    },
+    "market": "japan",
+    "month": "2025-08",
+    "postings": 0,
+    "withCertification": 0,
+    "scanned": 1,
+    "crawledAt": "2026-09-27T12:10:21.647Z"
+  },
+  {
+    "id": "TokyoDev_ba_japan_2025-08",
+    "roleId": "ba",
+    "source": {
+      "name": "TokyoDev",
+      "url": "https://www.tokyodev.com"
+    },
+    "market": "japan",
+    "month": "2025-08",
+    "postings": 0,
+    "withCertification": 0,
+    "scanned": 1,
+    "crawledAt": "2026-09-27T12:10:21.647Z"
+  },
+  {
+    "id": "TokyoDev_devops_japan_2025-08",
+    "roleId": "devops",
+    "source": {
+      "name": "TokyoDev",
+      "url": "https://www.tokyodev.com"
+    },
+    "market": "japan",
+    "month": "2025-08",
+    "postings": 1,
+    "withCertification": 0,
+    "scanned": 1,
+    "crawledAt": "2026-09-27T12:10:21.647Z"
+  },
+  {
+    "id": "TokyoDev_qa_japan_2025-01",
+    "roleId": "qa",
+    "source": {
+      "name": "TokyoDev",
+      "url": "https://www.tokyodev.com"
+    },
+    "market": "japan",
+    "month": "2025-01",
+    "postings": 0,
+    "withCertification": 0,
+    "scanned": 1,
+    "crawledAt": "2026-09-27T12:10:21.647Z"
+  },
+  {
+    "id": "TokyoDev_ba_japan_2025-01",
+    "roleId": "ba",
+    "source": {
+      "name": "TokyoDev",
+      "url": "https://www.tokyodev.com"
+    },
+    "market": "japan",
+    "month": "2025-01",
+    "postings": 0,
+    "withCertification": 0,
+    "scanned": 1,
+    "crawledAt": "2026-09-27T12:10:21.647Z"
+  },
+  {
+    "id": "TokyoDev_devops_japan_2025-01",
+    "roleId": "devops",
+    "source": {
+      "name": "TokyoDev",
+      "url": "https://www.tokyodev.com"
+    },
+    "market": "japan",
+    "month": "2025-01",
+    "postings": 0,
+    "withCertification": 0,
+    "scanned": 1,
+    "crawledAt": "2026-09-27T12:10:21.647Z"
+  },
+  {
+    "id": "TokyoDev_qa_japan_2025-04",
+    "roleId": "qa",
+    "source": {
+      "name": "TokyoDev",
+      "url": "https://www.tokyodev.com"
+    },
+    "market": "japan",
+    "month": "2025-04",
+    "postings": 0,
+    "withCertification": 0,
+    "scanned": 1,
+    "crawledAt": "2026-09-27T12:10:21.647Z"
+  },
+  {
+    "id": "TokyoDev_ba_japan_2025-04",
+    "roleId": "ba",
+    "source": {
+      "name": "TokyoDev",
+      "url": "https://www.tokyodev.com"
+    },
+    "market": "japan",
+    "month": "2025-04",
+    "postings": 0,
+    "withCertification": 0,
+    "scanned": 1,
+    "crawledAt": "2026-09-27T12:10:21.647Z"
+  },
+  {
+    "id": "TokyoDev_devops_japan_2025-04",
+    "roleId": "devops",
+    "source": {
+      "name": "TokyoDev",
+      "url": "https://www.tokyodev.com"
+    },
+    "market": "japan",
+    "month": "2025-04",
+    "postings": 1,
+    "withCertification": 0,
+    "scanned": 1,
+    "crawledAt": "2026-09-27T12:10:21.647Z"
+  },
+  {
+    "id": "TokyoDev_qa_japan_2026-07",
+    "roleId": "qa",
+    "source": {
+      "name": "TokyoDev",
+      "url": "https://www.tokyodev.com"
+    },
+    "market": "japan",
+    "month": "2026-07",
+    "postings": 0,
+    "withCertification": 0,
+    "scanned": 3,
+    "crawledAt": "2026-09-27T12:10:21.647Z"
+  },
+  {
+    "id": "TokyoDev_ba_japan_2026-07",
+    "roleId": "ba",
+    "source": {
+      "name": "TokyoDev",
+      "url": "https://www.tokyodev.com"
+    },
+    "market": "japan",
+    "month": "2026-07",
+    "postings": 0,
+    "withCertification": 0,
+    "scanned": 3,
+    "crawledAt": "2026-09-27T12:10:21.647Z"
+  },
+  {
+    "id": "TokyoDev_devops_japan_2026-07",
+    "roleId": "devops",
+    "source": {
+      "name": "TokyoDev",
+      "url": "https://www.tokyodev.com"
+    },
+    "market": "japan",
+    "month": "2026-07",
+    "postings": 0,
+    "withCertification": 0,
+    "scanned": 3,
+    "crawledAt": "2026-09-27T12:10:21.647Z"
+  },
+  {
+    "id": "TokyoDev_qa_japan_2025-06",
+    "roleId": "qa",
+    "source": {
+      "name": "TokyoDev",
+      "url": "https://www.tokyodev.com"
+    },
+    "market": "japan",
+    "month": "2025-06",
+    "postings": 0,
+    "withCertification": 0,
+    "scanned": 1,
+    "crawledAt": "2026-09-27T12:10:21.647Z"
+  },
+  {
+    "id": "TokyoDev_ba_japan_2025-06",
+    "roleId": "ba",
+    "source": {
+      "name": "TokyoDev",
+      "url": "https://www.tokyodev.com"
+    },
+    "market": "japan",
+    "month": "2025-06",
+    "postings": 0,
+    "withCertification": 0,
+    "scanned": 1,
+    "crawledAt": "2026-09-27T12:10:21.647Z"
+  },
+  {
+    "id": "TokyoDev_devops_japan_2025-06",
+    "roleId": "devops",
+    "source": {
+      "name": "TokyoDev",
+      "url": "https://www.tokyodev.com"
+    },
+    "market": "japan",
+    "month": "2025-06",
+    "postings": 0,
+    "withCertification": 0,
+    "scanned": 1,
+    "crawledAt": "2026-09-27T12:10:21.647Z"
+  },
+  {
+    "id": "TokyoDev_qa_japan_2026-04",
+    "roleId": "qa",
+    "source": {
+      "name": "TokyoDev",
+      "url": "https://www.tokyodev.com"
+    },
+    "market": "japan",
+    "month": "2026-04",
+    "postings": 0,
+    "withCertification": 0,
+    "scanned": 4,
+    "crawledAt": "2026-09-27T12:10:21.647Z"
+  },
+  {
+    "id": "TokyoDev_ba_japan_2026-04",
+    "roleId": "ba",
+    "source": {
+      "name": "TokyoDev",
+      "url": "https://www.tokyodev.com"
+    },
+    "market": "japan",
+    "month": "2026-04",
+    "postings": 0,
+    "withCertification": 0,
+    "scanned": 4,
+    "crawledAt": "2026-09-27T12:10:21.647Z"
+  },
+  {
+    "id": "TokyoDev_devops_japan_2026-04",
+    "roleId": "devops",
+    "source": {
+      "name": "TokyoDev",
+      "url": "https://www.tokyodev.com"
+    },
+    "market": "japan",
+    "month": "2026-04",
+    "postings": 0,
+    "withCertification": 0,
+    "scanned": 4,
+    "crawledAt": "2026-09-27T12:10:21.647Z"
+  },
+  {
+    "id": "TokyoDev_qa_japan_2025-12",
+    "roleId": "qa",
+    "source": {
+      "name": "TokyoDev",
+      "url": "https://www.tokyodev.com"
+    },
+    "market": "japan",
+    "month": "2025-12",
+    "postings": 0,
+    "withCertification": 0,
+    "scanned": 2,
+    "crawledAt": "2026-09-27T12:10:21.647Z"
+  },
+  {
+    "id": "TokyoDev_ba_japan_2025-12",
+    "roleId": "ba",
+    "source": {
+      "name": "TokyoDev",
+      "url": "https://www.tokyodev.com"
+    },
+    "market": "japan",
+    "month": "2025-12",
+    "postings": 0,
+    "withCertification": 0,
+    "scanned": 2,
+    "crawledAt": "2026-09-27T12:10:21.647Z"
+  },
+  {
+    "id": "TokyoDev_devops_japan_2025-12",
+    "roleId": "devops",
+    "source": {
+      "name": "TokyoDev",
+      "url": "https://www.tokyodev.com"
+    },
+    "market": "japan",
+    "month": "2025-12",
+    "postings": 0,
+    "withCertification": 0,
+    "scanned": 2,
+    "crawledAt": "2026-09-27T12:10:21.647Z"
+  },
+  {
+    "id": "TokyoDev_qa_japan_2025-09",
+    "roleId": "qa",
+    "source": {
+      "name": "TokyoDev",
+      "url": "https://www.tokyodev.com"
+    },
+    "market": "japan",
+    "month": "2025-09",
+    "postings": 1,
+    "withCertification": 0,
+    "scanned": 4,
+    "crawledAt": "2026-09-27T12:10:21.647Z"
+  },
+  {
+    "id": "TokyoDev_ba_japan_2025-09",
+    "roleId": "ba",
+    "source": {
+      "name": "TokyoDev",
+      "url": "https://www.tokyodev.com"
+    },
+    "market": "japan",
+    "month": "2025-09",
+    "postings": 0,
+    "withCertification": 0,
+    "scanned": 4,
+    "crawledAt": "2026-09-27T12:10:21.647Z"
+  },
+  {
+    "id": "TokyoDev_devops_japan_2025-09",
+    "roleId": "devops",
+    "source": {
+      "name": "TokyoDev",
+      "url": "https://www.tokyodev.com"
+    },
+    "market": "japan",
+    "month": "2025-09",
+    "postings": 0,
+    "withCertification": 0,
+    "scanned": 4,
+    "crawledAt": "2026-09-27T12:10:21.647Z"
+  },
+  {
+    "id": "TokyoDev_qa_japan_2026-08",
+    "roleId": "qa",
+    "source": {
+      "name": "TokyoDev",
+      "url": "https://www.tokyodev.com"
+    },
+    "market": "japan",
+    "month": "2026-08",
+    "postings": 1,
+    "withCertification": 0,
+    "scanned": 7,
+    "crawledAt": "2026-09-27T12:10:21.647Z"
+  },
+  {
+    "id": "TokyoDev_ba_japan_2026-08",
+    "roleId": "ba",
+    "source": {
+      "name": "TokyoDev",
+      "url": "https://www.tokyodev.com"
+    },
+    "market": "japan",
+    "month": "2026-08",
+    "postings": 0,
+    "withCertification": 0,
+    "scanned": 7,
+    "crawledAt": "2026-09-27T12:10:21.647Z"
+  },
+  {
+    "id": "TokyoDev_devops_japan_2026-08",
+    "roleId": "devops",
+    "source": {
+      "name": "TokyoDev",
+      "url": "https://www.tokyodev.com"
+    },
+    "market": "japan",
+    "month": "2026-08",
+    "postings": 2,
+    "withCertification": 0,
+    "scanned": 7,
+    "crawledAt": "2026-09-27T12:10:21.647Z"
+  },
+  {
+    "id": "TokyoDev_qa_japan_2026-06",
+    "roleId": "qa",
+    "source": {
+      "name": "TokyoDev",
+      "url": "https://www.tokyodev.com"
+    },
+    "market": "japan",
+    "month": "2026-06",
+    "postings": 0,
+    "withCertification": 0,
+    "scanned": 3,
+    "crawledAt": "2026-09-27T12:10:21.647Z"
+  },
+  {
+    "id": "TokyoDev_ba_japan_2026-06",
+    "roleId": "ba",
+    "source": {
+      "name": "TokyoDev",
+      "url": "https://www.tokyodev.com"
+    },
+    "market": "japan",
+    "month": "2026-06",
+    "postings": 0,
+    "withCertification": 0,
+    "scanned": 3,
+    "crawledAt": "2026-09-27T12:10:21.647Z"
+  },
+  {
+    "id": "TokyoDev_devops_japan_2026-06",
+    "roleId": "devops",
+    "source": {
+      "name": "TokyoDev",
+      "url": "https://www.tokyodev.com"
+    },
+    "market": "japan",
+    "month": "2026-06",
+    "postings": 0,
+    "withCertification": 0,
+    "scanned": 3,
+    "crawledAt": "2026-09-27T12:10:21.647Z"
+  }
+]
