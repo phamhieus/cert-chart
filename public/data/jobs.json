@@ -10012,5 +10012,857 @@
     },
     "postedAt": "2026-09-27",
     "crawledAt": "2026-09-27T13:39:55.429Z"
+  },
+  {
+    "id": "linkedin_4340027501",
+    "title": "CCNA 200-301 Trainer",
+    "company": "Unknown",
+    "location": {
+      "country": "GLOBAL",
+      "market": "global",
+      "scope": "unknown"
+    },
+    "certifications": [
+      {
+        "id": "ccna",
+        "requirement": "mentioned"
+      }
+    ],
+    "source": {
+      "name": "LinkedIn",
+      "url": "https://www.linkedin.com/jobs/view/4340027501/"
+    },
+    "postedAt": "2025-11-11",
+    "crawledAt": "2026-10-13T17:49:58.701Z"
+  },
+  {
+    "id": "linkedin_4409077660",
+    "title": "Cybersecurity Program Manager / ITIL 1.4 / CISSP / PMP",
+    "company": "Unknown",
+    "location": {
+      "country": "GLOBAL",
+      "market": "global",
+      "scope": "unknown"
+    },
+    "certifications": [
+      {
+        "id": "cissp",
+        "requirement": "mentioned"
+      },
+      {
+        "id": "itil4-foundation",
+        "requirement": "mentioned"
+      },
+      {
+        "id": "pmp",
+        "requirement": "mentioned"
+      }
+    ],
+    "source": {
+      "name": "LinkedIn",
+      "url": "https://www.linkedin.com/jobs/view/4409077660/"
+    },
+    "postedAt": "2026-06-03",
+    "crawledAt": "2026-10-13T17:49:58.701Z"
+  },
+  {
+    "id": "linkedin_4332206023",
+    "title": "Security Architect (IAM, CISSP)",
+    "company": "Jobs via Dice",
+    "location": {
+      "country": "GLOBAL",
+      "market": "global",
+      "scope": "unknown"
+    },
+    "certifications": [
+      {
+        "id": "cissp",
+        "requirement": "mentioned"
+      }
+    ],
+    "source": {
+      "name": "LinkedIn",
+      "url": "https://www.linkedin.com/jobs/view/4332206023/"
+    },
+    "postedAt": "2026-01-09",
+    "crawledAt": "2026-10-13T17:49:58.701Z"
+  },
+  {
+    "id": "linkedin_4329810648",
+    "title": "Information Security Analyst (GICSP, GSEC, CISSP, CCSP ...",
+    "company": "Unknown",
+    "location": {
+      "country": "GLOBAL",
+      "market": "global",
+      "scope": "unknown"
+    },
+    "certifications": [
+      {
+        "id": "cissp",
+        "requirement": "mentioned"
+      },
+      {
+        "id": "gsec",
+        "requirement": "mentioned"
+      },
+      {
+        "id": "ccsp",
+        "requirement": "mentioned"
+      }
+    ],
+    "source": {
+      "name": "LinkedIn",
+      "url": "https://www.linkedin.com/jobs/view/4329810648/"
+    },
+    "postedAt": "2025-12-31",
+    "crawledAt": "2026-10-13T17:49:58.701Z"
+  },
+  {
+    "id": "linkedin_4047432110",
+    "title": "Jobs via Dice hiring Remote CISSP certfied IT Security ...",
+    "company": "Unknown",
+    "location": {
+      "country": "GLOBAL",
+      "market": "global",
+      "scope": "unknown"
+    },
+    "certifications": [
+      {
+        "id": "cissp",
+        "requirement": "mentioned"
+      }
+    ],
+    "source": {
+      "name": "LinkedIn",
+      "url": "https://www.linkedin.com/jobs/view/4047432110/"
+    },
+    "postedAt": "2024-10-29",
+    "crawledAt": "2026-10-13T17:49:58.701Z"
+  },
+  {
+    "id": "linkedin_4431502761",
+    "title": "VP of Information Security (CISSP Required)",
+    "company": "Madison, WI",
+    "location": {
+      "country": "GLOBAL",
+      "market": "global",
+      "scope": "unknown"
+    },
+    "certifications": [
+      {
+        "id": "cissp",
+        "requirement": "required"
+      }
+    ],
+    "source": {
+      "name": "LinkedIn",
+      "url": "https://www.linkedin.com/jobs/view/4431502761/"
+    },
+    "postedAt": "2026-06-30",
+    "crawledAt": "2026-10-13T17:49:58.701Z"
+  },
+  {
+    "id": "linkedin_4177516364",
+    "title": "CISSP",
+    "company": "Cyber Security Consultant",
+    "location": {
+      "country": "GLOBAL",
+      "market": "global",
+      "scope": "unknown"
+    },
+    "certifications": [
+      {
+        "id": "cissp",
+        "requirement": "mentioned"
+      }
+    ],
+    "source": {
+      "name": "LinkedIn",
+      "url": "https://www.linkedin.com/jobs/view/4177516364/"
+    },
+    "postedAt": "2026-10-13",
+    "crawledAt": "2026-10-13T17:49:58.701Z"
+  },
+  {
+    "id": "linkedin_4395665752",
+    "title": "CISSP Security Advisor Lead",
+    "company": "algoleap",
+    "location": {
+      "country": "GLOBAL",
+      "market": "global",
+      "scope": "unknown"
+    },
+    "certifications": [
+      {
+        "id": "cissp",
+        "requirement": "mentioned"
+      }
+    ],
+    "source": {
+      "name": "LinkedIn",
+      "url": "https://www.linkedin.com/jobs/view/4395665752/"
+    },
+    "postedAt": "2026-03-31",
+    "crawledAt": "2026-10-13T17:49:58.701Z"
+  },
+  {
+    "id": "linkedin_4437955722",
+    "title": "Cyber Security Consultant (CISSP Certified)",
+    "company": "Unknown",
+    "location": {
+      "country": "GLOBAL",
+      "market": "global",
+      "scope": "unknown"
+    },
+    "certifications": [
+      {
+        "id": "cissp",
+        "requirement": "mentioned"
+      }
+    ],
+    "source": {
+      "name": "LinkedIn",
+      "url": "https://www.linkedin.com/jobs/view/4437955722/"
+    },
+    "postedAt": "2026-07-10",
+    "crawledAt": "2026-10-13T17:49:58.701Z"
+  },
+  {
+    "id": "linkedin_4437070447",
+    "title": "ACE Handyman Services",
+    "company": "Lead Craftsman/Handyman",
+    "location": {
+      "country": "GLOBAL",
+      "market": "global",
+      "scope": "unknown"
+    },
+    "certifications": [
+      {
+        "id": "gcp-ace",
+        "requirement": "mentioned"
+      }
+    ],
+    "source": {
+      "name": "LinkedIn",
+      "url": "https://www.linkedin.com/jobs/view/4437070447/"
+    },
+    "postedAt": "2026-07-08",
+    "crawledAt": "2026-10-13T17:49:58.701Z"
+  },
+  {
+    "id": "linkedin_4403697342",
+    "title": "Ace Handyman Services",
+    "company": "Office Manager in Monroe, NJ",
+    "location": {
+      "country": "GLOBAL",
+      "market": "global",
+      "scope": "unknown"
+    },
+    "certifications": [
+      {
+        "id": "gcp-ace",
+        "requirement": "mentioned"
+      }
+    ],
+    "source": {
+      "name": "LinkedIn",
+      "url": "https://www.linkedin.com/jobs/view/4403697342/"
+    },
+    "postedAt": "2026-04-20",
+    "crawledAt": "2026-10-13T17:49:58.701Z"
+  },
+  {
+    "id": "linkedin_4413637526",
+    "title": "ACE Operations Coordinator",
+    "company": "AmeriGas",
+    "location": {
+      "country": "GLOBAL",
+      "market": "global",
+      "scope": "unknown"
+    },
+    "certifications": [
+      {
+        "id": "gcp-ace",
+        "requirement": "mentioned"
+      }
+    ],
+    "source": {
+      "name": "LinkedIn",
+      "url": "https://www.linkedin.com/jobs/view/4413637526/"
+    },
+    "postedAt": "2026-05-20",
+    "crawledAt": "2026-10-13T17:49:58.701Z"
+  },
+  {
+    "id": "linkedin_4470415969",
+    "title": "Azure Customer Experience Engineer (ACE)",
+    "company": "Unknown",
+    "location": {
+      "country": "GLOBAL",
+      "market": "global",
+      "scope": "unknown"
+    },
+    "certifications": [
+      {
+        "id": "gcp-ace",
+        "requirement": "mentioned"
+      }
+    ],
+    "source": {
+      "name": "LinkedIn",
+      "url": "https://www.linkedin.com/jobs/view/4470415969/"
+    },
+    "postedAt": "2026-09-20",
+    "crawledAt": "2026-10-13T17:49:58.701Z"
+  },
+  {
+    "id": "linkedin_4459478113",
+    "title": "ACE Hardware Shift Manager at Coborn's, Inc.",
+    "company": "Unknown",
+    "location": {
+      "country": "GLOBAL",
+      "market": "global",
+      "scope": "unknown"
+    },
+    "certifications": [
+      {
+        "id": "gcp-ace",
+        "requirement": "mentioned"
+      }
+    ],
+    "source": {
+      "name": "LinkedIn",
+      "url": "https://www.linkedin.com/jobs/view/4459478113/"
+    },
+    "postedAt": "2026-08-28",
+    "crawledAt": "2026-10-13T17:49:58.701Z"
+  },
+  {
+    "id": "linkedin_4452051767",
+    "title": "21st Century Century ACE Site Coordinator",
+    "company": "Unknown",
+    "location": {
+      "country": "GLOBAL",
+      "market": "global",
+      "scope": "unknown"
+    },
+    "certifications": [
+      {
+        "id": "gcp-ace",
+        "requirement": "mentioned"
+      }
+    ],
+    "source": {
+      "name": "LinkedIn",
+      "url": "https://www.linkedin.com/jobs/view/4452051767/"
+    },
+    "postedAt": "2026-08-13",
+    "crawledAt": "2026-10-13T17:49:58.701Z"
+  },
+  {
+    "id": "linkedin_4437562602",
+    "title": "Ace Handyman Services hiring Multi Skilled Carpenter ...",
+    "company": "Unknown",
+    "location": {
+      "country": "GLOBAL",
+      "market": "global",
+      "scope": "unknown"
+    },
+    "certifications": [
+      {
+        "id": "gcp-ace",
+        "requirement": "mentioned"
+      }
+    ],
+    "source": {
+      "name": "LinkedIn",
+      "url": "https://www.linkedin.com/jobs/view/4437562602/"
+    },
+    "postedAt": "2026-07-09",
+    "crawledAt": "2026-10-13T17:49:58.701Z"
+  },
+  {
+    "id": "linkedin_4411849449",
+    "title": "Ace Parking hiring Welcome to ACE",
+    "company": "MultiCare Tacoma",
+    "location": {
+      "country": "GLOBAL",
+      "market": "global",
+      "scope": "unknown"
+    },
+    "certifications": [
+      {
+        "id": "gcp-ace",
+        "requirement": "mentioned"
+      }
+    ],
+    "source": {
+      "name": "LinkedIn",
+      "url": "https://www.linkedin.com/jobs/view/4411849449/"
+    },
+    "postedAt": "2026-05-08",
+    "crawledAt": "2026-10-13T17:49:58.701Z"
+  },
+  {
+    "id": "linkedin_4444746522",
+    "title": "ACE Club Representative (Full Time) (34390)",
+    "company": "Unknown",
+    "location": {
+      "country": "GLOBAL",
+      "market": "global",
+      "scope": "unknown"
+    },
+    "certifications": [
+      {
+        "id": "gcp-ace",
+        "requirement": "mentioned"
+      }
+    ],
+    "source": {
+      "name": "LinkedIn",
+      "url": "https://www.linkedin.com/jobs/view/4444746522/"
+    },
+    "postedAt": "2026-07-23",
+    "crawledAt": "2026-10-13T17:49:58.701Z"
+  },
+  {
+    "id": "linkedin_4472463303",
+    "title": "Automotive Repair Multi-Unit Manager at ACE Jiffy Lube",
+    "company": "Unknown",
+    "location": {
+      "country": "GLOBAL",
+      "market": "global",
+      "scope": "unknown"
+    },
+    "certifications": [
+      {
+        "id": "gcp-ace",
+        "requirement": "mentioned"
+      }
+    ],
+    "source": {
+      "name": "LinkedIn",
+      "url": "https://www.linkedin.com/jobs/view/4472463303/"
+    },
+    "postedAt": "2026-09-27",
+    "crawledAt": "2026-10-13T17:49:58.701Z"
+  },
+  {
+    "id": "linkedin_4453955053",
+    "title": "ACE ENTERTAINMENT & MEDIA GROUP",
+    "company": "Unknown",
+    "location": {
+      "country": "GLOBAL",
+      "market": "global",
+      "scope": "unknown"
+    },
+    "certifications": [
+      {
+        "id": "gcp-ace",
+        "requirement": "mentioned"
+      }
+    ],
+    "source": {
+      "name": "LinkedIn",
+      "url": "https://www.linkedin.com/jobs/view/4453955053/"
+    },
+    "postedAt": "2026-08-15",
+    "crawledAt": "2026-10-13T17:49:58.701Z"
+  },
+  {
+    "id": "linkedin_4449735635",
+    "title": "Analyst IT (ACE Territory) - Mays Landing, NJ",
+    "company": "VetJobs",
+    "location": {
+      "country": "GLOBAL",
+      "market": "global",
+      "scope": "unknown"
+    },
+    "certifications": [
+      {
+        "id": "gcp-ace",
+        "requirement": "mentioned"
+      }
+    ],
+    "source": {
+      "name": "LinkedIn",
+      "url": "https://www.linkedin.com/jobs/view/4449735635/"
+    },
+    "postedAt": "2026-08-06",
+    "crawledAt": "2026-10-13T17:49:58.701Z"
+  },
+  {
+    "id": "linkedin_4434009903",
+    "title": "Texas ACE Site Coordinator of Student Development ...",
+    "company": "Unknown",
+    "location": {
+      "country": "GLOBAL",
+      "market": "global",
+      "scope": "unknown"
+    },
+    "certifications": [
+      {
+        "id": "gcp-ace",
+        "requirement": "mentioned"
+      }
+    ],
+    "source": {
+      "name": "LinkedIn",
+      "url": "https://www.linkedin.com/jobs/view/4434009903/"
+    },
+    "postedAt": "2026-06-26",
+    "crawledAt": "2026-10-13T17:49:58.701Z"
+  },
+  {
+    "id": "linkedin_4454147280",
+    "title": "ACE Production Worker at AmeriGas — Glendale, AZ",
+    "company": "Unknown",
+    "location": {
+      "country": "GLOBAL",
+      "market": "global",
+      "scope": "unknown"
+    },
+    "certifications": [
+      {
+        "id": "gcp-ace",
+        "requirement": "mentioned"
+      }
+    ],
+    "source": {
+      "name": "LinkedIn",
+      "url": "https://www.linkedin.com/jobs/view/4454147280/"
+    },
+    "postedAt": "2026-08-20",
+    "crawledAt": "2026-10-13T17:49:58.701Z"
+  },
+  {
+    "id": "linkedin_4399486269",
+    "title": "ACE Club Representative (Part Time) (34921)",
+    "company": "Unknown",
+    "location": {
+      "country": "GLOBAL",
+      "market": "global",
+      "scope": "unknown"
+    },
+    "certifications": [
+      {
+        "id": "gcp-ace",
+        "requirement": "mentioned"
+      }
+    ],
+    "source": {
+      "name": "LinkedIn",
+      "url": "https://www.linkedin.com/jobs/view/4399486269/"
+    },
+    "postedAt": "2026-04-30",
+    "crawledAt": "2026-10-13T17:49:58.701Z"
+  },
+  {
+    "id": "linkedin_4433637336",
+    "title": "Ace Hardware",
+    "company": "AUZA CONTRACTING, INC.",
+    "location": {
+      "country": "GLOBAL",
+      "market": "global",
+      "scope": "unknown"
+    },
+    "certifications": [
+      {
+        "id": "gcp-ace",
+        "requirement": "mentioned"
+      }
+    ],
+    "source": {
+      "name": "LinkedIn",
+      "url": "https://www.linkedin.com/jobs/view/4433637336/"
+    },
+    "postedAt": "2026-06-30",
+    "crawledAt": "2026-10-13T17:49:58.701Z"
+  },
+  {
+    "id": "linkedin_4474975618",
+    "title": "Distribution Center 003 at Wolverine Worldwide",
+    "company": "Unknown",
+    "location": {
+      "country": "GLOBAL",
+      "market": "global",
+      "scope": "unknown"
+    },
+    "certifications": [
+      {
+        "id": "terraform-associate",
+        "requirement": "mentioned"
+      }
+    ],
+    "source": {
+      "name": "LinkedIn",
+      "url": "https://www.linkedin.com/jobs/view/4474975618/"
+    },
+    "postedAt": "2026-10-06",
+    "crawledAt": "2026-10-13T17:49:58.701Z"
+  },
+  {
+    "id": "linkedin_310826",
+    "title": "310826_003 (Min 1-2 yr TL Exp Needed) 50-70k pm in India",
+    "company": "Unknown",
+    "location": {
+      "country": "GLOBAL",
+      "market": "global",
+      "scope": "unknown"
+    },
+    "certifications": [
+      {
+        "id": "terraform-associate",
+        "requirement": "mentioned"
+      }
+    ],
+    "source": {
+      "name": "LinkedIn",
+      "url": "https://www.linkedin.com/jobs/view/310826/"
+    },
+    "postedAt": "2026-08-31",
+    "crawledAt": "2026-10-13T17:49:58.701Z"
+  },
+  {
+    "id": "linkedin_4452763019",
+    "title": "PMP Certified IT Infrastructure and service delivery Lead",
+    "company": "Unknown",
+    "location": {
+      "country": "GLOBAL",
+      "market": "global",
+      "scope": "unknown"
+    },
+    "certifications": [
+      {
+        "id": "pmp",
+        "requirement": "mentioned"
+      }
+    ],
+    "source": {
+      "name": "LinkedIn",
+      "url": "https://www.linkedin.com/jobs/view/4452763019/"
+    },
+    "postedAt": "2026-08-12",
+    "crawledAt": "2026-10-13T17:49:58.701Z"
+  },
+  {
+    "id": "linkedin_4405425284",
+    "title": "Sr. Research Project Manager, On-Site (PMP/Higher Ed ...",
+    "company": "Unknown",
+    "location": {
+      "country": "GLOBAL",
+      "market": "global",
+      "scope": "unknown"
+    },
+    "certifications": [
+      {
+        "id": "pmp",
+        "requirement": "mentioned"
+      }
+    ],
+    "source": {
+      "name": "LinkedIn",
+      "url": "https://www.linkedin.com/jobs/view/4405425284/"
+    },
+    "postedAt": "2026-07-24",
+    "crawledAt": "2026-10-13T17:49:58.701Z"
+  },
+  {
+    "id": "linkedin_4434275128",
+    "title": "Director, Projects (PMP Certification)",
+    "company": "Unknown",
+    "location": {
+      "country": "GLOBAL",
+      "market": "global",
+      "scope": "unknown"
+    },
+    "certifications": [
+      {
+        "id": "pmp",
+        "requirement": "mentioned"
+      }
+    ],
+    "source": {
+      "name": "LinkedIn",
+      "url": "https://www.linkedin.com/jobs/view/4434275128/"
+    },
+    "postedAt": "2026-06-28",
+    "crawledAt": "2026-10-13T17:49:58.701Z"
+  },
+  {
+    "id": "linkedin_4456498398",
+    "title": "Project Manager (PMP Required) (JR224521)",
+    "company": "Unknown",
+    "location": {
+      "country": "GLOBAL",
+      "market": "global",
+      "scope": "unknown"
+    },
+    "certifications": [
+      {
+        "id": "pmp",
+        "requirement": "required"
+      }
+    ],
+    "source": {
+      "name": "LinkedIn",
+      "url": "https://www.linkedin.com/jobs/view/4456498398/"
+    },
+    "postedAt": "2026-08-22",
+    "crawledAt": "2026-10-13T17:49:58.701Z"
+  },
+  {
+    "id": "linkedin_4336716885",
+    "title": "Project Manager (PMP Certified)-SaaS",
+    "company": "Unknown",
+    "location": {
+      "country": "GLOBAL",
+      "market": "global",
+      "scope": "unknown"
+    },
+    "certifications": [
+      {
+        "id": "pmp",
+        "requirement": "mentioned"
+      }
+    ],
+    "source": {
+      "name": "LinkedIn",
+      "url": "https://www.linkedin.com/jobs/view/4336716885/"
+    },
+    "postedAt": "2026-10-13",
+    "crawledAt": "2026-10-13T17:49:58.701Z"
+  },
+  {
+    "id": "linkedin_4445778304",
+    "title": "Front Desk Associate at PMP Management",
+    "company": "Jobs",
+    "location": {
+      "country": "GLOBAL",
+      "market": "global",
+      "scope": "unknown"
+    },
+    "certifications": [
+      {
+        "id": "pmp",
+        "requirement": "mentioned"
+      }
+    ],
+    "source": {
+      "name": "LinkedIn",
+      "url": "https://www.linkedin.com/jobs/view/4445778304/"
+    },
+    "postedAt": "2026-07-30",
+    "crawledAt": "2026-10-13T17:49:58.701Z"
+  },
+  {
+    "id": "linkedin_4474102493",
+    "title": "Program Manager II/DoD cybersecurity/IT operations/PMP",
+    "company": "Unknown",
+    "location": {
+      "country": "GLOBAL",
+      "market": "global",
+      "scope": "unknown"
+    },
+    "certifications": [
+      {
+        "id": "pmp",
+        "requirement": "mentioned"
+      }
+    ],
+    "source": {
+      "name": "LinkedIn",
+      "url": "https://www.linkedin.com/jobs/view/4474102493/"
+    },
+    "postedAt": "2026-09-30",
+    "crawledAt": "2026-10-13T17:49:58.701Z"
+  },
+  {
+    "id": "linkedin_4394789066",
+    "title": "Cyber Security Project Manager (PMP Certified)",
+    "company": "Unknown",
+    "location": {
+      "country": "GLOBAL",
+      "market": "global",
+      "scope": "unknown"
+    },
+    "certifications": [
+      {
+        "id": "pmp",
+        "requirement": "mentioned"
+      }
+    ],
+    "source": {
+      "name": "LinkedIn",
+      "url": "https://www.linkedin.com/jobs/view/4394789066/"
+    },
+    "postedAt": "2026-04-07",
+    "crawledAt": "2026-10-13T17:49:58.701Z"
+  },
+  {
+    "id": "linkedin_4427615084",
+    "title": "PMP Drive Systems a.d. Laktaši leter etter Owner i Oslo",
+    "company": "Unknown",
+    "location": {
+      "country": "GLOBAL",
+      "market": "global",
+      "scope": "unknown"
+    },
+    "certifications": [
+      {
+        "id": "pmp",
+        "requirement": "mentioned"
+      }
+    ],
+    "source": {
+      "name": "LinkedIn",
+      "url": "https://www.linkedin.com/jobs/view/4427615084/"
+    },
+    "postedAt": "2026-06-07",
+    "crawledAt": "2026-10-13T17:49:58.701Z"
+  },
+  {
+    "id": "linkedin_4442298498",
+    "title": "Freelance Microsoft SC-900 Trainer",
+    "company": "ASD Cyber Security",
+    "location": {
+      "country": "GLOBAL",
+      "market": "global",
+      "scope": "unknown"
+    },
+    "certifications": [
+      {
+        "id": "sc-900",
+        "requirement": "mentioned"
+      }
+    ],
+    "source": {
+      "name": "LinkedIn",
+      "url": "https://www.linkedin.com/jobs/view/4442298498/"
+    },
+    "postedAt": "2026-07-21",
+    "crawledAt": "2026-10-13T17:49:58.701Z"
+  },
+  {
+    "id": "linkedin_4455156685",
+    "title": "DIPOOL FM Antenne 87-194 Mhz DP-100",
+    "company": "DMR-Electronics EU",
+    "location": {
+      "country": "GLOBAL",
+      "market": "global",
+      "scope": "unknown"
+    },
+    "certifications": [
+      {
+        "id": "dp-100",
+        "requirement": "mentioned"
+      }
+    ],
+    "source": {
+      "name": "LinkedIn",
+      "url": "https://www.linkedin.com/jobs/view/4455156685/"
+    },
+    "postedAt": "2026-08-16",
+    "crawledAt": "2026-10-13T17:49:58.701Z"
   }
 ]

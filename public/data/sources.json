@@ -60,6 +60,16 @@
     "lastCrawlDurationMs": 414709
   },
   {
+    "id": "linkedin-posts",
+    "name": "LinkedIn Posts",
+    "type": "community",
+    "url": "https://www.linkedin.com",
+    "records": 800,
+    "lastCrawledAt": "2026-10-13T17:51:26.796Z",
+    "lastCrawlStartedAt": "2026-10-13T17:50:42.183Z",
+    "lastCrawlDurationMs": 44613
+  },
+  {
     "id": "medium",
     "name": "Medium",
     "type": "community",
@@ -234,9 +244,10 @@
     "name": "LinkedIn",
     "type": "job-board",
     "url": "https://www.linkedin.com",
-    "records": 0,
-    "lastCrawledAt": "2026-09-18T06:25:59.049Z",
-    "notes": "LinkedIn prohibits automated access in robots.txt; its Jobs API is partner-only, so there is no permitted way to crawl it"
+    "records": 38,
+    "lastCrawledAt": "2026-10-13T17:50:42.174Z",
+    "lastCrawlStartedAt": "2026-10-13T17:49:58.702Z",
+    "lastCrawlDurationMs": 43472
   },
   {
     "id": "mycareersfuture",
