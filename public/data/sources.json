@@ -34,10 +34,10 @@
     "name": "GitHub",
     "type": "community",
     "url": "https://github.com",
-    "records": 3798,
-    "lastCrawledAt": "2026-09-25T13:35:23.056Z",
-    "lastCrawlStartedAt": "2026-09-25T13:02:47.723Z",
-    "lastCrawlDurationMs": 1955333
+    "records": 3927,
+    "lastCrawledAt": "2026-10-13T04:28:20.239Z",
+    "lastCrawlStartedAt": "2026-10-13T03:55:01.780Z",
+    "lastCrawlDurationMs": 1998460
   },
   {
     "id": "hackernews",
