@@ -18,7 +18,7 @@
     ],
     "language": "English",
     "price": null,
-    "lastChecked": "2026-09-18T08:52:37.667Z"
+    "lastChecked": "2026-09-25T10:25:50.612Z"
   },
   {
     "id": "official_aws-ccp",
@@ -39,7 +39,7 @@
     ],
     "language": "English",
     "price": null,
-    "lastChecked": "2026-09-18T08:52:37.667Z"
+    "lastChecked": "2026-09-25T10:25:50.612Z"
   },
   {
     "id": "official_aws-dop",
@@ -60,7 +60,7 @@
     ],
     "language": "English",
     "price": null,
-    "lastChecked": "2026-09-18T08:52:37.667Z"
+    "lastChecked": "2026-09-25T10:25:50.612Z"
   },
   {
     "id": "official_az-104",
@@ -81,7 +81,7 @@
     ],
     "language": "English",
     "price": null,
-    "lastChecked": "2026-09-18T08:52:37.667Z"
+    "lastChecked": "2026-09-25T10:25:50.612Z"
   },
   {
     "id": "official_az-900",
@@ -102,7 +102,7 @@
     ],
     "language": "English",
     "price": null,
-    "lastChecked": "2026-09-18T08:52:37.667Z"
+    "lastChecked": "2026-09-25T10:25:50.612Z"
   },
   {
     "id": "official_ccna",
@@ -123,7 +123,7 @@
     ],
     "language": "English",
     "price": null,
-    "lastChecked": "2026-09-18T08:52:37.667Z"
+    "lastChecked": "2026-09-25T10:25:50.612Z"
   },
   {
     "id": "official_ccnp-enterprise",
@@ -144,7 +144,7 @@
     ],
     "language": "English",
     "price": null,
-    "lastChecked": "2026-09-18T08:52:37.667Z"
+    "lastChecked": "2026-09-25T10:25:50.612Z"
   },
   {
     "id": "official_cka",
@@ -165,7 +165,7 @@
     ],
     "language": "English",
     "price": null,
-    "lastChecked": "2026-09-18T08:52:37.667Z"
+    "lastChecked": "2026-09-25T10:25:50.612Z"
   },
   {
     "id": "official_ckad",
@@ -186,7 +186,7 @@
     ],
     "language": "English",
     "price": null,
-    "lastChecked": "2026-09-18T08:52:37.667Z"
+    "lastChecked": "2026-09-25T10:25:50.612Z"
   },
   {
     "id": "official_cissp",
@@ -207,7 +207,7 @@
     ],
     "language": "English",
     "price": null,
-    "lastChecked": "2026-09-18T08:52:37.667Z"
+    "lastChecked": "2026-09-25T10:25:50.612Z"
   },
   {
     "id": "official_security-plus",
@@ -228,7 +228,7 @@
     ],
     "language": "English",
     "price": null,
-    "lastChecked": "2026-09-18T08:52:37.667Z"
+    "lastChecked": "2026-09-25T10:25:50.612Z"
   },
   {
     "id": "official_ceh",
@@ -249,7 +249,7 @@
     ],
     "language": "English",
     "price": null,
-    "lastChecked": "2026-09-18T08:52:37.667Z"
+    "lastChecked": "2026-09-25T10:25:50.612Z"
   },
   {
     "id": "official_gcp-ace",
@@ -270,7 +270,7 @@
     ],
     "language": "English",
     "price": null,
-    "lastChecked": "2026-09-18T08:52:37.667Z"
+    "lastChecked": "2026-09-25T10:25:50.612Z"
   },
   {
     "id": "official_terraform-associate",
@@ -291,7 +291,7 @@
     ],
     "language": "English",
     "price": null,
-    "lastChecked": "2026-09-18T08:52:37.667Z"
+    "lastChecked": "2026-09-25T10:25:50.612Z"
   },
   {
     "id": "official_dp-203",
@@ -312,7 +312,7 @@
     ],
     "language": "English",
     "price": null,
-    "lastChecked": "2026-09-18T08:52:37.667Z"
+    "lastChecked": "2026-09-25T10:25:50.612Z"
   },
   {
     "id": "official_ai-102",
@@ -333,7 +333,7 @@
     ],
     "language": "English",
     "price": null,
-    "lastChecked": "2026-09-18T08:52:37.667Z"
+    "lastChecked": "2026-09-25T10:25:50.612Z"
   },
   {
     "id": "coursera_learn_ai-102-microsoft-azure-ai-engineer-associate-course",
@@ -354,7 +354,7 @@
     ],
     "language": "en",
     "price": null,
-    "lastChecked": "2026-09-18T08:52:37.667Z"
+    "lastChecked": "2026-09-25T10:25:50.612Z"
   },
   {
     "id": "coursera_learn_aws-cloud-practitioner-certification-aws-pricing",
@@ -375,7 +375,7 @@
     ],
     "language": "en",
     "price": null,
-    "lastChecked": "2026-09-18T08:52:37.667Z"
+    "lastChecked": "2026-09-25T10:25:50.612Z"
   },
   {
     "id": "coursera_learn_certified-kubernetes-application-developer-kubernetes-fundamentals",
@@ -396,7 +396,7 @@
     ],
     "language": "en",
     "price": null,
-    "lastChecked": "2026-09-18T08:52:37.667Z"
+    "lastChecked": "2026-09-25T10:25:50.612Z"
   },
   {
     "id": "coursera_learn_essentials-with-azure-fundamentals",
@@ -417,7 +417,7 @@
     ],
     "language": "en",
     "price": null,
-    "lastChecked": "2026-09-18T08:52:37.667Z"
+    "lastChecked": "2026-09-25T10:25:50.612Z"
   },
   {
     "id": "coursera_learn_exam-prep-cka-certified-kubernetes-administrator",
@@ -438,7 +438,7 @@
     ],
     "language": "en",
     "price": null,
-    "lastChecked": "2026-09-18T08:52:37.667Z"
+    "lastChecked": "2026-09-25T10:25:50.612Z"
   },
   {
     "id": "coursera_learn_exam-prep-hashicorp-certified-terraform-associate-003",
@@ -459,7 +459,7 @@
     ],
     "language": "en",
     "price": null,
-    "lastChecked": "2026-09-18T08:52:37.667Z"
+    "lastChecked": "2026-09-25T10:25:50.612Z"
   },
   {
     "id": "coursera_learn_pearson-certified-ethical-hacker-ceh-v13-with-omar-santos-and-nick-garner-l5up0",
@@ -480,7 +480,7 @@
     ],
     "language": "en",
     "price": null,
-    "lastChecked": "2026-09-18T08:52:37.667Z"
+    "lastChecked": "2026-09-25T10:25:50.612Z"
   },
   {
     "id": "coursera_learn_pearson-certified-kubernetes-administrator-cka-4th-edition-video-course-1-u78f0",
@@ -501,7 +501,7 @@
     ],
     "language": "en",
     "price": null,
-    "lastChecked": "2026-09-18T08:52:37.667Z"
+    "lastChecked": "2026-09-25T10:25:50.612Z"
   },
   {
     "id": "coursera_learn_prep-for-microsoft-azure-data-engineer-associate-cert-dp-203",
@@ -522,7 +522,7 @@
     ],
     "language": "en",
     "price": null,
-    "lastChecked": "2026-09-18T08:52:37.667Z"
+    "lastChecked": "2026-09-25T10:25:50.612Z"
   },
   {
     "id": "vncenter_vnpro_thu-vien-hoc-mang-cisco-ccna-8-html",
@@ -543,7 +543,7 @@
     ],
     "language": "Unknown",
     "price": null,
-    "lastChecked": "2026-09-18T08:52:37.667Z"
+    "lastChecked": "2026-09-25T10:25:50.612Z"
   },
   {
     "id": "vncenter_vnpro_thu-vien-hoc-mang-cisco-ccnp-9-html",
@@ -564,7 +564,7 @@
     ],
     "language": "Unknown",
     "price": null,
-    "lastChecked": "2026-09-18T08:52:37.667Z"
+    "lastChecked": "2026-09-25T10:25:50.612Z"
   },
   {
     "id": "vncenter_vnpro_chuong-trinh-dao-tao-bao-gia-khoa-hoc-ccna-hinh-thuc-online-142-html",
@@ -585,7 +585,7 @@
     ],
     "language": "Unknown",
     "price": null,
-    "lastChecked": "2026-09-18T08:52:37.667Z"
+    "lastChecked": "2026-09-25T10:25:50.612Z"
   },
   {
     "id": "vncenter_vnpro_san-pham-bao-gia-khoa-hoc-ccna-hinh-thuc-online-142-html",
@@ -606,7 +606,7 @@
     ],
     "language": "Unknown",
     "price": null,
-    "lastChecked": "2026-09-18T08:52:37.667Z"
+    "lastChecked": "2026-09-25T10:25:50.612Z"
   },
   {
     "id": "vncenter_vnpro_chuong-trinh-dao-tao-bao-gia-khoa-hoc-ccna-hinh-thuc-offline-143-html",
@@ -628,7 +628,7 @@
     ],
     "language": "Unknown",
     "price": null,
-    "lastChecked": "2026-09-18T08:52:37.667Z"
+    "lastChecked": "2026-09-25T10:25:50.612Z"
   },
   {
     "id": "vncenter_vnpro_san-pham-bao-gia-khoa-hoc-ccna-hinh-thuc-offline-143-html",
@@ -650,7 +650,7 @@
     ],
     "language": "Unknown",
     "price": null,
-    "lastChecked": "2026-09-18T08:52:37.667Z"
+    "lastChecked": "2026-09-25T10:25:50.612Z"
   },
   {
     "id": "vncenter_vnpro_chuong-trinh-dao-tao-bao-gia-khoa-hoc-cisco-ccna-cyber-ops-hinh-thuc-offline-144-html",
@@ -672,7 +672,7 @@
     ],
     "language": "Unknown",
     "price": null,
-    "lastChecked": "2026-09-18T08:52:37.667Z"
+    "lastChecked": "2026-09-25T10:25:50.612Z"
   },
   {
     "id": "vncenter_vnpro_san-pham-bao-gia-khoa-hoc-cisco-ccna-cyber-ops-hinh-thuc-offline-144-html",
@@ -694,7 +694,7 @@
     ],
     "language": "Unknown",
     "price": null,
-    "lastChecked": "2026-09-18T08:52:37.667Z"
+    "lastChecked": "2026-09-25T10:25:50.612Z"
   },
   {
     "id": "vncenter_vnpro_chuong-trinh-dao-tao-bao-gia-khoa-hoc-ccna-hinh-thuc-offline-141-html",
@@ -716,7 +716,7 @@
     ],
     "language": "Unknown",
     "price": null,
-    "lastChecked": "2026-09-18T08:52:37.667Z"
+    "lastChecked": "2026-09-25T10:25:50.612Z"
   },
   {
     "id": "vncenter_vnpro_san-pham-bao-gia-khoa-hoc-ccna-hinh-thuc-offline-141-html",
@@ -738,7 +738,7 @@
     ],
     "language": "Unknown",
     "price": null,
-    "lastChecked": "2026-09-18T08:52:37.667Z"
+    "lastChecked": "2026-09-25T10:25:50.612Z"
   },
   {
     "id": "vncenter_vnpro_chuong-trinh-dao-tao-bao-gia-khoa-hoc-encor-hinh-thuc-offline-151-html",
@@ -782,7 +782,7 @@
     ],
     "language": "Unknown",
     "price": null,
-    "lastChecked": "2026-09-18T08:52:37.667Z"
+    "lastChecked": "2026-09-25T10:25:50.612Z"
   },
   {
     "id": "vncenter_vnpro_chuong-trinh-dao-tao-bao-gia-khoa-hoc-encor-hinh-thuc-online-152-html",
@@ -803,7 +803,7 @@
     ],
     "language": "Unknown",
     "price": null,
-    "lastChecked": "2026-09-18T08:52:37.667Z"
+    "lastChecked": "2026-09-25T10:25:50.612Z"
   },
   {
     "id": "vncenter_vnpro_san-pham-bao-gia-khoa-hoc-encor-hinh-thuc-online-152-html",
@@ -824,7 +824,7 @@
     ],
     "language": "Unknown",
     "price": null,
-    "lastChecked": "2026-09-18T08:52:37.667Z"
+    "lastChecked": "2026-09-25T10:25:50.612Z"
   },
   {
     "id": "vncenter_vnpro_hoc-vien-chuc-mung-anh-dang-truong-chinh-den-tu-cong-ty-intel-viet-nam-da-thi-dau-chung-chi-ccnp-advanced",
@@ -845,7 +845,7 @@
     ],
     "language": "Unknown",
     "price": null,
-    "lastChecked": "2026-09-18T08:52:37.667Z"
+    "lastChecked": "2026-09-25T10:25:50.612Z"
   },
   {
     "id": "vncenter_vnpro_hoc-vien-neu-ban-khong-di-thi-se-khong-bao-gio-den-anh-vo-thanh-trung-hoc-vien-xuat-sac-lop-ccna-20ak06-3",
@@ -866,7 +866,7 @@
     ],
     "language": "Unknown",
     "price": null,
-    "lastChecked": "2026-09-18T08:52:37.667Z"
+    "lastChecked": "2026-09-25T10:25:50.612Z"
   },
   {
     "id": "vncenter_vnpro_hoc-vien-vnpro-chuc-mung-anh-ong-hoang-trung-da-thi-dau-chung-chi-ccnp-encor-va-hoan-thanh-chung-chi-ccnp",
@@ -887,7 +887,7 @@
     ],
     "language": "Unknown",
     "price": null,
-    "lastChecked": "2026-09-18T08:52:37.667Z"
+    "lastChecked": "2026-09-25T10:25:50.612Z"
   },
   {
     "id": "vncenter_vnpro_hoc-vien-vnpro-be-giang-khoa-ccna-26ao04-vinh-danh-nhung-no-luc-chinh-phuc-dinh-cao-network-6313-html",
@@ -908,7 +908,7 @@
     ],
     "language": "Unknown",
     "price": null,
-    "lastChecked": "2026-09-18T08:52:37.667Z"
+    "lastChecked": "2026-09-25T10:25:50.612Z"
   },
   {
     "id": "vncenter_vnpro_hoc-vien-hoc-ccna-o-dau-tot-hoc-vien-vnpro-noi-gi-ve-khoa-hoc-ccna-6318-html",
@@ -930,7 +930,7 @@
     ],
     "language": "Unknown",
     "price": null,
-    "lastChecked": "2026-09-18T08:52:37.667Z"
+    "lastChecked": "2026-09-25T10:25:50.612Z"
   },
   {
     "id": "vncenter_vnpro_hoc-vien-hanh-trinh-tu-phong-lab-den-thuc-chien-cua-hoc-vien-encor-tai-vnpro-6321-html",
@@ -951,7 +951,7 @@
     ],
     "language": "Unknown",
     "price": null,
-    "lastChecked": "2026-09-18T08:52:37.667Z"
+    "lastChecked": "2026-09-25T10:25:50.612Z"
   },
   {
     "id": "vncenter_vnpro_hoc-vien-chinh-thuc-be-giang-khoa-ccna-26a07-tai-vnpro-6322-html",
@@ -993,7 +993,7 @@
     ],
     "language": "Unknown",
     "price": null,
-    "lastChecked": "2026-09-18T08:52:37.667Z"
+    "lastChecked": "2026-09-25T10:25:50.612Z"
   },
   {
     "id": "vncenter_vnpro_hoc-vien-be-giang-ccna-offline-26a08-the-he-network-engineer-moi-da-san-sang-6337-html",
@@ -1015,7 +1015,7 @@
     ],
     "language": "Unknown",
     "price": null,
-    "lastChecked": "2026-09-18T08:52:37.667Z"
+    "lastChecked": "2026-09-25T10:25:50.612Z"
   },
   {
     "id": "vncenter_vnpro_hoc-vien-ccna-200301-tai-vnpro-hoc-that-lam-that-tren-thiet-bi-cisco-that-tu-tin-di-lam-ngay-6341-html",
@@ -1036,7 +1036,7 @@
     ],
     "language": "Unknown",
     "price": null,
-    "lastChecked": "2026-09-18T08:52:37.667Z"
+    "lastChecked": "2026-09-25T10:25:50.612Z"
   },
   {
     "id": "vncenter_vnpro_hoc-vien-be-giang-lop-ccna-26a009-online-357-chuc-mung-hoc-vien-to-nguyen-truong-duy-dat-hang-nhat-6342-h",
@@ -1057,7 +1057,7 @@
     ],
     "language": "Unknown",
     "price": null,
-    "lastChecked": "2026-09-18T08:52:37.667Z"
+    "lastChecked": "2026-09-25T10:25:50.612Z"
   },
   {
     "id": "vncenter_vnpro_hoc-vien-be-giang-khoa-hoc-ccnp-encor-26p1o01-tai-vnpro-chinh-phuc-dinh-cao-chuyen-mon-6344-html",
@@ -1078,7 +1078,7 @@
     ],
     "language": "Unknown",
     "price": null,
-    "lastChecked": "2026-09-18T08:52:37.667Z"
+    "lastChecked": "2026-09-25T10:25:50.612Z"
   },
   {
     "id": "vncenter_vnpro_hoc-vien-ruc-lua-tinh-than-hoc-tap-tai-buoi-le-be-giang-khoa-ccna-200301-26a09-tai-vnpro-6367-html",
@@ -1100,7 +1100,7 @@
     ],
     "language": "Unknown",
     "price": null,
-    "lastChecked": "2026-09-18T08:52:37.667Z"
+    "lastChecked": "2026-09-25T10:25:50.612Z"
   },
   {
     "id": "vncenter_vnpro_hoc-vien-mot-buoi-hoc-lab-ccna-tai-vnpro-dien-ra-nhu-the-nao-6388-html",
@@ -1122,7 +1122,7 @@
     ],
     "language": "Unknown",
     "price": null,
-    "lastChecked": "2026-09-18T08:52:37.667Z"
+    "lastChecked": "2026-09-25T10:25:50.612Z"
   },
   {
     "id": "vncenter_vnpro_hoc-vien-le-be-giang-khoa-hoc-ccna-26a10-tai-vnpro-hanh-trinh-chinh-phuc-tri-thuc-mang-6399-html",
@@ -1143,7 +1143,7 @@
     ],
     "language": "Unknown",
     "price": null,
-    "lastChecked": "2026-09-18T08:52:37.667Z"
+    "lastChecked": "2026-09-25T10:25:50.612Z"
   },
   {
     "id": "vncenter_vnpro_hoc-vien-ban-le-nguyen-hoang-anh-nho-hoc-vien-xuat-sac-lop-ccnp-route-18p104-2992-html",
@@ -1164,7 +1164,7 @@
     ],
     "language": "Unknown",
     "price": null,
-    "lastChecked": "2026-09-18T08:52:37.667Z"
+    "lastChecked": "2026-09-25T10:25:50.612Z"
   },
   {
     "id": "vncenter_vnpro_tag-ccna",
@@ -1185,7 +1185,7 @@
     ],
     "language": "Unknown",
     "price": null,
-    "lastChecked": "2026-09-18T08:52:37.667Z"
+    "lastChecked": "2026-09-25T10:25:50.612Z"
   },
   {
     "id": "vncenter_vnpro_tag-ccnp",
@@ -1206,7 +1206,7 @@
     ],
     "language": "Unknown",
     "price": null,
-    "lastChecked": "2026-09-18T08:52:37.667Z"
+    "lastChecked": "2026-09-25T10:25:50.612Z"
   },
   {
     "id": "vncenter_robusta_vi-tin-khuyen-mai-ceh-v13-tro-thanh-hacker-mu-trang-trong-thoi-dai-ai-cung-robusta",
@@ -1228,7 +1228,7 @@
     ],
     "language": "Vietnamese",
     "price": null,
-    "lastChecked": "2026-09-18T08:52:37.667Z"
+    "lastChecked": "2026-09-25T10:25:50.612Z"
   },
   {
     "id": "vncenter_robusta_vi-chuong-trinh-dao-tao-isc-2-certified-information-systems-security-professional-cissp",
@@ -1268,7 +1268,7 @@
     "delivery": [],
     "language": "Vietnamese",
     "price": null,
-    "lastChecked": "2026-09-18T08:52:37.667Z"
+    "lastChecked": "2026-09-25T10:25:50.612Z"
   },
   {
     "id": "vncenter_athena_khoa-hoc-khoa-hoc-quan-tri-mang-cisco-ccna",
@@ -1287,7 +1287,7 @@
     "delivery": [],
     "language": "Vietnamese",
     "price": null,
-    "lastChecked": "2026-09-18T08:52:37.667Z"
+    "lastChecked": "2026-09-25T10:25:50.612Z"
   },
   {
     "id": "vncenter_vti-academy_khoa-hoc-aws-certified-solutions-architect-associate",
@@ -1306,7 +1306,7 @@
     "delivery": [],
     "language": "Vietnamese",
     "price": null,
-    "lastChecked": "2026-09-18T08:52:37.667Z"
+    "lastChecked": "2026-09-25T10:25:50.612Z"
   },
   {
     "id": "vncenter_vti-academy_khoa-hoc-on-thi-aws-saa-c03-html",
@@ -1346,7 +1346,7 @@
     ],
     "language": "en",
     "price": null,
-    "lastChecked": "2026-09-18T08:52:37.667Z"
+    "lastChecked": "2026-09-25T10:25:50.612Z"
   },
   {
     "id": "coursera_specializations_ace-pathway-to-wellness",
@@ -1367,7 +1367,7 @@
     ],
     "language": "en",
     "price": null,
-    "lastChecked": "2026-09-18T08:52:37.667Z"
+    "lastChecked": "2026-09-25T10:25:50.612Z"
   },
   {
     "id": "coursera_specializations_aws-certified-solutions-architect-associate-course",
@@ -1388,7 +1388,7 @@
     ],
     "language": "en",
     "price": null,
-    "lastChecked": "2026-09-18T08:52:37.667Z"
+    "lastChecked": "2026-09-25T10:25:50.612Z"
   },
   {
     "id": "coursera_specializations_aws-cloud-practitioner-certification-course",
@@ -1409,7 +1409,7 @@
     ],
     "language": "en",
     "price": null,
-    "lastChecked": "2026-09-18T08:52:37.667Z"
+    "lastChecked": "2026-09-25T10:25:50.612Z"
   },
   {
     "id": "coursera_specializations_az104-azure-administrator-certification-prep",
@@ -1430,7 +1430,7 @@
     ],
     "language": "en",
     "price": null,
-    "lastChecked": "2026-09-18T08:52:37.667Z"
+    "lastChecked": "2026-09-25T10:25:50.612Z"
   },
   {
     "id": "coursera_specializations_certified-kubernetes-administrator",
@@ -1451,7 +1451,7 @@
     ],
     "language": "en",
     "price": null,
-    "lastChecked": "2026-09-18T08:52:37.667Z"
+    "lastChecked": "2026-09-25T10:25:50.612Z"
   },
   {
     "id": "coursera_specializations_certified-kubernetes-application-developer-ckad-course",
@@ -1472,7 +1472,7 @@
     ],
     "language": "en",
     "price": null,
-    "lastChecked": "2026-09-18T08:52:37.667Z"
+    "lastChecked": "2026-09-25T10:25:50.612Z"
   },
   {
     "id": "coursera_specializations_cisco-implementation-administration-ccna",
@@ -1493,7 +1493,7 @@
     ],
     "language": "en",
     "price": null,
-    "lastChecked": "2026-09-18T08:52:37.667Z"
+    "lastChecked": "2026-09-25T10:25:50.612Z"
   },
   {
     "id": "coursera_specializations_cissp",
@@ -1514,7 +1514,7 @@
     ],
     "language": "en",
     "price": null,
-    "lastChecked": "2026-09-18T08:52:37.667Z"
+    "lastChecked": "2026-09-25T10:25:50.612Z"
   },
   {
     "id": "coursera_specializations_exam-prep-az-104-microsoft-azure-administrator-associate",
@@ -1535,7 +1535,7 @@
     ],
     "language": "en",
     "price": null,
-    "lastChecked": "2026-09-18T08:52:37.667Z"
+    "lastChecked": "2026-09-25T10:25:50.612Z"
   },
   {
     "id": "coursera_specializations_exam-prep-dop-c02-aws-certified-devops-engineer--professional",
@@ -1556,7 +1556,7 @@
     ],
     "language": "en",
     "price": null,
-    "lastChecked": "2026-09-18T08:52:37.667Z"
+    "lastChecked": "2026-09-25T10:25:50.612Z"
   },
   {
     "id": "coursera_specializations_exam-prep-google-cloud-certified-associate-cloud-engineer",
@@ -1577,11 +1577,11 @@
     ],
     "language": "en",
     "price": null,
-    "lastChecked": "2026-09-18T08:52:37.667Z"
+    "lastChecked": "2026-09-25T10:25:50.612Z"
   },
   {
     "id": "coursera_specializations_exam-prep-sap-c02-aws-certified-solutions-architect-professional",
-    "certificationId": "aws-saa",
+    "certificationId": "aws-sap",
     "name": "Exam Prep (SAP-C02): AWS Solutions Architect - Professional",
     "provider": {
       "name": "Whizlabs",
@@ -1598,7 +1598,7 @@
     ],
     "language": "en",
     "price": null,
-    "lastChecked": "2026-09-18T08:52:37.667Z"
+    "lastChecked": "2026-09-25T10:25:50.612Z"
   },
   {
     "id": "coursera_specializations_microsoft-azure-fundamentals-az900-exam-prep",
@@ -1661,7 +1661,7 @@
     ],
     "language": "en",
     "price": null,
-    "lastChecked": "2026-09-18T08:52:37.667Z"
+    "lastChecked": "2026-09-25T10:25:50.612Z"
   },
   {
     "id": "coursera_specializations_packt-aws-certified-solutions-architect-associate-saa-c03",
@@ -1682,7 +1682,7 @@
     ],
     "language": "en",
     "price": null,
-    "lastChecked": "2026-09-18T08:52:37.667Z"
+    "lastChecked": "2026-09-25T10:25:50.612Z"
   },
   {
     "id": "coursera_specializations_packt-aws-cloud-practitioner-exam-training",
@@ -1703,7 +1703,7 @@
     ],
     "language": "en",
     "price": null,
-    "lastChecked": "2026-09-18T08:52:37.667Z"
+    "lastChecked": "2026-09-25T10:25:50.612Z"
   },
   {
     "id": "coursera_specializations_packt-ccna-v1-1-200-301-video-training0-series",
@@ -1724,7 +1724,7 @@
     ],
     "language": "en",
     "price": null,
-    "lastChecked": "2026-09-18T08:52:37.667Z"
+    "lastChecked": "2026-09-25T10:25:50.612Z"
   },
   {
     "id": "coursera_specializations_packt-certified-ethical-hacker-ceh-v12",
@@ -1745,7 +1745,7 @@
     ],
     "language": "en",
     "price": null,
-    "lastChecked": "2026-09-18T08:52:37.667Z"
+    "lastChecked": "2026-09-25T10:25:50.612Z"
   },
   {
     "id": "coursera_specializations_packt-cisco-ccna-200-301",
@@ -1766,7 +1766,7 @@
     ],
     "language": "en",
     "price": null,
-    "lastChecked": "2026-09-18T08:52:37.667Z"
+    "lastChecked": "2026-09-25T10:25:50.612Z"
   },
   {
     "id": "coursera_specializations_packt-cisco-ccna-200-301-the-complete-guide-to-getting-certified",
@@ -1787,7 +1787,7 @@
     ],
     "language": "en",
     "price": null,
-    "lastChecked": "2026-09-18T08:52:37.667Z"
+    "lastChecked": "2026-09-25T10:25:50.612Z"
   },
   {
     "id": "coursera_specializations_packt-cisco-ccnp-enterprise-encor-350-401",
@@ -1808,11 +1808,11 @@
     ],
     "language": "en",
     "price": null,
-    "lastChecked": "2026-09-18T08:52:37.667Z"
+    "lastChecked": "2026-09-25T10:25:50.612Z"
   },
   {
     "id": "coursera_specializations_packt-cisco-ccnp-security-scor-eaxam-350-701",
-    "certificationId": "ccnp-enterprise",
+    "certificationId": "ccnp-security",
     "name": "Cisco CCNP Security SCOR (Exam 350-701)",
     "provider": {
       "name": "Packt",
@@ -1829,7 +1829,7 @@
     ],
     "language": "en",
     "price": null,
-    "lastChecked": "2026-09-18T08:52:37.667Z"
+    "lastChecked": "2026-09-25T10:25:50.612Z"
   },
   {
     "id": "coursera_specializations_packt-cissp-certified-information-systems-security-professional-2024",
@@ -1850,7 +1850,7 @@
     ],
     "language": "en",
     "price": null,
-    "lastChecked": "2026-09-18T08:52:37.667Z"
+    "lastChecked": "2026-09-25T10:25:50.612Z"
   },
   {
     "id": "coursera_specializations_packt-comptia-cloud-cv0-003",
@@ -1871,7 +1871,7 @@
     ],
     "language": "en",
     "price": null,
-    "lastChecked": "2026-09-18T08:52:37.667Z"
+    "lastChecked": "2026-09-25T10:25:50.612Z"
   },
   {
     "id": "coursera_specializations_packt-comptia-security-plus-certification-sy0-701-the-total-course",
@@ -1892,7 +1892,7 @@
     ],
     "language": "en",
     "price": null,
-    "lastChecked": "2026-09-18T08:52:37.667Z"
+    "lastChecked": "2026-09-25T10:25:50.612Z"
   },
   {
     "id": "coursera_specializations_packt-comptia-security-plus-sy0-701-full-training-guide",
@@ -1913,7 +1913,7 @@
     ],
     "language": "en",
     "price": null,
-    "lastChecked": "2026-09-18T08:52:37.667Z"
+    "lastChecked": "2026-09-25T10:25:50.612Z"
   },
   {
     "id": "coursera_specializations_packt-data-structures-algorithms-in-java-secrets-to-ace-leetcode",
@@ -1934,7 +1934,7 @@
     ],
     "language": "en",
     "price": null,
-    "lastChecked": "2026-09-18T08:52:37.667Z"
+    "lastChecked": "2026-09-25T10:25:50.612Z"
   },
   {
     "id": "coursera_specializations_packt-mircrosoft-azure-administrator-az-104",
@@ -1955,7 +1955,7 @@
     ],
     "language": "en",
     "price": null,
-    "lastChecked": "2026-09-18T08:52:37.667Z"
+    "lastChecked": "2026-09-25T10:25:50.612Z"
   },
   {
     "id": "coursera_specializations_packt-pmp-exam-mastery-complete-project-management-path",
@@ -1976,7 +1976,7 @@
     ],
     "language": "en",
     "price": null,
-    "lastChecked": "2026-09-18T08:52:37.667Z"
+    "lastChecked": "2026-09-25T10:25:50.612Z"
   },
   {
     "id": "coursera_specializations_packt-project-management-professional-prep",
@@ -1997,7 +1997,7 @@
     ],
     "language": "en",
     "price": null,
-    "lastChecked": "2026-09-18T08:52:37.667Z"
+    "lastChecked": "2026-09-25T10:25:50.612Z"
   },
   {
     "id": "coursera_specializations_pearson-certified-ethical-hacker-ceh",
@@ -2018,7 +2018,7 @@
     ],
     "language": "en",
     "price": null,
-    "lastChecked": "2026-09-18T08:52:37.667Z"
+    "lastChecked": "2026-09-25T10:25:50.612Z"
   },
   {
     "id": "coursera_specializations_pearson-certified-kubernetes-application-developer-ckad",
@@ -2039,7 +2039,7 @@
     ],
     "language": "en",
     "price": null,
-    "lastChecked": "2026-09-18T08:52:37.667Z"
+    "lastChecked": "2026-09-25T10:25:50.612Z"
   },
   {
     "id": "coursera_specializations_pearson-comptia-cloud-cv0-003",
@@ -2060,11 +2060,11 @@
     ],
     "language": "en",
     "price": null,
-    "lastChecked": "2026-09-18T08:52:37.667Z"
+    "lastChecked": "2026-09-25T10:25:50.612Z"
   },
   {
     "id": "coursera_specializations_pearson-comptia-cybersecurity-analyst-cysa-cs0-003",
-    "certificationId": "terraform-associate",
+    "certificationId": "cysa-plus",
     "name": "CompTIA Cybersecurity Analyst (CySA+) CS0-003",
     "provider": {
       "name": "Pearson",
@@ -2081,7 +2081,7 @@
     ],
     "language": "en",
     "price": null,
-    "lastChecked": "2026-09-18T08:52:37.667Z"
+    "lastChecked": "2026-09-25T10:25:50.612Z"
   },
   {
     "id": "coursera_specializations_pearson-java-se-17-developer-1z0-829",
@@ -2102,7 +2102,7 @@
     ],
     "language": "en",
     "price": null,
-    "lastChecked": "2026-09-18T08:52:37.667Z"
+    "lastChecked": "2026-09-25T10:25:50.612Z"
   },
   {
     "id": "coursera_specializations_pearson-pmp-certification",
@@ -2123,7 +2123,7 @@
     ],
     "language": "en",
     "price": null,
-    "lastChecked": "2026-09-18T08:52:37.667Z"
+    "lastChecked": "2026-09-25T10:25:50.612Z"
   },
   {
     "id": "coursera_specializations_pmp-certification-training-course",
@@ -2144,7 +2144,7 @@
     ],
     "language": "en",
     "price": null,
-    "lastChecked": "2026-09-18T08:52:37.667Z"
+    "lastChecked": "2026-09-25T10:25:50.612Z"
   },
   {
     "id": "coursera_specializations_professional-scrum-master",
@@ -2165,7 +2165,7 @@
     ],
     "language": "en",
     "price": null,
-    "lastChecked": "2026-09-18T08:52:37.667Z"
+    "lastChecked": "2026-09-25T10:25:50.612Z"
   },
   {
     "id": "coursera_specializations_ts-comptia-securityplus",
@@ -2186,7 +2186,7 @@
     ],
     "language": "en",
     "price": null,
-    "lastChecked": "2026-09-18T08:52:37.667Z"
+    "lastChecked": "2026-09-25T10:25:50.612Z"
   },
   {
     "id": "coursera_specializations_wiley-cissp-for-dummies",
@@ -2207,11 +2207,11 @@
     ],
     "language": "en",
     "price": null,
-    "lastChecked": "2026-09-18T08:52:37.667Z"
+    "lastChecked": "2026-09-25T10:25:50.612Z"
   },
   {
     "id": "coursera_specializations_packt-aws-certified-solutions-architect-professional-exam-guide",
-    "certificationId": "aws-saa",
+    "certificationId": "aws-sap",
     "name": "AWS Certified Solutions Architect – Professional Exam Guide",
     "provider": {
       "name": "Packt",
@@ -2228,7 +2228,7 @@
     ],
     "language": "en",
     "price": null,
-    "lastChecked": "2026-09-18T08:52:37.667Z"
+    "lastChecked": "2026-09-25T10:25:50.612Z"
   },
   {
     "id": "coursera_specializations_packt-aws-certified-solutions-architect-with-capstone-labs",
@@ -2249,7 +2249,7 @@
     ],
     "language": "en",
     "price": null,
-    "lastChecked": "2026-09-18T08:52:37.667Z"
+    "lastChecked": "2026-09-25T10:25:50.612Z"
   },
   {
     "id": "coursera_specializations_packt-master-data-structures-and-algo-ace-leetcode-and-blind-75",
@@ -2270,7 +2270,7 @@
     ],
     "language": "en",
     "price": null,
-    "lastChecked": "2026-09-18T08:52:37.667Z"
+    "lastChecked": "2026-09-25T10:25:50.612Z"
   },
   {
     "id": "coursera_specializations_packt-the-world-of-computer-networking-your-ccna-starts-here",
@@ -2291,7 +2291,7 @@
     ],
     "language": "en",
     "price": null,
-    "lastChecked": "2026-09-18T08:52:37.667Z"
+    "lastChecked": "2026-09-25T10:25:50.612Z"
   },
   {
     "id": "coursera_specializations_pearson-ccna-200-301-version-1-1",
@@ -2312,7 +2312,7 @@
     ],
     "language": "en",
     "price": null,
-    "lastChecked": "2026-09-18T08:52:37.667Z"
+    "lastChecked": "2026-09-25T10:25:50.612Z"
   },
   {
     "id": "coursera_specializations_pmp-exam-prep-certification-training",
@@ -2333,7 +2333,7 @@
     ],
     "language": "en",
     "price": null,
-    "lastChecked": "2026-09-18T08:52:37.667Z"
+    "lastChecked": "2026-09-25T10:25:50.612Z"
   },
   {
     "id": "coursera_specializations_ts-aws-solutionsarchitect",
@@ -2354,7 +2354,7 @@
     ],
     "language": "en",
     "price": null,
-    "lastChecked": "2026-09-18T08:52:37.667Z"
+    "lastChecked": "2026-09-25T10:25:50.612Z"
   },
   {
     "id": "coursera_learn_aws-certified-solutions-architect-associate",
@@ -2375,7 +2375,7 @@
     ],
     "language": "en",
     "price": null,
-    "lastChecked": "2026-09-18T08:52:37.667Z"
+    "lastChecked": "2026-09-25T10:25:50.612Z"
   },
   {
     "id": "coursera_learn_aws-cloud-practitioner-certification-aws-services",
@@ -2396,7 +2396,7 @@
     ],
     "language": "en",
     "price": null,
-    "lastChecked": "2026-09-18T08:52:37.667Z"
+    "lastChecked": "2026-09-25T10:25:50.612Z"
   },
   {
     "id": "coursera_learn_aws-cloud-practitioner-certification-cloud-fundamentals",
@@ -2417,7 +2417,7 @@
     ],
     "language": "en",
     "price": null,
-    "lastChecked": "2026-09-18T08:52:37.667Z"
+    "lastChecked": "2026-09-25T10:25:50.612Z"
   },
   {
     "id": "coursera_learn_aws-cloud-practitioner-certification-introduction-to-aws",
@@ -2438,7 +2438,7 @@
     ],
     "language": "en",
     "price": null,
-    "lastChecked": "2026-09-18T08:52:37.667Z"
+    "lastChecked": "2026-09-25T10:25:50.612Z"
   },
   {
     "id": "coursera_learn_aws-cloud-practitioner-essentials",
@@ -2459,7 +2459,7 @@
     ],
     "language": "en",
     "price": null,
-    "lastChecked": "2026-09-18T08:52:37.667Z"
+    "lastChecked": "2026-09-25T10:25:50.612Z"
   },
   {
     "id": "coursera_learn_ccna-networking-basics-switching-addressing-routing-lo093063",
@@ -2480,7 +2480,7 @@
     ],
     "language": "en",
     "price": null,
-    "lastChecked": "2026-09-18T08:52:37.667Z"
+    "lastChecked": "2026-09-25T10:25:50.612Z"
   },
   {
     "id": "coursera_learn_cissp-domain-1-security-risk-mgmt",
@@ -2501,7 +2501,7 @@
     ],
     "language": "en",
     "price": null,
-    "lastChecked": "2026-09-18T08:52:37.667Z"
+    "lastChecked": "2026-09-25T10:25:50.612Z"
   },
   {
     "id": "coursera_learn_cissp-domain-2-asset-security",
@@ -2522,7 +2522,7 @@
     ],
     "language": "en",
     "price": null,
-    "lastChecked": "2026-09-18T08:52:37.667Z"
+    "lastChecked": "2026-09-25T10:25:50.612Z"
   },
   {
     "id": "coursera_learn_cissp-domain-3-sec-arch-eng",
@@ -2543,7 +2543,7 @@
     ],
     "language": "en",
     "price": null,
-    "lastChecked": "2026-09-18T08:52:37.667Z"
+    "lastChecked": "2026-09-25T10:25:50.612Z"
   },
   {
     "id": "coursera_learn_cissp-domain-4-comm-ntwk-sec",
@@ -2564,7 +2564,7 @@
     ],
     "language": "en",
     "price": null,
-    "lastChecked": "2026-09-18T08:52:37.667Z"
+    "lastChecked": "2026-09-25T10:25:50.612Z"
   },
   {
     "id": "coursera_learn_cissp-domain-8-software-dev-security",
@@ -2585,7 +2585,7 @@
     ],
     "language": "en",
     "price": null,
-    "lastChecked": "2026-09-18T08:52:37.667Z"
+    "lastChecked": "2026-09-25T10:25:50.612Z"
   },
   {
     "id": "coursera_learn_ckad-container-and-container-orchestration-fundamentals",
@@ -2606,7 +2606,7 @@
     ],
     "language": "en",
     "price": null,
-    "lastChecked": "2026-09-18T08:52:37.667Z"
+    "lastChecked": "2026-09-25T10:25:50.612Z"
   },
   {
     "id": "coursera_learn_packt-az-104-managing-azure-identity-governance-and-storage-nosej",
@@ -2627,7 +2627,7 @@
     ],
     "language": "en",
     "price": null,
-    "lastChecked": "2026-09-18T08:52:37.667Z"
+    "lastChecked": "2026-09-25T10:25:50.612Z"
   },
   {
     "id": "coursera_learn_packt-az-104-networking-monitoring-and-backup-strategies-pps7c",
@@ -2648,7 +2648,7 @@
     ],
     "language": "en",
     "price": null,
-    "lastChecked": "2026-09-18T08:52:37.667Z"
+    "lastChecked": "2026-09-25T10:25:50.612Z"
   },
   {
     "id": "coursera_learn_pearson-ccna-200-301-version-1-1-video-course-2nd-edition-1-zlvir",
@@ -2669,7 +2669,7 @@
     ],
     "language": "en",
     "price": null,
-    "lastChecked": "2026-09-18T08:52:37.667Z"
+    "lastChecked": "2026-09-25T10:25:50.612Z"
   },
   {
     "id": "coursera_learn_pearson-pmp-certification-complete-video-course-i",
@@ -2690,7 +2690,7 @@
     ],
     "language": "en",
     "price": null,
-    "lastChecked": "2026-09-18T08:52:37.667Z"
+    "lastChecked": "2026-09-25T10:25:50.612Z"
   },
   {
     "id": "coursera_learn_pearson-pmp-certification-complete-video-course-v",
@@ -2711,7 +2711,7 @@
     ],
     "language": "en",
     "price": null,
-    "lastChecked": "2026-09-18T08:52:37.667Z"
+    "lastChecked": "2026-09-25T10:25:50.612Z"
   },
   {
     "id": "coursera_learn_pmi-pmp-certification-project-approaches-lifecycles-and-agile-implementation",
@@ -2732,7 +2732,7 @@
     ],
     "language": "en",
     "price": null,
-    "lastChecked": "2026-09-18T08:52:37.667Z"
+    "lastChecked": "2026-09-25T10:25:50.612Z"
   },
   {
     "id": "coursera_learn_pmi-pmp-certification-project-mgmt-principles-performance-domains-tailoring",
@@ -2753,7 +2753,7 @@
     ],
     "language": "en",
     "price": null,
-    "lastChecked": "2026-09-18T08:52:37.667Z"
+    "lastChecked": "2026-09-25T10:25:50.612Z"
   },
   {
     "id": "coursera_learn_practice-exam-for-scrum-org-psm-i-certification",
@@ -2774,7 +2774,7 @@
     ],
     "language": "en",
     "price": null,
-    "lastChecked": "2026-09-18T08:52:37.667Z"
+    "lastChecked": "2026-09-25T10:25:50.612Z"
   },
   {
     "id": "coursera_learn_preparing-for-the-az-900-microsoft-azure-fundamentals-exam",
@@ -2795,7 +2795,7 @@
     ],
     "language": "en",
     "price": null,
-    "lastChecked": "2026-09-18T08:52:37.667Z"
+    "lastChecked": "2026-09-25T10:25:50.612Z"
   },
   {
     "id": "coursera_learn_tencent-cloud-practitioner",
@@ -2816,6 +2816,3833 @@
     ],
     "language": "en",
     "price": null,
-    "lastChecked": "2026-09-18T08:52:37.667Z"
+    "lastChecked": "2026-09-25T10:25:50.612Z"
+  },
+  {
+    "id": "official_aws-dva",
+    "certificationId": "aws-dva",
+    "name": "AWS DVA — official learning path",
+    "provider": {
+      "name": "AWS Skill Builder",
+      "url": "https://skillbuilder.aws"
+    },
+    "courseUrl": "https://aws.amazon.com/certification/certified-developer-associate/",
+    "type": "official",
+    "location": {
+      "country": "GLOBAL",
+      "market": "global"
+    },
+    "delivery": [
+      "online"
+    ],
+    "language": "English",
+    "price": null,
+    "lastChecked": "2026-09-25T10:25:50.612Z"
+  },
+  {
+    "id": "official_aws-soa",
+    "certificationId": "aws-soa",
+    "name": "AWS SOA — official learning path",
+    "provider": {
+      "name": "AWS Skill Builder",
+      "url": "https://skillbuilder.aws"
+    },
+    "courseUrl": "https://aws.amazon.com/certification/certified-sysops-admin-associate/",
+    "type": "official",
+    "location": {
+      "country": "GLOBAL",
+      "market": "global"
+    },
+    "delivery": [
+      "online"
+    ],
+    "language": "English",
+    "price": null,
+    "lastChecked": "2026-09-25T10:25:50.612Z"
+  },
+  {
+    "id": "official_aws-sap",
+    "certificationId": "aws-sap",
+    "name": "AWS SAP — official learning path",
+    "provider": {
+      "name": "AWS Skill Builder",
+      "url": "https://skillbuilder.aws"
+    },
+    "courseUrl": "https://aws.amazon.com/certification/certified-solutions-architect-professional/",
+    "type": "official",
+    "location": {
+      "country": "GLOBAL",
+      "market": "global"
+    },
+    "delivery": [
+      "online"
+    ],
+    "language": "English",
+    "price": null,
+    "lastChecked": "2026-09-25T10:25:50.612Z"
+  },
+  {
+    "id": "official_aws-scs",
+    "certificationId": "aws-scs",
+    "name": "AWS Security Specialty — official learning path",
+    "provider": {
+      "name": "AWS Skill Builder",
+      "url": "https://skillbuilder.aws"
+    },
+    "courseUrl": "https://aws.amazon.com/certification/certified-security-specialty/",
+    "type": "official",
+    "location": {
+      "country": "GLOBAL",
+      "market": "global"
+    },
+    "delivery": [
+      "online"
+    ],
+    "language": "English",
+    "price": null,
+    "lastChecked": "2026-09-25T10:25:50.612Z"
+  },
+  {
+    "id": "official_aws-ans",
+    "certificationId": "aws-ans",
+    "name": "AWS ANS — official learning path",
+    "provider": {
+      "name": "AWS Skill Builder",
+      "url": "https://skillbuilder.aws"
+    },
+    "courseUrl": "https://aws.amazon.com/certification/certified-advanced-networking-specialty/",
+    "type": "official",
+    "location": {
+      "country": "GLOBAL",
+      "market": "global"
+    },
+    "delivery": [
+      "online"
+    ],
+    "language": "English",
+    "price": null,
+    "lastChecked": "2026-09-25T10:25:50.612Z"
+  },
+  {
+    "id": "official_aws-mls",
+    "certificationId": "aws-mls",
+    "name": "AWS MLS — official learning path",
+    "provider": {
+      "name": "AWS Skill Builder",
+      "url": "https://skillbuilder.aws"
+    },
+    "courseUrl": "https://aws.amazon.com/certification/certified-machine-learning-specialty/",
+    "type": "official",
+    "location": {
+      "country": "GLOBAL",
+      "market": "global"
+    },
+    "delivery": [
+      "online"
+    ],
+    "language": "English",
+    "price": null,
+    "lastChecked": "2026-09-25T10:25:50.612Z"
+  },
+  {
+    "id": "official_aws-dea",
+    "certificationId": "aws-dea",
+    "name": "AWS DEA — official learning path",
+    "provider": {
+      "name": "AWS Skill Builder",
+      "url": "https://skillbuilder.aws"
+    },
+    "courseUrl": "https://aws.amazon.com/certification/certified-data-engineer-associate/",
+    "type": "official",
+    "location": {
+      "country": "GLOBAL",
+      "market": "global"
+    },
+    "delivery": [
+      "online"
+    ],
+    "language": "English",
+    "price": null,
+    "lastChecked": "2026-09-25T10:25:50.612Z"
+  },
+  {
+    "id": "official_aws-aif",
+    "certificationId": "aws-aif",
+    "name": "AWS AIF — official learning path",
+    "provider": {
+      "name": "AWS Skill Builder",
+      "url": "https://skillbuilder.aws"
+    },
+    "courseUrl": "https://aws.amazon.com/certification/certified-ai-practitioner/",
+    "type": "official",
+    "location": {
+      "country": "GLOBAL",
+      "market": "global"
+    },
+    "delivery": [
+      "online"
+    ],
+    "language": "English",
+    "price": null,
+    "lastChecked": "2026-09-25T10:25:50.612Z"
+  },
+  {
+    "id": "official_az-204",
+    "certificationId": "az-204",
+    "name": "AZ-204 — official learning path",
+    "provider": {
+      "name": "Microsoft Learn",
+      "url": "https://learn.microsoft.com"
+    },
+    "courseUrl": "https://learn.microsoft.com/en-us/credentials/certifications/azure-developer/",
+    "type": "official",
+    "location": {
+      "country": "GLOBAL",
+      "market": "global"
+    },
+    "delivery": [
+      "online"
+    ],
+    "language": "English",
+    "price": null,
+    "lastChecked": "2026-09-25T10:25:50.612Z"
+  },
+  {
+    "id": "official_az-305",
+    "certificationId": "az-305",
+    "name": "AZ-305 — official learning path",
+    "provider": {
+      "name": "Microsoft Learn",
+      "url": "https://learn.microsoft.com"
+    },
+    "courseUrl": "https://learn.microsoft.com/en-us/credentials/certifications/azure-solutions-architect/",
+    "type": "official",
+    "location": {
+      "country": "GLOBAL",
+      "market": "global"
+    },
+    "delivery": [
+      "online"
+    ],
+    "language": "English",
+    "price": null,
+    "lastChecked": "2026-09-25T10:25:50.612Z"
+  },
+  {
+    "id": "official_az-400",
+    "certificationId": "az-400",
+    "name": "AZ-400 — official learning path",
+    "provider": {
+      "name": "Microsoft Learn",
+      "url": "https://learn.microsoft.com"
+    },
+    "courseUrl": "https://learn.microsoft.com/en-us/credentials/certifications/devops-engineer/",
+    "type": "official",
+    "location": {
+      "country": "GLOBAL",
+      "market": "global"
+    },
+    "delivery": [
+      "online"
+    ],
+    "language": "English",
+    "price": null,
+    "lastChecked": "2026-09-25T10:25:50.612Z"
+  },
+  {
+    "id": "official_az-500",
+    "certificationId": "az-500",
+    "name": "AZ-500 — official learning path",
+    "provider": {
+      "name": "Microsoft Learn",
+      "url": "https://learn.microsoft.com"
+    },
+    "courseUrl": "https://learn.microsoft.com/en-us/credentials/certifications/azure-security-engineer/",
+    "type": "official",
+    "location": {
+      "country": "GLOBAL",
+      "market": "global"
+    },
+    "delivery": [
+      "online"
+    ],
+    "language": "English",
+    "price": null,
+    "lastChecked": "2026-09-25T10:25:50.612Z"
+  },
+  {
+    "id": "official_az-700",
+    "certificationId": "az-700",
+    "name": "AZ-700 — official learning path",
+    "provider": {
+      "name": "Microsoft Learn",
+      "url": "https://learn.microsoft.com"
+    },
+    "courseUrl": "https://learn.microsoft.com/en-us/credentials/certifications/azure-network-engineer-associate/",
+    "type": "official",
+    "location": {
+      "country": "GLOBAL",
+      "market": "global"
+    },
+    "delivery": [
+      "online"
+    ],
+    "language": "English",
+    "price": null,
+    "lastChecked": "2026-09-25T10:25:50.612Z"
+  },
+  {
+    "id": "official_sc-900",
+    "certificationId": "sc-900",
+    "name": "SC-900 — official learning path",
+    "provider": {
+      "name": "Microsoft Learn",
+      "url": "https://learn.microsoft.com"
+    },
+    "courseUrl": "https://learn.microsoft.com/en-us/credentials/certifications/security-compliance-and-identity-fundamentals/",
+    "type": "official",
+    "location": {
+      "country": "GLOBAL",
+      "market": "global"
+    },
+    "delivery": [
+      "online"
+    ],
+    "language": "English",
+    "price": null,
+    "lastChecked": "2026-09-25T10:25:50.612Z"
+  },
+  {
+    "id": "official_sc-200",
+    "certificationId": "sc-200",
+    "name": "SC-200 — official learning path",
+    "provider": {
+      "name": "Microsoft Learn",
+      "url": "https://learn.microsoft.com"
+    },
+    "courseUrl": "https://learn.microsoft.com/en-us/credentials/certifications/security-operations-analyst/",
+    "type": "official",
+    "location": {
+      "country": "GLOBAL",
+      "market": "global"
+    },
+    "delivery": [
+      "online"
+    ],
+    "language": "English",
+    "price": null,
+    "lastChecked": "2026-09-25T10:25:50.612Z"
+  },
+  {
+    "id": "official_sc-300",
+    "certificationId": "sc-300",
+    "name": "SC-300 — official learning path",
+    "provider": {
+      "name": "Microsoft Learn",
+      "url": "https://learn.microsoft.com"
+    },
+    "courseUrl": "https://learn.microsoft.com/en-us/credentials/certifications/identity-and-access-administrator/",
+    "type": "official",
+    "location": {
+      "country": "GLOBAL",
+      "market": "global"
+    },
+    "delivery": [
+      "online"
+    ],
+    "language": "English",
+    "price": null,
+    "lastChecked": "2026-09-25T10:25:50.612Z"
+  },
+  {
+    "id": "official_dp-100",
+    "certificationId": "dp-100",
+    "name": "DP-100 — official learning path",
+    "provider": {
+      "name": "Microsoft Learn",
+      "url": "https://learn.microsoft.com"
+    },
+    "courseUrl": "https://learn.microsoft.com/en-us/credentials/certifications/azure-data-scientist/",
+    "type": "official",
+    "location": {
+      "country": "GLOBAL",
+      "market": "global"
+    },
+    "delivery": [
+      "online"
+    ],
+    "language": "English",
+    "price": null,
+    "lastChecked": "2026-09-25T10:25:50.612Z"
+  },
+  {
+    "id": "official_dp-300",
+    "certificationId": "dp-300",
+    "name": "DP-300 — official learning path",
+    "provider": {
+      "name": "Microsoft Learn",
+      "url": "https://learn.microsoft.com"
+    },
+    "courseUrl": "https://learn.microsoft.com/en-us/credentials/certifications/azure-database-administrator-associate/",
+    "type": "official",
+    "location": {
+      "country": "GLOBAL",
+      "market": "global"
+    },
+    "delivery": [
+      "online"
+    ],
+    "language": "English",
+    "price": null,
+    "lastChecked": "2026-09-25T10:25:50.612Z"
+  },
+  {
+    "id": "official_dp-900",
+    "certificationId": "dp-900",
+    "name": "DP-900 — official learning path",
+    "provider": {
+      "name": "Microsoft Learn",
+      "url": "https://learn.microsoft.com"
+    },
+    "courseUrl": "https://learn.microsoft.com/en-us/credentials/certifications/azure-data-fundamentals/",
+    "type": "official",
+    "location": {
+      "country": "GLOBAL",
+      "market": "global"
+    },
+    "delivery": [
+      "online"
+    ],
+    "language": "English",
+    "price": null,
+    "lastChecked": "2026-09-25T10:25:50.612Z"
+  },
+  {
+    "id": "official_ai-900",
+    "certificationId": "ai-900",
+    "name": "AI-900 — official learning path",
+    "provider": {
+      "name": "Microsoft Learn",
+      "url": "https://learn.microsoft.com"
+    },
+    "courseUrl": "https://learn.microsoft.com/en-us/credentials/certifications/azure-ai-fundamentals/",
+    "type": "official",
+    "location": {
+      "country": "GLOBAL",
+      "market": "global"
+    },
+    "delivery": [
+      "online"
+    ],
+    "language": "English",
+    "price": null,
+    "lastChecked": "2026-09-25T10:25:50.612Z"
+  },
+  {
+    "id": "official_pl-300",
+    "certificationId": "pl-300",
+    "name": "PL-300 — official learning path",
+    "provider": {
+      "name": "Microsoft Learn",
+      "url": "https://learn.microsoft.com"
+    },
+    "courseUrl": "https://learn.microsoft.com/en-us/credentials/certifications/data-analyst-associate/",
+    "type": "official",
+    "location": {
+      "country": "GLOBAL",
+      "market": "global"
+    },
+    "delivery": [
+      "online"
+    ],
+    "language": "English",
+    "price": null,
+    "lastChecked": "2026-09-25T10:25:50.612Z"
+  },
+  {
+    "id": "official_gcp-pca",
+    "certificationId": "gcp-pca",
+    "name": "GCP PCA — official learning path",
+    "provider": {
+      "name": "Google Cloud Skills Boost",
+      "url": "https://www.cloudskillsboost.google"
+    },
+    "courseUrl": "https://cloud.google.com/learn/certification/cloud-architect",
+    "type": "official",
+    "location": {
+      "country": "GLOBAL",
+      "market": "global"
+    },
+    "delivery": [
+      "online"
+    ],
+    "language": "English",
+    "price": null,
+    "lastChecked": "2026-09-25T10:25:50.612Z"
+  },
+  {
+    "id": "official_gcp-pde",
+    "certificationId": "gcp-pde",
+    "name": "GCP PDE — official learning path",
+    "provider": {
+      "name": "Google Cloud Skills Boost",
+      "url": "https://www.cloudskillsboost.google"
+    },
+    "courseUrl": "https://cloud.google.com/learn/certification/data-engineer",
+    "type": "official",
+    "location": {
+      "country": "GLOBAL",
+      "market": "global"
+    },
+    "delivery": [
+      "online"
+    ],
+    "language": "English",
+    "price": null,
+    "lastChecked": "2026-09-25T10:25:50.612Z"
+  },
+  {
+    "id": "official_gcp-pcdoe",
+    "certificationId": "gcp-pcdoe",
+    "name": "GCP DevOps — official learning path",
+    "provider": {
+      "name": "Google Cloud Skills Boost",
+      "url": "https://www.cloudskillsboost.google"
+    },
+    "courseUrl": "https://cloud.google.com/learn/certification/cloud-devops-engineer",
+    "type": "official",
+    "location": {
+      "country": "GLOBAL",
+      "market": "global"
+    },
+    "delivery": [
+      "online"
+    ],
+    "language": "English",
+    "price": null,
+    "lastChecked": "2026-09-25T10:25:50.612Z"
+  },
+  {
+    "id": "official_gcp-pmle",
+    "certificationId": "gcp-pmle",
+    "name": "GCP PMLE — official learning path",
+    "provider": {
+      "name": "Google Cloud Skills Boost",
+      "url": "https://www.cloudskillsboost.google"
+    },
+    "courseUrl": "https://cloud.google.com/learn/certification/machine-learning-engineer",
+    "type": "official",
+    "location": {
+      "country": "GLOBAL",
+      "market": "global"
+    },
+    "delivery": [
+      "online"
+    ],
+    "language": "English",
+    "price": null,
+    "lastChecked": "2026-09-25T10:25:50.612Z"
+  },
+  {
+    "id": "official_gcp-cdl",
+    "certificationId": "gcp-cdl",
+    "name": "GCP CDL — official learning path",
+    "provider": {
+      "name": "Google Cloud Skills Boost",
+      "url": "https://www.cloudskillsboost.google"
+    },
+    "courseUrl": "https://cloud.google.com/learn/certification/cloud-digital-leader",
+    "type": "official",
+    "location": {
+      "country": "GLOBAL",
+      "market": "global"
+    },
+    "delivery": [
+      "online"
+    ],
+    "language": "English",
+    "price": null,
+    "lastChecked": "2026-09-25T10:25:50.612Z"
+  },
+  {
+    "id": "official_vault-associate",
+    "certificationId": "vault-associate",
+    "name": "Vault Associate — official learning path",
+    "provider": {
+      "name": "HashiCorp Developer",
+      "url": "https://developer.hashicorp.com"
+    },
+    "courseUrl": "https://developer.hashicorp.com/certifications/security-automation",
+    "type": "official",
+    "location": {
+      "country": "GLOBAL",
+      "market": "global"
+    },
+    "delivery": [
+      "online"
+    ],
+    "language": "English",
+    "price": null,
+    "lastChecked": "2026-09-25T10:25:50.612Z"
+  },
+  {
+    "id": "official_linux-plus",
+    "certificationId": "linux-plus",
+    "name": "Linux+ — official learning path",
+    "provider": {
+      "name": "CompTIA Learning",
+      "url": "https://www.comptia.org/training"
+    },
+    "courseUrl": "https://www.comptia.org/certifications/linux",
+    "type": "official",
+    "location": {
+      "country": "GLOBAL",
+      "market": "global"
+    },
+    "delivery": [
+      "online"
+    ],
+    "language": "English",
+    "price": null,
+    "lastChecked": "2026-09-25T10:25:50.612Z"
+  },
+  {
+    "id": "official_network-plus",
+    "certificationId": "network-plus",
+    "name": "Network+ — official learning path",
+    "provider": {
+      "name": "CompTIA Learning",
+      "url": "https://www.comptia.org/training"
+    },
+    "courseUrl": "https://www.comptia.org/certifications/network",
+    "type": "official",
+    "location": {
+      "country": "GLOBAL",
+      "market": "global"
+    },
+    "delivery": [
+      "online"
+    ],
+    "language": "English",
+    "price": null,
+    "lastChecked": "2026-09-25T10:25:50.612Z"
+  },
+  {
+    "id": "official_ccie-ei",
+    "certificationId": "ccie-ei",
+    "name": "CCIE EI — official learning path",
+    "provider": {
+      "name": "Cisco Learning Network",
+      "url": "https://learningnetwork.cisco.com"
+    },
+    "courseUrl": "https://www.cisco.com/site/us/en/learn/training-certifications/certifications/enterprise/ccie-enterprise-infrastructure/index.html",
+    "type": "official",
+    "location": {
+      "country": "GLOBAL",
+      "market": "global"
+    },
+    "delivery": [
+      "online"
+    ],
+    "language": "English",
+    "price": null,
+    "lastChecked": "2026-09-25T10:25:50.612Z"
+  },
+  {
+    "id": "official_ccnp-security",
+    "certificationId": "ccnp-security",
+    "name": "CCNP Security — official learning path",
+    "provider": {
+      "name": "Cisco Learning Network",
+      "url": "https://learningnetwork.cisco.com"
+    },
+    "courseUrl": "https://learningnetwork.cisco.com/s/ccnp-security",
+    "type": "official",
+    "location": {
+      "country": "GLOBAL",
+      "market": "global"
+    },
+    "delivery": [
+      "online"
+    ],
+    "language": "English",
+    "price": null,
+    "lastChecked": "2026-09-25T10:25:50.612Z"
+  },
+  {
+    "id": "official_cyberops-associate",
+    "certificationId": "cyberops-associate",
+    "name": "CyberOps Associate — official learning path",
+    "provider": {
+      "name": "Cisco Learning Network",
+      "url": "https://learningnetwork.cisco.com"
+    },
+    "courseUrl": "https://learningnetwork.cisco.com/s/cyberops-associate",
+    "type": "official",
+    "location": {
+      "country": "GLOBAL",
+      "market": "global"
+    },
+    "delivery": [
+      "online"
+    ],
+    "language": "English",
+    "price": null,
+    "lastChecked": "2026-09-25T10:25:50.612Z"
+  },
+  {
+    "id": "official_cysa-plus",
+    "certificationId": "cysa-plus",
+    "name": "CySA+ — official learning path",
+    "provider": {
+      "name": "CompTIA Learning",
+      "url": "https://www.comptia.org/training"
+    },
+    "courseUrl": "https://www.comptia.org/certifications/cybersecurity-analyst",
+    "type": "official",
+    "location": {
+      "country": "GLOBAL",
+      "market": "global"
+    },
+    "delivery": [
+      "online"
+    ],
+    "language": "English",
+    "price": null,
+    "lastChecked": "2026-09-25T10:25:50.612Z"
+  },
+  {
+    "id": "official_pentest-plus",
+    "certificationId": "pentest-plus",
+    "name": "PenTest+ — official learning path",
+    "provider": {
+      "name": "CompTIA Learning",
+      "url": "https://www.comptia.org/training"
+    },
+    "courseUrl": "https://www.comptia.org/certifications/pentest",
+    "type": "official",
+    "location": {
+      "country": "GLOBAL",
+      "market": "global"
+    },
+    "delivery": [
+      "online"
+    ],
+    "language": "English",
+    "price": null,
+    "lastChecked": "2026-09-25T10:25:50.612Z"
+  },
+  {
+    "id": "official_securityx",
+    "certificationId": "securityx",
+    "name": "SecurityX — official learning path",
+    "provider": {
+      "name": "CompTIA Learning",
+      "url": "https://www.comptia.org/training"
+    },
+    "courseUrl": "https://www.comptia.org/certifications/securityx",
+    "type": "official",
+    "location": {
+      "country": "GLOBAL",
+      "market": "global"
+    },
+    "delivery": [
+      "online"
+    ],
+    "language": "English",
+    "price": null,
+    "lastChecked": "2026-09-25T10:25:50.612Z"
+  },
+  {
+    "id": "official_ccsp",
+    "certificationId": "ccsp",
+    "name": "CCSP — official learning path",
+    "provider": {
+      "name": "ISC2 Official Training",
+      "url": "https://www.isc2.org/training"
+    },
+    "courseUrl": "https://www.isc2.org/certifications/ccsp",
+    "type": "official",
+    "location": {
+      "country": "GLOBAL",
+      "market": "global"
+    },
+    "delivery": [
+      "online"
+    ],
+    "language": "English",
+    "price": null,
+    "lastChecked": "2026-09-25T10:25:50.612Z"
+  },
+  {
+    "id": "official_isc2-cc",
+    "certificationId": "isc2-cc",
+    "name": "ISC2 CC — official learning path",
+    "provider": {
+      "name": "ISC2 Official Training",
+      "url": "https://www.isc2.org/training"
+    },
+    "courseUrl": "https://www.isc2.org/certifications/cc",
+    "type": "official",
+    "location": {
+      "country": "GLOBAL",
+      "market": "global"
+    },
+    "delivery": [
+      "online"
+    ],
+    "language": "English",
+    "price": null,
+    "lastChecked": "2026-09-25T10:25:50.612Z"
+  },
+  {
+    "id": "coursera_professional-certificates_azure-data-scientist",
+    "certificationId": "dp-100",
+    "name": "Microsoft Azure Data Scientist Associate (DP-100) Exam Prep",
+    "provider": {
+      "name": "Microsoft",
+      "url": "https://www.coursera.org/microsoft"
+    },
+    "courseUrl": "https://www.coursera.org/professional-certificates/azure-data-scientist",
+    "type": "online-platform",
+    "location": {
+      "country": "GLOBAL",
+      "market": "global"
+    },
+    "delivery": [
+      "online"
+    ],
+    "language": "en",
+    "price": null,
+    "lastChecked": "2026-09-25T10:25:50.612Z"
+  },
+  {
+    "id": "coursera_professional-certificates_azure-developer-associate",
+    "certificationId": "az-204",
+    "name": "Microsoft Azure Developer Associate (AZ-204) Exam Prep",
+    "provider": {
+      "name": "Microsoft",
+      "url": "https://www.coursera.org/microsoft"
+    },
+    "courseUrl": "https://www.coursera.org/professional-certificates/azure-developer-associate",
+    "type": "online-platform",
+    "location": {
+      "country": "GLOBAL",
+      "market": "global"
+    },
+    "delivery": [
+      "online"
+    ],
+    "language": "en",
+    "price": null,
+    "lastChecked": "2026-09-25T10:25:50.612Z"
+  },
+  {
+    "id": "coursera_professional-certificates_google-cloud-digital-leader-training",
+    "certificationId": "gcp-cdl",
+    "name": "Google Cloud Digital Leader Training",
+    "provider": {
+      "name": "Google Cloud",
+      "url": "https://www.coursera.org/googlecloud"
+    },
+    "courseUrl": "https://www.coursera.org/professional-certificates/google-cloud-digital-leader-training",
+    "type": "online-platform",
+    "location": {
+      "country": "GLOBAL",
+      "market": "global"
+    },
+    "delivery": [
+      "online"
+    ],
+    "language": "en",
+    "price": null,
+    "lastChecked": "2026-09-25T10:25:50.612Z"
+  },
+  {
+    "id": "coursera_professional-certificates_microsoft-azure-security-engineer-associate",
+    "certificationId": "az-500",
+    "name": "Microsoft Azure Security Engineer Associate (AZ-500)",
+    "provider": {
+      "name": "Microsoft",
+      "url": "https://www.coursera.org/microsoft"
+    },
+    "courseUrl": "https://www.coursera.org/professional-certificates/microsoft-azure-security-engineer-associate",
+    "type": "online-platform",
+    "location": {
+      "country": "GLOBAL",
+      "market": "global"
+    },
+    "delivery": [
+      "online"
+    ],
+    "language": "en",
+    "price": null,
+    "lastChecked": "2026-09-25T10:25:50.612Z"
+  },
+  {
+    "id": "coursera_professional-certificates_microsoft-power-bi-data-analyst",
+    "certificationId": "pl-300",
+    "name": "Microsoft Power BI Data Analyst",
+    "provider": {
+      "name": "Microsoft",
+      "url": "https://www.coursera.org/microsoft"
+    },
+    "courseUrl": "https://www.coursera.org/professional-certificates/microsoft-power-bi-data-analyst",
+    "type": "online-platform",
+    "location": {
+      "country": "GLOBAL",
+      "market": "global"
+    },
+    "delivery": [
+      "online"
+    ],
+    "language": "en",
+    "price": null,
+    "lastChecked": "2026-09-25T10:25:50.612Z"
+  },
+  {
+    "id": "coursera_specializations_agile-scrum-mastery-csm-psm-certification",
+    "certificationId": "csm",
+    "name": "Agile & Scrum Mastery for CSM and PSM Certification",
+    "provider": {
+      "name": "EDUCBA",
+      "url": "https://www.coursera.org/educba"
+    },
+    "courseUrl": "https://www.coursera.org/specializations/agile-scrum-mastery-csm-psm-certification",
+    "type": "online-platform",
+    "location": {
+      "country": "GLOBAL",
+      "market": "global"
+    },
+    "delivery": [
+      "online"
+    ],
+    "language": "en",
+    "price": null,
+    "lastChecked": "2026-09-25T10:25:50.612Z"
+  },
+  {
+    "id": "coursera_specializations_agile-tools-pmi-acp-exam-prep-plan-execute-lead",
+    "certificationId": "pmi-acp",
+    "name": "Agile Tools & PMI-ACP Exam Prep: Plan, Execute and Lead",
+    "provider": {
+      "name": "EDUCBA",
+      "url": "https://www.coursera.org/educba"
+    },
+    "courseUrl": "https://www.coursera.org/specializations/agile-tools-pmi-acp-exam-prep-plan-execute-lead",
+    "type": "online-platform",
+    "location": {
+      "country": "GLOBAL",
+      "market": "global"
+    },
+    "delivery": [
+      "online"
+    ],
+    "language": "en",
+    "price": null,
+    "lastChecked": "2026-09-25T10:25:50.612Z"
+  },
+  {
+    "id": "coursera_specializations_aws-certified-ai-practitioner",
+    "certificationId": "aws-aif",
+    "name": "AWS AI Practitioner Certification Prep",
+    "provider": {
+      "name": "LearnKartS",
+      "url": "https://www.coursera.org/learnkarts"
+    },
+    "courseUrl": "https://www.coursera.org/specializations/aws-certified-ai-practitioner",
+    "type": "online-platform",
+    "location": {
+      "country": "GLOBAL",
+      "market": "global"
+    },
+    "delivery": [
+      "online"
+    ],
+    "language": "en",
+    "price": null,
+    "lastChecked": "2026-09-25T10:25:50.612Z"
+  },
+  {
+    "id": "coursera_specializations_aws-developer-associate",
+    "certificationId": "aws-dva",
+    "name": "AWS Developer Associate Certification Prep",
+    "provider": {
+      "name": "LearnKartS",
+      "url": "https://www.coursera.org/learnkarts"
+    },
+    "courseUrl": "https://www.coursera.org/specializations/aws-developer-associate",
+    "type": "online-platform",
+    "location": {
+      "country": "GLOBAL",
+      "market": "global"
+    },
+    "delivery": [
+      "online"
+    ],
+    "language": "en",
+    "price": null,
+    "lastChecked": "2026-09-25T10:25:50.612Z"
+  },
+  {
+    "id": "coursera_specializations_az-305-designing-ms-az-infrastructure-solutions-exam-prep-specialization",
+    "certificationId": "az-305",
+    "name": "AZ-305 Designing MS Azure Infrastructure Solutions Exam Prep",
+    "provider": {
+      "name": "SkillUp",
+      "url": "https://www.coursera.org/skillup-ed-tech"
+    },
+    "courseUrl": "https://www.coursera.org/specializations/az-305-designing-ms-az-infrastructure-solutions-exam-prep-specialization",
+    "type": "online-platform",
+    "location": {
+      "country": "GLOBAL",
+      "market": "global"
+    },
+    "delivery": [
+      "online"
+    ],
+    "language": "en",
+    "price": null,
+    "lastChecked": "2026-09-25T10:25:50.612Z"
+  },
+  {
+    "id": "coursera_specializations_az-400-certification-preparation",
+    "certificationId": "az-400",
+    "name": "AZ-400 Certification Preparation",
+    "provider": {
+      "name": "LearnKartS",
+      "url": "https://www.coursera.org/learnkarts"
+    },
+    "courseUrl": "https://www.coursera.org/specializations/az-400-certification-preparation",
+    "type": "online-platform",
+    "location": {
+      "country": "GLOBAL",
+      "market": "global"
+    },
+    "delivery": [
+      "online"
+    ],
+    "language": "en",
+    "price": null,
+    "lastChecked": "2026-09-25T10:25:50.612Z"
+  },
+  {
+    "id": "coursera_specializations_az700-exam-prep-and-certification",
+    "certificationId": "az-700",
+    "name": "Azure Network Engineer: AZ-700 Exam Prep & Certification",
+    "provider": {
+      "name": "EDUCBA",
+      "url": "https://www.coursera.org/educba"
+    },
+    "courseUrl": "https://www.coursera.org/specializations/az700-exam-prep-and-certification",
+    "type": "online-platform",
+    "location": {
+      "country": "GLOBAL",
+      "market": "global"
+    },
+    "delivery": [
+      "online"
+    ],
+    "language": "en",
+    "price": null,
+    "lastChecked": "2026-09-25T10:25:50.612Z"
+  },
+  {
+    "id": "coursera_specializations_business-analysis-excel-tools-and-ccba-training",
+    "certificationId": "ccba",
+    "name": "Business Analysis Excel Tools and CCBA Training",
+    "provider": {
+      "name": "Simplilearn",
+      "url": "https://www.coursera.org/simplilearn"
+    },
+    "courseUrl": "https://www.coursera.org/specializations/business-analysis-excel-tools-and-ccba-training",
+    "type": "online-platform",
+    "location": {
+      "country": "GLOBAL",
+      "market": "global"
+    },
+    "delivery": [
+      "online"
+    ],
+    "language": "en",
+    "price": null,
+    "lastChecked": "2026-09-25T10:25:50.612Z"
+  },
+  {
+    "id": "coursera_specializations_business-analyst-ecba-certification-preparation",
+    "certificationId": "ecba",
+    "name": "Business Analyst (ECBA) Certificate Preparation",
+    "provider": {
+      "name": "SkillUp",
+      "url": "https://www.coursera.org/skillup-ed-tech"
+    },
+    "courseUrl": "https://www.coursera.org/specializations/business-analyst-ecba-certification-preparation",
+    "type": "online-platform",
+    "location": {
+      "country": "GLOBAL",
+      "market": "global"
+    },
+    "delivery": [
+      "online"
+    ],
+    "language": "en",
+    "price": null,
+    "lastChecked": "2026-09-25T10:25:50.612Z"
+  },
+  {
+    "id": "coursera_specializations_capm-certification-prep-course",
+    "certificationId": "capm",
+    "name": "Certified Associate in Project Management Prep",
+    "provider": {
+      "name": "LearnKartS",
+      "url": "https://www.coursera.org/learnkarts"
+    },
+    "courseUrl": "https://www.coursera.org/specializations/capm-certification-prep-course",
+    "type": "online-platform",
+    "location": {
+      "country": "GLOBAL",
+      "market": "global"
+    },
+    "delivery": [
+      "online"
+    ],
+    "language": "en",
+    "price": null,
+    "lastChecked": "2026-09-25T10:25:50.612Z"
+  },
+  {
+    "id": "coursera_specializations_cbap-certification-business-analysis-training",
+    "certificationId": "cbap",
+    "name": "CBAP Certification Business Analysis Training",
+    "provider": {
+      "name": "Simplilearn",
+      "url": "https://www.coursera.org/simplilearn"
+    },
+    "courseUrl": "https://www.coursera.org/specializations/cbap-certification-business-analysis-training",
+    "type": "online-platform",
+    "location": {
+      "country": "GLOBAL",
+      "market": "global"
+    },
+    "delivery": [
+      "online"
+    ],
+    "language": "en",
+    "price": null,
+    "lastChecked": "2026-09-25T10:25:50.612Z"
+  },
+  {
+    "id": "coursera_specializations_ccsp-exam-prep",
+    "certificationId": "ccsp",
+    "name": "Certified Cloud Security Professional Exam Prep",
+    "provider": {
+      "name": "LearnKartS",
+      "url": "https://www.coursera.org/learnkarts"
+    },
+    "courseUrl": "https://www.coursera.org/specializations/ccsp-exam-prep",
+    "type": "online-platform",
+    "location": {
+      "country": "GLOBAL",
+      "market": "global"
+    },
+    "delivery": [
+      "online"
+    ],
+    "language": "en",
+    "price": null,
+    "lastChecked": "2026-09-25T10:25:50.612Z"
+  },
+  {
+    "id": "coursera_specializations_certificado-profesional-de-capacitacion-de-google-cloud-digital-leader-esla",
+    "certificationId": "gcp-cdl",
+    "name": "Certificado: Google Cloud Digital Leader",
+    "provider": {
+      "name": "Google Cloud",
+      "url": "https://www.coursera.org/googlecloud"
+    },
+    "courseUrl": "https://www.coursera.org/specializations/certificado-profesional-de-capacitacion-de-google-cloud-digital-leader-esla",
+    "type": "online-platform",
+    "location": {
+      "country": "GLOBAL",
+      "market": "global"
+    },
+    "delivery": [
+      "online"
+    ],
+    "language": "Unknown",
+    "price": null,
+    "lastChecked": "2026-09-25T10:25:50.612Z"
+  },
+  {
+    "id": "coursera_specializations_certified-associate-in-project-management-pmi-capm",
+    "certificationId": "capm",
+    "name": "Certified Associate in Project Management (PMI-CAPM)",
+    "provider": {
+      "name": "Edureka",
+      "url": "https://www.coursera.org/edureka"
+    },
+    "courseUrl": "https://www.coursera.org/specializations/certified-associate-in-project-management-pmi-capm",
+    "type": "online-platform",
+    "location": {
+      "country": "GLOBAL",
+      "market": "global"
+    },
+    "delivery": [
+      "online"
+    ],
+    "language": "en",
+    "price": null,
+    "lastChecked": "2026-09-25T10:25:50.612Z"
+  },
+  {
+    "id": "coursera_specializations_certified-associate-python-programming-pcap",
+    "certificationId": "pcap",
+    "name": "Certified Associate in Python Programming (PCAP)",
+    "provider": {
+      "name": "Logical Operations",
+      "url": "https://www.coursera.org/logicaloperations"
+    },
+    "courseUrl": "https://www.coursera.org/specializations/certified-associate-python-programming-pcap",
+    "type": "online-platform",
+    "location": {
+      "country": "GLOBAL",
+      "market": "global"
+    },
+    "delivery": [
+      "online"
+    ],
+    "language": "en",
+    "price": null,
+    "lastChecked": "2026-09-25T10:25:50.612Z"
+  },
+  {
+    "id": "coursera_specializations_certified-business-analysis-professional-cbap",
+    "certificationId": "cbap",
+    "name": "Certified Business Analysis Professional™ Exam Prep (CBAP®)",
+    "provider": {
+      "name": "STARWEAVER",
+      "url": "https://www.coursera.org/starweaver"
+    },
+    "courseUrl": "https://www.coursera.org/specializations/certified-business-analysis-professional-cbap",
+    "type": "online-platform",
+    "location": {
+      "country": "GLOBAL",
+      "market": "global"
+    },
+    "delivery": [
+      "online"
+    ],
+    "language": "en",
+    "price": null,
+    "lastChecked": "2026-09-25T10:25:50.612Z"
+  },
+  {
+    "id": "coursera_specializations_certified-entry-level-python-programmer-pcep",
+    "certificationId": "pcep",
+    "name": "Certified Entry-Level Python Programmer (PCEP)",
+    "provider": {
+      "name": "Logical Operations",
+      "url": "https://www.coursera.org/logicaloperations"
+    },
+    "courseUrl": "https://www.coursera.org/specializations/certified-entry-level-python-programmer-pcep",
+    "type": "online-platform",
+    "location": {
+      "country": "GLOBAL",
+      "market": "global"
+    },
+    "delivery": [
+      "online"
+    ],
+    "language": "en",
+    "price": null,
+    "lastChecked": "2026-09-25T10:25:50.612Z"
+  },
+  {
+    "id": "coursera_specializations_certified-in-cybersecurity",
+    "certificationId": "isc2-cc",
+    "name": "Certified in Cybersecurity",
+    "provider": {
+      "name": "ISC2",
+      "url": "https://www.coursera.org/isc2"
+    },
+    "courseUrl": "https://www.coursera.org/specializations/certified-in-cybersecurity",
+    "type": "online-platform",
+    "location": {
+      "country": "GLOBAL",
+      "market": "global"
+    },
+    "delivery": [
+      "online"
+    ],
+    "language": "en",
+    "price": null,
+    "lastChecked": "2026-09-25T10:25:50.612Z"
+  },
+  {
+    "id": "coursera_specializations_cism-certification-preparation",
+    "certificationId": "cism",
+    "name": "CISM Certification Preparation",
+    "provider": {
+      "name": "LearnKartS",
+      "url": "https://www.coursera.org/learnkarts"
+    },
+    "courseUrl": "https://www.coursera.org/specializations/cism-certification-preparation",
+    "type": "online-platform",
+    "location": {
+      "country": "GLOBAL",
+      "market": "global"
+    },
+    "delivery": [
+      "online"
+    ],
+    "language": "en",
+    "price": null,
+    "lastChecked": "2026-09-25T10:25:50.612Z"
+  },
+  {
+    "id": "coursera_specializations_exam-prep-aws-certified-advanced-networking-specialty",
+    "certificationId": "aws-ans",
+    "name": "Advanced AWS Networking: Architecture, Security & Operations",
+    "provider": {
+      "name": "Whizlabs",
+      "url": "https://www.coursera.org/whizlabs"
+    },
+    "courseUrl": "https://www.coursera.org/specializations/exam-prep-aws-certified-advanced-networking-specialty",
+    "type": "online-platform",
+    "location": {
+      "country": "GLOBAL",
+      "market": "global"
+    },
+    "delivery": [
+      "online"
+    ],
+    "language": "en",
+    "price": null,
+    "lastChecked": "2026-09-25T10:25:50.612Z"
+  },
+  {
+    "id": "coursera_specializations_exam-prep-aws-certified-data-engineer-associate",
+    "certificationId": "aws-dea",
+    "name": "Exam Prep (DEA-C01): AWS Certified Data Engineer - Associate",
+    "provider": {
+      "name": "Whizlabs",
+      "url": "https://www.coursera.org/whizlabs"
+    },
+    "courseUrl": "https://www.coursera.org/specializations/exam-prep-aws-certified-data-engineer-associate",
+    "type": "online-platform",
+    "location": {
+      "country": "GLOBAL",
+      "market": "global"
+    },
+    "delivery": [
+      "online"
+    ],
+    "language": "en",
+    "price": null,
+    "lastChecked": "2026-09-25T10:25:50.612Z"
+  },
+  {
+    "id": "coursera_specializations_exam-prep-az-305-microsoft-certified-azure-solutions-architect-expert",
+    "certificationId": "az-305",
+    "name": "Exam Prep AZ-305: Microsoft Azure Solutions Architect Expert",
+    "provider": {
+      "name": "Whizlabs",
+      "url": "https://www.coursera.org/whizlabs"
+    },
+    "courseUrl": "https://www.coursera.org/specializations/exam-prep-az-305-microsoft-certified-azure-solutions-architect-expert",
+    "type": "online-platform",
+    "location": {
+      "country": "GLOBAL",
+      "market": "global"
+    },
+    "delivery": [
+      "online"
+    ],
+    "language": "en",
+    "price": null,
+    "lastChecked": "2026-09-25T10:25:50.612Z"
+  },
+  {
+    "id": "coursera_specializations_exam-prep-az-400-microsoft-devops-engineer-expert",
+    "certificationId": "az-400",
+    "name": "Exam Prep AZ-400: Microsoft DevOps Engineer Expert",
+    "provider": {
+      "name": "Whizlabs",
+      "url": "https://www.coursera.org/whizlabs"
+    },
+    "courseUrl": "https://www.coursera.org/specializations/exam-prep-az-400-microsoft-devops-engineer-expert",
+    "type": "online-platform",
+    "location": {
+      "country": "GLOBAL",
+      "market": "global"
+    },
+    "delivery": [
+      "online"
+    ],
+    "language": "en",
+    "price": null,
+    "lastChecked": "2026-09-25T10:25:50.612Z"
+  },
+  {
+    "id": "coursera_specializations_exam-prep-az-500-microsoft-azure-security-engineer-associate",
+    "certificationId": "az-500",
+    "name": "Microsoft Azure Security Engineer Professional",
+    "provider": {
+      "name": "Whizlabs",
+      "url": "https://www.coursera.org/whizlabs"
+    },
+    "courseUrl": "https://www.coursera.org/specializations/exam-prep-az-500-microsoft-azure-security-engineer-associate",
+    "type": "online-platform",
+    "location": {
+      "country": "GLOBAL",
+      "market": "global"
+    },
+    "delivery": [
+      "online"
+    ],
+    "language": "en",
+    "price": null,
+    "lastChecked": "2026-09-25T10:25:50.612Z"
+  },
+  {
+    "id": "coursera_specializations_exam-prep-certified-information-systems-auditor-cisa",
+    "certificationId": "cisa",
+    "name": "Exam Prep: Certified Information Systems Auditor (CISA)",
+    "provider": {
+      "name": "Whizlabs",
+      "url": "https://www.coursera.org/whizlabs"
+    },
+    "courseUrl": "https://www.coursera.org/specializations/exam-prep-certified-information-systems-auditor-cisa",
+    "type": "online-platform",
+    "location": {
+      "country": "GLOBAL",
+      "market": "global"
+    },
+    "delivery": [
+      "online"
+    ],
+    "language": "en",
+    "price": null,
+    "lastChecked": "2026-09-25T10:25:50.612Z"
+  },
+  {
+    "id": "coursera_specializations_exam-prep-cism-certified-information-security-manager",
+    "certificationId": "cism",
+    "name": "Exam Prep CISM: Certified Information Security Manager",
+    "provider": {
+      "name": "Whizlabs",
+      "url": "https://www.coursera.org/whizlabs"
+    },
+    "courseUrl": "https://www.coursera.org/specializations/exam-prep-cism-certified-information-security-manager",
+    "type": "online-platform",
+    "location": {
+      "country": "GLOBAL",
+      "market": "global"
+    },
+    "delivery": [
+      "online"
+    ],
+    "language": "en",
+    "price": null,
+    "lastChecked": "2026-09-25T10:25:50.612Z"
+  },
+  {
+    "id": "coursera_specializations_exam-prep-dp-100-microsoft-certified-azure-data-scientist-associate",
+    "certificationId": "dp-100",
+    "name": "Data Science and Machine Learning Engineering on Microsoft Azure",
+    "provider": {
+      "name": "Whizlabs",
+      "url": "https://www.coursera.org/whizlabs"
+    },
+    "courseUrl": "https://www.coursera.org/specializations/exam-prep-dp-100-microsoft-certified-azure-data-scientist-associate",
+    "type": "online-platform",
+    "location": {
+      "country": "GLOBAL",
+      "market": "global"
+    },
+    "delivery": [
+      "online"
+    ],
+    "language": "en",
+    "price": null,
+    "lastChecked": "2026-09-25T10:25:50.612Z"
+  },
+  {
+    "id": "coursera_specializations_exam-prep-dva-c02-aws-certified-developer-associate",
+    "certificationId": "aws-dva",
+    "name": "Exam Prep DVA-C02: AWS Certified Developer Associate",
+    "provider": {
+      "name": "Whizlabs",
+      "url": "https://www.coursera.org/whizlabs"
+    },
+    "courseUrl": "https://www.coursera.org/specializations/exam-prep-dva-c02-aws-certified-developer-associate",
+    "type": "online-platform",
+    "location": {
+      "country": "GLOBAL",
+      "market": "global"
+    },
+    "delivery": [
+      "online"
+    ],
+    "language": "en",
+    "price": null,
+    "lastChecked": "2026-09-25T10:25:50.612Z"
+  },
+  {
+    "id": "coursera_specializations_exam-prep-google-certified-professional-cloud-architect",
+    "certificationId": "gcp-pca",
+    "name": "Exam Prep: Google Certified Professional Cloud Architect",
+    "provider": {
+      "name": "Whizlabs",
+      "url": "https://www.coursera.org/whizlabs"
+    },
+    "courseUrl": "https://www.coursera.org/specializations/exam-prep-google-certified-professional-cloud-architect",
+    "type": "online-platform",
+    "location": {
+      "country": "GLOBAL",
+      "market": "global"
+    },
+    "delivery": [
+      "online"
+    ],
+    "language": "en",
+    "price": null,
+    "lastChecked": "2026-09-25T10:25:50.612Z"
+  },
+  {
+    "id": "coursera_specializations_exam-prep-pl-300-microsoft-power-bi-data-analyst-associate",
+    "certificationId": "pl-300",
+    "name": "Exam Prep PL-300: Microsoft Power BI Data Analyst Associate",
+    "provider": {
+      "name": "Whizlabs",
+      "url": "https://www.coursera.org/whizlabs"
+    },
+    "courseUrl": "https://www.coursera.org/specializations/exam-prep-pl-300-microsoft-power-bi-data-analyst-associate",
+    "type": "online-platform",
+    "location": {
+      "country": "GLOBAL",
+      "market": "global"
+    },
+    "delivery": [
+      "online"
+    ],
+    "language": "en",
+    "price": null,
+    "lastChecked": "2026-09-25T10:25:50.612Z"
+  },
+  {
+    "id": "coursera_specializations_exam-prep-sc-300-microsoft-identity-and-access-administrator",
+    "certificationId": "sc-300",
+    "name": "Exam Prep SC-300: Microsoft Identity & Access Administrator",
+    "provider": {
+      "name": "Whizlabs",
+      "url": "https://www.coursera.org/whizlabs"
+    },
+    "courseUrl": "https://www.coursera.org/specializations/exam-prep-sc-300-microsoft-identity-and-access-administrator",
+    "type": "online-platform",
+    "location": {
+      "country": "GLOBAL",
+      "market": "global"
+    },
+    "delivery": [
+      "online"
+    ],
+    "language": "en",
+    "price": null,
+    "lastChecked": "2026-09-25T10:25:50.612Z"
+  },
+  {
+    "id": "coursera_specializations_exam-prep-sc-900-microsoft-certified-security-fundamentals",
+    "certificationId": "sc-900",
+    "name": "Exam Prep SC-900: Microsoft Certified Security Fundamentals",
+    "provider": {
+      "name": "Whizlabs",
+      "url": "https://www.coursera.org/whizlabs"
+    },
+    "courseUrl": "https://www.coursera.org/specializations/exam-prep-sc-900-microsoft-certified-security-fundamentals",
+    "type": "online-platform",
+    "location": {
+      "country": "GLOBAL",
+      "market": "global"
+    },
+    "delivery": [
+      "online"
+    ],
+    "language": "en",
+    "price": null,
+    "lastChecked": "2026-09-25T10:25:50.612Z"
+  },
+  {
+    "id": "coursera_specializations_exam-prep-scs-c02-aws-certified-security-specialty",
+    "certificationId": "aws-scs",
+    "name": "Exam Prep SCS-C02: AWS Certified Security – Specialty",
+    "provider": {
+      "name": "Whizlabs",
+      "url": "https://www.coursera.org/whizlabs"
+    },
+    "courseUrl": "https://www.coursera.org/specializations/exam-prep-scs-c02-aws-certified-security-specialty",
+    "type": "online-platform",
+    "location": {
+      "country": "GLOBAL",
+      "market": "global"
+    },
+    "delivery": [
+      "online"
+    ],
+    "language": "en",
+    "price": null,
+    "lastChecked": "2026-09-25T10:25:50.612Z"
+  },
+  {
+    "id": "coursera_specializations_exam-prep-soa-c02-aws-certified-sysops-administrator--associate",
+    "certificationId": "aws-soa",
+    "name": "Exam Prep: AWS Certified CloudOps Engineer - Associate",
+    "provider": {
+      "name": "Whizlabs",
+      "url": "https://www.coursera.org/whizlabs"
+    },
+    "courseUrl": "https://www.coursera.org/specializations/exam-prep-soa-c02-aws-certified-sysops-administrator--associate",
+    "type": "online-platform",
+    "location": {
+      "country": "GLOBAL",
+      "market": "global"
+    },
+    "delivery": [
+      "online"
+    ],
+    "language": "en",
+    "price": null,
+    "lastChecked": "2026-09-25T10:25:50.612Z"
+  },
+  {
+    "id": "coursera_specializations_google-cloud-certified-professional-data-engineer",
+    "certificationId": "gcp-pde",
+    "name": "Google Cloud Certified Professional Data Engineer",
+    "provider": {
+      "name": "Whizlabs",
+      "url": "https://www.coursera.org/whizlabs"
+    },
+    "courseUrl": "https://www.coursera.org/specializations/google-cloud-certified-professional-data-engineer",
+    "type": "online-platform",
+    "location": {
+      "country": "GLOBAL",
+      "market": "global"
+    },
+    "delivery": [
+      "online"
+    ],
+    "language": "en",
+    "price": null,
+    "lastChecked": "2026-09-25T10:25:50.612Z"
+  },
+  {
+    "id": "coursera_specializations_google-cloud-digital-leader-training-fr",
+    "certificationId": "gcp-cdl",
+    "name": "Google Cloud Digital Leader - Français",
+    "provider": {
+      "name": "Google Cloud",
+      "url": "https://www.coursera.org/googlecloud"
+    },
+    "courseUrl": "https://www.coursera.org/specializations/google-cloud-digital-leader-training-fr",
+    "type": "online-platform",
+    "location": {
+      "country": "GLOBAL",
+      "market": "global"
+    },
+    "delivery": [
+      "online"
+    ],
+    "language": "fr",
+    "price": null,
+    "lastChecked": "2026-09-25T10:25:50.612Z"
+  },
+  {
+    "id": "coursera_specializations_google-cloud-digital-leader-training-iw",
+    "certificationId": "gcp-cdl",
+    "name": "Google Cloud Digital Leader Training בעברית",
+    "provider": {
+      "name": "Google Cloud",
+      "url": "https://www.coursera.org/googlecloud"
+    },
+    "courseUrl": "https://www.coursera.org/specializations/google-cloud-digital-leader-training-iw",
+    "type": "online-platform",
+    "location": {
+      "country": "GLOBAL",
+      "market": "global"
+    },
+    "delivery": [
+      "online"
+    ],
+    "language": "he",
+    "price": null,
+    "lastChecked": "2026-09-25T10:25:50.612Z"
+  },
+  {
+    "id": "coursera_specializations_google-cloud-digital-leader-training-ja",
+    "certificationId": "gcp-cdl",
+    "name": "Google Cloud Digital Leader Training 日本語版",
+    "provider": {
+      "name": "Google Cloud",
+      "url": "https://www.coursera.org/googlecloud"
+    },
+    "courseUrl": "https://www.coursera.org/specializations/google-cloud-digital-leader-training-ja",
+    "type": "online-platform",
+    "location": {
+      "country": "GLOBAL",
+      "market": "global"
+    },
+    "delivery": [
+      "online"
+    ],
+    "language": "ja",
+    "price": null,
+    "lastChecked": "2026-09-25T10:25:50.612Z"
+  },
+  {
+    "id": "coursera_specializations_google-cloud-digital-leader-training-ptbr",
+    "certificationId": "gcp-cdl",
+    "name": "Certificado profissional: Google Cloud Digital Leader",
+    "provider": {
+      "name": "Google Cloud",
+      "url": "https://www.coursera.org/googlecloud"
+    },
+    "courseUrl": "https://www.coursera.org/specializations/google-cloud-digital-leader-training-ptbr",
+    "type": "online-platform",
+    "location": {
+      "country": "GLOBAL",
+      "market": "global"
+    },
+    "delivery": [
+      "online"
+    ],
+    "language": "pt-BR",
+    "price": null,
+    "lastChecked": "2026-09-25T10:25:50.612Z"
+  },
+  {
+    "id": "coursera_specializations_istqb-ctfl-prep",
+    "certificationId": "istqb-ctfl",
+    "name": "Software Testing Fundamentals for ISTQB Exams Prep",
+    "provider": {
+      "name": "Board Infinity ",
+      "url": "https://www.coursera.org/board-infinity"
+    },
+    "courseUrl": "https://www.coursera.org/specializations/istqb-ctfl-prep",
+    "type": "online-platform",
+    "location": {
+      "country": "GLOBAL",
+      "market": "global"
+    },
+    "delivery": [
+      "online"
+    ],
+    "language": "en",
+    "price": null,
+    "lastChecked": "2026-09-25T10:25:50.612Z"
+  },
+  {
+    "id": "coursera_specializations_itil-v4-certification-preparation",
+    "certificationId": "itil4-foundation",
+    "name": "ITIL V4 Certification Preparation",
+    "provider": {
+      "name": "EDUCBA",
+      "url": "https://www.coursera.org/educba"
+    },
+    "courseUrl": "https://www.coursera.org/specializations/itil-v4-certification-preparation",
+    "type": "online-platform",
+    "location": {
+      "country": "GLOBAL",
+      "market": "global"
+    },
+    "delivery": [
+      "online"
+    ],
+    "language": "en",
+    "price": null,
+    "lastChecked": "2026-09-25T10:25:50.612Z"
+  },
+  {
+    "id": "coursera_specializations_learnquest-certified-scrum-master",
+    "certificationId": "csm",
+    "name": "Scrum Master Certification",
+    "provider": {
+      "name": "LearnQuest",
+      "url": "https://www.coursera.org/learnquest"
+    },
+    "courseUrl": "https://www.coursera.org/specializations/learnquest-certified-scrum-master",
+    "type": "online-platform",
+    "location": {
+      "country": "GLOBAL",
+      "market": "global"
+    },
+    "delivery": [
+      "online"
+    ],
+    "language": "en",
+    "price": null,
+    "lastChecked": "2026-09-25T10:25:50.612Z"
+  },
+  {
+    "id": "coursera_specializations_lfcs-linux-system-administrator-certification",
+    "certificationId": "lfcs",
+    "name": "Complete LFCS Linux System Administrator Certification",
+    "provider": {
+      "name": "KodeKloud",
+      "url": "https://www.coursera.org/kodekloud"
+    },
+    "courseUrl": "https://www.coursera.org/specializations/lfcs-linux-system-administrator-certification",
+    "type": "online-platform",
+    "location": {
+      "country": "GLOBAL",
+      "market": "global"
+    },
+    "delivery": [
+      "online"
+    ],
+    "language": "en",
+    "price": null,
+    "lastChecked": "2026-09-25T10:25:50.612Z"
+  },
+  {
+    "id": "coursera_specializations_microsoft-azure-ai-900-ai-fundamentals",
+    "certificationId": "ai-900",
+    "name": "Microsoft Azure AI Fundamentals AI-900 Exam Prep",
+    "provider": {
+      "name": "Microsoft",
+      "url": "https://www.coursera.org/microsoft"
+    },
+    "courseUrl": "https://www.coursera.org/specializations/microsoft-azure-ai-900-ai-fundamentals",
+    "type": "online-platform",
+    "location": {
+      "country": "GLOBAL",
+      "market": "global"
+    },
+    "delivery": [
+      "online"
+    ],
+    "language": "en",
+    "price": null,
+    "lastChecked": "2026-09-25T10:25:50.612Z"
+  },
+  {
+    "id": "coursera_specializations_microsoft-azure-dp-900-data-fundamentals",
+    "certificationId": "dp-900",
+    "name": "Microsoft Azure Data Fundamentals DP-900 Exam Prep",
+    "provider": {
+      "name": "Microsoft",
+      "url": "https://www.coursera.org/microsoft"
+    },
+    "courseUrl": "https://www.coursera.org/specializations/microsoft-azure-dp-900-data-fundamentals",
+    "type": "online-platform",
+    "location": {
+      "country": "GLOBAL",
+      "market": "global"
+    },
+    "delivery": [
+      "online"
+    ],
+    "language": "en",
+    "price": null,
+    "lastChecked": "2026-09-25T10:25:50.612Z"
+  },
+  {
+    "id": "coursera_specializations_packt-aws-certified-security-specialty-scs-c02-exam-guide",
+    "certificationId": "aws-scs",
+    "name": "AWS Certified Security – Specialty (SCS-C02) Exam Guide",
+    "provider": {
+      "name": "Packt",
+      "url": "https://www.coursera.org/packt"
+    },
+    "courseUrl": "https://www.coursera.org/specializations/packt-aws-certified-security-specialty-scs-c02-exam-guide",
+    "type": "online-platform",
+    "location": {
+      "country": "GLOBAL",
+      "market": "global"
+    },
+    "delivery": [
+      "online"
+    ],
+    "language": "en",
+    "price": null,
+    "lastChecked": "2026-09-25T10:25:50.612Z"
+  },
+  {
+    "id": "coursera_specializations_packt-az-500-microsoft-azure-security-technologies",
+    "certificationId": "az-500",
+    "name": "AZ-500: Microsoft Azure Security Technologies",
+    "provider": {
+      "name": "Packt",
+      "url": "https://www.coursera.org/packt"
+    },
+    "courseUrl": "https://www.coursera.org/specializations/packt-az-500-microsoft-azure-security-technologies",
+    "type": "online-platform",
+    "location": {
+      "country": "GLOBAL",
+      "market": "global"
+    },
+    "delivery": [
+      "online"
+    ],
+    "language": "en",
+    "price": null,
+    "lastChecked": "2026-09-25T10:25:50.612Z"
+  },
+  {
+    "id": "coursera_specializations_packt-capm-exam-prep-master-pmbok-and-project-management-skills",
+    "certificationId": "capm",
+    "name": "CAPM Exam Prep: Master PMBOK and Project Management Skills",
+    "provider": {
+      "name": "Packt",
+      "url": "https://www.coursera.org/packt"
+    },
+    "courseUrl": "https://www.coursera.org/specializations/packt-capm-exam-prep-master-pmbok-and-project-management-skills",
+    "type": "online-platform",
+    "location": {
+      "country": "GLOBAL",
+      "market": "global"
+    },
+    "delivery": [
+      "online"
+    ],
+    "language": "en",
+    "price": null,
+    "lastChecked": "2026-09-25T10:25:50.612Z"
+  },
+  {
+    "id": "coursera_specializations_packt-certified-agile-practitioner-pmi-acp-training",
+    "certificationId": "pmi-acp",
+    "name": "Certified Agile Practitioner (PMI-ACP®) Training",
+    "provider": {
+      "name": "Packt",
+      "url": "https://www.coursera.org/packt"
+    },
+    "courseUrl": "https://www.coursera.org/specializations/packt-certified-agile-practitioner-pmi-acp-training",
+    "type": "online-platform",
+    "location": {
+      "country": "GLOBAL",
+      "market": "global"
+    },
+    "delivery": [
+      "online"
+    ],
+    "language": "en",
+    "price": null,
+    "lastChecked": "2026-09-25T10:25:50.612Z"
+  },
+  {
+    "id": "coursera_specializations_packt-certified-associate-in-project-management-capm",
+    "certificationId": "capm",
+    "name": "Certified Associate in Project Management (CAPM)",
+    "provider": {
+      "name": "Packt",
+      "url": "https://www.coursera.org/packt"
+    },
+    "courseUrl": "https://www.coursera.org/specializations/packt-certified-associate-in-project-management-capm",
+    "type": "online-platform",
+    "location": {
+      "country": "GLOBAL",
+      "market": "global"
+    },
+    "delivery": [
+      "online"
+    ],
+    "language": "en",
+    "price": null,
+    "lastChecked": "2026-09-25T10:25:50.612Z"
+  },
+  {
+    "id": "coursera_specializations_packt-cisa-certified-information-systems-auditor",
+    "certificationId": "cisa",
+    "name": "CISA: Certified Information Systems Auditor",
+    "provider": {
+      "name": "Packt",
+      "url": "https://www.coursera.org/packt"
+    },
+    "courseUrl": "https://www.coursera.org/specializations/packt-cisa-certified-information-systems-auditor",
+    "type": "online-platform",
+    "location": {
+      "country": "GLOBAL",
+      "market": "global"
+    },
+    "delivery": [
+      "online"
+    ],
+    "language": "en",
+    "price": null,
+    "lastChecked": "2026-09-25T10:25:50.612Z"
+  },
+  {
+    "id": "coursera_specializations_packt-comptia-cysa-cs0003",
+    "certificationId": "cysa-plus",
+    "name": "CompTIA CySA+ (CS0-003)",
+    "provider": {
+      "name": "Packt",
+      "url": "https://www.coursera.org/packt"
+    },
+    "courseUrl": "https://www.coursera.org/specializations/packt-comptia-cysa-cs0003",
+    "type": "online-platform",
+    "location": {
+      "country": "GLOBAL",
+      "market": "global"
+    },
+    "delivery": [
+      "online"
+    ],
+    "language": "en",
+    "price": null,
+    "lastChecked": "2026-09-25T10:25:50.612Z"
+  },
+  {
+    "id": "coursera_specializations_packt-comptia-linux-plus-the-total-course",
+    "certificationId": "linux-plus",
+    "name": "CompTIA Linux+ (XK0-006) - The Total Course",
+    "provider": {
+      "name": "Packt",
+      "url": "https://www.coursera.org/packt"
+    },
+    "courseUrl": "https://www.coursera.org/specializations/packt-comptia-linux-plus-the-total-course",
+    "type": "online-platform",
+    "location": {
+      "country": "GLOBAL",
+      "market": "global"
+    },
+    "delivery": [
+      "online"
+    ],
+    "language": "en",
+    "price": null,
+    "lastChecked": "2026-09-25T10:25:50.612Z"
+  },
+  {
+    "id": "coursera_specializations_packt-comptia-linux-xk0-005",
+    "certificationId": "linux-plus",
+    "name": "CompTIA Linux+ (XK0-005)",
+    "provider": {
+      "name": "Packt",
+      "url": "https://www.coursera.org/packt"
+    },
+    "courseUrl": "https://www.coursera.org/specializations/packt-comptia-linux-xk0-005",
+    "type": "online-platform",
+    "location": {
+      "country": "GLOBAL",
+      "market": "global"
+    },
+    "delivery": [
+      "online"
+    ],
+    "language": "en",
+    "price": null,
+    "lastChecked": "2026-09-25T10:25:50.612Z"
+  },
+  {
+    "id": "coursera_specializations_packt-comptia-network-n10-009-crash-course",
+    "certificationId": "network-plus",
+    "name": "CompTIA Network+ (N10-009) Crash Course",
+    "provider": {
+      "name": "Packt",
+      "url": "https://www.coursera.org/packt"
+    },
+    "courseUrl": "https://www.coursera.org/specializations/packt-comptia-network-n10-009-crash-course",
+    "type": "online-platform",
+    "location": {
+      "country": "GLOBAL",
+      "market": "global"
+    },
+    "delivery": [
+      "online"
+    ],
+    "language": "en",
+    "price": null,
+    "lastChecked": "2026-09-25T10:25:50.612Z"
+  },
+  {
+    "id": "coursera_specializations_packt-comptia-network-plus-n10-008",
+    "certificationId": "network-plus",
+    "name": "CompTIA Network+ (N10-008)",
+    "provider": {
+      "name": "Packt",
+      "url": "https://www.coursera.org/packt"
+    },
+    "courseUrl": "https://www.coursera.org/specializations/packt-comptia-network-plus-n10-008",
+    "type": "online-platform",
+    "location": {
+      "country": "GLOBAL",
+      "market": "global"
+    },
+    "delivery": [
+      "online"
+    ],
+    "language": "en",
+    "price": null,
+    "lastChecked": "2026-09-25T10:25:50.612Z"
+  },
+  {
+    "id": "coursera_specializations_packt-comptia-pentest-plus-pto-002",
+    "certificationId": "pentest-plus",
+    "name": "CompTIA PenTest+ (PT0-002)",
+    "provider": {
+      "name": "Packt",
+      "url": "https://www.coursera.org/packt"
+    },
+    "courseUrl": "https://www.coursera.org/specializations/packt-comptia-pentest-plus-pto-002",
+    "type": "online-platform",
+    "location": {
+      "country": "GLOBAL",
+      "market": "global"
+    },
+    "delivery": [
+      "online"
+    ],
+    "language": "en",
+    "price": null,
+    "lastChecked": "2026-09-25T10:25:50.612Z"
+  },
+  {
+    "id": "coursera_specializations_packt-designing-microsoft-azure-infrastructure-solutions-az-305",
+    "certificationId": "az-305",
+    "name": "Designing Microsoft Azure Infrastructure Solutions (AZ-305)",
+    "provider": {
+      "name": "Packt",
+      "url": "https://www.coursera.org/packt"
+    },
+    "courseUrl": "https://www.coursera.org/specializations/packt-designing-microsoft-azure-infrastructure-solutions-az-305",
+    "type": "online-platform",
+    "location": {
+      "country": "GLOBAL",
+      "market": "global"
+    },
+    "delivery": [
+      "online"
+    ],
+    "language": "en",
+    "price": null,
+    "lastChecked": "2026-09-25T10:25:50.612Z"
+  },
+  {
+    "id": "coursera_specializations_packt-developing-solutions-for-microsoft-azure-az-204-exam-guide",
+    "certificationId": "az-204",
+    "name": "Developing Solutions for Microsoft Azure AZ-204 Exam Guide",
+    "provider": {
+      "name": "Packt",
+      "url": "https://www.coursera.org/packt"
+    },
+    "courseUrl": "https://www.coursera.org/specializations/packt-developing-solutions-for-microsoft-azure-az-204-exam-guide",
+    "type": "online-platform",
+    "location": {
+      "country": "GLOBAL",
+      "market": "global"
+    },
+    "delivery": [
+      "online"
+    ],
+    "language": "en",
+    "price": null,
+    "lastChecked": "2026-09-25T10:25:50.612Z"
+  },
+  {
+    "id": "coursera_specializations_packt-pmi-agile-certified-practitioner-pmi-acp",
+    "certificationId": "pmi-acp",
+    "name": "PMI Agile Certified Practitioner (PMI-ACP)",
+    "provider": {
+      "name": "Packt",
+      "url": "https://www.coursera.org/packt"
+    },
+    "courseUrl": "https://www.coursera.org/specializations/packt-pmi-agile-certified-practitioner-pmi-acp",
+    "type": "online-platform",
+    "location": {
+      "country": "GLOBAL",
+      "market": "global"
+    },
+    "delivery": [
+      "online"
+    ],
+    "language": "en",
+    "price": null,
+    "lastChecked": "2026-09-25T10:25:50.612Z"
+  },
+  {
+    "id": "coursera_specializations_packt-scs-c02-aws-certified-security-specialty",
+    "certificationId": "aws-scs",
+    "name": "SCS-C02: AWS Certified Security - Specialty",
+    "provider": {
+      "name": "Packt",
+      "url": "https://www.coursera.org/packt"
+    },
+    "courseUrl": "https://www.coursera.org/specializations/packt-scs-c02-aws-certified-security-specialty",
+    "type": "online-platform",
+    "location": {
+      "country": "GLOBAL",
+      "market": "global"
+    },
+    "delivery": [
+      "online"
+    ],
+    "language": "en",
+    "price": null,
+    "lastChecked": "2026-09-25T10:25:50.612Z"
+  },
+  {
+    "id": "coursera_specializations_packt-the-complete-certified-salesforce-administrator-guide",
+    "certificationId": "salesforce-admin",
+    "name": "The Complete Certified Salesforce Administrator Guide",
+    "provider": {
+      "name": "Packt",
+      "url": "https://www.coursera.org/packt"
+    },
+    "courseUrl": "https://www.coursera.org/specializations/packt-the-complete-certified-salesforce-administrator-guide",
+    "type": "online-platform",
+    "location": {
+      "country": "GLOBAL",
+      "market": "global"
+    },
+    "delivery": [
+      "online"
+    ],
+    "language": "en",
+    "price": null,
+    "lastChecked": "2026-09-25T10:25:50.612Z"
+  },
+  {
+    "id": "coursera_specializations_pearson-certified-associate-in-project-management-capm-exam",
+    "certificationId": "capm",
+    "name": "Certified Associate in Project Management (CAPM)® Exam",
+    "provider": {
+      "name": "Pearson",
+      "url": "https://www.coursera.org/pearson"
+    },
+    "courseUrl": "https://www.coursera.org/specializations/pearson-certified-associate-in-project-management-capm-exam",
+    "type": "online-platform",
+    "location": {
+      "country": "GLOBAL",
+      "market": "global"
+    },
+    "delivery": [
+      "online"
+    ],
+    "language": "en",
+    "price": null,
+    "lastChecked": "2026-09-25T10:25:50.612Z"
+  },
+  {
+    "id": "coursera_specializations_pearson-certified-cloud-security-professional-ccsp-specialization",
+    "certificationId": "ccsp",
+    "name": "Certified Cloud Security Professional (CCSP)",
+    "provider": {
+      "name": "Pearson",
+      "url": "https://www.coursera.org/pearson"
+    },
+    "courseUrl": "https://www.coursera.org/specializations/pearson-certified-cloud-security-professional-ccsp-specialization",
+    "type": "online-platform",
+    "location": {
+      "country": "GLOBAL",
+      "market": "global"
+    },
+    "delivery": [
+      "online"
+    ],
+    "language": "en",
+    "price": null,
+    "lastChecked": "2026-09-25T10:25:50.612Z"
+  },
+  {
+    "id": "coursera_specializations_pearson-certified-kubernetes-security-specialist-cks",
+    "certificationId": "cks",
+    "name": "Certified Kubernetes Security Specialist (CKS)",
+    "provider": {
+      "name": "Pearson",
+      "url": "https://www.coursera.org/pearson"
+    },
+    "courseUrl": "https://www.coursera.org/specializations/pearson-certified-kubernetes-security-specialist-cks",
+    "type": "online-platform",
+    "location": {
+      "country": "GLOBAL",
+      "market": "global"
+    },
+    "delivery": [
+      "online"
+    ],
+    "language": "en",
+    "price": null,
+    "lastChecked": "2026-09-25T10:25:50.612Z"
+  },
+  {
+    "id": "coursera_specializations_pearson-cisa-certified-information-systems-auditor",
+    "certificationId": "cisa",
+    "name": "CISA Certified Information Systems Auditor",
+    "provider": {
+      "name": "Pearson",
+      "url": "https://www.coursera.org/pearson"
+    },
+    "courseUrl": "https://www.coursera.org/specializations/pearson-cisa-certified-information-systems-auditor",
+    "type": "online-platform",
+    "location": {
+      "country": "GLOBAL",
+      "market": "global"
+    },
+    "delivery": [
+      "online"
+    ],
+    "language": "en",
+    "price": null,
+    "lastChecked": "2026-09-25T10:25:50.612Z"
+  },
+  {
+    "id": "coursera_specializations_pearson-complete-course-for-cism-certification",
+    "certificationId": "cism",
+    "name": "The Pearson Complete Course for CISM Certification",
+    "provider": {
+      "name": "Pearson",
+      "url": "https://www.coursera.org/pearson"
+    },
+    "courseUrl": "https://www.coursera.org/specializations/pearson-complete-course-for-cism-certification",
+    "type": "online-platform",
+    "location": {
+      "country": "GLOBAL",
+      "market": "global"
+    },
+    "delivery": [
+      "online"
+    ],
+    "language": "en",
+    "price": null,
+    "lastChecked": "2026-09-25T10:25:50.612Z"
+  },
+  {
+    "id": "coursera_specializations_pearson-comptia-linux-xk0-005",
+    "certificationId": "linux-plus",
+    "name": "CompTIA Linux+ XK0-005",
+    "provider": {
+      "name": "Pearson",
+      "url": "https://www.coursera.org/pearson"
+    },
+    "courseUrl": "https://www.coursera.org/specializations/pearson-comptia-linux-xk0-005",
+    "type": "online-platform",
+    "location": {
+      "country": "GLOBAL",
+      "market": "global"
+    },
+    "delivery": [
+      "online"
+    ],
+    "language": "en",
+    "price": null,
+    "lastChecked": "2026-09-25T10:25:50.612Z"
+  },
+  {
+    "id": "coursera_specializations_pearson-linux-foundation-certified-system-administrator-lfcs",
+    "certificationId": "lfcs",
+    "name": "Linux Foundation Certified System Administrator (LFCS)",
+    "provider": {
+      "name": "Pearson",
+      "url": "https://www.coursera.org/pearson"
+    },
+    "courseUrl": "https://www.coursera.org/specializations/pearson-linux-foundation-certified-system-administrator-lfcs",
+    "type": "online-platform",
+    "location": {
+      "country": "GLOBAL",
+      "market": "global"
+    },
+    "delivery": [
+      "online"
+    ],
+    "language": "en",
+    "price": null,
+    "lastChecked": "2026-09-25T10:25:50.612Z"
+  },
+  {
+    "id": "coursera_specializations_pearson-red-hat-certified-engineer-rhce-ex294",
+    "certificationId": "rhce",
+    "name": "Red Hat Certified Engineer (RHCE) EX294",
+    "provider": {
+      "name": "Pearson",
+      "url": "https://www.coursera.org/pearson"
+    },
+    "courseUrl": "https://www.coursera.org/specializations/pearson-red-hat-certified-engineer-rhce-ex294",
+    "type": "online-platform",
+    "location": {
+      "country": "GLOBAL",
+      "market": "global"
+    },
+    "delivery": [
+      "online"
+    ],
+    "language": "en",
+    "price": null,
+    "lastChecked": "2026-09-25T10:25:50.612Z"
+  },
+  {
+    "id": "coursera_specializations_product-owner-certification-pspo1-preparation",
+    "certificationId": "pspo-1",
+    "name": "Product Owner Certification [PSPO I] Preparation",
+    "provider": {
+      "name": "SkillUp",
+      "url": "https://www.coursera.org/skillup-ed-tech"
+    },
+    "courseUrl": "https://www.coursera.org/specializations/product-owner-certification-pspo1-preparation",
+    "type": "online-platform",
+    "location": {
+      "country": "GLOBAL",
+      "market": "global"
+    },
+    "delivery": [
+      "online"
+    ],
+    "language": "en",
+    "price": null,
+    "lastChecked": "2026-09-25T10:25:50.612Z"
+  },
+  {
+    "id": "coursera_specializations_professional-cloud-architect-part-1-infra-and-network",
+    "certificationId": "gcp-pca",
+    "name": "Professional Cloud Architect Part 1: Infra & Network",
+    "provider": {
+      "name": "Google Cloud",
+      "url": "https://www.coursera.org/googlecloud"
+    },
+    "courseUrl": "https://www.coursera.org/specializations/professional-cloud-architect-part-1-infra-and-network",
+    "type": "online-platform",
+    "location": {
+      "country": "GLOBAL",
+      "market": "global"
+    },
+    "delivery": [
+      "online"
+    ],
+    "language": "en",
+    "price": null,
+    "lastChecked": "2026-09-25T10:25:50.612Z"
+  },
+  {
+    "id": "coursera_specializations_professional-cloud-architect-part-2-ai-security-ops",
+    "certificationId": "gcp-pca",
+    "name": "Professional Cloud Architect Part 2: AI, Security, & Ops",
+    "provider": {
+      "name": "Google Cloud",
+      "url": "https://www.coursera.org/googlecloud"
+    },
+    "courseUrl": "https://www.coursera.org/specializations/professional-cloud-architect-part-2-ai-security-ops",
+    "type": "online-platform",
+    "location": {
+      "country": "GLOBAL",
+      "market": "global"
+    },
+    "delivery": [
+      "online"
+    ],
+    "language": "en",
+    "price": null,
+    "lastChecked": "2026-09-25T10:25:50.612Z"
+  },
+  {
+    "id": "coursera_specializations_rhcsa-certification-prep",
+    "certificationId": "rhcsa",
+    "name": "RHCSA Certification Preparation",
+    "provider": {
+      "name": "LearnKartS",
+      "url": "https://www.coursera.org/learnkarts"
+    },
+    "courseUrl": "https://www.coursera.org/specializations/rhcsa-certification-prep",
+    "type": "online-platform",
+    "location": {
+      "country": "GLOBAL",
+      "market": "global"
+    },
+    "delivery": [
+      "online"
+    ],
+    "language": "en",
+    "price": null,
+    "lastChecked": "2026-09-25T10:25:50.612Z"
+  },
+  {
+    "id": "coursera_specializations_salesforce-admin-and-app-builder-course",
+    "certificationId": "salesforce-admin",
+    "name": "Salesforce Admin & App Builder Certification Prep",
+    "provider": {
+      "name": "LearnKartS",
+      "url": "https://www.coursera.org/learnkarts"
+    },
+    "courseUrl": "https://www.coursera.org/specializations/salesforce-admin-and-app-builder-course",
+    "type": "online-platform",
+    "location": {
+      "country": "GLOBAL",
+      "market": "global"
+    },
+    "delivery": [
+      "online"
+    ],
+    "language": "en",
+    "price": null,
+    "lastChecked": "2026-09-25T10:25:50.612Z"
+  },
+  {
+    "id": "coursera_specializations_salesforce-admin-certification-course",
+    "certificationId": "salesforce-admin",
+    "name": "Salesforce Admin Certification Preparation",
+    "provider": {
+      "name": "LearnKartS",
+      "url": "https://www.coursera.org/learnkarts"
+    },
+    "courseUrl": "https://www.coursera.org/specializations/salesforce-admin-certification-course",
+    "type": "online-platform",
+    "location": {
+      "country": "GLOBAL",
+      "market": "global"
+    },
+    "delivery": [
+      "online"
+    ],
+    "language": "en",
+    "price": null,
+    "lastChecked": "2026-09-25T10:25:50.612Z"
+  },
+  {
+    "id": "coursera_specializations_ts-comptia-linuxplus",
+    "certificationId": "linux-plus",
+    "name": "CompTIA Linux+",
+    "provider": {
+      "name": "Total Seminars",
+      "url": "https://www.coursera.org/totalsem"
+    },
+    "courseUrl": "https://www.coursera.org/specializations/ts-comptia-linuxplus",
+    "type": "online-platform",
+    "location": {
+      "country": "GLOBAL",
+      "market": "global"
+    },
+    "delivery": [
+      "online"
+    ],
+    "language": "en",
+    "price": null,
+    "lastChecked": "2026-09-25T10:25:50.612Z"
+  },
+  {
+    "id": "coursera_specializations_ts-comptia-networkplus",
+    "certificationId": "network-plus",
+    "name": "CompTIA Network+",
+    "provider": {
+      "name": "Total Seminars",
+      "url": "https://www.coursera.org/totalsem"
+    },
+    "courseUrl": "https://www.coursera.org/specializations/ts-comptia-networkplus",
+    "type": "online-platform",
+    "location": {
+      "country": "GLOBAL",
+      "market": "global"
+    },
+    "delivery": [
+      "online"
+    ],
+    "language": "en",
+    "price": null,
+    "lastChecked": "2026-09-25T10:25:50.612Z"
+  },
+  {
+    "id": "coursera_specializations_wiley-casp-comptia-advanced-security-practitioner-study-guide",
+    "certificationId": "securityx",
+    "name": "CASP+ CompTIA Advanced Security Practitioner Study Guide",
+    "provider": {
+      "name": "John Wiley & Sons",
+      "url": "https://www.coursera.org/wiley"
+    },
+    "courseUrl": "https://www.coursera.org/specializations/wiley-casp-comptia-advanced-security-practitioner-study-guide",
+    "type": "online-platform",
+    "location": {
+      "country": "GLOBAL",
+      "market": "global"
+    },
+    "delivery": [
+      "online"
+    ],
+    "language": "en",
+    "price": null,
+    "lastChecked": "2026-09-25T10:25:50.612Z"
+  },
+  {
+    "id": "coursera_specializations_wiley-cism-certified-information-security-manager-study-guide",
+    "certificationId": "cism",
+    "name": "CISM Certified Information Security Manager Study Guide",
+    "provider": {
+      "name": "John Wiley & Sons",
+      "url": "https://www.coursera.org/wiley"
+    },
+    "courseUrl": "https://www.coursera.org/specializations/wiley-cism-certified-information-security-manager-study-guide",
+    "type": "online-platform",
+    "location": {
+      "country": "GLOBAL",
+      "market": "global"
+    },
+    "delivery": [
+      "online"
+    ],
+    "language": "en",
+    "price": null,
+    "lastChecked": "2026-09-25T10:25:50.612Z"
+  },
+  {
+    "id": "coursera_learn_ai-900-ms-azure-ai-fundamentals",
+    "certificationId": "ai-900",
+    "name": "AI-900 MS Azure AI Fundamentals",
+    "provider": {
+      "name": "EDUCBA",
+      "url": "https://www.educba.com/"
+    },
+    "courseUrl": "https://www.coursera.org/learn/ai-900-ms-azure-ai-fundamentals",
+    "type": "online-platform",
+    "location": {
+      "country": "GLOBAL",
+      "market": "global"
+    },
+    "delivery": [
+      "online"
+    ],
+    "language": "en",
+    "price": null,
+    "lastChecked": "2026-09-25T10:25:50.612Z"
+  },
+  {
+    "id": "coursera_learn_az-204-developing-solutions-for-microsoft-azure",
+    "certificationId": "az-204",
+    "name": "Prepare for AZ-204: Developing Solutions for Microsoft Azure",
+    "provider": {
+      "name": "Microsoft",
+      "url": "https://www.microsoft.com/"
+    },
+    "courseUrl": "https://www.coursera.org/learn/az-204-developing-solutions-for-microsoft-azure",
+    "type": "online-platform",
+    "location": {
+      "country": "GLOBAL",
+      "market": "global"
+    },
+    "delivery": [
+      "online"
+    ],
+    "language": "en",
+    "price": null,
+    "lastChecked": "2026-09-25T10:25:50.612Z"
+  },
+  {
+    "id": "coursera_learn_az-500-capstone-and-practice-exam",
+    "certificationId": "az-500",
+    "name": "Capstone and Practice Exam (AZ-500)",
+    "provider": {
+      "name": "Microsoft",
+      "url": "https://www.microsoft.com/"
+    },
+    "courseUrl": "https://www.coursera.org/learn/az-500-capstone-and-practice-exam",
+    "type": "online-platform",
+    "location": {
+      "country": "GLOBAL",
+      "market": "global"
+    },
+    "delivery": [
+      "online"
+    ],
+    "language": "en",
+    "price": null,
+    "lastChecked": "2026-09-25T10:25:50.612Z"
+  },
+  {
+    "id": "coursera_learn_business-analysis-preparation-exam-for-ecba-certification",
+    "certificationId": "ecba",
+    "name": "Business Analysis: Preparation Exam for ECBA Certification",
+    "provider": {
+      "name": "SkillUp",
+      "url": "https://skillup.online/"
+    },
+    "courseUrl": "https://www.coursera.org/learn/business-analysis-preparation-exam-for-ecba-certification",
+    "type": "online-platform",
+    "location": {
+      "country": "GLOBAL",
+      "market": "global"
+    },
+    "delivery": [
+      "online"
+    ],
+    "language": "en",
+    "price": null,
+    "lastChecked": "2026-09-25T10:25:50.612Z"
+  },
+  {
+    "id": "coursera_learn_certification-of-capability-in-business-analysis",
+    "certificationId": "ccba",
+    "name": "IIBA® Certification of Capability in Business Analysis™ (CCBA®) Exam Prep",
+    "provider": {
+      "name": "STARWEAVER",
+      "url": "https://starweaver.com"
+    },
+    "courseUrl": "https://www.coursera.org/learn/certification-of-capability-in-business-analysis",
+    "type": "online-platform",
+    "location": {
+      "country": "GLOBAL",
+      "market": "global"
+    },
+    "delivery": [
+      "online"
+    ],
+    "language": "en",
+    "price": null,
+    "lastChecked": "2026-09-25T10:25:50.612Z"
+  },
+  {
+    "id": "coursera_learn_certified-scrum-master-exam-preparation",
+    "certificationId": "csm",
+    "name": "Scrum Master Certification Exam Preparation",
+    "provider": {
+      "name": "LearnQuest",
+      "url": "https://www.LearnQuest.com"
+    },
+    "courseUrl": "https://www.coursera.org/learn/certified-scrum-master-exam-preparation",
+    "type": "online-platform",
+    "location": {
+      "country": "GLOBAL",
+      "market": "global"
+    },
+    "delivery": [
+      "online"
+    ],
+    "language": "en",
+    "price": null,
+    "lastChecked": "2026-09-25T10:25:50.612Z"
+  },
+  {
+    "id": "coursera_learn_certified-scrum-master-in-practice",
+    "certificationId": "csm",
+    "name": "Scrum Master Certification Practice",
+    "provider": {
+      "name": "LearnQuest",
+      "url": "https://www.LearnQuest.com"
+    },
+    "courseUrl": "https://www.coursera.org/learn/certified-scrum-master-in-practice",
+    "type": "online-platform",
+    "location": {
+      "country": "GLOBAL",
+      "market": "global"
+    },
+    "delivery": [
+      "online"
+    ],
+    "language": "en",
+    "price": null,
+    "lastChecked": "2026-09-25T10:25:50.612Z"
+  },
+  {
+    "id": "coursera_learn_csm-practice-process-management",
+    "certificationId": "csm",
+    "name": "Scrum Master Certification: Scrum Methodologies",
+    "provider": {
+      "name": "LearnQuest",
+      "url": "https://www.LearnQuest.com"
+    },
+    "courseUrl": "https://www.coursera.org/learn/csm-practice-process-management",
+    "type": "online-platform",
+    "location": {
+      "country": "GLOBAL",
+      "market": "global"
+    },
+    "delivery": [
+      "online"
+    ],
+    "language": "en",
+    "price": null,
+    "lastChecked": "2026-09-25T10:25:50.612Z"
+  },
+  {
+    "id": "coursera_learn_dp-100-microsoft-azure-ds-exam",
+    "certificationId": "dp-100",
+    "name": "DP-100 Microsoft Azure DS Exam",
+    "provider": {
+      "name": "EDUCBA",
+      "url": "https://www.educba.com/"
+    },
+    "courseUrl": "https://www.coursera.org/learn/dp-100-microsoft-azure-ds-exam",
+    "type": "online-platform",
+    "location": {
+      "country": "GLOBAL",
+      "market": "global"
+    },
+    "delivery": [
+      "online"
+    ],
+    "language": "en",
+    "price": null,
+    "lastChecked": "2026-09-25T10:25:50.612Z"
+  },
+  {
+    "id": "coursera_learn_dp-300-azure-relational-dba",
+    "certificationId": "dp-300",
+    "name": "DP-300 Azure Relational DBA",
+    "provider": {
+      "name": "EDUCBA",
+      "url": "https://www.educba.com/"
+    },
+    "courseUrl": "https://www.coursera.org/learn/dp-300-azure-relational-dba",
+    "type": "online-platform",
+    "location": {
+      "country": "GLOBAL",
+      "market": "global"
+    },
+    "delivery": [
+      "online"
+    ],
+    "language": "en",
+    "price": null,
+    "lastChecked": "2026-09-25T10:25:50.612Z"
+  },
+  {
+    "id": "coursera_learn_dp-900-azure-data-fundamentals",
+    "certificationId": "dp-900",
+    "name": "DP-900 Azure Data Fundamentals",
+    "provider": {
+      "name": "EDUCBA",
+      "url": "https://www.educba.com/"
+    },
+    "courseUrl": "https://www.coursera.org/learn/dp-900-azure-data-fundamentals",
+    "type": "online-platform",
+    "location": {
+      "country": "GLOBAL",
+      "market": "global"
+    },
+    "delivery": [
+      "online"
+    ],
+    "language": "en",
+    "price": null,
+    "lastChecked": "2026-09-25T10:25:50.612Z"
+  },
+  {
+    "id": "coursera_learn_entry-certificate-in-business-analysis-iiba-exam-prep",
+    "certificationId": "ecba",
+    "name": "IIBA® Entry Certificate in Business Analysis™ (ECBA™) Exam Prep",
+    "provider": {
+      "name": "STARWEAVER",
+      "url": "https://starweaver.com"
+    },
+    "courseUrl": "https://www.coursera.org/learn/entry-certificate-in-business-analysis-iiba-exam-prep",
+    "type": "online-platform",
+    "location": {
+      "country": "GLOBAL",
+      "market": "global"
+    },
+    "delivery": [
+      "online"
+    ],
+    "language": "en",
+    "price": null,
+    "lastChecked": "2026-09-25T10:25:50.612Z"
+  },
+  {
+    "id": "coursera_learn_exam-prep-aif-c01-aws-certified-ai-practitioner",
+    "certificationId": "aws-aif",
+    "name": "Exam Prep AIF-C01: AWS Certified AI Practitioner",
+    "provider": {
+      "name": "Whizlabs",
+      "url": "https://www.whizlabs.com/"
+    },
+    "courseUrl": "https://www.coursera.org/learn/exam-prep-aif-c01-aws-certified-ai-practitioner",
+    "type": "online-platform",
+    "location": {
+      "country": "GLOBAL",
+      "market": "global"
+    },
+    "delivery": [
+      "online"
+    ],
+    "language": "en",
+    "price": null,
+    "lastChecked": "2026-09-25T10:25:50.612Z"
+  },
+  {
+    "id": "coursera_learn_introduction-to-certified-scrum-master",
+    "certificationId": "csm",
+    "name": "Introduction to Scrum Master Training",
+    "provider": {
+      "name": "LearnQuest",
+      "url": "https://www.LearnQuest.com"
+    },
+    "courseUrl": "https://www.coursera.org/learn/introduction-to-certified-scrum-master",
+    "type": "online-platform",
+    "location": {
+      "country": "GLOBAL",
+      "market": "global"
+    },
+    "delivery": [
+      "online"
+    ],
+    "language": "en",
+    "price": null,
+    "lastChecked": "2026-09-25T10:25:50.612Z"
+  },
+  {
+    "id": "coursera_learn_itil-4-core-principles-components-lo093054",
+    "certificationId": "itil4-foundation",
+    "name": "ITIL 4: Core Principles and Components",
+    "provider": {
+      "name": "Logical Operations",
+      "url": "https://logicaloperations.com/"
+    },
+    "courseUrl": "https://www.coursera.org/learn/itil-4-core-principles-components-lo093054",
+    "type": "online-platform",
+    "location": {
+      "country": "GLOBAL",
+      "market": "global"
+    },
+    "delivery": [
+      "online"
+    ],
+    "language": "en",
+    "price": null,
+    "lastChecked": "2026-09-25T10:25:50.612Z"
+  },
+  {
+    "id": "coursera_learn_itil-4-foundations-framework-lo093054",
+    "certificationId": "itil4-foundation",
+    "name": "ITIL 4: Foundations and Framework",
+    "provider": {
+      "name": "Logical Operations",
+      "url": "https://logicaloperations.com/"
+    },
+    "courseUrl": "https://www.coursera.org/learn/itil-4-foundations-framework-lo093054",
+    "type": "online-platform",
+    "location": {
+      "country": "GLOBAL",
+      "market": "global"
+    },
+    "delivery": [
+      "online"
+    ],
+    "language": "en",
+    "price": null,
+    "lastChecked": "2026-09-25T10:25:50.612Z"
+  },
+  {
+    "id": "coursera_learn_itil-4-management-practices-lo093054",
+    "certificationId": "itil4-foundation",
+    "name": "ITIL 4: Management Practices",
+    "provider": {
+      "name": "Logical Operations",
+      "url": "https://logicaloperations.com/"
+    },
+    "courseUrl": "https://www.coursera.org/learn/itil-4-management-practices-lo093054",
+    "type": "online-platform",
+    "location": {
+      "country": "GLOBAL",
+      "market": "global"
+    },
+    "delivery": [
+      "online"
+    ],
+    "language": "en",
+    "price": null,
+    "lastChecked": "2026-09-25T10:25:50.612Z"
+  },
+  {
+    "id": "coursera_learn_itil-v4-four-dimensions-of-service-management",
+    "certificationId": "itil4-foundation",
+    "name": "ITIL V4 Details of Four Dimensions of Service Management",
+    "provider": {
+      "name": "EDUCBA",
+      "url": "https://www.educba.com/"
+    },
+    "courseUrl": "https://www.coursera.org/learn/itil-v4-four-dimensions-of-service-management",
+    "type": "online-platform",
+    "location": {
+      "country": "GLOBAL",
+      "market": "global"
+    },
+    "delivery": [
+      "online"
+    ],
+    "language": "en",
+    "price": null,
+    "lastChecked": "2026-09-25T10:25:50.612Z"
+  },
+  {
+    "id": "coursera_learn_itil-v4-introduction-to-service-management-concept",
+    "certificationId": "itil4-foundation",
+    "name": "ITIL V4 Introduction to Service Management Concept",
+    "provider": {
+      "name": "EDUCBA",
+      "url": "https://www.educba.com/"
+    },
+    "courseUrl": "https://www.coursera.org/learn/itil-v4-introduction-to-service-management-concept",
+    "type": "online-platform",
+    "location": {
+      "country": "GLOBAL",
+      "market": "global"
+    },
+    "delivery": [
+      "online"
+    ],
+    "language": "en",
+    "price": null,
+    "lastChecked": "2026-09-25T10:25:50.612Z"
+  },
+  {
+    "id": "coursera_learn_linux-xk0-005",
+    "certificationId": "linux-plus",
+    "name": "Linux+ XK0-005",
+    "provider": {
+      "name": "Infosec",
+      "url": "https://www.infosecinstitute.com/"
+    },
+    "courseUrl": "https://www.coursera.org/learn/linux-xk0-005",
+    "type": "online-platform",
+    "location": {
+      "country": "GLOBAL",
+      "market": "global"
+    },
+    "delivery": [
+      "online"
+    ],
+    "language": "en",
+    "price": null,
+    "lastChecked": "2026-09-25T10:25:50.612Z"
+  },
+  {
+    "id": "coursera_learn_microsoft-ai-900-exam-prep",
+    "certificationId": "ai-900",
+    "name": "Preparing for AI-900: Microsoft Azure AI Fundamentals exam",
+    "provider": {
+      "name": "Microsoft",
+      "url": "https://www.microsoft.com/"
+    },
+    "courseUrl": "https://www.coursera.org/learn/microsoft-ai-900-exam-prep",
+    "type": "online-platform",
+    "location": {
+      "country": "GLOBAL",
+      "market": "global"
+    },
+    "delivery": [
+      "online"
+    ],
+    "language": "en",
+    "price": null,
+    "lastChecked": "2026-09-25T10:25:50.612Z"
+  },
+  {
+    "id": "coursera_learn_microsoft-azure-dp-300-exam",
+    "certificationId": "dp-300",
+    "name": "Exam Prep DP-300: Azure Database Administrator Associate",
+    "provider": {
+      "name": "Whizlabs",
+      "url": "https://www.whizlabs.com/"
+    },
+    "courseUrl": "https://www.coursera.org/learn/microsoft-azure-dp-300-exam",
+    "type": "online-platform",
+    "location": {
+      "country": "GLOBAL",
+      "market": "global"
+    },
+    "delivery": [
+      "online"
+    ],
+    "language": "en",
+    "price": null,
+    "lastChecked": "2026-09-25T10:25:50.612Z"
+  },
+  {
+    "id": "coursera_learn_microsoft-dp-900-exam-prep",
+    "certificationId": "dp-900",
+    "name": "Preparing for DP-900: Microsoft Azure Data Fundamentals Exam",
+    "provider": {
+      "name": "Microsoft",
+      "url": "https://www.microsoft.com/"
+    },
+    "courseUrl": "https://www.coursera.org/learn/microsoft-dp-900-exam-prep",
+    "type": "online-platform",
+    "location": {
+      "country": "GLOBAL",
+      "market": "global"
+    },
+    "delivery": [
+      "online"
+    ],
+    "language": "en",
+    "price": null,
+    "lastChecked": "2026-09-25T10:25:50.612Z"
+  },
+  {
+    "id": "coursera_learn_microsoft-pl-300-exam-preparation-and-practice",
+    "certificationId": "pl-300",
+    "name": "Microsoft PL-300 Exam Preparation and Practice",
+    "provider": {
+      "name": "Microsoft",
+      "url": "https://www.microsoft.com/"
+    },
+    "courseUrl": "https://www.coursera.org/learn/microsoft-pl-300-exam-preparation-and-practice",
+    "type": "online-platform",
+    "location": {
+      "country": "GLOBAL",
+      "market": "global"
+    },
+    "delivery": [
+      "online"
+    ],
+    "language": "en",
+    "price": null,
+    "lastChecked": "2026-09-25T10:25:50.612Z"
+  },
+  {
+    "id": "coursera_learn_microsoft-sc-900-exam-preparation-and-practice",
+    "certificationId": "sc-900",
+    "name": "Microsoft SC-900 Exam Preparation and Practice",
+    "provider": {
+      "name": "Microsoft",
+      "url": "https://www.microsoft.com/"
+    },
+    "courseUrl": "https://www.coursera.org/learn/microsoft-sc-900-exam-preparation-and-practice",
+    "type": "online-platform",
+    "location": {
+      "country": "GLOBAL",
+      "market": "global"
+    },
+    "delivery": [
+      "online"
+    ],
+    "language": "en",
+    "price": null,
+    "lastChecked": "2026-09-25T10:25:50.612Z"
+  },
+  {
+    "id": "coursera_learn_packt-business-analysis-and-capm-exam-preparation-3u8id",
+    "certificationId": "capm",
+    "name": "Business Analysis and CAPM Exam Preparation",
+    "provider": {
+      "name": "Packt",
+      "url": "https://www.packt.com"
+    },
+    "courseUrl": "https://www.coursera.org/learn/packt-business-analysis-and-capm-exam-preparation-3u8id",
+    "type": "online-platform",
+    "location": {
+      "country": "GLOBAL",
+      "market": "global"
+    },
+    "delivery": [
+      "online"
+    ],
+    "language": "en",
+    "price": null,
+    "lastChecked": "2026-09-25T10:25:50.612Z"
+  },
+  {
+    "id": "coursera_learn_packt-certified-information-security-manager-cism-ipas0",
+    "certificationId": "cism",
+    "name": "Certified Information Security Manager (CISM)",
+    "provider": {
+      "name": "Packt",
+      "url": "https://www.packt.com"
+    },
+    "courseUrl": "https://www.coursera.org/learn/packt-certified-information-security-manager-cism-ipas0",
+    "type": "online-platform",
+    "location": {
+      "country": "GLOBAL",
+      "market": "global"
+    },
+    "delivery": [
+      "online"
+    ],
+    "language": "en",
+    "price": null,
+    "lastChecked": "2026-09-25T10:25:50.612Z"
+  },
+  {
+    "id": "coursera_learn_packt-cisco-cyberops-associate-200-201-ruiy5",
+    "certificationId": "cyberops-associate",
+    "name": "Cisco CyberOps Associate (200-201)",
+    "provider": {
+      "name": "Packt",
+      "url": "https://www.packt.com"
+    },
+    "courseUrl": "https://www.coursera.org/learn/packt-cisco-cyberops-associate-200-201-ruiy5",
+    "type": "online-platform",
+    "location": {
+      "country": "GLOBAL",
+      "market": "global"
+    },
+    "delivery": [
+      "online"
+    ],
+    "language": "en",
+    "price": null,
+    "lastChecked": "2026-09-25T10:25:50.612Z"
+  },
+  {
+    "id": "coursera_learn_pearson-aws-certified-ai-practitioner-aif-c01-video-course-1-asbvj",
+    "certificationId": "aws-aif",
+    "name": "AWS Certified AI Practitioner (AIF-C01)",
+    "provider": {
+      "name": "Pearson",
+      "url": "https://www.coursera.org"
+    },
+    "courseUrl": "https://www.coursera.org/learn/pearson-aws-certified-ai-practitioner-aif-c01-video-course-1-asbvj",
+    "type": "online-platform",
+    "location": {
+      "country": "GLOBAL",
+      "market": "global"
+    },
+    "delivery": [
+      "online"
+    ],
+    "language": "en",
+    "price": null,
+    "lastChecked": "2026-09-25T10:25:50.612Z"
+  },
+  {
+    "id": "coursera_learn_pearson-certified-associate-in-project-management-capm-r-exam-complete-vid-dznrl",
+    "certificationId": "capm",
+    "name": "CAPM: Introducing the CAPM Exam",
+    "provider": {
+      "name": "Pearson",
+      "url": "https://www.coursera.org"
+    },
+    "courseUrl": "https://www.coursera.org/learn/pearson-certified-associate-in-project-management-capm-r-exam-complete-vid-dznrl",
+    "type": "online-platform",
+    "location": {
+      "country": "GLOBAL",
+      "market": "global"
+    },
+    "delivery": [
+      "online"
+    ],
+    "language": "en",
+    "price": null,
+    "lastChecked": "2026-09-25T10:25:50.612Z"
+  },
+  {
+    "id": "coursera_learn_pearson-certified-associate-in-project-management-capm-r-exam-complete-vid-fy4ip",
+    "certificationId": "capm",
+    "name": "CAPM: Projects and Project Management",
+    "provider": {
+      "name": "Pearson",
+      "url": "https://www.coursera.org"
+    },
+    "courseUrl": "https://www.coursera.org/learn/pearson-certified-associate-in-project-management-capm-r-exam-complete-vid-fy4ip",
+    "type": "online-platform",
+    "location": {
+      "country": "GLOBAL",
+      "market": "global"
+    },
+    "delivery": [
+      "online"
+    ],
+    "language": "en",
+    "price": null,
+    "lastChecked": "2026-09-25T10:25:50.612Z"
+  },
+  {
+    "id": "coursera_learn_pearson-certified-associate-in-project-management-capm-r-exam-complete-vid-qsel7",
+    "certificationId": "capm",
+    "name": "CAPM: Preparing for the CAPM Exam",
+    "provider": {
+      "name": "Pearson",
+      "url": "https://www.coursera.org"
+    },
+    "courseUrl": "https://www.coursera.org/learn/pearson-certified-associate-in-project-management-capm-r-exam-complete-vid-qsel7",
+    "type": "online-platform",
+    "location": {
+      "country": "GLOBAL",
+      "market": "global"
+    },
+    "delivery": [
+      "online"
+    ],
+    "language": "en",
+    "price": null,
+    "lastChecked": "2026-09-25T10:25:50.612Z"
+  },
+  {
+    "id": "coursera_learn_pearson-cisa-certified-information-systems-auditor-pearson-cert-prep-video-sqvyg",
+    "certificationId": "cisa",
+    "name": "CISA: Information Systems Auditing",
+    "provider": {
+      "name": "Pearson",
+      "url": "https://www.coursera.org"
+    },
+    "courseUrl": "https://www.coursera.org/learn/pearson-cisa-certified-information-systems-auditor-pearson-cert-prep-video-sqvyg",
+    "type": "online-platform",
+    "location": {
+      "country": "GLOBAL",
+      "market": "global"
+    },
+    "delivery": [
+      "online"
+    ],
+    "language": "en",
+    "price": null,
+    "lastChecked": "2026-09-25T10:25:50.612Z"
+  },
+  {
+    "id": "coursera_learn_pearson-comptia-cybersecurity-analyst-cysa-cs0-003-video-course-1-tkhzg",
+    "certificationId": "cysa-plus",
+    "name": "CompTIA CYSA+ CS0-003: Security Operations",
+    "provider": {
+      "name": "Pearson",
+      "url": "https://www.coursera.org"
+    },
+    "courseUrl": "https://www.coursera.org/learn/pearson-comptia-cybersecurity-analyst-cysa-cs0-003-video-course-1-tkhzg",
+    "type": "online-platform",
+    "location": {
+      "country": "GLOBAL",
+      "market": "global"
+    },
+    "delivery": [
+      "online"
+    ],
+    "language": "en",
+    "price": null,
+    "lastChecked": "2026-09-25T10:25:50.612Z"
+  },
+  {
+    "id": "coursera_learn_pearson-linux-foundation-certified-system-administrator-lfcs-complete-vide-1nzv2",
+    "certificationId": "lfcs",
+    "name": "LFCS Exam Prep: Essential Commands",
+    "provider": {
+      "name": "Pearson",
+      "url": "https://www.coursera.org"
+    },
+    "courseUrl": "https://www.coursera.org/learn/pearson-linux-foundation-certified-system-administrator-lfcs-complete-vide-1nzv2",
+    "type": "online-platform",
+    "location": {
+      "country": "GLOBAL",
+      "market": "global"
+    },
+    "delivery": [
+      "online"
+    ],
+    "language": "en",
+    "price": null,
+    "lastChecked": "2026-09-25T10:25:50.612Z"
+  },
+  {
+    "id": "coursera_learn_power-bi-data-analyst-associate-prep",
+    "certificationId": "pl-300",
+    "name": "Power BI Data Analyst Associate Prep",
+    "provider": {
+      "name": "SkillUp",
+      "url": "https://skillup.online/"
+    },
+    "courseUrl": "https://www.coursera.org/learn/power-bi-data-analyst-associate-prep",
+    "type": "online-platform",
+    "location": {
+      "country": "GLOBAL",
+      "market": "global"
+    },
+    "delivery": [
+      "online"
+    ],
+    "language": "en",
+    "price": null,
+    "lastChecked": "2026-09-25T10:25:50.612Z"
+  },
+  {
+    "id": "coursera_learn_power-bi-data-analyst-prep",
+    "certificationId": "pl-300",
+    "name": "Power BI Data Analyst Prep",
+    "provider": {
+      "name": "SkillUp",
+      "url": "https://skillup.online/"
+    },
+    "courseUrl": "https://www.coursera.org/learn/power-bi-data-analyst-prep",
+    "type": "online-platform",
+    "location": {
+      "country": "GLOBAL",
+      "market": "global"
+    },
+    "delivery": [
+      "online"
+    ],
+    "language": "en",
+    "price": null,
+    "lastChecked": "2026-09-25T10:25:50.612Z"
+  },
+  {
+    "id": "coursera_learn_practice-exam-for-isc2-certified-in-cybersecurity-cc",
+    "certificationId": "isc2-cc",
+    "name": "Practice Exam for ISC2 Certified in Cybersecurity (CC)",
+    "provider": {
+      "name": "SkillUp",
+      "url": "https://skillup.online/"
+    },
+    "courseUrl": "https://www.coursera.org/learn/practice-exam-for-isc2-certified-in-cybersecurity-cc",
+    "type": "online-platform",
+    "location": {
+      "country": "GLOBAL",
+      "market": "global"
+    },
+    "delivery": [
+      "online"
+    ],
+    "language": "en",
+    "price": null,
+    "lastChecked": "2026-09-25T10:25:50.612Z"
+  },
+  {
+    "id": "coursera_learn_practice-exam-for-scrum-alliance-csm-certification",
+    "certificationId": "csm",
+    "name": "Practice Exam for Certified Scrum Master (CSM) Certification",
+    "provider": {
+      "name": "SkillUp",
+      "url": "https://skillup.online/"
+    },
+    "courseUrl": "https://www.coursera.org/learn/practice-exam-for-scrum-alliance-csm-certification",
+    "type": "online-platform",
+    "location": {
+      "country": "GLOBAL",
+      "market": "global"
+    },
+    "delivery": [
+      "online"
+    ],
+    "language": "en",
+    "price": null,
+    "lastChecked": "2026-09-25T10:25:50.612Z"
+  },
+  {
+    "id": "coursera_learn_practice-exam-for-scrum-org-pspo1-certification",
+    "certificationId": "pspo-1",
+    "name": "Practice Exam for Scrum.org PSPO I Certification",
+    "provider": {
+      "name": "SkillUp",
+      "url": "https://skillup.online/"
+    },
+    "courseUrl": "https://www.coursera.org/learn/practice-exam-for-scrum-org-pspo1-certification",
+    "type": "online-platform",
+    "location": {
+      "country": "GLOBAL",
+      "market": "global"
+    },
+    "delivery": [
+      "online"
+    ],
+    "language": "en",
+    "price": null,
+    "lastChecked": "2026-09-25T10:25:50.612Z"
+  },
+  {
+    "id": "coursera_learn_prepare-for-dp-100-design-a-data-science-solution-on-azure",
+    "certificationId": "dp-100",
+    "name": "Prepare for DP-100: Data Science on Microsoft Azure Exam",
+    "provider": {
+      "name": "Microsoft",
+      "url": "https://www.microsoft.com/"
+    },
+    "courseUrl": "https://www.coursera.org/learn/prepare-for-dp-100-design-a-data-science-solution-on-azure",
+    "type": "online-platform",
+    "location": {
+      "country": "GLOBAL",
+      "market": "global"
+    },
+    "delivery": [
+      "online"
+    ],
+    "language": "en",
+    "price": null,
+    "lastChecked": "2026-09-25T10:25:50.612Z"
+  },
+  {
+    "id": "coursera_learn_preparing-cloud-professional-cloud-architect-exam",
+    "certificationId": "gcp-pca",
+    "name": "Build a Certification Study Guide: PCA Exam Prep",
+    "provider": {
+      "name": "Google Cloud",
+      "url": "https://cloud.google.com"
+    },
+    "courseUrl": "https://www.coursera.org/learn/preparing-cloud-professional-cloud-architect-exam",
+    "type": "online-platform",
+    "location": {
+      "country": "GLOBAL",
+      "market": "global"
+    },
+    "delivery": [
+      "online"
+    ],
+    "language": "en",
+    "price": null,
+    "lastChecked": "2026-09-25T10:25:50.612Z"
+  },
+  {
+    "id": "coursera_learn_preparing-cloud-professional-cloud-architect-exam-br",
+    "certificationId": "gcp-pca",
+    "name": "Preparing for the Google Cloud Professional Cloud Architect Exam em Português Brasileiro",
+    "provider": {
+      "name": "Google Cloud",
+      "url": "https://cloud.google.com"
+    },
+    "courseUrl": "https://www.coursera.org/learn/preparing-cloud-professional-cloud-architect-exam-br",
+    "type": "online-platform",
+    "location": {
+      "country": "GLOBAL",
+      "market": "global"
+    },
+    "delivery": [
+      "online"
+    ],
+    "language": "pt",
+    "price": null,
+    "lastChecked": "2026-09-25T10:25:50.612Z"
+  },
+  {
+    "id": "coursera_learn_preparing-cloud-professional-cloud-architect-exam-jp",
+    "certificationId": "gcp-pca",
+    "name": "Preparing for the Google Cloud Professional Cloud Architect Exam 日本語版",
+    "provider": {
+      "name": "Google Cloud",
+      "url": "https://cloud.google.com"
+    },
+    "courseUrl": "https://www.coursera.org/learn/preparing-cloud-professional-cloud-architect-exam-jp",
+    "type": "online-platform",
+    "location": {
+      "country": "GLOBAL",
+      "market": "global"
+    },
+    "delivery": [
+      "online"
+    ],
+    "language": "ja",
+    "price": null,
+    "lastChecked": "2026-09-25T10:25:50.612Z"
+  },
+  {
+    "id": "coursera_learn_preparing-cloud-professional-data-engineer-exam",
+    "certificationId": "gcp-pde",
+    "name": "Build a Certification Study Guide: PDE Exam Prep",
+    "provider": {
+      "name": "Google Cloud",
+      "url": "https://cloud.google.com"
+    },
+    "courseUrl": "https://www.coursera.org/learn/preparing-cloud-professional-data-engineer-exam",
+    "type": "online-platform",
+    "location": {
+      "country": "GLOBAL",
+      "market": "global"
+    },
+    "delivery": [
+      "online"
+    ],
+    "language": "en",
+    "price": null,
+    "lastChecked": "2026-09-25T10:25:50.612Z"
+  },
+  {
+    "id": "coursera_learn_preparing-cloud-professional-data-engineer-exam-jp",
+    "certificationId": "gcp-pde",
+    "name": "Preparing for the Google Cloud Professional Data Engineer Exam 日本語版",
+    "provider": {
+      "name": "Google Cloud",
+      "url": "https://cloud.google.com"
+    },
+    "courseUrl": "https://www.coursera.org/learn/preparing-cloud-professional-data-engineer-exam-jp",
+    "type": "online-platform",
+    "location": {
+      "country": "GLOBAL",
+      "market": "global"
+    },
+    "delivery": [
+      "online"
+    ],
+    "language": "ja",
+    "price": null,
+    "lastChecked": "2026-09-25T10:25:50.612Z"
+  },
+  {
+    "id": "coursera_learn_salesforce-admin-certification-reports-and-dashboards",
+    "certificationId": "salesforce-admin",
+    "name": "Salesforce Reports and Dashboards",
+    "provider": {
+      "name": "LearnKartS",
+      "url": "https://www.learnkarts.com/learn"
+    },
+    "courseUrl": "https://www.coursera.org/learn/salesforce-admin-certification-reports-and-dashboards",
+    "type": "online-platform",
+    "location": {
+      "country": "GLOBAL",
+      "market": "global"
+    },
+    "delivery": [
+      "online"
+    ],
+    "language": "en",
+    "price": null,
+    "lastChecked": "2026-09-25T10:25:50.612Z"
+  },
+  {
+    "id": "coursera_learn_salesforce-admin-certification-salesforce-admin-functions",
+    "certificationId": "salesforce-admin",
+    "name": "Salesforce Admin Functions",
+    "provider": {
+      "name": "LearnKartS",
+      "url": "https://www.learnkarts.com/learn"
+    },
+    "courseUrl": "https://www.coursera.org/learn/salesforce-admin-certification-salesforce-admin-functions",
+    "type": "online-platform",
+    "location": {
+      "country": "GLOBAL",
+      "market": "global"
+    },
+    "delivery": [
+      "online"
+    ],
+    "language": "en",
+    "price": null,
+    "lastChecked": "2026-09-25T10:25:50.612Z"
+  },
+  {
+    "id": "coursera_learn_salesforce-admin-certification-salesforce-introduction",
+    "certificationId": "salesforce-admin",
+    "name": "Salesforce Introduction",
+    "provider": {
+      "name": "LearnKartS",
+      "url": "https://www.learnkarts.com/learn"
+    },
+    "courseUrl": "https://www.coursera.org/learn/salesforce-admin-certification-salesforce-introduction",
+    "type": "online-platform",
+    "location": {
+      "country": "GLOBAL",
+      "market": "global"
+    },
+    "delivery": [
+      "online"
+    ],
+    "language": "en",
+    "price": null,
+    "lastChecked": "2026-09-25T10:25:50.612Z"
+  },
+  {
+    "id": "coursera_learn_snowflake-snowpro-core-certification-preparation",
+    "certificationId": "snowpro-core",
+    "name": "Prepare for SnowPro Core Exam: Architecture & SQL",
+    "provider": {
+      "name": "Board Infinity ",
+      "url": "https://www.boardinfinity.com/"
+    },
+    "courseUrl": "https://www.coursera.org/learn/snowflake-snowpro-core-certification-preparation",
+    "type": "online-platform",
+    "location": {
+      "country": "GLOBAL",
+      "market": "global"
+    },
+    "delivery": [
+      "online"
+    ],
+    "language": "en",
+    "price": null,
+    "lastChecked": "2026-09-25T10:25:50.612Z"
+  },
+  {
+    "id": "vncenter_vnpro_thu-vien-hoc-mang-cisco-ccie-10-html",
+    "certificationId": "ccie-ei",
+    "name": "CCIE -",
+    "provider": {
+      "name": "VnPro",
+      "url": "https://www.vnpro.vn"
+    },
+    "courseUrl": "https://www.vnpro.vn/thu-vien/hoc-mang-cisco/ccie-10.html",
+    "type": "training-center",
+    "location": {
+      "country": "VN",
+      "market": "vietnam"
+    },
+    "delivery": [
+      "online"
+    ],
+    "language": "Unknown",
+    "price": null,
+    "lastChecked": "2026-09-25T10:25:50.612Z"
+  },
+  {
+    "id": "vncenter_vnpro_chuong-trinh-dao-tao-bao-gia-khoa-hoc-security-core-350701-hinh-thuc-offline-157-html",
+    "certificationId": "ccnp-security",
+    "name": "BÁO GIÁ KHÓA HỌC SECURITY CORE (350-701) - HÌNH THỨC OFFLINE -",
+    "provider": {
+      "name": "VnPro",
+      "url": "https://www.vnpro.vn"
+    },
+    "courseUrl": "https://www.vnpro.vn/chuong-trinh-dao-tao/bao-gia-khoa-hoc-security-core-350701-hinh-thuc-offline-157.html",
+    "type": "training-center",
+    "location": {
+      "country": "VN",
+      "market": "vietnam"
+    },
+    "delivery": [
+      "online",
+      "offline"
+    ],
+    "language": "Unknown",
+    "price": null,
+    "lastChecked": "2026-09-25T10:25:50.612Z"
+  },
+  {
+    "id": "vncenter_vnpro_san-pham-bao-gia-khoa-hoc-security-core-350701-hinh-thuc-offline-157-html",
+    "certificationId": "ccnp-security",
+    "name": "BÁO GIÁ KHÓA HỌC SECURITY CORE (350-701) - HÌNH THỨC OFFLINE",
+    "provider": {
+      "name": "VnPro",
+      "url": "https://www.vnpro.vn"
+    },
+    "courseUrl": "https://www.vnpro.vn/san-pham/bao-gia-khoa-hoc-security-core-350701-hinh-thuc-offline-157.html",
+    "type": "training-center",
+    "location": {
+      "country": "VN",
+      "market": "vietnam"
+    },
+    "delivery": [
+      "online",
+      "offline"
+    ],
+    "language": "Unknown",
+    "price": null,
+    "lastChecked": "2026-09-25T10:25:50.612Z"
+  },
+  {
+    "id": "vncenter_vnpro_chuong-trinh-dao-tao-bao-gia-khoa-hoc-security-core-350701-hinh-thuc-online-158-html",
+    "certificationId": "ccnp-security",
+    "name": "BÁO GIÁ KHÓA HỌC SECURITY CORE (350-701) - HÌNH THỨC ONLINE -",
+    "provider": {
+      "name": "VnPro",
+      "url": "https://www.vnpro.vn"
+    },
+    "courseUrl": "https://www.vnpro.vn/chuong-trinh-dao-tao/bao-gia-khoa-hoc-security-core-350701-hinh-thuc-online-158.html",
+    "type": "training-center",
+    "location": {
+      "country": "VN",
+      "market": "vietnam"
+    },
+    "delivery": [
+      "online"
+    ],
+    "language": "Unknown",
+    "price": null,
+    "lastChecked": "2026-09-25T10:25:50.612Z"
+  },
+  {
+    "id": "vncenter_vnpro_san-pham-bao-gia-khoa-hoc-security-core-350701-hinh-thuc-online-158-html",
+    "certificationId": "ccnp-security",
+    "name": "BÁO GIÁ KHÓA HỌC SECURITY CORE (350-701) - HÌNH THỨC ONLINE",
+    "provider": {
+      "name": "VnPro",
+      "url": "https://www.vnpro.vn"
+    },
+    "courseUrl": "https://www.vnpro.vn/san-pham/bao-gia-khoa-hoc-security-core-350701-hinh-thuc-online-158.html",
+    "type": "training-center",
+    "location": {
+      "country": "VN",
+      "market": "vietnam"
+    },
+    "delivery": [
+      "online"
+    ],
+    "language": "Unknown",
+    "price": null,
+    "lastChecked": "2026-09-25T10:25:50.612Z"
+  },
+  {
+    "id": "vncenter_vnpro_hoc-vien-hoc-vien-vnpro-dat-chung-chi-ccie-lab-o-singapore-4759-html",
+    "certificationId": "ccie-ei",
+    "name": "HỌC VIÊN VNPRO ĐẠT CHỨNG CHỈ CCIE LAB Ở SINGAPORE -",
+    "provider": {
+      "name": "VnPro",
+      "url": "https://www.vnpro.vn"
+    },
+    "courseUrl": "https://www.vnpro.vn/hoc-vien/hoc-vien-vnpro-dat-chung-chi-ccie-lab-o-singapore-4759.html",
+    "type": "training-center",
+    "location": {
+      "country": "VN",
+      "market": "vietnam"
+    },
+    "delivery": [
+      "online"
+    ],
+    "language": "Unknown",
+    "price": null,
+    "lastChecked": "2026-09-25T10:25:50.612Z"
+  },
+  {
+    "id": "vncenter_robusta_vi-dich-vu-tu-van-trien-khai-itil-itsm",
+    "certificationId": "itil4-foundation",
+    "name": "Tư vấn & triển khai ITIL/ITSM | Trung tâm Công nghệ và Đào tạo Robusta",
+    "provider": {
+      "name": "Robusta",
+      "url": "https://robusta.vn"
+    },
+    "courseUrl": "https://robusta.vn/vi/dich-vu/tu-van-trien-khai-itil-itsm",
+    "type": "training-center",
+    "location": {
+      "country": "VN",
+      "market": "vietnam"
+    },
+    "delivery": [
+      "online",
+      "offline"
+    ],
+    "language": "Vietnamese",
+    "price": null,
+    "lastChecked": "2026-09-25T10:25:50.612Z"
+  },
+  {
+    "id": "vncenter_robusta_vi-tin-tuc-robusta-khai-giang-khoa-hoc-co-so-ha-tang-cntt-co-ban-itil-v5-tai-tp-hcm-1",
+    "certificationId": "itil4-foundation",
+    "name": "Robusta khai giảng khóa học Cơ sở hạ tầng CNTT cơ bản (ITIL V5) tại TP.HCM | Trung tâm Công nghệ và Đào tạo Robusta",
+    "provider": {
+      "name": "Robusta",
+      "url": "https://robusta.vn"
+    },
+    "courseUrl": "https://robusta.vn/vi/tin-tuc/robusta-khai-giang-khoa-hoc-co-so-ha-tang-cntt-co-ban-itil-v5-tai-tp.hcm-1",
+    "type": "training-center",
+    "location": {
+      "country": "VN",
+      "market": "vietnam"
+    },
+    "delivery": [
+      "online",
+      "offline"
+    ],
+    "language": "Vietnamese",
+    "price": null,
+    "lastChecked": "2026-09-25T10:25:50.612Z"
+  },
+  {
+    "id": "vncenter_robusta_vi-tin-khuyen-mai-itil-4-foundation-chia-khoa-thang-tien-trong-quan-l-dich-vu-cntt",
+    "certificationId": "itil4-foundation",
+    "name": "ITIL 4 Foundation – Chìa Khóa Thăng Tiến Trong Quản Lý Dịch Vụ Cntt | Trung tâm Công nghệ và Đào tạo Robusta",
+    "provider": {
+      "name": "Robusta",
+      "url": "https://robusta.vn"
+    },
+    "courseUrl": "https://robusta.vn/vi/tin-khuyen-mai/itil-4-foundation-chia-khoa-thang-tien-trong-quan-l-dich-vu-cntt",
+    "type": "training-center",
+    "location": {
+      "country": "VN",
+      "market": "vietnam"
+    },
+    "delivery": [
+      "online",
+      "offline"
+    ],
+    "language": "Vietnamese",
+    "price": null,
+    "lastChecked": "2026-09-25T10:25:50.612Z"
+  },
+  {
+    "id": "vncenter_robusta_vi-chuong-trinh-dao-tao-microsoft-cloud-ai-platforms-pl-300t00-microsoft-power-bi-data-analyst",
+    "certificationId": "pl-300",
+    "name": "PL-300T00 Microsoft Power BI Data Analyst | Trung tâm Công nghệ và Đào tạo Robusta",
+    "provider": {
+      "name": "Robusta",
+      "url": "https://robusta.vn"
+    },
+    "courseUrl": "https://robusta.vn/vi/chuong-trinh-dao-tao/microsoft/cloud-ai-platforms/pl-300t00-microsoft-power-bi-data-analyst",
+    "type": "training-center",
+    "location": {
+      "country": "VN",
+      "market": "vietnam"
+    },
+    "delivery": [
+      "online"
+    ],
+    "language": "Vietnamese",
+    "price": null,
+    "lastChecked": "2026-09-25T10:25:50.612Z"
   }
 ]

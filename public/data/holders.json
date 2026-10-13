@@ -11,7 +11,63 @@
       "name": "EC-Council",
       "url": "https://www.eccouncil.org/train-certify/certified-ethical-hacker-ceh/"
     },
-    "crawledAt": "2026-09-18T16:29:20.740Z"
+    "crawledAt": "2026-09-25T10:25:50.612Z"
+  },
+  {
+    "id": "holders_isaca",
+    "certificationId": null,
+    "vendor": "ISACA",
+    "holders": 100000,
+    "counts": "people",
+    "scope": "vendor",
+    "statement": "Over 100,000 People Were Trained By ISACA in 2022",
+    "source": {
+      "name": "ISACA",
+      "url": "https://www.isaca.org/credentialing/cism"
+    },
+    "crawledAt": "2026-09-25T10:25:50.612Z"
+  },
+  {
+    "id": "holders_giac",
+    "certificationId": null,
+    "vendor": "GIAC",
+    "holders": 17024,
+    "counts": "certifications",
+    "scope": "vendor",
+    "statement": "GIAC is an active accredited ISO/IEC 17024 Personnel Certification Body through ANAB.",
+    "source": {
+      "name": "GIAC",
+      "url": "https://www.giac.org/certifications/security-essentials-gsec/"
+    },
+    "crawledAt": "2026-09-25T10:25:50.612Z"
+  },
+  {
+    "id": "holders_scrum-alliance",
+    "certificationId": null,
+    "vendor": "Scrum Alliance",
+    "holders": 2001,
+    "counts": "certifications",
+    "scope": "vendor",
+    "statement": "Established in 2001, Scrum Alliance provides certifications with substance: Once you earn the badge, the renewal requirements include proof that you've continued to grow your knowledge—by reading books, watching webinars, attending events, etc.",
+    "source": {
+      "name": "Scrum Alliance",
+      "url": "https://www.scrumalliance.org/get-certified/scrum-master-track/certified-scrummaster"
+    },
+    "crawledAt": "2026-09-25T10:25:50.612Z"
+  },
+  {
+    "id": "holders_scaled-agile",
+    "certificationId": null,
+    "vendor": "Scaled Agile",
+    "holders": 2000000,
+    "counts": "people",
+    "scope": "vendor",
+    "statement": "Join over 2 million trained professionals in the world’s largest agile community.",
+    "source": {
+      "name": "Scaled Agile",
+      "url": "https://scaledagile.com/training/leading-safe/"
+    },
+    "crawledAt": "2026-09-25T10:25:50.612Z"
   },
   {
     "id": "holders_aws",
@@ -25,7 +81,7 @@
       "name": "AWS",
       "url": "https://aws.amazon.com/certification/"
     },
-    "crawledAt": "2026-09-18T16:29:20.740Z"
+    "crawledAt": "2026-09-25T10:25:50.612Z"
   },
   {
     "id": "holders_cisco",
@@ -39,7 +95,7 @@
       "name": "Cisco",
       "url": "https://www.cisco.com/site/us/en/learn/training-certifications/certifications/index.html"
     },
-    "crawledAt": "2026-09-18T16:29:20.740Z"
+    "crawledAt": "2026-09-25T10:25:50.612Z"
   },
   {
     "id": "holders_isc2",
@@ -53,6 +109,6 @@
       "name": "ISC2",
       "url": "https://www.isc2.org/about"
     },
-    "crawledAt": "2026-09-18T16:29:20.740Z"
+    "crawledAt": "2026-09-25T10:25:50.612Z"
   }
 ]

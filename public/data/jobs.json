@@ -10,6 +10,10 @@
     },
     "certifications": [
       {
+        "id": "aws-dva",
+        "requirement": "preferred"
+      },
+      {
         "id": "aws-saa",
         "requirement": "preferred"
       }
@@ -19,7 +23,7 @@
       "url": "https://itviec.com/it-jobs/data-engineer-data-division-mb-bank-2546"
     },
     "postedAt": "2026-09-02",
-    "crawledAt": "2026-09-18T16:29:20.740Z"
+    "crawledAt": "2026-09-25T10:32:50.962Z"
   },
   {
     "id": "itviec_senior-site-reliability-engineer-sre-gcp-kubernetes-datvietvac-0334",
@@ -41,7 +45,7 @@
       "url": "https://itviec.com/it-jobs/senior-site-reliability-engineer-sre-gcp-kubernetes-datvietvac-0334"
     },
     "postedAt": "2026-09-03",
-    "crawledAt": "2026-09-18T16:29:20.740Z"
+    "crawledAt": "2026-09-25T10:32:50.962Z"
   },
   {
     "id": "itviec_solution-architect-lead-galaxy-holdings-4352",
@@ -84,7 +88,15 @@
         "requirement": "mentioned"
       },
       {
+        "id": "gcih",
+        "requirement": "mentioned"
+      },
+      {
         "id": "cka",
+        "requirement": "mentioned"
+      },
+      {
+        "id": "cks",
         "requirement": "mentioned"
       }
     ],
@@ -93,7 +105,7 @@
       "url": "https://itviec.com/it-jobs/secops-engineer-kubernetes-linux-iam-ztna-devsecops-con-cung-2411"
     },
     "postedAt": "2026-09-07",
-    "crawledAt": "2026-09-18T16:29:20.740Z"
+    "crawledAt": "2026-09-25T10:32:50.962Z"
   },
   {
     "id": "itviec_senior-data-security-data-division-mb-bank-0129",
@@ -108,6 +120,14 @@
       {
         "id": "cissp",
         "requirement": "preferred"
+      },
+      {
+        "id": "cism",
+        "requirement": "preferred"
+      },
+      {
+        "id": "cisa",
+        "requirement": "preferred"
       }
     ],
     "source": {
@@ -115,7 +135,7 @@
       "url": "https://itviec.com/it-jobs/senior-data-security-data-division-mb-bank-0129"
     },
     "postedAt": "2026-09-02",
-    "crawledAt": "2026-09-18T16:29:20.740Z"
+    "crawledAt": "2026-09-25T10:32:50.962Z"
   },
   {
     "id": "itviec_ai-engineer-middle-senior-saigon-technology-2820",
@@ -173,6 +193,14 @@
       {
         "id": "cissp",
         "requirement": "preferred"
+      },
+      {
+        "id": "cism",
+        "requirement": "preferred"
+      },
+      {
+        "id": "cisa",
+        "requirement": "preferred"
       }
     ],
     "source": {
@@ -180,7 +208,7 @@
       "url": "https://itviec.com/it-jobs/data-quality-management-specialist-data-division-mb-bank-0217"
     },
     "postedAt": "2026-09-02",
-    "crawledAt": "2026-09-18T16:29:20.740Z"
+    "crawledAt": "2026-09-25T10:32:50.962Z"
   },
   {
     "id": "itviec_project-leader-project-manager-japanese-n2-nec-vietnam-2827",
@@ -265,6 +293,14 @@
       {
         "id": "cissp",
         "requirement": "mentioned"
+      },
+      {
+        "id": "cism",
+        "requirement": "mentioned"
+      },
+      {
+        "id": "cisa",
+        "requirement": "mentioned"
       }
     ],
     "source": {
@@ -272,7 +308,7 @@
       "url": "https://itviec.com/it-jobs/senior-it-governance-iso-27001-pci-dss-timo-5511"
     },
     "postedAt": "2026-09-01",
-    "crawledAt": "2026-09-18T16:29:20.740Z"
+    "crawledAt": "2026-09-25T10:32:50.962Z"
   },
   {
     "id": "itviec_danang-project-management-officer-japanese-n2-nec-vietnam-2417",
@@ -315,7 +351,7 @@
       "url": "https://www.mycareersfuture.gov.sg/job/information-technology/network-engineer-ea-recruitment-524c23241acc47ff491f7dd1bce3b00e"
     },
     "postedAt": "2026-09-17",
-    "crawledAt": "2026-09-18T16:29:20.740Z"
+    "crawledAt": "2026-09-25T10:25:50.612Z"
   },
   {
     "id": "mcf_bdb67ddae88019d92daa9b660f8dfe34",
@@ -345,7 +381,7 @@
       "url": "https://www.mycareersfuture.gov.sg/job/information-technology/engineer-ea-recruitment-bdb67ddae88019d92daa9b660f8dfe34"
     },
     "postedAt": "2026-09-09",
-    "crawledAt": "2026-09-18T16:29:20.740Z"
+    "crawledAt": "2026-09-25T10:25:50.612Z"
   },
   {
     "id": "mcf_1ed200ede9f0417ef22691599f49bf25",
@@ -362,6 +398,10 @@
         "requirement": "required"
       },
       {
+        "id": "network-plus",
+        "requirement": "preferred"
+      },
+      {
         "id": "ccnp-enterprise",
         "requirement": "preferred"
       }
@@ -371,7 +411,7 @@
       "url": "https://www.mycareersfuture.gov.sg/job/information-technology/network-engineer-recruit-express-1ed200ede9f0417ef22691599f49bf25"
     },
     "postedAt": "2026-09-08",
-    "crawledAt": "2026-09-18T16:29:20.740Z"
+    "crawledAt": "2026-09-25T10:25:50.612Z"
   },
   {
     "id": "mcf_190505476954c501989c66e481502317",
@@ -397,7 +437,7 @@
       "url": "https://www.mycareersfuture.gov.sg/job/information-technology/infrastructure-engineer-trust-recruit-190505476954c501989c66e481502317"
     },
     "postedAt": "2026-09-04",
-    "crawledAt": "2026-09-18T16:29:20.740Z"
+    "crawledAt": "2026-09-25T10:25:50.612Z"
   },
   {
     "id": "mcf_8347a6b07f8cdbdb8162d24181e4cf18",
@@ -419,7 +459,7 @@
       "url": "https://www.mycareersfuture.gov.sg/job/information-technology/network-engineer-u3-infotech-8347a6b07f8cdbdb8162d24181e4cf18"
     },
     "postedAt": "2026-09-04",
-    "crawledAt": "2026-09-18T16:29:20.740Z"
+    "crawledAt": "2026-09-25T10:25:50.612Z"
   },
   {
     "id": "mcf_9e8863afe4cde88eed98787e4e38e636",
@@ -445,7 +485,7 @@
       "url": "https://www.mycareersfuture.gov.sg/job/information-technology/urgent-infrastructure-engineer-trust-recruit-9e8863afe4cde88eed98787e4e38e636"
     },
     "postedAt": "2026-08-28",
-    "crawledAt": "2026-09-18T16:29:20.740Z"
+    "crawledAt": "2026-09-25T10:25:50.612Z"
   },
   {
     "id": "wwr_legion-director-of-production-engineering",
@@ -478,6 +518,10 @@
     },
     "certifications": [
       {
+        "id": "sc-200",
+        "requirement": "mentioned"
+      },
+      {
         "id": "security-plus",
         "requirement": "mentioned"
       }
@@ -487,7 +531,7 @@
       "url": "https://weworkremotely.com/remote-jobs/expel-managed-siem-detection-engineer"
     },
     "postedAt": "2026-09-01",
-    "crawledAt": "2026-09-18T16:29:20.740Z"
+    "crawledAt": "2026-09-25T10:25:50.612Z"
   },
   {
     "id": "itviec_manual-qc-engineer-middle-saigon-technology-5140",
@@ -522,7 +566,19 @@
     },
     "certifications": [
       {
+        "id": "aws-scs",
+        "requirement": "mentioned"
+      },
+      {
         "id": "cissp",
+        "requirement": "mentioned"
+      },
+      {
+        "id": "cysa-plus",
+        "requirement": "mentioned"
+      },
+      {
+        "id": "gcih",
         "requirement": "mentioned"
       }
     ],
@@ -531,7 +587,7 @@
       "url": "https://itviec.com/it-jobs/soc-lead-cybersecurity-aws-python-incident-response-galaxy-holdings-5948"
     },
     "postedAt": "2026-09-05",
-    "crawledAt": "2026-09-18T16:29:20.740Z"
+    "crawledAt": "2026-09-25T10:32:50.962Z"
   },
   {
     "id": "itviec_presales-engineer-cloud-aws-megazone-1216",
@@ -553,7 +609,7 @@
       "url": "https://itviec.com/it-jobs/presales-engineer-cloud-aws-megazone-1216"
     },
     "postedAt": "2026-09-15",
-    "crawledAt": "2026-09-18T16:29:20.740Z"
+    "crawledAt": "2026-09-25T10:32:50.962Z"
   },
   {
     "id": "itviec_senior-it-security-solution-officer-mb-life-3714",
@@ -570,11 +626,27 @@
         "requirement": "preferred"
       },
       {
+        "id": "oscp",
+        "requirement": "preferred"
+      },
+      {
+        "id": "ccsp",
+        "requirement": "preferred"
+      },
+      {
         "id": "ceh",
         "requirement": "preferred"
       },
       {
+        "id": "itil4-foundation",
+        "requirement": "mentioned"
+      },
+      {
         "id": "pmp",
+        "requirement": "mentioned"
+      },
+      {
+        "id": "csm",
         "requirement": "mentioned"
       }
     ],
@@ -583,7 +655,7 @@
       "url": "https://itviec.com/it-jobs/senior-it-security-solution-officer-mb-life-3714"
     },
     "postedAt": "2026-08-26",
-    "crawledAt": "2026-09-18T16:29:20.740Z"
+    "crawledAt": "2026-09-25T10:32:50.962Z"
   },
   {
     "id": "itviec_enterprise-security-architect-itviec-recruitment-consulting-2236",
@@ -598,6 +670,14 @@
       {
         "id": "cissp",
         "requirement": "preferred"
+      },
+      {
+        "id": "cism",
+        "requirement": "preferred"
+      },
+      {
+        "id": "ccsp",
+        "requirement": "preferred"
       }
     ],
     "source": {
@@ -605,7 +685,7 @@
       "url": "https://itviec.com/it-jobs/enterprise-security-architect-itviec-recruitment-consulting-2236"
     },
     "postedAt": "2026-08-11",
-    "crawledAt": "2026-09-18T16:29:20.740Z"
+    "crawledAt": "2026-09-25T10:32:50.962Z"
   },
   {
     "id": "itviec_information-security-architect-mb-bank-0515",
@@ -661,7 +741,7 @@
       "url": "https://itviec.com/it-jobs/senior-security-operations-center-soc-specialist-vietbank-1951"
     },
     "postedAt": "2026-09-14",
-    "crawledAt": "2026-09-18T16:29:20.740Z"
+    "crawledAt": "2026-09-25T10:32:50.962Z"
   },
   {
     "id": "itviec_ai-engineer-genai-machine-learning-python-cloud-ace-2114",
@@ -705,7 +785,7 @@
       "url": "https://itviec.com/it-jobs/senior-devops-engineer-cloud-aws-itviec-recruitment-consulting-5512"
     },
     "postedAt": "2026-08-23",
-    "crawledAt": "2026-09-18T16:29:20.740Z"
+    "crawledAt": "2026-09-25T10:32:50.962Z"
   },
   {
     "id": "itviec_devops-engineer-python-aws-linux-techcom-securities-5026",
@@ -753,7 +833,7 @@
       "url": "https://itviec.com/it-jobs/senior-devops-engineer-tpisoftware-co-ltd-3309"
     },
     "postedAt": "2026-09-15",
-    "crawledAt": "2026-09-18T16:29:20.740Z"
+    "crawledAt": "2026-09-25T10:32:50.962Z"
   },
   {
     "id": "itviec_sre-devops-gcp-kubernetes-terraform-datvietvac-2917",
@@ -775,7 +855,7 @@
       "url": "https://itviec.com/it-jobs/sre-devops-gcp-kubernetes-terraform-datvietvac-2917"
     },
     "postedAt": "2026-09-04",
-    "crawledAt": "2026-09-18T16:29:20.740Z"
+    "crawledAt": "2026-09-25T10:32:50.962Z"
   },
   {
     "id": "itviec_principal-backend-engineer-golang-microservices-datvietvac-4329",
@@ -797,7 +877,7 @@
       "url": "https://itviec.com/it-jobs/principal-backend-engineer-golang-microservices-datvietvac-4329"
     },
     "postedAt": "2026-09-03",
-    "crawledAt": "2026-09-18T16:29:20.740Z"
+    "crawledAt": "2026-09-25T10:32:50.962Z"
   },
   {
     "id": "itviec_senior-devops-engineer-cloud-azure-mitek-vietnam-3403",
@@ -823,7 +903,7 @@
       "url": "https://itviec.com/it-jobs/senior-devops-engineer-cloud-azure-mitek-vietnam-3403"
     },
     "postedAt": "2026-09-09",
-    "crawledAt": "2026-09-18T16:29:20.740Z"
+    "crawledAt": "2026-09-25T10:32:50.962Z"
   },
   {
     "id": "itviec_devops-engineer-spartan-x-technology-0702",
@@ -842,6 +922,10 @@
       {
         "id": "cka",
         "requirement": "mentioned"
+      },
+      {
+        "id": "cks",
+        "requirement": "mentioned"
       }
     ],
     "source": {
@@ -849,7 +933,7 @@
       "url": "https://itviec.com/it-jobs/devops-engineer-spartan-x-technology-0702"
     },
     "postedAt": "2026-09-07",
-    "crawledAt": "2026-09-18T16:29:20.740Z"
+    "crawledAt": "2026-09-25T10:32:50.962Z"
   },
   {
     "id": "itviec_devsecops-mlops-engineer-kubernetes-aws-ci-cd-vinsoc-3558",
@@ -905,11 +989,11 @@
       "url": "https://itviec.com/it-jobs/senior-devops-engineer-accenture-5205"
     },
     "postedAt": "2026-08-24",
-    "crawledAt": "2026-09-18T16:29:20.740Z"
+    "crawledAt": "2026-09-25T10:32:50.962Z"
   },
   {
     "id": "itviec_OCP-Java-17",
-    "title": "105 OCP Java 17 jobs in Vietnam",
+    "title": "113 OCP Java 17 jobs in Vietnam",
     "company": "Hiring\nExclusive Jobs",
     "location": {
       "country": "GLOBAL",
@@ -926,8 +1010,8 @@
       "name": "ITviec",
       "url": "https://itviec.com/it-jobs/OCP-Java-17"
     },
-    "postedAt": "2026-09-18",
-    "crawledAt": "2026-09-18T16:29:20.740Z"
+    "postedAt": "2026-09-25",
+    "crawledAt": "2026-09-25T10:32:50.962Z"
   },
   {
     "id": "itviec_medior-enterprise-security-architect-de-heus-asia-3455",
@@ -942,6 +1026,14 @@
       {
         "id": "cissp",
         "requirement": "preferred"
+      },
+      {
+        "id": "cism",
+        "requirement": "preferred"
+      },
+      {
+        "id": "ccsp",
+        "requirement": "preferred"
       }
     ],
     "source": {
@@ -949,7 +1041,7 @@
       "url": "https://itviec.com/it-jobs/medior-enterprise-security-architect-de-heus-asia-3455"
     },
     "postedAt": "2026-08-28",
-    "crawledAt": "2026-09-18T16:29:20.740Z"
+    "crawledAt": "2026-09-25T10:32:50.962Z"
   },
   {
     "id": "mcf_3ed2d3ee815d8a8a0278b194e8260294",
@@ -1136,6 +1228,10 @@
     },
     "certifications": [
       {
+        "id": "oscp",
+        "requirement": "preferred"
+      },
+      {
         "id": "ceh",
         "requirement": "preferred"
       }
@@ -1145,7 +1241,7 @@
       "url": "https://itviec.com/it-jobs/penetration-tester-lg-cns-viet-nam-0840"
     },
     "postedAt": "2026-09-04",
-    "crawledAt": "2026-09-18T16:29:20.740Z"
+    "crawledAt": "2026-09-25T10:32:50.962Z"
   },
   {
     "id": "itviec_tech-project-manager-english-speaking-ingenico-vietnam-4809",
@@ -1158,6 +1254,10 @@
     },
     "certifications": [
       {
+        "id": "pmi-acp",
+        "requirement": "preferred"
+      },
+      {
         "id": "pmp",
         "requirement": "preferred"
       }
@@ -1167,7 +1267,7 @@
       "url": "https://itviec.com/it-jobs/tech-project-manager-english-speaking-ingenico-vietnam-4809"
     },
     "postedAt": "2026-08-31",
-    "crawledAt": "2026-09-18T16:29:20.740Z"
+    "crawledAt": "2026-09-25T10:32:50.962Z"
   },
   {
     "id": "itviec_infrastructure-cloud-platform-operations-manager-dai-ichi-life-viet-nam-1048",
@@ -1241,7 +1341,7 @@
       "url": "https://itviec.com/it-jobs/project-manager-english-shinhan-ds-5203"
     },
     "postedAt": "2026-09-14",
-    "crawledAt": "2026-09-18T16:29:20.740Z"
+    "crawledAt": "2026-09-25T10:32:50.962Z"
   },
   {
     "id": "itviec_scrum-master-scrum-coach-one-mount-group-4211",
@@ -1256,6 +1356,14 @@
       {
         "id": "psm-1",
         "requirement": "required"
+      },
+      {
+        "id": "psm-2",
+        "requirement": "required"
+      },
+      {
+        "id": "csm",
+        "requirement": "required"
       }
     ],
     "source": {
@@ -1263,7 +1371,7 @@
       "url": "https://itviec.com/it-jobs/scrum-master-scrum-coach-one-mount-group-4211"
     },
     "postedAt": "2026-09-14",
-    "crawledAt": "2026-09-18T16:29:20.740Z"
+    "crawledAt": "2026-09-25T10:32:50.962Z"
   },
   {
     "id": "itviec_lead-penetration-tester-web-api-ai-applications-galaxy-holdings-4535",
@@ -1276,7 +1384,23 @@
     },
     "certifications": [
       {
+        "id": "ccsp",
+        "requirement": "mentioned"
+      },
+      {
+        "id": "oscp",
+        "requirement": "preferred"
+      },
+      {
         "id": "cissp",
+        "requirement": "preferred"
+      },
+      {
+        "id": "cism",
+        "requirement": "preferred"
+      },
+      {
+        "id": "cisa",
         "requirement": "preferred"
       }
     ],
@@ -1285,7 +1409,7 @@
       "url": "https://itviec.com/it-jobs/lead-penetration-tester-web-api-ai-applications-galaxy-holdings-4535"
     },
     "postedAt": "2026-08-24",
-    "crawledAt": "2026-09-18T16:29:20.740Z"
+    "crawledAt": "2026-09-25T10:32:50.962Z"
   },
   {
     "id": "itviec_senior-mobile-developer-native-ios-android-nec-vietnam-5834",
@@ -1350,6 +1474,14 @@
     },
     "certifications": [
       {
+        "id": "ccba",
+        "requirement": "preferred"
+      },
+      {
+        "id": "cbap",
+        "requirement": "preferred"
+      },
+      {
         "id": "pmp",
         "requirement": "mentioned"
       }
@@ -1359,7 +1491,7 @@
       "url": "https://itviec.com/it-jobs/senior-it-business-analyst-ngan-hang-thuong-mai-tnhh-mtv-ky-nguyen-thinh-vuong-gpbank-5117"
     },
     "postedAt": "2026-09-11",
-    "crawledAt": "2026-09-18T08:52:37.667Z"
+    "crawledAt": "2026-09-25T10:32:50.962Z"
   },
   {
     "id": "itviec_project-manager-senior-pmo-cong-ty-co-phan-chung-khoan-vps-3908",
@@ -1403,7 +1535,7 @@
       "url": "https://itviec.com/it-jobs/asso-manager-sre-5-yrs-english-yum-digital-technology-0418"
     },
     "postedAt": "2026-09-16",
-    "crawledAt": "2026-09-18T16:29:20.740Z"
+    "crawledAt": "2026-09-25T10:32:50.962Z"
   },
   {
     "id": "vieclam24h_200870313",
@@ -1491,7 +1623,7 @@
       "url": "https://remoteOK.com/remote-jobs/remote-programmatic-campaign-operations-specialist-trader-virtuhire-1137169"
     },
     "postedAt": "2026-08-27",
-    "crawledAt": "2026-09-18T16:29:20.740Z"
+    "crawledAt": "2026-09-25T10:25:50.612Z"
   },
   {
     "id": "remoteok_1137061",
@@ -1534,7 +1666,7 @@
       "url": "https://remoteOK.com/remote-jobs/remote-qa-tester-entry-level-ace-it-careers-1136701"
     },
     "postedAt": "2026-08-15",
-    "crawledAt": "2026-09-18T16:29:20.740Z"
+    "crawledAt": "2026-09-25T10:25:50.612Z"
   },
   {
     "id": "arbeitnow_principal-information-security-manager-remote-working-within-germany-234823",
@@ -1892,7 +2024,7 @@
       "url": "https://www.mycareersfuture.gov.sg/job/information-technology/urgent-director-cybersecurity-trust-recruit-a9749d61f9dced9de1da82464d23a843"
     },
     "postedAt": "2026-09-18",
-    "crawledAt": "2026-09-18T16:29:20.740Z"
+    "crawledAt": "2026-09-25T10:25:50.612Z"
   },
   {
     "id": "mcf_d9ae5e6b70c54685e4fa4806bbcda913",
@@ -2113,8 +2245,8 @@
     "title": "Tier III Service Desk Engineer",
     "company": "Unio Digital",
     "location": {
-      "country": "GLOBAL",
-      "market": "global"
+      "country": "REMOTE",
+      "market": "remote"
     },
     "certifications": [
       {
@@ -2127,7 +2259,7 @@
       "url": "https://remotive.com/remote-jobs/information-technology/tier-iii-service-desk-engineer-2091045"
     },
     "postedAt": "2026-09-07",
-    "crawledAt": "2026-09-25T10:06:19.899Z"
+    "crawledAt": "2026-09-25T10:25:50.612Z"
   },
   {
     "id": "himalayas_companies_jabil_jobs_sr-technical-program-manager-cloud-and-infrastructure-1783196568",
@@ -2237,7 +2369,7 @@
       "url": "https://boards.greenhouse.io/cloudflare/jobs/8157726?gh_jid=8157726"
     },
     "postedAt": "2026-09-04",
-    "crawledAt": "2026-09-18T16:29:20.740Z"
+    "crawledAt": "2026-09-25T10:25:50.612Z"
   },
   {
     "id": "greenhouse_cloudflare_8046137",
@@ -2259,7 +2391,7 @@
       "url": "https://boards.greenhouse.io/cloudflare/jobs/8046137?gh_jid=8046137"
     },
     "postedAt": "2026-09-04",
-    "crawledAt": "2026-09-18T16:29:20.740Z"
+    "crawledAt": "2026-09-25T10:25:50.612Z"
   },
   {
     "id": "greenhouse_cloudflare_8099671",
@@ -2272,6 +2404,14 @@
     },
     "certifications": [
       {
+        "id": "rhcsa",
+        "requirement": "mentioned"
+      },
+      {
+        "id": "rhce",
+        "requirement": "mentioned"
+      },
+      {
         "id": "ccnp-enterprise",
         "requirement": "mentioned"
       }
@@ -2280,8 +2420,8 @@
       "name": "Greenhouse",
       "url": "https://boards.greenhouse.io/cloudflare/jobs/8099671?gh_jid=8099671"
     },
-    "postedAt": "2026-09-15",
-    "crawledAt": "2026-09-18T16:29:20.740Z"
+    "postedAt": "2026-09-24",
+    "crawledAt": "2026-09-25T10:25:50.612Z"
   },
   {
     "id": "greenhouse_cloudflare_8088046",
@@ -2303,7 +2443,7 @@
       "url": "https://boards.greenhouse.io/cloudflare/jobs/8088046?gh_jid=8088046"
     },
     "postedAt": "2026-09-14",
-    "crawledAt": "2026-09-18T16:29:20.740Z"
+    "crawledAt": "2026-09-25T10:25:50.612Z"
   },
   {
     "id": "greenhouse_cloudflare_8081027",
@@ -2318,6 +2458,10 @@
       {
         "id": "cissp",
         "requirement": "mentioned"
+      },
+      {
+        "id": "gcih",
+        "requirement": "mentioned"
       }
     ],
     "source": {
@@ -2325,7 +2469,7 @@
       "url": "https://boards.greenhouse.io/cloudflare/jobs/8081027?gh_jid=8081027"
     },
     "postedAt": "2026-09-04",
-    "crawledAt": "2026-09-18T16:29:20.740Z"
+    "crawledAt": "2026-09-25T10:25:50.612Z"
   },
   {
     "id": "greenhouse_cloudflare_8050386",
@@ -2340,6 +2484,10 @@
       {
         "id": "cissp",
         "requirement": "mentioned"
+      },
+      {
+        "id": "ccie-ei",
+        "requirement": "mentioned"
       }
     ],
     "source": {
@@ -2347,7 +2495,7 @@
       "url": "https://boards.greenhouse.io/cloudflare/jobs/8050386?gh_jid=8050386"
     },
     "postedAt": "2026-09-04",
-    "crawledAt": "2026-09-18T16:29:20.740Z"
+    "crawledAt": "2026-09-25T10:25:50.612Z"
   },
   {
     "id": "greenhouse_cloudflare_8139140",
@@ -2362,6 +2510,10 @@
       {
         "id": "cissp",
         "requirement": "preferred"
+      },
+      {
+        "id": "gcih",
+        "requirement": "preferred"
       }
     ],
     "source": {
@@ -2369,7 +2521,7 @@
       "url": "https://boards.greenhouse.io/cloudflare/jobs/8139140?gh_jid=8139140"
     },
     "postedAt": "2026-09-04",
-    "crawledAt": "2026-09-18T16:29:20.740Z"
+    "crawledAt": "2026-09-25T10:25:50.612Z"
   },
   {
     "id": "greenhouse_cloudflare_8192032",
@@ -2391,7 +2543,7 @@
       "url": "https://boards.greenhouse.io/cloudflare/jobs/8192032?gh_jid=8192032"
     },
     "postedAt": "2026-09-10",
-    "crawledAt": "2026-09-18T16:29:20.740Z"
+    "crawledAt": "2026-09-25T10:25:50.612Z"
   },
   {
     "id": "greenhouse_cloudflare_8113115",
@@ -2413,7 +2565,7 @@
       "url": "https://boards.greenhouse.io/cloudflare/jobs/8113115?gh_jid=8113115"
     },
     "postedAt": "2026-09-10",
-    "crawledAt": "2026-09-18T16:29:20.740Z"
+    "crawledAt": "2026-09-25T10:25:50.612Z"
   },
   {
     "id": "greenhouse_cloudflare_7992903",
@@ -2435,7 +2587,7 @@
       "url": "https://boards.greenhouse.io/cloudflare/jobs/7992903?gh_jid=7992903"
     },
     "postedAt": "2026-09-04",
-    "crawledAt": "2026-09-18T16:29:20.740Z"
+    "crawledAt": "2026-09-25T10:25:50.612Z"
   },
   {
     "id": "greenhouse_cloudflare_7817793",
@@ -2457,7 +2609,7 @@
       "url": "https://boards.greenhouse.io/cloudflare/jobs/7817793?gh_jid=7817793"
     },
     "postedAt": "2026-09-04",
-    "crawledAt": "2026-09-18T16:29:20.740Z"
+    "crawledAt": "2026-09-25T10:25:50.612Z"
   },
   {
     "id": "greenhouse_cloudflare_8025521",
@@ -2472,6 +2624,10 @@
       {
         "id": "cissp",
         "requirement": "mentioned"
+      },
+      {
+        "id": "ccie-ei",
+        "requirement": "mentioned"
       }
     ],
     "source": {
@@ -2479,7 +2635,7 @@
       "url": "https://boards.greenhouse.io/cloudflare/jobs/8025521?gh_jid=8025521"
     },
     "postedAt": "2026-09-04",
-    "crawledAt": "2026-09-18T16:29:20.740Z"
+    "crawledAt": "2026-09-25T10:25:50.612Z"
   },
   {
     "id": "greenhouse_cloudflare_8164086",
@@ -2523,7 +2679,7 @@
       "url": "https://boards.greenhouse.io/cloudflare/jobs/8189858?gh_jid=8189858"
     },
     "postedAt": "2026-09-11",
-    "crawledAt": "2026-09-18T16:29:20.740Z"
+    "crawledAt": "2026-09-25T10:25:50.612Z"
   },
   {
     "id": "greenhouse_elastic_8153274",
@@ -2544,8 +2700,8 @@
       "name": "Greenhouse",
       "url": "https://jobs.elastic.co/jobs?gh_jid=8153274&gh_jid=8153274"
     },
-    "postedAt": "2026-09-15",
-    "crawledAt": "2026-09-18T16:29:20.740Z"
+    "postedAt": "2026-09-22",
+    "crawledAt": "2026-09-25T10:25:50.612Z"
   },
   {
     "id": "greenhouse_elastic_8040943",
@@ -2571,7 +2727,7 @@
       "url": "https://jobs.elastic.co/jobs?gh_jid=8040943&gh_jid=8040943"
     },
     "postedAt": "2026-09-10",
-    "crawledAt": "2026-09-18T16:29:20.740Z"
+    "crawledAt": "2026-09-25T10:25:50.612Z"
   },
   {
     "id": "greenhouse_elastic_8011801",
@@ -2597,7 +2753,7 @@
       "url": "https://jobs.elastic.co/jobs?gh_jid=8011801&gh_jid=8011801"
     },
     "postedAt": "2026-09-10",
-    "crawledAt": "2026-09-18T16:29:20.740Z"
+    "crawledAt": "2026-09-25T10:25:50.612Z"
   },
   {
     "id": "greenhouse_elastic_8161505",
@@ -2614,6 +2770,10 @@
         "requirement": "mentioned"
       },
       {
+        "id": "prince2-foundation",
+        "requirement": "mentioned"
+      },
+      {
         "id": "pmp",
         "requirement": "mentioned"
       }
@@ -2623,7 +2783,7 @@
       "url": "https://jobs.elastic.co/jobs?gh_jid=8161505&gh_jid=8161505"
     },
     "postedAt": "2026-09-10",
-    "crawledAt": "2026-09-18T16:29:20.740Z"
+    "crawledAt": "2026-09-25T10:25:50.612Z"
   },
   {
     "id": "greenhouse_elastic_8161462",
@@ -2640,6 +2800,10 @@
         "requirement": "mentioned"
       },
       {
+        "id": "prince2-foundation",
+        "requirement": "mentioned"
+      },
+      {
         "id": "pmp",
         "requirement": "mentioned"
       }
@@ -2648,12 +2812,12 @@
       "name": "Greenhouse",
       "url": "https://jobs.elastic.co/jobs?gh_jid=8161462&gh_jid=8161462"
     },
-    "postedAt": "2026-09-10",
-    "crawledAt": "2026-09-18T16:29:20.740Z"
+    "postedAt": "2026-09-22",
+    "crawledAt": "2026-09-25T10:25:50.612Z"
   },
   {
     "id": "greenhouse_elastic_8156268",
-    "title": "Senior Solutions Architect - Security (SIEM)",
+    "title": "Senior Solutions Architect - SIEM",
     "company": "Elastic",
     "location": {
       "country": "GLOBAL",
@@ -2674,8 +2838,8 @@
       "name": "Greenhouse",
       "url": "https://jobs.elastic.co/jobs?gh_jid=8156268&gh_jid=8156268"
     },
-    "postedAt": "2026-09-11",
-    "crawledAt": "2026-09-18T16:29:20.740Z"
+    "postedAt": "2026-09-23",
+    "crawledAt": "2026-09-25T10:25:50.612Z"
   },
   {
     "id": "greenhouse_elastic_7995039",
@@ -2701,7 +2865,7 @@
       "url": "https://jobs.elastic.co/jobs?gh_jid=7995039&gh_jid=7995039"
     },
     "postedAt": "2026-09-10",
-    "crawledAt": "2026-09-18T16:29:20.740Z"
+    "crawledAt": "2026-09-25T10:25:50.612Z"
   },
   {
     "id": "greenhouse_okta_8099061",
@@ -2748,8 +2912,8 @@
       "name": "Greenhouse",
       "url": "https://www.okta.com/company/careers/opportunity/8007071?gh_jid=8007071"
     },
-    "postedAt": "2026-09-11",
-    "crawledAt": "2026-09-18T16:29:20.740Z"
+    "postedAt": "2026-09-21",
+    "crawledAt": "2026-09-25T10:25:50.612Z"
   },
   {
     "id": "greenhouse_okta_8007078",
@@ -2774,8 +2938,8 @@
       "name": "Greenhouse",
       "url": "https://www.okta.com/company/careers/opportunity/8007078?gh_jid=8007078"
     },
-    "postedAt": "2026-09-11",
-    "crawledAt": "2026-09-18T16:29:20.740Z"
+    "postedAt": "2026-09-21",
+    "crawledAt": "2026-09-25T10:25:50.612Z"
   },
   {
     "id": "greenhouse_okta_8186691",
@@ -2796,8 +2960,8 @@
       "name": "Greenhouse",
       "url": "https://www.okta.com/company/careers/opportunity/8186691?gh_jid=8186691"
     },
-    "postedAt": "2026-09-11",
-    "crawledAt": "2026-09-18T16:29:20.740Z"
+    "postedAt": "2026-09-21",
+    "crawledAt": "2026-09-25T10:25:50.612Z"
   },
   {
     "id": "greenhouse_okta_7821054",
@@ -2812,14 +2976,22 @@
       {
         "id": "cissp",
         "requirement": "mentioned"
+      },
+      {
+        "id": "cism",
+        "requirement": "mentioned"
+      },
+      {
+        "id": "ccsp",
+        "requirement": "mentioned"
       }
     ],
     "source": {
       "name": "Greenhouse",
       "url": "https://www.okta.com/company/careers/opportunity/7821054?gh_jid=7821054"
     },
-    "postedAt": "2026-09-11",
-    "crawledAt": "2026-09-18T16:29:20.740Z"
+    "postedAt": "2026-09-21",
+    "crawledAt": "2026-09-25T10:25:50.612Z"
   },
   {
     "id": "greenhouse_okta_7821050",
@@ -2834,14 +3006,22 @@
       {
         "id": "cissp",
         "requirement": "mentioned"
+      },
+      {
+        "id": "cism",
+        "requirement": "mentioned"
+      },
+      {
+        "id": "ccsp",
+        "requirement": "mentioned"
       }
     ],
     "source": {
       "name": "Greenhouse",
       "url": "https://www.okta.com/company/careers/opportunity/7821050?gh_jid=7821050"
     },
-    "postedAt": "2026-09-11",
-    "crawledAt": "2026-09-18T16:29:20.740Z"
+    "postedAt": "2026-09-21",
+    "crawledAt": "2026-09-25T10:25:50.612Z"
   },
   {
     "id": "greenhouse_okta_8184824",
@@ -2860,14 +3040,18 @@
       {
         "id": "cka",
         "requirement": "mentioned"
+      },
+      {
+        "id": "cks",
+        "requirement": "mentioned"
       }
     ],
     "source": {
       "name": "Greenhouse",
       "url": "https://www.okta.com/company/careers/opportunity/8184824?gh_jid=8184824"
     },
-    "postedAt": "2026-09-18",
-    "crawledAt": "2026-09-18T16:29:20.740Z"
+    "postedAt": "2026-09-21",
+    "crawledAt": "2026-09-25T10:25:50.612Z"
   },
   {
     "id": "greenhouse_okta_8053679",
@@ -2918,8 +3102,8 @@
       "name": "Greenhouse",
       "url": "https://www.okta.com/company/careers/opportunity/7254170?gh_jid=7254170"
     },
-    "postedAt": "2026-09-11",
-    "crawledAt": "2026-09-18T16:29:20.740Z"
+    "postedAt": "2026-09-21",
+    "crawledAt": "2026-09-25T10:25:50.612Z"
   },
   {
     "id": "greenhouse_okta_8157043",
@@ -2932,7 +3116,15 @@
     },
     "certifications": [
       {
+        "id": "prince2-foundation",
+        "requirement": "mentioned"
+      },
+      {
         "id": "pmp",
+        "requirement": "mentioned"
+      },
+      {
+        "id": "csm",
         "requirement": "mentioned"
       }
     ],
@@ -2940,8 +3132,8 @@
       "name": "Greenhouse",
       "url": "https://www.okta.com/company/careers/opportunity/8157043?gh_jid=8157043"
     },
-    "postedAt": "2026-09-11",
-    "crawledAt": "2026-09-18T16:29:20.740Z"
+    "postedAt": "2026-09-21",
+    "crawledAt": "2026-09-25T10:25:50.612Z"
   },
   {
     "id": "greenhouse_okta_7776839",
@@ -2962,8 +3154,8 @@
       "name": "Greenhouse",
       "url": "https://www.okta.com/company/careers/opportunity/7776839?gh_jid=7776839"
     },
-    "postedAt": "2026-09-11",
-    "crawledAt": "2026-09-18T16:29:20.740Z"
+    "postedAt": "2026-09-21",
+    "crawledAt": "2026-09-25T10:25:50.612Z"
   },
   {
     "id": "greenhouse_okta_8130056",
@@ -2976,7 +3168,15 @@
     },
     "certifications": [
       {
+        "id": "aws-scs",
+        "requirement": "mentioned"
+      },
+      {
         "id": "cissp",
+        "requirement": "mentioned"
+      },
+      {
+        "id": "ccsp",
         "requirement": "mentioned"
       }
     ],
@@ -2984,8 +3184,8 @@
       "name": "Greenhouse",
       "url": "https://www.okta.com/company/careers/opportunity/8130056?gh_jid=8130056"
     },
-    "postedAt": "2026-09-15",
-    "crawledAt": "2026-09-18T16:29:20.740Z"
+    "postedAt": "2026-09-21",
+    "crawledAt": "2026-09-25T10:25:50.612Z"
   },
   {
     "id": "greenhouse_okta_8184822",
@@ -3004,14 +3204,18 @@
       {
         "id": "cka",
         "requirement": "mentioned"
+      },
+      {
+        "id": "cks",
+        "requirement": "mentioned"
       }
     ],
     "source": {
       "name": "Greenhouse",
       "url": "https://www.okta.com/company/careers/opportunity/8184822?gh_jid=8184822"
     },
-    "postedAt": "2026-09-18",
-    "crawledAt": "2026-09-18T16:29:20.740Z"
+    "postedAt": "2026-09-21",
+    "crawledAt": "2026-09-25T10:25:50.612Z"
   },
   {
     "id": "greenhouse_okta_8160050",
@@ -3040,8 +3244,8 @@
       "name": "Greenhouse",
       "url": "https://www.okta.com/company/careers/opportunity/8160050?gh_jid=8160050"
     },
-    "postedAt": "2026-09-11",
-    "crawledAt": "2026-09-18T16:29:20.740Z"
+    "postedAt": "2026-09-21",
+    "crawledAt": "2026-09-25T10:25:50.612Z"
   },
   {
     "id": "greenhouse_okta_8007082",
@@ -3092,8 +3296,8 @@
       "name": "Greenhouse",
       "url": "https://www.okta.com/company/careers/opportunity/8007085?gh_jid=8007085"
     },
-    "postedAt": "2026-09-11",
-    "crawledAt": "2026-09-18T16:29:20.740Z"
+    "postedAt": "2026-09-21",
+    "crawledAt": "2026-09-25T10:25:50.612Z"
   },
   {
     "id": "greenhouse_okta_8139936",
@@ -3118,8 +3322,8 @@
       "name": "Greenhouse",
       "url": "https://www.okta.com/company/careers/opportunity/8139936?gh_jid=8139936"
     },
-    "postedAt": "2026-09-11",
-    "crawledAt": "2026-09-18T16:29:20.740Z"
+    "postedAt": "2026-09-21",
+    "crawledAt": "2026-09-25T10:25:50.612Z"
   },
   {
     "id": "greenhouse_okta_8007089",
@@ -3170,8 +3374,8 @@
       "name": "Greenhouse",
       "url": "https://www.okta.com/company/careers/opportunity/8007091?gh_jid=8007091"
     },
-    "postedAt": "2026-09-11",
-    "crawledAt": "2026-09-18T16:29:20.740Z"
+    "postedAt": "2026-09-21",
+    "crawledAt": "2026-09-25T10:25:50.612Z"
   },
   {
     "id": "greenhouse_okta_8102369",
@@ -3200,8 +3404,8 @@
       "name": "Greenhouse",
       "url": "https://www.okta.com/company/careers/opportunity/8102369?gh_jid=8102369"
     },
-    "postedAt": "2026-09-11",
-    "crawledAt": "2026-09-18T16:29:20.740Z"
+    "postedAt": "2026-09-21",
+    "crawledAt": "2026-09-25T10:25:50.612Z"
   },
   {
     "id": "greenhouse_okta_8070791",
@@ -3222,8 +3426,8 @@
       "name": "Greenhouse",
       "url": "https://www.okta.com/company/careers/opportunity/8070791?gh_jid=8070791"
     },
-    "postedAt": "2026-09-11",
-    "crawledAt": "2026-09-18T16:29:20.740Z"
+    "postedAt": "2026-09-21",
+    "crawledAt": "2026-09-25T10:25:50.612Z"
   },
   {
     "id": "greenhouse_okta_6725699",
@@ -3244,6 +3448,10 @@
         "requirement": "mentioned"
       },
       {
+        "id": "network-plus",
+        "requirement": "mentioned"
+      },
+      {
         "id": "cissp",
         "requirement": "mentioned"
       }
@@ -3252,12 +3460,12 @@
       "name": "Greenhouse",
       "url": "https://www.okta.com/company/careers/opportunity/6725699?gh_jid=6725699"
     },
-    "postedAt": "2026-09-11",
-    "crawledAt": "2026-09-18T16:29:20.740Z"
+    "postedAt": "2026-09-21",
+    "crawledAt": "2026-09-25T10:25:50.612Z"
   },
   {
     "id": "greenhouse_databricks_8598531002",
-    "title": "Field Technical Program Manager",
+    "title": "Field Technical Program/Project Manager",
     "company": "Databricks",
     "location": {
       "country": "GLOBAL",
@@ -3274,8 +3482,8 @@
       "name": "Greenhouse",
       "url": "https://databricks.com/company/careers/open-positions/job?gh_jid=8598531002"
     },
-    "postedAt": "2026-09-02",
-    "crawledAt": "2026-09-18T16:29:20.740Z"
+    "postedAt": "2026-09-22",
+    "crawledAt": "2026-09-25T10:25:50.612Z"
   },
   {
     "id": "greenhouse_databricks_8540665002",
@@ -3310,7 +3518,19 @@
     },
     "certifications": [
       {
-        "id": "aws-saa",
+        "id": "aws-sap",
+        "requirement": "mentioned"
+      },
+      {
+        "id": "aws-dea",
+        "requirement": "mentioned"
+      },
+      {
+        "id": "az-305",
+        "requirement": "mentioned"
+      },
+      {
+        "id": "gcp-pca",
         "requirement": "mentioned"
       }
     ],
@@ -3318,8 +3538,8 @@
       "name": "Greenhouse",
       "url": "https://databricks.com/company/careers/open-positions/job?gh_jid=8657553002"
     },
-    "postedAt": "2026-09-03",
-    "crawledAt": "2026-09-18T16:29:20.740Z"
+    "postedAt": "2026-09-21",
+    "crawledAt": "2026-09-25T10:25:50.612Z"
   },
   {
     "id": "greenhouse_databricks_8642617002",
@@ -3332,7 +3552,19 @@
     },
     "certifications": [
       {
-        "id": "aws-saa",
+        "id": "aws-sap",
+        "requirement": "mentioned"
+      },
+      {
+        "id": "aws-dea",
+        "requirement": "mentioned"
+      },
+      {
+        "id": "az-305",
+        "requirement": "mentioned"
+      },
+      {
+        "id": "gcp-pca",
         "requirement": "mentioned"
       }
     ],
@@ -3340,12 +3572,12 @@
       "name": "Greenhouse",
       "url": "https://databricks.com/company/careers/open-positions/job?gh_jid=8642617002"
     },
-    "postedAt": "2026-09-03",
-    "crawledAt": "2026-09-18T16:29:20.740Z"
+    "postedAt": "2026-09-21",
+    "crawledAt": "2026-09-25T10:25:50.612Z"
   },
   {
     "id": "greenhouse_databricks_8739506002",
-    "title": "Specialist Solutions Architect - Cloud Infrastructure & Platform (AWS)",
+    "title": "Specialist Solutions Architect - Cloud Infrastructure & AWS Platform",
     "company": "Databricks",
     "location": {
       "country": "GLOBAL",
@@ -3354,7 +3586,11 @@
     },
     "certifications": [
       {
-        "id": "aws-saa",
+        "id": "aws-sap",
+        "requirement": "mentioned"
+      },
+      {
+        "id": "aws-dea",
         "requirement": "mentioned"
       }
     ],
@@ -3362,12 +3598,12 @@
       "name": "Greenhouse",
       "url": "https://databricks.com/company/careers/open-positions/job?gh_jid=8739506002"
     },
-    "postedAt": "2026-09-09",
-    "crawledAt": "2026-09-18T16:29:20.740Z"
+    "postedAt": "2026-09-23",
+    "crawledAt": "2026-09-25T10:25:50.612Z"
   },
   {
     "id": "greenhouse_databricks_8739507002",
-    "title": "Specialist Solutions Architect - Cloud Infrastructure & Platform (Azure)",
+    "title": "Specialist Solutions Architect - Cloud Infrastructure & Azure Platform",
     "company": "Databricks",
     "location": {
       "country": "GLOBAL",
@@ -3375,6 +3611,10 @@
       "scope": "unknown"
     },
     "certifications": [
+      {
+        "id": "az-305",
+        "requirement": "mentioned"
+      },
       {
         "id": "dp-203",
         "requirement": "mentioned"
@@ -3384,8 +3624,8 @@
       "name": "Greenhouse",
       "url": "https://databricks.com/company/careers/open-positions/job?gh_jid=8739507002"
     },
-    "postedAt": "2026-09-12",
-    "crawledAt": "2026-09-18T16:29:20.740Z"
+    "postedAt": "2026-09-23",
+    "crawledAt": "2026-09-25T10:25:50.612Z"
   },
   {
     "id": "greenhouse_databricks_8583037002",
@@ -3400,14 +3640,18 @@
       {
         "id": "pmp",
         "requirement": "mentioned"
+      },
+      {
+        "id": "csm",
+        "requirement": "mentioned"
       }
     ],
     "source": {
       "name": "Greenhouse",
       "url": "https://databricks.com/company/careers/open-positions/job?gh_jid=8583037002"
     },
-    "postedAt": "2026-09-02",
-    "crawledAt": "2026-09-18T16:29:20.740Z"
+    "postedAt": "2026-09-24",
+    "crawledAt": "2026-09-25T10:25:50.612Z"
   },
   {
     "id": "greenhouse_gitlab_8643154002",
@@ -3449,7 +3693,7 @@
       "url": "https://job-boards.greenhouse.io/gitlab/jobs/8632005002"
     },
     "postedAt": "2026-09-14",
-    "crawledAt": "2026-09-18T16:29:20.740Z"
+    "crawledAt": "2026-09-25T10:25:50.612Z"
   },
   {
     "id": "greenhouse_gitlab_8642850002",
@@ -3464,6 +3708,14 @@
       {
         "id": "cissp",
         "requirement": "preferred"
+      },
+      {
+        "id": "cism",
+        "requirement": "preferred"
+      },
+      {
+        "id": "cisa",
+        "requirement": "preferred"
       }
     ],
     "source": {
@@ -3471,7 +3723,7 @@
       "url": "https://job-boards.greenhouse.io/gitlab/jobs/8642850002"
     },
     "postedAt": "2026-09-14",
-    "crawledAt": "2026-09-18T16:29:20.740Z"
+    "crawledAt": "2026-09-25T10:25:50.612Z"
   },
   {
     "id": "greenhouse_gitlab_8687246002",
@@ -3485,14 +3737,18 @@
       {
         "id": "pmp",
         "requirement": "preferred"
+      },
+      {
+        "id": "csm",
+        "requirement": "preferred"
       }
     ],
     "source": {
       "name": "Greenhouse",
       "url": "https://job-boards.greenhouse.io/gitlab/jobs/8687246002"
     },
-    "postedAt": "2026-09-14",
-    "crawledAt": "2026-09-18T16:29:20.740Z"
+    "postedAt": "2026-09-22",
+    "crawledAt": "2026-09-25T10:25:50.612Z"
   },
   {
     "id": "greenhouse_gitlab_8770747002",
@@ -3506,6 +3762,14 @@
       {
         "id": "cissp",
         "requirement": "mentioned"
+      },
+      {
+        "id": "cism",
+        "requirement": "mentioned"
+      },
+      {
+        "id": "cisa",
+        "requirement": "mentioned"
       }
     ],
     "source": {
@@ -3513,7 +3777,7 @@
       "url": "https://job-boards.greenhouse.io/gitlab/jobs/8770747002"
     },
     "postedAt": "2026-09-14",
-    "crawledAt": "2026-09-18T16:29:20.740Z"
+    "crawledAt": "2026-09-25T10:25:50.612Z"
   },
   {
     "id": "greenhouse_coinbase_7755116",
@@ -3575,8 +3839,8 @@
       "name": "Greenhouse",
       "url": "https://www.samsara.com/company/careers/roles/8146261?gh_jid=8146261"
     },
-    "postedAt": "2026-09-16",
-    "crawledAt": "2026-09-18T16:29:20.740Z"
+    "postedAt": "2026-09-24",
+    "crawledAt": "2026-09-25T10:25:50.612Z"
   },
   {
     "id": "greenhouse_samsara_7558150",
@@ -3596,8 +3860,8 @@
       "name": "Greenhouse",
       "url": "https://www.samsara.com/company/careers/roles/7558150?gh_jid=7558150"
     },
-    "postedAt": "2026-09-16",
-    "crawledAt": "2026-09-18T16:29:20.740Z"
+    "postedAt": "2026-09-24",
+    "crawledAt": "2026-09-25T10:25:50.612Z"
   },
   {
     "id": "greenhouse_samsara_8168295",
@@ -3618,8 +3882,8 @@
       "name": "Greenhouse",
       "url": "https://www.samsara.com/company/careers/roles/8168295?gh_jid=8168295"
     },
-    "postedAt": "2026-09-17",
-    "crawledAt": "2026-09-18T16:29:20.740Z"
+    "postedAt": "2026-09-24",
+    "crawledAt": "2026-09-25T10:25:50.612Z"
   },
   {
     "id": "greenhouse_samsara_8166214",
@@ -3633,14 +3897,18 @@
       {
         "id": "cissp",
         "requirement": "mentioned"
+      },
+      {
+        "id": "cisa",
+        "requirement": "mentioned"
       }
     ],
     "source": {
       "name": "Greenhouse",
       "url": "https://www.samsara.com/company/careers/roles/8166214?gh_jid=8166214"
     },
-    "postedAt": "2026-09-16",
-    "crawledAt": "2026-09-18T16:29:20.740Z"
+    "postedAt": "2026-09-24",
+    "crawledAt": "2026-09-25T10:25:50.612Z"
   },
   {
     "id": "greenhouse_twilio_8204152",
@@ -3660,8 +3928,8 @@
       "name": "Greenhouse",
       "url": "https://job-boards.greenhouse.io/twilio/jobs/8204152"
     },
-    "postedAt": "2026-09-16",
-    "crawledAt": "2026-09-18T16:29:20.740Z"
+    "postedAt": "2026-09-18",
+    "crawledAt": "2026-09-25T10:25:50.612Z"
   },
   {
     "id": "greenhouse_twilio_8088440",
@@ -3700,14 +3968,18 @@
       {
         "id": "ccnp-enterprise",
         "requirement": "mentioned"
+      },
+      {
+        "id": "itil4-foundation",
+        "requirement": "mentioned"
       }
     ],
     "source": {
       "name": "Greenhouse",
       "url": "https://job-boards.greenhouse.io/twilio/jobs/7657993"
     },
-    "postedAt": "2026-09-18",
-    "crawledAt": "2026-09-18T16:29:20.740Z"
+    "postedAt": "2026-09-24",
+    "crawledAt": "2026-09-25T10:25:50.612Z"
   },
   {
     "id": "greenhouse_dropbox_8142720",
@@ -3728,7 +4000,7 @@
       "url": "https://jobs.dropbox.com/listing/8142720?gh_jid=8142720"
     },
     "postedAt": "2026-09-03",
-    "crawledAt": "2026-09-18T16:29:20.740Z"
+    "crawledAt": "2026-09-25T10:25:50.612Z"
   },
   {
     "id": "greenhouse_dropbox_8075211",
@@ -3748,8 +4020,8 @@
       "name": "Greenhouse",
       "url": "https://jobs.dropbox.com/listing/8075211?gh_jid=8075211"
     },
-    "postedAt": "2026-09-17",
-    "crawledAt": "2026-09-18T16:29:20.740Z"
+    "postedAt": "2026-09-23",
+    "crawledAt": "2026-09-25T10:25:50.612Z"
   },
   {
     "id": "greenhouse_dropbox_8075212",
@@ -3769,8 +4041,8 @@
       "name": "Greenhouse",
       "url": "https://jobs.dropbox.com/listing/8075212?gh_jid=8075212"
     },
-    "postedAt": "2026-09-17",
-    "crawledAt": "2026-09-18T16:29:20.740Z"
+    "postedAt": "2026-09-23",
+    "crawledAt": "2026-09-25T10:25:50.612Z"
   },
   {
     "id": "greenhouse_dropbox_8159585",
@@ -3784,6 +4056,10 @@
       {
         "id": "cissp",
         "requirement": "mentioned"
+      },
+      {
+        "id": "ccsp",
+        "requirement": "mentioned"
       }
     ],
     "source": {
@@ -3791,7 +4067,7 @@
       "url": "https://jobs.dropbox.com/listing/8159585?gh_jid=8159585"
     },
     "postedAt": "2026-09-03",
-    "crawledAt": "2026-09-18T16:29:20.740Z"
+    "crawledAt": "2026-09-25T10:25:50.612Z"
   },
   {
     "id": "greenhouse_dropbox_8159584",
@@ -3805,6 +4081,10 @@
       {
         "id": "cissp",
         "requirement": "mentioned"
+      },
+      {
+        "id": "ccsp",
+        "requirement": "mentioned"
       }
     ],
     "source": {
@@ -3812,7 +4092,7 @@
       "url": "https://jobs.dropbox.com/listing/8159584?gh_jid=8159584"
     },
     "postedAt": "2026-09-03",
-    "crawledAt": "2026-09-18T16:29:20.740Z"
+    "crawledAt": "2026-09-25T10:25:50.612Z"
   },
   {
     "id": "greenhouse_dropbox_8106224",
@@ -3833,7 +4113,7 @@
       "url": "https://jobs.dropbox.com/listing/8106224?gh_jid=8106224"
     },
     "postedAt": "2026-09-07",
-    "crawledAt": "2026-09-18T16:29:20.740Z"
+    "crawledAt": "2026-09-25T10:25:50.612Z"
   },
   {
     "id": "greenhouse_robinhood_8105960",
@@ -3848,6 +4128,14 @@
       {
         "id": "cissp",
         "requirement": "preferred"
+      },
+      {
+        "id": "cism",
+        "requirement": "preferred"
+      },
+      {
+        "id": "cisa",
+        "requirement": "preferred"
       }
     ],
     "source": {
@@ -3855,7 +4143,7 @@
       "url": "https://boards.greenhouse.io/robinhood/jobs/8105960?t=gh_src=&gh_jid=8105960"
     },
     "postedAt": "2026-09-09",
-    "crawledAt": "2026-09-18T16:29:20.740Z"
+    "crawledAt": "2026-09-25T10:25:50.612Z"
   },
   {
     "id": "greenhouse_robinhood_7847485",
@@ -3876,8 +4164,8 @@
       "name": "Greenhouse",
       "url": "https://boards.greenhouse.io/robinhood/jobs/7847485?t=gh_src=&gh_jid=7847485"
     },
-    "postedAt": "2026-08-25",
-    "crawledAt": "2026-09-18T16:29:20.740Z"
+    "postedAt": "2026-09-22",
+    "crawledAt": "2026-09-25T10:25:50.612Z"
   },
   {
     "id": "greenhouse_reddit_8074860",
@@ -3891,6 +4179,10 @@
       {
         "id": "cissp",
         "requirement": "preferred"
+      },
+      {
+        "id": "cisa",
+        "requirement": "preferred"
       }
     ],
     "source": {
@@ -3898,7 +4190,7 @@
       "url": "https://job-boards.greenhouse.io/reddit/jobs/8074860"
     },
     "postedAt": "2026-07-20",
-    "crawledAt": "2026-09-18T16:29:20.740Z"
+    "crawledAt": "2026-09-25T10:25:50.612Z"
   },
   {
     "id": "greenhouse_reddit_8074846",
@@ -3912,6 +4204,10 @@
       {
         "id": "cissp",
         "requirement": "preferred"
+      },
+      {
+        "id": "cisa",
+        "requirement": "preferred"
       }
     ],
     "source": {
@@ -3919,7 +4215,7 @@
       "url": "https://job-boards.greenhouse.io/reddit/jobs/8074846"
     },
     "postedAt": "2026-07-20",
-    "crawledAt": "2026-09-18T16:29:20.740Z"
+    "crawledAt": "2026-09-25T10:25:50.612Z"
   },
   {
     "id": "greenhouse_reddit_7964461",
@@ -4028,5 +4324,4451 @@
     },
     "postedAt": "2026-09-18",
     "crawledAt": "2026-09-18T16:29:20.740Z"
+  },
+  {
+    "id": "itviec_senior-devops-engineer-ci-cd-cloud-cong-ty-co-phan-chung-khoan-xuan-thien-5556",
+    "title": "Senior DevOps Engineer CI/CD - Cloud",
+    "company": "Công ty Cổ phần Chứng khoán Xuân Thiện",
+    "location": {
+      "country": "VN",
+      "market": "vietnam",
+      "city": "Hanoi"
+    },
+    "certifications": [
+      {
+        "id": "cka",
+        "requirement": "mentioned"
+      },
+      {
+        "id": "gcp-pcdoe",
+        "requirement": "mentioned"
+      }
+    ],
+    "source": {
+      "name": "ITviec",
+      "url": "https://itviec.com/it-jobs/senior-devops-engineer-ci-cd-cloud-cong-ty-co-phan-chung-khoan-xuan-thien-5556"
+    },
+    "postedAt": "2026-09-25",
+    "crawledAt": "2026-09-25T10:32:50.962Z"
+  },
+  {
+    "id": "itviec_technical-leader-java-expert-ngan-hang-thuong-mai-tnhh-mtv-ky-nguyen-thinh-vuong-gpbank-2603",
+    "title": "Technical Leader Java Expert",
+    "company": "NGÂN HÀNG THƯƠNG MẠI TNHH MTV KỶ NGUYÊN THỊNH VƯỢNG (GPBANK)",
+    "location": {
+      "country": "VN",
+      "market": "vietnam",
+      "city": "Hanoi"
+    },
+    "certifications": [
+      {
+        "id": "aws-saa",
+        "requirement": "mentioned"
+      },
+      {
+        "id": "aws-dva",
+        "requirement": "mentioned"
+      }
+    ],
+    "source": {
+      "name": "ITviec",
+      "url": "https://itviec.com/it-jobs/technical-leader-java-expert-ngan-hang-thuong-mai-tnhh-mtv-ky-nguyen-thinh-vuong-gpbank-2603"
+    },
+    "postedAt": "2026-09-04",
+    "crawledAt": "2026-09-25T10:32:50.962Z"
+  },
+  {
+    "id": "itviec_japanese-speaking-project-manager-hcm-hanoi-danang-hitachi-digital-services-2930",
+    "title": "Japanese Speaking Project Manager , Hanoi, Danang",
+    "company": "Hitachi Digital Services",
+    "location": {
+      "country": "VN",
+      "market": "vietnam",
+      "city": "Ho Chi Minh City"
+    },
+    "certifications": [
+      {
+        "id": "pmp",
+        "requirement": "mentioned"
+      }
+    ],
+    "source": {
+      "name": "ITviec",
+      "url": "https://itviec.com/it-jobs/japanese-speaking-project-manager-hcm-hanoi-danang-hitachi-digital-services-2930"
+    },
+    "postedAt": "2026-09-10",
+    "crawledAt": "2026-09-25T10:32:50.962Z"
+  },
+  {
+    "id": "itviec_test-automation-engineer-simpson-strong-tie-vietnam-4435",
+    "title": "Test Automation Engineer",
+    "company": "Simpson Strong-Tie Vietnam",
+    "location": {
+      "country": "VN",
+      "market": "vietnam",
+      "city": "Ho Chi Minh City"
+    },
+    "certifications": [
+      {
+        "id": "istqb-ct-tae",
+        "requirement": "mentioned"
+      }
+    ],
+    "source": {
+      "name": "ITviec",
+      "url": "https://itviec.com/it-jobs/test-automation-engineer-simpson-strong-tie-vietnam-4435"
+    },
+    "postedAt": "2026-09-25",
+    "crawledAt": "2026-09-25T10:32:50.962Z"
+  },
+  {
+    "id": "itviec_mid-senior-devops-engineer-kubernetes-linux-skylab-2132",
+    "title": "Mid/Senior DevOps Engineer Kubernetes, Linux",
+    "company": "SkyLab",
+    "location": {
+      "country": "VN",
+      "market": "vietnam",
+      "city": "Ho Chi Minh City"
+    },
+    "certifications": [
+      {
+        "id": "ckad",
+        "requirement": "mentioned"
+      },
+      {
+        "id": "cka",
+        "requirement": "mentioned"
+      }
+    ],
+    "source": {
+      "name": "ITviec",
+      "url": "https://itviec.com/it-jobs/mid-senior-devops-engineer-kubernetes-linux-skylab-2132"
+    },
+    "postedAt": "2026-09-25",
+    "crawledAt": "2026-09-25T10:32:50.962Z"
+  },
+  {
+    "id": "itviec_senior-solution-architect-engineering-golang-java-vinsmart-future-4418",
+    "title": "Senior Solution Architect - Engineering Golang/ Java",
+    "company": "VinSmart Future",
+    "location": {
+      "country": "VN",
+      "market": "vietnam",
+      "city": "Hanoi"
+    },
+    "certifications": [
+      {
+        "id": "cka",
+        "requirement": "mentioned"
+      }
+    ],
+    "source": {
+      "name": "ITviec",
+      "url": "https://itviec.com/it-jobs/senior-solution-architect-engineering-golang-java-vinsmart-future-4418"
+    },
+    "postedAt": "2026-09-25",
+    "crawledAt": "2026-09-25T10:32:50.962Z"
+  },
+  {
+    "id": "itviec_viettel-ai_nhan-vien-it-helpdesk-viettel-group-4319",
+    "title": "Viettel AINhan vien IT Helpdesk",
+    "company": "Viettel Group",
+    "location": {
+      "country": "VN",
+      "market": "vietnam",
+      "city": "Hanoi"
+    },
+    "certifications": [
+      {
+        "id": "ccna",
+        "requirement": "preferred"
+      }
+    ],
+    "source": {
+      "name": "ITviec",
+      "url": "https://itviec.com/it-jobs/viettel-ai_nhan-vien-it-helpdesk-viettel-group-4319"
+    },
+    "postedAt": "2026-09-24",
+    "crawledAt": "2026-09-25T10:32:50.962Z"
+  },
+  {
+    "id": "itviec_senior-devops-engineer-cloud-aws-gotymex-0536",
+    "title": "Senior DevOps Engineer Cloud, AWS ",
+    "company": "GoTymeX",
+    "location": {
+      "country": "VN",
+      "market": "vietnam",
+      "city": "Ho Chi Minh City"
+    },
+    "certifications": [
+      {
+        "id": "aws-dop",
+        "requirement": "mentioned"
+      }
+    ],
+    "source": {
+      "name": "ITviec",
+      "url": "https://itviec.com/it-jobs/senior-devops-engineer-cloud-aws-gotymex-0536"
+    },
+    "postedAt": "2026-09-24",
+    "crawledAt": "2026-09-25T10:32:50.962Z"
+  },
+  {
+    "id": "itviec_devops-engineer-python-aws-linux-techcom-securities-1643",
+    "title": "DevOps Engineer Python, AWS, Linux",
+    "company": "Techcom Securities",
+    "location": {
+      "country": "VN",
+      "market": "vietnam",
+      "city": "Hanoi"
+    },
+    "certifications": [
+      {
+        "id": "aws-saa",
+        "requirement": "preferred"
+      },
+      {
+        "id": "aws-dop",
+        "requirement": "preferred"
+      }
+    ],
+    "source": {
+      "name": "ITviec",
+      "url": "https://itviec.com/it-jobs/devops-engineer-python-aws-linux-techcom-securities-1643"
+    },
+    "postedAt": "2026-09-24",
+    "crawledAt": "2026-09-25T10:32:50.962Z"
+  },
+  {
+    "id": "itviec_middle-senior-automation-qc-tester-qa-qc-saigon-technology-4350",
+    "title": "Middle/Senior Automation QC Tester, QA QC",
+    "company": "Saigon Technology",
+    "location": {
+      "country": "VN",
+      "market": "vietnam"
+    },
+    "certifications": [
+      {
+        "id": "pmp",
+        "requirement": "mentioned"
+      }
+    ],
+    "source": {
+      "name": "ITviec",
+      "url": "https://itviec.com/it-jobs/middle-senior-automation-qc-tester-qa-qc-saigon-technology-4350"
+    },
+    "postedAt": "2026-09-09",
+    "crawledAt": "2026-09-25T10:32:50.962Z"
+  },
+  {
+    "id": "itviec_senior-security-operations-engineer-dai-ichi-life-viet-nam-5631",
+    "title": "Senior Security Operations Engineer",
+    "company": "Daiichi Life Việt Nam",
+    "location": {
+      "country": "VN",
+      "market": "vietnam",
+      "city": "Ho Chi Minh City"
+    },
+    "certifications": [
+      {
+        "id": "security-plus",
+        "requirement": "mentioned"
+      },
+      {
+        "id": "cysa-plus",
+        "requirement": "mentioned"
+      }
+    ],
+    "source": {
+      "name": "ITviec",
+      "url": "https://itviec.com/it-jobs/senior-security-operations-engineer-dai-ichi-life-viet-nam-5631"
+    },
+    "postedAt": "2026-09-24",
+    "crawledAt": "2026-09-25T10:32:50.962Z"
+  },
+  {
+    "id": "itviec_software-test-automation-engineer-motorola-solutions-1324",
+    "title": "Software Test Automation Engineer",
+    "company": "Motorola Solutions",
+    "location": {
+      "country": "VN",
+      "market": "vietnam",
+      "city": "Ho Chi Minh City"
+    },
+    "certifications": [
+      {
+        "id": "istqb-ct-tae",
+        "requirement": "mentioned"
+      }
+    ],
+    "source": {
+      "name": "ITviec",
+      "url": "https://itviec.com/it-jobs/software-test-automation-engineer-motorola-solutions-1324"
+    },
+    "postedAt": "2026-09-24",
+    "crawledAt": "2026-09-25T10:32:50.962Z"
+  },
+  {
+    "id": "itviec_senior-governance-risk-and-compliance-grc-one-mount-group-4453",
+    "title": "Senior Governance, Risk and Compliance GRC",
+    "company": "One Mount Group",
+    "location": {
+      "country": "VN",
+      "market": "vietnam",
+      "city": "Hanoi"
+    },
+    "certifications": [
+      {
+        "id": "cisa",
+        "requirement": "preferred"
+      },
+      {
+        "id": "cissp",
+        "requirement": "preferred"
+      },
+      {
+        "id": "cism",
+        "requirement": "preferred"
+      }
+    ],
+    "source": {
+      "name": "ITviec",
+      "url": "https://itviec.com/it-jobs/senior-governance-risk-and-compliance-grc-one-mount-group-4453"
+    },
+    "postedAt": "2026-08-19",
+    "crawledAt": "2026-09-25T10:32:50.962Z"
+  },
+  {
+    "id": "itviec_application-security-engineer-redteam-pentest-ssi-securities-corporation-3550",
+    "title": "Application Security Engineer RedTeam/Pentest",
+    "company": "SSI Securities Corporation",
+    "location": {
+      "country": "VN",
+      "market": "vietnam",
+      "city": "Hanoi"
+    },
+    "certifications": [
+      {
+        "id": "oscp",
+        "requirement": "preferred"
+      }
+    ],
+    "source": {
+      "name": "ITviec",
+      "url": "https://itviec.com/it-jobs/application-security-engineer-redteam-pentest-ssi-securities-corporation-3550"
+    },
+    "postedAt": "2026-09-08",
+    "crawledAt": "2026-09-25T10:32:50.962Z"
+  },
+  {
+    "id": "itviec_senior-project-manager-tpisoftware-co-ltd-3735",
+    "title": "Senior Project Manager",
+    "company": "TPIsoftware Co., Ltd",
+    "location": {
+      "country": "VN",
+      "market": "vietnam",
+      "city": "Ho Chi Minh City"
+    },
+    "certifications": [
+      {
+        "id": "cspo",
+        "requirement": "preferred"
+      },
+      {
+        "id": "pmp",
+        "requirement": "preferred"
+      },
+      {
+        "id": "csm",
+        "requirement": "preferred"
+      }
+    ],
+    "source": {
+      "name": "ITviec",
+      "url": "https://itviec.com/it-jobs/senior-project-manager-tpisoftware-co-ltd-3735"
+    },
+    "postedAt": "2026-09-23",
+    "crawledAt": "2026-09-25T10:32:50.962Z"
+  },
+  {
+    "id": "itviec_security-operations-engineer-expert-senior-cong-ty-co-phan-chung-khoan-vps-3657",
+    "title": "Security Operations Engineer Expert/Senior",
+    "company": "CÔNG TY CỔ PHẦN CHỨNG KHOÁN VPS",
+    "location": {
+      "country": "VN",
+      "market": "vietnam",
+      "city": "Hanoi"
+    },
+    "certifications": [
+      {
+        "id": "gcih",
+        "requirement": "mentioned"
+      }
+    ],
+    "source": {
+      "name": "ITviec",
+      "url": "https://itviec.com/it-jobs/security-operations-engineer-expert-senior-cong-ty-co-phan-chung-khoan-vps-3657"
+    },
+    "postedAt": "2026-09-08",
+    "crawledAt": "2026-09-25T10:32:50.962Z"
+  },
+  {
+    "id": "itviec_data-architect-lead-data-engineer-core-banking-hdbank-2653",
+    "title": "Data Architect / Lead Data Engineer - Core Banking",
+    "company": "HDBank",
+    "location": {
+      "country": "VN",
+      "market": "vietnam",
+      "city": "Ho Chi Minh City"
+    },
+    "certifications": [
+      {
+        "id": "gcp-pde",
+        "requirement": "mentioned"
+      },
+      {
+        "id": "dp-203",
+        "requirement": "mentioned"
+      },
+      {
+        "id": "databricks-dea",
+        "requirement": "mentioned"
+      }
+    ],
+    "source": {
+      "name": "ITviec",
+      "url": "https://itviec.com/it-jobs/data-architect-lead-data-engineer-core-banking-hdbank-2653"
+    },
+    "postedAt": "2026-09-23",
+    "crawledAt": "2026-09-25T10:32:50.962Z"
+  },
+  {
+    "id": "itviec_mid-senior-test-automation-engineer-bonus-epam-vietnam-0903",
+    "title": "Mid/Senior Test Automation Engineer - BONUS",
+    "company": "EPAM Vietnam",
+    "location": {
+      "country": "VN",
+      "market": "vietnam",
+      "city": "Hanoi"
+    },
+    "certifications": [
+      {
+        "id": "istqb-ct-tae",
+        "requirement": "preferred"
+      }
+    ],
+    "source": {
+      "name": "ITviec",
+      "url": "https://itviec.com/it-jobs/mid-senior-test-automation-engineer-bonus-epam-vietnam-0903"
+    },
+    "postedAt": "2026-09-22",
+    "crawledAt": "2026-09-25T10:32:50.962Z"
+  },
+  {
+    "id": "itviec_business-analyst-brd-user-story-jira-azure-sql-bidv-securities-company-bsc-0239",
+    "title": "Business Analyst BRD, User Story, Jira, Azure, SQL",
+    "company": "BIDV Securities Company (BSC)",
+    "location": {
+      "country": "VN",
+      "market": "vietnam",
+      "city": "Hanoi"
+    },
+    "certifications": [
+      {
+        "id": "pmi-pba",
+        "requirement": "preferred"
+      },
+      {
+        "id": "ccba",
+        "requirement": "preferred"
+      },
+      {
+        "id": "cbap",
+        "requirement": "preferred"
+      }
+    ],
+    "source": {
+      "name": "ITviec",
+      "url": "https://itviec.com/it-jobs/business-analyst-brd-user-story-jira-azure-sql-bidv-securities-company-bsc-0239"
+    },
+    "postedAt": "2026-09-23",
+    "crawledAt": "2026-09-25T10:32:50.962Z"
+  },
+  {
+    "id": "itviec_senior-technical-engineer-devops-sre-ai-hsc-5951",
+    "title": "Senior Technical Engineer DevOps/SRE, AI",
+    "company": "HSC",
+    "location": {
+      "country": "VN",
+      "market": "vietnam",
+      "city": "Ho Chi Minh City"
+    },
+    "certifications": [
+      {
+        "id": "itil4-foundation",
+        "requirement": "mentioned"
+      }
+    ],
+    "source": {
+      "name": "ITviec",
+      "url": "https://itviec.com/it-jobs/senior-technical-engineer-devops-sre-ai-hsc-5951"
+    },
+    "postedAt": "2026-09-22",
+    "crawledAt": "2026-09-25T10:32:50.962Z"
+  },
+  {
+    "id": "itviec_senior-middle-site-reliability-engineer-nab-innovation-centre-vietnam-5922",
+    "title": "Senior/Middle Site Reliability Engineer",
+    "company": "NAB Innovation Centre Vietnam",
+    "location": {
+      "country": "VN",
+      "market": "vietnam",
+      "city": "Ho Chi Minh City"
+    },
+    "certifications": [
+      {
+        "id": "itil4-foundation",
+        "requirement": "mentioned"
+      }
+    ],
+    "source": {
+      "name": "ITviec",
+      "url": "https://itviec.com/it-jobs/senior-middle-site-reliability-engineer-nab-innovation-centre-vietnam-5922"
+    },
+    "postedAt": "2026-09-14",
+    "crawledAt": "2026-09-25T10:32:50.962Z"
+  },
+  {
+    "id": "itviec_technical-product-owner-ol-vietnam-3558",
+    "title": "Technical Product Owner",
+    "company": "OL Vietnam",
+    "location": {
+      "country": "VN",
+      "market": "vietnam",
+      "city": "Hanoi"
+    },
+    "certifications": [
+      {
+        "id": "cspo",
+        "requirement": "mentioned"
+      }
+    ],
+    "source": {
+      "name": "ITviec",
+      "url": "https://itviec.com/it-jobs/technical-product-owner-ol-vietnam-3558"
+    },
+    "postedAt": "2026-09-21",
+    "crawledAt": "2026-09-25T10:32:50.962Z"
+  },
+  {
+    "id": "itviec_network-engineer-firewall-system-admin-it-support-saigon-new-port-0340",
+    "title": "Network Engineer Firewall, System Admin, IT Support",
+    "company": "Saigon New Port",
+    "location": {
+      "country": "VN",
+      "market": "vietnam",
+      "city": "Ho Chi Minh City"
+    },
+    "certifications": [
+      {
+        "id": "ccna",
+        "requirement": "preferred"
+      },
+      {
+        "id": "ccnp-enterprise",
+        "requirement": "preferred"
+      }
+    ],
+    "source": {
+      "name": "ITviec",
+      "url": "https://itviec.com/it-jobs/network-engineer-firewall-system-admin-it-support-saigon-new-port-0340"
+    },
+    "postedAt": "2026-09-21",
+    "crawledAt": "2026-09-25T10:32:50.962Z"
+  },
+  {
+    "id": "itviec_middle-senior-qa-test-automation-engineer-ivc-isb-vietnam-3058",
+    "title": "Middle - Senior QA Test Automation Engineer",
+    "company": "IVC (ISB Vietnam)",
+    "location": {
+      "country": "VN",
+      "market": "vietnam",
+      "city": "Ho Chi Minh City"
+    },
+    "certifications": [
+      {
+        "id": "istqb-ct-tae",
+        "requirement": "mentioned"
+      }
+    ],
+    "source": {
+      "name": "ITviec",
+      "url": "https://itviec.com/it-jobs/middle-senior-qa-test-automation-engineer-ivc-isb-vietnam-3058"
+    },
+    "postedAt": "2026-09-18",
+    "crawledAt": "2026-09-25T10:32:50.962Z"
+  },
+  {
+    "id": "itviec_cybersecurity-security-engineer-ivs-5952",
+    "title": "CyberSecurity/ Security Engineer",
+    "company": "IVS",
+    "location": {
+      "country": "VN",
+      "market": "vietnam",
+      "city": "Ho Chi Minh City"
+    },
+    "certifications": [
+      {
+        "id": "cysa-plus",
+        "requirement": "mentioned"
+      },
+      {
+        "id": "pentest-plus",
+        "requirement": "mentioned"
+      }
+    ],
+    "source": {
+      "name": "ITviec",
+      "url": "https://itviec.com/it-jobs/cybersecurity-security-engineer-ivs-5952"
+    },
+    "postedAt": "2026-09-18",
+    "crawledAt": "2026-09-25T10:32:50.962Z"
+  },
+  {
+    "id": "itviec_middle-devops-engineer-vulcan-labs-2453",
+    "title": "Middle DevOps Engineer ",
+    "company": "Vulcan Labs",
+    "location": {
+      "country": "VN",
+      "market": "vietnam",
+      "city": "Ho Chi Minh City"
+    },
+    "certifications": [
+      {
+        "id": "gcp-pcdoe",
+        "requirement": "mentioned"
+      }
+    ],
+    "source": {
+      "name": "ITviec",
+      "url": "https://itviec.com/it-jobs/middle-devops-engineer-vulcan-labs-2453"
+    },
+    "postedAt": "2026-09-15",
+    "crawledAt": "2026-09-25T10:32:50.962Z"
+  },
+  {
+    "id": "itviec_network-engineer-cisco-firewall-system-admin-cong-ty-co-phan-chung-khoan-dau-khi-psi-4234",
+    "title": "Network Engineer Cisco, Firewall, System Admin",
+    "company": "Công Ty Cổ Phần Chứng Khoán Dầu Khí (Psi)",
+    "location": {
+      "country": "VN",
+      "market": "vietnam",
+      "city": "Hanoi"
+    },
+    "certifications": [
+      {
+        "id": "ccna",
+        "requirement": "preferred"
+      },
+      {
+        "id": "ccnp-enterprise",
+        "requirement": "preferred"
+      }
+    ],
+    "source": {
+      "name": "ITviec",
+      "url": "https://itviec.com/it-jobs/network-engineer-cisco-firewall-system-admin-cong-ty-co-phan-chung-khoan-dau-khi-psi-4234"
+    },
+    "postedAt": "2026-09-12",
+    "crawledAt": "2026-09-25T10:32:50.962Z"
+  },
+  {
+    "id": "itviec_senior-it-network-security-maybank-investment-bank-0707",
+    "title": "Senior IT Network  Security ",
+    "company": "Maybank Investment Bank",
+    "location": {
+      "country": "VN",
+      "market": "vietnam",
+      "city": "Ho Chi Minh City"
+    },
+    "certifications": [
+      {
+        "id": "cissp",
+        "requirement": "mentioned"
+      },
+      {
+        "id": "ccna",
+        "requirement": "mentioned"
+      },
+      {
+        "id": "ccnp-enterprise",
+        "requirement": "mentioned"
+      }
+    ],
+    "source": {
+      "name": "ITviec",
+      "url": "https://itviec.com/it-jobs/senior-it-network-security-maybank-investment-bank-0707"
+    },
+    "postedAt": "2026-08-27",
+    "crawledAt": "2026-09-25T10:32:50.962Z"
+  },
+  {
+    "id": "itviec_nhan-vien-quan-tri-mang-network-administrator-tong-cong-ty-tan-cang-sai-gon-saigon-newport-corporation-5756",
+    "title": "Nhan vien quan tri mang Network Administrator",
+    "company": "Tổng công ty Tân Cảng Sài Gòn (Saigon NewPort Corporation)",
+    "location": {
+      "country": "VN",
+      "market": "vietnam",
+      "city": "Ho Chi Minh City"
+    },
+    "certifications": [
+      {
+        "id": "ccnp-enterprise",
+        "requirement": "mentioned"
+      }
+    ],
+    "source": {
+      "name": "ITviec",
+      "url": "https://itviec.com/it-jobs/nhan-vien-quan-tri-mang-network-administrator-tong-cong-ty-tan-cang-sai-gon-saigon-newport-corporation-5756"
+    },
+    "postedAt": "2026-08-24",
+    "crawledAt": "2026-09-25T10:32:50.962Z"
+  },
+  {
+    "id": "itviec_senior-infrastructure-engineer-aws-cloud-hd-securities-corporation-2725",
+    "title": "Senior Infrastructure Engineer AWS  Cloud",
+    "company": "HD Securities Corporation",
+    "location": {
+      "country": "VN",
+      "market": "vietnam",
+      "city": "Ho Chi Minh City"
+    },
+    "certifications": [
+      {
+        "id": "aws-saa",
+        "requirement": "mentioned"
+      }
+    ],
+    "source": {
+      "name": "ITviec",
+      "url": "https://itviec.com/it-jobs/senior-infrastructure-engineer-aws-cloud-hd-securities-corporation-2725"
+    },
+    "postedAt": "2026-09-10",
+    "crawledAt": "2026-09-25T10:32:50.962Z"
+  },
+  {
+    "id": "itviec_senior-mobile-application-penetration-tester-galaxy-holdings-0359",
+    "title": "Senior Mobile Application Penetration Tester",
+    "company": "GALAXY HOLDINGS",
+    "location": {
+      "country": "VN",
+      "market": "vietnam",
+      "city": "Ho Chi Minh City"
+    },
+    "certifications": [
+      {
+        "id": "oscp",
+        "requirement": "mentioned"
+      }
+    ],
+    "source": {
+      "name": "ITviec",
+      "url": "https://itviec.com/it-jobs/senior-mobile-application-penetration-tester-galaxy-holdings-0359"
+    },
+    "postedAt": "2026-08-24",
+    "crawledAt": "2026-09-25T10:32:50.962Z"
+  },
+  {
+    "id": "itviec_senior-web-api-penetration-tester-galaxy-holdings-5901",
+    "title": "Senior Web  API Penetration Tester",
+    "company": "GALAXY HOLDINGS",
+    "location": {
+      "country": "VN",
+      "market": "vietnam",
+      "city": "Ho Chi Minh City"
+    },
+    "certifications": [
+      {
+        "id": "oscp",
+        "requirement": "preferred"
+      }
+    ],
+    "source": {
+      "name": "ITviec",
+      "url": "https://itviec.com/it-jobs/senior-web-api-penetration-tester-galaxy-holdings-5901"
+    },
+    "postedAt": "2026-08-24",
+    "crawledAt": "2026-09-25T10:32:50.962Z"
+  },
+  {
+    "id": "itviec_it-erp-applications-specialist-sql-api-power-bi-cong-ty-tnhh-coda-resources-vn-3442",
+    "title": "IT ERP  Applications Specialist SQL, API, Power BI",
+    "company": "CÔNG TY TNHH CODA RESOURCES VN",
+    "location": {
+      "country": "VN",
+      "market": "vietnam"
+    },
+    "certifications": [
+      {
+        "id": "security-plus",
+        "requirement": "mentioned"
+      },
+      {
+        "id": "ccna",
+        "requirement": "mentioned"
+      }
+    ],
+    "source": {
+      "name": "ITviec",
+      "url": "https://itviec.com/it-jobs/it-erp-applications-specialist-sql-api-power-bi-cong-ty-tnhh-coda-resources-vn-3442"
+    },
+    "postedAt": "2026-08-25",
+    "crawledAt": "2026-09-25T10:32:50.962Z"
+  },
+  {
+    "id": "mcf_aa5804dee1790ba21107a291c1b84a5e",
+    "title": "Field Engineer (CCNA required)",
+    "company": "VIKCONNECT PTE. LTD.",
+    "location": {
+      "country": "SG",
+      "market": "singapore",
+      "city": "Singapore"
+    },
+    "certifications": [
+      {
+        "id": "ccna",
+        "requirement": "required"
+      }
+    ],
+    "source": {
+      "name": "MyCareersFuture",
+      "url": "https://www.mycareersfuture.gov.sg/job/engineering/field-engineer-vikconnect-aa5804dee1790ba21107a291c1b84a5e"
+    },
+    "postedAt": "2026-09-22",
+    "crawledAt": "2026-09-25T10:25:50.612Z"
+  },
+  {
+    "id": "mcf_2b6790178fc8a14d4fc187afac85f51b",
+    "title": "Network Engineer (Technical Support / Switches / Routing / CCNA)",
+    "company": "EA RECRUITMENT PTE. LTD.",
+    "location": {
+      "country": "SG",
+      "market": "singapore",
+      "city": "Singapore"
+    },
+    "certifications": [
+      {
+        "id": "ccna",
+        "requirement": "preferred"
+      }
+    ],
+    "source": {
+      "name": "MyCareersFuture",
+      "url": "https://www.mycareersfuture.gov.sg/job/information-technology/network-engineer-ea-recruitment-2b6790178fc8a14d4fc187afac85f51b"
+    },
+    "postedAt": "2026-09-20",
+    "crawledAt": "2026-09-25T10:25:50.612Z"
+  },
+  {
+    "id": "mcf_33da8c2ace78e2117271fd80e00cd415",
+    "title": "Project Manager (Cyber Security)",
+    "company": "WPH DIGITAL PTE. LTD.",
+    "location": {
+      "country": "SG",
+      "market": "singapore",
+      "city": "Singapore"
+    },
+    "certifications": [
+      {
+        "id": "security-plus",
+        "requirement": "mentioned"
+      },
+      {
+        "id": "cysa-plus",
+        "requirement": "preferred"
+      },
+      {
+        "id": "cissp",
+        "requirement": "preferred"
+      },
+      {
+        "id": "gsec",
+        "requirement": "preferred"
+      }
+    ],
+    "source": {
+      "name": "MyCareersFuture",
+      "url": "https://www.mycareersfuture.gov.sg/job/consulting/project-manager-wph-digital-33da8c2ace78e2117271fd80e00cd415"
+    },
+    "postedAt": "2026-09-25",
+    "crawledAt": "2026-09-25T10:25:50.612Z"
+  },
+  {
+    "id": "mcf_c5bea521d6957ecc37cd3080ac95ff4f",
+    "title": "Program Manager (Endpoint Security)",
+    "company": "GMP TECHNOLOGIES (S) PTE LTD",
+    "location": {
+      "country": "SG",
+      "market": "singapore",
+      "city": "Singapore"
+    },
+    "certifications": [
+      {
+        "id": "itil4-foundation",
+        "requirement": "mentioned"
+      },
+      {
+        "id": "security-plus",
+        "requirement": "mentioned"
+      },
+      {
+        "id": "cissp",
+        "requirement": "mentioned"
+      },
+      {
+        "id": "ceh",
+        "requirement": "mentioned"
+      },
+      {
+        "id": "az-104",
+        "requirement": "mentioned"
+      },
+      {
+        "id": "az-400",
+        "requirement": "mentioned"
+      }
+    ],
+    "source": {
+      "name": "MyCareersFuture",
+      "url": "https://www.mycareersfuture.gov.sg/job/information-technology/program-manager-gmp-technologies-c5bea521d6957ecc37cd3080ac95ff4f"
+    },
+    "postedAt": "2026-09-25",
+    "crawledAt": "2026-09-25T10:25:50.612Z"
+  },
+  {
+    "id": "mcf_e33d4566041b31c42a928f16c9f3e60c",
+    "title": "Service Manager (Security Systems) | West",
+    "company": "ANCHOR SEARCH GROUP PTE. LTD.",
+    "location": {
+      "country": "SG",
+      "market": "singapore",
+      "city": "Singapore"
+    },
+    "certifications": [
+      {
+        "id": "itil4-foundation",
+        "requirement": "preferred"
+      }
+    ],
+    "source": {
+      "name": "MyCareersFuture",
+      "url": "https://www.mycareersfuture.gov.sg/job/information-technology/service-manager-west-anchor-search-group-e33d4566041b31c42a928f16c9f3e60c"
+    },
+    "postedAt": "2026-09-25",
+    "crawledAt": "2026-09-25T10:25:50.612Z"
+  },
+  {
+    "id": "mcf_1c2cde63937b73706da6fb7ef9193228",
+    "title": "Security Analyst - Contract",
+    "company": "QUESS SELECTION & SERVICES PTE. LTD.",
+    "location": {
+      "country": "SG",
+      "market": "singapore",
+      "city": "Singapore"
+    },
+    "certifications": [
+      {
+        "id": "cissp",
+        "requirement": "preferred"
+      },
+      {
+        "id": "oscp",
+        "requirement": "preferred"
+      }
+    ],
+    "source": {
+      "name": "MyCareersFuture",
+      "url": "https://www.mycareersfuture.gov.sg/job/information-technology/security-analyst-contract-quess-selection-services-1c2cde63937b73706da6fb7ef9193228"
+    },
+    "postedAt": "2026-09-25",
+    "crawledAt": "2026-09-25T10:25:50.612Z"
+  },
+  {
+    "id": "mcf_a0ab9ef939ed351a3370fae382746448",
+    "title": "Head, Information Technology & Security",
+    "company": "HYPERSCAL SOLUTIONS PTE. LTD.",
+    "location": {
+      "country": "SG",
+      "market": "singapore",
+      "city": "Singapore"
+    },
+    "certifications": [
+      {
+        "id": "cissp",
+        "requirement": "preferred"
+      },
+      {
+        "id": "cism",
+        "requirement": "preferred"
+      },
+      {
+        "id": "itil4-foundation",
+        "requirement": "preferred"
+      },
+      {
+        "id": "pmp",
+        "requirement": "preferred"
+      }
+    ],
+    "source": {
+      "name": "MyCareersFuture",
+      "url": "https://www.mycareersfuture.gov.sg/job/general-management/head-information-technology-security-allkin-singapore-a0ab9ef939ed351a3370fae382746448"
+    },
+    "postedAt": "2026-09-25",
+    "crawledAt": "2026-09-25T10:25:50.612Z"
+  },
+  {
+    "id": "mcf_9b2ff132f3c4a0549bbebf0759526443",
+    "title": "Security Solutions Engineer (IT/ Central/ Attractive Bonus/ Near MRT)",
+    "company": "CAREERALLY PTE. LTD.",
+    "location": {
+      "country": "SG",
+      "market": "singapore",
+      "city": "Singapore"
+    },
+    "certifications": [
+      {
+        "id": "aws-scs",
+        "requirement": "required"
+      }
+    ],
+    "source": {
+      "name": "MyCareersFuture",
+      "url": "https://www.mycareersfuture.gov.sg/job/engineering/security-solutions-engineer-careerally-9b2ff132f3c4a0549bbebf0759526443"
+    },
+    "postedAt": "2026-09-25",
+    "crawledAt": "2026-09-25T10:25:50.612Z"
+  },
+  {
+    "id": "mcf_764dc7ee8baaeeb9ee8cd8fe1dae5030",
+    "title": "Lead Associate/ Engineer (Cyber Security/ IT/ Central/ Attractive Bonus)",
+    "company": "CAREERALLY PTE. LTD.",
+    "location": {
+      "country": "SG",
+      "market": "singapore",
+      "city": "Singapore"
+    },
+    "certifications": [
+      {
+        "id": "aws-scs",
+        "requirement": "mentioned"
+      },
+      {
+        "id": "cissp",
+        "requirement": "mentioned"
+      },
+      {
+        "id": "ceh",
+        "requirement": "mentioned"
+      }
+    ],
+    "source": {
+      "name": "MyCareersFuture",
+      "url": "https://www.mycareersfuture.gov.sg/job/engineering/lead-associate-engineer-careerally-764dc7ee8baaeeb9ee8cd8fe1dae5030"
+    },
+    "postedAt": "2026-09-25",
+    "crawledAt": "2026-09-25T10:25:50.612Z"
+  },
+  {
+    "id": "mcf_2370f1778baabfb229c45298fa9b59ff",
+    "title": "Security Operations Engineer",
+    "company": "HYPERSCAL SOLUTIONS PTE. LTD.",
+    "location": {
+      "country": "SG",
+      "market": "singapore",
+      "city": "Singapore"
+    },
+    "certifications": [
+      {
+        "id": "security-plus",
+        "requirement": "preferred"
+      },
+      {
+        "id": "isc2-cc",
+        "requirement": "preferred"
+      },
+      {
+        "id": "sc-200",
+        "requirement": "preferred"
+      },
+      {
+        "id": "ceh",
+        "requirement": "preferred"
+      }
+    ],
+    "source": {
+      "name": "MyCareersFuture",
+      "url": "https://www.mycareersfuture.gov.sg/job/information-technology/security-operations-engineer-ytl-powerseraya-2370f1778baabfb229c45298fa9b59ff"
+    },
+    "postedAt": "2026-09-25",
+    "crawledAt": "2026-09-25T10:25:50.612Z"
+  },
+  {
+    "id": "mcf_0628a657bc5b5e5efbd28f40ba8250d5",
+    "title": "IT Security Officer",
+    "company": "GOLDTECH RESOURCES PTE LTD",
+    "location": {
+      "country": "SG",
+      "market": "singapore",
+      "city": "Singapore"
+    },
+    "certifications": [
+      {
+        "id": "security-plus",
+        "requirement": "preferred"
+      },
+      {
+        "id": "isc2-cc",
+        "requirement": "preferred"
+      },
+      {
+        "id": "cissp",
+        "requirement": "preferred"
+      },
+      {
+        "id": "cism",
+        "requirement": "preferred"
+      },
+      {
+        "id": "ceh",
+        "requirement": "preferred"
+      }
+    ],
+    "source": {
+      "name": "MyCareersFuture",
+      "url": "https://www.mycareersfuture.gov.sg/job/information-technology/security-officer-goldtech-resources-0628a657bc5b5e5efbd28f40ba8250d5"
+    },
+    "postedAt": "2026-09-25",
+    "crawledAt": "2026-09-25T10:25:50.612Z"
+  },
+  {
+    "id": "mcf_d58c7d28e1c24ea5058c11352348df44",
+    "title": "Presales Consultant - Network, Security or Cybersecurity (up to $8000 base + AWS + PB)",
+    "company": "TYSON JAY MANAGEMENT PTE. LTD.",
+    "location": {
+      "country": "SG",
+      "market": "singapore",
+      "city": "Singapore"
+    },
+    "certifications": [
+      {
+        "id": "ccna",
+        "requirement": "preferred"
+      },
+      {
+        "id": "ccnp-enterprise",
+        "requirement": "preferred"
+      }
+    ],
+    "source": {
+      "name": "MyCareersFuture",
+      "url": "https://www.mycareersfuture.gov.sg/job/information-technology/presales-consultant-network-security-cybersecurity-tyson-jay-management-d58c7d28e1c24ea5058c11352348df44"
+    },
+    "postedAt": "2026-09-25",
+    "crawledAt": "2026-09-25T10:25:50.612Z"
+  },
+  {
+    "id": "mcf_2bae56048e8b349c696e2de5ee751a11",
+    "title": "Linux Systems Administrator - (up to $7,000 base + AWS + PB)",
+    "company": "TYSON JAY MANAGEMENT PTE. LTD.",
+    "location": {
+      "country": "SG",
+      "market": "singapore",
+      "city": "Singapore"
+    },
+    "certifications": [
+      {
+        "id": "itil4-foundation",
+        "requirement": "mentioned"
+      },
+      {
+        "id": "rhcsa",
+        "requirement": "mentioned"
+      }
+    ],
+    "source": {
+      "name": "MyCareersFuture",
+      "url": "https://www.mycareersfuture.gov.sg/job/information-technology/linux-systems-administrator--tyson-jay-management-2bae56048e8b349c696e2de5ee751a11"
+    },
+    "postedAt": "2026-09-25",
+    "crawledAt": "2026-09-25T10:25:50.612Z"
+  },
+  {
+    "id": "mcf_35dd1819ba084bc1a1dd24ddcb7dadcf",
+    "title": "AI Engineer (AWS, Splunk ITSI, Datadog, Python, New Relic, Azure, Dynatrace, ML, Service Now, Ansible, Rest API, ITIL)",
+    "company": "EXASOFT CONSULTING PTE. LTD.",
+    "location": {
+      "country": "SG",
+      "market": "singapore",
+      "city": "Singapore"
+    },
+    "certifications": [
+      {
+        "id": "itil4-foundation",
+        "requirement": "mentioned"
+      }
+    ],
+    "source": {
+      "name": "MyCareersFuture",
+      "url": "https://www.mycareersfuture.gov.sg/job/information-technology/ai-engineer-exasoft-consulting-35dd1819ba084bc1a1dd24ddcb7dadcf"
+    },
+    "postedAt": "2026-09-17",
+    "crawledAt": "2026-09-25T10:25:50.612Z"
+  },
+  {
+    "id": "mcf_b80139c30963020ab1ff791eee860937",
+    "title": "AI Engineer (AWS, Splunk ITSI, Datadog, Python, New Relic, Azure, Dynatrace, ML, Service Now, Ansible, Rest API, ITIL)",
+    "company": "EVYONIC SOLUTIONS PTE. LTD.",
+    "location": {
+      "country": "SG",
+      "market": "singapore",
+      "city": "Singapore"
+    },
+    "certifications": [
+      {
+        "id": "itil4-foundation",
+        "requirement": "mentioned"
+      }
+    ],
+    "source": {
+      "name": "MyCareersFuture",
+      "url": "https://www.mycareersfuture.gov.sg/job/information-technology/ai-engineer-evyonic-solutions-b80139c30963020ab1ff791eee860937"
+    },
+    "postedAt": "2026-09-17",
+    "crawledAt": "2026-09-25T10:25:50.612Z"
+  },
+  {
+    "id": "mcf_7c6af6d007c2aa68e88bb44435afaab5",
+    "title": "AI Engineer (AWS, Splunk ITSI, Datadog, Python, New Relic, Azure, Dynatrace, ML, Service Now, Ansible, Rest API, ITIL)",
+    "company": "EVYONIC SOLUTIONS PTE. LTD.",
+    "location": {
+      "country": "SG",
+      "market": "singapore",
+      "city": "Singapore"
+    },
+    "certifications": [
+      {
+        "id": "itil4-foundation",
+        "requirement": "mentioned"
+      }
+    ],
+    "source": {
+      "name": "MyCareersFuture",
+      "url": "https://www.mycareersfuture.gov.sg/job/information-technology/ai-engineer-evyonic-solutions-7c6af6d007c2aa68e88bb44435afaab5"
+    },
+    "postedAt": "2026-09-17",
+    "crawledAt": "2026-09-25T10:25:50.612Z"
+  },
+  {
+    "id": "mcf_a44fd635361ff20997727a8f02ec0315",
+    "title": "AI Engineer (AWS, Splunk ITSI, Datadog, Python, New Relic, Azure, Dynatrace, ML, Service Now, Ansible, Rest API, ITIL)",
+    "company": "EXASOFT CONSULTING PTE. LTD.",
+    "location": {
+      "country": "SG",
+      "market": "singapore",
+      "city": "Singapore"
+    },
+    "certifications": [
+      {
+        "id": "itil4-foundation",
+        "requirement": "mentioned"
+      }
+    ],
+    "source": {
+      "name": "MyCareersFuture",
+      "url": "https://www.mycareersfuture.gov.sg/job/information-technology/ai-engineer-exasoft-consulting-a44fd635361ff20997727a8f02ec0315"
+    },
+    "postedAt": "2026-09-17",
+    "crawledAt": "2026-09-25T10:25:50.612Z"
+  },
+  {
+    "id": "mcf_67b87193f00b928a46cf006ec00abc43",
+    "title": "Embedded Linux Kernel Engineer – Performance / Memory & Systems",
+    "company": "SEARCH STAFFING SERVICES PTE. LTD.",
+    "location": {
+      "country": "SG",
+      "market": "singapore",
+      "city": "Singapore"
+    },
+    "certifications": [
+      {
+        "id": "gcp-ace",
+        "requirement": "mentioned"
+      }
+    ],
+    "source": {
+      "name": "MyCareersFuture",
+      "url": "https://www.mycareersfuture.gov.sg/job/engineering/embedded-linux-kernel-engineer-%E2%80%93-performance-memory-systems-search-staffing-services-67b87193f00b928a46cf006ec00abc43"
+    },
+    "postedAt": "2026-09-25",
+    "crawledAt": "2026-09-25T10:25:50.612Z"
+  },
+  {
+    "id": "mcf_f98fe4e077436eec1aa89dc468a611c5",
+    "title": "6723 - AI Systems Engineer | Up to $7K | Kaki Bukit | Kubernetes, Linux & GPU Clusters",
+    "company": "THE SUPREME HR ADVISORY PTE. LTD.",
+    "location": {
+      "country": "SG",
+      "market": "singapore",
+      "city": "Singapore"
+    },
+    "certifications": [
+      {
+        "id": "ckad",
+        "requirement": "preferred"
+      },
+      {
+        "id": "cka",
+        "requirement": "preferred"
+      }
+    ],
+    "source": {
+      "name": "MyCareersFuture",
+      "url": "https://www.mycareersfuture.gov.sg/job/information-technology/6723-ai-systems-engineer-7k-kaki-bukit-kubernetes-linux-gpu-clusters-supreme-hr-advisory-f98fe4e077436eec1aa89dc468a611c5"
+    },
+    "postedAt": "2026-09-24",
+    "crawledAt": "2026-09-25T10:25:50.612Z"
+  },
+  {
+    "id": "mcf_2f5e21a68282f7f692d3f59e55df4865",
+    "title": "Junior Red Hat Linux Systems Engineer",
+    "company": "K2 PARTNERING SOLUTIONS PTE. LTD.",
+    "location": {
+      "country": "SG",
+      "market": "singapore",
+      "city": "Singapore"
+    },
+    "certifications": [
+      {
+        "id": "rhcsa",
+        "requirement": "preferred"
+      }
+    ],
+    "source": {
+      "name": "MyCareersFuture",
+      "url": "https://www.mycareersfuture.gov.sg/job/banking-finance/junior-red-hat-linux-systems-engineer-k2-partnering-solutions-2f5e21a68282f7f692d3f59e55df4865"
+    },
+    "postedAt": "2026-09-23",
+    "crawledAt": "2026-09-25T10:25:50.612Z"
+  },
+  {
+    "id": "mcf_c8f4a07625848c6c1e3b42aad33c067e",
+    "title": "Senior Red Hat Linux Systems Engineer",
+    "company": "K2 PARTNERING SOLUTIONS PTE. LTD.",
+    "location": {
+      "country": "SG",
+      "market": "singapore",
+      "city": "Singapore"
+    },
+    "certifications": [
+      {
+        "id": "rhce",
+        "requirement": "preferred"
+      },
+      {
+        "id": "rhcsa",
+        "requirement": "required"
+      }
+    ],
+    "source": {
+      "name": "MyCareersFuture",
+      "url": "https://www.mycareersfuture.gov.sg/job/banking-finance/senior-red-hat-linux-systems-engineer-k2-partnering-solutions-c8f4a07625848c6c1e3b42aad33c067e"
+    },
+    "postedAt": "2026-09-23",
+    "crawledAt": "2026-09-25T10:25:50.612Z"
+  },
+  {
+    "id": "mcf_b18d9ba3a8eca357f5e67e8b02f9c8fa",
+    "title": "Linux Engineer",
+    "company": "QUESS SELECTION & SERVICES PTE. LTD.",
+    "location": {
+      "country": "SG",
+      "market": "singapore",
+      "city": "Singapore"
+    },
+    "certifications": [
+      {
+        "id": "rhcsa",
+        "requirement": "mentioned"
+      },
+      {
+        "id": "rhce",
+        "requirement": "mentioned"
+      },
+      {
+        "id": "itil4-foundation",
+        "requirement": "preferred"
+      }
+    ],
+    "source": {
+      "name": "MyCareersFuture",
+      "url": "https://www.mycareersfuture.gov.sg/job/information-technology/linux-engineer-quess-selection-services-b18d9ba3a8eca357f5e67e8b02f9c8fa"
+    },
+    "postedAt": "2026-09-22",
+    "crawledAt": "2026-09-25T10:25:50.612Z"
+  },
+  {
+    "id": "mcf_c4c663356bb8e8b40f365b3e3bb5f607",
+    "title": "IT Network Engineer",
+    "company": "EVANTAGE HR PTE. LTD.",
+    "location": {
+      "country": "SG",
+      "market": "singapore",
+      "city": "Singapore"
+    },
+    "certifications": [
+      {
+        "id": "network-plus",
+        "requirement": "preferred"
+      },
+      {
+        "id": "ccna",
+        "requirement": "preferred"
+      }
+    ],
+    "source": {
+      "name": "MyCareersFuture",
+      "url": "https://www.mycareersfuture.gov.sg/job/design/network-engineer-evantage-hr-c4c663356bb8e8b40f365b3e3bb5f607"
+    },
+    "postedAt": "2026-09-25",
+    "crawledAt": "2026-09-25T10:25:50.612Z"
+  },
+  {
+    "id": "mcf_a164bc0ffb1ff711eb10e489e2468931",
+    "title": "Network Engineering Lead (Attractive Bonus/ Central/ Permanent Role)",
+    "company": "CAREERALLY PTE. LTD.",
+    "location": {
+      "country": "SG",
+      "market": "singapore",
+      "city": "Singapore"
+    },
+    "certifications": [
+      {
+        "id": "ccnp-enterprise",
+        "requirement": "preferred"
+      }
+    ],
+    "source": {
+      "name": "MyCareersFuture",
+      "url": "https://www.mycareersfuture.gov.sg/job/engineering/network-engineering-lead-careerally-a164bc0ffb1ff711eb10e489e2468931"
+    },
+    "postedAt": "2026-09-25",
+    "crawledAt": "2026-09-25T10:25:50.612Z"
+  },
+  {
+    "id": "mcf_0d8ff8712a79a5b55019f6547d36fe2d",
+    "title": "Network Engineer (2-Year Renewable Contract)",
+    "company": "SANCRO PTE. LTD.",
+    "location": {
+      "country": "SG",
+      "market": "singapore",
+      "city": "Singapore"
+    },
+    "certifications": [
+      {
+        "id": "ccnp-enterprise",
+        "requirement": "preferred"
+      },
+      {
+        "id": "ccie-ei",
+        "requirement": "preferred"
+      }
+    ],
+    "source": {
+      "name": "MyCareersFuture",
+      "url": "https://www.mycareersfuture.gov.sg/job/engineering/network-engineer-sancro-0d8ff8712a79a5b55019f6547d36fe2d"
+    },
+    "postedAt": "2026-09-25",
+    "crawledAt": "2026-09-25T10:25:50.612Z"
+  },
+  {
+    "id": "mcf_8a30ebb46810d75906b5f0e002fbd4e8",
+    "title": "Network Engineer",
+    "company": "NANYANG TECH PTE. LTD.",
+    "location": {
+      "country": "SG",
+      "market": "singapore",
+      "city": "Singapore"
+    },
+    "certifications": [
+      {
+        "id": "ccna",
+        "requirement": "mentioned"
+      }
+    ],
+    "source": {
+      "name": "MyCareersFuture",
+      "url": "https://www.mycareersfuture.gov.sg/job/information-technology/network-engineer-nanyang-tech-8a30ebb46810d75906b5f0e002fbd4e8"
+    },
+    "postedAt": "2026-09-25",
+    "crawledAt": "2026-09-25T10:25:50.612Z"
+  },
+  {
+    "id": "mcf_41c5ee2584f899179f29f1609b03a4fc",
+    "title": "Infrastructure Engineer (Network and Endpoint) - A26346",
+    "company": "ACTIVATE INTERACTIVE PTE LTD",
+    "location": {
+      "country": "SG",
+      "market": "singapore",
+      "city": "Singapore"
+    },
+    "certifications": [
+      {
+        "id": "itil4-foundation",
+        "requirement": "mentioned"
+      }
+    ],
+    "source": {
+      "name": "MyCareersFuture",
+      "url": "https://www.mycareersfuture.gov.sg/job/information-technology/infrastructure-engineer-a26346-activate-interactive-41c5ee2584f899179f29f1609b03a4fc"
+    },
+    "postedAt": "2026-09-25",
+    "crawledAt": "2026-09-25T10:25:50.612Z"
+  },
+  {
+    "id": "mcf_a81c6655e3ce52e6e0eb8feda527251d",
+    "title": "NETWORK ENGINEER",
+    "company": "EXCELTECH COMPUTERS PTE. LTD.",
+    "location": {
+      "country": "SG",
+      "market": "singapore",
+      "city": "Singapore"
+    },
+    "certifications": [
+      {
+        "id": "itil4-foundation",
+        "requirement": "mentioned"
+      }
+    ],
+    "source": {
+      "name": "MyCareersFuture",
+      "url": "https://www.mycareersfuture.gov.sg/job/information-technology/network-engineer-exceltech-computers-a81c6655e3ce52e6e0eb8feda527251d"
+    },
+    "postedAt": "2026-09-25",
+    "crawledAt": "2026-09-25T10:25:50.612Z"
+  },
+  {
+    "id": "mcf_873b404be54c33ff413efee49dcebe11",
+    "title": "Penetration Testers/ Red Teamers",
+    "company": "KERRY CONSULTING PTE. LTD.",
+    "location": {
+      "country": "SG",
+      "market": "singapore",
+      "city": "Singapore"
+    },
+    "certifications": [
+      {
+        "id": "oscp",
+        "requirement": "mentioned"
+      }
+    ],
+    "source": {
+      "name": "MyCareersFuture",
+      "url": "https://www.mycareersfuture.gov.sg/job/information-technology/penetration-testers-red-teamers-kerry-consulting-873b404be54c33ff413efee49dcebe11"
+    },
+    "postedAt": "2026-09-24",
+    "crawledAt": "2026-09-25T10:25:50.612Z"
+  },
+  {
+    "id": "mcf_d63a762a41e8c45accb8cb7660297ff0",
+    "title": "Offensive Security Engineer - Penetration Testing",
+    "company": "MENRVA PTE. LTD.",
+    "location": {
+      "country": "SG",
+      "market": "singapore",
+      "city": "Singapore"
+    },
+    "certifications": [
+      {
+        "id": "oscp",
+        "requirement": "required"
+      }
+    ],
+    "source": {
+      "name": "MyCareersFuture",
+      "url": "https://www.mycareersfuture.gov.sg/job/information-technology/offensive-security-engineer-penetration-testing-menrva-d63a762a41e8c45accb8cb7660297ff0"
+    },
+    "postedAt": "2026-09-23",
+    "crawledAt": "2026-09-25T10:25:50.612Z"
+  },
+  {
+    "id": "mcf_5b185c0c837b12f8eb3004328ec944ea",
+    "title": "Junior Penetration Tester",
+    "company": "LANTU EMPLOYMENT AGENCY PTE. LTD.",
+    "location": {
+      "country": "SG",
+      "market": "singapore",
+      "city": "Singapore"
+    },
+    "certifications": [
+      {
+        "id": "security-plus",
+        "requirement": "preferred"
+      },
+      {
+        "id": "oscp",
+        "requirement": "preferred"
+      },
+      {
+        "id": "ceh",
+        "requirement": "preferred"
+      }
+    ],
+    "source": {
+      "name": "MyCareersFuture",
+      "url": "https://www.mycareersfuture.gov.sg/job/information-technology/junior-penetration-tester-lantu-employment-agency-5b185c0c837b12f8eb3004328ec944ea"
+    },
+    "postedAt": "2026-09-23",
+    "crawledAt": "2026-09-25T10:25:50.612Z"
+  },
+  {
+    "id": "mcf_d8ceb0cfba6ef491d3c8b63feb925f84",
+    "title": "Penetration Tester",
+    "company": "LANTU EMPLOYMENT AGENCY PTE. LTD.",
+    "location": {
+      "country": "SG",
+      "market": "singapore",
+      "city": "Singapore"
+    },
+    "certifications": [
+      {
+        "id": "cissp",
+        "requirement": "mentioned"
+      },
+      {
+        "id": "oscp",
+        "requirement": "mentioned"
+      },
+      {
+        "id": "ceh",
+        "requirement": "mentioned"
+      }
+    ],
+    "source": {
+      "name": "MyCareersFuture",
+      "url": "https://www.mycareersfuture.gov.sg/job/information-technology/penetration-tester-lantu-employment-agency-d8ceb0cfba6ef491d3c8b63feb925f84"
+    },
+    "postedAt": "2026-09-23",
+    "crawledAt": "2026-09-25T10:25:50.612Z"
+  },
+  {
+    "id": "mcf_e0e4c99889082b99c3806b33791616fb",
+    "title": "Penetration Tester",
+    "company": "TECHKNOWLEDGEY PTE. LTD.",
+    "location": {
+      "country": "SG",
+      "market": "singapore",
+      "city": "Singapore"
+    },
+    "certifications": [
+      {
+        "id": "oscp",
+        "requirement": "mentioned"
+      }
+    ],
+    "source": {
+      "name": "MyCareersFuture",
+      "url": "https://www.mycareersfuture.gov.sg/job/information-technology/penetration-tester-techknowledgey-e0e4c99889082b99c3806b33791616fb"
+    },
+    "postedAt": "2026-09-18",
+    "crawledAt": "2026-09-25T10:25:50.612Z"
+  },
+  {
+    "id": "mcf_5c9b414b701b1838ff280acdde0112ae",
+    "title": "Application Security Penetration Tester",
+    "company": "ARYAN SOLUTIONS PTE. LTD.",
+    "location": {
+      "country": "SG",
+      "market": "singapore",
+      "city": "Singapore"
+    },
+    "certifications": [
+      {
+        "id": "oscp",
+        "requirement": "mentioned"
+      },
+      {
+        "id": "ceh",
+        "requirement": "mentioned"
+      }
+    ],
+    "source": {
+      "name": "MyCareersFuture",
+      "url": "https://www.mycareersfuture.gov.sg/job/information-technology/application-security-penetration-tester-aryan-solutions-5c9b414b701b1838ff280acdde0112ae"
+    },
+    "postedAt": "2026-09-15",
+    "crawledAt": "2026-09-25T10:25:50.612Z"
+  },
+  {
+    "id": "mcf_a743bb0c9e26bee29807b0b7b6ae0fd8",
+    "title": "Penetration Tester",
+    "company": "VOUCH RECRUITMENT PTE. LTD.",
+    "location": {
+      "country": "SG",
+      "market": "singapore",
+      "city": "Singapore"
+    },
+    "certifications": [
+      {
+        "id": "oscp",
+        "requirement": "mentioned"
+      }
+    ],
+    "source": {
+      "name": "MyCareersFuture",
+      "url": "https://www.mycareersfuture.gov.sg/job/information-technology/penetration-tester-vouch-recruitment-a743bb0c9e26bee29807b0b7b6ae0fd8"
+    },
+    "postedAt": "2026-09-14",
+    "crawledAt": "2026-09-25T10:25:50.612Z"
+  },
+  {
+    "id": "mcf_0f7581e458388a103357a85c6cc36ef3",
+    "title": "Penetration Testing Consultant",
+    "company": "SWARMNETICS PTE. LTD.",
+    "location": {
+      "country": "SG",
+      "market": "singapore",
+      "city": "Singapore"
+    },
+    "certifications": [
+      {
+        "id": "oscp",
+        "requirement": "mentioned"
+      }
+    ],
+    "source": {
+      "name": "MyCareersFuture",
+      "url": "https://www.mycareersfuture.gov.sg/job/consulting/penetration-testing-consultant-swarmnetics-0f7581e458388a103357a85c6cc36ef3"
+    },
+    "postedAt": "2026-09-14",
+    "crawledAt": "2026-09-25T10:25:50.612Z"
+  },
+  {
+    "id": "mcf_d7b024aec7a455a0259acdb2f9e986f2",
+    "title": "26989093 Information Security Technology Senior Analyst, Penetration Testing",
+    "company": "CITIBANK N.A.",
+    "location": {
+      "country": "SG",
+      "market": "singapore",
+      "city": "Singapore"
+    },
+    "certifications": [
+      {
+        "id": "cissp",
+        "requirement": "mentioned"
+      },
+      {
+        "id": "itil4-foundation",
+        "requirement": "mentioned"
+      },
+      {
+        "id": "pmp",
+        "requirement": "mentioned"
+      }
+    ],
+    "source": {
+      "name": "MyCareersFuture",
+      "url": "https://www.mycareersfuture.gov.sg/job/information-technology/26989093-information-security-technology-senior-analyst-penetration-testing-citibank-na-d7b024aec7a455a0259acdb2f9e986f2"
+    },
+    "postedAt": "2026-09-10",
+    "crawledAt": "2026-09-25T10:25:50.612Z"
+  },
+  {
+    "id": "mcf_0aca88ebeb48afc7e942b2911537eea7",
+    "title": "VAPT Engineer",
+    "company": "ENGGSOL PTE. LTD.",
+    "location": {
+      "country": "SG",
+      "market": "singapore",
+      "city": "Singapore"
+    },
+    "certifications": [
+      {
+        "id": "oscp",
+        "requirement": "mentioned"
+      },
+      {
+        "id": "ceh",
+        "requirement": "mentioned"
+      }
+    ],
+    "source": {
+      "name": "MyCareersFuture",
+      "url": "https://www.mycareersfuture.gov.sg/job/information-technology/vapt-engineer-enggsol-0aca88ebeb48afc7e942b2911537eea7"
+    },
+    "postedAt": "2026-09-06",
+    "crawledAt": "2026-09-25T10:25:50.612Z"
+  },
+  {
+    "id": "mcf_6f73f1dd89e56a99ef4cd2350baa4b99",
+    "title": "Senior Penetration Tester (DSC/JH)",
+    "company": "ST ENGINEERING INFO-SECURITY PTE. LTD.",
+    "location": {
+      "country": "SG",
+      "market": "singapore",
+      "city": "Singapore"
+    },
+    "certifications": [
+      {
+        "id": "oscp",
+        "requirement": "mentioned"
+      },
+      {
+        "id": "ceh",
+        "requirement": "mentioned"
+      }
+    ],
+    "source": {
+      "name": "MyCareersFuture",
+      "url": "https://www.mycareersfuture.gov.sg/job/engineering/senior-penetration-tester-st-engineering-info-security-6f73f1dd89e56a99ef4cd2350baa4b99"
+    },
+    "postedAt": "2026-09-01",
+    "crawledAt": "2026-09-25T10:25:50.612Z"
+  },
+  {
+    "id": "mcf_aa3e43a58a1c23f79e7369d63cc1ecf7",
+    "title": "VAPT Engineer",
+    "company": "PCS SECURITY PRIVATE LIMITED",
+    "location": {
+      "country": "SG",
+      "market": "singapore",
+      "city": "Singapore"
+    },
+    "certifications": [
+      {
+        "id": "oscp",
+        "requirement": "mentioned"
+      }
+    ],
+    "source": {
+      "name": "MyCareersFuture",
+      "url": "https://www.mycareersfuture.gov.sg/job/information-technology/vapt-engineer-pcs-security-aa3e43a58a1c23f79e7369d63cc1ecf7"
+    },
+    "postedAt": "2026-09-01",
+    "crawledAt": "2026-09-25T10:25:50.612Z"
+  },
+  {
+    "id": "mcf_dc0ad1918ce6be68291de5f984cdd2de",
+    "title": "Penetration Testers (Cybersecurity)",
+    "company": "SEKURO OPERATIONS PTE. LTD.",
+    "location": {
+      "country": "SG",
+      "market": "singapore",
+      "city": "Singapore"
+    },
+    "certifications": [
+      {
+        "id": "oscp",
+        "requirement": "required"
+      }
+    ],
+    "source": {
+      "name": "MyCareersFuture",
+      "url": "https://www.mycareersfuture.gov.sg/job/consulting/penetration-testers-sekuro-operations-dc0ad1918ce6be68291de5f984cdd2de"
+    },
+    "postedAt": "2026-09-01",
+    "crawledAt": "2026-09-25T10:25:50.612Z"
+  },
+  {
+    "id": "mcf_27d9803792023426306fe7feebcb50da",
+    "title": "Senior Security Consultant (Penetration Testing)",
+    "company": "VANTAGE POINT SECURITY PTE. LTD.",
+    "location": {
+      "country": "SG",
+      "market": "singapore",
+      "city": "Singapore"
+    },
+    "certifications": [
+      {
+        "id": "oscp",
+        "requirement": "required"
+      }
+    ],
+    "source": {
+      "name": "MyCareersFuture",
+      "url": "https://www.mycareersfuture.gov.sg/job/information-technology/senior-security-consultant-vantage-point-security-27d9803792023426306fe7feebcb50da"
+    },
+    "postedAt": "2026-08-31",
+    "crawledAt": "2026-09-25T10:25:50.612Z"
+  },
+  {
+    "id": "mcf_15712fc6d034583f44ea23e1ed9152a5",
+    "title": "Cyber security consultant (OSCP, CRT cert required)",
+    "company": "JOBEE PTE. LTD.",
+    "location": {
+      "country": "SG",
+      "market": "singapore",
+      "city": "Singapore"
+    },
+    "certifications": [
+      {
+        "id": "oscp",
+        "requirement": "required"
+      }
+    ],
+    "source": {
+      "name": "MyCareersFuture",
+      "url": "https://www.mycareersfuture.gov.sg/job/information-technology/cyber-security-consultant-jobee-15712fc6d034583f44ea23e1ed9152a5"
+    },
+    "postedAt": "2026-09-24",
+    "crawledAt": "2026-09-25T10:25:50.612Z"
+  },
+  {
+    "id": "mcf_f178c568cf7c2bdde7ef0d798fb10a09",
+    "title": "Cyber Security Consultant (VAPT) - OSCP and CREST required",
+    "company": "TESCOM (SINGAPORE) SOFTWARE SYSTEMS TESTING PTE LTD.",
+    "location": {
+      "country": "SG",
+      "market": "singapore",
+      "city": "Singapore"
+    },
+    "certifications": [
+      {
+        "id": "oscp",
+        "requirement": "required"
+      }
+    ],
+    "source": {
+      "name": "MyCareersFuture",
+      "url": "https://www.mycareersfuture.gov.sg/job/information-technology/cyber-security-consultant-oscp-crest-required-tescom-software-systems-testing-f178c568cf7c2bdde7ef0d798fb10a09"
+    },
+    "postedAt": "2026-09-21",
+    "crawledAt": "2026-09-25T10:25:50.612Z"
+  },
+  {
+    "id": "mcf_5274cdc8fd6835bb3ea42cc9e0a152ac",
+    "title": "Security Testing & Assurance Specialist (VAPT, OSCP+ Cert))",
+    "company": "NCS PTE. LTD.",
+    "location": {
+      "country": "SG",
+      "market": "singapore",
+      "city": "Singapore"
+    },
+    "certifications": [
+      {
+        "id": "oscp",
+        "requirement": "preferred"
+      }
+    ],
+    "source": {
+      "name": "MyCareersFuture",
+      "url": "https://www.mycareersfuture.gov.sg/job/consulting/security-testing-assurance-specialist-ncs-5274cdc8fd6835bb3ea42cc9e0a152ac"
+    },
+    "postedAt": "2026-08-27",
+    "crawledAt": "2026-09-25T10:25:50.612Z"
+  },
+  {
+    "id": "wwr_toptal-salesforce-platform-lead-for-global-industrial-company",
+    "title": "Salesforce Platform Lead for Global Industrial Company",
+    "company": "Toptal",
+    "location": {
+      "country": "REMOTE",
+      "market": "remote",
+      "scope": "unknown"
+    },
+    "certifications": [
+      {
+        "id": "salesforce-admin",
+        "requirement": "mentioned"
+      }
+    ],
+    "source": {
+      "name": "We Work Remotely",
+      "url": "https://weworkremotely.com/remote-jobs/toptal-salesforce-platform-lead-for-global-industrial-company"
+    },
+    "postedAt": "2026-09-24",
+    "crawledAt": "2026-09-25T10:25:50.612Z"
+  },
+  {
+    "id": "wwr_huntress-security-operations-analyst",
+    "title": "Security Operations Analyst",
+    "company": "Huntress",
+    "location": {
+      "country": "REMOTE",
+      "market": "remote"
+    },
+    "certifications": [
+      {
+        "id": "sc-200",
+        "requirement": "mentioned"
+      }
+    ],
+    "source": {
+      "name": "We Work Remotely",
+      "url": "https://weworkremotely.com/remote-jobs/huntress-security-operations-analyst"
+    },
+    "postedAt": "2026-09-21",
+    "crawledAt": "2026-09-25T10:25:50.612Z"
+  },
+  {
+    "id": "wwr_hex-technologies-cloud-security-engineer",
+    "title": "Cloud Security Engineer",
+    "company": "Hex Technologies",
+    "location": {
+      "country": "REMOTE",
+      "market": "remote"
+    },
+    "certifications": [
+      {
+        "id": "cks",
+        "requirement": "mentioned"
+      },
+      {
+        "id": "aws-scs",
+        "requirement": "mentioned"
+      },
+      {
+        "id": "terraform-associate",
+        "requirement": "mentioned"
+      }
+    ],
+    "source": {
+      "name": "We Work Remotely",
+      "url": "https://weworkremotely.com/remote-jobs/hex-technologies-cloud-security-engineer"
+    },
+    "postedAt": "2026-09-19",
+    "crawledAt": "2026-09-25T10:25:50.612Z"
+  },
+  {
+    "id": "wwr_circleci-security-operations-engineer",
+    "title": "Security Operations Engineer",
+    "company": "CircleCI",
+    "location": {
+      "country": "REMOTE",
+      "market": "remote"
+    },
+    "certifications": [
+      {
+        "id": "aws-scs",
+        "requirement": "mentioned"
+      },
+      {
+        "id": "security-plus",
+        "requirement": "mentioned"
+      },
+      {
+        "id": "ceh",
+        "requirement": "mentioned"
+      }
+    ],
+    "source": {
+      "name": "We Work Remotely",
+      "url": "https://weworkremotely.com/remote-jobs/circleci-security-operations-engineer"
+    },
+    "postedAt": "2026-09-19",
+    "crawledAt": "2026-09-25T10:25:50.612Z"
+  },
+  {
+    "id": "arbeitnow_senior-azure-cloud-platform-architect-nuremberg-445640",
+    "title": "Senior Azure Cloud Platform Architect (m/w/d)",
+    "company": "think about IT GmbH",
+    "location": {
+      "country": "GLOBAL",
+      "market": "global",
+      "scope": "unknown"
+    },
+    "certifications": [
+      {
+        "id": "az-305",
+        "requirement": "mentioned"
+      },
+      {
+        "id": "az-104",
+        "requirement": "mentioned"
+      },
+      {
+        "id": "az-400",
+        "requirement": "mentioned"
+      },
+      {
+        "id": "az-500",
+        "requirement": "mentioned"
+      },
+      {
+        "id": "az-700",
+        "requirement": "mentioned"
+      }
+    ],
+    "source": {
+      "name": "Arbeitnow",
+      "url": "https://www.arbeitnow.com/jobs/companies/think-about-it-gmbh/senior-azure-cloud-platform-architect-nuremberg-445640"
+    },
+    "postedAt": "2026-09-25",
+    "crawledAt": "2026-09-25T10:25:50.612Z"
+  },
+  {
+    "id": "arbeitnow_senior-microsoft-ai-copilot-engineer-nuremberg-375370",
+    "title": "Senior Microsoft AI & Copilot Engineer (m/w/d)",
+    "company": "think about IT GmbH",
+    "location": {
+      "country": "GLOBAL",
+      "market": "global",
+      "scope": "unknown"
+    },
+    "certifications": [
+      {
+        "id": "ai-102",
+        "requirement": "mentioned"
+      },
+      {
+        "id": "ai-900",
+        "requirement": "mentioned"
+      },
+      {
+        "id": "pl-300",
+        "requirement": "mentioned"
+      }
+    ],
+    "source": {
+      "name": "Arbeitnow",
+      "url": "https://www.arbeitnow.com/jobs/companies/think-about-it-gmbh/senior-microsoft-ai-copilot-engineer-nuremberg-375370"
+    },
+    "postedAt": "2026-09-25",
+    "crawledAt": "2026-09-25T10:25:50.612Z"
+  },
+  {
+    "id": "arbeitnow_senior-microsoft-cloud-transformation-architect-nuremberg-91713",
+    "title": "Senior Microsoft Cloud Transformation Architect (m/w/d)",
+    "company": "think about IT GmbH",
+    "location": {
+      "country": "GLOBAL",
+      "market": "global",
+      "scope": "unknown"
+    },
+    "certifications": [
+      {
+        "id": "az-305",
+        "requirement": "mentioned"
+      },
+      {
+        "id": "az-104",
+        "requirement": "mentioned"
+      },
+      {
+        "id": "sc-300",
+        "requirement": "mentioned"
+      },
+      {
+        "id": "az-500",
+        "requirement": "mentioned"
+      }
+    ],
+    "source": {
+      "name": "Arbeitnow",
+      "url": "https://www.arbeitnow.com/jobs/companies/think-about-it-gmbh/senior-microsoft-cloud-transformation-architect-nuremberg-91713"
+    },
+    "postedAt": "2026-09-25",
+    "crawledAt": "2026-09-25T10:25:50.612Z"
+  },
+  {
+    "id": "arbeitnow_senior-design-manager-ur-310390",
+    "title": "Senior Design Manager - U&R",
+    "company": "Bakerhicks",
+    "location": {
+      "country": "GLOBAL",
+      "market": "global",
+      "scope": "unknown"
+    },
+    "certifications": [
+      {
+        "id": "prince2-foundation",
+        "requirement": "mentioned"
+      }
+    ],
+    "source": {
+      "name": "Arbeitnow",
+      "url": "https://www.arbeitnow.co.uk/jobs/companies/bakerhicks/senior-design-manager-ur-310390"
+    },
+    "postedAt": "2026-09-24",
+    "crawledAt": "2026-09-25T10:25:50.612Z"
+  },
+  {
+    "id": "arbeitnow_digital-customer-success-manager-french-paris-france-25343",
+    "title": "Digital Customer Success Manager - French",
+    "company": "Brevo",
+    "location": {
+      "country": "GLOBAL",
+      "market": "global",
+      "scope": "unknown"
+    },
+    "certifications": [
+      {
+        "id": "csm",
+        "requirement": "mentioned"
+      }
+    ],
+    "source": {
+      "name": "Arbeitnow",
+      "url": "https://www.arbeitnow.fr/jobs/companies/brevo/digital-customer-success-manager-french-paris-france-25343"
+    },
+    "postedAt": "2026-09-24",
+    "crawledAt": "2026-09-25T10:25:50.612Z"
+  },
+  {
+    "id": "arbeitnow_remote-technical-program-manager-uk-449558",
+    "title": "Technical Program Manager - UK",
+    "company": "Marqeta Inc",
+    "location": {
+      "country": "REMOTE",
+      "market": "remote"
+    },
+    "certifications": [
+      {
+        "id": "pmp",
+        "requirement": "mentioned"
+      }
+    ],
+    "source": {
+      "name": "Arbeitnow",
+      "url": "https://www.arbeitnow.co.uk/jobs/companies/marqeta-inc/remote-technical-program-manager-uk-449558"
+    },
+    "postedAt": "2026-09-24",
+    "crawledAt": "2026-09-25T10:25:50.612Z"
+  },
+  {
+    "id": "arbeitnow_inside-sales-representative-emea-london-united-kingdom-240295",
+    "title": "Inside Sales Representative - EMEA",
+    "company": "Elliptic",
+    "location": {
+      "country": "GLOBAL",
+      "market": "global",
+      "scope": "unknown"
+    },
+    "certifications": [
+      {
+        "id": "csm",
+        "requirement": "mentioned"
+      }
+    ],
+    "source": {
+      "name": "Arbeitnow",
+      "url": "https://www.arbeitnow.co.uk/jobs/companies/elliptic/inside-sales-representative-emea-london-united-kingdom-240295"
+    },
+    "postedAt": "2026-09-24",
+    "crawledAt": "2026-09-25T10:25:50.612Z"
+  },
+  {
+    "id": "arbeitnow_financial-controller-process-control-london-191721",
+    "title": "Financial Controller (Process & Control)",
+    "company": "Quantexa",
+    "location": {
+      "country": "GLOBAL",
+      "market": "global",
+      "scope": "unknown"
+    },
+    "certifications": [
+      {
+        "id": "prince2-foundation",
+        "requirement": "mentioned"
+      },
+      {
+        "id": "pmp",
+        "requirement": "mentioned"
+      }
+    ],
+    "source": {
+      "name": "Arbeitnow",
+      "url": "https://www.arbeitnow.co.uk/jobs/companies/quantexa/financial-controller-process-control-london-191721"
+    },
+    "postedAt": "2026-09-24",
+    "crawledAt": "2026-09-25T10:25:50.612Z"
+  },
+  {
+    "id": "arbeitnow_customer-success-engineer-london-432727",
+    "title": "Customer Success Engineer ( London)",
+    "company": "Deepgram",
+    "location": {
+      "country": "GLOBAL",
+      "market": "global",
+      "scope": "unknown"
+    },
+    "certifications": [
+      {
+        "id": "csm",
+        "requirement": "mentioned"
+      }
+    ],
+    "source": {
+      "name": "Arbeitnow",
+      "url": "https://www.arbeitnow.co.uk/jobs/companies/deepgram/customer-success-engineer-london-432727"
+    },
+    "postedAt": "2026-09-24",
+    "crawledAt": "2026-09-25T10:25:50.612Z"
+  },
+  {
+    "id": "arbeitnow_vp-customer-success-emea-london-141838",
+    "title": "VP, customer success (EMEA)",
+    "company": "Writer",
+    "location": {
+      "country": "GLOBAL",
+      "market": "global",
+      "scope": "unknown"
+    },
+    "certifications": [
+      {
+        "id": "csm",
+        "requirement": "mentioned"
+      }
+    ],
+    "source": {
+      "name": "Arbeitnow",
+      "url": "https://www.arbeitnow.co.uk/jobs/companies/writer/vp-customer-success-emea-london-141838"
+    },
+    "postedAt": "2026-09-24",
+    "crawledAt": "2026-09-25T10:25:50.612Z"
+  },
+  {
+    "id": "arbeitnow_enterprise-account-executive-israel-paris-369090",
+    "title": "Enterprise Account Executive - Israel",
+    "company": "Pigment",
+    "location": {
+      "country": "GLOBAL",
+      "market": "global",
+      "scope": "unknown"
+    },
+    "certifications": [
+      {
+        "id": "csm",
+        "requirement": "mentioned"
+      }
+    ],
+    "source": {
+      "name": "Arbeitnow",
+      "url": "https://www.arbeitnow.fr/jobs/companies/pigment/enterprise-account-executive-israel-paris-369090"
+    },
+    "postedAt": "2026-09-24",
+    "crawledAt": "2026-09-25T10:25:50.612Z"
+  },
+  {
+    "id": "arbeitnow_customer-care-france-accounting-paris-214310",
+    "title": "Customer Care France - Accounting",
+    "company": "Qonto",
+    "location": {
+      "country": "GLOBAL",
+      "market": "global",
+      "scope": "unknown"
+    },
+    "certifications": [
+      {
+        "id": "csm",
+        "requirement": "mentioned"
+      }
+    ],
+    "source": {
+      "name": "Arbeitnow",
+      "url": "https://www.arbeitnow.fr/jobs/companies/qonto/customer-care-france-accounting-paris-214310"
+    },
+    "postedAt": "2026-09-23",
+    "crawledAt": "2026-09-25T10:25:50.612Z"
+  },
+  {
+    "id": "arbeitnow_senior-project-manager-fur-digitale-verwaltungsprojekte-migration-und-inneres-all-genders-munchen-355589",
+    "title": "Senior Project Manager für digitale Verwaltungsprojekte - Migration und Inneres (all genders)",
+    "company": "Init Ag",
+    "location": {
+      "country": "GLOBAL",
+      "market": "global",
+      "scope": "unknown"
+    },
+    "certifications": [
+      {
+        "id": "prince2-foundation",
+        "requirement": "mentioned"
+      }
+    ],
+    "source": {
+      "name": "Arbeitnow",
+      "url": "https://www.arbeitnow.com/jobs/companies/init-ag/senior-project-manager-fur-digitale-verwaltungsprojekte-migration-und-inneres-all-genders-munchen-355589"
+    },
+    "postedAt": "2026-09-24",
+    "crawledAt": "2026-09-25T10:25:50.612Z"
+  },
+  {
+    "id": "arbeitnow_senior-project-manager-fur-digitale-verwaltungsprojekte-migration-und-inneres-all-genders-bremen-119143",
+    "title": "Senior Project Manager für digitale Verwaltungsprojekte - Migration und Inneres (all genders)",
+    "company": "Init Ag",
+    "location": {
+      "country": "GLOBAL",
+      "market": "global",
+      "scope": "unknown"
+    },
+    "certifications": [
+      {
+        "id": "prince2-foundation",
+        "requirement": "mentioned"
+      }
+    ],
+    "source": {
+      "name": "Arbeitnow",
+      "url": "https://www.arbeitnow.com/jobs/companies/init-ag/senior-project-manager-fur-digitale-verwaltungsprojekte-migration-und-inneres-all-genders-bremen-119143"
+    },
+    "postedAt": "2026-09-24",
+    "crawledAt": "2026-09-25T10:25:50.612Z"
+  },
+  {
+    "id": "arbeitnow_senior-project-manager-fur-digitale-verwaltungsprojekte-migration-und-inneres-all-genders-mainz-470563",
+    "title": "Senior Project Manager für digitale Verwaltungsprojekte - Migration und Inneres (all genders)",
+    "company": "Init Ag",
+    "location": {
+      "country": "GLOBAL",
+      "market": "global",
+      "scope": "unknown"
+    },
+    "certifications": [
+      {
+        "id": "prince2-foundation",
+        "requirement": "mentioned"
+      }
+    ],
+    "source": {
+      "name": "Arbeitnow",
+      "url": "https://www.arbeitnow.com/jobs/companies/init-ag/senior-project-manager-fur-digitale-verwaltungsprojekte-migration-und-inneres-all-genders-mainz-470563"
+    },
+    "postedAt": "2026-09-24",
+    "crawledAt": "2026-09-25T10:25:50.612Z"
+  },
+  {
+    "id": "arbeitnow_senior-project-manager-fur-digitale-verwaltungsprojekte-migration-und-inneres-all-genders-koln-482356",
+    "title": "Senior Project Manager für digitale Verwaltungsprojekte - Migration und Inneres (all genders)",
+    "company": "Init Ag",
+    "location": {
+      "country": "GLOBAL",
+      "market": "global",
+      "scope": "unknown"
+    },
+    "certifications": [
+      {
+        "id": "prince2-foundation",
+        "requirement": "mentioned"
+      }
+    ],
+    "source": {
+      "name": "Arbeitnow",
+      "url": "https://www.arbeitnow.com/jobs/companies/init-ag/senior-project-manager-fur-digitale-verwaltungsprojekte-migration-und-inneres-all-genders-koln-482356"
+    },
+    "postedAt": "2026-09-24",
+    "crawledAt": "2026-09-25T10:25:50.612Z"
+  },
+  {
+    "id": "arbeitnow_senior-project-manager-fur-digitale-verwaltungsprojekte-migration-und-inneres-all-genders-hamburg-56163",
+    "title": "Senior Project Manager für digitale Verwaltungsprojekte - Migration und Inneres (all genders)",
+    "company": "Init Ag",
+    "location": {
+      "country": "GLOBAL",
+      "market": "global",
+      "scope": "unknown"
+    },
+    "certifications": [
+      {
+        "id": "prince2-foundation",
+        "requirement": "mentioned"
+      }
+    ],
+    "source": {
+      "name": "Arbeitnow",
+      "url": "https://www.arbeitnow.com/jobs/companies/init-ag/senior-project-manager-fur-digitale-verwaltungsprojekte-migration-und-inneres-all-genders-hamburg-56163"
+    },
+    "postedAt": "2026-09-24",
+    "crawledAt": "2026-09-25T10:25:50.612Z"
+  },
+  {
+    "id": "arbeitnow_senior-project-manager-fur-digitale-verwaltungsprojekte-migration-und-inneres-all-genders-berlin-343120",
+    "title": "Senior Project Manager für digitale Verwaltungsprojekte - Migration und Inneres (all genders)",
+    "company": "Init Ag",
+    "location": {
+      "country": "GLOBAL",
+      "market": "global",
+      "scope": "unknown"
+    },
+    "certifications": [
+      {
+        "id": "prince2-foundation",
+        "requirement": "mentioned"
+      }
+    ],
+    "source": {
+      "name": "Arbeitnow",
+      "url": "https://www.arbeitnow.com/jobs/companies/init-ag/senior-project-manager-fur-digitale-verwaltungsprojekte-migration-und-inneres-all-genders-berlin-343120"
+    },
+    "postedAt": "2026-09-24",
+    "crawledAt": "2026-09-25T10:25:50.612Z"
+  },
+  {
+    "id": "arbeitnow_senior-project-manager-fur-digitale-verwaltungsprojekte-migration-und-inneres-all-genders-munchen-404599",
+    "title": "Senior Project Manager für digitale Verwaltungsprojekte - Migration und Inneres (all genders)",
+    "company": "Init Ag",
+    "location": {
+      "country": "GLOBAL",
+      "market": "global",
+      "scope": "unknown"
+    },
+    "certifications": [
+      {
+        "id": "prince2-foundation",
+        "requirement": "mentioned"
+      }
+    ],
+    "source": {
+      "name": "Arbeitnow",
+      "url": "https://www.arbeitnow.com/jobs/companies/init-ag/senior-project-manager-fur-digitale-verwaltungsprojekte-migration-und-inneres-all-genders-munchen-404599"
+    },
+    "postedAt": "2026-09-24",
+    "crawledAt": "2026-09-25T10:25:50.612Z"
+  },
+  {
+    "id": "arbeitnow_senior-project-manager-all-genders-munchen-223003",
+    "title": "Senior Project Manager (all genders)",
+    "company": "Init Ag",
+    "location": {
+      "country": "GLOBAL",
+      "market": "global",
+      "scope": "unknown"
+    },
+    "certifications": [
+      {
+        "id": "safe-agilist",
+        "requirement": "mentioned"
+      },
+      {
+        "id": "pmp",
+        "requirement": "mentioned"
+      },
+      {
+        "id": "prince2-foundation",
+        "requirement": "mentioned"
+      }
+    ],
+    "source": {
+      "name": "Arbeitnow",
+      "url": "https://www.arbeitnow.com/jobs/companies/init-ag/senior-project-manager-all-genders-munchen-223003"
+    },
+    "postedAt": "2026-09-24",
+    "crawledAt": "2026-09-25T10:25:50.612Z"
+  },
+  {
+    "id": "arbeitnow_senior-project-manager-all-genders-koln-132826",
+    "title": "Senior Project Manager (all genders)",
+    "company": "Init Ag",
+    "location": {
+      "country": "GLOBAL",
+      "market": "global",
+      "scope": "unknown"
+    },
+    "certifications": [
+      {
+        "id": "safe-agilist",
+        "requirement": "mentioned"
+      },
+      {
+        "id": "pmp",
+        "requirement": "mentioned"
+      },
+      {
+        "id": "prince2-foundation",
+        "requirement": "mentioned"
+      }
+    ],
+    "source": {
+      "name": "Arbeitnow",
+      "url": "https://www.arbeitnow.com/jobs/companies/init-ag/senior-project-manager-all-genders-koln-132826"
+    },
+    "postedAt": "2026-09-24",
+    "crawledAt": "2026-09-25T10:25:50.612Z"
+  },
+  {
+    "id": "arbeitnow_senior-project-manager-all-genders-mainz-132522",
+    "title": "Senior Project Manager (all genders)",
+    "company": "Init Ag",
+    "location": {
+      "country": "GLOBAL",
+      "market": "global",
+      "scope": "unknown"
+    },
+    "certifications": [
+      {
+        "id": "safe-agilist",
+        "requirement": "mentioned"
+      },
+      {
+        "id": "pmp",
+        "requirement": "mentioned"
+      },
+      {
+        "id": "prince2-foundation",
+        "requirement": "mentioned"
+      }
+    ],
+    "source": {
+      "name": "Arbeitnow",
+      "url": "https://www.arbeitnow.com/jobs/companies/init-ag/senior-project-manager-all-genders-mainz-132522"
+    },
+    "postedAt": "2026-09-24",
+    "crawledAt": "2026-09-25T10:25:50.612Z"
+  },
+  {
+    "id": "arbeitnow_senior-project-manager-all-genders-hamburg-173658",
+    "title": "Senior Project Manager (all genders)",
+    "company": "Init Ag",
+    "location": {
+      "country": "GLOBAL",
+      "market": "global",
+      "scope": "unknown"
+    },
+    "certifications": [
+      {
+        "id": "safe-agilist",
+        "requirement": "mentioned"
+      },
+      {
+        "id": "pmp",
+        "requirement": "mentioned"
+      },
+      {
+        "id": "prince2-foundation",
+        "requirement": "mentioned"
+      }
+    ],
+    "source": {
+      "name": "Arbeitnow",
+      "url": "https://www.arbeitnow.com/jobs/companies/init-ag/senior-project-manager-all-genders-hamburg-173658"
+    },
+    "postedAt": "2026-09-24",
+    "crawledAt": "2026-09-25T10:25:50.612Z"
+  },
+  {
+    "id": "arbeitnow_senior-project-manager-all-genders-berlin-96590",
+    "title": "Senior Project Manager (all genders)",
+    "company": "Init Ag",
+    "location": {
+      "country": "GLOBAL",
+      "market": "global",
+      "scope": "unknown"
+    },
+    "certifications": [
+      {
+        "id": "safe-agilist",
+        "requirement": "mentioned"
+      },
+      {
+        "id": "pmp",
+        "requirement": "mentioned"
+      },
+      {
+        "id": "prince2-foundation",
+        "requirement": "mentioned"
+      }
+    ],
+    "source": {
+      "name": "Arbeitnow",
+      "url": "https://www.arbeitnow.com/jobs/companies/init-ag/senior-project-manager-all-genders-berlin-96590"
+    },
+    "postedAt": "2026-09-24",
+    "crawledAt": "2026-09-25T10:25:50.612Z"
+  },
+  {
+    "id": "arbeitnow_senior-project-manager-all-genders-munchen-95505",
+    "title": "(Senior) Project Manager (all genders)",
+    "company": "Init Ag",
+    "location": {
+      "country": "GLOBAL",
+      "market": "global",
+      "scope": "unknown"
+    },
+    "certifications": [
+      {
+        "id": "prince2-foundation",
+        "requirement": "mentioned"
+      },
+      {
+        "id": "capm",
+        "requirement": "mentioned"
+      }
+    ],
+    "source": {
+      "name": "Arbeitnow",
+      "url": "https://www.arbeitnow.com/jobs/companies/init-ag/senior-project-manager-all-genders-munchen-95505"
+    },
+    "postedAt": "2026-09-24",
+    "crawledAt": "2026-09-25T10:25:50.612Z"
+  },
+  {
+    "id": "arbeitnow_senior-project-manager-all-genders-koln-351133",
+    "title": "(Senior) Project Manager (all genders)",
+    "company": "Init Ag",
+    "location": {
+      "country": "GLOBAL",
+      "market": "global",
+      "scope": "unknown"
+    },
+    "certifications": [
+      {
+        "id": "prince2-foundation",
+        "requirement": "mentioned"
+      },
+      {
+        "id": "capm",
+        "requirement": "mentioned"
+      }
+    ],
+    "source": {
+      "name": "Arbeitnow",
+      "url": "https://www.arbeitnow.com/jobs/companies/init-ag/senior-project-manager-all-genders-koln-351133"
+    },
+    "postedAt": "2026-09-24",
+    "crawledAt": "2026-09-25T10:25:50.612Z"
+  },
+  {
+    "id": "arbeitnow_senior-project-manager-all-genders-mainz-194428",
+    "title": "(Senior) Project Manager (all genders)",
+    "company": "Init Ag",
+    "location": {
+      "country": "GLOBAL",
+      "market": "global",
+      "scope": "unknown"
+    },
+    "certifications": [
+      {
+        "id": "prince2-foundation",
+        "requirement": "mentioned"
+      },
+      {
+        "id": "capm",
+        "requirement": "mentioned"
+      }
+    ],
+    "source": {
+      "name": "Arbeitnow",
+      "url": "https://www.arbeitnow.com/jobs/companies/init-ag/senior-project-manager-all-genders-mainz-194428"
+    },
+    "postedAt": "2026-09-24",
+    "crawledAt": "2026-09-25T10:25:50.612Z"
+  },
+  {
+    "id": "arbeitnow_senior-project-manager-all-genders-hamburg-60567",
+    "title": "(Senior) Project Manager (all genders)",
+    "company": "Init Ag",
+    "location": {
+      "country": "GLOBAL",
+      "market": "global",
+      "scope": "unknown"
+    },
+    "certifications": [
+      {
+        "id": "prince2-foundation",
+        "requirement": "mentioned"
+      },
+      {
+        "id": "capm",
+        "requirement": "mentioned"
+      }
+    ],
+    "source": {
+      "name": "Arbeitnow",
+      "url": "https://www.arbeitnow.com/jobs/companies/init-ag/senior-project-manager-all-genders-hamburg-60567"
+    },
+    "postedAt": "2026-09-24",
+    "crawledAt": "2026-09-25T10:25:50.612Z"
+  },
+  {
+    "id": "arbeitnow_senior-project-manager-all-genders-berlin-299916",
+    "title": "(Senior) Project Manager (all genders)",
+    "company": "Init Ag",
+    "location": {
+      "country": "GLOBAL",
+      "market": "global",
+      "scope": "unknown"
+    },
+    "certifications": [
+      {
+        "id": "prince2-foundation",
+        "requirement": "mentioned"
+      },
+      {
+        "id": "capm",
+        "requirement": "mentioned"
+      }
+    ],
+    "source": {
+      "name": "Arbeitnow",
+      "url": "https://www.arbeitnow.com/jobs/companies/init-ag/senior-project-manager-all-genders-berlin-299916"
+    },
+    "postedAt": "2026-09-24",
+    "crawledAt": "2026-09-25T10:25:50.612Z"
+  },
+  {
+    "id": "arbeitnow_it-projektmanager-essen-77938",
+    "title": "IT-Projektmanager (m/w/d)",
+    "company": "MESKRU GmbH",
+    "location": {
+      "country": "GLOBAL",
+      "market": "global",
+      "scope": "unknown"
+    },
+    "certifications": [
+      {
+        "id": "itil4-foundation",
+        "requirement": "mentioned"
+      },
+      {
+        "id": "psm-1",
+        "requirement": "mentioned"
+      },
+      {
+        "id": "prince2-foundation",
+        "requirement": "mentioned"
+      },
+      {
+        "id": "pmp",
+        "requirement": "mentioned"
+      }
+    ],
+    "source": {
+      "name": "Arbeitnow",
+      "url": "https://www.arbeitnow.com/jobs/companies/meskru-gmbh/it-projektmanager-essen-77938"
+    },
+    "postedAt": "2026-09-24",
+    "crawledAt": "2026-09-25T10:25:50.612Z"
+  },
+  {
+    "id": "arbeitnow_head-of-warehouse-projects-berlin-151640",
+    "title": "Head of Warehouse Projects",
+    "company": "Rohlik",
+    "location": {
+      "country": "GLOBAL",
+      "market": "global",
+      "scope": "unknown"
+    },
+    "certifications": [
+      {
+        "id": "prince2-foundation",
+        "requirement": "mentioned"
+      },
+      {
+        "id": "pmp",
+        "requirement": "mentioned"
+      }
+    ],
+    "source": {
+      "name": "Arbeitnow",
+      "url": "https://www.arbeitnow.com/jobs/companies/rohlik/head-of-warehouse-projects-berlin-151640"
+    },
+    "postedAt": "2026-09-24",
+    "crawledAt": "2026-09-25T10:25:50.612Z"
+  },
+  {
+    "id": "arbeitnow_senior-infrastructure-network-engineer-germany-germany-munich-31248",
+    "title": "Senior Infrastructure & Network Engineer - Germany",
+    "company": "Sungrow Europe - Welcome traveler!",
+    "location": {
+      "country": "GLOBAL",
+      "market": "global",
+      "scope": "unknown"
+    },
+    "certifications": [
+      {
+        "id": "az-104",
+        "requirement": "mentioned"
+      },
+      {
+        "id": "itil4-foundation",
+        "requirement": "mentioned"
+      },
+      {
+        "id": "ccna",
+        "requirement": "mentioned"
+      },
+      {
+        "id": "ccnp-enterprise",
+        "requirement": "mentioned"
+      }
+    ],
+    "source": {
+      "name": "Arbeitnow",
+      "url": "https://www.arbeitnow.com/jobs/companies/sungrow-europe-welcome-traveler/senior-infrastructure-network-engineer-germany-germany-munich-31248"
+    },
+    "postedAt": "2026-09-24",
+    "crawledAt": "2026-09-25T10:25:50.612Z"
+  },
+  {
+    "id": "arbeitnow_senior-platform-engineer-k8s-and-delivery-285584",
+    "title": "Senior Platform Engineer - K8s and Delivery (d/f/m)",
+    "company": "emnify",
+    "location": {
+      "country": "GLOBAL",
+      "market": "global",
+      "scope": "unknown"
+    },
+    "certifications": [
+      {
+        "id": "cka",
+        "requirement": "required"
+      },
+      {
+        "id": "cks",
+        "requirement": "preferred"
+      }
+    ],
+    "source": {
+      "name": "Arbeitnow",
+      "url": "https://www.arbeitnow.com/jobs/companies/emnify/senior-platform-engineer-k8s-and-delivery-285584"
+    },
+    "postedAt": "2026-09-24",
+    "crawledAt": "2026-09-25T10:25:50.612Z"
+  },
+  {
+    "id": "arbeitnow_revops-systems-manager-all-genders-munchen-191245",
+    "title": "RevOps Systems Manager (all genders)",
+    "company": "Wemolo",
+    "location": {
+      "country": "GLOBAL",
+      "market": "global",
+      "scope": "unknown"
+    },
+    "certifications": [
+      {
+        "id": "csm",
+        "requirement": "mentioned"
+      },
+      {
+        "id": "salesforce-admin",
+        "requirement": "mentioned"
+      }
+    ],
+    "source": {
+      "name": "Arbeitnow",
+      "url": "https://www.arbeitnow.com/jobs/companies/wemolo/revops-systems-manager-all-genders-munchen-191245"
+    },
+    "postedAt": "2026-09-24",
+    "crawledAt": "2026-09-25T10:25:50.612Z"
+  },
+  {
+    "id": "arbeitnow_senior-product-manager-software-solutions-munich-office-315983",
+    "title": "Senior Product Manager - Software Solutions",
+    "company": "Proglove",
+    "location": {
+      "country": "GLOBAL",
+      "market": "global",
+      "scope": "unknown"
+    },
+    "certifications": [
+      {
+        "id": "csm",
+        "requirement": "mentioned"
+      }
+    ],
+    "source": {
+      "name": "Arbeitnow",
+      "url": "https://www.arbeitnow.com/jobs/companies/proglove/senior-product-manager-software-solutions-munich-office-315983"
+    },
+    "postedAt": "2026-09-24",
+    "crawledAt": "2026-09-25T10:25:50.612Z"
+  },
+  {
+    "id": "arbeitnow_it-administrator-in-teilzeit-munich-165536",
+    "title": "IT-Administrator (m/w/d) (m/w/d) in Teilzeit",
+    "company": "Ecoturn GmbH",
+    "location": {
+      "country": "REMOTE",
+      "market": "remote"
+    },
+    "certifications": [
+      {
+        "id": "sc-300",
+        "requirement": "mentioned"
+      }
+    ],
+    "source": {
+      "name": "Arbeitnow",
+      "url": "https://www.arbeitnow.com/jobs/companies/ecoturn-gmbh/it-administrator-in-teilzeit-munich-165536"
+    },
+    "postedAt": "2026-09-24",
+    "crawledAt": "2026-09-25T10:25:50.612Z"
+  },
+  {
+    "id": "arbeitnow_remote-customer-success-architect-ceur-464606",
+    "title": "Customer Success Architect, CEUR",
+    "company": "gitlab",
+    "location": {
+      "country": "REMOTE",
+      "market": "remote"
+    },
+    "certifications": [
+      {
+        "id": "csm",
+        "requirement": "mentioned"
+      }
+    ],
+    "source": {
+      "name": "Arbeitnow",
+      "url": "https://www.arbeitnow.com/jobs/companies/gitlab/remote-customer-success-architect-ceur-464606"
+    },
+    "postedAt": "2026-09-24",
+    "crawledAt": "2026-09-25T10:25:50.612Z"
+  },
+  {
+    "id": "arbeitnow_isb-informationssicherheitsbeauftragter-rostock-347769",
+    "title": "ISB Informationssicherheitsbeauftragter (m/w/d)",
+    "company": "GECKO mbH",
+    "location": {
+      "country": "GLOBAL",
+      "market": "global",
+      "scope": "unknown"
+    },
+    "certifications": [
+      {
+        "id": "cissp",
+        "requirement": "mentioned"
+      },
+      {
+        "id": "cism",
+        "requirement": "mentioned"
+      }
+    ],
+    "source": {
+      "name": "Arbeitnow",
+      "url": "https://www.arbeitnow.com/jobs/companies/gecko-mbh/isb-informationssicherheitsbeauftragter-rostock-347769"
+    },
+    "postedAt": "2026-09-24",
+    "crawledAt": "2026-09-25T10:25:50.612Z"
+  },
+  {
+    "id": "arbeitnow_support-engineer-firewall-netzwerk-heidelberg-352891",
+    "title": "Support Engineer Firewall & Netzwerk (m/w/d)",
+    "company": "Medialine EuroTrade AG",
+    "location": {
+      "country": "GLOBAL",
+      "market": "global",
+      "scope": "unknown"
+    },
+    "certifications": [
+      {
+        "id": "ccna",
+        "requirement": "mentioned"
+      },
+      {
+        "id": "itil4-foundation",
+        "requirement": "mentioned"
+      }
+    ],
+    "source": {
+      "name": "Arbeitnow",
+      "url": "https://www.arbeitnow.com/jobs/companies/medialine-eurotrade-ag/support-engineer-firewall-netzwerk-heidelberg-352891"
+    },
+    "postedAt": "2026-09-24",
+    "crawledAt": "2026-09-25T10:25:50.612Z"
+  },
+  {
+    "id": "arbeitnow_senior-devops-engineer-berlin-401744",
+    "title": "Senior DevOps Engineer (m/f/d)",
+    "company": "Probis Software Gmbh",
+    "location": {
+      "country": "GLOBAL",
+      "market": "global",
+      "scope": "unknown"
+    },
+    "certifications": [
+      {
+        "id": "az-400",
+        "requirement": "mentioned"
+      }
+    ],
+    "source": {
+      "name": "Arbeitnow",
+      "url": "https://www.arbeitnow.com/jobs/companies/probis-software-gmbh/senior-devops-engineer-berlin-401744"
+    },
+    "postedAt": "2026-09-24",
+    "crawledAt": "2026-09-25T10:25:50.612Z"
+  },
+  {
+    "id": "arbeitnow_service-desk-mitarbeiter-heidelberg-83201",
+    "title": "Service Desk Mitarbeiter (m/w/d)",
+    "company": "Medialine EuroTrade AG",
+    "location": {
+      "country": "GLOBAL",
+      "market": "global",
+      "scope": "unknown"
+    },
+    "certifications": [
+      {
+        "id": "itil4-foundation",
+        "requirement": "mentioned"
+      }
+    ],
+    "source": {
+      "name": "Arbeitnow",
+      "url": "https://www.arbeitnow.com/jobs/companies/medialine-eurotrade-ag/service-desk-mitarbeiter-heidelberg-83201"
+    },
+    "postedAt": "2026-09-24",
+    "crawledAt": "2026-09-25T10:25:50.612Z"
+  },
+  {
+    "id": "arbeitnow_support-engineer-firewall-netzwerk-sobernheim-454141",
+    "title": "Support Engineer Firewall & Netzwerk (m/w/d)",
+    "company": "Medialine EuroTrade AG",
+    "location": {
+      "country": "GLOBAL",
+      "market": "global",
+      "scope": "unknown"
+    },
+    "certifications": [
+      {
+        "id": "ccna",
+        "requirement": "mentioned"
+      },
+      {
+        "id": "itil4-foundation",
+        "requirement": "mentioned"
+      }
+    ],
+    "source": {
+      "name": "Arbeitnow",
+      "url": "https://www.arbeitnow.com/jobs/companies/medialine-eurotrade-ag/support-engineer-firewall-netzwerk-sobernheim-454141"
+    },
+    "postedAt": "2026-09-24",
+    "crawledAt": "2026-09-25T10:25:50.612Z"
+  },
+  {
+    "id": "arbeitnow_service-desk-mitarbeiter-sobernheim-273956",
+    "title": "Service Desk Mitarbeiter (m/w/d)",
+    "company": "Medialine EuroTrade AG",
+    "location": {
+      "country": "GLOBAL",
+      "market": "global",
+      "scope": "unknown"
+    },
+    "certifications": [
+      {
+        "id": "itil4-foundation",
+        "requirement": "mentioned"
+      }
+    ],
+    "source": {
+      "name": "Arbeitnow",
+      "url": "https://www.arbeitnow.com/jobs/companies/medialine-eurotrade-ag/service-desk-mitarbeiter-sobernheim-273956"
+    },
+    "postedAt": "2026-09-24",
+    "crawledAt": "2026-09-25T10:25:50.612Z"
+  },
+  {
+    "id": "arbeitnow_anwendungs-supporter-in-fur-kivan-leipzig-431284",
+    "title": "Anwendungs-Supporter/in für KIVAN (w/m/d)",
+    "company": "Lecos GmbH",
+    "location": {
+      "country": "GLOBAL",
+      "market": "global",
+      "scope": "unknown"
+    },
+    "certifications": [
+      {
+        "id": "itil4-foundation",
+        "requirement": "mentioned"
+      }
+    ],
+    "source": {
+      "name": "Arbeitnow",
+      "url": "https://www.arbeitnow.com/jobs/companies/lecos-gmbh/anwendungs-supporter-in-fur-kivan-leipzig-431284"
+    },
+    "postedAt": "2026-09-24",
+    "crawledAt": "2026-09-25T10:25:50.612Z"
+  },
+  {
+    "id": "arbeitnow_senior-test-manager-teststrategie-qa-it-consulting-hamburg-293862",
+    "title": "Senior Test Manager (m/w/d) Teststrategie, QA & IT Consulting",
+    "company": "Nelta GmbH",
+    "location": {
+      "country": "GLOBAL",
+      "market": "global",
+      "scope": "unknown"
+    },
+    "certifications": [
+      {
+        "id": "istqb-ctal-tm",
+        "requirement": "preferred"
+      }
+    ],
+    "source": {
+      "name": "Arbeitnow",
+      "url": "https://www.arbeitnow.com/jobs/companies/nelta-gmbh/senior-test-manager-teststrategie-qa-it-consulting-hamburg-293862"
+    },
+    "postedAt": "2026-09-24",
+    "crawledAt": "2026-09-25T10:25:50.612Z"
+  },
+  {
+    "id": "himalayas_companies_bright-vision-technologies_jobs_cloud-network-engineer-8250803874",
+    "title": "Cloud Network Engineer",
+    "company": "Bright Vision Technologies",
+    "location": {
+      "country": "REMOTE",
+      "market": "remote",
+      "scope": "unknown"
+    },
+    "certifications": [
+      {
+        "id": "az-700",
+        "requirement": "mentioned"
+      },
+      {
+        "id": "aws-ans",
+        "requirement": "mentioned"
+      }
+    ],
+    "source": {
+      "name": "Himalayas",
+      "url": "https://himalayas.app/companies/bright-vision-technologies/jobs/cloud-network-engineer-8250803874"
+    },
+    "postedAt": "2026-09-25",
+    "crawledAt": "2026-09-25T10:25:50.612Z"
+  },
+  {
+    "id": "himalayas_companies_bright-vision-technologies_jobs_azure-platform-engineer-4424197445",
+    "title": "Azure Platform Engineer",
+    "company": "Bright Vision Technologies",
+    "location": {
+      "country": "REMOTE",
+      "market": "remote",
+      "scope": "unknown"
+    },
+    "certifications": [
+      {
+        "id": "az-400",
+        "requirement": "mentioned"
+      },
+      {
+        "id": "az-305",
+        "requirement": "mentioned"
+      }
+    ],
+    "source": {
+      "name": "Himalayas",
+      "url": "https://himalayas.app/companies/bright-vision-technologies/jobs/azure-platform-engineer-4424197445"
+    },
+    "postedAt": "2026-09-25",
+    "crawledAt": "2026-09-25T10:25:50.612Z"
+  },
+  {
+    "id": "himalayas_companies_cyntegrity_jobs_qa-engineer-validation-automation-cet-2h-remote",
+    "title": "QA Engineer – Validation & Automation (CET ±2h | Remote)",
+    "company": "Cyntegrity",
+    "location": {
+      "country": "REMOTE",
+      "market": "remote",
+      "scope": "unknown"
+    },
+    "certifications": [
+      {
+        "id": "istqb-ct-tae",
+        "requirement": "mentioned"
+      }
+    ],
+    "source": {
+      "name": "Himalayas",
+      "url": "https://himalayas.app/companies/cyntegrity/jobs/qa-engineer-validation-automation-cet-2h-remote"
+    },
+    "postedAt": "2026-09-25",
+    "crawledAt": "2026-09-25T10:25:50.612Z"
+  },
+  {
+    "id": "himalayas_companies_bright-vision-technologies_jobs_appsec-engineer-5641870675",
+    "title": "AppSec Engineer",
+    "company": "Bright Vision Technologies",
+    "location": {
+      "country": "REMOTE",
+      "market": "remote",
+      "scope": "unknown"
+    },
+    "certifications": [
+      {
+        "id": "cissp",
+        "requirement": "mentioned"
+      },
+      {
+        "id": "oscp",
+        "requirement": "mentioned"
+      }
+    ],
+    "source": {
+      "name": "Himalayas",
+      "url": "https://himalayas.app/companies/bright-vision-technologies/jobs/appsec-engineer-5641870675"
+    },
+    "postedAt": "2026-09-25",
+    "crawledAt": "2026-09-25T10:25:50.612Z"
+  },
+  {
+    "id": "himalayas_companies_indiekidz_jobs_software-test-qa-automation-engineer-mandatory-internship-unpaid",
+    "title": "Software Test (QA) Automation Engineer - Mandatory Internship (Unpaid)",
+    "company": "IndieKidz",
+    "location": {
+      "country": "REMOTE",
+      "market": "remote",
+      "scope": "unknown"
+    },
+    "certifications": [
+      {
+        "id": "istqb-ct-tae",
+        "requirement": "mentioned"
+      }
+    ],
+    "source": {
+      "name": "Himalayas",
+      "url": "https://himalayas.app/companies/indiekidz/jobs/software-test-qa-automation-engineer-mandatory-internship-unpaid"
+    },
+    "postedAt": "2026-09-25",
+    "crawledAt": "2026-09-25T10:25:50.612Z"
+  },
+  {
+    "id": "himalayas_companies_celerity-consulting-group_jobs_senior-manager-practice-operations",
+    "title": "Senior Manager, Practice Operations",
+    "company": "Celerity Consulting Group",
+    "location": {
+      "country": "REMOTE",
+      "market": "remote",
+      "scope": "unknown"
+    },
+    "certifications": [
+      {
+        "id": "pmi-acp",
+        "requirement": "mentioned"
+      },
+      {
+        "id": "itil4-foundation",
+        "requirement": "mentioned"
+      },
+      {
+        "id": "pmp",
+        "requirement": "mentioned"
+      }
+    ],
+    "source": {
+      "name": "Himalayas",
+      "url": "https://himalayas.app/companies/celerity-consulting-group/jobs/senior-manager-practice-operations"
+    },
+    "postedAt": "2026-09-25",
+    "crawledAt": "2026-09-25T10:25:50.612Z"
+  },
+  {
+    "id": "himalayas_companies_beyond20_jobs_servicenow-business-process-consultant",
+    "title": "ServiceNow Business Process Consultant",
+    "company": "Beyond20",
+    "location": {
+      "country": "REMOTE",
+      "market": "remote",
+      "scope": "unknown"
+    },
+    "certifications": [
+      {
+        "id": "itil4-foundation",
+        "requirement": "preferred"
+      },
+      {
+        "id": "csm",
+        "requirement": "mentioned"
+      }
+    ],
+    "source": {
+      "name": "Himalayas",
+      "url": "https://himalayas.app/companies/beyond20/jobs/servicenow-business-process-consultant"
+    },
+    "postedAt": "2026-09-25",
+    "crawledAt": "2026-09-25T10:25:50.612Z"
+  },
+  {
+    "id": "himalayas_companies_oxomio_jobs_contador-y-analista-financiero",
+    "title": "Contador y Analista Financiero",
+    "company": "Oxomio",
+    "location": {
+      "country": "REMOTE",
+      "market": "remote",
+      "scope": "unknown"
+    },
+    "certifications": [
+      {
+        "id": "gcp-ace",
+        "requirement": "mentioned"
+      }
+    ],
+    "source": {
+      "name": "Himalayas",
+      "url": "https://himalayas.app/companies/oxomio/jobs/contador-y-analista-financiero"
+    },
+    "postedAt": "2026-09-25",
+    "crawledAt": "2026-09-25T10:25:50.612Z"
+  },
+  {
+    "id": "himalayas_companies_paralucent_jobs_scrum-master-agile-safe-methodology-pl6292",
+    "title": "Scrum Master – Agile & SAFe Methodology (PL6292)",
+    "company": "Paralucent",
+    "location": {
+      "country": "REMOTE",
+      "market": "remote",
+      "scope": "unknown"
+    },
+    "certifications": [
+      {
+        "id": "psm-1",
+        "requirement": "mentioned"
+      },
+      {
+        "id": "csm",
+        "requirement": "mentioned"
+      },
+      {
+        "id": "safe-agilist",
+        "requirement": "mentioned"
+      }
+    ],
+    "source": {
+      "name": "Himalayas",
+      "url": "https://himalayas.app/companies/paralucent/jobs/scrum-master-agile-safe-methodology-pl6292"
+    },
+    "postedAt": "2026-09-25",
+    "crawledAt": "2026-09-25T10:25:50.612Z"
+  },
+  {
+    "id": "greenhouse_cloudflare_8064055",
+    "title": "Insider Threat Engineer",
+    "company": "Cloudflare",
+    "location": {
+      "country": "GLOBAL",
+      "market": "global",
+      "scope": "unknown"
+    },
+    "certifications": [
+      {
+        "id": "gcih",
+        "requirement": "mentioned"
+      }
+    ],
+    "source": {
+      "name": "Greenhouse",
+      "url": "https://boards.greenhouse.io/cloudflare/jobs/8064055?gh_jid=8064055"
+    },
+    "postedAt": "2026-09-04",
+    "crawledAt": "2026-09-25T10:25:50.612Z"
+  },
+  {
+    "id": "greenhouse_cloudflare_7535803",
+    "title": "IT Asset Manager",
+    "company": "Cloudflare",
+    "location": {
+      "country": "GLOBAL",
+      "market": "global",
+      "scope": "unknown"
+    },
+    "certifications": [
+      {
+        "id": "itil4-foundation",
+        "requirement": "mentioned"
+      }
+    ],
+    "source": {
+      "name": "Greenhouse",
+      "url": "https://boards.greenhouse.io/cloudflare/jobs/7535803?gh_jid=7535803"
+    },
+    "postedAt": "2026-09-17",
+    "crawledAt": "2026-09-25T10:25:50.612Z"
+  },
+  {
+    "id": "greenhouse_cloudflare_8222732",
+    "title": "Response Engineer - Cloudflare Managed Defense Center (CMDC)",
+    "company": "Cloudflare",
+    "location": {
+      "country": "GLOBAL",
+      "market": "global",
+      "scope": "unknown"
+    },
+    "certifications": [
+      {
+        "id": "ccna",
+        "requirement": "preferred"
+      },
+      {
+        "id": "ccnp-enterprise",
+        "requirement": "preferred"
+      },
+      {
+        "id": "gcih",
+        "requirement": "preferred"
+      }
+    ],
+    "source": {
+      "name": "Greenhouse",
+      "url": "https://boards.greenhouse.io/cloudflare/jobs/8222732?gh_jid=8222732"
+    },
+    "postedAt": "2026-09-24",
+    "crawledAt": "2026-09-25T10:25:50.612Z"
+  },
+  {
+    "id": "greenhouse_cloudflare_8212368",
+    "title": "Senior Project Manager, Professional Services ",
+    "company": "Cloudflare",
+    "location": {
+      "country": "GLOBAL",
+      "market": "global",
+      "scope": "unknown"
+    },
+    "certifications": [
+      {
+        "id": "prince2-foundation",
+        "requirement": "preferred"
+      },
+      {
+        "id": "pmp",
+        "requirement": "preferred"
+      }
+    ],
+    "source": {
+      "name": "Greenhouse",
+      "url": "https://boards.greenhouse.io/cloudflare/jobs/8212368?gh_jid=8212368"
+    },
+    "postedAt": "2026-09-23",
+    "crawledAt": "2026-09-25T10:25:50.612Z"
+  },
+  {
+    "id": "greenhouse_cloudflare_8201957",
+    "title": "Senior Solutions Architect, Cloudflare Developer Platform ",
+    "company": "Cloudflare",
+    "location": {
+      "country": "GLOBAL",
+      "market": "global",
+      "scope": "unknown"
+    },
+    "certifications": [
+      {
+        "id": "aws-saa",
+        "requirement": "mentioned"
+      }
+    ],
+    "source": {
+      "name": "Greenhouse",
+      "url": "https://boards.greenhouse.io/cloudflare/jobs/8201957?gh_jid=8201957"
+    },
+    "postedAt": "2026-09-22",
+    "crawledAt": "2026-09-25T10:25:50.612Z"
+  },
+  {
+    "id": "greenhouse_elastic_8047349",
+    "title": "Platform Engineer - Kubernetes",
+    "company": "Elastic",
+    "location": {
+      "country": "GLOBAL",
+      "market": "global",
+      "scope": "unknown"
+    },
+    "certifications": [
+      {
+        "id": "kcna",
+        "requirement": "mentioned"
+      }
+    ],
+    "source": {
+      "name": "Greenhouse",
+      "url": "https://jobs.elastic.co/jobs?gh_jid=8047349&gh_jid=8047349"
+    },
+    "postedAt": "2026-09-10",
+    "crawledAt": "2026-09-25T10:25:50.612Z"
+  },
+  {
+    "id": "greenhouse_okta_8125465",
+    "title": "Associate Customer Success Enablement Manager - EMEA",
+    "company": "Okta",
+    "location": {
+      "country": "GLOBAL",
+      "market": "global",
+      "scope": "unknown"
+    },
+    "certifications": [
+      {
+        "id": "csm",
+        "requirement": "required"
+      }
+    ],
+    "source": {
+      "name": "Greenhouse",
+      "url": "https://www.okta.com/company/careers/opportunity/8125465?gh_jid=8125465"
+    },
+    "postedAt": "2026-09-22",
+    "crawledAt": "2026-09-25T10:25:50.612Z"
+  },
+  {
+    "id": "greenhouse_okta_8226936",
+    "title": "Program Manager, Services Solutions & Delivery Acceleration",
+    "company": "Okta",
+    "location": {
+      "country": "GLOBAL",
+      "market": "global",
+      "scope": "unknown"
+    },
+    "certifications": [
+      {
+        "id": "pmp",
+        "requirement": "mentioned"
+      }
+    ],
+    "source": {
+      "name": "Greenhouse",
+      "url": "https://www.okta.com/company/careers/opportunity/8226936?gh_jid=8226936"
+    },
+    "postedAt": "2026-09-24",
+    "crawledAt": "2026-09-25T10:25:50.612Z"
+  },
+  {
+    "id": "greenhouse_okta_8164066",
+    "title": "Senior Product Manager, Product Platform",
+    "company": "Okta",
+    "location": {
+      "country": "GLOBAL",
+      "market": "global",
+      "scope": "unknown"
+    },
+    "certifications": [
+      {
+        "id": "csm",
+        "requirement": "required"
+      }
+    ],
+    "source": {
+      "name": "Greenhouse",
+      "url": "https://www.okta.com/company/careers/opportunity/8164066?gh_jid=8164066"
+    },
+    "postedAt": "2026-09-21",
+    "crawledAt": "2026-09-25T10:25:50.612Z"
+  },
+  {
+    "id": "greenhouse_okta_8190028",
+    "title": "Staff DevSecOps Engineer (TS/SCI)",
+    "company": "Okta",
+    "location": {
+      "country": "GLOBAL",
+      "market": "global",
+      "scope": "unknown"
+    },
+    "certifications": [
+      {
+        "id": "cisa",
+        "requirement": "preferred"
+      }
+    ],
+    "source": {
+      "name": "Greenhouse",
+      "url": "https://www.okta.com/company/careers/opportunity/8190028?gh_jid=8190028"
+    },
+    "postedAt": "2026-09-21",
+    "crawledAt": "2026-09-25T10:25:50.612Z"
+  },
+  {
+    "id": "greenhouse_okta_7917957",
+    "title": "Staff Product Analyst, Finance Technologies",
+    "company": "Okta",
+    "location": {
+      "country": "GLOBAL",
+      "market": "global",
+      "scope": "unknown"
+    },
+    "certifications": [
+      {
+        "id": "cspo",
+        "requirement": "preferred"
+      },
+      {
+        "id": "cbap",
+        "requirement": "preferred"
+      }
+    ],
+    "source": {
+      "name": "Greenhouse",
+      "url": "https://www.okta.com/company/careers/opportunity/7917957?gh_jid=7917957"
+    },
+    "postedAt": "2026-09-21",
+    "crawledAt": "2026-09-25T10:25:50.612Z"
+  },
+  {
+    "id": "greenhouse_okta_8102892",
+    "title": "Staff Software Engineer, macOS",
+    "company": "Okta",
+    "location": {
+      "country": "GLOBAL",
+      "market": "global",
+      "scope": "unknown"
+    },
+    "certifications": [
+      {
+        "id": "security-plus",
+        "requirement": "mentioned"
+      },
+      {
+        "id": "cissp",
+        "requirement": "mentioned"
+      }
+    ],
+    "source": {
+      "name": "Greenhouse",
+      "url": "https://www.okta.com/company/careers/opportunity/8102892?gh_jid=8102892"
+    },
+    "postedAt": "2026-09-24",
+    "crawledAt": "2026-09-25T10:25:50.612Z"
+  },
+  {
+    "id": "greenhouse_okta_8201733",
+    "title": "Technical Architect, Auth0",
+    "company": "Okta",
+    "location": {
+      "country": "GLOBAL",
+      "market": "global",
+      "scope": "unknown"
+    },
+    "certifications": [
+      {
+        "id": "cissp",
+        "requirement": "preferred"
+      }
+    ],
+    "source": {
+      "name": "Greenhouse",
+      "url": "https://www.okta.com/company/careers/opportunity/8201733?gh_jid=8201733"
+    },
+    "postedAt": "2026-09-23",
+    "crawledAt": "2026-09-25T10:25:50.612Z"
+  },
+  {
+    "id": "greenhouse_databricks_8802705002",
+    "title": "Program Manager, Public Sector (Commercial Legal)",
+    "company": "Databricks",
+    "location": {
+      "country": "GLOBAL",
+      "market": "global",
+      "scope": "unknown"
+    },
+    "certifications": [
+      {
+        "id": "pmp",
+        "requirement": "preferred"
+      }
+    ],
+    "source": {
+      "name": "Greenhouse",
+      "url": "https://databricks.com/company/careers/open-positions/job?gh_jid=8802705002"
+    },
+    "postedAt": "2026-09-22",
+    "crawledAt": "2026-09-25T10:25:50.612Z"
+  },
+  {
+    "id": "greenhouse_databricks_8470847002",
+    "title": "Sr. Manager, Security — Continuous Monitoring v 2.0 ",
+    "company": "Databricks",
+    "location": {
+      "country": "REMOTE",
+      "market": "remote"
+    },
+    "certifications": [
+      {
+        "id": "cissp",
+        "requirement": "mentioned"
+      },
+      {
+        "id": "cism",
+        "requirement": "mentioned"
+      },
+      {
+        "id": "cisa",
+        "requirement": "mentioned"
+      }
+    ],
+    "source": {
+      "name": "Greenhouse",
+      "url": "https://databricks.com/company/careers/open-positions/job?gh_jid=8470847002"
+    },
+    "postedAt": "2026-09-21",
+    "crawledAt": "2026-09-25T10:25:50.612Z"
+  },
+  {
+    "id": "greenhouse_databricks_8648496002",
+    "title": "Technical Program Manager, FDE",
+    "company": "Databricks",
+    "location": {
+      "country": "GLOBAL",
+      "market": "global",
+      "scope": "unknown"
+    },
+    "certifications": [
+      {
+        "id": "pmp",
+        "requirement": "required"
+      }
+    ],
+    "source": {
+      "name": "Greenhouse",
+      "url": "https://databricks.com/company/careers/open-positions/job?gh_jid=8648496002"
+    },
+    "postedAt": "2026-09-22",
+    "crawledAt": "2026-09-25T10:25:50.612Z"
+  },
+  {
+    "id": "greenhouse_gitlab_8785825002",
+    "title": "Associate Renewals Manager",
+    "company": "GitLab",
+    "location": {
+      "country": "REMOTE",
+      "market": "remote"
+    },
+    "certifications": [
+      {
+        "id": "csm",
+        "requirement": "mentioned"
+      }
+    ],
+    "source": {
+      "name": "Greenhouse",
+      "url": "https://job-boards.greenhouse.io/gitlab/jobs/8785825002"
+    },
+    "postedAt": "2026-09-14",
+    "crawledAt": "2026-09-25T10:25:50.612Z"
+  },
+  {
+    "id": "greenhouse_gitlab_8646852002",
+    "title": "Customer Success Architect, CEUR",
+    "company": "GitLab",
+    "location": {
+      "country": "REMOTE",
+      "market": "remote"
+    },
+    "certifications": [
+      {
+        "id": "csm",
+        "requirement": "mentioned"
+      }
+    ],
+    "source": {
+      "name": "Greenhouse",
+      "url": "https://job-boards.greenhouse.io/gitlab/jobs/8646852002"
+    },
+    "postedAt": "2026-09-14",
+    "crawledAt": "2026-09-25T10:25:50.612Z"
+  },
+  {
+    "id": "greenhouse_gitlab_8522265002",
+    "title": "Forward Deployed Engineer - EMEA",
+    "company": "GitLab",
+    "location": {
+      "country": "REMOTE",
+      "market": "remote"
+    },
+    "certifications": [
+      {
+        "id": "csm",
+        "requirement": "mentioned"
+      }
+    ],
+    "source": {
+      "name": "Greenhouse",
+      "url": "https://job-boards.greenhouse.io/gitlab/jobs/8522265002"
+    },
+    "postedAt": "2026-09-14",
+    "crawledAt": "2026-09-25T10:25:50.612Z"
+  },
+  {
+    "id": "greenhouse_gitlab_8687026002",
+    "title": "Intermediate Support Engineer",
+    "company": "GitLab",
+    "location": {
+      "country": "GLOBAL",
+      "market": "global",
+      "scope": "unknown"
+    },
+    "certifications": [
+      {
+        "id": "rhce",
+        "requirement": "mentioned"
+      }
+    ],
+    "source": {
+      "name": "Greenhouse",
+      "url": "https://job-boards.greenhouse.io/gitlab/jobs/8687026002"
+    },
+    "postedAt": "2026-09-14",
+    "crawledAt": "2026-09-25T10:25:50.612Z"
+  },
+  {
+    "id": "greenhouse_gitlab_8684061002",
+    "title": "Intermediate Support Engineer (SHIFT) ",
+    "company": "GitLab",
+    "location": {
+      "country": "REMOTE",
+      "market": "remote"
+    },
+    "certifications": [
+      {
+        "id": "rhce",
+        "requirement": "mentioned"
+      }
+    ],
+    "source": {
+      "name": "Greenhouse",
+      "url": "https://job-boards.greenhouse.io/gitlab/jobs/8684061002"
+    },
+    "postedAt": "2026-09-14",
+    "crawledAt": "2026-09-25T10:25:50.612Z"
+  },
+  {
+    "id": "greenhouse_gitlab_8613199002",
+    "title": "Manager, Customer Success Managers, EMEA",
+    "company": "GitLab",
+    "location": {
+      "country": "REMOTE",
+      "market": "remote"
+    },
+    "certifications": [
+      {
+        "id": "csm",
+        "requirement": "mentioned"
+      }
+    ],
+    "source": {
+      "name": "Greenhouse",
+      "url": "https://job-boards.greenhouse.io/gitlab/jobs/8613199002"
+    },
+    "postedAt": "2026-09-14",
+    "crawledAt": "2026-09-25T10:25:50.612Z"
+  },
+  {
+    "id": "greenhouse_gitlab_8709925002",
+    "title": "Senior Assigned Support Engineer (AMER)",
+    "company": "GitLab",
+    "location": {
+      "country": "REMOTE",
+      "market": "remote"
+    },
+    "certifications": [
+      {
+        "id": "rhce",
+        "requirement": "mentioned"
+      }
+    ],
+    "source": {
+      "name": "Greenhouse",
+      "url": "https://job-boards.greenhouse.io/gitlab/jobs/8709925002"
+    },
+    "postedAt": "2026-09-14",
+    "crawledAt": "2026-09-25T10:25:50.612Z"
+  },
+  {
+    "id": "greenhouse_gitlab_8645825002",
+    "title": "Senior Assigned Support Engineer (EMEA)",
+    "company": "GitLab",
+    "location": {
+      "country": "REMOTE",
+      "market": "remote"
+    },
+    "certifications": [
+      {
+        "id": "rhce",
+        "requirement": "mentioned"
+      }
+    ],
+    "source": {
+      "name": "Greenhouse",
+      "url": "https://job-boards.greenhouse.io/gitlab/jobs/8645825002"
+    },
+    "postedAt": "2026-09-14",
+    "crawledAt": "2026-09-25T10:25:50.612Z"
+  },
+  {
+    "id": "greenhouse_gitlab_8701290002",
+    "title": "Senior Assigned Support Engineer (EMEA)",
+    "company": "GitLab",
+    "location": {
+      "country": "REMOTE",
+      "market": "remote"
+    },
+    "certifications": [
+      {
+        "id": "rhce",
+        "requirement": "mentioned"
+      }
+    ],
+    "source": {
+      "name": "Greenhouse",
+      "url": "https://job-boards.greenhouse.io/gitlab/jobs/8701290002"
+    },
+    "postedAt": "2026-09-14",
+    "crawledAt": "2026-09-25T10:25:50.612Z"
+  },
+  {
+    "id": "greenhouse_gitlab_8604996002",
+    "title": "Senior Customer Success Operations Manager   ",
+    "company": "GitLab",
+    "location": {
+      "country": "REMOTE",
+      "market": "remote"
+    },
+    "certifications": [
+      {
+        "id": "csm",
+        "requirement": "mentioned"
+      }
+    ],
+    "source": {
+      "name": "Greenhouse",
+      "url": "https://job-boards.greenhouse.io/gitlab/jobs/8604996002"
+    },
+    "postedAt": "2026-09-14",
+    "crawledAt": "2026-09-25T10:25:50.612Z"
+  },
+  {
+    "id": "greenhouse_gitlab_8512432002",
+    "title": "Staff Forward Deployed Engineer",
+    "company": "GitLab",
+    "location": {
+      "country": "REMOTE",
+      "market": "remote"
+    },
+    "certifications": [
+      {
+        "id": "csm",
+        "requirement": "mentioned"
+      }
+    ],
+    "source": {
+      "name": "Greenhouse",
+      "url": "https://job-boards.greenhouse.io/gitlab/jobs/8512432002"
+    },
+    "postedAt": "2026-09-14",
+    "crawledAt": "2026-09-25T10:25:50.612Z"
+  },
+  {
+    "id": "greenhouse_gitlab_8782153002",
+    "title": "Staff Security Researcher ",
+    "company": "GitLab",
+    "location": {
+      "country": "REMOTE",
+      "market": "remote"
+    },
+    "certifications": [
+      {
+        "id": "oscp",
+        "requirement": "mentioned"
+      }
+    ],
+    "source": {
+      "name": "Greenhouse",
+      "url": "https://job-boards.greenhouse.io/gitlab/jobs/8782153002"
+    },
+    "postedAt": "2026-09-14",
+    "crawledAt": "2026-09-25T10:25:50.612Z"
+  },
+  {
+    "id": "greenhouse_gitlab_8654230002",
+    "title": "Support Engineer (AMER)",
+    "company": "GitLab",
+    "location": {
+      "country": "REMOTE",
+      "market": "remote"
+    },
+    "certifications": [
+      {
+        "id": "rhce",
+        "requirement": "mentioned"
+      }
+    ],
+    "source": {
+      "name": "Greenhouse",
+      "url": "https://job-boards.greenhouse.io/gitlab/jobs/8654230002"
+    },
+    "postedAt": "2026-09-14",
+    "crawledAt": "2026-09-25T10:25:50.612Z"
+  },
+  {
+    "id": "greenhouse_coinbase_8154270",
+    "title": "Engineer Manager, HR Applications",
+    "company": "Coinbase",
+    "location": {
+      "country": "REMOTE",
+      "market": "remote"
+    },
+    "certifications": [
+      {
+        "id": "itil4-foundation",
+        "requirement": "mentioned"
+      }
+    ],
+    "source": {
+      "name": "Greenhouse",
+      "url": "https://www.coinbase.com/careers/positions/8154270?gh_jid=8154270"
+    },
+    "postedAt": "2026-09-11",
+    "crawledAt": "2026-09-25T10:25:50.612Z"
+  },
+  {
+    "id": "greenhouse_coinbase_8097292",
+    "title": "Internal Audit Manager",
+    "company": "Coinbase",
+    "location": {
+      "country": "REMOTE",
+      "market": "remote"
+    },
+    "certifications": [
+      {
+        "id": "cisa",
+        "requirement": "mentioned"
+      }
+    ],
+    "source": {
+      "name": "Greenhouse",
+      "url": "https://www.coinbase.com/careers/positions/8097292?gh_jid=8097292"
+    },
+    "postedAt": "2026-07-30",
+    "crawledAt": "2026-09-25T10:25:50.612Z"
+  },
+  {
+    "id": "greenhouse_samsara_7743690",
+    "title": "Manager I, Customer Success",
+    "company": "Samsara",
+    "location": {
+      "country": "REMOTE",
+      "market": "remote"
+    },
+    "certifications": [
+      {
+        "id": "csm",
+        "requirement": "mentioned"
+      }
+    ],
+    "source": {
+      "name": "Greenhouse",
+      "url": "https://www.samsara.com/company/careers/roles/7743690?gh_jid=7743690"
+    },
+    "postedAt": "2026-09-24",
+    "crawledAt": "2026-09-25T10:25:50.612Z"
+  },
+  {
+    "id": "greenhouse_samsara_8068523",
+    "title": "Manager I, Customer Success Manager",
+    "company": "Samsara",
+    "location": {
+      "country": "REMOTE",
+      "market": "remote"
+    },
+    "certifications": [
+      {
+        "id": "csm",
+        "requirement": "mentioned"
+      }
+    ],
+    "source": {
+      "name": "Greenhouse",
+      "url": "https://www.samsara.com/company/careers/roles/8068523?gh_jid=8068523"
+    },
+    "postedAt": "2026-09-24",
+    "crawledAt": "2026-09-25T10:25:50.612Z"
+  },
+  {
+    "id": "greenhouse_samsara_7589197",
+    "title": "Manager II, Customer Success",
+    "company": "Samsara",
+    "location": {
+      "country": "REMOTE",
+      "market": "remote"
+    },
+    "certifications": [
+      {
+        "id": "csm",
+        "requirement": "mentioned"
+      }
+    ],
+    "source": {
+      "name": "Greenhouse",
+      "url": "https://www.samsara.com/company/careers/roles/7589197?gh_jid=7589197"
+    },
+    "postedAt": "2026-09-24",
+    "crawledAt": "2026-09-25T10:25:50.612Z"
+  },
+  {
+    "id": "greenhouse_samsara_7487344",
+    "title": "Manager II, Customer Success",
+    "company": "Samsara",
+    "location": {
+      "country": "REMOTE",
+      "market": "remote"
+    },
+    "certifications": [
+      {
+        "id": "csm",
+        "requirement": "mentioned"
+      }
+    ],
+    "source": {
+      "name": "Greenhouse",
+      "url": "https://www.samsara.com/company/careers/roles/7487344?gh_jid=7487344"
+    },
+    "postedAt": "2026-09-24",
+    "crawledAt": "2026-09-25T10:25:50.612Z"
+  },
+  {
+    "id": "greenhouse_samsara_7555217",
+    "title": "Sales Operations Manager",
+    "company": "Samsara",
+    "location": {
+      "country": "REMOTE",
+      "market": "remote"
+    },
+    "certifications": [
+      {
+        "id": "salesforce-admin",
+        "requirement": "required"
+      }
+    ],
+    "source": {
+      "name": "Greenhouse",
+      "url": "https://www.samsara.com/company/careers/roles/7555217?gh_jid=7555217"
+    },
+    "postedAt": "2026-09-24",
+    "crawledAt": "2026-09-25T10:25:50.612Z"
+  },
+  {
+    "id": "greenhouse_samsara_8171920",
+    "title": "Senior AI Security Research Engineer",
+    "company": "Samsara",
+    "location": {
+      "country": "REMOTE",
+      "market": "remote"
+    },
+    "certifications": [
+      {
+        "id": "cissp",
+        "requirement": "mentioned"
+      },
+      {
+        "id": "oscp",
+        "requirement": "mentioned"
+      }
+    ],
+    "source": {
+      "name": "Greenhouse",
+      "url": "https://www.samsara.com/company/careers/roles/8171920?gh_jid=8171920"
+    },
+    "postedAt": "2026-09-24",
+    "crawledAt": "2026-09-25T10:25:50.612Z"
+  },
+  {
+    "id": "greenhouse_samsara_8038153",
+    "title": "Senior Security Operations Engineer",
+    "company": "Samsara",
+    "location": {
+      "country": "GLOBAL",
+      "market": "global",
+      "scope": "unknown"
+    },
+    "certifications": [
+      {
+        "id": "gcih",
+        "requirement": "mentioned"
+      }
+    ],
+    "source": {
+      "name": "Greenhouse",
+      "url": "https://www.samsara.com/company/careers/roles/8038153?gh_jid=8038153"
+    },
+    "postedAt": "2026-09-24",
+    "crawledAt": "2026-09-25T10:25:50.612Z"
+  },
+  {
+    "id": "greenhouse_samsara_8223613",
+    "title": "Senior Security Operations Engineer",
+    "company": "Samsara",
+    "location": {
+      "country": "REMOTE",
+      "market": "remote"
+    },
+    "certifications": [
+      {
+        "id": "gcih",
+        "requirement": "mentioned"
+      }
+    ],
+    "source": {
+      "name": "Greenhouse",
+      "url": "https://www.samsara.com/company/careers/roles/8223613?gh_jid=8223613"
+    },
+    "postedAt": "2026-09-24",
+    "crawledAt": "2026-09-25T10:25:50.612Z"
+  },
+  {
+    "id": "greenhouse_samsara_8212286",
+    "title": "Senior Security Operations Engineer",
+    "company": "Samsara",
+    "location": {
+      "country": "REMOTE",
+      "market": "remote"
+    },
+    "certifications": [
+      {
+        "id": "gcih",
+        "requirement": "mentioned"
+      }
+    ],
+    "source": {
+      "name": "Greenhouse",
+      "url": "https://www.samsara.com/company/careers/roles/8212286?gh_jid=8212286"
+    },
+    "postedAt": "2026-09-24",
+    "crawledAt": "2026-09-25T10:25:50.612Z"
+  },
+  {
+    "id": "greenhouse_samsara_8204369",
+    "title": "Senior Security Operations Engineer",
+    "company": "Samsara",
+    "location": {
+      "country": "GLOBAL",
+      "market": "global",
+      "scope": "unknown"
+    },
+    "certifications": [
+      {
+        "id": "gcih",
+        "requirement": "mentioned"
+      }
+    ],
+    "source": {
+      "name": "Greenhouse",
+      "url": "https://www.samsara.com/company/careers/roles/8204369?gh_jid=8204369"
+    },
+    "postedAt": "2026-09-24",
+    "crawledAt": "2026-09-25T10:25:50.612Z"
+  },
+  {
+    "id": "greenhouse_samsara_8021105",
+    "title": "Senior Security Operations Engineer",
+    "company": "Samsara",
+    "location": {
+      "country": "REMOTE",
+      "market": "remote"
+    },
+    "certifications": [
+      {
+        "id": "gcih",
+        "requirement": "mentioned"
+      }
+    ],
+    "source": {
+      "name": "Greenhouse",
+      "url": "https://www.samsara.com/company/careers/roles/8021105?gh_jid=8021105"
+    },
+    "postedAt": "2026-09-24",
+    "crawledAt": "2026-09-25T10:25:50.612Z"
+  },
+  {
+    "id": "greenhouse_samsara_8027084",
+    "title": "Senior Security Operations Engineer I",
+    "company": "Samsara",
+    "location": {
+      "country": "REMOTE",
+      "market": "remote"
+    },
+    "certifications": [
+      {
+        "id": "gcih",
+        "requirement": "mentioned"
+      }
+    ],
+    "source": {
+      "name": "Greenhouse",
+      "url": "https://www.samsara.com/company/careers/roles/8027084?gh_jid=8027084"
+    },
+    "postedAt": "2026-09-24",
+    "crawledAt": "2026-09-25T10:25:50.612Z"
+  },
+  {
+    "id": "greenhouse_samsara_7589195",
+    "title": "Sr. Manager, Customer Success",
+    "company": "Samsara",
+    "location": {
+      "country": "REMOTE",
+      "market": "remote"
+    },
+    "certifications": [
+      {
+        "id": "csm",
+        "requirement": "mentioned"
+      }
+    ],
+    "source": {
+      "name": "Greenhouse",
+      "url": "https://www.samsara.com/company/careers/roles/7589195?gh_jid=7589195"
+    },
+    "postedAt": "2026-09-24",
+    "crawledAt": "2026-09-25T10:25:50.612Z"
+  },
+  {
+    "id": "greenhouse_twilio_8089122",
+    "title": "Incident Commander",
+    "company": "Twilio",
+    "location": {
+      "country": "REMOTE",
+      "market": "remote"
+    },
+    "certifications": [
+      {
+        "id": "itil4-foundation",
+        "requirement": "mentioned"
+      }
+    ],
+    "source": {
+      "name": "Greenhouse",
+      "url": "https://job-boards.greenhouse.io/twilio/jobs/8089122"
+    },
+    "postedAt": "2026-09-18",
+    "crawledAt": "2026-09-25T10:25:50.612Z"
+  },
+  {
+    "id": "greenhouse_twilio_8213826",
+    "title": "Senior Manager, Customer Success",
+    "company": "Twilio",
+    "location": {
+      "country": "REMOTE",
+      "market": "remote"
+    },
+    "certifications": [
+      {
+        "id": "csm",
+        "requirement": "mentioned"
+      }
+    ],
+    "source": {
+      "name": "Greenhouse",
+      "url": "https://job-boards.greenhouse.io/twilio/jobs/8213826"
+    },
+    "postedAt": "2026-09-21",
+    "crawledAt": "2026-09-25T10:25:50.612Z"
+  },
+  {
+    "id": "greenhouse_robinhood_8202146",
+    "title": "Internal Audit Senior Associate",
+    "company": "Robinhood",
+    "location": {
+      "country": "GLOBAL",
+      "market": "global",
+      "scope": "unknown"
+    },
+    "certifications": [
+      {
+        "id": "cisa",
+        "requirement": "mentioned"
+      }
+    ],
+    "source": {
+      "name": "Greenhouse",
+      "url": "https://boards.greenhouse.io/robinhood/jobs/8202146?t=gh_src=&gh_jid=8202146"
+    },
+    "postedAt": "2026-09-25",
+    "crawledAt": "2026-09-25T10:25:50.612Z"
   }
 ]
