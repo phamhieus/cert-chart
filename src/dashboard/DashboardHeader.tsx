@@ -28,7 +28,7 @@ export function DashboardHeader({
             <Logo size={30} className="shrink-0" />
             <div>
               <h1 className="text-[15px] font-semibold tracking-tight text-ink">
-                IT Certification Market
+                IT Cert Trend
               </h1>
               <p className="text-2xs text-muted">
                 Vietnam · Singapore · Japan · Global — demand, community and growth

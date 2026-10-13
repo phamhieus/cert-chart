@@ -68,7 +68,7 @@ export function BootstrapScreen({
         <div className="mb-6 flex items-center gap-2 text-faint">
           <Database size={15} />
           <span className="text-2xs font-semibold uppercase tracking-[0.18em]">
-            IT Certification Market
+            IT Cert Trend
           </span>
         </div>
 
