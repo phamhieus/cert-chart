@@ -36,7 +36,7 @@ export const vieclam24hCrawler: JobCrawler = {
 
   isEnabled: (config) => config.sources.vieclam24h.enabled,
 
-  async run({ config, aliasIndex, now, log }: CrawlContext): Promise<Job[]> {
+  async run({ config, aliasIndex, now, log, observeRole }: CrawlContext): Promise<Job[]> {
     const settings = config.sources.vieclam24h;
     // Exact instant this crawl run started; `crawledDate` only backs a missing publish date.
     const crawledAt = now.toISOString();
@@ -73,13 +73,22 @@ export const vieclam24hCrawler: JobCrawler = {
         `${structured.title}\n${structured.description}`,
         aliasIndex,
       );
+      const location = resolveLocation(structured.location || 'Vietnam');
+      // Counted before the certification filter — see crawler/types.ts.
+      observeRole({
+        source: 'Vieclam24h',
+        title: structured.title,
+        market: location.market,
+        postedAt: structured.datePosted,
+        matchedCertification: certifications.length > 0,
+      });
       if (certifications.length === 0) continue;
 
       jobs.set(entry.url, {
         id: `vieclam24h_${id}`,
         title: structured.title,
         company: structured.company || 'Unknown',
-        location: resolveLocation(structured.location || 'Vietnam'),
+        location,
         certifications,
         source: { name: 'Vieclam24h', url: entry.url },
         postedAt: structured.datePosted ?? crawledDate,

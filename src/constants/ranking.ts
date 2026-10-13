@@ -58,8 +58,10 @@ export const CATEGORIES = [
   'Data',
   'AI',
   'Software Development',
+  'QA',
   'Database',
   'Project Management',
+  'Business Analysis',
 ] as const;
 
 export const REQUIREMENT_LABELS: Record<RequirementType, string> = {

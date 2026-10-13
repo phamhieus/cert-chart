@@ -25,7 +25,7 @@ export const tokyoDevCrawler: JobCrawler = {
 
   isEnabled: (config) => config.sources.tokyodev.enabled,
 
-  async run({ config, aliasIndex, now, log }: CrawlContext): Promise<Job[]> {
+  async run({ config, aliasIndex, now, log, observeRole }: CrawlContext): Promise<Job[]> {
     const settings = config.sources.tokyodev;
     // Exact instant this crawl run started; `crawledDate` only backs a missing publish date.
     const crawledAt = now.toISOString();
@@ -56,6 +56,15 @@ export const tokyoDevCrawler: JobCrawler = {
         `${structured.title}\n${structured.description}`,
         aliasIndex,
       );
+      const location = resolveLocation(structured.location || 'Japan');
+      // Counted before the certification filter — see crawler/types.ts.
+      observeRole({
+        source: 'TokyoDev',
+        title: structured.title,
+        market: location.market,
+        postedAt: structured.datePosted,
+        matchedCertification: certifications.length > 0,
+      });
       if (certifications.length === 0) continue;
 
       const slug = new URL(entry.url).pathname.split('/').filter(Boolean).join('_');
@@ -64,7 +73,7 @@ export const tokyoDevCrawler: JobCrawler = {
         title: structured.title,
         company: structured.company || 'Unknown',
         // Every posting on this board is a role in Japan.
-        location: resolveLocation(structured.location || 'Japan'),
+        location,
         certifications,
         source: { name: 'TokyoDev', url: entry.url },
         postedAt: structured.datePosted ?? crawledDate,

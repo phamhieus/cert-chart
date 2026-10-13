@@ -1,8 +1,18 @@
-import type { CommunityPost, Course, DataSource, HolderReport, Job } from '../src/types';
+import type {
+  CommunityPost,
+  Course,
+  DataSource,
+  HolderReport,
+  Job,
+  RoleDemand,
+  RoleId,
+} from '../src/types';
 import { aggregate } from './aggregate/index';
 import { dayNhauHocCrawler } from './communities/daynhauhoc';
+import { deepSeekCrawler } from './communities/deepseek';
 import { devToCrawler } from './communities/devto';
 import { gitHubCrawler } from './communities/github';
+import { mediumCrawler } from './communities/medium';
 import { quanTriMangCrawler } from './communities/quantrimang';
 import { redditCrawler } from './communities/reddit';
 import { stackOverflowCrawler } from './communities/stackoverflow';
@@ -29,8 +39,15 @@ import { topCvCrawler } from './jobs/topcv';
 import { vieclam24hCrawler } from './jobs/vieclam24h';
 import { weWorkRemotelyCrawler } from './jobs/weworkremotely';
 import { createAliasIndex, loadCertifications } from './normalize/certifications';
+import { ROLE_IDS, detectRoles } from './normalize/roles';
 import { DATA_FILES, mergeById, readRecords, writeRecords } from './store';
-import type { CrawlContext, CrawlProgress, SourceCrawler, SourceOutcome } from './types';
+import type {
+  CrawlContext,
+  CrawlProgress,
+  RoleObservation,
+  SourceCrawler,
+  SourceOutcome,
+} from './types';
 
 const JOB_CRAWLERS = [
   itviecCrawler,
@@ -54,9 +71,11 @@ const COMMUNITY_CRAWLERS = [
   stackOverflowCrawler,
   gitHubCrawler,
   devToCrawler,
+  mediumCrawler,
   redditCrawler,
   vozCrawler,
   quanTriMangCrawler,
+  deepSeekCrawler,
 ];
 const COURSE_CRAWLERS = [
   officialCoursesCrawler,
@@ -84,6 +103,81 @@ const COURSE_ID_PREFIX: Record<string, string> = {
   'official-training': 'official',
   'vn-training-centers': 'vncenter',
 };
+
+interface RoleBucket {
+  source: string;
+  market: string;
+  month: string;
+  scanned: number;
+  byRole: Map<RoleId, { postings: number; withCertification: number }>;
+}
+
+/**
+ * Counts postings by role as the job crawlers walk their listings. Buckets are
+ * (source, market, month); a re-crawl of the same month replaces that bucket
+ * rather than adding to it, because the count is "what the board showed in
+ * this month", not a running total of sightings.
+ *
+ * `scanned` is the denominator: without it a bucket says "31 QA postings" with
+ * no way to know whether that is a third of the board or a thirtieth.
+ */
+function createRoleCollector(crawledAt: string) {
+  const buckets = new Map<string, RoleBucket>();
+  const crawledMonth = crawledAt.slice(0, 7);
+
+  const observe = (observation: RoleObservation): void => {
+    const month = /^\d{4}-\d{2}/.test(observation.postedAt ?? '')
+      ? (observation.postedAt as string).slice(0, 7)
+      : crawledMonth;
+    const key = `${observation.source}|${observation.market}|${month}`;
+
+    let bucket = buckets.get(key);
+    if (!bucket) {
+      bucket = {
+        source: observation.source,
+        market: observation.market,
+        month,
+        scanned: 0,
+        byRole: new Map(ROLE_IDS.map((id) => [id, { postings: 0, withCertification: 0 }])),
+      };
+      buckets.set(key, bucket);
+    }
+
+    bucket.scanned += 1;
+    for (const roleId of detectRoles(observation.title)) {
+      const counts = bucket.byRole.get(roleId);
+      if (!counts) continue;
+      counts.postings += 1;
+      if (observation.matchedCertification) counts.withCertification += 1;
+    }
+  };
+
+  // Every role is emitted for every bucket, including the zeroes: "0 of 240
+  // postings on this board named a BA role" is a finding, and a missing row
+  // would be indistinguishable from a source that was never crawled.
+  const records = (sourceUrls: Map<string, string>): RoleDemand[] => {
+    const out: RoleDemand[] = [];
+    for (const bucket of buckets.values()) {
+      for (const roleId of ROLE_IDS) {
+        const counts = bucket.byRole.get(roleId)!;
+        out.push({
+          id: `${bucket.source}_${roleId}_${bucket.market}_${bucket.month}`,
+          roleId,
+          source: { name: bucket.source, url: sourceUrls.get(bucket.source) ?? '' },
+          market: bucket.market as RoleDemand['market'],
+          month: bucket.month,
+          postings: counts.postings,
+          withCertification: counts.withCertification,
+          scanned: bucket.scanned,
+          crawledAt,
+        });
+      }
+    }
+    return out;
+  };
+
+  return { observe, records, get size() { return buckets.size; } };
+}
 
 function buildSources(
   outcomes: SourceOutcome[],
@@ -158,7 +252,15 @@ export async function runCrawl(options: RunCrawlOptions = {}): Promise<CrawlProg
   writeRecords(DATA_FILES.certifications, certifications);
   log(`Certification dictionary: ${certifications.length} entries`);
 
-  const context: CrawlContext = { config: CRAWL_CONFIG, certifications, aliasIndex, now, log };
+  const roleCollector = createRoleCollector(now.toISOString());
+  const context: CrawlContext = {
+    config: CRAWL_CONFIG,
+    certifications,
+    aliasIndex,
+    now,
+    log,
+    observeRole: roleCollector.observe,
+  };
 
   for (const crawler of selected) {
     progress.currentSource = crawler.name;
@@ -244,6 +346,23 @@ export async function runCrawl(options: RunCrawlOptions = {}): Promise<CrawlProg
 
     progress.completed += 1;
     emit();
+  }
+
+  const roleRecords = roleCollector.records(
+    new Map(ALL_CRAWLERS.map((crawler) => [crawler.name, crawler.url])),
+  );
+  if (roleRecords.length > 0) {
+    writeRecords(
+      DATA_FILES.roles,
+      mergeById(readRecords<RoleDemand>(DATA_FILES.roles), roleRecords),
+    );
+    const totals = ROLE_IDS.map((roleId) => {
+      const rows = roleRecords.filter((row) => row.roleId === roleId);
+      return `${roleId} ${rows.reduce((sum, row) => sum + row.postings, 0)}`;
+    }).join(', ');
+    const scanned = [...new Set(roleRecords.map((row) => `${row.source.name}|${row.market}|${row.month}`))]
+      .length;
+    log(`Role demand: ${totals} across ${scanned} source/market/month buckets`);
   }
 
   const jobs = readRecords<Job>(DATA_FILES.jobs);

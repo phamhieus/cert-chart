@@ -245,4 +245,234 @@ export const CERTIFICATIONS: Certification[] = [
     aliases: ['PSM I', 'PSM1', 'Professional Scrum Master', 'Scrum Master Certification'],
     officialUrl: 'https://www.scrum.org/assessments/professional-scrum-master-i-certification',
   },
+  // ---------------------------------------------------------------------------
+  // QA / testing. ISTQB is effectively the only certification body Vietnamese QA
+  // postings name, so the whole section is ISTQB. Its Advanced Level was
+  // restructured — there is no longer a plain "Test Analyst (CTAL-TA)", which is
+  // why the analyst entry below is the Technical Test Analyst.
+  // ---------------------------------------------------------------------------
+  {
+    id: 'istqb-ctfl',
+    name: 'ISTQB Certified Tester Foundation Level',
+    shortName: 'ISTQB CTFL',
+    vendor: 'ISTQB',
+    code: 'CTFL',
+    category: 'QA',
+    level: 'Foundational',
+    // Bare "ISTQB" resolves here on purpose: a posting asking for "chứng chỉ
+    // ISTQB" with no level means the foundation exam, which is the one almost
+    // everyone holds. The longer Advanced aliases sort ahead of it and mask
+    // their span first, so "ISTQB Advanced Test Management" is not also counted
+    // as CTFL.
+    aliases: [
+      'ISTQB',
+      'CTFL',
+      'ISTQB CTFL',
+      'ISTQB Foundation',
+      'ISTQB Foundation Level',
+      'Certified Tester Foundation Level',
+    ],
+    officialUrl: 'https://istqb.org/certifications/certified-tester-foundation-level-ctfl-v4-0/',
+  },
+  {
+    id: 'istqb-ctfl-at',
+    name: 'ISTQB Certified Tester Foundation Level - Agile Tester',
+    shortName: 'ISTQB Agile Tester',
+    vendor: 'ISTQB',
+    code: 'CTFL-AT',
+    category: 'QA',
+    level: 'Foundational',
+    aliases: [
+      'CTFL-AT',
+      'CTFL AT',
+      'ISTQB Agile Tester',
+      'ISTQB Agile',
+      'Certified Tester Agile Tester',
+    ],
+    officialUrl:
+      'https://istqb.org/certifications/certified-tester-foundation-level-agile-tester-ctfl-at/',
+  },
+  {
+    id: 'istqb-ctal-tm',
+    name: 'ISTQB Certified Tester Advanced Level - Test Management',
+    shortName: 'ISTQB CTAL-TM',
+    vendor: 'ISTQB',
+    code: 'CTAL-TM',
+    category: 'QA',
+    level: 'Professional',
+    aliases: [
+      'CTAL-TM',
+      'CTAL TM',
+      'ISTQB Test Manager',
+      'ISTQB Test Management',
+      'ISTQB Advanced Test Management',
+      'Advanced Level Test Management',
+    ],
+    officialUrl:
+      'https://istqb.org/certifications/certified-tester-advanced-level-test-management-ctal-tm-v3-0/',
+  },
+  {
+    id: 'istqb-ctal-tta',
+    name: 'ISTQB Certified Tester Advanced Level - Technical Test Analyst',
+    shortName: 'ISTQB CTAL-TTA',
+    vendor: 'ISTQB',
+    code: 'CTAL-TTA',
+    category: 'QA',
+    level: 'Professional',
+    aliases: [
+      'CTAL-TTA',
+      'CTAL TTA',
+      'ISTQB Technical Test Analyst',
+      'Advanced Level Technical Test Analyst',
+    ],
+    officialUrl:
+      'https://istqb.org/certifications/certified-tester-advanced-level-technical-test-analyst-ctal-tta/',
+  },
+  {
+    id: 'istqb-ctal-tae',
+    name: 'ISTQB Certified Tester Advanced Level - Test Automation Engineering',
+    shortName: 'ISTQB CTAL-TAE',
+    vendor: 'ISTQB',
+    code: 'CTAL-TAE',
+    category: 'QA',
+    level: 'Professional',
+    // Deliberately no bare "Test Automation Engineer": that is one of the most
+    // common QA job titles in Vietnam and would match postings that never
+    // mention a certification at all.
+    aliases: [
+      'CTAL-TAE',
+      'CTAL TAE',
+      'ISTQB Test Automation Engineer',
+      'Test Automation Engineering',
+      'Advanced Level Test Automation Engineering',
+    ],
+    officialUrl:
+      'https://istqb.org/certifications/certified-tester-advanced-level-test-automation-engineering-ctal-tae-v2-0/',
+  },
+  // ---------------------------------------------------------------------------
+  // Business analysis. IIBA's three levels plus PMI's competing exam.
+  // ---------------------------------------------------------------------------
+  {
+    id: 'iiba-ecba',
+    name: 'Entry Certificate in Business Analysis',
+    shortName: 'ECBA',
+    vendor: 'IIBA',
+    code: 'ECBA',
+    category: 'Business Analysis',
+    level: 'Foundational',
+    aliases: ['ECBA', 'IIBA ECBA', 'Entry Certificate in Business Analysis'],
+    officialUrl: 'https://www.iiba.org/business-analysis-certifications/ecba/',
+  },
+  {
+    id: 'iiba-ccba',
+    name: 'Certification of Capability in Business Analysis',
+    shortName: 'CCBA',
+    vendor: 'IIBA',
+    code: 'CCBA',
+    category: 'Business Analysis',
+    level: 'Associate',
+    aliases: ['CCBA', 'IIBA CCBA', 'Certification of Capability in Business Analysis'],
+    officialUrl: 'https://www.iiba.org/business-analysis-certifications/ccba/',
+  },
+  {
+    id: 'iiba-cbap',
+    name: 'Certified Business Analysis Professional',
+    shortName: 'CBAP',
+    vendor: 'IIBA',
+    code: 'CBAP',
+    category: 'Business Analysis',
+    level: 'Professional',
+    aliases: ['CBAP', 'IIBA CBAP', 'Certified Business Analysis Professional'],
+    officialUrl: 'https://www.iiba.org/business-analysis-certifications/cbap/',
+  },
+  {
+    id: 'pmi-pba',
+    name: 'PMI Professional in Business Analysis',
+    shortName: 'PMI-PBA',
+    vendor: 'PMI',
+    code: 'PMI-PBA',
+    category: 'Business Analysis',
+    level: 'Professional',
+    // No bare "PBA": three letters that collide with too much ordinary text.
+    aliases: [
+      'PMI-PBA',
+      'PMI PBA',
+      'PMI Professional in Business Analysis',
+      'Professional in Business Analysis',
+    ],
+    officialUrl: 'https://www.pmi.org/certifications/business-analysis-pba',
+  },
+  // ---------------------------------------------------------------------------
+  // DevOps, alongside the AWS DevOps Professional and Terraform Associate above.
+  // RHCSA/RHCE sit here rather than under Networking: there is no Linux
+  // category, and the postings asking for them are platform and operations
+  // roles.
+  // ---------------------------------------------------------------------------
+  {
+    id: 'az-400',
+    name: 'Microsoft Certified: DevOps Engineer Expert',
+    shortName: 'AZ-400',
+    vendor: 'Microsoft',
+    code: 'AZ-400',
+    category: 'DevOps',
+    level: 'Expert',
+    // No bare "Azure DevOps Engineer": Azure DevOps is also a product, so the
+    // phrase usually names someone who uses it rather than the exam. The
+    // certification's own former name kept the "Expert" suffix, which is safe.
+    aliases: ['AZ-400', 'AZ400', 'Azure DevOps Engineer Expert', 'DevOps Engineer Expert'],
+    officialUrl: 'https://learn.microsoft.com/en-us/credentials/certifications/devops-engineer/',
+  },
+  {
+    id: 'gcp-pcdoe',
+    name: 'Google Cloud Professional Cloud DevOps Engineer',
+    shortName: 'GCP DevOps Engineer',
+    vendor: 'Google Cloud',
+    code: null,
+    category: 'DevOps',
+    level: 'Professional',
+    // No bare "Cloud DevOps Engineer": that is the job title, and it matched
+    // three ITviec postings that never mention Google's exam.
+    aliases: [
+      'Professional Cloud DevOps Engineer',
+      'Google Cloud DevOps Engineer',
+      'GCP DevOps Engineer',
+    ],
+    officialUrl: 'https://cloud.google.com/learn/certification/cloud-devops-engineer',
+  },
+  {
+    id: 'rhcsa',
+    name: 'Red Hat Certified System Administrator',
+    shortName: 'RHCSA',
+    vendor: 'Red Hat',
+    code: 'EX200',
+    category: 'DevOps',
+    level: 'Associate',
+    aliases: ['RHCSA', 'EX200', 'Red Hat Certified System Administrator'],
+    officialUrl: 'https://www.redhat.com/en/services/certification/rhcsa',
+  },
+  {
+    id: 'rhce',
+    name: 'Red Hat Certified Engineer',
+    shortName: 'RHCE',
+    vendor: 'Red Hat',
+    code: 'EX294',
+    category: 'DevOps',
+    level: 'Professional',
+    aliases: ['RHCE', 'EX294', 'Red Hat Certified Engineer'],
+    officialUrl:
+      'https://www.redhat.com/en/services/certification/red-hat-certified-engineer-in-enterprise-linux',
+  },
+  {
+    id: 'vault-associate',
+    name: 'HashiCorp Certified: Vault Associate',
+    shortName: 'Vault Associate',
+    vendor: 'HashiCorp',
+    // Written VA-003 rather than the bare "003" HashiCorp uses, which would be
+    // an alias matching any stray three digits (and collides with Terraform's).
+    code: 'VA-003',
+    category: 'DevOps',
+    level: 'Associate',
+    aliases: ['Vault Associate', 'HashiCorp Vault Associate', 'VA-003'],
+    officialUrl: 'https://developer.hashicorp.com/certifications/security-automation',
+  },
 ];

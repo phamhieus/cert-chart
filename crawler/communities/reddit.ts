@@ -4,7 +4,7 @@ import type { CommunityCrawler, CrawlContext } from '../types';
 import { countCertificationMentions } from '../normalize/certifications';
 import { marketLocation } from '../normalize/location';
 
-interface RedditListing {
+export interface RedditListing {
   data?: {
     children?: Array<{
       data?: {
@@ -23,13 +23,13 @@ interface RedditListing {
 
 const MARKETS: MarketId[] = ['vietnam', 'singapore', 'japan', 'global'];
 
-function credentials(): { id: string; secret: string } | null {
+export function credentials(): { id: string; secret: string } | null {
   const id = process.env.REDDIT_CLIENT_ID;
   const secret = process.env.REDDIT_CLIENT_SECRET;
   return id && secret ? { id, secret } : null;
 }
 
-async function accessToken(userAgent: string): Promise<string> {
+export async function accessToken(userAgent: string): Promise<string> {
   const creds = credentials();
   if (!creds) throw new Error('Reddit credentials missing');
 
@@ -50,7 +50,7 @@ async function accessToken(userAgent: string): Promise<string> {
   return payload.access_token;
 }
 
-function locationOf(
+export function locationOf(
   subreddit: string,
   configured: Array<{ name: string; market: string }>,
 ): GeoLocation {

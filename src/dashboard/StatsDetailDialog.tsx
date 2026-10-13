@@ -200,9 +200,16 @@ export function StatsDetailDialog({
           empty={<p className="px-5 py-8 text-center text-xs text-muted">No discussion matches.</p>}
           renderItem={(post) => (
             <Row>
-              <p className="text-[13px] font-medium text-ink">{post.title}</p>
+              <p className="truncate text-[13px] font-medium text-ink" title={post.title}>
+                {post.title}
+              </p>
               <Meta>
                 <Badge>{certName.get(post.certificationId) ?? post.certificationId}</Badge>
+                {post.unverified ? (
+                  <Badge tone="warn" title="Suggested by DeepSeek and not checked against the source">
+                    Unverified
+                  </Badge>
+                ) : null}
                 <span className="num">{formatNumber(post.mentions)} mentions</span>
                 <span className="num">{formatNumber(post.comments)} comments</span>
                 {post.views === null ? null : (

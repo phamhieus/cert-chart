@@ -40,7 +40,7 @@ export const arbeitnowCrawler: JobCrawler = {
 
   isEnabled: (config) => config.sources.arbeitnow.enabled,
 
-  async run({ config, aliasIndex, now, log }: CrawlContext): Promise<Job[]> {
+  async run({ config, aliasIndex, now, log, observeRole }: CrawlContext): Promise<Job[]> {
     const settings = config.sources.arbeitnow;
     // Exact instant this crawl run started; `crawledDate` only backs a missing publish date.
     const crawledAt = now.toISOString();
@@ -68,6 +68,19 @@ export const arbeitnowCrawler: JobCrawler = {
         const description = stripHtml(entry.description ?? '');
         const text = `${entry.title}\n${(entry.tags ?? []).join(' ')}\n${description}`;
         const certifications = extractJobCertifications(text, aliasIndex);
+
+        const location = resolveLocation(entry.remote ? 'Remote' : (entry.location ?? ''));
+        const postedAt = entry.created_at
+          ? new Date(entry.created_at * 1000).toISOString().slice(0, 10)
+          : crawledDate;
+        // Counted before the certification filter — see crawler/types.ts.
+        observeRole({
+          source: 'Arbeitnow',
+          title: entry.title,
+          market: location.market,
+          postedAt,
+          matchedCertification: certifications.length > 0,
+        });
         if (certifications.length === 0) continue;
 
         const url = entry.url ?? `${ORIGIN}/jobs/${entry.slug}`;
@@ -75,12 +88,10 @@ export const arbeitnowCrawler: JobCrawler = {
           id: `arbeitnow_${entry.slug}`,
           title: entry.title,
           company: entry.company_name || 'Unknown',
-          location: resolveLocation(entry.remote ? 'Remote' : (entry.location ?? '')),
+          location,
           certifications,
           source: { name: 'Arbeitnow', url },
-          postedAt: entry.created_at
-            ? new Date(entry.created_at * 1000).toISOString().slice(0, 10)
-            : crawledDate,
+          postedAt,
           crawledAt,
         });
       }

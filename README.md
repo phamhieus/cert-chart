@@ -26,6 +26,7 @@ crawler/        → public/data/*.json → React dashboard
   courses/             courses.json
   dictionary/          certifications.json
   aggregate/           rankings.json   (pre-computed scores)
+                       roles.json      (postings per role, no certification needed)
                        sources.json    (crawl provenance)
 ```
 
@@ -69,13 +70,51 @@ Toggle sources in `crawler/config.ts`. Every source honours `robots.txt` (RFC 93
   bucket, not Vietnam).
 - **Community** — VOZ, Quản Trị Mạng, Dạy Nhau Học, Viblo (VN) · Zenn (JP) · Stack Exchange
   (stackoverflow.com, serverfault.com, security.stackexchange.com, pm.stackexchange.com), GitHub,
-  dev.to (global).
+  dev.to, Medium (global).
 - **Courses** — official vendor training, Coursera, Vietnamese training centres (VnPro, Robusta,
   Athena, VTI Academy).
 - **Holder counts** — vendor certification pages.
 
 Needs setup: **TopCV** and **CareerViet** are Cloudflare-gated and drive Playwright
 (`npx playwright install chromium`).
+
+Needs a resolver: **Medium** is read through its documented per-tag RSS feeds
+(`medium.com/feed/tag/{tag}`), which need no key — but several Vietnamese ISPs DNS-block
+medium.com and answer with `127.0.0.1`, so from a Vietnamese connection every tag fails to
+connect and the source reports the block instead of returning 0 records quietly. A public
+resolver (1.1.1.1, 8.8.8.8) is the fix; nothing in the crawler changes.
+
+Three things about Medium were measured rather than assumed, and all three shape
+`crawler/config.ts`:
+
+- **A tag feed is the 10 newest stories and does not paginate**, so a tag is a ten-story budget
+  per run, not a starting point to page through — the reverse of dev.to, where `pagesPerTag`
+  makes a broad tag pay off. Spend it on certification-shaped tags: `ccna`, `cissp`, `cka`,
+  `comptia-security-plus` and `pmp-certification` each measured **10/10** stories naming a
+  tracked certification, while `certification`, `kubernetes`, `terraform`, `cybersecurity`,
+  `cloud-computing` and `devops` measured **0/10** each and were dropped. Every per-tag number
+  is recorded in `crawler/config.ts`, and each run logs its own yield by tag, so a tag that
+  stops paying is visible rather than inferred.
+- **A tag feed carries no story body.** `content:encoded` is empty on every item (it is
+  populated on profile feeds, not these) and `description` is a 90–180 character teaser ending
+  in "Continue reading on Medium", so a story is matched on its title, that teaser and its own
+  tags — the dev.to shape, not the VOZ one. A certification named only deep in the body is
+  missed; reading bodies would cost a request per story instead of one per ten.
+- **Medium rate limits by IP, harder than the global 900ms delay covers.** A fifteen-tag run
+  paced only by `crawler/util/http.ts` lost nine tags to 429 and the escalating retry there did
+  not win them back, so Medium carries its own `requestDelayMs` (4s, waited between tags) and
+  the list is held to eleven tags. The penalty outlasts a single run, so a throttled run clears
+  on its own; a tag that is throttled is logged and skipped rather than failing the run, and the
+  next run picks its stories up — the feed is the ten newest either way. Coverage therefore
+  accumulates run by run, like VOZ and Viblo.
+
+Left out for the same reason the broad tags were: `oracle-certification` (0/8),
+`ethical-hacking` (0/10), `google-cloud-certification` (no such tag), `java-certification`
+(1/9, and the one hit was an alias collision rather than an Oracle story), and
+`gcp-certification` (1/10, dropped to stay under the rate limit — GCP ACE has no Medium
+coverage as a result). `ccnp`, `az-104`, `scrum-certification` and
+`aws-certified-solutions-architect` are **untested**: Medium began answering 429 before the
+probe reached them.
 
 Four sources read a credential. Copy `.env.example` to `.env` (git-ignored) and fill in what you
 have — `crawler/env.ts` loads it for `npm run crawl`, `npm run serve` and the dev server's crawl
@@ -142,13 +181,75 @@ only publish live postings. Trend series are 36 months (`TREND_MONTHS`), while `
 ## Data conventions
 
 - `certifications.json` is the curated dictionary — aliases are what crawlers match against, so
-  `AZ104`, `AZ-104` and `Azure Administrator Associate` resolve to one certification.
+  `AZ104`, `AZ-104` and `Azure Administrator Associate` resolve to one certification. It is the
+  one place a certification is registered: every source matches against it, so adding an entry
+  widens all of them at once and needs no per-source change. **34 certifications across 12
+  categories**, including QA (ISTQB), Business Analysis (IIBA, PMI) and DevOps (Microsoft,
+  Google Cloud, Red Hat, HashiCorp).
+- **Aliases are written to avoid job titles.** `Test Automation Engineer` and `Business Analyst`
+  are roles, not certifications, so neither is an alias — matching them would count every QA and
+  BA posting as a certification mention. Bare `ISTQB` is the one deliberate exception: a posting
+  that asks for "chứng chỉ ISTQB" with no level means the foundation exam, and the longer
+  Advanced aliases are matched and masked first so `ISTQB Advanced Test Management` is not also
+  counted as CTFL. `crawler/dictionary/certifications.ts` records the reasoning per entry.
 - **Timestamps are instants.** `crawledAt`, `lastChecked`, `lastCrawledAt` are ISO-8601 UTC
   instants; `postedAt` / `publishedAt` stay `YYYY-MM-DD` because that is all sources publish.
 - **Locations are never inferred from people.** A record carries a `city` only when the source
   states one; community threads use `scope: "national"` or `"unknown"`.
 - **Nulls are not zeroes.** `views`, `reactions`, `uniqueAuthors` and `price` are `null` when
   unpublished — never a placeholder number.
+
+**The four business-analysis certifications score zero, and the role-demand counts say why.**
+ECBA, CCBA, CBAP and PMI-PBA return nothing from any source, and the obvious reading — "nobody
+hires BAs" — is wrong. On ITviec, **10 of 276 postings (3.6%) are Business Analyst roles, and 0 of
+those 10 name any certification at all.** BA hiring in Vietnam is real; asking for a BA
+certification is not a thing employers here do. Compare QA on the same board: 27 postings (9.8%),
+of which 7 (26%) do name one, which is why ISTQB CTFL scores and CBAP does not.
+
+This is the distinction the role counts exist to make, and it is why they are worth having:
+without them a zero on CBAP is indistinguishable from a zero on a role nobody is hiring. Read it
+as "absent from this snapshot" rather than "never appears" — job boards publish only live postings
+and every source is capped. The entries stay in the dictionary so the gap stays visible and the
+first posting that does name CBAP is counted the day it appears.
+
+## Role demand
+
+Certification records answer "which exams does the market ask for". They cannot answer "how much
+QA hiring is there", and the reason is structural: **every job crawler drops a posting that names
+no certification** (`if (certifications.length === 0)`). Measuring QA demand from `jobs.json`
+would only ever measure QA-demand-that-happens-to-mention-a-certification, which for QA is a small
+and unrepresentative slice.
+
+So roles are counted separately, in `roles.json`, as the crawlers walk their listings:
+
+| Role | Counted from titles like |
+| --- | --- |
+| `qa` | QA, QC, Tester, Test Engineer, Quality Assurance, SDET, kiểm thử |
+| `ba` | Business Analyst, Business Analysis, phân tích nghiệp vụ |
+| `devops` | DevOps, SRE, Site Reliability, Platform Engineer, kỹ sư hệ thống |
+
+QA, QC and Tester are **one role**, not three — they are the three names Vietnamese postings use
+for the same job, so splitting them would split one market across three rows.
+
+Four rules keep the numbers honest:
+
+- **Titles only.** A description routinely says "work closely with the QA team" in a posting
+  hiring a backend developer; the body is evidence of collaboration, not of the role being hired.
+- **Only boards whose full listing is enumerated** — ITviec, Vieclam24h, TokyoDev, Greenhouse, We
+  Work Remotely, Remote OK, Arbeitnow, Himalayas. TopCV, CareerViet and MyCareersFuture search
+  **per certification**, so their postings are pre-filtered by certification and a role share taken
+  from them would describe the query, not the market.
+- **A denominator travels with every count.** Each record carries `scanned`, the total postings in
+  its (source, market, month) bucket, so "13 QA postings" is never read without "of 4,677".
+  `scanned` is repeated on all three role rows of a bucket, so sum it for one role, not across
+  roles.
+- **No bare `BA` alias.** Matching is diacritic-stripped and lowercased, and "ba" is an ordinary
+  Vietnamese word (*three*, *father*), so a bare `BA` would match a large share of Vietnamese
+  titles that have nothing to do with the role.
+
+A bucket is replaced, not accumulated, when the same month is re-crawled: the figure is "what the
+board showed for this month", not a running total of sightings. A partial crawl therefore lowers a
+bucket rather than corrupting it.
 
 ## Ranking
 
@@ -183,7 +284,7 @@ crawler/
   pipeline.ts    runs crawlers, merges records, rebuilds rankings
   dictionary/    certification dictionary
   jobs/ communities/ courses/   one module per source
-  normalize/     alias extraction, location mapping, JobPosting parsing
+  normalize/     alias extraction, role detection, location mapping, JobPosting parsing
   aggregate/     scoring entry point
   server/        crawl API (Vite plugin + standalone server)
   util/          polite HTTP client with robots.txt handling

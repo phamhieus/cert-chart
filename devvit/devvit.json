@@ -1,0 +1,68 @@
+{
+  "$schema": "https://developers.reddit.com/schema/config-file.v1.json",
+  "name": "cert-chart",
+  "post": {
+    "dir": "dist/client",
+    "entrypoints": {
+      "default": {
+        "entry": "index.html",
+        "height": "tall"
+      }
+    }
+  },
+  "server": {
+    "dir": "dist/server",
+    "entry": "index.cjs"
+  },
+  "permissions": {
+    "redis": true,
+    "reddit": {
+      "enable": true
+    }
+  },
+  "triggers": {
+    "onAppInstall": "/internal/triggers/on-app-install",
+    "onPostCreate": "/internal/triggers/on-post-create",
+    "onCommentCreate": "/internal/triggers/on-comment-create"
+  },
+  "menu": {
+    "items": [
+      {
+        "label": "cert-chart: create dashboard post",
+        "description": "Post the certification mention dashboard to this subreddit",
+        "location": "subreddit",
+        "forUserType": "moderator",
+        "endpoint": "/internal/menu/create-post"
+      },
+      {
+        "label": "cert-chart: rescan subreddit history",
+        "description": "Walk the subreddit listing again and pick up anything not yet counted",
+        "location": "subreddit",
+        "forUserType": "moderator",
+        "endpoint": "/internal/menu/rescan"
+      }
+    ]
+  },
+  "scheduler": {
+    "tasks": {
+      "incremental-sync": {
+        "endpoint": "/internal/scheduler/incremental-sync",
+        "cron": "17 * * * *"
+      },
+      "deep-backfill": {
+        "endpoint": "/internal/scheduler/deep-backfill"
+      },
+      "prune-history": {
+        "endpoint": "/internal/scheduler/prune-history",
+        "cron": "40 3 * * *"
+      }
+    }
+  },
+  "dev": {
+    "subreddit": "cert_chart_dev"
+  },
+  "scripts": {
+    "dev": "vite build --watch",
+    "build": "vite build"
+  }
+}
