@@ -18,7 +18,7 @@
     ],
     "language": "English",
     "price": null,
-    "lastChecked": "2026-09-27T13:39:55.429Z"
+    "lastChecked": "2026-10-13T17:58:43.995Z"
   },
   {
     "id": "official_aws-ccp",
@@ -39,7 +39,7 @@
     ],
     "language": "English",
     "price": null,
-    "lastChecked": "2026-09-27T13:39:55.429Z"
+    "lastChecked": "2026-10-13T17:58:43.995Z"
   },
   {
     "id": "official_aws-dop",
@@ -60,7 +60,7 @@
     ],
     "language": "English",
     "price": null,
-    "lastChecked": "2026-09-27T13:39:55.429Z"
+    "lastChecked": "2026-10-13T17:58:43.995Z"
   },
   {
     "id": "official_az-104",
@@ -81,7 +81,7 @@
     ],
     "language": "English",
     "price": null,
-    "lastChecked": "2026-09-27T13:39:55.429Z"
+    "lastChecked": "2026-10-13T17:58:43.995Z"
   },
   {
     "id": "official_az-900",
@@ -102,7 +102,7 @@
     ],
     "language": "English",
     "price": null,
-    "lastChecked": "2026-09-27T13:39:55.429Z"
+    "lastChecked": "2026-10-13T17:58:43.995Z"
   },
   {
     "id": "official_ccna",
@@ -123,7 +123,7 @@
     ],
     "language": "English",
     "price": null,
-    "lastChecked": "2026-09-27T13:39:55.429Z"
+    "lastChecked": "2026-10-13T17:58:43.995Z"
   },
   {
     "id": "official_ccnp-enterprise",
@@ -144,7 +144,7 @@
     ],
     "language": "English",
     "price": null,
-    "lastChecked": "2026-09-27T13:39:55.429Z"
+    "lastChecked": "2026-10-13T17:58:43.995Z"
   },
   {
     "id": "official_cka",
@@ -165,7 +165,7 @@
     ],
     "language": "English",
     "price": null,
-    "lastChecked": "2026-09-27T13:39:55.429Z"
+    "lastChecked": "2026-10-13T17:58:43.995Z"
   },
   {
     "id": "official_ckad",
@@ -186,7 +186,7 @@
     ],
     "language": "English",
     "price": null,
-    "lastChecked": "2026-09-27T13:39:55.429Z"
+    "lastChecked": "2026-10-13T17:58:43.995Z"
   },
   {
     "id": "official_cissp",
@@ -207,7 +207,7 @@
     ],
     "language": "English",
     "price": null,
-    "lastChecked": "2026-09-27T13:39:55.429Z"
+    "lastChecked": "2026-10-13T17:58:43.995Z"
   },
   {
     "id": "official_security-plus",
@@ -228,7 +228,7 @@
     ],
     "language": "English",
     "price": null,
-    "lastChecked": "2026-09-27T13:39:55.429Z"
+    "lastChecked": "2026-10-13T17:58:43.995Z"
   },
   {
     "id": "official_ceh",
@@ -249,7 +249,7 @@
     ],
     "language": "English",
     "price": null,
-    "lastChecked": "2026-09-27T13:39:55.429Z"
+    "lastChecked": "2026-10-13T17:58:43.995Z"
   },
   {
     "id": "official_gcp-ace",
@@ -270,7 +270,7 @@
     ],
     "language": "English",
     "price": null,
-    "lastChecked": "2026-09-27T13:39:55.429Z"
+    "lastChecked": "2026-10-13T17:58:43.995Z"
   },
   {
     "id": "official_terraform-associate",
@@ -291,7 +291,7 @@
     ],
     "language": "English",
     "price": null,
-    "lastChecked": "2026-09-27T13:39:55.429Z"
+    "lastChecked": "2026-10-13T17:58:43.995Z"
   },
   {
     "id": "official_dp-203",
@@ -312,7 +312,7 @@
     ],
     "language": "English",
     "price": null,
-    "lastChecked": "2026-09-27T13:39:55.429Z"
+    "lastChecked": "2026-10-13T17:58:43.995Z"
   },
   {
     "id": "official_ai-102",
@@ -333,7 +333,7 @@
     ],
     "language": "English",
     "price": null,
-    "lastChecked": "2026-09-27T13:39:55.429Z"
+    "lastChecked": "2026-10-13T17:58:43.995Z"
   },
   {
     "id": "coursera_learn_ai-102-microsoft-azure-ai-engineer-associate-course",
@@ -2837,7 +2837,7 @@
     ],
     "language": "English",
     "price": null,
-    "lastChecked": "2026-09-25T10:25:50.612Z"
+    "lastChecked": "2026-10-13T17:58:43.995Z"
   },
   {
     "id": "official_aws-soa",
@@ -2858,7 +2858,7 @@
     ],
     "language": "English",
     "price": null,
-    "lastChecked": "2026-09-25T10:25:50.612Z"
+    "lastChecked": "2026-10-13T17:58:43.995Z"
   },
   {
     "id": "official_aws-sap",
@@ -2879,7 +2879,7 @@
     ],
     "language": "English",
     "price": null,
-    "lastChecked": "2026-09-25T10:25:50.612Z"
+    "lastChecked": "2026-10-13T17:58:43.995Z"
   },
   {
     "id": "official_aws-scs",
@@ -2900,7 +2900,7 @@
     ],
     "language": "English",
     "price": null,
-    "lastChecked": "2026-09-25T10:25:50.612Z"
+    "lastChecked": "2026-10-13T17:58:43.995Z"
   },
   {
     "id": "official_aws-ans",
@@ -2921,7 +2921,7 @@
     ],
     "language": "English",
     "price": null,
-    "lastChecked": "2026-09-25T10:25:50.612Z"
+    "lastChecked": "2026-10-13T17:58:43.995Z"
   },
   {
     "id": "official_aws-mls",
@@ -2942,7 +2942,7 @@
     ],
     "language": "English",
     "price": null,
-    "lastChecked": "2026-09-25T10:25:50.612Z"
+    "lastChecked": "2026-10-13T17:58:43.995Z"
   },
   {
     "id": "official_aws-dea",
@@ -2963,7 +2963,7 @@
     ],
     "language": "English",
     "price": null,
-    "lastChecked": "2026-09-25T10:25:50.612Z"
+    "lastChecked": "2026-10-13T17:58:43.995Z"
   },
   {
     "id": "official_aws-aif",
@@ -2984,7 +2984,7 @@
     ],
     "language": "English",
     "price": null,
-    "lastChecked": "2026-09-25T10:25:50.612Z"
+    "lastChecked": "2026-10-13T17:58:43.995Z"
   },
   {
     "id": "official_az-204",
@@ -3005,7 +3005,7 @@
     ],
     "language": "English",
     "price": null,
-    "lastChecked": "2026-09-25T10:25:50.612Z"
+    "lastChecked": "2026-10-13T17:58:43.995Z"
   },
   {
     "id": "official_az-305",
@@ -3026,7 +3026,7 @@
     ],
     "language": "English",
     "price": null,
-    "lastChecked": "2026-09-25T10:25:50.612Z"
+    "lastChecked": "2026-10-13T17:58:43.995Z"
   },
   {
     "id": "official_az-400",
@@ -3047,7 +3047,7 @@
     ],
     "language": "English",
     "price": null,
-    "lastChecked": "2026-09-27T13:39:55.429Z"
+    "lastChecked": "2026-10-13T17:58:43.995Z"
   },
   {
     "id": "official_az-500",
@@ -3068,7 +3068,7 @@
     ],
     "language": "English",
     "price": null,
-    "lastChecked": "2026-09-25T10:25:50.612Z"
+    "lastChecked": "2026-10-13T17:58:43.995Z"
   },
   {
     "id": "official_az-700",
@@ -3089,7 +3089,7 @@
     ],
     "language": "English",
     "price": null,
-    "lastChecked": "2026-09-25T10:25:50.612Z"
+    "lastChecked": "2026-10-13T17:58:43.995Z"
   },
   {
     "id": "official_sc-900",
@@ -3110,7 +3110,7 @@
     ],
     "language": "English",
     "price": null,
-    "lastChecked": "2026-09-25T10:25:50.612Z"
+    "lastChecked": "2026-10-13T17:58:43.995Z"
   },
   {
     "id": "official_sc-200",
@@ -3131,7 +3131,7 @@
     ],
     "language": "English",
     "price": null,
-    "lastChecked": "2026-09-25T10:25:50.612Z"
+    "lastChecked": "2026-10-13T17:58:43.995Z"
   },
   {
     "id": "official_sc-300",
@@ -3152,7 +3152,7 @@
     ],
     "language": "English",
     "price": null,
-    "lastChecked": "2026-09-25T10:25:50.612Z"
+    "lastChecked": "2026-10-13T17:58:43.995Z"
   },
   {
     "id": "official_dp-100",
@@ -3173,7 +3173,7 @@
     ],
     "language": "English",
     "price": null,
-    "lastChecked": "2026-09-25T10:25:50.612Z"
+    "lastChecked": "2026-10-13T17:58:43.995Z"
   },
   {
     "id": "official_dp-300",
@@ -3194,7 +3194,7 @@
     ],
     "language": "English",
     "price": null,
-    "lastChecked": "2026-09-25T10:25:50.612Z"
+    "lastChecked": "2026-10-13T17:58:43.995Z"
   },
   {
     "id": "official_dp-900",
@@ -3215,7 +3215,7 @@
     ],
     "language": "English",
     "price": null,
-    "lastChecked": "2026-09-25T10:25:50.612Z"
+    "lastChecked": "2026-10-13T17:58:43.995Z"
   },
   {
     "id": "official_ai-900",
@@ -3236,7 +3236,7 @@
     ],
     "language": "English",
     "price": null,
-    "lastChecked": "2026-09-25T10:25:50.612Z"
+    "lastChecked": "2026-10-13T17:58:43.995Z"
   },
   {
     "id": "official_pl-300",
@@ -3257,7 +3257,7 @@
     ],
     "language": "English",
     "price": null,
-    "lastChecked": "2026-09-25T10:25:50.612Z"
+    "lastChecked": "2026-10-13T17:58:43.995Z"
   },
   {
     "id": "official_gcp-pca",
@@ -3278,7 +3278,7 @@
     ],
     "language": "English",
     "price": null,
-    "lastChecked": "2026-09-25T10:25:50.612Z"
+    "lastChecked": "2026-10-13T17:58:43.995Z"
   },
   {
     "id": "official_gcp-pde",
@@ -3299,12 +3299,12 @@
     ],
     "language": "English",
     "price": null,
-    "lastChecked": "2026-09-25T10:25:50.612Z"
+    "lastChecked": "2026-10-13T17:58:43.995Z"
   },
   {
     "id": "official_gcp-pcdoe",
     "certificationId": "gcp-pcdoe",
-    "name": "GCP DevOps Engineer — official learning path",
+    "name": "GCP DevOps — official learning path",
     "provider": {
       "name": "Google Cloud Skills Boost",
       "url": "https://www.cloudskillsboost.google"
@@ -3320,7 +3320,7 @@
     ],
     "language": "English",
     "price": null,
-    "lastChecked": "2026-09-27T13:39:55.429Z"
+    "lastChecked": "2026-10-13T17:58:43.995Z"
   },
   {
     "id": "official_gcp-pmle",
@@ -3341,7 +3341,7 @@
     ],
     "language": "English",
     "price": null,
-    "lastChecked": "2026-09-25T10:25:50.612Z"
+    "lastChecked": "2026-10-13T17:58:43.995Z"
   },
   {
     "id": "official_gcp-cdl",
@@ -3362,7 +3362,7 @@
     ],
     "language": "English",
     "price": null,
-    "lastChecked": "2026-09-25T10:25:50.612Z"
+    "lastChecked": "2026-10-13T17:58:43.995Z"
   },
   {
     "id": "official_vault-associate",
@@ -3383,7 +3383,7 @@
     ],
     "language": "English",
     "price": null,
-    "lastChecked": "2026-09-27T13:39:55.429Z"
+    "lastChecked": "2026-10-13T17:58:43.995Z"
   },
   {
     "id": "official_linux-plus",
@@ -3404,7 +3404,7 @@
     ],
     "language": "English",
     "price": null,
-    "lastChecked": "2026-09-25T10:25:50.612Z"
+    "lastChecked": "2026-10-13T17:58:43.995Z"
   },
   {
     "id": "official_network-plus",
@@ -3425,7 +3425,7 @@
     ],
     "language": "English",
     "price": null,
-    "lastChecked": "2026-09-25T10:25:50.612Z"
+    "lastChecked": "2026-10-13T17:58:43.995Z"
   },
   {
     "id": "official_ccie-ei",
@@ -3446,7 +3446,7 @@
     ],
     "language": "English",
     "price": null,
-    "lastChecked": "2026-09-25T10:25:50.612Z"
+    "lastChecked": "2026-10-13T17:58:43.995Z"
   },
   {
     "id": "official_ccnp-security",
@@ -3467,7 +3467,7 @@
     ],
     "language": "English",
     "price": null,
-    "lastChecked": "2026-09-25T10:25:50.612Z"
+    "lastChecked": "2026-10-13T17:58:43.995Z"
   },
   {
     "id": "official_cyberops-associate",
@@ -3488,7 +3488,7 @@
     ],
     "language": "English",
     "price": null,
-    "lastChecked": "2026-09-25T10:25:50.612Z"
+    "lastChecked": "2026-10-13T17:58:43.995Z"
   },
   {
     "id": "official_cysa-plus",
@@ -3509,7 +3509,7 @@
     ],
     "language": "English",
     "price": null,
-    "lastChecked": "2026-09-25T10:25:50.612Z"
+    "lastChecked": "2026-10-13T17:58:43.995Z"
   },
   {
     "id": "official_pentest-plus",
@@ -3530,7 +3530,7 @@
     ],
     "language": "English",
     "price": null,
-    "lastChecked": "2026-09-25T10:25:50.612Z"
+    "lastChecked": "2026-10-13T17:58:43.995Z"
   },
   {
     "id": "official_securityx",
@@ -3551,7 +3551,7 @@
     ],
     "language": "English",
     "price": null,
-    "lastChecked": "2026-09-25T10:25:50.612Z"
+    "lastChecked": "2026-10-13T17:58:43.995Z"
   },
   {
     "id": "official_ccsp",
@@ -3572,7 +3572,7 @@
     ],
     "language": "English",
     "price": null,
-    "lastChecked": "2026-09-25T10:25:50.612Z"
+    "lastChecked": "2026-10-13T17:58:43.995Z"
   },
   {
     "id": "official_isc2-cc",
@@ -3593,7 +3593,7 @@
     ],
     "language": "English",
     "price": null,
-    "lastChecked": "2026-09-25T10:25:50.612Z"
+    "lastChecked": "2026-10-13T17:58:43.995Z"
   },
   {
     "id": "coursera_professional-certificates_azure-data-scientist",
