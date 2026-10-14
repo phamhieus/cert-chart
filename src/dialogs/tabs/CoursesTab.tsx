@@ -1,6 +1,7 @@
 import { ExternalLink, GraduationCap } from 'lucide-react';
 import { useMemo, useState } from 'react';
 import { Badge } from '../../components/Badge';
+import { TitleLink } from '../../components/TitleLink';
 import { EmptyState } from '../../components/Feedback';
 import { Select, type SelectOption } from '../../components/Select';
 import type { Course, CourseType, DeliveryMode } from '../../types';
@@ -39,7 +40,9 @@ function CourseRow({ course }: { course: Course }) {
   return (
     <article className="flex flex-wrap items-start justify-between gap-x-4 gap-y-2 border-b border-line px-4 py-3 last:border-0">
       <div className="min-w-0 flex-1">
-        <h4 className="text-[13px] font-medium text-ink">{course.name}</h4>
+        <h4 className="text-[13px] font-medium text-ink">
+          <TitleLink href={course.courseUrl || course.provider.url}>{course.name}</TitleLink>
+        </h4>
         <p className="mt-0.5 text-xs text-muted">
           <a
             href={course.provider.url}

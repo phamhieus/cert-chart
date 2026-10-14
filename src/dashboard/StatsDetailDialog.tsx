@@ -1,6 +1,7 @@
 import { ExternalLink } from 'lucide-react';
 import { useMemo, useState } from 'react';
 import { Badge } from '../components/Badge';
+import { TitleLink } from '../components/TitleLink';
 import { Drawer, DrawerDescription, DrawerTitle } from '../components/Drawer';
 import { SearchInput } from '../components/SearchInput';
 import { VirtualList } from '../components/VirtualList';
@@ -175,7 +176,9 @@ export function StatsDetailDialog({
           empty={<p className="px-5 py-8 text-center text-xs text-muted">No posting matches.</p>}
           renderItem={(job) => (
             <Row>
-              <p className="text-[13px] font-medium text-ink">{job.title}</p>
+              <p className="text-[13px] font-medium text-ink">
+                <TitleLink href={job.source.url}>{job.title}</TitleLink>
+              </p>
               <Meta>
                 <span>{job.company}</span>
                 <span>{locationLabel(job.location)}</span>
@@ -204,7 +207,7 @@ export function StatsDetailDialog({
           renderItem={(post) => (
             <Row>
               <p className="truncate text-[13px] font-medium text-ink" title={post.title}>
-                {post.title}
+                <TitleLink href={post.source.url}>{post.title}</TitleLink>
               </p>
               {post.excerpt ? (
                 <p className="mt-0.5 line-clamp-2 text-xs text-muted">{post.excerpt}</p>
@@ -238,7 +241,9 @@ export function StatsDetailDialog({
           empty={<p className="px-5 py-8 text-center text-xs text-muted">No course matches.</p>}
           renderItem={(course) => (
             <Row>
-              <p className="text-[13px] font-medium text-ink">{course.name}</p>
+              <p className="text-[13px] font-medium text-ink">
+                <TitleLink href={course.courseUrl || course.provider.url}>{course.name}</TitleLink>
+              </p>
               <Meta>
                 <Badge>{certName.get(course.certificationId) ?? course.certificationId}</Badge>
                 <Badge>{course.type}</Badge>

@@ -1,6 +1,7 @@
 import { Briefcase, ExternalLink } from 'lucide-react';
 import { useMemo, useState } from 'react';
 import { RequirementBadge } from '../../components/Badge';
+import { TitleLink } from '../../components/TitleLink';
 import { EmptyState } from '../../components/Feedback';
 import { SearchInput } from '../../components/SearchInput';
 import { Select, type SelectOption } from '../../components/Select';
@@ -33,7 +34,9 @@ function JobCard({ job, certificationId }: { job: Job; certificationId: string }
   return (
     <article className="border-b border-line px-4 py-3">
       <div className="flex flex-wrap items-baseline justify-between gap-x-3 gap-y-1">
-        <h4 className="text-[13px] font-medium text-ink">{job.title}</h4>
+        <h4 className="text-[13px] font-medium text-ink">
+          <TitleLink href={job.source.url}>{job.title}</TitleLink>
+        </h4>
         {requirement ? <RequirementBadge requirement={requirement} /> : null}
       </div>
       <p className="mt-0.5 text-xs text-muted">

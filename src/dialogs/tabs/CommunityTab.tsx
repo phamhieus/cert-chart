@@ -1,6 +1,7 @@
 import { ExternalLink, MessagesSquare } from 'lucide-react';
 import { useMemo, useState } from 'react';
 import { Badge } from '../../components/Badge';
+import { TitleLink } from '../../components/TitleLink';
 import { EmptyState } from '../../components/Feedback';
 import { Select, type SelectOption } from '../../components/Select';
 import { VirtualList } from '../../components/VirtualList';
@@ -40,7 +41,7 @@ function PostCard({ post }: { post: CommunityPost }) {
     <article className="border-b border-line px-4 py-3">
       <div className="flex flex-wrap items-baseline justify-between gap-x-3 gap-y-1">
         <h4 className="min-w-0 flex-1 truncate text-[13px] font-medium text-ink" title={post.title}>
-          {post.title}
+          <TitleLink href={post.source.url}>{post.title}</TitleLink>
         </h4>
         {post.unverified ? (
           <Badge tone="warn" title="Suggested by DeepSeek and not checked against the source">
