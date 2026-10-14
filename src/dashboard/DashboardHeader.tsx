@@ -22,21 +22,22 @@ export function DashboardHeader({
 }: DashboardHeaderProps) {
   return (
     <header className="sticky top-0 z-30 border-b border-line bg-bg/85 backdrop-blur">
-      <div className="mx-auto flex max-w-[110rem] flex-col gap-3 px-4 py-3 sm:px-6">
-        <div className="flex flex-wrap items-center justify-between gap-3">
-          <div className="flex items-center gap-2.5">
+      <div className="mx-auto flex max-w-[110rem] flex-col gap-2.5 px-4 py-2.5 sm:gap-3 sm:px-6 sm:py-3">
+        <div className="flex items-center justify-between gap-3">
+          <div className="flex min-w-0 items-center gap-2.5">
             <Logo size={30} className="shrink-0" />
-            <div>
-              <h1 className="text-[15px] font-semibold tracking-tight text-ink">
+            <div className="min-w-0">
+              <h1 className="truncate text-[15px] font-semibold tracking-tight text-ink">
                 IT Cert Trend
               </h1>
-              <p className="text-2xs text-muted">
+              {/* Phones get the title alone: this line wraps to three there. */}
+              <p className="hidden text-2xs text-muted sm:block">
                 Vietnam · Singapore · Japan · Global — demand, community and growth
               </p>
             </div>
           </div>
 
-          <div className="flex items-center gap-2">
+          <div className="flex shrink-0 items-center gap-2">
             <span
               className="hidden text-right text-2xs leading-tight text-faint sm:block"
               title={lastCrawledAt ? `Last crawl finished at ${lastCrawledAt}` : undefined}
@@ -51,7 +52,12 @@ export function DashboardHeader({
                 'No crawl recorded'
               )}
             </span>
-            <button type="button" className="control" onClick={onOpenSources}>
+            <button
+              type="button"
+              className="control"
+              onClick={onOpenSources}
+              aria-label="Data sources"
+            >
               <Database size={13} />
               <span className="hidden sm:inline">Data sources</span>
             </button>

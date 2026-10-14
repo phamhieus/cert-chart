@@ -1,5 +1,6 @@
 import { ClipboardList, Settings2, TestTube2 } from 'lucide-react';
 import type { ReactNode } from 'react';
+import { InfoPopover } from '../components/InfoPopover';
 import type { RoleDemand, RoleId } from '../types';
 import { formatNumber } from '../utils/format';
 
@@ -52,13 +53,24 @@ export function RoleDemandPanel({ roles }: RoleDemandPanelProps) {
   return (
     <section className="card overflow-hidden">
       <div className="card-header">
-        <div className="flex items-baseline gap-2">
+        <div className="flex items-center gap-1.5">
           <h2 className="card-title">Role demand</h2>
-          <span className="text-2xs text-faint">
-            postings by role — counted whether or not they name a certification
-          </span>
+          <InfoPopover label="How role demand is counted">
+            <p className="font-medium text-ink">How role demand is counted</p>
+            <p className="mt-1.5">
+              Postings by role, counted whether or not they name a certification.
+            </p>
+            <p className="mt-1.5">
+              Counted from job boards whose full listing is enumerated (ITviec, Vieclam24h,
+              TokyoDev, Greenhouse and the remote boards). Boards that are searched per
+              certification are excluded: their postings are already filtered by certification, so
+              a role share taken from them would describe the query rather than the market.
+            </p>
+            <p className="mt-1.5">Market-level only — city filters do not narrow these figures.</p>
+            <p className="mt-1.5 text-faint">Markets: {markets.join(' · ')}</p>
+          </InfoPopover>
         </div>
-        <span className="text-2xs text-faint">{markets.join(' · ')}</span>
+        <span className="hidden text-2xs text-faint sm:inline">{markets.join(' · ')}</span>
       </div>
 
       <div className="grid grid-cols-1 divide-line sm:grid-cols-3 sm:divide-x [&>*:not(:last-child)]:border-b [&>*:not(:last-child)]:border-line sm:[&>*]:border-b-0">
@@ -91,14 +103,6 @@ export function RoleDemandPanel({ roles }: RoleDemandPanelProps) {
           );
         })}
       </div>
-
-      <p className="border-t border-line px-4 py-2 text-2xs leading-relaxed text-faint">
-        Counted from job boards whose full listing is enumerated (ITviec, Vieclam24h, TokyoDev,
-        Greenhouse and the remote boards). Boards that are searched per certification are excluded:
-        their postings are already filtered by certification, so a role share taken from them would
-        describe the query rather than the market. Market-level only — city filters do not narrow
-        these figures.
-      </p>
     </section>
   );
 }

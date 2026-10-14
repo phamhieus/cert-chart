@@ -29,7 +29,7 @@ const INITIAL_FILTERS: DashboardFilters = {
 
 export default function App() {
   const { theme, toggle } = useTheme();
-  const { phase, dataset, progress, crawlUnavailable, crawlAvailable, error, refresh } = useAppData();
+  const { phase, dataset, progress, crawlUnavailable, error, refresh } = useAppData();
 
   const [filters, setFilters] = useState<DashboardFilters>(INITIAL_FILTERS);
   const debouncedSearch = useDebounce(filters.search, 180);
@@ -74,7 +74,6 @@ export default function App() {
     [rows, openCert],
   );
 
-  const crawling = phase === 'crawling' || progress?.state === 'running';
   const hasData = Boolean(dataset && (dataset.jobs.length > 0 || dataset.community.length > 0));
 
   if (!hasData) {
@@ -102,7 +101,15 @@ export default function App() {
         theme={theme}
         onToggleTheme={toggle}
         onOpenSources={() => setSourcesOpen(true)}
-        filters={<FilterBar filters={filters} onChange={patchFilters} />}
+        filters={
+          <FilterBar
+            filters={filters}
+            onChange={patchFilters}
+            active={(['region', 'role', 'category', 'period'] as const).some(
+              (key) => filters[key] !== INITIAL_FILTERS[key],
+            )}
+          />
+        }
       />
 
       <main className="mx-auto flex max-w-[110rem] flex-col gap-4 px-4 py-4 sm:px-6">
@@ -118,11 +125,11 @@ export default function App() {
 
         <section className="card overflow-hidden">
           <div className="card-header">
-            <div className="flex items-baseline gap-2">
+            <div className="flex flex-wrap items-baseline gap-x-2">
               <h2 className="card-title">Certification ranking</h2>
               <span className="text-2xs text-faint">{scopeLabel}</span>
             </div>
-            <span className="text-2xs text-faint">
+            <span className="hidden text-2xs text-faint sm:inline">
               {recomputed ? 'scored from filtered records' : 'pre-aggregated scores'}
             </span>
           </div>
@@ -209,9 +216,6 @@ export default function App() {
           onOpenChange={setSourcesOpen}
           sources={dataset.sources}
           progress={progress}
-          crawling={crawling}
-          onRefresh={refresh}
-          canRefresh={crawlAvailable}
         />
       ) : null}
 

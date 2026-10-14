@@ -73,6 +73,9 @@ const NUMERIC_COLUMNS: ColumnDef[] = [
   { key: 'score', label: 'Score' },
 ];
 
+/** Phone card list length before "Show all": 105 cards ran to ~6,600px. */
+const MOBILE_PREVIEW_ROWS = 20;
+
 const TAB_FOR_COLUMN: Partial<Record<SortKey, ModalTab>> = {
   jobs: 'jobs',
   community: 'community',
@@ -81,6 +84,7 @@ const TAB_FOR_COLUMN: Partial<Record<SortKey, ModalTab>> = {
 
 export function RankingTable({ rows, onOpen }: RankingTableProps) {
   const [sort, setSort] = useState<{ key: SortKey; desc: boolean }>({ key: 'score', desc: true });
+  const [showAll, setShowAll] = useState(false);
 
   const sorted = useMemo(() => {
     const value = VALUE_OF[sort.key];
@@ -238,7 +242,7 @@ export function RankingTable({ rows, onOpen }: RankingTableProps) {
       </div>
 
       <ul className="divide-y divide-line md:hidden">
-        {sorted.map((row) => (
+        {(showAll ? sorted : sorted.slice(0, MOBILE_PREVIEW_ROWS)).map((row) => (
           <li key={row.certification.id}>
             <button
               type="button"
@@ -269,6 +273,17 @@ export function RankingTable({ rows, onOpen }: RankingTableProps) {
           </li>
         ))}
       </ul>
+      {sorted.length > MOBILE_PREVIEW_ROWS ? (
+        <div className="border-t border-line p-3 md:hidden">
+          <button
+            type="button"
+            onClick={() => setShowAll((current) => !current)}
+            className="control w-full justify-center"
+          >
+            {showAll ? `Show top ${MOBILE_PREVIEW_ROWS}` : `Show all ${sorted.length}`}
+          </button>
+        </div>
+      ) : null}
     </>
   );
 }

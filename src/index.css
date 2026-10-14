@@ -56,12 +56,14 @@
     @apply rounded-lg border border-line bg-surface shadow-card;
   }
 
+  /* Wraps instead of squeezing: on a phone the side note drops to its own line
+     rather than splitting title and note into narrow multi-line columns. */
   .card-header {
-    @apply flex items-center justify-between gap-3 border-b border-line px-4 py-2.5;
+    @apply flex flex-wrap items-baseline justify-between gap-x-3 gap-y-0.5 border-b border-line px-4 py-2.5;
   }
 
   .card-title {
-    @apply text-[13px] font-semibold tracking-tight text-ink;
+    @apply whitespace-nowrap text-[13px] font-semibold tracking-tight text-ink;
   }
 
   .num {

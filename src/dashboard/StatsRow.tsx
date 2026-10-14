@@ -29,13 +29,14 @@ function Tile({
       type="button"
       onClick={onClick}
       title={`Show the ${label.toLowerCase()} behind this number`}
-      className="group flex w-full items-start gap-3 px-4 py-3 text-left transition-colors
+      className="group flex w-full items-start gap-3 px-3 py-3 text-left transition-colors
         hover:bg-elevated focus:outline-none focus-visible:ring-2 focus-visible:ring-inset
-        focus-visible:ring-accent/40"
+        focus-visible:ring-accent/40 sm:px-4"
     >
+      {/* Hidden on phones: in a half-width tile it pushed every label onto two lines. */}
       <span
-        className="mt-0.5 rounded-md border border-line bg-bg p-1.5 text-faint
-          transition-colors group-hover:border-accent/40 group-hover:text-accent"
+        className="mt-0.5 hidden rounded-md border border-line bg-bg p-1.5 text-faint
+          transition-colors group-hover:border-accent/40 group-hover:text-accent sm:block"
       >
         {icon}
       </span>

@@ -1,7 +1,6 @@
-import { ExternalLink, RefreshCw } from 'lucide-react';
+import { ExternalLink } from 'lucide-react';
 import { Badge } from '../components/Badge';
 import { Modal, ModalDescription, ModalTitle } from '../components/Modal';
-import { Spinner } from '../components/Feedback';
 import type { CrawlProgress, DataSource, DataSourceType } from '../types';
 import { ElapsedSince } from '../components/Elapsed';
 import {
@@ -24,9 +23,6 @@ interface DataSourcesDialogProps {
   onOpenChange: (open: boolean) => void;
   sources: DataSource[];
   progress: CrawlProgress | null;
-  crawling: boolean;
-  onRefresh: () => void;
-  canRefresh: boolean;
 }
 
 export function DataSourcesDialog({
@@ -34,9 +30,6 @@ export function DataSourcesDialog({
   onOpenChange,
   sources,
   progress,
-  crawling,
-  onRefresh,
-  canRefresh,
 }: DataSourcesDialogProps) {
   const failed = progress?.outcomes.filter((outcome) => outcome.status === 'failed') ?? [];
   const lastCrawledAt =
@@ -87,64 +80,113 @@ export function DataSourcesDialog({
             No source has been crawled yet.
           </p>
         ) : (
-          <table className="w-full text-[13px]">
-            <thead className="sticky top-0 bg-surface">
-              <tr className="border-b border-line text-2xs uppercase tracking-wide text-faint">
-                <th className="px-5 py-2 text-left font-medium">Source</th>
-                <th className="px-3 py-2 text-left font-medium">Type</th>
-                <th className="px-3 py-2 text-right font-medium">Records</th>
-                <th className="px-5 py-2 text-right font-medium">Last crawl</th>
-              </tr>
-            </thead>
-            <tbody>
+          <>
+            {/* Phones: one card per source. The four-column table needed a sideways
+                scroll there and stretched each row to fit the wrapped notes. */}
+            <ul className="divide-y divide-line/60 sm:hidden">
               {sources.map((source) => (
-                <tr key={source.id} className="border-b border-line/60 last:border-0">
-                  <td className="px-5 py-2.5">
+                <li key={source.id} className="px-4 py-3">
+                  <div className="flex items-start justify-between gap-3">
                     {source.url ? (
                       <a
                         href={source.url}
                         target="_blank"
                         rel="noreferrer noopener"
-                        className="link font-medium"
+                        className="link min-w-0 text-[13px] font-medium"
                       >
-                        {source.name}
-                        <ExternalLink size={11} />
+                        <span className="truncate">{source.name}</span>
+                        <ExternalLink size={11} className="shrink-0" />
                       </a>
                     ) : (
-                      <span className="font-medium text-ink">{source.name}</span>
-                    )}
-                    {source.notes ? (
-                      <p className="mt-0.5 text-2xs text-muted">{source.notes}</p>
-                    ) : null}
-                  </td>
-                  <td className="px-3 py-2.5">
-                    <Badge>{TYPE_LABELS[source.type]}</Badge>
-                  </td>
-                  <td className="num px-3 py-2.5 text-right text-muted">
-                    {formatNumber(source.records)}
-                  </td>
-                  <td
-                    className="px-5 py-2.5 text-right text-muted"
-                    title={`Finished at ${source.lastCrawledAt}`}
-                  >
-                    <span className="num block leading-tight">
-                      {formatDate(source.lastCrawledAt)}
-                    </span>
-                    <span className="num block text-2xs leading-tight text-faint">
-                      {formatClockTime(source.lastCrawledAt) === '—'
-                        ? 'no clock time recorded'
-                        : `${formatClockTime(source.lastCrawledAt)} local`}
-                    </span>
-                    {source.lastCrawlDurationMs === undefined ? null : (
-                      <span className="num block text-2xs leading-tight text-faint">
-                        took {formatDuration(source.lastCrawlDurationMs)}
+                      <span className="min-w-0 truncate text-[13px] font-medium text-ink">
+                        {source.name}
                       </span>
                     )}
-                  </td>
-                </tr>
+                    <Badge className="shrink-0 whitespace-nowrap">{TYPE_LABELS[source.type]}</Badge>
+                  </div>
+                  {/* Each part stays whole; lines break between parts, not inside one.
+                      Crawl duration is left to the desktop table to keep this one line. */}
+                  <p
+                    className="num mt-1 flex flex-wrap gap-x-1.5 text-2xs text-faint [&>span+span]:before:mr-1.5
+                      [&>span+span]:before:content-['·'] [&>span]:whitespace-nowrap"
+                    title={`Finished at ${source.lastCrawledAt}`}
+                  >
+                    <span>
+                      <span className="text-muted">{formatNumber(source.records)}</span> records
+                    </span>
+                    <span>
+                      {formatDate(source.lastCrawledAt)}
+                      {formatClockTime(source.lastCrawledAt) === '—'
+                        ? null
+                        : ` ${formatClockTime(source.lastCrawledAt)}`}
+                    </span>
+                  </p>
+                  {source.notes ? (
+                    <p className="mt-1 text-2xs leading-relaxed text-muted">{source.notes}</p>
+                  ) : null}
+                </li>
               ))}
-            </tbody>
-          </table>
+            </ul>
+
+            <table className="hidden w-full text-[13px] sm:table">
+              <thead className="sticky top-0 bg-surface">
+                <tr className="border-b border-line text-2xs uppercase tracking-wide text-faint">
+                  <th className="px-5 py-2 text-left font-medium">Source</th>
+                  <th className="px-3 py-2 text-left font-medium">Type</th>
+                  <th className="px-3 py-2 text-right font-medium">Records</th>
+                  <th className="px-5 py-2 text-right font-medium">Last crawl</th>
+                </tr>
+              </thead>
+              <tbody>
+                {sources.map((source) => (
+                  <tr key={source.id} className="border-b border-line/60 last:border-0">
+                    <td className="px-5 py-2.5">
+                      {source.url ? (
+                        <a
+                          href={source.url}
+                          target="_blank"
+                          rel="noreferrer noopener"
+                          className="link font-medium"
+                        >
+                          {source.name}
+                          <ExternalLink size={11} />
+                        </a>
+                      ) : (
+                        <span className="font-medium text-ink">{source.name}</span>
+                      )}
+                      {source.notes ? (
+                        <p className="mt-0.5 text-2xs text-muted">{source.notes}</p>
+                      ) : null}
+                    </td>
+                    <td className="px-3 py-2.5">
+                      <Badge className="whitespace-nowrap">{TYPE_LABELS[source.type]}</Badge>
+                    </td>
+                    <td className="num px-3 py-2.5 text-right text-muted">
+                      {formatNumber(source.records)}
+                    </td>
+                    <td
+                      className="px-5 py-2.5 text-right text-muted"
+                      title={`Finished at ${source.lastCrawledAt}`}
+                    >
+                      <span className="num block leading-tight">
+                        {formatDate(source.lastCrawledAt)}
+                      </span>
+                      <span className="num block text-2xs leading-tight text-faint">
+                        {formatClockTime(source.lastCrawledAt) === '—'
+                          ? 'no clock time recorded'
+                          : `${formatClockTime(source.lastCrawledAt)} local`}
+                      </span>
+                      {source.lastCrawlDurationMs === undefined ? null : (
+                        <span className="num block whitespace-nowrap text-2xs leading-tight text-faint">
+                          took {formatDuration(source.lastCrawlDurationMs)}
+                        </span>
+                      )}
+                    </td>
+                  </tr>
+                ))}
+              </tbody>
+            </table>
+          </>
         )}
 
         {failed.length > 0 ? (
@@ -163,18 +205,8 @@ export function DataSourcesDialog({
         ) : null}
       </div>
 
-      <footer className="flex items-center justify-between gap-3 border-t border-line px-5 py-3">
-        <p className="text-2xs text-muted">
-          {canRefresh
-            ? 'A refresh re-crawls every enabled source and rebuilds the ranking.'
-            : 'This dataset is refreshed by a scheduled crawl.'}
-        </p>
-        {canRefresh ? (
-          <button type="button" className="control" onClick={onRefresh} disabled={crawling}>
-            {crawling ? <Spinner size={13} /> : <RefreshCw size={13} />}
-            {crawling ? 'Crawling…' : 'Refresh data'}
-          </button>
-        ) : null}
+      <footer className="border-t border-line px-5 py-3">
+        <p className="text-2xs text-muted">This dataset is refreshed by a scheduled crawl.</p>
       </footer>
     </Modal>
   );
